@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['keyboardoptions_0',['keyboardOptions',['../classkeyboardOptions.html',1,'']]],
-  ['keyboardutils_1',['keyboardUtils',['../classkeyboardUtils.html',1,'']]]
+  ['fileutils_0',['fileUtils',['../classfileUtils.html',1,'']]]
 ];

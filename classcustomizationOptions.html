@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcustomizationOptions.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,10 +83,12 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classcustomizationOptions-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">customizationOptions Class Reference</div></div>
 </div><!--header-->
@@ -78,7 +101,7 @@ Inheritance diagram for customizationOptions:</div>
 <area shape="rect" title=" " alt="" coords="5,80,152,107"/>
 <area shape="rect" title=" " alt="" coords="43,5,115,32"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for customizationOptions:</div>
 <div class="dyncontent">
@@ -87,7 +110,7 @@ Collaboration diagram for customizationOptions:</div>
 <area shape="rect" title=" " alt="" coords="5,80,152,107"/>
 <area shape="rect" title=" " alt="" coords="43,5,115,32"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -97,15 +120,148 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71737219bdf919309735605c5633dbd5"><td class="memItemLeft" align="right" valign="top"><a id="a71737219bdf919309735605c5633dbd5" name="a71737219bdf919309735605c5633dbd5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (void)</td></tr>
 <tr class="separator:a71737219bdf919309735605c5633dbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a4148dcc9e8364f3d8a3a18d6d739cf4e"><td class="memItemLeft" align="right" valign="top"><a id="a4148dcc9e8364f3d8a3a18d6d739cf4e" name="a4148dcc9e8364f3d8a3a18d6d739cf4e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeFont</b> (QFont font)</td></tr>
+<tr class="separator:a4148dcc9e8364f3d8a3a18d6d739cf4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ed613f456adc3f82f2cb9e0509b4615"><td class="memItemLeft" align="right" valign="top"><a id="a0ed613f456adc3f82f2cb9e0509b4615" name="a0ed613f456adc3f82f2cb9e0509b4615"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeFontSize</b> (int size)</td></tr>
+<tr class="separator:a0ed613f456adc3f82f2cb9e0509b4615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ae5e03aace0092906fcbecd5abf39e"><td class="memItemLeft" align="right" valign="top"><a id="a53ae5e03aace0092906fcbecd5abf39e" name="a53ae5e03aace0092906fcbecd5abf39e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setBoldText</b> (void)</td></tr>
+<tr class="separator:a53ae5e03aace0092906fcbecd5abf39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d9d23645dd71caa58152c32f6f476d"><td class="memItemLeft" align="right" valign="top"><a id="a38d9d23645dd71caa58152c32f6f476d" name="a38d9d23645dd71caa58152c32f6f476d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setItalicText</b> (void)</td></tr>
+<tr class="separator:a38d9d23645dd71caa58152c32f6f476d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c22875b009e1bb8a0ec44386876950"><td class="memItemLeft" align="right" valign="top"><a id="ac1c22875b009e1bb8a0ec44386876950" name="ac1c22875b009e1bb8a0ec44386876950"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setUnderlineText</b> (void)</td></tr>
+<tr class="separator:ac1c22875b009e1bb8a0ec44386876950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4445cca47db4c14b6820e86e368afb80"><td class="memItemLeft" align="right" valign="top"><a id="a4445cca47db4c14b6820e86e368afb80" name="a4445cca47db4c14b6820e86e368afb80"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetFont</b> (void)</td></tr>
+<tr class="separator:a4445cca47db4c14b6820e86e368afb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b84b7eb2349fb7d27dc25480348deb"><td class="memItemLeft" align="right" valign="top"><a id="a64b84b7eb2349fb7d27dc25480348deb" name="a64b84b7eb2349fb7d27dc25480348deb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeLevelTextColor</b> (void)</td></tr>
+<tr class="separator:a64b84b7eb2349fb7d27dc25480348deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba3efca45e2f158db0780d35090d29d"><td class="memItemLeft" align="right" valign="top"><a id="a6ba3efca45e2f158db0780d35090d29d" name="a6ba3efca45e2f158db0780d35090d29d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeInputTextColor</b> (void)</td></tr>
+<tr class="separator:a6ba3efca45e2f158db0780d35090d29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e20bd3918caa26fa969223630dda05"><td class="memItemLeft" align="right" valign="top"><a id="a30e20bd3918caa26fa969223630dda05" name="a30e20bd3918caa26fa969223630dda05"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetTextColors</b> (void)</td></tr>
+<tr class="separator:a30e20bd3918caa26fa969223630dda05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5efb64bebcdd3a50546fe762eb4421be"><td class="memItemLeft" align="right" valign="top"><a id="a5efb64bebcdd3a50546fe762eb4421be" name="a5efb64bebcdd3a50546fe762eb4421be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeBgColor</b> (void)</td></tr>
+<tr class="separator:a5efb64bebcdd3a50546fe762eb4421be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c74da1aa50bef2814b5e1bfda35205"><td class="memItemLeft" align="right" valign="top"><a id="aa1c74da1aa50bef2814b5e1bfda35205" name="aa1c74da1aa50bef2814b5e1bfda35205"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changePaperColor</b> (void)</td></tr>
+<tr class="separator:aa1c74da1aa50bef2814b5e1bfda35205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0e7da87d84efdb0a7a322e302bf1f7"><td class="memItemLeft" align="right" valign="top"><a id="acf0e7da87d84efdb0a7a322e302bf1f7" name="acf0e7da87d84efdb0a7a322e302bf1f7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changePanelColor</b> (void)</td></tr>
+<tr class="separator:acf0e7da87d84efdb0a7a322e302bf1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879ac71ec2e9ade496ae3c70c4bc08af"><td class="memItemLeft" align="right" valign="top"><a id="a879ac71ec2e9ade496ae3c70c4bc08af" name="a879ac71ec2e9ade496ae3c70c4bc08af"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resetBgPaperColors</b> (void)</td></tr>
+<tr class="separator:a879ac71ec2e9ade496ae3c70c4bc08af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113803a84aa1cb5cbebf920a6dc9da31"><td class="memItemLeft" align="right" valign="top"><a id="a113803a84aa1cb5cbebf920a6dc9da31" name="a113803a84aa1cb5cbebf920a6dc9da31"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeTheme</b> (int index)</td></tr>
+<tr class="separator:a113803a84aa1cb5cbebf920a6dc9da31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a492aa6243b23292de5f552f21e417b7f"><td class="memItemLeft" align="right" valign="top"><a id="a492aa6243b23292de5f552f21e417b7f" name="a492aa6243b23292de5f552f21e417b7f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setFont</b> (QString fontFamily, int fontSize, bool fontBold, bool fontItalic, bool fontUnderline)</td></tr>
+<tr class="separator:a492aa6243b23292de5f552f21e417b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51d00cb02e3f32ca401ee8b479a108f"><td class="memItemLeft" align="right" valign="top"><a id="ac51d00cb02e3f32ca401ee8b479a108f" name="ac51d00cb02e3f32ca401ee8b479a108f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>saveColorSettings</b> (void)</td></tr>
+<tr class="separator:ac51d00cb02e3f32ca401ee8b479a108f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acada628a325da33b633c37e40955ecde"><td class="memItemLeft" align="right" valign="top"><a id="acada628a325da33b633c37e40955ecde" name="acada628a325da33b633c37e40955ecde"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setColors</b> ()</td></tr>
+<tr class="separator:acada628a325da33b633c37e40955ecde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182af567094905e4f2c3fbd459c9a230"><td class="memItemLeft" align="right" valign="top"><a id="a182af567094905e4f2c3fbd459c9a230" name="a182af567094905e4f2c3fbd459c9a230"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateTheme</b> ()</td></tr>
+<tr class="separator:a182af567094905e4f2c3fbd459c9a230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a49b36b2eb470fcf0b389cf78ecc4cd4f"><td class="memItemLeft" align="right" valign="top"><a id="a49b36b2eb470fcf0b389cf78ecc4cd4f" name="a49b36b2eb470fcf0b389cf78ecc4cd4f"></a>
+Ui::customizationOptions *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td></tr>
+<tr class="separator:a49b36b2eb470fcf0b389cf78ecc4cd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944f74f6589ec750a02db6e801a0c9f7"><td class="memItemLeft" align="right" valign="top"><a id="a944f74f6589ec750a02db6e801a0c9f7" name="a944f74f6589ec750a02db6e801a0c9f7"></a>
+QSettings *&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
+<tr class="separator:a944f74f6589ec750a02db6e801a0c9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memItemLeft" align="right" valign="top"><a id="a3ceea06a2f48b7dff1eeb57e3be266db" name="a3ceea06a2f48b7dff1eeb57e3be266db"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextRedColor</b></td></tr>
+<tr class="separator:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557ea1b0efd1c22d9613f26ee857304e"><td class="memItemLeft" align="right" valign="top"><a id="a557ea1b0efd1c22d9613f26ee857304e" name="a557ea1b0efd1c22d9613f26ee857304e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextGreenColor</b></td></tr>
+<tr class="separator:a557ea1b0efd1c22d9613f26ee857304e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa03229c120028cfcac4338d792e6d574"><td class="memItemLeft" align="right" valign="top"><a id="aa03229c120028cfcac4338d792e6d574" name="aa03229c120028cfcac4338d792e6d574"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextBlueColor</b></td></tr>
+<tr class="separator:aa03229c120028cfcac4338d792e6d574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8f6235a4e54ded04c84cffc6a3da51"><td class="memItemLeft" align="right" valign="top"><a id="a7d8f6235a4e54ded04c84cffc6a3da51" name="a7d8f6235a4e54ded04c84cffc6a3da51"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>inputTextRedColor</b></td></tr>
+<tr class="separator:a7d8f6235a4e54ded04c84cffc6a3da51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b1193e9158f2ab0bad5219416b9540"><td class="memItemLeft" align="right" valign="top"><a id="a20b1193e9158f2ab0bad5219416b9540" name="a20b1193e9158f2ab0bad5219416b9540"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>inputTextGreenColor</b></td></tr>
+<tr class="separator:a20b1193e9158f2ab0bad5219416b9540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952f88cfff46cc7b86ece80cda2a4efb"><td class="memItemLeft" align="right" valign="top"><a id="a952f88cfff46cc7b86ece80cda2a4efb" name="a952f88cfff46cc7b86ece80cda2a4efb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>inputTextBlueColor</b></td></tr>
+<tr class="separator:a952f88cfff46cc7b86ece80cda2a4efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af547b78766dd5b6d83632026956ae835"><td class="memItemLeft" align="right" valign="top"><a id="af547b78766dd5b6d83632026956ae835" name="af547b78766dd5b6d83632026956ae835"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>bgRedColor</b></td></tr>
+<tr class="separator:af547b78766dd5b6d83632026956ae835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049f09f66d1c936e6c8d1030707fe780"><td class="memItemLeft" align="right" valign="top"><a id="a049f09f66d1c936e6c8d1030707fe780" name="a049f09f66d1c936e6c8d1030707fe780"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>bgGreenColor</b></td></tr>
+<tr class="separator:a049f09f66d1c936e6c8d1030707fe780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a51e251a8ae4074548c76461fc7a6c2"><td class="memItemLeft" align="right" valign="top"><a id="a6a51e251a8ae4074548c76461fc7a6c2" name="a6a51e251a8ae4074548c76461fc7a6c2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>bgBlueColor</b></td></tr>
+<tr class="separator:a6a51e251a8ae4074548c76461fc7a6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02857254eb44f866a52cbd911d981972"><td class="memItemLeft" align="right" valign="top"><a id="a02857254eb44f866a52cbd911d981972" name="a02857254eb44f866a52cbd911d981972"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>paperRedColor</b></td></tr>
+<tr class="separator:a02857254eb44f866a52cbd911d981972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41d25c261f4c1468b9602cd2d7b2963e"><td class="memItemLeft" align="right" valign="top"><a id="a41d25c261f4c1468b9602cd2d7b2963e" name="a41d25c261f4c1468b9602cd2d7b2963e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>paperGreenColor</b></td></tr>
+<tr class="separator:a41d25c261f4c1468b9602cd2d7b2963e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5310a6975d80bfd8b858c5df36a17e84"><td class="memItemLeft" align="right" valign="top"><a id="a5310a6975d80bfd8b858c5df36a17e84" name="a5310a6975d80bfd8b858c5df36a17e84"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>paperBlueColor</b></td></tr>
+<tr class="separator:a5310a6975d80bfd8b858c5df36a17e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf24c297811e606f609911935b194b3d"><td class="memItemLeft" align="right" valign="top"><a id="abf24c297811e606f609911935b194b3d" name="abf24c297811e606f609911935b194b3d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>panelRedColor</b></td></tr>
+<tr class="separator:abf24c297811e606f609911935b194b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe764e4958898cf4bfac470fb076326"><td class="memItemLeft" align="right" valign="top"><a id="a9fe764e4958898cf4bfac470fb076326" name="a9fe764e4958898cf4bfac470fb076326"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>panelGreenColor</b></td></tr>
+<tr class="separator:a9fe764e4958898cf4bfac470fb076326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2e3794befac344538fbf728c8b9e74"><td class="memItemLeft" align="right" valign="top"><a id="a8e2e3794befac344538fbf728c8b9e74" name="a8e2e3794befac344538fbf728c8b9e74"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>panelBlueColor</b></td></tr>
+<tr class="separator:a8e2e3794befac344538fbf728c8b9e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453983f2d93bfe07ff1c03d91c548347"><td class="memItemLeft" align="right" valign="top"><a id="a453983f2d93bfe07ff1c03d91c548347" name="a453983f2d93bfe07ff1c03d91c548347"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>customLevelTextColor</b></td></tr>
+<tr class="separator:a453983f2d93bfe07ff1c03d91c548347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bb49e70b338d49dcaa360f38785264"><td class="memItemLeft" align="right" valign="top"><a id="ad1bb49e70b338d49dcaa360f38785264" name="ad1bb49e70b338d49dcaa360f38785264"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>customInputTextColor</b></td></tr>
+<tr class="separator:ad1bb49e70b338d49dcaa360f38785264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3702edf910562341370c5ea78c77d228"><td class="memItemLeft" align="right" valign="top"><a id="a3702edf910562341370c5ea78c77d228" name="a3702edf910562341370c5ea78c77d228"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>customBgColor</b></td></tr>
+<tr class="separator:a3702edf910562341370c5ea78c77d228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb17873c26ac479122229f89196af60"><td class="memItemLeft" align="right" valign="top"><a id="aefb17873c26ac479122229f89196af60" name="aefb17873c26ac479122229f89196af60"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>customPaperColor</b></td></tr>
+<tr class="separator:aefb17873c26ac479122229f89196af60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63154eb5806c0c37337bb0f8b38785b9"><td class="memItemLeft" align="right" valign="top"><a id="a63154eb5806c0c37337bb0f8b38785b9" name="a63154eb5806c0c37337bb0f8b38785b9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>customPanelColor</b></td></tr>
+<tr class="separator:a63154eb5806c0c37337bb0f8b38785b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/include/options/<a class="el" href="customization_8h_source.html">customization.h</a></li>
 <li>src/options/customization.cpp</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classcustomizationOptions.html">customizationOptions</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
 </body>
 </html>

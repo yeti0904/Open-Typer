@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inputlabelwidget_0',['inputLabelWidget',['../classinputLabelWidget.html',1,'']]]
+  ['downloader_0',['Downloader',['../classDownloader.html',1,'']]]
 ];

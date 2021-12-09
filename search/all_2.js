@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['downloader_0',['Downloader',['../classDownloader.html',1,'']]]
+  ['behavioroptions_0',['behaviorOptions',['../classbehaviorOptions.html',1,'']]],
+  ['builtinpacks_1',['builtinPacks',['../classbuiltinPacks.html',1,'']]]
 ];

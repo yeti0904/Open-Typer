@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classOpenTyper.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,16 +83,19 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-slots">Private Slots</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classOpenTyper-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">OpenTyper Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="opentyper_8h_source.html">opentyper.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for OpenTyper:</div>
 <div class="dyncontent">
@@ -80,76 +104,104 @@ Inheritance diagram for OpenTyper:</div>
 <area shape="rect" title=" " alt="" coords="16,80,101,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,112,32"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for OpenTyper:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOpenTyper__coll__graph.png" border="0" usemap="#aOpenTyper_coll__map" alt="Collaboration graph"/></div>
 <map name="aOpenTyper_coll__map" id="aOpenTyper_coll__map">
-<area shape="rect" title=" " alt="" coords="141,171,227,197"/>
-<area shape="rect" title=" " alt="" coords="5,81,112,108"/>
-<area shape="rect" href="classconfigParser.html" title=" " alt="" coords="137,81,231,108"/>
-<area shape="rect" title=" " alt="" coords="201,5,271,32"/>
-<area shape="rect" href="classUpdater.html" title=" " alt="" coords="255,81,323,108"/>
+<area shape="rect" title=" " alt="" coords="165,275,251,301"/>
+<area shape="rect" title=" " alt="" coords="5,185,112,212"/>
+<area shape="rect" href="classlanguageManager.html" title=" " alt="" coords="89,133,213,160"/>
+<area shape="rect" title=" " alt="" coords="273,5,343,32"/>
+<area shape="rect" href="classconfigParser.html" title=" " alt="" coords="219,133,314,160"/>
+<area shape="rect" href="classUpdater.html" title=" " alt="" coords="322,185,390,212"/>
+<area shape="rect" href="classDownloader.html" title=" " alt="" coords="372,81,463,108"/>
 </map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:afd068c4fb723f3b7e8c8084ade8ddac1"><td class="memItemLeft" align="right" valign="top"><a id="afd068c4fb723f3b7e8c8084ade8ddac1" name="afd068c4fb723f3b7e8c8084ade8ddac1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>openEditor</b> (void)</td></tr>
+<tr class="memitem:afd068c4fb723f3b7e8c8084ade8ddac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1">openEditor</a> (void)</td></tr>
 <tr class="separator:afd068c4fb723f3b7e8c8084ade8ddac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a045934c687780e3a6b6c0c9beb1668ae"><td class="memItemLeft" align="right" valign="top"><a id="a045934c687780e3a6b6c0c9beb1668ae" name="a045934c687780e3a6b6c0c9beb1668ae"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OpenTyper</b> (QWidget *parent=nullptr)</td></tr>
+<tr class="memitem:a045934c687780e3a6b6c0c9beb1668ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae">OpenTyper</a> (QWidget *parent=nullptr)</td></tr>
 <tr class="separator:a045934c687780e3a6b6c0c9beb1668ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80875642b144d87ea6f98e7a65a0619d"><td class="memItemLeft" align="right" valign="top"><a id="a80875642b144d87ea6f98e7a65a0619d" name="a80875642b144d87ea6f98e7a65a0619d"></a>
-QString&#160;</td><td class="memItemRight" valign="bottom"><b>loadConfig</b> (QString configName)</td></tr>
+<tr class="memitem:a47f341fe57bb1127965119b293f2fe3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f">~OpenTyper</a> ()</td></tr>
+<tr class="separator:a47f341fe57bb1127965119b293f2fe3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:a2e0dedad125ed6ffb9c117d0ac9ed593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593">keyPress</a> (QKeyEvent *event)</td></tr>
+<tr class="separator:a2e0dedad125ed6ffb9c117d0ac9ed593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41ec1034255a67b7eb6a0bfd16abb0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e">openOptions</a> (void)</td></tr>
+<tr class="separator:aa41ec1034255a67b7eb6a0bfd16abb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064daf6187f1b3816bbc346aac817e2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d">openPack</a> (void)</td></tr>
+<tr class="separator:a064daf6187f1b3816bbc346aac817e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38fd22312ca92bed20d77ac9142ce9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e">repeatLevel</a> (void)</td></tr>
+<tr class="separator:aa38fd22312ca92bed20d77ac9142ce9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0431cbb22500518dce9387257fddc57d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d">nextLevel</a> (void)</td></tr>
+<tr class="separator:a0431cbb22500518dce9387257fddc57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad7f5e20e15f749e3f22c189d56be2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b">previousLevel</a> (void)</td></tr>
+<tr class="separator:afad7f5e20e15f749e3f22c189d56be2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161a88a48c7a083c1afce2201f9a4ac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1">updateCurrentTime</a> (void)</td></tr>
+<tr class="separator:a161a88a48c7a083c1afce2201f9a4ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f4a38c2b9550c71eea4204e34de0e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a71f4a38c2b9550c71eea4204e34de0e5">lessonSelectionListIndexChanged</a> (int index)</td></tr>
+<tr class="separator:a71f4a38c2b9550c71eea4204e34de0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec024cb05d93c44b8053a9d2d963922"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922">sublessonSelectionListIndexChanged</a> (int index)</td></tr>
+<tr class="separator:a1ec024cb05d93c44b8053a9d2d963922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa809b630b0145d092992fa15a674206b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aa809b630b0145d092992fa15a674206b">levelSelectionListIndexChanged</a> (int index)</td></tr>
+<tr class="separator:aa809b630b0145d092992fa15a674206b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1152e24f5c093f46693ec2547c1537c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9">openExerciseFromFile</a> (void)</td></tr>
+<tr class="separator:a1152e24f5c093f46693ec2547c1537c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fc2f41823079c45025542f24dd948f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a90fc2f41823079c45025542f24dd948f">changeLanguage</a> (int index)</td></tr>
+<tr class="separator:a90fc2f41823079c45025542f24dd948f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb936f09d8dcc2148352ed95b486236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236">zoomIn</a> (void)</td></tr>
+<tr class="separator:a0cb936f09d8dcc2148352ed95b486236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d722e59eb5364522f42996eff39075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a26d722e59eb5364522f42996eff39075">zoomOut</a> (void)</td></tr>
+<tr class="separator:a26d722e59eb5364522f42996eff39075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3bb83c464cb1ea6d46fb9e5ca2f6cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc">initTimedExercise</a> (void)</td></tr>
+<tr class="separator:a8f3bb83c464cb1ea6d46fb9e5ca2f6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a386fcf33ae25616ceb7ffcaa1e55645f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f">connectAll</a> (void)</td></tr>
+<tr class="separator:a386fcf33ae25616ceb7ffcaa1e55645f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80875642b144d87ea6f98e7a65a0619d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d">loadConfig</a> (QString configName)</td></tr>
 <tr class="separator:a80875642b144d87ea6f98e7a65a0619d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3e6df43ee172d7ac8ce29fcd2dd8b2f"><td class="memItemLeft" align="right" valign="top"><a id="ab3e6df43ee172d7ac8ce29fcd2dd8b2f" name="ab3e6df43ee172d7ac8ce29fcd2dd8b2f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>startLevel</b> (int lesson, int sublesson, int level)</td></tr>
+<tr class="memitem:ab3e6df43ee172d7ac8ce29fcd2dd8b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f">startLevel</a> (int lesson, int sublesson, int level)</td></tr>
 <tr class="separator:ab3e6df43ee172d7ac8ce29fcd2dd8b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b0b94bcf7267118e62e35fefa938ffe"><td class="memItemLeft" align="right" valign="top"><a id="a4b0b94bcf7267118e62e35fefa938ffe" name="a4b0b94bcf7267118e62e35fefa938ffe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>levelFinalInit</b> (void)</td></tr>
+<tr class="memitem:a4b0b94bcf7267118e62e35fefa938ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe">levelFinalInit</a> (void)</td></tr>
 <tr class="separator:a4b0b94bcf7267118e62e35fefa938ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a487997a86245492f13709904e8c47f4b"><td class="memItemLeft" align="right" valign="top"><a id="a487997a86245492f13709904e8c47f4b" name="a487997a86245492f13709904e8c47f4b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateText</b> (void)</td></tr>
+<tr class="memitem:a487997a86245492f13709904e8c47f4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a487997a86245492f13709904e8c47f4b">updateText</a> (void)</td></tr>
 <tr class="separator:a487997a86245492f13709904e8c47f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a400082da2383c849dc23186b3c894766"><td class="memItemLeft" align="right" valign="top"><a id="a400082da2383c849dc23186b3c894766" name="a400082da2383c849dc23186b3c894766"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_line_count</b> (QString str)</td></tr>
+<tr class="memitem:a400082da2383c849dc23186b3c894766"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a400082da2383c849dc23186b3c894766">_line_count</a> (QString str)</td></tr>
 <tr class="separator:a400082da2383c849dc23186b3c894766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f1ca8eb33c15cc3b876d06fd092f566"><td class="memItemLeft" align="right" valign="top"><a id="a7f1ca8eb33c15cc3b876d06fd092f566" name="a7f1ca8eb33c15cc3b876d06fd092f566"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>autoUpdate</b> (void)</td></tr>
-<tr class="separator:a7f1ca8eb33c15cc3b876d06fd092f566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef0c7a71750770dc237a73d657e696da"><td class="memItemLeft" align="right" valign="top"><a id="aef0c7a71750770dc237a73d657e696da" name="aef0c7a71750770dc237a73d657e696da"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>adjustSize</b> (void)</td></tr>
+<tr class="memitem:aef0c7a71750770dc237a73d657e696da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aef0c7a71750770dc237a73d657e696da">adjustSize</a> (void)</td></tr>
 <tr class="separator:aef0c7a71750770dc237a73d657e696da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa31ec90a40fe8c36b1ea25d9902e95c3"><td class="memItemLeft" align="right" valign="top"><a id="aa31ec90a40fe8c36b1ea25d9902e95c3" name="aa31ec90a40fe8c36b1ea25d9902e95c3"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>labelWidth</b> (QLabel *targetLabel, QString labelText)</td></tr>
+<tr class="memitem:aa31ec90a40fe8c36b1ea25d9902e95c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aa31ec90a40fe8c36b1ea25d9902e95c3">labelWidth</a> (QLabel *targetLabel, QString labelText)</td></tr>
 <tr class="separator:aa31ec90a40fe8c36b1ea25d9902e95c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0deeb213fc85bdc2f63e60b2f2f2d98e"><td class="memItemLeft" align="right" valign="top"><a id="a0deeb213fc85bdc2f63e60b2f2f2d98e" name="a0deeb213fc85bdc2f63e60b2f2f2d98e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setFont</b> (QString fontFamily, int fontSize, bool fontBold, bool fontItalic, bool fontUnderline)</td></tr>
+<tr class="memitem:a0deeb213fc85bdc2f63e60b2f2f2d98e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e">setFont</a> (QString fontFamily, int fontSize, bool fontBold, bool fontItalic, bool fontUnderline)</td></tr>
 <tr class="separator:a0deeb213fc85bdc2f63e60b2f2f2d98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620e22a6ec7adc3e0ef82f1d2fc5ee0c"><td class="memItemLeft" align="right" valign="top"><a id="a620e22a6ec7adc3e0ef82f1d2fc5ee0c" name="a620e22a6ec7adc3e0ef82f1d2fc5ee0c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>saveColorSettings</b> (void)</td></tr>
-<tr class="separator:a620e22a6ec7adc3e0ef82f1d2fc5ee0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4ac399f836ab91bc116d6a951cca9f5"><td class="memItemLeft" align="right" valign="top"><a id="ac4ac399f836ab91bc116d6a951cca9f5" name="ac4ac399f836ab91bc116d6a951cca9f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setColors</b> (void)</td></tr>
+<tr class="memitem:ac4ac399f836ab91bc116d6a951cca9f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5">setColors</a> (void)</td></tr>
 <tr class="separator:ac4ac399f836ab91bc116d6a951cca9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721ca1e0ea1bc604ae256bb13ccc35f0"><td class="memItemLeft" align="right" valign="top"><a id="a721ca1e0ea1bc604ae256bb13ccc35f0" name="a721ca1e0ea1bc604ae256bb13ccc35f0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateTheme</b> (void)</td></tr>
+<tr class="memitem:a721ca1e0ea1bc604ae256bb13ccc35f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0">updateTheme</a> (void)</td></tr>
 <tr class="separator:a721ca1e0ea1bc604ae256bb13ccc35f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f0fcfa144eda646ca215b51851e0dd5"><td class="memItemLeft" align="right" valign="top"><a id="a5f0fcfa144eda646ca215b51851e0dd5" name="a5f0fcfa144eda646ca215b51851e0dd5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>refreshAll</b> (bool setLang)</td></tr>
+<tr class="memitem:a5f0fcfa144eda646ca215b51851e0dd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5">refreshAll</a> (bool setLang)</td></tr>
 <tr class="separator:a5f0fcfa144eda646ca215b51851e0dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae58db84c62ad4d6f2b89ae8f1134765"><td class="memItemLeft" align="right" valign="top"><a id="aae58db84c62ad4d6f2b89ae8f1134765" name="aae58db84c62ad4d6f2b89ae8f1134765"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>changeMode</b> (int mode)</td></tr>
+<tr class="memitem:aae58db84c62ad4d6f2b89ae8f1134765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765">changeMode</a> (int mode)</td></tr>
 <tr class="separator:aae58db84c62ad4d6f2b89ae8f1134765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2c8e955f45d19ce8b34b5fcd215e712e"><td class="memItemLeft" align="right" valign="top"><a id="a2c8e955f45d19ce8b34b5fcd215e712e" name="a2c8e955f45d19ce8b34b5fcd215e712e"></a>
+Ui::OpenTyper *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td></tr>
+<tr class="separator:a2c8e955f45d19ce8b34b5fcd215e712e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b63c0b5bbcd4a8810eecb506748f1d"><td class="memItemLeft" align="right" valign="top"><a id="a37b63c0b5bbcd4a8810eecb506748f1d" name="a37b63c0b5bbcd4a8810eecb506748f1d"></a>
+<a class="el" href="classlanguageManager.html">languageManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>langMgr</b></td></tr>
+<tr class="separator:a37b63c0b5bbcd4a8810eecb506748f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba3fad404b407e145845de14eb6582ca"><td class="memItemLeft" align="right" valign="top"><a id="aba3fad404b407e145845de14eb6582ca" name="aba3fad404b407e145845de14eb6582ca"></a>
 QSettings *&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
 <tr class="separator:aba3fad404b407e145845de14eb6582ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,14 +398,954 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>timedExSeconds</b></td
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>timedExStarted</b></td></tr>
 <tr class="separator:a5b8f0b305c2bae1e0204973a3a1b4598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >The main window class, which shows the UI, text and handles input and output. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a045934c687780e3a6b6c0c9beb1668ae" name="a045934c687780e3a6b6c0c9beb1668ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045934c687780e3a6b6c0c9beb1668ae">&#9670;&nbsp;</a></span>OpenTyper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">OpenTyper::OpenTyper </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Constructs the main window. </p>
+
+</div>
+</div>
+<a id="a47f341fe57bb1127965119b293f2fe3f" name="a47f341fe57bb1127965119b293f2fe3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f341fe57bb1127965119b293f2fe3f">&#9670;&nbsp;</a></span>~OpenTyper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">OpenTyper::~OpenTyper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Destroys the object. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a400082da2383c849dc23186b3c894766" name="a400082da2383c849dc23186b3c894766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400082da2383c849dc23186b3c894766">&#9670;&nbsp;</a></span>_line_count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OpenTyper::_line_count </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Gets number of lines of a string. Will be moved to <a class="el" href="classstringUtils.html">stringUtils</a> later. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classstringUtils.html">stringUtils</a> </dd></dl>
+
+</div>
+</div>
+<a id="aef0c7a71750770dc237a73d657e696da" name="aef0c7a71750770dc237a73d657e696da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef0c7a71750770dc237a73d657e696da">&#9670;&nbsp;</a></span>adjustSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::adjustSize </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Adjusts the width of the paper widget. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#aa31ec90a40fe8c36b1ea25d9902e95c3">labelWidth</a> </dd></dl>
+
+</div>
+</div>
+<a id="a90fc2f41823079c45025542f24dd948f" name="a90fc2f41823079c45025542f24dd948f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90fc2f41823079c45025542f24dd948f">&#9670;&nbsp;</a></span>changeLanguage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::changeLanguage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from optionsWindow::languageChanged.<br  />
+Retranslates the UI in the selected language. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>Index of the selected language in the list of languages </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classlanguageManager.html">languageManager</a> </dd></dl>
+
+</div>
+</div>
+<a id="aae58db84c62ad4d6f2b89ae8f1134765" name="aae58db84c62ad4d6f2b89ae8f1134765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae58db84c62ad4d6f2b89ae8f1134765">&#9670;&nbsp;</a></span>changeMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::changeMode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Changes the operation mode.<br  />
+Supported modes are default (0) and timed exercise mode (1). </p>
+
+</div>
+</div>
+<a id="a386fcf33ae25616ceb7ffcaa1e55645f" name="a386fcf33ae25616ceb7ffcaa1e55645f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386fcf33ae25616ceb7ffcaa1e55645f">&#9670;&nbsp;</a></span>connectAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::connectAll </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Sets up all connections. </p>
+
+</div>
+</div>
+<a id="a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" name="a8f3bb83c464cb1ea6d46fb9e5ca2f6cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc">&#9670;&nbsp;</a></span>initTimedExercise</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::initTimedExercise </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from timedExerciseButton.<br  />
+Switches to timed exercise mode. </p>
+
+</div>
+</div>
+<a id="a2e0dedad125ed6ffb9c117d0ac9ed593" name="a2e0dedad125ed6ffb9c117d0ac9ed593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0dedad125ed6ffb9c117d0ac9ed593">&#9670;&nbsp;</a></span>keyPress</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::keyPress </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from inputLabelWidget::keyPressed signal.<br  />
+Handles all key presses, counts hits, displays typed characters and counts mistakes. </p>
+
+</div>
+</div>
+<a id="aa31ec90a40fe8c36b1ea25d9902e95c3" name="aa31ec90a40fe8c36b1ea25d9902e95c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa31ec90a40fe8c36b1ea25d9902e95c3">&#9670;&nbsp;</a></span>labelWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OpenTyper::labelWidth </td>
+          <td>(</td>
+          <td class="paramtype">QLabel *&#160;</td>
+          <td class="paramname"><em>targetLabel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>labelText</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Gets the width of a QLabel with a text.<br  />
+This function is obsolete and will be removed after the paper widget starts using layouts. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#aef0c7a71750770dc237a73d657e696da">adjustSize</a> </dd></dl>
+
+</div>
+</div>
+<a id="a71f4a38c2b9550c71eea4204e34de0e5" name="a71f4a38c2b9550c71eea4204e34de0e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f4a38c2b9550c71eea4204e34de0e5">&#9670;&nbsp;</a></span>lessonSelectionListIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::lessonSelectionListIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from lessonSelectionList.<br  />
+Selects the lesson selected in lessonSelectionList. </p>
+
+</div>
+</div>
+<a id="a4b0b94bcf7267118e62e35fefa938ffe" name="a4b0b94bcf7267118e62e35fefa938ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b0b94bcf7267118e62e35fefa938ffe">&#9670;&nbsp;</a></span>levelFinalInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::levelFinalInit </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Sets initial values and shows the exercise text. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f">startLevel</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#a487997a86245492f13709904e8c47f4b">updateText</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa809b630b0145d092992fa15a674206b" name="aa809b630b0145d092992fa15a674206b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa809b630b0145d092992fa15a674206b">&#9670;&nbsp;</a></span>levelSelectionListIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::levelSelectionListIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from levelSelectionList.<br  />
+Selects the exercise selected in levelSelectionList. </p>
+
+</div>
+</div>
+<a id="a80875642b144d87ea6f98e7a65a0619d" name="a80875642b144d87ea6f98e7a65a0619d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80875642b144d87ea6f98e7a65a0619d">&#9670;&nbsp;</a></span>loadConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString OpenTyper::loadConfig </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>configName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Opens a pack file using <a class="el" href="classconfigParser.html">configParser</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">configName</td><td>If there's a custom pack opened, configName represents the absolute path to the pack. Otherwise, it represents the built-in pack name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classconfigParser.html">configParser</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0431cbb22500518dce9387257fddc57d" name="a0431cbb22500518dce9387257fddc57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0431cbb22500518dce9387257fddc57d">&#9670;&nbsp;</a></span>nextLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::nextLevel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from nextButton.<br  />
+Selects the next exercise. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e">repeatLevel</a> </dd></dl>
+
+</div>
+</div>
+<a id="afd068c4fb723f3b7e8c8084ade8ddac1" name="afd068c4fb723f3b7e8c8084ade8ddac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd068c4fb723f3b7e8c8084ade8ddac1">&#9670;&nbsp;</a></span>openEditor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::openEditor </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from openEditorButton.<br  />
+Opens the editor. </p>
+
+</div>
+</div>
+<a id="a1152e24f5c093f46693ec2547c1537c9" name="a1152e24f5c093f46693ec2547c1537c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1152e24f5c093f46693ec2547c1537c9">&#9670;&nbsp;</a></span>openExerciseFromFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::openExerciseFromFile </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from openExerciseButton.<br  />
+Shows a file dialog and opens a custom exercise. </p>
+
+</div>
+</div>
+<a id="aa41ec1034255a67b7eb6a0bfd16abb0e" name="aa41ec1034255a67b7eb6a0bfd16abb0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41ec1034255a67b7eb6a0bfd16abb0e">&#9670;&nbsp;</a></span>openOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::openOptions </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from optionsButton.<br  />
+Opens options window. </p>
+
+</div>
+</div>
+<a id="a064daf6187f1b3816bbc346aac817e2d" name="a064daf6187f1b3816bbc346aac817e2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a064daf6187f1b3816bbc346aac817e2d">&#9670;&nbsp;</a></span>openPack</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::openPack </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from openPackButton.<br  />
+Shows a file dialog and opens a custom pack. </p>
+
+</div>
+</div>
+<a id="afad7f5e20e15f749e3f22c189d56be2b" name="afad7f5e20e15f749e3f22c189d56be2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad7f5e20e15f749e3f22c189d56be2b">&#9670;&nbsp;</a></span>previousLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::previousLevel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from previousButton.<br  />
+Selects the previous exercise. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e">repeatLevel</a> </dd></dl>
+
+</div>
+</div>
+<a id="a5f0fcfa144eda646ca215b51851e0dd5" name="a5f0fcfa144eda646ca215b51851e0dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f0fcfa144eda646ca215b51851e0dd5">&#9670;&nbsp;</a></span>refreshAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::refreshAll </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>setLang</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Initializes the program and loads all settings. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">setLang</td><td>Whether to set the display language. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a90fc2f41823079c45025542f24dd948f">changeLanguage</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765">changeMode</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0">updateTheme</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5">setColors</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e">repeatLevel</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa38fd22312ca92bed20d77ac9142ce9e" name="aa38fd22312ca92bed20d77ac9142ce9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38fd22312ca92bed20d77ac9142ce9e">&#9670;&nbsp;</a></span>repeatLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::repeatLevel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from repeatButton.<br  />
+Resets currently selected exercise. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f">startLevel</a> </dd></dl>
+
+</div>
+</div>
+<a id="ac4ac399f836ab91bc116d6a951cca9f5" name="ac4ac399f836ab91bc116d6a951cca9f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4ac399f836ab91bc116d6a951cca9f5">&#9670;&nbsp;</a></span>setColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::setColors </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Sets custom colors (if they are set) or default colors. </p><dl class="section see"><dt>See also</dt><dd>customizationOptions::setColors </dd></dl>
+
+</div>
+</div>
+<a id="a0deeb213fc85bdc2f63e60b2f2f2d98e" name="a0deeb213fc85bdc2f63e60b2f2f2d98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0deeb213fc85bdc2f63e60b2f2f2d98e">&#9670;&nbsp;</a></span>setFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::setFont </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>fontFamily</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fontSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fontBold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fontItalic</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fontUnderline</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Sets exercise text font and saves it in the settings. </p><dl class="section see"><dt>See also</dt><dd>customizationOptions::setFont </dd></dl>
+
+</div>
+</div>
+<a id="ab3e6df43ee172d7ac8ce29fcd2dd8b2f" name="ab3e6df43ee172d7ac8ce29fcd2dd8b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e6df43ee172d7ac8ce29fcd2dd8b2f">&#9670;&nbsp;</a></span>startLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::startLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sublesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Initializes the specified exercise. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">lesson,sublesson,level</td><td>Exercise location (lesson, sublesson and exercise ID). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d">loadConfig</a> </dd>
+<dd>
+<a class="el" href="classconfigParser.html">configParser</a> </dd>
+<dd>
+<a class="el" href="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe">levelFinalInit</a> </dd></dl>
+
+</div>
+</div>
+<a id="a1ec024cb05d93c44b8053a9d2d963922" name="a1ec024cb05d93c44b8053a9d2d963922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec024cb05d93c44b8053a9d2d963922">&#9670;&nbsp;</a></span>sublessonSelectionListIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::sublessonSelectionListIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from sublessonSelectionList.<br  />
+Selects the sublesson selected in sublessonSelectionList. </p>
+
+</div>
+</div>
+<a id="a161a88a48c7a083c1afce2201f9a4ac1" name="a161a88a48c7a083c1afce2201f9a4ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161a88a48c7a083c1afce2201f9a4ac1">&#9670;&nbsp;</a></span>updateCurrentTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::updateCurrentTime </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from secLoop.<br  />
+Runs periodically and updates time widgets. </p>
+
+</div>
+</div>
+<a id="a487997a86245492f13709904e8c47f4b" name="a487997a86245492f13709904e8c47f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a487997a86245492f13709904e8c47f4b">&#9670;&nbsp;</a></span>updateText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::updateText </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Converts exercise text (line wrapping, limited number of lines). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe">levelFinalInit</a> </dd>
+<dd>
+<a class="el" href="classconfigParser.html">configParser</a> </dd></dl>
+
+</div>
+</div>
+<a id="a721ca1e0ea1bc604ae256bb13ccc35f0" name="a721ca1e0ea1bc604ae256bb13ccc35f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721ca1e0ea1bc604ae256bb13ccc35f0">&#9670;&nbsp;</a></span>updateTheme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::updateTheme </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Loads the style sheet of the selected theme. </p><dl class="section see"><dt>See also</dt><dd>customizationOptions::updateTheme </dd></dl>
+
+</div>
+</div>
+<a id="a0cb936f09d8dcc2148352ed95b486236" name="a0cb936f09d8dcc2148352ed95b486236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb936f09d8dcc2148352ed95b486236">&#9670;&nbsp;</a></span>zoomIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::zoomIn </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from zoomInButton.<br  />
+Increases the text size. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a26d722e59eb5364522f42996eff39075">zoomOut</a> </dd></dl>
+
+</div>
+</div>
+<a id="a26d722e59eb5364522f42996eff39075" name="a26d722e59eb5364522f42996eff39075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d722e59eb5364522f42996eff39075">&#9670;&nbsp;</a></span>zoomOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::zoomOut </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from zoomOutButton.<br  />
+Decreases the text size. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236">zoomIn</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/include/<a class="el" href="opentyper_8h_source.html">opentyper.h</a></li>
 <li>src/opentyper.cpp</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classOpenTyper.html">OpenTyper</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
 </body>
 </html>
