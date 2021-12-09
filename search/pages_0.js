@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['open_2dtyper_0',['Open-Typer',['../index.html',1,'']]]
+  ['build_20instructions_0',['Build instructions',['../md_docs_data_pages_Build_instructions.html',1,'']]]
 ];

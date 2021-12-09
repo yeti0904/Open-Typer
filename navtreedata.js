@@ -25,9 +25,17 @@
 var NAVTREE =
 [
   [ "Open-Typer", "index.html", [
-    [ "What is Open-Typer?", "index.html#autotoc_md1", null ],
-    [ "Features", "index.html#autotoc_md2", null ],
-    [ "More information", "index.html#autotoc_md3", null ],
+    [ "What is Open-Typer?", "index.html#autotoc_md5", null ],
+    [ "Features", "index.html#autotoc_md6", null ],
+    [ "Download", "index.html#autotoc_md7", null ],
+    [ "More information", "index.html#autotoc_md8", null ],
+    [ "Build instructions", "md_docs_data_pages_Build_instructions.html", [
+      [ "Building for GNU/Linux", "md_docs_data_pages_Build_instructions.html#autotoc_md0", [
+        [ "Building a standalone binary", "md_docs_data_pages_Build_instructions.html#autotoc_md1", null ],
+        [ "Building a DEB package:", "md_docs_data_pages_Build_instructions.html#autotoc_md2", null ]
+      ] ],
+      [ "Building for Windows", "md_docs_data_pages_Build_instructions.html#autotoc_md3", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

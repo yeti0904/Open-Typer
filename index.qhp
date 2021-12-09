@@ -6,9 +6,17 @@
     <filterAttribute>doxygen</filterAttribute>
     <toc>
       <section title="Open-Typer" ref="index.html">
-        <section title="What is Open-Typer?" ref="index.html#autotoc_md1" />
-        <section title="Features" ref="index.html#autotoc_md2" />
-        <section title="More information" ref="index.html#autotoc_md3" />
+        <section title="What is Open-Typer?" ref="index.html#autotoc_md5" />
+        <section title="Features" ref="index.html#autotoc_md6" />
+        <section title="Download" ref="index.html#autotoc_md7" />
+        <section title="More information" ref="index.html#autotoc_md8" />
+        <section title="Build instructions" ref="md_docs_data_pages_Build_instructions.html">
+          <section title="Building for GNU/Linux" ref="md_docs_data_pages_Build_instructions.html#autotoc_md0">
+            <section title="Building a standalone binary" ref="md_docs_data_pages_Build_instructions.html#autotoc_md1" />
+            <section title="Building a DEB package:" ref="md_docs_data_pages_Build_instructions.html#autotoc_md2" />
+          </section>
+          <section title="Building for Windows" ref="md_docs_data_pages_Build_instructions.html#autotoc_md3" />
+        </section>
         <section title="Classes" ref="annotated.html">
           <section title="Class List" ref="annotated.html">
             <section title="behaviorOptions" ref="classbehaviorOptions.html" />
@@ -155,6 +163,7 @@
       </section>
     </toc>
     <keywords>
+      <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions.html#a604e707e9c208f8dd09d47714b1d52a2" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
@@ -564,6 +573,7 @@
       <file>version_8h_source.html</file>
       <file>inputlabel_8h_source.html</file>
       <file>languagelist_8h_source.html</file>
+      <file>md_docs_data_pages_Build_instructions.html</file>
       <file>classbehaviorOptions.html</file>
       <file>classbehaviorOptions__inherit__graph.png</file>
       <file>classbehaviorOptions__coll__graph.png</file>
@@ -658,17 +668,20 @@
       <file>graph_legend.html</file>
       <file>dir_aebb8dcc11953d78e620bbef0b9e2183.html</file>
       <file>dir_4cf372765f693cf540fc4810db0c309c.html</file>
+      <file>dir_5854880b00b3c6c6627d48510baba8d2.html</file>
       <file>dir_b0856f6b0d80ccb263b2f415c91f9e17.html</file>
       <file>dir_a6b8e448081bf8ce4db4cf71fa3ecf15.html</file>
       <file>dir_51d37d93a99f151d07755b62737feb84.html</file>
       <file>dir_d684c3475f66f131a133112539f1805c.html</file>
       <file>dir_aeb8d2f0c36d1a21bc807424066a339f.html</file>
+      <file>dir_8c421087272d921338bde95c2b39aa1b.html</file>
       <file>dir_68267d1309a1af8e8297ef4c3efbcdba.html</file>
       <file>dir_7468157ebcb76345a67412f7bb97ed29.html</file>
       <file>dir_f356faf232716eaaa298279b6f90416b.html</file>
       <file>dir_99f4b16b17a360d9840a4176588db3c6.html</file>
       <file>dir_0abdee562046be6f5823d1ca8c3fd13c.html</file>
       <file>index.html</file>
+      <file>pages.html</file>
       <file>annotated.html</file>
       <file>classes.html</file>
       <file>hierarchy.html</file>

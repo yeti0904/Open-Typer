@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Open-Typer: Open-Typer</title>
+<title>Open-Typer: Build instructions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_docs_data_pages_Build_instructions.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -84,33 +84,32 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Open-Typer </div></div>
+  <div class="headertitle"><div class="title">Build instructions </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md_README"></a> </p>
-<h1><a class="anchor" id="autotoc_md5"></a>
-What is Open-Typer?</h1>
-<p >Open-Typer is a free and open source software for typewriting training and education. The following platforms are supported: Linux (amd64 and arm64), Windows (x86 - 32-bit).</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
-Features</h1>
-<ul>
-<li>Packs with exercises divided into lessons.</li>
-<li>Every lesson consists of touch, word, sentence and text exercises.</li>
-<li>Pack editor - allows anyone to create their own packs with lessons.</li>
-<li>Custom exercise (from a text file).</li>
-<li>Multiple languages (still growing).</li>
-<li>Customization (text font and size; colors; dark theme).</li>
-<li>Automatic updates on Windows (shows a dialog window when a new update is found).</li>
-<li>No installation required (might change in future).</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
-Download</h1>
-<p >Download the latest release from <a href="https://github.com/Open-Typer/Open-Typer/releases/latest">GitHub</a> or <a href="https://sourceforge.net/projects/open-typer/">SourceForge</a>.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
-More information</h1>
-<p >Build instructions </p>
-</div></div><!-- PageDoc -->
-</div><!-- contents -->
+<div class="textblock"><p ><b>Note:</b> Building on Windows is not covered on this page, but the procedure is same as with any Qt project.</p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Building for GNU/Linux</h1>
+<p ><b>Install dependencies (Ubuntu):</b></p>
+<p ><code>sudo apt-get install gcc make build-essential qt5-qmake qtbase5-dev</code></p>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Building a standalone binary</h2>
+<div class="fragment"><div class="line">qmake</div>
+<div class="line">make -j$(nproc --all)</div>
+</div><!-- fragment --><p ><b>Installation:</b></p>
+<p ><code>sudo mv Open-Typer /usr/local/bin/</code></p>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Building a DEB package:</h2>
+<p ><code>./build-deb.sh</code></p>
+<p ><b>Installation</b>:</p>
+<p ><code>sudo dpkg -i open-typer*.deb</code></p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Building for Windows</h1>
+<p >Use the <code>winbuild.sh</code> script.</p>
+<p >It will download M Cross Environment and build Qt, so the first build will take a while.</p>
+<p ><code>./winbuild.sh</code> </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
