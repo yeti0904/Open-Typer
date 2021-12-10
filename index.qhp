@@ -24,7 +24,10 @@
             <section title="configParser" ref="classconfigParser.html" />
             <section title="customizationOptions" ref="classcustomizationOptions.html" />
             <section title="Downloader" ref="classDownloader.html" />
-            <section title="fileUtils" ref="classfileUtils.html" />
+            <section title="fileUtils" ref="classfileUtils.html">
+              <section title="configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
+              <section title="mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
+            </section>
             <section title="inputLabelWidget" ref="classinputLabelWidget.html" />
             <section title="keyboardOptions" ref="classkeyboardOptions.html" />
             <section title="keyboardUtils" ref="classkeyboardUtils.html" />
@@ -727,6 +730,8 @@
       <file>functions.html</file>
       <file>functions.html</file>
       <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>

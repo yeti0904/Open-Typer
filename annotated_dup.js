@@ -5,7 +5,7 @@ var annotated_dup =
     [ "configParser", "classconfigParser.html", null ],
     [ "customizationOptions", "classcustomizationOptions.html", null ],
     [ "Downloader", "classDownloader.html", null ],
-    [ "fileUtils", "classfileUtils.html", null ],
+    [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
     [ "inputLabelWidget", "classinputLabelWidget.html", null ],
     [ "keyboardOptions", "classkeyboardOptions.html", null ],
     [ "keyboardUtils", "classkeyboardUtils.html", null ],

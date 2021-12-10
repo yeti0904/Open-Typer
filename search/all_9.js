@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['net_0',['Net',['../classNet.html',1,'']]],
-  ['nextlevel_1',['nextLevel',['../classOpenTyper.html#a0431cbb22500518dce9387257fddc57d',1,'OpenTyper']]]
+  ['mainsettingslocation_0',['mainSettingsLocation',['../classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac',1,'fileUtils']]]
 ];
