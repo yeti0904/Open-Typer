@@ -77,7 +77,12 @@
             <section title="packEditor" ref="classpackEditor.html" />
             <section title="packSelector" ref="classpackSelector.html" />
             <section title="packView" ref="classpackView.html" />
-            <section title="paperConfigDialog" ref="classpaperConfigDialog.html" />
+            <section title="paperConfigDialog" ref="classpaperConfigDialog.html">
+              <section title="paperConfigDialog" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b" />
+              <section title="~paperConfigDialog" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b" />
+              <section title="reject" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301" />
+              <section title="updateLineLength" ref="classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
+            </section>
             <section title="SimpleColorDialog" ref="classSimpleColorDialog.html" />
             <section title="stringUtils" ref="classstringUtils.html" />
             <section title="timeDialog" ref="classtimeDialog.html" />
@@ -481,6 +486,7 @@
       <keyword name="skipTextRefresh" id="packView::skipTextRefresh" ref="classpackView.html#a3959e56203b4f7d062d21455b0e181aa" />
       <keyword name="paperConfigDialog" id="paperConfigDialog" ref="classpaperConfigDialog.html" />
       <keyword name="paperConfigDialog" id="paperConfigDialog::paperConfigDialog" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b" />
+      <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b" />
       <keyword name="lineLength" id="paperConfigDialog::lineLength" ref="classpaperConfigDialog.html#a44688a9ab62f88b12241b1df3ea2e046" />
       <keyword name="reject" id="paperConfigDialog::reject" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301" />
       <keyword name="updateLineLength" id="paperConfigDialog::updateLineLength" ref="classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
@@ -656,6 +662,7 @@
       <file>classpaperConfigDialog.html</file>
       <file>classpaperConfigDialog__inherit__graph.png</file>
       <file>classpaperConfigDialog__coll__graph.png</file>
+      <file>paperConfigDialog.png</file>
       <file>classpaperConfigDialog-members.html</file>
       <file>classSimpleColorDialog.html</file>
       <file>classSimpleColorDialog__inherit__graph.png</file>
