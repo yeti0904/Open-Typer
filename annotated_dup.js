@@ -11,7 +11,7 @@ var annotated_dup =
     [ "keyboardUtils", "classkeyboardUtils.html", null ],
     [ "languageList", "classlanguageList.html", null ],
     [ "languageManager", "classlanguageManager.html", null ],
-    [ "levelSummary", "classlevelSummary.html", null ],
+    [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],
     [ "Net", "classNet.html", null ],
     [ "OpenTyper", "classOpenTyper.html", "classOpenTyper" ],
     [ "optionsWindow", "classoptionsWindow.html", null ],

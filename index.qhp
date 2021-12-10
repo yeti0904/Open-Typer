@@ -30,7 +30,15 @@
             <section title="keyboardUtils" ref="classkeyboardUtils.html" />
             <section title="languageList" ref="classlanguageList.html" />
             <section title="languageManager" ref="classlanguageManager.html" />
-            <section title="levelSummary" ref="classlevelSummary.html" />
+            <section title="levelSummary" ref="classlevelSummary.html">
+              <section title="levelSummary" ref="classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28" />
+              <section title="~levelSummary" ref="classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2" />
+              <section title="setHitCount" ref="classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb" />
+              <section title="setHits" ref="classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2" />
+              <section title="setMistakes" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66" />
+              <section title="setTotalTime" ref="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498" />
+              <section title="showOK" ref="classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e" />
+            </section>
             <section title="Net" ref="classNet.html" />
             <section title="OpenTyper" ref="classOpenTyper.html">
               <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
@@ -295,6 +303,7 @@
       <keyword name="boxItems" id="languageManager::boxItems" ref="classlanguageManager.html#aedfb85e051ce25c65e5dbeb1dc4f97a8" />
       <keyword name="levelSummary" id="levelSummary" ref="classlevelSummary.html" />
       <keyword name="levelSummary" id="levelSummary::levelSummary" ref="classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28" />
+      <keyword name="~levelSummary" id="levelSummary::~levelSummary" ref="classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2" />
       <keyword name="showOK" id="levelSummary::showOK" ref="classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e" />
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498" />
       <keyword name="setHitCount" id="levelSummary::setHitCount" ref="classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb" />
@@ -617,6 +626,8 @@
       <file>classlevelSummary.html</file>
       <file>classlevelSummary__inherit__graph.png</file>
       <file>classlevelSummary__coll__graph.png</file>
+      <file>levelSummary.png</file>
+      <file>levelSummaryOK.png</file>
       <file>classlevelSummary-members.html</file>
       <file>classNet.html</file>
       <file>classNet__inherit__graph.png</file>
