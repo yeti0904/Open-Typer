@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['_7einputlabelwidget_0',['~inputLabelWidget',['../classinputLabelWidget.html#a547a95ccb7ba47da543f87811017200a',1,'inputLabelWidget']]],
-  ['_7elanguagemanager_1',['~languageManager',['../classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485',1,'languageManager']]],
-  ['_7elevelsummary_2',['~levelSummary',['../classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2',1,'levelSummary']]],
-  ['_7eopentyper_3',['~OpenTyper',['../classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f',1,'OpenTyper']]],
-  ['_7epaperconfigdialog_4',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]]
+  ['updatecurrenttime_0',['updateCurrentTime',['../classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1',1,'OpenTyper']]],
+  ['updatelinelength_1',['updateLineLength',['../classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b',1,'paperConfigDialog']]],
+  ['updater_2',['Updater',['../classUpdater.html',1,'']]],
+  ['updaterdialog_3',['UpdaterDialog',['../classUpdaterDialog.html',1,'']]],
+  ['updatetext_4',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper']]],
+  ['updatetheme_5',['updateTheme',['../classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0',1,'OpenTyper']]]
 ];

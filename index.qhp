@@ -21,7 +21,38 @@
           <section title="Class List" ref="annotated.html">
             <section title="behaviorOptions" ref="classbehaviorOptions.html" />
             <section title="builtinPacks" ref="classbuiltinPacks.html" />
-            <section title="configParser" ref="classconfigParser.html" />
+            <section title="configParser" ref="classconfigParser.html">
+              <section title="configParser" ref="classconfigParser.html#a7fca8c252df17f7dbdce4e6f7c61ae62" />
+              <section title="addExercise" ref="classconfigParser.html#aed55ed862ae8be82b42385f42193ea65" />
+              <section title="close" ref="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1" />
+              <section title="exerciseAttribute" ref="classconfigParser.html#a18d87f4b2ddd523ac4476fc510b211f8" />
+              <section title="exerciseAttributes" ref="classconfigParser.html#ade7ea5a576b8de1db3cd7dd0fa4456d6" />
+              <section title="exerciseCount" ref="classconfigParser.html#a2e435706e8bee559515f25074fbcd7a2" />
+              <section title="exerciseID" ref="classconfigParser.html#add14cf29749e2e59f136c959f90b6272" />
+              <section title="exerciseLine" ref="classconfigParser.html#a1f838b1e16a47bba35ffa184d7f5e5cc" />
+              <section title="exerciseLineLength" ref="classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad" />
+              <section title="exerciseRawText" ref="classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724" />
+              <section title="exerciseRawText" ref="classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b" />
+              <section title="exerciseRepeatBool" ref="classconfigParser.html#a63e44b8aea3e62963145781ab4cd73df" />
+              <section title="exerciseRepeatBool" ref="classconfigParser.html#a37d3235f050bb2b8066fc56ffd71709a" />
+              <section title="exerciseRepeatConfig" ref="classconfigParser.html#a58ab2a6c3f844fc996051ac9ee752431" />
+              <section title="exerciseRepeatLimit" ref="classconfigParser.html#a82fd11566298d0ca9a928b74b277da52" />
+              <section title="exerciseRepeatType" ref="classconfigParser.html#ada7d47ae6c03fbe60727236164df0c95" />
+              <section title="exerciseRepeatType" ref="classconfigParser.html#a3f69cbbdb3e7268f730555c2cfe2c74c" />
+              <section title="exerciseText" ref="classconfigParser.html#abcf6455297d66a7b7401fb35de6b2dae" />
+              <section title="fileName" ref="classconfigParser.html#a71c4dbe698008b2e245effdf5360deae" />
+              <section title="generateText" ref="classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794" />
+              <section title="initExercise" ref="classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c" />
+              <section title="initExercise" ref="classconfigParser.html#a5ab3662fbf05c73db7d6e40a26f80c8c" />
+              <section title="lessonCount" ref="classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4" />
+              <section title="lessonDesc" ref="classconfigParser.html#aebd0b83cafef103a291c1a2b6ae1ef00" />
+              <section title="lineOf" ref="classconfigParser.html#a33a3e1eb8328c87e8a8ccf26c125637f" />
+              <section title="open" ref="classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021" />
+              <section title="parseDesc" ref="classconfigParser.html#a1011cf48da6bafdf3f2275fb01fd0064" />
+              <section title="reopen" ref="classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390" />
+              <section title="sublessonCount" ref="classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86" />
+              <section title="sublessonName" ref="classconfigParser.html#a2922133b71c6050af206853e6c64586d" />
+            </section>
             <section title="customizationOptions" ref="classcustomizationOptions.html" />
             <section title="Downloader" ref="classDownloader.html" />
             <section title="fileUtils" ref="classfileUtils.html">
@@ -747,6 +778,12 @@
       <file>functions.html</file>
       <file>functions.html</file>
       <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>

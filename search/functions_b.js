@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['setcolors_0',['setColors',['../classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5',1,'OpenTyper']]],
-  ['setfont_1',['setFont',['../classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e',1,'OpenTyper']]],
-  ['sethitcount_2',['setHitCount',['../classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb',1,'levelSummary']]],
-  ['sethits_3',['setHits',['../classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2',1,'levelSummary']]],
-  ['setmistakes_4',['setMistakes',['../classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66',1,'levelSummary']]],
-  ['settotaltime_5',['setTotalTime',['../classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498',1,'levelSummary']]],
-  ['showok_6',['showOK',['../classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e',1,'levelSummary']]],
-  ['startlevel_7',['startLevel',['../classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f',1,'OpenTyper']]],
-  ['sublessonselectionlistindexchanged_8',['sublessonSelectionListIndexChanged',['../classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922',1,'OpenTyper']]]
+  ['open_0',['open',['../classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021',1,'configParser']]],
+  ['openeditor_1',['openEditor',['../classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1',1,'OpenTyper']]],
+  ['openexercisefromfile_2',['openExerciseFromFile',['../classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9',1,'OpenTyper']]],
+  ['openoptions_3',['openOptions',['../classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e',1,'OpenTyper']]],
+  ['openpack_4',['openPack',['../classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d',1,'OpenTyper']]],
+  ['opentyper_5',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]]
 ];

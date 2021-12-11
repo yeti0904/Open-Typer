@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['updatecurrenttime_0',['updateCurrentTime',['../classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1',1,'OpenTyper']]],
-  ['updatelinelength_1',['updateLineLength',['../classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b',1,'paperConfigDialog']]],
-  ['updatetext_2',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper']]],
-  ['updatetheme_3',['updateTheme',['../classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0',1,'OpenTyper']]]
+  ['paperconfigdialog_0',['paperConfigDialog',['../classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b',1,'paperConfigDialog']]],
+  ['parsedesc_1',['parseDesc',['../classconfigParser.html#a1011cf48da6bafdf3f2275fb01fd0064',1,'configParser']]],
+  ['previouslevel_2',['previousLevel',['../classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b',1,'OpenTyper']]]
 ];
