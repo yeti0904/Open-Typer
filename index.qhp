@@ -267,6 +267,7 @@
       <keyword name="customPaperColor" id="customizationOptions::customPaperColor" ref="classcustomizationOptions.html#aefb17873c26ac479122229f89196af60" />
       <keyword name="customPanelColor" id="customizationOptions::customPanelColor" ref="classcustomizationOptions.html#a63154eb5806c0c37337bb0f8b38785b9" />
       <keyword name="Downloader" id="Downloader" ref="classDownloader.html" />
+      <keyword name="cancelDownload" id="Downloader::cancelDownload" ref="classDownloader.html#a212995382f9a25011913e161b998f2a7" />
       <keyword name="downloaded" id="Downloader::downloaded" ref="classDownloader.html#a999c05d20756945267b268ab52ba6dae" />
       <keyword name="progressChanged" id="Downloader::progressChanged" ref="classDownloader.html#a6532e1a8bc8e0995f9dd27e6b2fc1be4" />
       <keyword name="Downloader" id="Downloader::Downloader" ref="classDownloader.html#aa17d571750e0b99cd5d659597c6684e1" />
@@ -276,6 +277,7 @@
       <keyword name="downloadProgress" id="Downloader::downloadProgress" ref="classDownloader.html#acb7e8ab6735e292793b62bdbefbe3514" />
       <keyword name="m_WebCtrl" id="Downloader::m_WebCtrl" ref="classDownloader.html#a970c45f78de03f7d2725eb5dd67d3f13" />
       <keyword name="m_DownloadedData" id="Downloader::m_DownloadedData" ref="classDownloader.html#a185f552bbfbd0e9961bf3aa66975d060" />
+      <keyword name="reply" id="Downloader::reply" ref="classDownloader.html#abdd7aa4d6484987acefc87e666c1ea7b" />
       <keyword name="fileUtils" id="fileUtils" ref="classfileUtils.html" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -537,10 +539,12 @@
       <keyword name="updatedProgram" id="Updater::updatedProgram" ref="classUpdater.html#ac786753efe6b8e4384254df0592b2c90" />
       <keyword name="UpdaterDialog" id="UpdaterDialog" ref="classUpdaterDialog.html" />
       <keyword name="updateProgress" id="UpdaterDialog::updateProgress" ref="classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4" />
+      <keyword name="cancelDownload" id="UpdaterDialog::cancelDownload" ref="classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf" />
       <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0" />
       <keyword name="setCurrentVer" id="UpdaterDialog::setCurrentVer" ref="classUpdaterDialog.html#a79b915399378fa8dddece96e4ca889c3" />
       <keyword name="setNewVer" id="UpdaterDialog::setNewVer" ref="classUpdaterDialog.html#adcbb46b4934299196cf9f9d57376064e" />
       <keyword name="closeEvent" id="UpdaterDialog::closeEvent" ref="classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1" />
+      <keyword name="abortDownload" id="UpdaterDialog::abortDownload" ref="classUpdaterDialog.html#a7b7d96f8b1dcf3f8d1b30e3e08da3755" />
       <keyword name="ui" id="UpdaterDialog::ui" ref="classUpdaterDialog.html#afff6bfb3f2078b3e9e7a73651f2ad147" />
       <keyword name="_downloading" id="UpdaterDialog::_downloading" ref="classUpdaterDialog.html#a6f15b8bcca5eabde000873b2084864bd" />
     </keywords>
