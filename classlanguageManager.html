@@ -91,12 +91,17 @@ $(document).ready(function(){initNavTree('classlanguageManager.html',''); initRe
   <div class="headertitle"><div class="title">languageManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages.">languageManager</a> class provides a list of supported languages.  
+ <a href="classlanguageManager.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="language_8h_source.html">core/language.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for languageManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlanguageManager__inherit__graph.png" border="0" usemap="#alanguageManager_inherit__map" alt="Inheritance graph"/></div>
 <map name="alanguageManager_inherit__map" id="alanguageManager_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,80,129,107"/>
+<area shape="rect" title="The languageManager class provides a list of supported languages." alt="" coords="5,80,129,107"/>
 <area shape="rect" title=" " alt="" coords="32,5,103,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -105,16 +110,17 @@ Collaboration diagram for languageManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classlanguageManager__coll__graph.png" border="0" usemap="#alanguageManager_coll__map" alt="Collaboration graph"/></div>
 <map name="alanguageManager_coll__map" id="alanguageManager_coll__map">
-<area shape="rect" title=" " alt="" coords="5,80,129,107"/>
+<area shape="rect" title="The languageManager class provides a list of supported languages." alt="" coords="5,80,129,107"/>
 <area shape="rect" title=" " alt="" coords="32,5,103,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abe17868a43f7d0ad2c10d37245ae43bb"><td class="memItemLeft" align="right" valign="top"><a id="abe17868a43f7d0ad2c10d37245ae43bb" name="abe17868a43f7d0ad2c10d37245ae43bb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>languageManager</b> (QObject *parent=nullptr)</td></tr>
+<tr class="memitem:abe17868a43f7d0ad2c10d37245ae43bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb">languageManager</a> (QObject *parent=nullptr)</td></tr>
 <tr class="separator:abe17868a43f7d0ad2c10d37245ae43bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa528e7f1356bfb831104e0c4e1c6c485"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485">~languageManager</a> ()</td></tr>
+<tr class="separator:aa528e7f1356bfb831104e0c4e1c6c485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -128,6 +134,68 @@ QList&lt; QLocale::Country &gt;&#160;</td><td class="memItemRight" valign="botto
 QStringList&#160;</td><td class="memItemRight" valign="bottom"><b>boxItems</b></td></tr>
 <tr class="separator:aedfb85e051ce25c65e5dbeb1dc4f97a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >The <a class="el" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages.">languageManager</a> class provides a list of supported languages. </p>
+<div class="fragment"><div class="line"><a class="code hl_class" href="classlanguageManager.html">languageManager</a> langMgr;</div>
+<div class="line">QList&lt;QLocale::Language&gt; languages = langMgr.supportedLanguages; <span class="comment">// list of supported languages</span></div>
+<div class="line">QList&lt;QLocale::Country&gt; countries = langMgr.supportedCountries; <span class="comment">// list of supported countries (every language has a country, e. g. en_US and en_GB)</span></div>
+<div class="line">QStringList items = langMgr.boxItems; <span class="comment">// list of languages, which can be used in selector widgets</span></div>
+<div class="ttc" id="aclasslanguageManager_html"><div class="ttname"><a href="classlanguageManager.html">languageManager</a></div><div class="ttdoc">The languageManager class provides a list of supported languages.</div><div class="ttdef"><b>Definition:</b> language.h:40</div></div>
+</div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="classlanguageList.html">languageList</a> </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abe17868a43f7d0ad2c10d37245ae43bb" name="abe17868a43f7d0ad2c10d37245ae43bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe17868a43f7d0ad2c10d37245ae43bb">&#9670;&nbsp;</a></span>languageManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">languageManager::languageManager </td>
+          <td>(</td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Constructs <a class="el" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages.">languageManager</a>. </p>
+
+</div>
+</div>
+<a id="aa528e7f1356bfb831104e0c4e1c6c485" name="aa528e7f1356bfb831104e0c4e1c6c485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa528e7f1356bfb831104e0c4e1c6c485">&#9670;&nbsp;</a></span>~languageManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">languageManager::~languageManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Destroys the <a class="el" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages.">languageManager</a> object. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/include/core/<a class="el" href="language_8h_source.html">language.h</a></li>
 <li>src/core/language.cpp</li>

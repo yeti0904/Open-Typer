@@ -1,6 +1,6 @@
 <map id="languageList" name="languageList">
 <area shape="rect" id="node1" title=" " alt="" coords="49,171,145,197"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="$classlanguageManager.html" title=" " alt="" coords="124,81,248,108"/>
+<area shape="rect" id="node3" href="$classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="124,81,248,108"/>
 <area shape="rect" id="node4" title=" " alt="" coords="151,5,221,32"/>
 </map>

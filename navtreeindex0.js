@@ -57,6 +57,8 @@ var NAVTREEINDEX0 =
 "classkeyboardUtils.html":[5,0,8],
 "classlanguageList.html":[5,0,9],
 "classlanguageManager.html":[5,0,10],
+"classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485":[5,0,10,1],
+"classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb":[5,0,10,0],
 "classlevelSummary.html":[5,0,11],
 "classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2":[5,0,11,3],
 "classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb":[5,0,11,2],

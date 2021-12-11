@@ -38,7 +38,10 @@
             <section title="keyboardOptions" ref="classkeyboardOptions.html" />
             <section title="keyboardUtils" ref="classkeyboardUtils.html" />
             <section title="languageList" ref="classlanguageList.html" />
-            <section title="languageManager" ref="classlanguageManager.html" />
+            <section title="languageManager" ref="classlanguageManager.html">
+              <section title="languageManager" ref="classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb" />
+              <section title="~languageManager" ref="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485" />
+            </section>
             <section title="levelSummary" ref="classlevelSummary.html">
               <section title="levelSummary" ref="classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28" />
               <section title="~levelSummary" ref="classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2" />
@@ -315,6 +318,7 @@
       <keyword name="settings" id="languageList::settings" ref="classlanguageList.html#a7f4abf4e0a15263d4b2583a65bafec0b" />
       <keyword name="languageManager" id="languageManager" ref="classlanguageManager.html" />
       <keyword name="languageManager" id="languageManager::languageManager" ref="classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb" />
+      <keyword name="~languageManager" id="languageManager::~languageManager" ref="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485" />
       <keyword name="supportedLanguages" id="languageManager::supportedLanguages" ref="classlanguageManager.html#a9a9c7204f4fda5fdaf854374cc609c29" />
       <keyword name="supportedCountries" id="languageManager::supportedCountries" ref="classlanguageManager.html#ab715083a9b92b8a7a2b3f0ab8215c458" />
       <keyword name="boxItems" id="languageManager::boxItems" ref="classlanguageManager.html#aedfb85e051ce25c65e5dbeb1dc4f97a8" />

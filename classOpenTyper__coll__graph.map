@@ -1,7 +1,7 @@
 <map id="OpenTyper" name="OpenTyper">
 <area shape="rect" id="node1" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="165,275,251,301"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,185,112,212"/>
-<area shape="rect" id="node3" href="$classlanguageManager.html" title=" " alt="" coords="89,133,213,160"/>
+<area shape="rect" id="node3" href="$classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="89,133,213,160"/>
 <area shape="rect" id="node4" title=" " alt="" coords="273,5,343,32"/>
 <area shape="rect" id="node5" href="$classconfigParser.html" title=" " alt="" coords="219,133,314,160"/>
 <area shape="rect" id="node6" href="$classUpdater.html" title=" " alt="" coords="322,185,390,212"/>
