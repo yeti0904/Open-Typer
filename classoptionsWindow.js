@@ -6,5 +6,6 @@ var classoptionsWindow =
     [ "changeLanguage", "classoptionsWindow.html#acb6939ca9899f8dfd9c6d2c1e649be63", null ],
     [ "changeOptionWidget", "classoptionsWindow.html#a579aae16bd3523b42cf615365679a063", null ],
     [ "init", "classoptionsWindow.html#aa1d9b8a39432d285200464166c704681", null ],
+    [ "languageChanged", "classoptionsWindow.html#acf4c0ce7d0a7f69285a18730bae6e16a", null ],
     [ "setupList", "classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd", null ]
 ];
