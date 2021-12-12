@@ -19,7 +19,13 @@
         </section>
         <section title="Classes" ref="annotated.html">
           <section title="Class List" ref="annotated.html">
-            <section title="behaviorOptions" ref="classbehaviorOptions.html" />
+            <section title="behaviorOptions" ref="classbehaviorOptions.html">
+              <section title="behaviorOptions" ref="classbehaviorOptions.html#a604e707e9c208f8dd09d47714b1d52a2" />
+              <section title="~behaviorOptions" ref="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b" />
+              <section title="setErrorPenalty" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58" />
+              <section title="setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
+              <section title="setTextViewMode" ref="classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61" />
+            </section>
             <section title="builtinPacks" ref="classbuiltinPacks.html" />
             <section title="configParser" ref="classconfigParser.html">
               <section title="configParser" ref="classconfigParser.html#a7fca8c252df17f7dbdce4e6f7c61ae62" />
@@ -236,6 +242,7 @@
       <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions.html#a604e707e9c208f8dd09d47714b1d52a2" />
+      <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
       <keyword name="setErrorPenalty" id="behaviorOptions::setErrorPenalty" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58" />
       <keyword name="setTextViewMode" id="behaviorOptions::setTextViewMode" ref="classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61" />
@@ -797,6 +804,8 @@
       <file>functions.html</file>
       <file>functions.html</file>
       <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
