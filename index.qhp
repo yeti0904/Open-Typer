@@ -664,6 +664,7 @@
       <file>classbehaviorOptions.html</file>
       <file>classbehaviorOptions__inherit__graph.png</file>
       <file>classbehaviorOptions__coll__graph.png</file>
+      <file>behaviorOptions.png</file>
       <file>classbehaviorOptions-members.html</file>
       <file>classbuiltinPacks.html</file>
       <file>classbuiltinPacks__inherit__graph.png</file>
@@ -697,6 +698,7 @@
       <file>classlanguageList.html</file>
       <file>classlanguageList__inherit__graph.png</file>
       <file>classlanguageList__coll__graph.png</file>
+      <file>languageList.png</file>
       <file>classlanguageList-members.html</file>
       <file>classlanguageManager.html</file>
       <file>classlanguageManager__inherit__graph.png</file>
@@ -719,6 +721,7 @@
       <file>classoptionsWindow.html</file>
       <file>classoptionsWindow__inherit__graph.png</file>
       <file>classoptionsWindow__coll__graph.png</file>
+      <file>optionsWindow.png</file>
       <file>classoptionsWindow-members.html</file>
       <file>classpackEditor.html</file>
       <file>classpackEditor__inherit__graph.png</file>
