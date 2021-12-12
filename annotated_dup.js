@@ -14,7 +14,7 @@ var annotated_dup =
     [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],
     [ "Net", "classNet.html", null ],
     [ "OpenTyper", "classOpenTyper.html", "classOpenTyper" ],
-    [ "optionsWindow", "classoptionsWindow.html", null ],
+    [ "optionsWindow", "classoptionsWindow.html", "classoptionsWindow" ],
     [ "packEditor", "classpackEditor.html", null ],
     [ "packSelector", "classpackSelector.html", null ],
     [ "packView", "classpackView.html", null ],

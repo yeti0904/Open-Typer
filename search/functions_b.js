@@ -5,5 +5,6 @@ var searchData=
   ['openexercisefromfile_2',['openExerciseFromFile',['../classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9',1,'OpenTyper']]],
   ['openoptions_3',['openOptions',['../classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e',1,'OpenTyper']]],
   ['openpack_4',['openPack',['../classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d',1,'OpenTyper']]],
-  ['opentyper_5',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]]
+  ['opentyper_5',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]],
+  ['optionswindow_6',['optionsWindow',['../classoptionsWindow.html#a45fae6808c165b25c933492140379fd3',1,'optionsWindow']]]
 ];

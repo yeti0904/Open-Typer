@@ -116,7 +116,15 @@
               <section title="zoomIn" ref="classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236" />
               <section title="zoomOut" ref="classOpenTyper.html#a26d722e59eb5364522f42996eff39075" />
             </section>
-            <section title="optionsWindow" ref="classoptionsWindow.html" />
+            <section title="optionsWindow" ref="classoptionsWindow.html">
+              <section title="optionsWindow" ref="classoptionsWindow.html#a45fae6808c165b25c933492140379fd3" />
+              <section title="~optionsWindow" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c" />
+              <section title="changeEvent" ref="classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754" />
+              <section title="changeLanguage" ref="classoptionsWindow.html#acb6939ca9899f8dfd9c6d2c1e649be63" />
+              <section title="changeOptionWidget" ref="classoptionsWindow.html#a579aae16bd3523b42cf615365679a063" />
+              <section title="init" ref="classoptionsWindow.html#aa1d9b8a39432d285200464166c704681" />
+              <section title="setupList" ref="classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd" />
+            </section>
             <section title="packEditor" ref="classpackEditor.html" />
             <section title="packSelector" ref="classpackSelector.html" />
             <section title="packView" ref="classpackView.html" />
@@ -466,6 +474,7 @@
       <keyword name="optionsWindow" id="optionsWindow" ref="classoptionsWindow.html" />
       <keyword name="languageChanged" id="optionsWindow::languageChanged" ref="classoptionsWindow.html#acf4c0ce7d0a7f69285a18730bae6e16a" />
       <keyword name="optionsWindow" id="optionsWindow::optionsWindow" ref="classoptionsWindow.html#a45fae6808c165b25c933492140379fd3" />
+      <keyword name="~optionsWindow" id="optionsWindow::~optionsWindow" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c" />
       <keyword name="init" id="optionsWindow::init" ref="classoptionsWindow.html#aa1d9b8a39432d285200464166c704681" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754" />
       <keyword name="changeOptionWidget" id="optionsWindow::changeOptionWidget" ref="classoptionsWindow.html#a579aae16bd3523b42cf615365679a063" />
