@@ -61,7 +61,29 @@
               <section title="sublessonCount" ref="classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86" />
               <section title="sublessonName" ref="classconfigParser.html#a2922133b71c6050af206853e6c64586d" />
             </section>
-            <section title="customizationOptions" ref="classcustomizationOptions.html" />
+            <section title="customizationOptions" ref="classcustomizationOptions.html">
+              <section title="customizationOptions" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c" />
+              <section title="~customizationOptions" ref="classcustomizationOptions.html#a151df44d17775b94b225661a695d03be" />
+              <section title="changeBgColor" ref="classcustomizationOptions.html#a5efb64bebcdd3a50546fe762eb4421be" />
+              <section title="changeFont" ref="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
+              <section title="changeFontSize" ref="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615" />
+              <section title="changeInputTextColor" ref="classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d" />
+              <section title="changeLevelTextColor" ref="classcustomizationOptions.html#a64b84b7eb2349fb7d27dc25480348deb" />
+              <section title="changePanelColor" ref="classcustomizationOptions.html#acf0e7da87d84efdb0a7a322e302bf1f7" />
+              <section title="changePaperColor" ref="classcustomizationOptions.html#aa1c74da1aa50bef2814b5e1bfda35205" />
+              <section title="changeTheme" ref="classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31" />
+              <section title="init" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5" />
+              <section title="resetBgPaperColors" ref="classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af" />
+              <section title="resetFont" ref="classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80" />
+              <section title="resetTextColors" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05" />
+              <section title="saveColorSettings" ref="classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f" />
+              <section title="setBoldText" ref="classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e" />
+              <section title="setColors" ref="classcustomizationOptions.html#acada628a325da33b633c37e40955ecde" />
+              <section title="setFont" ref="classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f" />
+              <section title="setItalicText" ref="classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d" />
+              <section title="setUnderlineText" ref="classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950" />
+              <section title="updateTheme" ref="classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230" />
+            </section>
             <section title="Downloader" ref="classDownloader.html" />
             <section title="fileUtils" ref="classfileUtils.html">
               <section title="configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
@@ -288,6 +310,7 @@
       <keyword name="configFile" id="configParser::configFile" ref="classconfigParser.html#a3f3248389fbd24ce5ec60b0a3d56e543" />
       <keyword name="customizationOptions" id="customizationOptions" ref="classcustomizationOptions.html" />
       <keyword name="customizationOptions" id="customizationOptions::customizationOptions" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c" />
+      <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions.html#a151df44d17775b94b225661a695d03be" />
       <keyword name="init" id="customizationOptions::init" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5" />
       <keyword name="changeFont" id="customizationOptions::changeFont" ref="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615" />
@@ -679,6 +702,7 @@
       <file>classcustomizationOptions.html</file>
       <file>classcustomizationOptions__inherit__graph.png</file>
       <file>classcustomizationOptions__coll__graph.png</file>
+      <file>customizationOptions.png</file>
       <file>classcustomizationOptions-members.html</file>
       <file>classDownloader.html</file>
       <file>classDownloader__inherit__graph.png</file>
