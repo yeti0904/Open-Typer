@@ -1,7 +1,7 @@
 var annotated_dup =
 [
     [ "behaviorOptions", "classbehaviorOptions.html", "classbehaviorOptions" ],
-    [ "builtinPacks", "classbuiltinPacks.html", null ],
+    [ "builtinPacks", "classbuiltinPacks.html", "classbuiltinPacks" ],
     [ "configParser", "classconfigParser.html", "classconfigParser" ],
     [ "customizationOptions", "classcustomizationOptions.html", null ],
     [ "Downloader", "classDownloader.html", null ],

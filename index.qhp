@@ -26,7 +26,9 @@
               <section title="setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
               <section title="setTextViewMode" ref="classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61" />
             </section>
-            <section title="builtinPacks" ref="classbuiltinPacks.html" />
+            <section title="builtinPacks" ref="classbuiltinPacks.html">
+              <section title="packName" ref="classbuiltinPacks.html#a6b49a3342d9edcadd208da1cc6b550b0" />
+            </section>
             <section title="configParser" ref="classconfigParser.html">
               <section title="configParser" ref="classconfigParser.html#a7fca8c252df17f7dbdce4e6f7c61ae62" />
               <section title="addExercise" ref="classconfigParser.html#aed55ed862ae8be82b42385f42193ea65" />
