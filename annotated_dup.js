@@ -4,7 +4,7 @@ var annotated_dup =
     [ "builtinPacks", "classbuiltinPacks.html", "classbuiltinPacks" ],
     [ "configParser", "classconfigParser.html", "classconfigParser" ],
     [ "customizationOptions", "classcustomizationOptions.html", "classcustomizationOptions" ],
-    [ "Downloader", "classDownloader.html", null ],
+    [ "Downloader", "classDownloader.html", "classDownloader" ],
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
     [ "inputLabelWidget", "classinputLabelWidget.html", "classinputLabelWidget" ],
     [ "keyboardOptions", "classkeyboardOptions.html", null ],

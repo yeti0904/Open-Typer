@@ -1,22 +1,10 @@
 var searchData=
 [
-  ['savecolorsettings_0',['saveColorSettings',['../classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f',1,'customizationOptions']]],
-  ['setboldtext_1',['setBoldText',['../classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e',1,'customizationOptions']]],
-  ['setcolors_2',['setColors',['../classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5',1,'OpenTyper::setColors()'],['../classcustomizationOptions.html#acada628a325da33b633c37e40955ecde',1,'customizationOptions::setColors()']]],
-  ['seterrorpenalty_3',['setErrorPenalty',['../classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58',1,'behaviorOptions']]],
-  ['setfont_4',['setFont',['../classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e',1,'OpenTyper::setFont()'],['../classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f',1,'customizationOptions::setFont()']]],
-  ['sethitcount_5',['setHitCount',['../classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb',1,'levelSummary']]],
-  ['sethits_6',['setHits',['../classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2',1,'levelSummary']]],
-  ['setitalictext_7',['setItalicText',['../classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d',1,'customizationOptions']]],
-  ['setmistakes_8',['setMistakes',['../classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66',1,'levelSummary']]],
-  ['setspacenewline_9',['setSpaceNewline',['../classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5',1,'behaviorOptions']]],
-  ['settextviewmode_10',['setTextViewMode',['../classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61',1,'behaviorOptions']]],
-  ['settotaltime_11',['setTotalTime',['../classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498',1,'levelSummary']]],
-  ['setunderlinetext_12',['setUnderlineText',['../classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950',1,'customizationOptions']]],
-  ['setuplist_13',['setupList',['../classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd',1,'optionsWindow']]],
-  ['showok_14',['showOK',['../classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e',1,'levelSummary']]],
-  ['startlevel_15',['startLevel',['../classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f',1,'OpenTyper']]],
-  ['sublessoncount_16',['sublessonCount',['../classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86',1,'configParser']]],
-  ['sublessonname_17',['sublessonName',['../classconfigParser.html#a2922133b71c6050af206853e6c64586d',1,'configParser']]],
-  ['sublessonselectionlistindexchanged_18',['sublessonSelectionListIndexChanged',['../classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922',1,'OpenTyper']]]
+  ['refreshall_0',['refreshAll',['../classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5',1,'OpenTyper']]],
+  ['reject_1',['reject',['../classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301',1,'paperConfigDialog']]],
+  ['reopen_2',['reopen',['../classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390',1,'configParser']]],
+  ['repeatlevel_3',['repeatLevel',['../classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e',1,'OpenTyper']]],
+  ['resetbgpapercolors_4',['resetBgPaperColors',['../classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af',1,'customizationOptions']]],
+  ['resetfont_5',['resetFont',['../classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80',1,'customizationOptions']]],
+  ['resettextcolors_6',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]]
 ];

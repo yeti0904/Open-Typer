@@ -84,7 +84,16 @@
               <section title="setUnderlineText" ref="classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950" />
               <section title="updateTheme" ref="classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230" />
             </section>
-            <section title="Downloader" ref="classDownloader.html" />
+            <section title="Downloader" ref="classDownloader.html">
+              <section title="Downloader" ref="classDownloader.html#aa17d571750e0b99cd5d659597c6684e1" />
+              <section title="~Downloader" ref="classDownloader.html#a7ef888789ffe71122774bd249ccbbf32" />
+              <section title="cancelDownload" ref="classDownloader.html#a212995382f9a25011913e161b998f2a7" />
+              <section title="downloaded" ref="classDownloader.html#a999c05d20756945267b268ab52ba6dae" />
+              <section title="downloadedData" ref="classDownloader.html#a5cdbcf299ec677c2176d07246dfa6313" />
+              <section title="downloadProgress" ref="classDownloader.html#acb7e8ab6735e292793b62bdbefbe3514" />
+              <section title="fileDownloaded" ref="classDownloader.html#ab9e6863b4f8b6b01f5c4546f06cd1394" />
+              <section title="progressChanged" ref="classDownloader.html#a6532e1a8bc8e0995f9dd27e6b2fc1be4" />
+            </section>
             <section title="fileUtils" ref="classfileUtils.html">
               <section title="configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
               <section title="mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -357,6 +366,7 @@
       <keyword name="downloaded" id="Downloader::downloaded" ref="classDownloader.html#a999c05d20756945267b268ab52ba6dae" />
       <keyword name="progressChanged" id="Downloader::progressChanged" ref="classDownloader.html#a6532e1a8bc8e0995f9dd27e6b2fc1be4" />
       <keyword name="Downloader" id="Downloader::Downloader" ref="classDownloader.html#aa17d571750e0b99cd5d659597c6684e1" />
+      <keyword name="~Downloader" id="Downloader::~Downloader" ref="classDownloader.html#a7ef888789ffe71122774bd249ccbbf32" />
       <keyword name="downloadedData" id="Downloader::downloadedData" ref="classDownloader.html#a5cdbcf299ec677c2176d07246dfa6313" />
       <keyword name="downloadProgressPercentage" id="Downloader::downloadProgressPercentage" ref="classDownloader.html#aa89c8a376d4afe0669890f0cf7131958" />
       <keyword name="fileDownloaded" id="Downloader::fileDownloaded" ref="classDownloader.html#ab9e6863b4f8b6b01f5c4546f06cd1394" />
@@ -834,6 +844,8 @@
       <file>functions.html</file>
       <file>functions.html</file>
       <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
