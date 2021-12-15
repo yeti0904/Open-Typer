@@ -135,7 +135,9 @@
             <section title="setTotalTime" ref="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498" />
             <section title="showOK" ref="classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e" />
           </section>
-          <section title="Net" ref="classNet.html" />
+          <section title="Net" ref="classNet.html">
+            <section title="internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
+          </section>
           <section title="OpenTyper" ref="classOpenTyper.html">
             <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
             <section title="~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
@@ -179,9 +181,53 @@
             <section title="languageChanged" ref="classoptionsWindow.html#acf4c0ce7d0a7f69285a18730bae6e16a" />
             <section title="setupList" ref="classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd" />
           </section>
-          <section title="packEditor" ref="classpackEditor.html" />
-          <section title="packSelector" ref="classpackSelector.html" />
-          <section title="packView" ref="classpackView.html" />
+          <section title="packEditor" ref="classpackEditor.html">
+            <section title="packEditor" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9" />
+            <section title="~packEditor" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382" />
+            <section title="close" ref="classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea" />
+            <section title="closeAll" ref="classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952" />
+            <section title="closeEvent" ref="classpackEditor.html#aa403472b118aef534f8093106316ce05" />
+            <section title="closeTab" ref="classpackEditor.html#a8029fd89ffc29702456698439e7a1d39" />
+            <section title="createNewFile" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30" />
+            <section title="fixDuplicates" ref="classpackEditor.html#adc05a78ba2be2683492db4f0842842be" />
+            <section title="init" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953" />
+            <section title="openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2" />
+            <section title="openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91" />
+            <section title="setFileName" ref="classpackEditor.html#acab56991754277171feb8adebd317130" />
+            <section title="setNewFile" ref="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff" />
+          </section>
+          <section title="packSelector" ref="classpackSelector.html">
+            <section title="packSelector" ref="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d" />
+            <section title="~packSelector" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b" />
+            <section title="selectedConfig" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008" />
+          </section>
+          <section title="packView" ref="classpackView.html">
+            <section title="packView" ref="classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c" />
+            <section title="~packView" ref="classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898" />
+            <section title="addExercise" ref="classpackView.html#ab4fe3c8c23f5a0e0a99b94933dd6c37c" />
+            <section title="addLesson" ref="classpackView.html#aba664423357bcf4119ca03e23269145c" />
+            <section title="addSublesson" ref="classpackView.html#af80c1cef07727e552344f54ce4033b65" />
+            <section title="changeExercisePos" ref="classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
+            <section title="changeLessonDesc" ref="classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a" />
+            <section title="changeLineLength" ref="classpackView.html#a2afc56c1ff61a63026c5926098ccdc6a" />
+            <section title="changeRepeating" ref="classpackView.html#aa27ec7d9ffe06948c110d13cbbc76da0" />
+            <section title="changeRepeatLength" ref="classpackView.html#ac18df3d9e3edaa386dcf8146a73cfea2" />
+            <section title="closeFile" ref="classpackView.html#af4354b6daeb151a17ec54109bc6c32be" />
+            <section title="deleteExerciseLine" ref="classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0" />
+            <section title="getFileName" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585" />
+            <section title="openFile" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e" />
+            <section title="refreshUi" ref="classpackView.html#acc9cd8c1c5399955dcf8e7c542fb66c8" />
+            <section title="removeExercise" ref="classpackView.html#adcd3860837b5b61136d888c13bc85a05" />
+            <section title="restoreText" ref="classpackView.html#aa75a453ca470d60c9a3fd68281645d65" />
+            <section title="save" ref="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00" />
+            <section title="saveAs" ref="classpackView.html#ac2bebdcab08ff9693863e0525da61be8" />
+            <section title="setRevisionLesson" ref="classpackView.html#afb615797a5031658513124a814a1d51a" />
+            <section title="switchExercise" ref="classpackView.html#a8732f57a4ba307c14913aef98e524a3d" />
+            <section title="switchLesson" ref="classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8" />
+            <section title="switchSublesson" ref="classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7" />
+            <section title="updateTabTitle" ref="classpackView.html#a76c645567362eceb83e439965a07b3db" />
+            <section title="updateText" ref="classpackView.html#ab34651a29dd449dea66fa3128ea7b507" />
+          </section>
           <section title="paperConfigDialog" ref="classpaperConfigDialog.html">
             <section title="paperConfigDialog" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b" />
             <section title="~paperConfigDialog" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b" />
@@ -542,6 +588,7 @@
       <keyword name="ui" id="optionsWindow::ui" ref="classoptionsWindow.html#a9d8f2019045cd76cde4e0c86e1d2296d" />
       <keyword name="packEditor" id="packEditor" ref="classpackEditor.html" />
       <keyword name="packEditor" id="packEditor::packEditor" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9" />
+      <keyword name="~packEditor" id="packEditor::~packEditor" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382" />
       <keyword name="init" id="packEditor::init" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953" />
       <keyword name="setNewFile" id="packEditor::setNewFile" ref="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff" />
       <keyword name="setFileName" id="packEditor::setFileName" ref="classpackEditor.html#acab56991754277171feb8adebd317130" />
@@ -559,11 +606,13 @@
       <keyword name="defaultFileName" id="packEditor::defaultFileName" ref="classpackEditor.html#aba2a333c60084e8bf7015d4a6b2b494c" />
       <keyword name="packSelector" id="packSelector" ref="classpackSelector.html" />
       <keyword name="packSelector" id="packSelector::packSelector" ref="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d" />
+      <keyword name="~packSelector" id="packSelector::~packSelector" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b" />
       <keyword name="selectedConfig" id="packSelector::selectedConfig" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008" />
       <keyword name="rawItems" id="packSelector::rawItems" ref="classpackSelector.html#a6e6301be9f81850564cbb8c5766cfa7c" />
       <keyword name="ui" id="packSelector::ui" ref="classpackSelector.html#ab42b4d7dbce4b62bdaafd0662108b83e" />
       <keyword name="packView" id="packView" ref="classpackView.html" />
       <keyword name="packView" id="packView::packView" ref="classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c" />
+      <keyword name="~packView" id="packView::~packView" ref="classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898" />
       <keyword name="openFile" id="packView::openFile" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e" />
       <keyword name="closeFile" id="packView::closeFile" ref="classpackView.html#af4354b6daeb151a17ec54109bc6c32be" />
       <keyword name="getFileName" id="packView::getFileName" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585" />
@@ -773,14 +822,17 @@
       <file>classpackEditor.html</file>
       <file>classpackEditor__inherit__graph.png</file>
       <file>classpackEditor__coll__graph.png</file>
+      <file>packEditor.png</file>
       <file>classpackEditor-members.html</file>
       <file>classpackSelector.html</file>
       <file>classpackSelector__inherit__graph.png</file>
       <file>classpackSelector__coll__graph.png</file>
+      <file>packSelector.png</file>
       <file>classpackSelector-members.html</file>
       <file>classpackView.html</file>
       <file>classpackView__inherit__graph.png</file>
       <file>classpackView__coll__graph.png</file>
+      <file>packView.png</file>
       <file>classpackView-members.html</file>
       <file>classpaperConfigDialog.html</file>
       <file>classpaperConfigDialog__inherit__graph.png</file>

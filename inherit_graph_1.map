@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" title=" " alt="" coords="5,132,76,159"/>
 <area shape="rect" id="node2" href="$classDownloader.html" title="The downloader class provides functions for file downloading." alt="" coords="141,5,231,32"/>
-<area shape="rect" id="node3" href="$classNet.html" title=" " alt="" coords="165,56,207,83"/>
+<area shape="rect" id="node3" href="$classNet.html" title="The Net class provides network functions." alt="" coords="165,56,207,83"/>
 <area shape="rect" id="node4" href="$classUpdater.html" title=" " alt="" coords="152,107,220,133"/>
 <area shape="rect" id="node5" href="$classbuiltinPacks.html" title="The builtinPacks class provides functions for built&#45;in pack settings." alt="" coords="139,157,233,184"/>
 <area shape="rect" id="node6" href="$classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="139,208,233,235"/>

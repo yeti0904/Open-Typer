@@ -119,21 +119,24 @@ $(document).ready(function(){initNavTree('packselector_8h_source.html',''); init
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">class </span><a class="code hl_class" href="classpackSelector.html">packSelector</a>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classpackSelector.html">   33</a></span><span class="keyword">class </span><a class="code hl_class" href="classpackSelector.html">packSelector</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    Q_OBJECT</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keyword">explicit</span> <a class="code hl_class" href="classpackSelector.html">packSelector</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <a class="code hl_class" href="classpackSelector.html">~packSelector</a>();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        QString selectedConfig(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        QStringList rawItems;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        Ui::packSelector *ui;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// PACKSELECTOR_H</span></div>
-<div class="ttc" id="aclasspackSelector_html"><div class="ttname"><a href="classpackSelector.html">packSelector</a></div><div class="ttdef"><b>Definition:</b> packselector.h:34</div></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classpackSelector.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="classpackSelector.html">packSelector</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    Q_OBJECT</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d">packSelector</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_function" href="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b">~packSelector</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        QString <a class="code hl_function" href="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008">selectedConfig</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        QStringList rawItems;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        Ui::packSelector *ui;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif </span><span class="comment">// PACKSELECTOR_H</span></div>
+<div class="ttc" id="aclasspackSelector_html"><div class="ttname"><a href="classpackSelector.html">packSelector</a></div><div class="ttdoc">The packSelector class is a QDialog, which allows the user to select a built-in pack.</div><div class="ttdef"><b>Definition:</b> packselector.h:39</div></div>
+<div class="ttc" id="aclasspackSelector_html_a5ff2264ada61381338ba429d1e36d008"><div class="ttname"><a href="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008">packSelector::selectedConfig</a></div><div class="ttdeci">QString selectedConfig(void)</div><div class="ttdef"><b>Definition:</b> packselector.cpp:58</div></div>
+<div class="ttc" id="aclasspackSelector_html_a7627e7a69e37f6a66512643b1c95055d"><div class="ttname"><a href="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d">packSelector::packSelector</a></div><div class="ttdeci">packSelector(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> packselector.cpp:25</div></div>
+<div class="ttc" id="aclasspackSelector_html_ae5c599cf2c312ad8fad8d0171946f10b"><div class="ttname"><a href="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b">packSelector::~packSelector</a></div><div class="ttdeci">~packSelector()</div><div class="ttdef"><b>Definition:</b> packselector.cpp:52</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -10,5 +10,8 @@ var searchData=
   ['_7elevelsummary_7',['~levelSummary',['../classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2',1,'levelSummary']]],
   ['_7eopentyper_8',['~OpenTyper',['../classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f',1,'OpenTyper']]],
   ['_7eoptionswindow_9',['~optionsWindow',['../classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c',1,'optionsWindow']]],
-  ['_7epaperconfigdialog_10',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]]
+  ['_7epackeditor_10',['~packEditor',['../classpackEditor.html#acc6fa330df5ca29c78538929eeabe382',1,'packEditor']]],
+  ['_7epackselector_11',['~packSelector',['../classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b',1,'packSelector']]],
+  ['_7epackview_12',['~packView',['../classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898',1,'packView']]],
+  ['_7epaperconfigdialog_13',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]]
 ];
