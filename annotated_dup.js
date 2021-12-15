@@ -7,7 +7,7 @@ var annotated_dup =
     [ "Downloader", "classDownloader.html", "classDownloader" ],
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
     [ "inputLabelWidget", "classinputLabelWidget.html", "classinputLabelWidget" ],
-    [ "keyboardOptions", "classkeyboardOptions.html", null ],
+    [ "keyboardOptions", "classkeyboardOptions.html", "classkeyboardOptions" ],
     [ "keyboardUtils", "classkeyboardUtils.html", null ],
     [ "languageList", "classlanguageList.html", "classlanguageList" ],
     [ "languageManager", "classlanguageManager.html", "classlanguageManager" ],
