@@ -90,16 +90,77 @@ $(document).ready(function(){initNavTree('classkeyboardUtils.html',''); initResi
   <div class="headertitle"><div class="title">keyboardUtils Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="classkeyboardUtils.html" title="The keyboardUtils class provides functions related to keyboard and input method.">keyboardUtils</a> class provides functions related to keyboard and input method.  
+ <a href="classkeyboardUtils.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="utils_8h_source.html">core/utils.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4669db4e273b32bcaeb3f9b2dfb2d85c"><td class="memItemLeft" align="right" valign="top"><a id="a4669db4e273b32bcaeb3f9b2dfb2d85c" name="a4669db4e273b32bcaeb3f9b2dfb2d85c"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSpecialKey</b> (QKeyEvent *event)</td></tr>
+<tr class="memitem:a4669db4e273b32bcaeb3f9b2dfb2d85c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c">isSpecialKey</a> (QKeyEvent *event)</td></tr>
 <tr class="separator:a4669db4e273b32bcaeb3f9b2dfb2d85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e8c562fdc522d0c8216ab2f4db4676"><td class="memItemLeft" align="right" valign="top"><a id="a62e8c562fdc522d0c8216ab2f4db4676" name="a62e8c562fdc522d0c8216ab2f4db4676"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDeadKey</b> (int key)</td></tr>
+<tr class="memitem:a62e8c562fdc522d0c8216ab2f4db4676"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676">isDeadKey</a> (int key)</td></tr>
 <tr class="separator:a62e8c562fdc522d0c8216ab2f4db4676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >The <a class="el" href="classkeyboardUtils.html" title="The keyboardUtils class provides functions related to keyboard and input method.">keyboardUtils</a> class provides functions related to keyboard and input method. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a62e8c562fdc522d0c8216ab2f4db4676" name="a62e8c562fdc522d0c8216ab2f4db4676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e8c562fdc522d0c8216ab2f4db4676">&#9670;&nbsp;</a></span>isDeadKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool keyboardUtils::isDeadKey </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns true if the key code belongs to a dead key. </p>
+
+</div>
+</div>
+<a id="a4669db4e273b32bcaeb3f9b2dfb2d85c" name="a4669db4e273b32bcaeb3f9b2dfb2d85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4669db4e273b32bcaeb3f9b2dfb2d85c">&#9670;&nbsp;</a></span>isSpecialKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool keyboardUtils::isSpecialKey </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns true if the key is a special key.<br  />
+Special keys are ignored by <a class="el" href="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593">OpenTyper::keyPress()</a>. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593">OpenTyper::keyPress()</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/include/core/<a class="el" href="utils_8h_source.html">utils.h</a></li>
 <li>src/core/utils.cpp</li>

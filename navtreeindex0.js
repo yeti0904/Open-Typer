@@ -124,6 +124,8 @@ var NAVTREEINDEX0 =
 "classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8":[3,0,7,3],
 "classkeyboardOptions.html#adc177d4a26aeac8ba7dd657d92a4e595":[3,0,7,0],
 "classkeyboardUtils.html":[3,0,8],
+"classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c":[3,0,8,1],
+"classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676":[3,0,8,0],
 "classlanguageList.html":[3,0,9],
 "classlanguageList.html#a561ad6910f45293e1889ce65048c335d":[3,0,9,0],
 "classlanguageList.html#a8d99b59d00bbdc29823c8caf94d83f75":[3,0,9,1],

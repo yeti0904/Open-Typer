@@ -8,7 +8,7 @@ var annotated_dup =
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
     [ "inputLabelWidget", "classinputLabelWidget.html", "classinputLabelWidget" ],
     [ "keyboardOptions", "classkeyboardOptions.html", "classkeyboardOptions" ],
-    [ "keyboardUtils", "classkeyboardUtils.html", null ],
+    [ "keyboardUtils", "classkeyboardUtils.html", "classkeyboardUtils" ],
     [ "languageList", "classlanguageList.html", "classlanguageList" ],
     [ "languageManager", "classlanguageManager.html", "classlanguageManager" ],
     [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],

@@ -112,7 +112,10 @@
             <section title="changePack" ref="classkeyboardOptions.html#a18842f598cf0466678e644127d7f1d67" />
             <section title="openEditor" ref="classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8" />
           </section>
-          <section title="keyboardUtils" ref="classkeyboardUtils.html" />
+          <section title="keyboardUtils" ref="classkeyboardUtils.html">
+            <section title="isDeadKey" ref="classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676" />
+            <section title="isSpecialKey" ref="classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
+          </section>
           <section title="languageList" ref="classlanguageList.html">
             <section title="languageList" ref="classlanguageList.html#a561ad6910f45293e1889ce65048c335d" />
             <section title="~languageList" ref="classlanguageList.html#a8d99b59d00bbdc29823c8caf94d83f75" />

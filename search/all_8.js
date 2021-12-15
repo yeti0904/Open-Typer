@@ -4,5 +4,7 @@ var searchData=
   ['initexercise_1',['initExercise',['../classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c',1,'configParser::initExercise(QString exercise, int lineLength)'],['../classconfigParser.html#a5ab3662fbf05c73db7d6e40a26f80c8c',1,'configParser::initExercise(QString exercise, int lineLength, bool lineCountLimit, int currentLine)']]],
   ['inittimedexercise_2',['initTimedExercise',['../classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc',1,'OpenTyper']]],
   ['inputlabelwidget_3',['inputLabelWidget',['../classinputLabelWidget.html',1,'inputLabelWidget'],['../classinputLabelWidget.html#a2683225e6719b9ae3efec1f5a6d38bfe',1,'inputLabelWidget::inputLabelWidget(QWidget *parent=nullptr)']]],
-  ['inputmethodevent_4',['inputMethodEvent',['../classinputLabelWidget.html#a095860438ebd9dd726bc4c07ec985e99',1,'inputLabelWidget']]]
+  ['inputmethodevent_4',['inputMethodEvent',['../classinputLabelWidget.html#a095860438ebd9dd726bc4c07ec985e99',1,'inputLabelWidget']]],
+  ['isdeadkey_5',['isDeadKey',['../classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676',1,'keyboardUtils']]],
+  ['isspecialkey_6',['isSpecialKey',['../classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c',1,'keyboardUtils']]]
 ];
