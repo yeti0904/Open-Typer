@@ -1,17 +1,5 @@
 var searchData=
 [
-  ['_7ebehavioroptions_0',['~behaviorOptions',['../classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b',1,'behaviorOptions']]],
-  ['_7ecustomizationoptions_1',['~customizationOptions',['../classcustomizationOptions.html#a151df44d17775b94b225661a695d03be',1,'customizationOptions']]],
-  ['_7edownloader_2',['~Downloader',['../classDownloader.html#a7ef888789ffe71122774bd249ccbbf32',1,'Downloader']]],
-  ['_7einputlabelwidget_3',['~inputLabelWidget',['../classinputLabelWidget.html#a547a95ccb7ba47da543f87811017200a',1,'inputLabelWidget']]],
-  ['_7ekeyboardoptions_4',['~keyboardOptions',['../classkeyboardOptions.html#a0540bbfe63c9f19c73bc64a7922f7dc0',1,'keyboardOptions']]],
-  ['_7elanguagelist_5',['~languageList',['../classlanguageList.html#a8d99b59d00bbdc29823c8caf94d83f75',1,'languageList']]],
-  ['_7elanguagemanager_6',['~languageManager',['../classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485',1,'languageManager']]],
-  ['_7elevelsummary_7',['~levelSummary',['../classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2',1,'levelSummary']]],
-  ['_7eopentyper_8',['~OpenTyper',['../classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f',1,'OpenTyper']]],
-  ['_7eoptionswindow_9',['~optionsWindow',['../classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c',1,'optionsWindow']]],
-  ['_7epackeditor_10',['~packEditor',['../classpackEditor.html#acc6fa330df5ca29c78538929eeabe382',1,'packEditor']]],
-  ['_7epackselector_11',['~packSelector',['../classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b',1,'packSelector']]],
-  ['_7epackview_12',['~packView',['../classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898',1,'packView']]],
-  ['_7epaperconfigdialog_13',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]]
+  ['word_0',['word',['../classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6',1,'stringUtils']]],
+  ['wordcount_1',['wordCount',['../classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2',1,'stringUtils']]]
 ];

@@ -19,9 +19,9 @@ var annotated_dup =
     [ "packSelector", "classpackSelector.html", "classpackSelector" ],
     [ "packView", "classpackView.html", "classpackView" ],
     [ "paperConfigDialog", "classpaperConfigDialog.html", "classpaperConfigDialog" ],
-    [ "SimpleColorDialog", "classSimpleColorDialog.html", null ],
-    [ "stringUtils", "classstringUtils.html", null ],
-    [ "timeDialog", "classtimeDialog.html", null ],
+    [ "SimpleColorDialog", "classSimpleColorDialog.html", "classSimpleColorDialog" ],
+    [ "stringUtils", "classstringUtils.html", "classstringUtils" ],
+    [ "timeDialog", "classtimeDialog.html", "classtimeDialog" ],
     [ "Updater", "classUpdater.html", null ],
     [ "UpdaterDialog", "classUpdaterDialog.html", null ]
 ];

@@ -234,9 +234,36 @@
             <section title="reject" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301" />
             <section title="updateLineLength" ref="classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
           </section>
-          <section title="SimpleColorDialog" ref="classSimpleColorDialog.html" />
-          <section title="stringUtils" ref="classstringUtils.html" />
-          <section title="timeDialog" ref="classtimeDialog.html" />
+          <section title="SimpleColorDialog" ref="classSimpleColorDialog.html">
+            <section title="SimpleColorDialog" ref="classSimpleColorDialog.html#ae346e4635cd668f5acbfcf504247491c" />
+            <section title="~SimpleColorDialog" ref="classSimpleColorDialog.html#ac8cc4e4c6e6c0f49e5623019fbb713ad" />
+            <section title="setBlackColor" ref="classSimpleColorDialog.html#acfcec996b4ac0019876c39ba8f338f70" />
+            <section title="setBlueColor" ref="classSimpleColorDialog.html#a6bd27a5b9126106e2be9b54085d82029" />
+            <section title="setBlueColorValue" ref="classSimpleColorDialog.html#a3f87285f536a7818f8064c3fce29691b" />
+            <section title="setBrownColor" ref="classSimpleColorDialog.html#a850eaf4ae6e97c1cfc678fb72c049c58" />
+            <section title="setColor" ref="classSimpleColorDialog.html#ade99580a540a7f76a9847a0c7ede0d63" />
+            <section title="setGrayColor" ref="classSimpleColorDialog.html#a7319859d5da8a15955d89f85e58a0d4f" />
+            <section title="setGreenColor" ref="classSimpleColorDialog.html#af19085f2876436ce3d6d7bb132de95aa" />
+            <section title="setGreenColorValue" ref="classSimpleColorDialog.html#ac7b1226d6d2267740ea7879a1ed3f4d4" />
+            <section title="setLightBlueColor" ref="classSimpleColorDialog.html#a3f407983437f1aca8841b19c47d76e86" />
+            <section title="setOrangeColor" ref="classSimpleColorDialog.html#a72fe566c9fed225e026d67c6495878a7" />
+            <section title="setPinkColor" ref="classSimpleColorDialog.html#a9c512220e34afa8d10d7df30c3f14a6a" />
+            <section title="setPurpleColor" ref="classSimpleColorDialog.html#a8983296cd9df0181c27ebc15d5b22068" />
+            <section title="setRedColor" ref="classSimpleColorDialog.html#aadb07c1000a7925b28d7d293078b1f6e" />
+            <section title="setRedColorValue" ref="classSimpleColorDialog.html#a49f75832ec9d6f186c17cb4736f43b1d" />
+            <section title="setWhiteColor" ref="classSimpleColorDialog.html#aad3fb09cc14e08ab58354449a50771de" />
+            <section title="setYellowColor" ref="classSimpleColorDialog.html#a46d689bafc51af3041dcd29340762987" />
+            <section title="updateColor" ref="classSimpleColorDialog.html#a43ccccdab112f5295a162dabd07dbc48" />
+          </section>
+          <section title="stringUtils" ref="classstringUtils.html">
+            <section title="word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
+            <section title="wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
+          </section>
+          <section title="timeDialog" ref="classtimeDialog.html">
+            <section title="timeDialog" ref="classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522" />
+            <section title="~timeDialog" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766" />
+            <section title="setTime" ref="classtimeDialog.html#a6e0faa9b35e08e2ee5d6741e8f9e76a2" />
+          </section>
           <section title="Updater" ref="classUpdater.html" />
           <section title="UpdaterDialog" ref="classUpdaterDialog.html" />
         </section>
@@ -657,6 +684,7 @@
       <keyword name="ui" id="paperConfigDialog::ui" ref="classpaperConfigDialog.html#a77c62a62f37e62779520b0e036a1b7db" />
       <keyword name="SimpleColorDialog" id="SimpleColorDialog" ref="classSimpleColorDialog.html" />
       <keyword name="SimpleColorDialog" id="SimpleColorDialog::SimpleColorDialog" ref="classSimpleColorDialog.html#ae346e4635cd668f5acbfcf504247491c" />
+      <keyword name="~SimpleColorDialog" id="SimpleColorDialog::~SimpleColorDialog" ref="classSimpleColorDialog.html#ac8cc4e4c6e6c0f49e5623019fbb713ad" />
       <keyword name="setColor" id="SimpleColorDialog::setColor" ref="classSimpleColorDialog.html#ade99580a540a7f76a9847a0c7ede0d63" />
       <keyword name="updateColor" id="SimpleColorDialog::updateColor" ref="classSimpleColorDialog.html#a43ccccdab112f5295a162dabd07dbc48" />
       <keyword name="redColor" id="SimpleColorDialog::redColor" ref="classSimpleColorDialog.html#a21c249aa302def7d0a159178edd4fb9f" />
@@ -683,6 +711,7 @@
       <keyword name="word" id="stringUtils::word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="timeDialog" id="timeDialog" ref="classtimeDialog.html" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522" />
+      <keyword name="~timeDialog" id="timeDialog::~timeDialog" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766" />
       <keyword name="hours" id="timeDialog::hours" ref="classtimeDialog.html#aa0807a31f31cfe7033f8f5cbb183b938" />
       <keyword name="minutes" id="timeDialog::minutes" ref="classtimeDialog.html#a11af2ae70725a78db25e2ad561b868e5" />
       <keyword name="seconds" id="timeDialog::seconds" ref="classtimeDialog.html#a64e61022a1dfe4c28d17456e37c31472" />
@@ -842,12 +871,14 @@
       <file>classSimpleColorDialog.html</file>
       <file>classSimpleColorDialog__inherit__graph.png</file>
       <file>classSimpleColorDialog__coll__graph.png</file>
+      <file>SimpleColorDialog.png</file>
       <file>classSimpleColorDialog-members.html</file>
       <file>classstringUtils.html</file>
       <file>classstringUtils-members.html</file>
       <file>classtimeDialog.html</file>
       <file>classtimeDialog__inherit__graph.png</file>
       <file>classtimeDialog__coll__graph.png</file>
+      <file>timeDialog.png</file>
       <file>classtimeDialog-members.html</file>
       <file>classUpdater.html</file>
       <file>classUpdater__inherit__graph.png</file>
@@ -908,6 +939,10 @@
       <file>functions.html</file>
       <file>functions.html</file>
       <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>
       <file>functions_func.html</file>

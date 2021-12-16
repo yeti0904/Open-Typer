@@ -1,0 +1,24 @@
+var NAVTREEINDEX1 =
+{
+"levelsummary_8h_source.html":[4,0,0,0,5],
+"md_docs_data_pages_Build_instructions.html":[2],
+"md_docs_data_pages_Build_instructions.html#autotoc_md0":[2,0],
+"md_docs_data_pages_Build_instructions.html#autotoc_md1":[2,0,0],
+"md_docs_data_pages_Build_instructions.html#autotoc_md2":[2,0,1],
+"md_docs_data_pages_Build_instructions.html#autotoc_md3":[2,1],
+"net_8h_source.html":[4,0,0,0,0,2],
+"opentyper_8h_source.html":[4,0,0,0,6],
+"optionswindow_8h_source.html":[4,0,0,0,1,3],
+"packeditor_8h_source.html":[4,0,0,0,2,0],
+"packs_8h_source.html":[4,0,0,0,0,3],
+"packselector_8h_source.html":[4,0,0,0,2,1],
+"packview_8h_source.html":[4,0,0,0,2,2],
+"pages.html":[],
+"paperconfigdialog_8h_source.html":[4,0,0,0,7],
+"simplecolordialog_8h_source.html":[4,0,0,0,8],
+"timedialog_8h_source.html":[4,0,0,0,9],
+"updater_8h_source.html":[4,0,0,0,3,0],
+"updaterdialog_8h_source.html":[4,0,0,0,3,1],
+"utils_8h_source.html":[4,0,0,0,0,4],
+"version_8h_source.html":[4,0,0,0,10]
+};
