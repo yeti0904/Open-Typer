@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['canceldownload_0',['cancelDownload',['../classDownloader.html#a212995382f9a25011913e161b998f2a7',1,'Downloader']]],
+  ['canceldownload_0',['cancelDownload',['../classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf',1,'UpdaterDialog::cancelDownload()'],['../classDownloader.html#a212995382f9a25011913e161b998f2a7',1,'Downloader::cancelDownload()']]],
   ['changebgcolor_1',['changeBgColor',['../classcustomizationOptions.html#a5efb64bebcdd3a50546fe762eb4421be',1,'customizationOptions']]],
   ['changeevent_2',['changeEvent',['../classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754',1,'optionsWindow']]],
   ['changeexercisepos_3',['changeExercisePos',['../classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b',1,'packView']]],
@@ -21,7 +21,7 @@ var searchData=
   ['changetheme_18',['changeTheme',['../classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31',1,'customizationOptions']]],
   ['close_19',['close',['../classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1',1,'configParser::close()'],['../classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea',1,'packEditor::close(void)']]],
   ['closeall_20',['closeAll',['../classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952',1,'packEditor']]],
-  ['closeevent_21',['closeEvent',['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor']]],
+  ['closeevent_21',['closeEvent',['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor::closeEvent()'],['../classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1',1,'UpdaterDialog::closeEvent()']]],
   ['closefile_22',['closeFile',['../classpackView.html#af4354b6daeb151a17ec54109bc6c32be',1,'packView']]],
   ['closetab_23',['closeTab',['../classpackEditor.html#a8029fd89ffc29702456698439e7a1d39',1,'packEditor']]],
   ['configlocation_24',['configLocation',['../classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5',1,'fileUtils']]],

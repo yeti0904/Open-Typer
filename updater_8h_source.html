@@ -122,27 +122,32 @@ $(document).ready(function(){initNavTree('updater_8h_source.html',''); initResiz
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define _VERSION_H_URL &quot;https://raw.githubusercontent.com/Open-Typer/Open-Typer/master/src/include/version.h&quot;</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define _GITHUB_REPO &quot;https://github.com/Open-Typer/Open-Typer&quot;</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classUpdater.html">   36</a></span><span class="keyword">class </span><a class="code hl_class" href="classUpdater.html">Updater</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    Q_OBJECT</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">explicit</span> <a class="code hl_class" href="classUpdater.html">Updater</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keyword">virtual</span> <a class="code hl_class" href="classUpdater.html">~Updater</a>();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *versionHdw;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        QString versionH;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        QString readVersion(<span class="keyword">const</span> QString versionHeader);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *updatedProgram;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> initUpdate();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> overwriteExecutable(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif </span><span class="comment">// UPDATER_H</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classUpdater.html">   43</a></span><span class="keyword">class </span><a class="code hl_class" href="classUpdater.html">Updater</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    Q_OBJECT</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea">Updater</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">~Updater</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *versionHdw;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        QString versionH;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        QString <a class="code hl_function" href="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31">readVersion</a>(<span class="keyword">const</span> QString versionHeader);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *updatedProgram;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34">initUpdate</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classUpdater.html#a548846df70af2ee28b1ae789d6271f40">overwriteExecutable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// UPDATER_H</span></div>
 <div class="ttc" id="aclassDownloader_html"><div class="ttname"><a href="classDownloader.html">Downloader</a></div><div class="ttdoc">The downloader class provides functions for file downloading.</div><div class="ttdef"><b>Definition:</b> net.h:76</div></div>
-<div class="ttc" id="aclassUpdater_html"><div class="ttname"><a href="classUpdater.html">Updater</a></div><div class="ttdef"><b>Definition:</b> updater.h:37</div></div>
+<div class="ttc" id="aclassUpdater_html"><div class="ttname"><a href="classUpdater.html">Updater</a></div><div class="ttdoc">The Updater class is used to check for updates and download new versions of the program.</div><div class="ttdef"><b>Definition:</b> updater.h:44</div></div>
+<div class="ttc" id="aclassUpdater_html_a2f8434a97a4f3d3c716bb05abb20621e"><div class="ttname"><a href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">Updater::~Updater</a></div><div class="ttdeci">virtual ~Updater()</div><div class="ttdef"><b>Definition:</b> updater.cpp:41</div></div>
+<div class="ttc" id="aclassUpdater_html_a548846df70af2ee28b1ae789d6271f40"><div class="ttname"><a href="classUpdater.html#a548846df70af2ee28b1ae789d6271f40">Updater::overwriteExecutable</a></div><div class="ttdeci">void overwriteExecutable(void)</div><div class="ttdef"><b>Definition:</b> updater.cpp:102</div></div>
+<div class="ttc" id="aclassUpdater_html_a6326102c1fb847acbb6d974a6f9dba34"><div class="ttname"><a href="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34">Updater::initUpdate</a></div><div class="ttdeci">void initUpdate()</div><div class="ttdef"><b>Definition:</b> updater.cpp:51</div></div>
+<div class="ttc" id="aclassUpdater_html_abf702b842504bc1147a5e7bebbbf15ea"><div class="ttname"><a href="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea">Updater::Updater</a></div><div class="ttdeci">Updater(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> updater.cpp:29</div></div>
+<div class="ttc" id="aclassUpdater_html_ac58a6e2ad6c6b6ad0e22e439e1085e31"><div class="ttname"><a href="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31">Updater::readVersion</a></div><div class="ttdeci">QString readVersion(const QString versionHeader)</div><div class="ttdef"><b>Definition:</b> updater.cpp:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

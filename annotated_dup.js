@@ -22,6 +22,6 @@ var annotated_dup =
     [ "SimpleColorDialog", "classSimpleColorDialog.html", "classSimpleColorDialog" ],
     [ "stringUtils", "classstringUtils.html", "classstringUtils" ],
     [ "timeDialog", "classtimeDialog.html", "classtimeDialog" ],
-    [ "Updater", "classUpdater.html", null ],
-    [ "UpdaterDialog", "classUpdaterDialog.html", null ]
+    [ "Updater", "classUpdater.html", "classUpdater" ],
+    [ "UpdaterDialog", "classUpdaterDialog.html", "classUpdaterDialog" ]
 ];

@@ -1,5 +1,5 @@
 <map id="Updater" name="Updater">
-<area shape="rect" id="node1" title=" " alt="" coords="12,185,80,212"/>
+<area shape="rect" id="node1" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="12,185,80,212"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,76,32"/>
 <area shape="rect" id="node3" href="$classDownloader.html" title="The downloader class provides functions for file downloading." alt="" coords="62,81,153,108"/>
 </map>

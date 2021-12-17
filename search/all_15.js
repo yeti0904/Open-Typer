@@ -15,5 +15,7 @@ var searchData=
   ['_7epackview_12',['~packView',['../classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898',1,'packView']]],
   ['_7epaperconfigdialog_13',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]],
   ['_7esimplecolordialog_14',['~SimpleColorDialog',['../classSimpleColorDialog.html#ac8cc4e4c6e6c0f49e5623019fbb713ad',1,'SimpleColorDialog']]],
-  ['_7etimedialog_15',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]]
+  ['_7etimedialog_15',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
+  ['_7eupdater_16',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
+  ['_7eupdaterdialog_17',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]]
 ];

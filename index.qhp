@@ -264,8 +264,23 @@
             <section title="~timeDialog" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766" />
             <section title="setTime" ref="classtimeDialog.html#a6e0faa9b35e08e2ee5d6741e8f9e76a2" />
           </section>
-          <section title="Updater" ref="classUpdater.html" />
-          <section title="UpdaterDialog" ref="classUpdaterDialog.html" />
+          <section title="Updater" ref="classUpdater.html">
+            <section title="Updater" ref="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea" />
+            <section title="~Updater" ref="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e" />
+            <section title="initUpdate" ref="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34" />
+            <section title="overwriteExecutable" ref="classUpdater.html#a548846df70af2ee28b1ae789d6271f40" />
+            <section title="readVersion" ref="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31" />
+          </section>
+          <section title="UpdaterDialog" ref="classUpdaterDialog.html">
+            <section title="UpdaterDialog" ref="classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0" />
+            <section title="~UpdaterDialog" ref="classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0" />
+            <section title="abortDownload" ref="classUpdaterDialog.html#a7b7d96f8b1dcf3f8d1b30e3e08da3755" />
+            <section title="cancelDownload" ref="classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf" />
+            <section title="closeEvent" ref="classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1" />
+            <section title="setCurrentVer" ref="classUpdaterDialog.html#a79b915399378fa8dddece96e4ca889c3" />
+            <section title="setNewVer" ref="classUpdaterDialog.html#adcbb46b4934299196cf9f9d57376064e" />
+            <section title="updateProgress" ref="classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4" />
+          </section>
         </section>
         <section title="Class Index" ref="classes.html" />
         <section title="Class Hierarchy" ref="hierarchy.html">
@@ -307,8 +322,54 @@
           <section title="stringUtils" ref="classstringUtils.html" />
         </section>
         <section title="Class Members" ref="functions.html">
-          <section title="All" ref="functions.html" />
-          <section title="Functions" ref="functions_func.html" />
+          <section title="All" ref="functions.html">
+            <section title="_" ref="functions.html" />
+            <section title="a" ref="functions_a.html" />
+            <section title="b" ref="functions_b.html" />
+            <section title="c" ref="functions_c.html" />
+            <section title="d" ref="functions_d.html" />
+            <section title="e" ref="functions_e.html" />
+            <section title="f" ref="functions_f.html" />
+            <section title="g" ref="functions_g.html" />
+            <section title="i" ref="functions_i.html" />
+            <section title="k" ref="functions_k.html" />
+            <section title="l" ref="functions_l.html" />
+            <section title="m" ref="functions_m.html" />
+            <section title="n" ref="functions_n.html" />
+            <section title="o" ref="functions_o.html" />
+            <section title="p" ref="functions_p.html" />
+            <section title="r" ref="functions_r.html" />
+            <section title="s" ref="functions_s.html" />
+            <section title="t" ref="functions_t.html" />
+            <section title="u" ref="functions_u.html" />
+            <section title="w" ref="functions_w.html" />
+            <section title="z" ref="functions_z.html" />
+            <section title="~" ref="functions_~.html" />
+          </section>
+          <section title="Functions" ref="functions_func.html">
+            <section title="_" ref="functions_func.html" />
+            <section title="a" ref="functions_func_a.html" />
+            <section title="b" ref="functions_func_b.html" />
+            <section title="c" ref="functions_func_c.html" />
+            <section title="d" ref="functions_func_d.html" />
+            <section title="e" ref="functions_func_e.html" />
+            <section title="f" ref="functions_func_f.html" />
+            <section title="g" ref="functions_func_g.html" />
+            <section title="i" ref="functions_func_i.html" />
+            <section title="k" ref="functions_func_k.html" />
+            <section title="l" ref="functions_func_l.html" />
+            <section title="m" ref="functions_func_m.html" />
+            <section title="n" ref="functions_func_n.html" />
+            <section title="o" ref="functions_func_o.html" />
+            <section title="p" ref="functions_func_p.html" />
+            <section title="r" ref="functions_func_r.html" />
+            <section title="s" ref="functions_func_s.html" />
+            <section title="t" ref="functions_func_t.html" />
+            <section title="u" ref="functions_func_u.html" />
+            <section title="w" ref="functions_func_w.html" />
+            <section title="z" ref="functions_func_z.html" />
+            <section title="~" ref="functions_func_~.html" />
+          </section>
         </section>
       </section>
       <section title="Files" ref="files.html">
@@ -719,6 +780,7 @@
       <keyword name="ui" id="timeDialog::ui" ref="classtimeDialog.html#ae4034621903629adb5c534db017f264a" />
       <keyword name="Updater" id="Updater" ref="classUpdater.html" />
       <keyword name="Updater" id="Updater::Updater" ref="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea" />
+      <keyword name="~Updater" id="Updater::~Updater" ref="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e" />
       <keyword name="initUpdate" id="Updater::initUpdate" ref="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34" />
       <keyword name="overwriteExecutable" id="Updater::overwriteExecutable" ref="classUpdater.html#a548846df70af2ee28b1ae789d6271f40" />
       <keyword name="readVersion" id="Updater::readVersion" ref="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31" />
@@ -729,6 +791,7 @@
       <keyword name="updateProgress" id="UpdaterDialog::updateProgress" ref="classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4" />
       <keyword name="cancelDownload" id="UpdaterDialog::cancelDownload" ref="classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf" />
       <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0" />
+      <keyword name="~UpdaterDialog" id="UpdaterDialog::~UpdaterDialog" ref="classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0" />
       <keyword name="setCurrentVer" id="UpdaterDialog::setCurrentVer" ref="classUpdaterDialog.html#a79b915399378fa8dddece96e4ca889c3" />
       <keyword name="setNewVer" id="UpdaterDialog::setNewVer" ref="classUpdaterDialog.html#adcbb46b4934299196cf9f9d57376064e" />
       <keyword name="closeEvent" id="UpdaterDialog::closeEvent" ref="classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1" />
@@ -887,6 +950,8 @@
       <file>classUpdaterDialog.html</file>
       <file>classUpdaterDialog__inherit__graph.png</file>
       <file>classUpdaterDialog__coll__graph.png</file>
+      <file>UpdaterDialog.png</file>
+      <file>UpdaterDialogProgress.png</file>
       <file>classUpdaterDialog-members.html</file>
       <file>graph_legend.png</file>
       <file>graph_legend.html</file>
@@ -920,49 +985,49 @@
       <file>inherit_graph_7.png</file>
       <file>inherit_graph_8.png</file>
       <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
-      <file>functions.html</file>
+      <file>functions_a.html</file>
+      <file>functions_b.html</file>
+      <file>functions_c.html</file>
+      <file>functions_d.html</file>
+      <file>functions_e.html</file>
+      <file>functions_f.html</file>
+      <file>functions_g.html</file>
+      <file>functions_i.html</file>
+      <file>functions_k.html</file>
+      <file>functions_l.html</file>
+      <file>functions_m.html</file>
+      <file>functions_n.html</file>
+      <file>functions_o.html</file>
+      <file>functions_p.html</file>
+      <file>functions_r.html</file>
+      <file>functions_s.html</file>
+      <file>functions_t.html</file>
+      <file>functions_u.html</file>
+      <file>functions_w.html</file>
+      <file>functions_z.html</file>
+      <file>functions_~.html</file>
       <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
-      <file>functions_func.html</file>
+      <file>functions_func_a.html</file>
+      <file>functions_func_b.html</file>
+      <file>functions_func_c.html</file>
+      <file>functions_func_d.html</file>
+      <file>functions_func_e.html</file>
+      <file>functions_func_f.html</file>
+      <file>functions_func_g.html</file>
+      <file>functions_func_i.html</file>
+      <file>functions_func_k.html</file>
+      <file>functions_func_l.html</file>
+      <file>functions_func_m.html</file>
+      <file>functions_func_n.html</file>
+      <file>functions_func_o.html</file>
+      <file>functions_func_p.html</file>
+      <file>functions_func_r.html</file>
+      <file>functions_func_s.html</file>
+      <file>functions_func_t.html</file>
+      <file>functions_func_u.html</file>
+      <file>functions_func_w.html</file>
+      <file>functions_func_z.html</file>
+      <file>functions_func_~.html</file>
       <file>files.html</file>
     </files>
   </filterSection>
