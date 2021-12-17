@@ -8,6 +8,7 @@
       <section title="Open-Typer" ref="index.html">
         <section title="Features" ref="index.html#autotoc_md5" />
         <section title="Download" ref="index.html#autotoc_md6" />
+        <section title="Screenshots" ref="index.html#autotoc_md7" />
         <section title="Build instructions" ref="md_docs_data_pages_Build_instructions.html">
           <section title="Building for GNU/Linux" ref="md_docs_data_pages_Build_instructions.html#autotoc_md0">
             <section title="Building a standalone binary" ref="md_docs_data_pages_Build_instructions.html#autotoc_md1" />
@@ -967,6 +968,14 @@
       <file>dir_99f4b16b17a360d9840a4176588db3c6.html</file>
       <file>dir_0abdee562046be6f5823d1ca8c3fd13c.html</file>
       <file>index.html</file>
+      <file>main_window_light.png</file>
+      <file>main_window_system_dark.png</file>
+      <file>pack_editor_system_dark.png</file>
+      <file>optionsWindow.png</file>
+      <file>main_window_light.png</file>
+      <file>main_window_system_dark.png</file>
+      <file>pack_editor_system_dark.png</file>
+      <file>optionsWindow.png</file>
       <file>pages.html</file>
       <file>annotated.html</file>
       <file>classes.html</file>

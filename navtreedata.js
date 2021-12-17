@@ -27,6 +27,7 @@ var NAVTREE =
   [ "Open-Typer", "index.html", [
     [ "Features", "index.html#autotoc_md5", null ],
     [ "Download", "index.html#autotoc_md6", null ],
+    [ "Screenshots", "index.html#autotoc_md7", null ],
     [ "Build instructions", "md_docs_data_pages_Build_instructions.html", [
       [ "Building for GNU/Linux", "md_docs_data_pages_Build_instructions.html#autotoc_md0", [
         [ "Building a standalone binary", "md_docs_data_pages_Build_instructions.html#autotoc_md1", null ],
