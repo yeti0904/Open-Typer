@@ -1,7 +1,7 @@
 var NAVTREEINDEX1 =
 {
-"functions.html":[3,3,0],
 "functions.html":[3,3,0,0],
+"functions.html":[3,3,0],
 "functions_a.html":[3,3,0,1],
 "functions_b.html":[3,3,0,2],
 "functions_c.html":[3,3,0,3],
@@ -48,11 +48,8 @@ var NAVTREEINDEX1 =
 "functions_~.html":[3,3,0,21],
 "hierarchy.html":[3,2],
 "index.html":[],
-"index.html#autotoc_md4":[0],
-"index.html#autotoc_md5":[0,0],
-"index.html#autotoc_md6":[0,1],
-"index.html#autotoc_md7":[0,2],
-"index.html#autotoc_md8":[1],
+"index.html#autotoc_md5":[0],
+"index.html#autotoc_md6":[1],
 "inputlabel_8h_source.html":[4,0,0,0,4,0],
 "keyboard_8h_source.html":[4,0,0,0,1,2],
 "language_8h_source.html":[4,0,0,0,0,1],
