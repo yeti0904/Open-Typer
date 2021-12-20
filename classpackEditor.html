@@ -147,6 +147,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>fileID</b></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa403472b118aef534f8093106316ce05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#aa403472b118aef534f8093106316ce05">closeEvent</a> (QCloseEvent *event)</td></tr>
 <tr class="separator:aa403472b118aef534f8093106316ce05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc5df887315eaecaf70c21124e6866b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b">keyPressEvent</a> (QKeyEvent *event)</td></tr>
+<tr class="separator:a8fc5df887315eaecaf70c21124e6866b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -416,6 +418,34 @@ Opens a new file tab. </p><dl class="section see"><dt>See also</dt><dd><a class=
       </table>
 </div><div class="memdoc">
 <p >Applies settings. Must be run before exec() or show(). </p>
+
+</div>
+</div>
+<a id="a8fc5df887315eaecaf70c21124e6866b" name="a8fc5df887315eaecaf70c21124e6866b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc5df887315eaecaf70c21124e6866b">&#9670;&nbsp;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void packEditor::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Overrides QDialog::keyPressEvent().<br  />
+Prevents escape key from closing the dialog. </p>
 
 </div>
 </div>

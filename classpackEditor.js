@@ -9,6 +9,7 @@ var classpackEditor =
     [ "createNewFile", "classpackEditor.html#a9eea23604a8951a257c0d13de4146a30", null ],
     [ "fixDuplicates", "classpackEditor.html#adc05a78ba2be2683492db4f0842842be", null ],
     [ "init", "classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953", null ],
+    [ "keyPressEvent", "classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b", null ],
     [ "openFile", "classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2", null ],
     [ "openPrebuilt", "classpackEditor.html#ae4e25dd318728fc46546e7116e751a91", null ],
     [ "setFileName", "classpackEditor.html#acab56991754277171feb8adebd317130", null ],

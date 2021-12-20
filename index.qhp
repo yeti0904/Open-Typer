@@ -189,6 +189,7 @@
               <section title="createNewFile" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30" />
               <section title="fixDuplicates" ref="classpackEditor.html#adc05a78ba2be2683492db4f0842842be" />
               <section title="init" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953" />
+              <section title="keyPressEvent" ref="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b" />
               <section title="openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2" />
               <section title="openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91" />
               <section title="setFileName" ref="classpackEditor.html#acab56991754277171feb8adebd317130" />
@@ -682,6 +683,7 @@
       <keyword name="ui" id="packEditor::ui" ref="classpackEditor.html#a84793e316cb752d373730d8bd0ec89f5" />
       <keyword name="fileID" id="packEditor::fileID" ref="classpackEditor.html#a89e218a76482c6142a97afde339bfe71" />
       <keyword name="closeEvent" id="packEditor::closeEvent" ref="classpackEditor.html#aa403472b118aef534f8093106316ce05" />
+      <keyword name="keyPressEvent" id="packEditor::keyPressEvent" ref="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b" />
       <keyword name="createNewFile" id="packEditor::createNewFile" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30" />
       <keyword name="openFile" id="packEditor::openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2" />
       <keyword name="openPrebuilt" id="packEditor::openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91" />
