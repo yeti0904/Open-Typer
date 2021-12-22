@@ -651,6 +651,7 @@
       <keyword name="customPaperColor" id="OpenTyper::customPaperColor" ref="classOpenTyper.html#ac04e567ab6b12201a493f5ab49d51257" />
       <keyword name="customPanelColor" id="OpenTyper::customPanelColor" ref="classOpenTyper.html#abf97605796abf8bf5cb81630209e769f" />
       <keyword name="customLevelLoaded" id="OpenTyper::customLevelLoaded" ref="classOpenTyper.html#a88af8cc9bf5b2d00ea487f1fd33699c7" />
+      <keyword name="customLevel" id="OpenTyper::customLevel" ref="classOpenTyper.html#a99b50e641de73ca1a8a9d409010350d6" />
       <keyword name="customConfig" id="OpenTyper::customConfig" ref="classOpenTyper.html#aad16c4c198a563019c359fda481d7043" />
       <keyword name="spaceNewline" id="OpenTyper::spaceNewline" ref="classOpenTyper.html#ab2f7569ebb88a5af7c5072b79568a529" />
       <keyword name="errorPenalty" id="OpenTyper::errorPenalty" ref="classOpenTyper.html#ac0db541c118a14cd7f5035be518af747" />
