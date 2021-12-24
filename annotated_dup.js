@@ -3,6 +3,7 @@ var annotated_dup =
     [ "behaviorOptions", "classbehaviorOptions.html", "classbehaviorOptions" ],
     [ "builtinPacks", "classbuiltinPacks.html", "classbuiltinPacks" ],
     [ "configParser", "classconfigParser.html", "classconfigParser" ],
+    [ "connectionOptions", "classconnectionOptions.html", "classconnectionOptions" ],
     [ "customizationOptions", "classcustomizationOptions.html", "classcustomizationOptions" ],
     [ "Downloader", "classDownloader.html", "classDownloader" ],
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
@@ -12,6 +13,7 @@ var annotated_dup =
     [ "languageList", "classlanguageList.html", "classlanguageList" ],
     [ "languageManager", "classlanguageManager.html", "classlanguageManager" ],
     [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],
+    [ "monitorClient", "classmonitorClient.html", "classmonitorClient" ],
     [ "Net", "classNet.html", "classNet" ],
     [ "OpenTyper", "classOpenTyper.html", "classOpenTyper" ],
     [ "optionsWindow", "classoptionsWindow.html", "classoptionsWindow" ],
@@ -21,6 +23,7 @@ var annotated_dup =
     [ "paperConfigDialog", "classpaperConfigDialog.html", "classpaperConfigDialog" ],
     [ "SimpleColorDialog", "classSimpleColorDialog.html", "classSimpleColorDialog" ],
     [ "stringUtils", "classstringUtils.html", "classstringUtils" ],
+    [ "studentOptions", "classstudentOptions.html", "classstudentOptions" ],
     [ "timeDialog", "classtimeDialog.html", "classtimeDialog" ],
     [ "Updater", "classUpdater.html", "classUpdater" ],
     [ "UpdaterDialog", "classUpdaterDialog.html", "classUpdaterDialog" ]

@@ -1,0 +1,6 @@
+<map id="studentOptions" name="studentOptions">
+<area shape="rect" id="node1" title="The studentOptions class is a dialog for student authentication." alt="" coords="5,171,116,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,73,108"/>
+<area shape="rect" id="node3" href="$classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="98,81,197,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="112,5,183,32"/>
+</map>

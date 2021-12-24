@@ -10,6 +10,7 @@ var hierarchy =
       [ "packEditor", "classpackEditor.html", null ],
       [ "packSelector", "classpackSelector.html", null ],
       [ "paperConfigDialog", "classpaperConfigDialog.html", null ],
+      [ "studentOptions", "classstudentOptions.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ]
     ] ],
     [ "QListWidget", null, [
@@ -24,13 +25,15 @@ var hierarchy =
       [ "Updater", "classUpdater.html", null ],
       [ "builtinPacks", "classbuiltinPacks.html", null ],
       [ "configParser", "classconfigParser.html", null ],
-      [ "languageManager", "classlanguageManager.html", null ]
+      [ "languageManager", "classlanguageManager.html", null ],
+      [ "monitorClient", "classmonitorClient.html", null ]
     ] ],
     [ "QTextEdit", null, [
       [ "inputLabelWidget", "classinputLabelWidget.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "behaviorOptions", "classbehaviorOptions.html", null ],
+      [ "connectionOptions", "classconnectionOptions.html", null ],
       [ "customizationOptions", "classcustomizationOptions.html", null ],
       [ "keyboardOptions", "classkeyboardOptions.html", null ],
       [ "packView", "classpackView.html", null ]

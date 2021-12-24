@@ -1,9 +1,10 @@
 <map id="OpenTyper" name="OpenTyper">
-<area shape="rect" id="node1" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="165,275,251,301"/>
+<area shape="rect" id="node1" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="215,275,300,301"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,185,112,212"/>
 <area shape="rect" id="node3" href="$classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="89,133,213,160"/>
-<area shape="rect" id="node4" title=" " alt="" coords="273,5,343,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="310,5,381,32"/>
 <area shape="rect" id="node5" href="$classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="219,133,314,160"/>
-<area shape="rect" id="node6" href="$classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="322,185,390,212"/>
-<area shape="rect" id="node7" href="$classDownloader.html" title="The downloader class provides functions for file downloading." alt="" coords="372,81,463,108"/>
+<area shape="rect" id="node6" href="$classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="296,81,395,108"/>
+<area shape="rect" id="node7" href="$classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="405,185,473,212"/>
+<area shape="rect" id="node8" href="$classDownloader.html" title="The downloader class provides functions for file downloading." alt="" coords="469,81,560,108"/>
 </map>

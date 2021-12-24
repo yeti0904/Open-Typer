@@ -19,6 +19,7 @@ var classOpenTyper =
     [ "openExerciseFromFile", "classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9", null ],
     [ "openOptions", "classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e", null ],
     [ "openPack", "classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d", null ],
+    [ "openStudentOptions", "classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c", null ],
     [ "previousLevel", "classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b", null ],
     [ "refreshAll", "classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5", null ],
     [ "repeatLevel", "classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e", null ],

@@ -7,7 +7,8 @@ var searchData=
   ['openoptions_4',['openOptions',['../classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e',1,'OpenTyper']]],
   ['openpack_5',['openPack',['../classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d',1,'OpenTyper']]],
   ['openprebuilt_6',['openPrebuilt',['../classpackEditor.html#ae4e25dd318728fc46546e7116e751a91',1,'packEditor']]],
-  ['opentyper_7',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]],
-  ['optionswindow_8',['optionsWindow',['../classoptionsWindow.html#a45fae6808c165b25c933492140379fd3',1,'optionsWindow']]],
-  ['overwriteexecutable_9',['overwriteExecutable',['../classUpdater.html#a548846df70af2ee28b1ae789d6271f40',1,'Updater']]]
+  ['openstudentoptions_7',['openStudentOptions',['../classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c',1,'OpenTyper']]],
+  ['opentyper_8',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]],
+  ['optionswindow_9',['optionsWindow',['../classoptionsWindow.html#a45fae6808c165b25c933492140379fd3',1,'optionsWindow']]],
+  ['overwriteexecutable_10',['overwriteExecutable',['../classUpdater.html#a548846df70af2ee28b1ae789d6271f40',1,'Updater']]]
 ];

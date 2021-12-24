@@ -60,6 +60,13 @@
               <section title="sublessonCount" ref="classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86" />
               <section title="sublessonName" ref="classconfigParser.html#a2922133b71c6050af206853e6c64586d" />
             </section>
+            <section title="connectionOptions" ref="classconnectionOptions.html">
+              <section title="connectionOptions" ref="classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5" />
+              <section title="~connectionOptions" ref="classconnectionOptions.html#a4e177c967b25efee9d204b86a0098c16" />
+              <section title="changeAddress" ref="classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956" />
+              <section title="changeServerState" ref="classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd" />
+              <section title="testConnection" ref="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c" />
+            </section>
             <section title="customizationOptions" ref="classcustomizationOptions.html">
               <section title="customizationOptions" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c" />
               <section title="~customizationOptions" ref="classcustomizationOptions.html#a151df44d17775b94b225661a695d03be" />
@@ -133,6 +140,20 @@
               <section title="setTotalTime" ref="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498" />
               <section title="showOK" ref="classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e" />
             </section>
+            <section title="monitorClient" ref="classmonitorClient.html">
+              <section title="monitorClient" ref="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00" />
+              <section title="available" ref="classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7" />
+              <section title="convertData" ref="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43" />
+              <section title="enabled" ref="classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f" />
+              <section title="errorOccurred" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7" />
+              <section title="readData" ref="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7" />
+              <section title="readResponse" ref="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d" />
+              <section title="responseReady" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8" />
+              <section title="sendRequest" ref="classmonitorClient.html#a03b7a3e483c430d1c2113acc5e01d0d3" />
+              <section title="serverAddress" ref="classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
+              <section title="serverPort" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946" />
+              <section title="setErrorDialogs" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c" />
+            </section>
             <section title="Net" ref="classNet.html">
               <section title="internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
             </section>
@@ -156,6 +177,7 @@
               <section title="openExerciseFromFile" ref="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9" />
               <section title="openOptions" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e" />
               <section title="openPack" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d" />
+              <section title="openStudentOptions" ref="classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c" />
               <section title="previousLevel" ref="classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b" />
               <section title="refreshAll" ref="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5" />
               <section title="repeatLevel" ref="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e" />
@@ -258,6 +280,11 @@
               <section title="word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
               <section title="wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
             </section>
+            <section title="studentOptions" ref="classstudentOptions.html">
+              <section title="studentOptions" ref="classstudentOptions.html#a355451cfa1bae5af52f7450ebb8138f5" />
+              <section title="~studentOptions" ref="classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b" />
+              <section title="auth" ref="classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8" />
+            </section>
             <section title="timeDialog" ref="classtimeDialog.html">
               <section title="timeDialog" ref="classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522" />
               <section title="~timeDialog" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766" />
@@ -293,6 +320,7 @@
               <section title="packEditor" ref="classpackEditor.html" />
               <section title="packSelector" ref="classpackSelector.html" />
               <section title="paperConfigDialog" ref="classpaperConfigDialog.html" />
+              <section title="studentOptions" ref="classstudentOptions.html" />
               <section title="timeDialog" ref="classtimeDialog.html" />
             </section>
             <section title="QListWidget" ref="">
@@ -308,12 +336,14 @@
               <section title="builtinPacks" ref="classbuiltinPacks.html" />
               <section title="configParser" ref="classconfigParser.html" />
               <section title="languageManager" ref="classlanguageManager.html" />
+              <section title="monitorClient" ref="classmonitorClient.html" />
             </section>
             <section title="QTextEdit" ref="">
               <section title="inputLabelWidget" ref="classinputLabelWidget.html" />
             </section>
             <section title="QWidget" ref="">
               <section title="behaviorOptions" ref="classbehaviorOptions.html" />
+              <section title="connectionOptions" ref="classconnectionOptions.html" />
               <section title="customizationOptions" ref="classcustomizationOptions.html" />
               <section title="keyboardOptions" ref="classkeyboardOptions.html" />
               <section title="packView" ref="classpackView.html" />
@@ -384,9 +414,11 @@
                 </section>
                 <section title="options" ref="dir_a6b8e448081bf8ce4db4cf71fa3ecf15.html">
                   <section title="behavior.h" ref="behavior_8h_source.html" />
+                  <section title="connection.h" ref="connection_8h_source.html" />
                   <section title="customization.h" ref="customization_8h_source.html" />
                   <section title="keyboard.h" ref="keyboard_8h_source.html" />
                   <section title="optionswindow.h" ref="optionswindow_8h_source.html" />
+                  <section title="studentoptions.h" ref="studentoptions_8h_source.html" />
                 </section>
                 <section title="packEditor" ref="dir_d684c3475f66f131a133112539f1805c.html">
                   <section title="packeditor.h" ref="packeditor_8h_source.html" />
@@ -459,6 +491,15 @@
       <keyword name="exerciseRawText" id="configParser::exerciseRawText" ref="classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724" />
       <keyword name="generateText" id="configParser::generateText" ref="classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794" />
       <keyword name="configFile" id="configParser::configFile" ref="classconfigParser.html#a3f3248389fbd24ce5ec60b0a3d56e543" />
+      <keyword name="connectionOptions" id="connectionOptions" ref="classconnectionOptions.html" />
+      <keyword name="connectionOptions" id="connectionOptions::connectionOptions" ref="classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5" />
+      <keyword name="~connectionOptions" id="connectionOptions::~connectionOptions" ref="classconnectionOptions.html#a4e177c967b25efee9d204b86a0098c16" />
+      <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956" />
+      <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd" />
+      <keyword name="testConnection" id="connectionOptions::testConnection" ref="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c" />
+      <keyword name="ui" id="connectionOptions::ui" ref="classconnectionOptions.html#ac58e6168b6d0710be5bfc3dcd015ba6b" />
+      <keyword name="settings" id="connectionOptions::settings" ref="classconnectionOptions.html#a975f0d061029fa5c04387313692426e1" />
+      <keyword name="client" id="connectionOptions::client" ref="classconnectionOptions.html#a5077917de03b9b95494cda4aafd50d77" />
       <keyword name="customizationOptions" id="customizationOptions" ref="classcustomizationOptions.html" />
       <keyword name="customizationOptions" id="customizationOptions::customizationOptions" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions.html#a151df44d17775b94b225661a695d03be" />
@@ -562,6 +603,22 @@
       <keyword name="setHits" id="levelSummary::setHits" ref="classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66" />
       <keyword name="ui" id="levelSummary::ui" ref="classlevelSummary.html#a789366cdae83cbe6877ac54267594859" />
+      <keyword name="monitorClient" id="monitorClient" ref="classmonitorClient.html" />
+      <keyword name="responseReady" id="monitorClient::responseReady" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8" />
+      <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00" />
+      <keyword name="setErrorDialogs" id="monitorClient::setErrorDialogs" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c" />
+      <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient.html#a03b7a3e483c430d1c2113acc5e01d0d3" />
+      <keyword name="available" id="monitorClient::available" ref="classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7" />
+      <keyword name="serverAddress" id="monitorClient::serverAddress" ref="classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
+      <keyword name="serverPort" id="monitorClient::serverPort" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946" />
+      <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f" />
+      <keyword name="readResponse" id="monitorClient::readResponse" ref="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d" />
+      <keyword name="errorOccurred" id="monitorClient::errorOccurred" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7" />
+      <keyword name="convertData" id="monitorClient::convertData" ref="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43" />
+      <keyword name="readData" id="monitorClient::readData" ref="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7" />
+      <keyword name="errorDialogs" id="monitorClient::errorDialogs" ref="classmonitorClient.html#a0a0f4fa7f7849e959d105adcc959ba57" />
+      <keyword name="socket" id="monitorClient::socket" ref="classmonitorClient.html#aefde8a0034ba38f1465b554c589c6460" />
+      <keyword name="response" id="monitorClient::response" ref="classmonitorClient.html#a0fb0b9b84438b46150acd38e63f1ee87" />
       <keyword name="Net" id="Net" ref="classNet.html" />
       <keyword name="internetConnected" id="Net::internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
       <keyword name="OpenTyper" id="OpenTyper" ref="classOpenTyper.html" />
@@ -570,6 +627,7 @@
       <keyword name="~OpenTyper" id="OpenTyper::~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
       <keyword name="keyPress" id="OpenTyper::keyPress" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593" />
       <keyword name="openOptions" id="OpenTyper::openOptions" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e" />
+      <keyword name="openStudentOptions" id="OpenTyper::openStudentOptions" ref="classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c" />
       <keyword name="openPack" id="OpenTyper::openPack" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d" />
       <keyword name="repeatLevel" id="OpenTyper::repeatLevel" ref="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e" />
       <keyword name="nextLevel" id="OpenTyper::nextLevel" ref="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d" />
@@ -584,6 +642,7 @@
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper.html#a26d722e59eb5364522f42996eff39075" />
       <keyword name="initTimedExercise" id="OpenTyper::initTimedExercise" ref="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
       <keyword name="connectAll" id="OpenTyper::connectAll" ref="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f" />
+      <keyword name="updateStudent" id="OpenTyper::updateStudent" ref="classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a" />
       <keyword name="loadConfig" id="OpenTyper::loadConfig" ref="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
@@ -600,6 +659,9 @@
       <keyword name="langMgr" id="OpenTyper::langMgr" ref="classOpenTyper.html#a37b63c0b5bbcd4a8810eecb506748f1d" />
       <keyword name="settings" id="OpenTyper::settings" ref="classOpenTyper.html#aba3fad404b407e145845de14eb6582ca" />
       <keyword name="parser" id="OpenTyper::parser" ref="classOpenTyper.html#a7bacd0bce442a3c7731026e0b577dd19" />
+      <keyword name="client" id="OpenTyper::client" ref="classOpenTyper.html#a7808853ae8ae637c6c863ef8f08190e7" />
+      <keyword name="studentUsername" id="OpenTyper::studentUsername" ref="classOpenTyper.html#ab0fbdb597ed1c219f3f85da7d88c7f9d" />
+      <keyword name="studentPassword" id="OpenTyper::studentPassword" ref="classOpenTyper.html#a3524368fc866ea8775321b7dc27ae584" />
       <keyword name="level" id="OpenTyper::level" ref="classOpenTyper.html#ac2090bcda281eaebd3faa44056e62a0e" />
       <keyword name="displayLevel" id="OpenTyper::displayLevel" ref="classOpenTyper.html#ad7aeab8af40e65bc61abf7014996a28a" />
       <keyword name="finalDisplayLevel" id="OpenTyper::finalDisplayLevel" ref="classOpenTyper.html#a85f6f8d4f61ca89225fd88592df7d3da" />
@@ -771,6 +833,14 @@
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils.html" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
+      <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions.html" />
+      <keyword name="studentOptions" id="studentOptions::studentOptions" ref="classstudentOptions.html#a355451cfa1bae5af52f7450ebb8138f5" />
+      <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b" />
+      <keyword name="username" id="studentOptions::username" ref="classstudentOptions.html#abe1fb2f263f91a04d0c6530801e73a53" />
+      <keyword name="password" id="studentOptions::password" ref="classstudentOptions.html#a7da931322651e9dc4cbd7069a0c0bd5c" />
+      <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8" />
+      <keyword name="ui" id="studentOptions::ui" ref="classstudentOptions.html#a89d38bb1b9da571c05a9ecd6a8034a90" />
+      <keyword name="client" id="studentOptions::client" ref="classstudentOptions.html#af16c9c33bfaaecf5e6a03eea5449f3e5" />
       <keyword name="timeDialog" id="timeDialog" ref="classtimeDialog.html" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522" />
       <keyword name="~timeDialog" id="timeDialog::~timeDialog" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766" />
@@ -833,9 +903,11 @@
       <file>levelsummary_8h_source.html</file>
       <file>opentyper_8h_source.html</file>
       <file>behavior_8h_source.html</file>
+      <file>connection_8h_source.html</file>
       <file>customization_8h_source.html</file>
       <file>keyboard_8h_source.html</file>
       <file>optionswindow_8h_source.html</file>
+      <file>studentoptions_8h_source.html</file>
       <file>packeditor_8h_source.html</file>
       <file>packselector_8h_source.html</file>
       <file>packview_8h_source.html</file>
@@ -861,6 +933,11 @@
       <file>classconfigParser__inherit__graph.png</file>
       <file>classconfigParser__coll__graph.png</file>
       <file>classconfigParser-members.html</file>
+      <file>classconnectionOptions.html</file>
+      <file>classconnectionOptions__inherit__graph.png</file>
+      <file>classconnectionOptions__coll__graph.png</file>
+      <file>connectionOptions.png</file>
+      <file>classconnectionOptions-members.html</file>
       <file>classcustomizationOptions.html</file>
       <file>classcustomizationOptions__inherit__graph.png</file>
       <file>classcustomizationOptions__coll__graph.png</file>
@@ -899,6 +976,10 @@
       <file>levelSummary.png</file>
       <file>levelSummaryOK.png</file>
       <file>classlevelSummary-members.html</file>
+      <file>classmonitorClient.html</file>
+      <file>classmonitorClient__inherit__graph.png</file>
+      <file>classmonitorClient__coll__graph.png</file>
+      <file>classmonitorClient-members.html</file>
       <file>classNet.html</file>
       <file>classNet__inherit__graph.png</file>
       <file>classNet__coll__graph.png</file>
@@ -939,6 +1020,11 @@
       <file>classSimpleColorDialog-members.html</file>
       <file>classstringUtils.html</file>
       <file>classstringUtils-members.html</file>
+      <file>classstudentOptions.html</file>
+      <file>classstudentOptions__inherit__graph.png</file>
+      <file>classstudentOptions__coll__graph.png</file>
+      <file>studentOptions.png</file>
+      <file>classstudentOptions-members.html</file>
       <file>classtimeDialog.html</file>
       <file>classtimeDialog__inherit__graph.png</file>
       <file>classtimeDialog__coll__graph.png</file>
