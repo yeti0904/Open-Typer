@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b":[4,0,20,3],
-"classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b":[4,0,20,0],
 "classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301":[4,0,20,2],
 "classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b":[4,0,20,1],
 "classstringUtils.html":[4,0,22],

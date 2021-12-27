@@ -161,13 +161,11 @@
               <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
               <section title="~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
               <section title="_line_count" ref="classOpenTyper.html#a400082da2383c849dc23186b3c894766" />
-              <section title="adjustSize" ref="classOpenTyper.html#aef0c7a71750770dc237a73d657e696da" />
               <section title="changeLanguage" ref="classOpenTyper.html#a90fc2f41823079c45025542f24dd948f" />
               <section title="changeMode" ref="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765" />
               <section title="connectAll" ref="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f" />
               <section title="initTimedExercise" ref="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
               <section title="keyPress" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593" />
-              <section title="labelWidth" ref="classOpenTyper.html#aa31ec90a40fe8c36b1ea25d9902e95c3" />
               <section title="lessonSelectionListIndexChanged" ref="classOpenTyper.html#a71f4a38c2b9550c71eea4204e34de0e5" />
               <section title="levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
               <section title="levelSelectionListIndexChanged" ref="classOpenTyper.html#aa809b630b0145d092992fa15a674206b" />
@@ -648,8 +646,6 @@
       <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper.html#a487997a86245492f13709904e8c47f4b" />
       <keyword name="_line_count" id="OpenTyper::_line_count" ref="classOpenTyper.html#a400082da2383c849dc23186b3c894766" />
-      <keyword name="adjustSize" id="OpenTyper::adjustSize" ref="classOpenTyper.html#aef0c7a71750770dc237a73d657e696da" />
-      <keyword name="labelWidth" id="OpenTyper::labelWidth" ref="classOpenTyper.html#aa31ec90a40fe8c36b1ea25d9902e95c3" />
       <keyword name="setFont" id="OpenTyper::setFont" ref="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
       <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5" />
       <keyword name="updateTheme" id="OpenTyper::updateTheme" ref="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0" />
