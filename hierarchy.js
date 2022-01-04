@@ -10,6 +10,7 @@ var hierarchy =
       [ "packEditor", "classpackEditor.html", null ],
       [ "packSelector", "classpackSelector.html", null ],
       [ "paperConfigDialog", "classpaperConfigDialog.html", null ],
+      [ "statsDialog", "classstatsDialog.html", null ],
       [ "studentOptions", "classstudentOptions.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ]
     ] ],

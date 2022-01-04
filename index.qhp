@@ -181,6 +181,7 @@
               <section title="repeatLevel" ref="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e" />
               <section title="setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5" />
               <section title="setFont" ref="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
+              <section title="showExerciseStats" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d" />
               <section title="startLevel" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
               <section title="sublessonSelectionListIndexChanged" ref="classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922" />
               <section title="updateCurrentTime" ref="classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1" />
@@ -275,6 +276,10 @@
               <section title="setYellowColor" ref="classSimpleColorDialog.html#a46d689bafc51af3041dcd29340762987" />
               <section title="updateColor" ref="classSimpleColorDialog.html#a43ccccdab112f5295a162dabd07dbc48" />
             </section>
+            <section title="statsDialog" ref="classstatsDialog.html">
+              <section title="statsDialog" ref="classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d" />
+              <section title="~statsDialog" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955" />
+            </section>
             <section title="stringUtils" ref="classstringUtils.html">
               <section title="word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
               <section title="wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
@@ -319,6 +324,7 @@
               <section title="packEditor" ref="classpackEditor.html" />
               <section title="packSelector" ref="classpackSelector.html" />
               <section title="paperConfigDialog" ref="classpaperConfigDialog.html" />
+              <section title="statsDialog" ref="classstatsDialog.html" />
               <section title="studentOptions" ref="classstudentOptions.html" />
               <section title="timeDialog" ref="classtimeDialog.html" />
             </section>
@@ -436,6 +442,7 @@
                 <section title="opentyper.h" ref="opentyper_8h_source.html" />
                 <section title="paperconfigdialog.h" ref="paperconfigdialog_8h_source.html" />
                 <section title="simplecolordialog.h" ref="simplecolordialog_8h_source.html" />
+                <section title="statsdialog.h" ref="statsdialog_8h_source.html" />
                 <section title="timedialog.h" ref="timedialog_8h_source.html" />
                 <section title="version.h" ref="version_8h_source.html" />
               </section>
@@ -640,6 +647,7 @@
       <keyword name="zoomIn" id="OpenTyper::zoomIn" ref="classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236" />
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper.html#a26d722e59eb5364522f42996eff39075" />
       <keyword name="initTimedExercise" id="OpenTyper::initTimedExercise" ref="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
+      <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d" />
       <keyword name="connectAll" id="OpenTyper::connectAll" ref="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f" />
       <keyword name="updateStudent" id="OpenTyper::updateStudent" ref="classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a" />
       <keyword name="loadConfig" id="OpenTyper::loadConfig" ref="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d" />
@@ -827,6 +835,10 @@
       <keyword name="setGrayColor" id="SimpleColorDialog::setGrayColor" ref="classSimpleColorDialog.html#a7319859d5da8a15955d89f85e58a0d4f" />
       <keyword name="setWhiteColor" id="SimpleColorDialog::setWhiteColor" ref="classSimpleColorDialog.html#aad3fb09cc14e08ab58354449a50771de" />
       <keyword name="ui" id="SimpleColorDialog::ui" ref="classSimpleColorDialog.html#aa16c4781220d76450e127cac2d7ba215" />
+      <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog.html" />
+      <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d" />
+      <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955" />
+      <keyword name="ui" id="statsDialog::ui" ref="classstatsDialog.html#a45cb26aed6b4c2bc0cb798d86779775d" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils.html" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
@@ -910,6 +922,7 @@
       <file>packview_8h_source.html</file>
       <file>paperconfigdialog_8h_source.html</file>
       <file>simplecolordialog_8h_source.html</file>
+      <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
       <file>updaterdialog_8h_source.html</file>
@@ -1015,6 +1028,10 @@
       <file>classSimpleColorDialog__coll__graph.png</file>
       <file>SimpleColorDialog.png</file>
       <file>classSimpleColorDialog-members.html</file>
+      <file>classstatsDialog.html</file>
+      <file>classstatsDialog__inherit__graph.png</file>
+      <file>classstatsDialog__coll__graph.png</file>
+      <file>classstatsDialog-members.html</file>
       <file>classstringUtils.html</file>
       <file>classstringUtils-members.html</file>
       <file>classstudentOptions.html</file>

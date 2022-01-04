@@ -9,6 +9,7 @@ var dir_b0856f6b0d80ccb263b2f415c91f9e17 =
     [ "opentyper.h", "opentyper_8h_source.html", null ],
     [ "paperconfigdialog.h", "paperconfigdialog_8h_source.html", null ],
     [ "simplecolordialog.h", "simplecolordialog_8h_source.html", null ],
+    [ "statsdialog.h", "statsdialog_8h_source.html", null ],
     [ "timedialog.h", "timedialog_8h_source.html", null ],
     [ "version.h", "version_8h_source.html", null ]
 ];

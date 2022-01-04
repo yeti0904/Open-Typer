@@ -16,8 +16,9 @@ var searchData=
   ['_7epackview_13',['~packView',['../classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898',1,'packView']]],
   ['_7epaperconfigdialog_14',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]],
   ['_7esimplecolordialog_15',['~SimpleColorDialog',['../classSimpleColorDialog.html#ac8cc4e4c6e6c0f49e5623019fbb713ad',1,'SimpleColorDialog']]],
-  ['_7estudentoptions_16',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
-  ['_7etimedialog_17',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
-  ['_7eupdater_18',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
-  ['_7eupdaterdialog_19',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]]
+  ['_7estatsdialog_16',['~statsDialog',['../classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955',1,'statsDialog']]],
+  ['_7estudentoptions_17',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
+  ['_7etimedialog_18',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
+  ['_7eupdater_19',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
+  ['_7eupdaterdialog_20',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]]
 ];
