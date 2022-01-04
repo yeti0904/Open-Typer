@@ -26,6 +26,7 @@ var classOpenTyper =
     [ "startLevel", "classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f", null ],
     [ "sublessonSelectionListIndexChanged", "classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922", null ],
     [ "updateCurrentTime", "classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1", null ],
+    [ "updateStudent", "classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a", null ],
     [ "updateText", "classOpenTyper.html#a487997a86245492f13709904e8c47f4b", null ],
     [ "updateTheme", "classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0", null ],
     [ "zoomIn", "classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236", null ],

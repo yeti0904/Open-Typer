@@ -6,7 +6,8 @@ var searchData=
   ['updateprogress_3',['updateProgress',['../classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4',1,'UpdaterDialog']]],
   ['updater_4',['Updater',['../classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea',1,'Updater']]],
   ['updaterdialog_5',['UpdaterDialog',['../classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0',1,'UpdaterDialog']]],
-  ['updatetabtitle_6',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
-  ['updatetext_7',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
-  ['updatetheme_8',['updateTheme',['../classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0',1,'OpenTyper::updateTheme()'],['../classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230',1,'customizationOptions::updateTheme()']]]
+  ['updatestudent_6',['updateStudent',['../classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a',1,'OpenTyper']]],
+  ['updatetabtitle_7',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
+  ['updatetext_8',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
+  ['updatetheme_9',['updateTheme',['../classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0',1,'OpenTyper::updateTheme()'],['../classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230',1,'customizationOptions::updateTheme()']]]
 ];
