@@ -623,7 +623,7 @@
       <keyword name="convertData" id="monitorClient::convertData" ref="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43" />
       <keyword name="readData" id="monitorClient::readData" ref="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7" />
       <keyword name="errorDialogs" id="monitorClient::errorDialogs" ref="classmonitorClient.html#a0a0f4fa7f7849e959d105adcc959ba57" />
-      <keyword name="socket" id="monitorClient::socket" ref="classmonitorClient.html#aefde8a0034ba38f1465b554c589c6460" />
+      <keyword name="socket" id="monitorClient::socket" ref="classmonitorClient.html#a5cc42b191c57af0caa84d7fd5b9499c2" />
       <keyword name="response" id="monitorClient::response" ref="classmonitorClient.html#a0fb0b9b84438b46150acd38e63f1ee87" />
       <keyword name="Net" id="Net" ref="classNet.html" />
       <keyword name="internetConnected" id="Net::internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
