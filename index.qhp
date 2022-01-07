@@ -839,6 +839,12 @@
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955" />
       <keyword name="ui" id="statsDialog::ui" ref="classstatsDialog.html#a45cb26aed6b4c2bc0cb798d86779775d" />
+      <keyword name="speedChart" id="statsDialog::speedChart" ref="classstatsDialog.html#a64f8f8156b9daf49f285717744eb1718" />
+      <keyword name="mistakesChart" id="statsDialog::mistakesChart" ref="classstatsDialog.html#aeb28de709bd6875d4a71fb5455b4a960" />
+      <keyword name="timeChart" id="statsDialog::timeChart" ref="classstatsDialog.html#a630909591948f3ec14397baa97253a09" />
+      <keyword name="speedSeries" id="statsDialog::speedSeries" ref="classstatsDialog.html#a9c04f3f3881062bcbb7ab10e7f09578e" />
+      <keyword name="mistakesSeries" id="statsDialog::mistakesSeries" ref="classstatsDialog.html#a50db94c1c56aa19e303ee2620efdc051" />
+      <keyword name="timeSeries" id="statsDialog::timeSeries" ref="classstatsDialog.html#ab41c40a8dbc9ac8f8be9e520a689fcf4" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils.html" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6" />
