@@ -104,6 +104,13 @@
               <section title="configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
               <section title="mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
             </section>
+            <section title="historyParser" ref="classhistoryParser.html">
+              <section title="addHistoryEntry" ref="classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1" />
+              <section title="historyDocument" ref="classhistoryParser.html#acbcc9e9fc7e1f38d7f1ca030baa2ff7c" />
+              <section title="historyEntry" ref="classhistoryParser.html#a9c394053a283c52bfdb849ce685b7c88" />
+              <section title="historyPackValue" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
+              <section title="historySize" ref="classhistoryParser.html#abccd1018e2cd37ed096be09f319d8958" />
+            </section>
             <section title="inputLabelWidget" ref="classinputLabelWidget.html">
               <section title="inputLabelWidget" ref="classinputLabelWidget.html#a2683225e6719b9ae3efec1f5a6d38bfe" />
               <section title="~inputLabelWidget" ref="classinputLabelWidget.html#a547a95ccb7ba47da543f87811017200a" />
@@ -340,6 +347,7 @@
               <section title="Updater" ref="classUpdater.html" />
               <section title="builtinPacks" ref="classbuiltinPacks.html" />
               <section title="configParser" ref="classconfigParser.html" />
+              <section title="historyParser" ref="classhistoryParser.html" />
               <section title="languageManager" ref="classlanguageManager.html" />
               <section title="monitorClient" ref="classmonitorClient.html" />
             </section>
@@ -365,6 +373,7 @@
               <section title="e" ref="functions_e.html" />
               <section title="f" ref="functions_f.html" />
               <section title="g" ref="functions_g.html" />
+              <section title="h" ref="functions_h.html" />
               <section title="i" ref="functions_i.html" />
               <section title="k" ref="functions_k.html" />
               <section title="l" ref="functions_l.html" />
@@ -389,6 +398,7 @@
               <section title="e" ref="functions_func_e.html" />
               <section title="f" ref="functions_func_f.html" />
               <section title="g" ref="functions_func_g.html" />
+              <section title="h" ref="functions_func_h.html" />
               <section title="i" ref="functions_func_i.html" />
               <section title="k" ref="functions_func_k.html" />
               <section title="l" ref="functions_func_l.html" />
@@ -566,6 +576,12 @@
       <keyword name="fileUtils" id="fileUtils" ref="classfileUtils.html" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
+      <keyword name="historyParser" id="historyParser" ref="classhistoryParser.html" />
+      <keyword name="historySize" id="historyParser::historySize" ref="classhistoryParser.html#abccd1018e2cd37ed096be09f319d8958" />
+      <keyword name="historyEntry" id="historyParser::historyEntry" ref="classhistoryParser.html#a9c394053a283c52bfdb849ce685b7c88" />
+      <keyword name="addHistoryEntry" id="historyParser::addHistoryEntry" ref="classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1" />
+      <keyword name="historyDocument" id="historyParser::historyDocument" ref="classhistoryParser.html#acbcc9e9fc7e1f38d7f1ca030baa2ff7c" />
+      <keyword name="historyPackValue" id="historyParser::historyPackValue" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
       <keyword name="inputLabelWidget" id="inputLabelWidget" ref="classinputLabelWidget.html" />
       <keyword name="keyPressed" id="inputLabelWidget::keyPressed" ref="classinputLabelWidget.html#a013457681f05c2886b081cbed9b8eae3" />
       <keyword name="inputLabelWidget" id="inputLabelWidget::inputLabelWidget" ref="classinputLabelWidget.html#a2683225e6719b9ae3efec1f5a6d38bfe" />
@@ -965,6 +981,10 @@
       <file>classDownloader-members.html</file>
       <file>classfileUtils.html</file>
       <file>classfileUtils-members.html</file>
+      <file>classhistoryParser.html</file>
+      <file>classhistoryParser__inherit__graph.png</file>
+      <file>classhistoryParser__coll__graph.png</file>
+      <file>classhistoryParser-members.html</file>
       <file>classinputLabelWidget.html</file>
       <file>classinputLabelWidget__inherit__graph.png</file>
       <file>classinputLabelWidget__coll__graph.png</file>
@@ -1109,6 +1129,7 @@
       <file>functions_e.html</file>
       <file>functions_f.html</file>
       <file>functions_g.html</file>
+      <file>functions_h.html</file>
       <file>functions_i.html</file>
       <file>functions_k.html</file>
       <file>functions_l.html</file>
@@ -1131,6 +1152,7 @@
       <file>functions_func_e.html</file>
       <file>functions_func_f.html</file>
       <file>functions_func_g.html</file>
+      <file>functions_func_h.html</file>
       <file>functions_func_i.html</file>
       <file>functions_func_k.html</file>
       <file>functions_func_l.html</file>
