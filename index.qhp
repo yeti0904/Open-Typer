@@ -167,7 +167,6 @@
             <section title="OpenTyper" ref="classOpenTyper.html">
               <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
               <section title="~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
-              <section title="_line_count" ref="classOpenTyper.html#a400082da2383c849dc23186b3c894766" />
               <section title="changeLanguage" ref="classOpenTyper.html#a90fc2f41823079c45025542f24dd948f" />
               <section title="changeMode" ref="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765" />
               <section title="connectAll" ref="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f" />
@@ -365,8 +364,7 @@
           </section>
           <section title="Class Members" ref="functions.html">
             <section title="All" ref="functions.html">
-              <section title="_" ref="functions.html" />
-              <section title="a" ref="functions_a.html" />
+              <section title="a" ref="functions.html" />
               <section title="b" ref="functions_b.html" />
               <section title="c" ref="functions_c.html" />
               <section title="d" ref="functions_d.html" />
@@ -390,8 +388,7 @@
               <section title="~" ref="functions_~.html" />
             </section>
             <section title="Functions" ref="functions_func.html">
-              <section title="_" ref="functions_func.html" />
-              <section title="a" ref="functions_func_a.html" />
+              <section title="a" ref="functions_func.html" />
               <section title="b" ref="functions_func_b.html" />
               <section title="c" ref="functions_func_c.html" />
               <section title="d" ref="functions_func_d.html" />
@@ -670,7 +667,6 @@
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper.html#a487997a86245492f13709904e8c47f4b" />
-      <keyword name="_line_count" id="OpenTyper::_line_count" ref="classOpenTyper.html#a400082da2383c849dc23186b3c894766" />
       <keyword name="setFont" id="OpenTyper::setFont" ref="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
       <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5" />
       <keyword name="updateTheme" id="OpenTyper::updateTheme" ref="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0" />
@@ -1122,7 +1118,6 @@
       <file>inherit_graph_7.png</file>
       <file>inherit_graph_8.png</file>
       <file>functions.html</file>
-      <file>functions_a.html</file>
       <file>functions_b.html</file>
       <file>functions_c.html</file>
       <file>functions_d.html</file>
@@ -1145,7 +1140,6 @@
       <file>functions_z.html</file>
       <file>functions_~.html</file>
       <file>functions_func.html</file>
-      <file>functions_func_a.html</file>
       <file>functions_func_b.html</file>
       <file>functions_func_c.html</file>
       <file>functions_func_d.html</file>

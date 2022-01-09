@@ -2,7 +2,6 @@ var classOpenTyper =
 [
     [ "OpenTyper", "classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae", null ],
     [ "~OpenTyper", "classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f", null ],
-    [ "_line_count", "classOpenTyper.html#a400082da2383c849dc23186b3c894766", null ],
     [ "changeLanguage", "classOpenTyper.html#a90fc2f41823079c45025542f24dd948f", null ],
     [ "changeMode", "classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765", null ],
     [ "connectAll", "classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f", null ],
