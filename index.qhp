@@ -708,6 +708,8 @@
       <keyword name="ignoreMistakeLabelAppend" id="OpenTyper::ignoreMistakeLabelAppend" ref="classOpenTyper.html#a7b9ab68b1c4f5fe3a89ea03fa72b2880" />
       <keyword name="inputLabelHtml" id="OpenTyper::inputLabelHtml" ref="classOpenTyper.html#a1e48fa02f2c6c0ee7ea4126da3b538ba" />
       <keyword name="mistakeLabelHtml" id="OpenTyper::mistakeLabelHtml" ref="classOpenTyper.html#a80fc48968afa6089603f4bc3be1e64af" />
+      <keyword name="inputTextHtml" id="OpenTyper::inputTextHtml" ref="classOpenTyper.html#aeb04e1fd23775c40febef5af95819210" />
+      <keyword name="mistakeTextHtml" id="OpenTyper::mistakeTextHtml" ref="classOpenTyper.html#a64c2cf63a770bd4230e6d1102caf225f" />
       <keyword name="lastTime" id="OpenTyper::lastTime" ref="classOpenTyper.html#a01e1ff993c97362c86d3267aee91d54a" />
       <keyword name="versionHdw" id="OpenTyper::versionHdw" ref="classOpenTyper.html#aeb1910f5c784dd2927d3a23c508eaa9e" />
       <keyword name="levelTextRedColor" id="OpenTyper::levelTextRedColor" ref="classOpenTyper.html#a022701ff685a175c2c5a0aefa09b6592" />
@@ -735,9 +737,6 @@
       <keyword name="customConfig" id="OpenTyper::customConfig" ref="classOpenTyper.html#aad16c4c198a563019c359fda481d7043" />
       <keyword name="spaceNewline" id="OpenTyper::spaceNewline" ref="classOpenTyper.html#ab2f7569ebb88a5af7c5072b79568a529" />
       <keyword name="errorPenalty" id="OpenTyper::errorPenalty" ref="classOpenTyper.html#ac0db541c118a14cd7f5035be518af747" />
-      <keyword name="fullScreenPaper" id="OpenTyper::fullScreenPaper" ref="classOpenTyper.html#aa287a60eea4be15121f493953bdedaa6" />
-      <keyword name="lineCountLimit" id="OpenTyper::lineCountLimit" ref="classOpenTyper.html#a572ed35a87079716bdb0c15aa39ec628" />
-      <keyword name="textViewMode" id="OpenTyper::textViewMode" ref="classOpenTyper.html#adacd99853c589c035348d8806c1bb7a2" />
       <keyword name="translator" id="OpenTyper::translator" ref="classOpenTyper.html#ac51b800712544e02d5ab5de13eedb9aa" />
       <keyword name="currentMode" id="OpenTyper::currentMode" ref="classOpenTyper.html#ad4a8245b56ca43efcd0357e3d9caaa0d" />
       <keyword name="timedExHours" id="OpenTyper::timedExHours" ref="classOpenTyper.html#ab17d79812f1a79ef92dade52bb018f84" />
