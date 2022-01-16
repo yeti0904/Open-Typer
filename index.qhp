@@ -690,6 +690,7 @@
       <keyword name="levelCount" id="OpenTyper::levelCount" ref="classOpenTyper.html#a081931fd983018747ca985da379067cd" />
       <keyword name="currentLesson" id="OpenTyper::currentLesson" ref="classOpenTyper.html#a72ce2a4317efbd0e32b9951d13e2c973" />
       <keyword name="currentSublesson" id="OpenTyper::currentSublesson" ref="classOpenTyper.html#ac6c33ae608519db0bf885e72f3f82cda" />
+      <keyword name="currentAbsoluteSublesson" id="OpenTyper::currentAbsoluteSublesson" ref="classOpenTyper.html#afa09d7938924b8d662ddd45bd8642d50" />
       <keyword name="currentLevel" id="OpenTyper::currentLevel" ref="classOpenTyper.html#a3a8c55b147e319670a467905fe7dc1af" />
       <keyword name="currentLine" id="OpenTyper::currentLine" ref="classOpenTyper.html#a700491a183a3e0d7776c65d0ed62f33b" />
       <keyword name="levelPos" id="OpenTyper::levelPos" ref="classOpenTyper.html#a6efb0aaf777c0c78a417c3ff88613427" />
