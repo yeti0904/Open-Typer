@@ -144,6 +144,7 @@
               <section title="setHitCount" ref="classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb" />
               <section title="setHits" ref="classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2" />
               <section title="setMistakes" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66" />
+              <section title="setShowSummary" ref="classlevelSummary.html#ae3bb60b0cdbbc0de1b7acc4eeaf5af5f" />
               <section title="setTotalTime" ref="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498" />
               <section title="showOK" ref="classlevelSummary.html#a5316f7d53a5d106045166811d5e17a7e" />
             </section>
@@ -621,6 +622,8 @@
       <keyword name="setHitCount" id="levelSummary::setHitCount" ref="classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb" />
       <keyword name="setHits" id="levelSummary::setHits" ref="classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66" />
+      <keyword name="showSummary" id="levelSummary::showSummary" ref="classlevelSummary.html#a16c6ebbad38c9c86abd2fb1192400372" />
+      <keyword name="setShowSummary" id="levelSummary::setShowSummary" ref="classlevelSummary.html#ae3bb60b0cdbbc0de1b7acc4eeaf5af5f" />
       <keyword name="ui" id="levelSummary::ui" ref="classlevelSummary.html#a789366cdae83cbe6877ac54267594859" />
       <keyword name="monitorClient" id="monitorClient" ref="classmonitorClient.html" />
       <keyword name="responseReady" id="monitorClient::responseReady" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8" />
@@ -743,6 +746,7 @@
       <keyword name="timedExMinutes" id="OpenTyper::timedExMinutes" ref="classOpenTyper.html#aab77fae5402e70bfea7e147358d755d8" />
       <keyword name="timedExSeconds" id="OpenTyper::timedExSeconds" ref="classOpenTyper.html#a4b26d9735821264f8570b4b0c84351df" />
       <keyword name="timedExStarted" id="OpenTyper::timedExStarted" ref="classOpenTyper.html#a5b8f0b305c2bae1e0204973a3a1b4598" />
+      <keyword name="blockInput" id="OpenTyper::blockInput" ref="classOpenTyper.html#a5d1ee0a6e90a1c5b5a4b05089ad8b011" />
       <keyword name="optionsWindow" id="optionsWindow" ref="classoptionsWindow.html" />
       <keyword name="languageChanged" id="optionsWindow::languageChanged" ref="classoptionsWindow.html#acf4c0ce7d0a7f69285a18730bae6e16a" />
       <keyword name="optionsWindow" id="optionsWindow::optionsWindow" ref="classoptionsWindow.html#a45fae6808c165b25c933492140379fd3" />
