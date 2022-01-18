@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
+<tr class="memitem:a32348bfbfe35bc643e276029049b708b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a32348bfbfe35bc643e276029049b708b">changeFullTheme</a> (int index)</td></tr>
+<tr class="separator:a32348bfbfe35bc643e276029049b708b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4148dcc9e8364f3d8a3a18d6d739cf4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e">changeFont</a> (QFont font)</td></tr>
 <tr class="separator:a4148dcc9e8364f3d8a3a18d6d739cf4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed613f456adc3f82f2cb9e0509b4615"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615">changeFontSize</a> (int size)</td></tr>
@@ -159,6 +161,8 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a2089f4ccdfb3f012e82d714ce6c7bb09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09">selectCurrentFullTheme</a> (void)</td></tr>
+<tr class="separator:a2089f4ccdfb3f012e82d714ce6c7bb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a492aa6243b23292de5f552f21e417b7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f">setFont</a> (QString fontFamily, int fontSize, bool fontBold, bool fontItalic, bool fontUnderline)</td></tr>
 <tr class="separator:a492aa6243b23292de5f552f21e417b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac51d00cb02e3f32ca401ee8b479a108f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f">saveColorSettings</a> (void)</td></tr>
@@ -176,6 +180,9 @@ Ui::customizationOptions *&#160;</td><td class="memItemRight" valign="bottom"><b
 <tr class="memitem:a944f74f6589ec750a02db6e801a0c9f7"><td class="memItemLeft" align="right" valign="top"><a id="a944f74f6589ec750a02db6e801a0c9f7" name="a944f74f6589ec750a02db6e801a0c9f7"></a>
 QSettings *&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
 <tr class="separator:a944f74f6589ec750a02db6e801a0c9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cdaeb0e905692e35f49ff82318993f0"><td class="memItemLeft" align="right" valign="top"><a id="a6cdaeb0e905692e35f49ff82318993f0" name="a6cdaeb0e905692e35f49ff82318993f0"></a>
+QVector&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>themes</b></td></tr>
+<tr class="separator:a6cdaeb0e905692e35f49ff82318993f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memItemLeft" align="right" valign="top"><a id="a3ceea06a2f48b7dff1eeb57e3be266db" name="a3ceea06a2f48b7dff1eeb57e3be266db"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextRedColor</b></td></tr>
 <tr class="separator:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,6 +382,34 @@ Sets exercise text font family and saves it in the settings. </p><dl class="sect
 </div><div class="memdoc">
 <p >Connected from fontSizeBox-&gt;valueChanged().<br  />
 Sets font size and saves it in the settings. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f">setFont()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a32348bfbfe35bc643e276029049b708b" name="a32348bfbfe35bc643e276029049b708b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32348bfbfe35bc643e276029049b708b">&#9670;&nbsp;</a></span>changeFullTheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void customizationOptions::changeFullTheme </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from themeList-&gt;currentRowChanged().<br  />
+Switches built-in theme. </p>
 
 </div>
 </div>
@@ -657,6 +692,33 @@ Sets the default text colors. </p>
 </table>
 </div><div class="memdoc">
 <p >Saves all custom colors in the settings. </p>
+
+</div>
+</div>
+<a id="a2089f4ccdfb3f012e82d714ce6c7bb09" name="a2089f4ccdfb3f012e82d714ce6c7bb09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2089f4ccdfb3f012e82d714ce6c7bb09">&#9670;&nbsp;</a></span>selectCurrentFullTheme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void customizationOptions::selectCurrentFullTheme </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Select currently set full theme. </p>
 
 </div>
 </div>
