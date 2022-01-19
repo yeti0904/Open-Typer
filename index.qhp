@@ -82,7 +82,6 @@
               <section title="goBack" ref="classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4" />
               <section title="init" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5" />
               <section title="resetBgPaperColors" ref="classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af" />
-              <section title="resetFont" ref="classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80" />
               <section title="resetTextColors" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05" />
               <section title="saveColorSettings" ref="classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f" />
               <section title="selectCurrentFullTheme" ref="classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09" />
@@ -534,7 +533,6 @@
       <keyword name="setBoldText" id="customizationOptions::setBoldText" ref="classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e" />
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d" />
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950" />
-      <keyword name="resetFont" id="customizationOptions::resetFont" ref="classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80" />
       <keyword name="changeLevelTextColor" id="customizationOptions::changeLevelTextColor" ref="classcustomizationOptions.html#a64b84b7eb2349fb7d27dc25480348deb" />
       <keyword name="changeInputTextColor" id="customizationOptions::changeInputTextColor" ref="classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d" />
       <keyword name="resetTextColors" id="customizationOptions::resetTextColors" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05" />

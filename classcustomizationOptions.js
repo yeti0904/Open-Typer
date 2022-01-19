@@ -14,7 +14,6 @@ var classcustomizationOptions =
     [ "goBack", "classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4", null ],
     [ "init", "classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5", null ],
     [ "resetBgPaperColors", "classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af", null ],
-    [ "resetFont", "classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80", null ],
     [ "resetTextColors", "classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05", null ],
     [ "saveColorSettings", "classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f", null ],
     [ "selectCurrentFullTheme", "classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09", null ],
