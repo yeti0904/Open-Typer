@@ -73,12 +73,13 @@
               <section title="changeBgColor" ref="classcustomizationOptions.html#a5efb64bebcdd3a50546fe762eb4421be" />
               <section title="changeFont" ref="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
               <section title="changeFontSize" ref="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615" />
-              <section title="changeFullTheme" ref="classcustomizationOptions.html#a32348bfbfe35bc643e276029049b708b" />
+              <section title="changeFullTheme" ref="classcustomizationOptions.html#a2809c2942db084dccbae65bf80ff9ef4" />
               <section title="changeInputTextColor" ref="classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d" />
               <section title="changeLevelTextColor" ref="classcustomizationOptions.html#a64b84b7eb2349fb7d27dc25480348deb" />
               <section title="changePanelColor" ref="classcustomizationOptions.html#acf0e7da87d84efdb0a7a322e302bf1f7" />
               <section title="changePaperColor" ref="classcustomizationOptions.html#aa1c74da1aa50bef2814b5e1bfda35205" />
               <section title="changeTheme" ref="classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31" />
+              <section title="goBack" ref="classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4" />
               <section title="init" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5" />
               <section title="resetBgPaperColors" ref="classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af" />
               <section title="resetFont" ref="classcustomizationOptions.html#a4445cca47db4c14b6820e86e368afb80" />
@@ -526,7 +527,8 @@
       <keyword name="customizationOptions" id="customizationOptions::customizationOptions" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions.html#a151df44d17775b94b225661a695d03be" />
       <keyword name="init" id="customizationOptions::init" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5" />
-      <keyword name="changeFullTheme" id="customizationOptions::changeFullTheme" ref="classcustomizationOptions.html#a32348bfbfe35bc643e276029049b708b" />
+      <keyword name="changeFullTheme" id="customizationOptions::changeFullTheme" ref="classcustomizationOptions.html#a2809c2942db084dccbae65bf80ff9ef4" />
+      <keyword name="goBack" id="customizationOptions::goBack" ref="classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4" />
       <keyword name="changeFont" id="customizationOptions::changeFont" ref="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615" />
       <keyword name="setBoldText" id="customizationOptions::setBoldText" ref="classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e" />
@@ -773,6 +775,7 @@
       <keyword name="changeTheme" id="optionsWindow::changeTheme" ref="classoptionsWindow.html#a5f4980316a269b3d11ece8e2bd156250" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd" />
       <keyword name="ui" id="optionsWindow::ui" ref="classoptionsWindow.html#a9d8f2019045cd76cde4e0c86e1d2296d" />
+      <keyword name="currentWidget" id="optionsWindow::currentWidget" ref="classoptionsWindow.html#a1f5064e2915429194b798a73049bdba6" />
       <keyword name="packEditor" id="packEditor" ref="classpackEditor.html" />
       <keyword name="packEditor" id="packEditor::packEditor" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9" />
       <keyword name="~packEditor" id="packEditor::~packEditor" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382" />

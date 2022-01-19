@@ -7,7 +7,7 @@ var searchData=
   ['changeexercisepos_4',['changeExercisePos',['../classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b',1,'packView']]],
   ['changefont_5',['changeFont',['../classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e',1,'customizationOptions']]],
   ['changefontsize_6',['changeFontSize',['../classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615',1,'customizationOptions']]],
-  ['changefulltheme_7',['changeFullTheme',['../classcustomizationOptions.html#a32348bfbfe35bc643e276029049b708b',1,'customizationOptions']]],
+  ['changefulltheme_7',['changeFullTheme',['../classcustomizationOptions.html#a2809c2942db084dccbae65bf80ff9ef4',1,'customizationOptions']]],
   ['changeinputtextcolor_8',['changeInputTextColor',['../classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d',1,'customizationOptions']]],
   ['changelanguage_9',['changeLanguage',['../classlanguageList.html#ab749a3913cc19a3b5d5dc275cc68abbe',1,'languageList::changeLanguage()'],['../classOpenTyper.html#a90fc2f41823079c45025542f24dd948f',1,'OpenTyper::changeLanguage()'],['../classoptionsWindow.html#acb6939ca9899f8dfd9c6d2c1e649be63',1,'optionsWindow::changeLanguage()']]],
   ['changelessondesc_10',['changeLessonDesc',['../classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a',1,'packView']]],
