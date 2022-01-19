@@ -22,5 +22,6 @@ var classcustomizationOptions =
     [ "setFont", "classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f", null ],
     [ "setItalicText", "classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d", null ],
     [ "setUnderlineText", "classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950", null ],
+    [ "themeChanged", "classcustomizationOptions.html#a91aecd4bea4879c9eb40f1c91c08b2ea", null ],
     [ "updateTheme", "classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230", null ]
 ];

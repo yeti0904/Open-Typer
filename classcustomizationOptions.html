@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('classcustomizationOptions.html',''); i
 
 <div class="header">
   <div class="summary">
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -117,6 +118,11 @@ Collaboration diagram for customizationOptions:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a91aecd4bea4879c9eb40f1c91c08b2ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a91aecd4bea4879c9eb40f1c91c08b2ea">themeChanged</a> ()</td></tr>
+<tr class="separator:a91aecd4bea4879c9eb40f1c91c08b2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e49823810c19835385fd388442d362c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c">customizationOptions</a> (QWidget *parent=nullptr)</td></tr>
@@ -183,6 +189,9 @@ QSettings *&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></
 <tr class="memitem:a6cdaeb0e905692e35f49ff82318993f0"><td class="memItemLeft" align="right" valign="top"><a id="a6cdaeb0e905692e35f49ff82318993f0" name="a6cdaeb0e905692e35f49ff82318993f0"></a>
 QVector&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>themes</b></td></tr>
 <tr class="separator:a6cdaeb0e905692e35f49ff82318993f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5abfabf8e51fd968e8b467168e5fda"><td class="memItemLeft" align="right" valign="top"><a id="a8f5abfabf8e51fd968e8b467168e5fda" name="a8f5abfabf8e51fd968e8b467168e5fda"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>blockThemeSignal</b></td></tr>
+<tr class="separator:a8f5abfabf8e51fd968e8b467168e5fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memItemLeft" align="right" valign="top"><a id="a3ceea06a2f48b7dff1eeb57e3be266db" name="a3ceea06a2f48b7dff1eeb57e3be266db"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextRedColor</b></td></tr>
 <tr class="separator:a3ceea06a2f48b7dff1eeb57e3be266db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -885,6 +894,32 @@ Switches bold text based on the value of italicTextBox. </p><dl class="section s
 </div><div class="memdoc">
 <p >Connected from underlineTextBox-&gt;clicked().<br  />
 Switches bold text based on the value of underlineTextBox. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f">setFont()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a91aecd4bea4879c9eb40f1c91c08b2ea" name="a91aecd4bea4879c9eb40f1c91c08b2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91aecd4bea4879c9eb40f1c91c08b2ea">&#9670;&nbsp;</a></span>themeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void customizationOptions::themeChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when the theme changes. </p>
 
 </div>
 </div>

@@ -11,6 +11,7 @@ var classOpenTyper =
     [ "levelFinalInit", "classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe", null ],
     [ "levelSelectionListIndexChanged", "classOpenTyper.html#aa809b630b0145d092992fa15a674206b", null ],
     [ "loadConfig", "classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d", null ],
+    [ "loadTheme", "classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8", null ],
     [ "nextLevel", "classOpenTyper.html#a0431cbb22500518dce9387257fddc57d", null ],
     [ "openEditor", "classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1", null ],
     [ "openExerciseFromFile", "classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9", null ],

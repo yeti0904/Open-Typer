@@ -10,5 +10,6 @@ var searchData=
   ['levelselectionlistindexchanged_7',['levelSelectionListIndexChanged',['../classOpenTyper.html#aa809b630b0145d092992fa15a674206b',1,'OpenTyper']]],
   ['levelsummary_8',['levelSummary',['../classlevelSummary.html',1,'levelSummary'],['../classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28',1,'levelSummary::levelSummary()']]],
   ['lineof_9',['lineOf',['../classconfigParser.html#a33a3e1eb8328c87e8a8ccf26c125637f',1,'configParser']]],
-  ['loadconfig_10',['loadConfig',['../classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d',1,'OpenTyper']]]
+  ['loadconfig_10',['loadConfig',['../classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d',1,'OpenTyper']]],
+  ['loadtheme_11',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]]
 ];
