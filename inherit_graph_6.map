@@ -1,4 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$classOpenTyper.html" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="160,5,245,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,233,73,260"/>
+<area shape="rect" id="node2" href="$classSimpleColorDialog.html" title="The SimpleColorDialog class is a simple color picker." alt="" coords="121,5,249,32"/>
+<area shape="rect" id="node3" href="$classUpdaterDialog.html" title="The UpdaterDialog class is a dialog used for program updates." alt="" coords="133,56,237,83"/>
+<area shape="rect" id="node4" href="$classlevelSummary.html" title="A summary dialog window, which shows the exercise result." alt="" coords="133,107,237,133"/>
+<area shape="rect" id="node5" href="$classoptionsWindow.html" title="The options window class shows program options." alt="" coords="130,157,241,184"/>
+<area shape="rect" id="node6" href="$classpackEditor.html" title="The packEditor class is the pack editor window." alt="" coords="144,208,227,235"/>
+<area shape="rect" id="node7" href="$classpackSelector.html" title="The packSelector class is a QDialog, which allows the user to select a built&#45;in pack." alt="" coords="136,259,235,285"/>
+<area shape="rect" id="node8" href="$classpaperConfigDialog.html" title="The paperConfigDialog class is a dialog, which asks for exercise configuration." alt="" coords="122,309,249,336"/>
+<area shape="rect" id="node9" href="$classstatsDialog.html" title="The statsDialog class is a dialog, which shows exercise history." alt="" coords="142,360,229,387"/>
+<area shape="rect" id="node10" href="$classstudentOptions.html" title="The studentOptions class is a dialog for student authentication." alt="" coords="130,411,241,437"/>
+<area shape="rect" id="node11" href="$classtimeDialog.html" title="The timeDialog class is a time selector dialog used for timed exercises." alt="" coords="144,461,227,488"/>
 </map>

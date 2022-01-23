@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['historyparser_0',['historyParser',['../classhistoryParser.html',1,'']]]
+  ['inputlabelwidget_0',['inputLabelWidget',['../classinputLabelWidget.html',1,'']]]
 ];

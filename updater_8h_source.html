@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('updater_8h_source.html',''); initResiz
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * updater.h</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * This file is part of Open-Typer</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * Copyright (C) 2021 - adazem009</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * Copyright (C) 2021-2022 - adazem009</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * Open-Typer is free software; you can redistribute it and/or modify</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment"> * it under the terms of the GNU General Public License as published by</span></div>
@@ -111,43 +111,28 @@ $(document).ready(function(){initNavTree('updater_8h_source.html',''); initResiz
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define UPDATER_H</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;QCoreApplication&gt;</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QMessageBox&gt;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;QSaveFile&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;QProcess&gt;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;core/net.h&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;version.h&quot;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;updaterdialog.h&quot;</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define _VERSION_H_URL &quot;https://raw.githubusercontent.com/Open-Typer/Open-Typer/master/src/include/version.h&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define _GITHUB_REPO &quot;https://github.com/Open-Typer/Open-Typer&quot;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classUpdater.html">   43</a></span><span class="keyword">class </span><a class="code hl_class" href="classUpdater.html">Updater</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    Q_OBJECT</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea">Updater</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">~Updater</a>();</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *versionHdw;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        QString versionH;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        QString <a class="code hl_function" href="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31">readVersion</a>(<span class="keyword">const</span> QString versionHeader);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_class" href="classDownloader.html">Downloader</a> *updatedProgram;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34">initUpdate</a>();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classUpdater.html#a548846df70af2ee28b1ae789d6271f40">overwriteExecutable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// UPDATER_H</span></div>
-<div class="ttc" id="aclassDownloader_html"><div class="ttname"><a href="classDownloader.html">Downloader</a></div><div class="ttdoc">The downloader class provides functions for file downloading.</div><div class="ttdef"><b>Definition:</b> net.h:86</div></div>
-<div class="ttc" id="aclassUpdater_html"><div class="ttname"><a href="classUpdater.html">Updater</a></div><div class="ttdoc">The Updater class is used to check for updates and download new versions of the program.</div><div class="ttdef"><b>Definition:</b> updater.h:44</div></div>
-<div class="ttc" id="aclassUpdater_html_a2f8434a97a4f3d3c716bb05abb20621e"><div class="ttname"><a href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">Updater::~Updater</a></div><div class="ttdeci">virtual ~Updater()</div><div class="ttdef"><b>Definition:</b> updater.cpp:41</div></div>
-<div class="ttc" id="aclassUpdater_html_a548846df70af2ee28b1ae789d6271f40"><div class="ttname"><a href="classUpdater.html#a548846df70af2ee28b1ae789d6271f40">Updater::overwriteExecutable</a></div><div class="ttdeci">void overwriteExecutable(void)</div><div class="ttdef"><b>Definition:</b> updater.cpp:102</div></div>
-<div class="ttc" id="aclassUpdater_html_a6326102c1fb847acbb6d974a6f9dba34"><div class="ttname"><a href="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34">Updater::initUpdate</a></div><div class="ttdeci">void initUpdate()</div><div class="ttdef"><b>Definition:</b> updater.cpp:51</div></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;QFileInfo&gt;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;QProcess&gt;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;core/net.h&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;version.h&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;updaterdialog.h&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define _VERSION_H_URL &quot;https://raw.githubusercontent.com/Open-Typer/Open-Typer/master/src/include/version.h&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define _GITHUB_REPO &quot;https://github.com/Open-Typer/Open-Typer&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classUpdater.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classUpdater.html">Updater</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    Q_OBJECT</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea">Updater</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keyword">virtual</span> <a class="code hl_function" href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">~Updater</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif </span><span class="comment">// UPDATER_H</span></div>
+<div class="ttc" id="aclassUpdater_html"><div class="ttname"><a href="classUpdater.html">Updater</a></div><div class="ttdoc">The Updater class is used to check for updates and download new versions of the program.</div><div class="ttdef"><b>Definition:</b> updater.h:41</div></div>
+<div class="ttc" id="aclassUpdater_html_a2f8434a97a4f3d3c716bb05abb20621e"><div class="ttname"><a href="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e">Updater::~Updater</a></div><div class="ttdeci">virtual ~Updater()</div><div class="ttdef"><b>Definition:</b> updater.cpp:63</div></div>
 <div class="ttc" id="aclassUpdater_html_abf702b842504bc1147a5e7bebbbf15ea"><div class="ttname"><a href="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea">Updater::Updater</a></div><div class="ttdeci">Updater(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> updater.cpp:29</div></div>
-<div class="ttc" id="aclassUpdater_html_ac58a6e2ad6c6b6ad0e22e439e1085e31"><div class="ttname"><a href="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31">Updater::readVersion</a></div><div class="ttdeci">QString readVersion(const QString versionHeader)</div><div class="ttdef"><b>Definition:</b> updater.cpp:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

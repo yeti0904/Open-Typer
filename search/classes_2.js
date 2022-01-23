@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['downloader_0',['Downloader',['../classDownloader.html',1,'']]]
+  ['fileutils_0',['fileUtils',['../classfileUtils.html',1,'']]]
 ];

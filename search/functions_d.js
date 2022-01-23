@@ -9,6 +9,5 @@ var searchData=
   ['openprebuilt_6',['openPrebuilt',['../classpackEditor.html#ae4e25dd318728fc46546e7116e751a91',1,'packEditor']]],
   ['openstudentoptions_7',['openStudentOptions',['../classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c',1,'OpenTyper']]],
   ['opentyper_8',['OpenTyper',['../classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae',1,'OpenTyper']]],
-  ['optionswindow_9',['optionsWindow',['../classoptionsWindow.html#a45fae6808c165b25c933492140379fd3',1,'optionsWindow']]],
-  ['overwriteexecutable_10',['overwriteExecutable',['../classUpdater.html#a548846df70af2ee28b1ae789d6271f40',1,'Updater']]]
+  ['optionswindow_9',['optionsWindow',['../classoptionsWindow.html#a45fae6808c165b25c933492140379fd3',1,'optionsWindow']]]
 ];

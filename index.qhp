@@ -93,16 +93,6 @@
               <section title="themeChanged" ref="classcustomizationOptions.html#a91aecd4bea4879c9eb40f1c91c08b2ea" />
               <section title="updateTheme" ref="classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230" />
             </section>
-            <section title="Downloader" ref="classDownloader.html">
-              <section title="Downloader" ref="classDownloader.html#aa17d571750e0b99cd5d659597c6684e1" />
-              <section title="~Downloader" ref="classDownloader.html#a7ef888789ffe71122774bd249ccbbf32" />
-              <section title="cancelDownload" ref="classDownloader.html#a212995382f9a25011913e161b998f2a7" />
-              <section title="downloaded" ref="classDownloader.html#a999c05d20756945267b268ab52ba6dae" />
-              <section title="downloadedData" ref="classDownloader.html#a5cdbcf299ec677c2176d07246dfa6313" />
-              <section title="downloadProgress" ref="classDownloader.html#acb7e8ab6735e292793b62bdbefbe3514" />
-              <section title="fileDownloaded" ref="classDownloader.html#ab9e6863b4f8b6b01f5c4546f06cd1394" />
-              <section title="progressChanged" ref="classDownloader.html#a6532e1a8bc8e0995f9dd27e6b2fc1be4" />
-            </section>
             <section title="fileUtils" ref="classfileUtils.html">
               <section title="configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
               <section title="mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -164,9 +154,6 @@
               <section title="serverAddress" ref="classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
               <section title="serverPort" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946" />
               <section title="setErrorDialogs" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c" />
-            </section>
-            <section title="Net" ref="classNet.html">
-              <section title="internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
             </section>
             <section title="OpenTyper" ref="classOpenTyper.html">
               <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
@@ -311,19 +298,10 @@
             <section title="Updater" ref="classUpdater.html">
               <section title="Updater" ref="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea" />
               <section title="~Updater" ref="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e" />
-              <section title="initUpdate" ref="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34" />
-              <section title="overwriteExecutable" ref="classUpdater.html#a548846df70af2ee28b1ae789d6271f40" />
-              <section title="readVersion" ref="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31" />
             </section>
             <section title="UpdaterDialog" ref="classUpdaterDialog.html">
-              <section title="UpdaterDialog" ref="classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0" />
+              <section title="UpdaterDialog" ref="classUpdaterDialog.html#ae6833c46d5feff6d267e113ba23410e4" />
               <section title="~UpdaterDialog" ref="classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0" />
-              <section title="abortDownload" ref="classUpdaterDialog.html#a7b7d96f8b1dcf3f8d1b30e3e08da3755" />
-              <section title="cancelDownload" ref="classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf" />
-              <section title="closeEvent" ref="classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1" />
-              <section title="setCurrentVer" ref="classUpdaterDialog.html#a79b915399378fa8dddece96e4ca889c3" />
-              <section title="setNewVer" ref="classUpdaterDialog.html#adcbb46b4934299196cf9f9d57376064e" />
-              <section title="updateProgress" ref="classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4" />
             </section>
           </section>
           <section title="Class Index" ref="classes.html" />
@@ -349,8 +327,6 @@
               <section title="OpenTyper" ref="classOpenTyper.html" />
             </section>
             <section title="QObject" ref="">
-              <section title="Downloader" ref="classDownloader.html" />
-              <section title="Net" ref="classNet.html" />
               <section title="Updater" ref="classUpdater.html" />
               <section title="builtinPacks" ref="classbuiltinPacks.html" />
               <section title="configParser" ref="classconfigParser.html" />
@@ -570,19 +546,6 @@
       <keyword name="customBgColor" id="customizationOptions::customBgColor" ref="classcustomizationOptions.html#a3702edf910562341370c5ea78c77d228" />
       <keyword name="customPaperColor" id="customizationOptions::customPaperColor" ref="classcustomizationOptions.html#aefb17873c26ac479122229f89196af60" />
       <keyword name="customPanelColor" id="customizationOptions::customPanelColor" ref="classcustomizationOptions.html#a63154eb5806c0c37337bb0f8b38785b9" />
-      <keyword name="Downloader" id="Downloader" ref="classDownloader.html" />
-      <keyword name="cancelDownload" id="Downloader::cancelDownload" ref="classDownloader.html#a212995382f9a25011913e161b998f2a7" />
-      <keyword name="downloaded" id="Downloader::downloaded" ref="classDownloader.html#a999c05d20756945267b268ab52ba6dae" />
-      <keyword name="progressChanged" id="Downloader::progressChanged" ref="classDownloader.html#a6532e1a8bc8e0995f9dd27e6b2fc1be4" />
-      <keyword name="Downloader" id="Downloader::Downloader" ref="classDownloader.html#aa17d571750e0b99cd5d659597c6684e1" />
-      <keyword name="~Downloader" id="Downloader::~Downloader" ref="classDownloader.html#a7ef888789ffe71122774bd249ccbbf32" />
-      <keyword name="downloadedData" id="Downloader::downloadedData" ref="classDownloader.html#a5cdbcf299ec677c2176d07246dfa6313" />
-      <keyword name="downloadProgressPercentage" id="Downloader::downloadProgressPercentage" ref="classDownloader.html#aa89c8a376d4afe0669890f0cf7131958" />
-      <keyword name="fileDownloaded" id="Downloader::fileDownloaded" ref="classDownloader.html#ab9e6863b4f8b6b01f5c4546f06cd1394" />
-      <keyword name="downloadProgress" id="Downloader::downloadProgress" ref="classDownloader.html#acb7e8ab6735e292793b62bdbefbe3514" />
-      <keyword name="m_WebCtrl" id="Downloader::m_WebCtrl" ref="classDownloader.html#a970c45f78de03f7d2725eb5dd67d3f13" />
-      <keyword name="m_DownloadedData" id="Downloader::m_DownloadedData" ref="classDownloader.html#a185f552bbfbd0e9961bf3aa66975d060" />
-      <keyword name="reply" id="Downloader::reply" ref="classDownloader.html#abdd7aa4d6484987acefc87e666c1ea7b" />
       <keyword name="fileUtils" id="fileUtils" ref="classfileUtils.html" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils.html#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils.html#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -653,8 +616,6 @@
       <keyword name="errorDialogs" id="monitorClient::errorDialogs" ref="classmonitorClient.html#a0a0f4fa7f7849e959d105adcc959ba57" />
       <keyword name="socket" id="monitorClient::socket" ref="classmonitorClient.html#a5cc42b191c57af0caa84d7fd5b9499c2" />
       <keyword name="response" id="monitorClient::response" ref="classmonitorClient.html#a0fb0b9b84438b46150acd38e63f1ee87" />
-      <keyword name="Net" id="Net" ref="classNet.html" />
-      <keyword name="internetConnected" id="Net::internetConnected" ref="classNet.html#adf463469ad1e88a19cd54e1687f8cd24" />
       <keyword name="OpenTyper" id="OpenTyper" ref="classOpenTyper.html" />
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1" />
       <keyword name="OpenTyper" id="OpenTyper::OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
@@ -902,23 +863,10 @@
       <keyword name="Updater" id="Updater" ref="classUpdater.html" />
       <keyword name="Updater" id="Updater::Updater" ref="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea" />
       <keyword name="~Updater" id="Updater::~Updater" ref="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e" />
-      <keyword name="initUpdate" id="Updater::initUpdate" ref="classUpdater.html#a6326102c1fb847acbb6d974a6f9dba34" />
-      <keyword name="overwriteExecutable" id="Updater::overwriteExecutable" ref="classUpdater.html#a548846df70af2ee28b1ae789d6271f40" />
-      <keyword name="readVersion" id="Updater::readVersion" ref="classUpdater.html#ac58a6e2ad6c6b6ad0e22e439e1085e31" />
-      <keyword name="versionHdw" id="Updater::versionHdw" ref="classUpdater.html#a385584570178d5a5e2be21f62b4fed95" />
-      <keyword name="versionH" id="Updater::versionH" ref="classUpdater.html#a73500d41008332d7da882ebfa1e678a3" />
-      <keyword name="updatedProgram" id="Updater::updatedProgram" ref="classUpdater.html#ac786753efe6b8e4384254df0592b2c90" />
       <keyword name="UpdaterDialog" id="UpdaterDialog" ref="classUpdaterDialog.html" />
-      <keyword name="updateProgress" id="UpdaterDialog::updateProgress" ref="classUpdaterDialog.html#a5a5d0ae5fa8105215f1e974757a306f4" />
-      <keyword name="cancelDownload" id="UpdaterDialog::cancelDownload" ref="classUpdaterDialog.html#a6ea07d8acd865201e99c9b550d4f2edf" />
-      <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog.html#a3180b47a5f895b8ac8c4cf367d2391d0" />
+      <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog.html#ae6833c46d5feff6d267e113ba23410e4" />
       <keyword name="~UpdaterDialog" id="UpdaterDialog::~UpdaterDialog" ref="classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0" />
-      <keyword name="setCurrentVer" id="UpdaterDialog::setCurrentVer" ref="classUpdaterDialog.html#a79b915399378fa8dddece96e4ca889c3" />
-      <keyword name="setNewVer" id="UpdaterDialog::setNewVer" ref="classUpdaterDialog.html#adcbb46b4934299196cf9f9d57376064e" />
-      <keyword name="closeEvent" id="UpdaterDialog::closeEvent" ref="classUpdaterDialog.html#abaf1c668d20d2760a723a86045f92ac1" />
-      <keyword name="abortDownload" id="UpdaterDialog::abortDownload" ref="classUpdaterDialog.html#a7b7d96f8b1dcf3f8d1b30e3e08da3755" />
       <keyword name="ui" id="UpdaterDialog::ui" ref="classUpdaterDialog.html#afff6bfb3f2078b3e9e7a73651f2ad147" />
-      <keyword name="_downloading" id="UpdaterDialog::_downloading" ref="classUpdaterDialog.html#a6f15b8bcca5eabde000873b2084864bd" />
     </keywords>
     <files>
       <file>tabs.css</file>
@@ -995,10 +943,6 @@
       <file>customizationOptions.png</file>
       <file>customizationOptions2.png</file>
       <file>classcustomizationOptions-members.html</file>
-      <file>classDownloader.html</file>
-      <file>classDownloader__inherit__graph.png</file>
-      <file>classDownloader__coll__graph.png</file>
-      <file>classDownloader-members.html</file>
       <file>classfileUtils.html</file>
       <file>classfileUtils-members.html</file>
       <file>classhistoryParser.html</file>
@@ -1036,10 +980,6 @@
       <file>classmonitorClient__inherit__graph.png</file>
       <file>classmonitorClient__coll__graph.png</file>
       <file>classmonitorClient-members.html</file>
-      <file>classNet.html</file>
-      <file>classNet__inherit__graph.png</file>
-      <file>classNet__coll__graph.png</file>
-      <file>classNet-members.html</file>
       <file>classOpenTyper.html</file>
       <file>classOpenTyper__inherit__graph.png</file>
       <file>classOpenTyper__coll__graph.png</file>
@@ -1100,7 +1040,6 @@
       <file>classUpdaterDialog__inherit__graph.png</file>
       <file>classUpdaterDialog__coll__graph.png</file>
       <file>UpdaterDialog.png</file>
-      <file>UpdaterDialogProgress.png</file>
       <file>classUpdaterDialog-members.html</file>
       <file>graph_legend.png</file>
       <file>graph_legend.html</file>

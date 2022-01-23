@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['monitorclient_0',['monitorClient',['../classmonitorClient.html',1,'']]]
+  ['opentyper_0',['OpenTyper',['../classOpenTyper.html',1,'']]],
+  ['optionswindow_1',['optionsWindow',['../classoptionsWindow.html',1,'']]]
 ];

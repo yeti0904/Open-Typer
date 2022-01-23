@@ -21,8 +21,6 @@ var hierarchy =
       [ "OpenTyper", "classOpenTyper.html", null ]
     ] ],
     [ "QObject", null, [
-      [ "Downloader", "classDownloader.html", null ],
-      [ "Net", "classNet.html", null ],
       [ "Updater", "classUpdater.html", null ],
       [ "builtinPacks", "classbuiltinPacks.html", null ],
       [ "configParser", "classconfigParser.html", null ],
