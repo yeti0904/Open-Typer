@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Open-Typer: Build instructions</title>
+<title>Open-Typer: Building for GNU/Linux</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,30 +84,17 @@ $(document).ready(function(){initNavTree('md_docs_data_pages_Build_instructions.
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Build instructions </div></div>
+  <div class="headertitle"><div class="title">Building for GNU/Linux </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><b>Note:</b> Building on Windows is not covered on this page, but the procedure is same as with any Qt project.</p>
-<h1><a class="anchor" id="autotoc_md0"></a>
-Building for GNU/Linux</h1>
-<p ><b>Install dependencies (Ubuntu):</b></p>
-<p ><code>sudo apt-get install gcc make build-essential qt5-qmake qtbase5-dev</code></p>
-<h2><a class="anchor" id="autotoc_md1"></a>
-Building a standalone binary</h2>
+<div class="textblock"><p ><b>Install dependencies (Ubuntu):</b></p>
+<p ><code>sudo apt-get install gcc make build-essential</code></p>
+<p >Install Qt using the installer and make sure all required modules are installed (see the .pro file).</p>
+<p >As of writing, Open-Typer (officially) supports Qt 5.9.5 up to 5.15.8.</p>
 <div class="fragment"><div class="line">qmake</div>
+<div class="line">lrelease *.pro</div>
 <div class="line">make -j$(nproc --all)</div>
-</div><!-- fragment --><p ><b>Installation:</b></p>
-<p ><code>sudo mv Open-Typer /usr/local/bin/</code></p>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Building a DEB package:</h2>
-<p ><code>./build-deb.sh</code></p>
-<p ><b>Installation</b>:</p>
-<p ><code>sudo dpkg -i open-typer*.deb</code></p>
-<h1><a class="anchor" id="autotoc_md3"></a>
-Building for Windows</h1>
-<p >Use the <code>winbuild.sh</code> script.</p>
-<p >It will download M Cross Environment and build Qt, so the first build will take a while.</p>
-<p ><code>./winbuild.sh</code> </p>
+</div><!-- fragment --><p >You may need to use the platform-specifc deploy tool to add shared libraries, for example <code>windeployqt</code> for Windows and <code>macdeployqt</code> for MacOS. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
