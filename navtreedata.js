@@ -28,7 +28,7 @@ var NAVTREE =
     [ "Features", "index.html#autotoc_md2", null ],
     [ "Download", "index.html#autotoc_md3", null ],
     [ "Screenshots", "index.html#autotoc_md4", null ],
-    [ "Building for GNU/Linux", "md_docs_data_pages_Build_instructions.html", null ],
+    [ "Build instructions", "md_docs_data_pages_Build_instructions.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

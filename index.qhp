@@ -9,7 +9,7 @@
         <section title="Features" ref="index.html#autotoc_md2" />
         <section title="Download" ref="index.html#autotoc_md3" />
         <section title="Screenshots" ref="index.html#autotoc_md4" />
-        <section title="Building for GNU/Linux" ref="md_docs_data_pages_Build_instructions.html" />
+        <section title="Build instructions" ref="md_docs_data_pages_Build_instructions.html" />
         <section title="Classes" ref="annotated.html">
           <section title="Class List" ref="annotated.html">
             <section title="behaviorOptions" ref="classbehaviorOptions.html">
@@ -437,7 +437,7 @@
       </section>
     </toc>
     <keywords>
-      <keyword name="Building for GNU/Linux" id="Building for GNU/Linux" ref="md_docs_data_pages_Build_instructions.html" />
+      <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions.html" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions.html#a604e707e9c208f8dd09d47714b1d52a2" />
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b" />
