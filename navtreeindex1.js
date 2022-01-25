@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"classstatsDialog.html":[4,0,21],
+"classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955":[4,0,21,1],
+"classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d":[4,0,21,0],
 "classstringUtils.html":[4,0,22],
 "classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6":[4,0,22,0],
 "classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2":[4,0,22,1],
