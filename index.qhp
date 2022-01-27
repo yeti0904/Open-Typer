@@ -115,6 +115,20 @@
               <section title="isDeadKey" ref="classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676" />
               <section title="isSpecialKey" ref="classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
             </section>
+            <section title="keyboardWidget" ref="classkeyboardWidget.html">
+              <section title="keyboardWidget" ref="classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c" />
+              <section title="addKey" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8" />
+              <section title="dehighlightKey" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc" />
+              <section title="findKey" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274" />
+              <section title="fingerHand" ref="classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20" />
+              <section title="highlightKey" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae" />
+              <section title="keyFinger" ref="classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951" />
+              <section title="loadLayout" ref="classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8" />
+              <section title="nextRow" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57" />
+              <section title="registerKey" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23" />
+              <section title="resetKeyColor" ref="classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e" />
+              <section title="setKeyColor" ref="classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875" />
+            </section>
             <section title="languageList" ref="classlanguageList.html">
               <section title="languageList" ref="classlanguageList.html#a561ad6910f45293e1889ce65048c335d" />
               <section title="~languageList" ref="classlanguageList.html#a8d99b59d00bbdc29823c8caf94d83f75" />
@@ -157,6 +171,7 @@
               <section title="connectAll" ref="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f" />
               <section title="initTimedExercise" ref="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
               <section title="keyPress" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593" />
+              <section title="keyRelease" ref="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e" />
               <section title="lessonSelectionListIndexChanged" ref="classOpenTyper.html#a71f4a38c2b9550c71eea4204e34de0e5" />
               <section title="levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
               <section title="levelSelectionListIndexChanged" ref="classOpenTyper.html#aa809b630b0145d092992fa15a674206b" />
@@ -317,6 +332,9 @@
               <section title="studentOptions" ref="classstudentOptions.html" />
               <section title="timeDialog" ref="classtimeDialog.html" />
             </section>
+            <section title="QFrame" ref="">
+              <section title="keyboardWidget" ref="classkeyboardWidget.html" />
+            </section>
             <section title="QListWidget" ref="">
               <section title="languageList" ref="classlanguageList.html" />
             </section>
@@ -424,6 +442,7 @@
                 </section>
                 <section title="widgets" ref="dir_99f4b16b17a360d9840a4176588db3c6.html">
                   <section title="inputlabel.h" ref="inputlabel_8h_source.html" />
+                  <section title="keyboardwidget.h" ref="keyboardwidget_8h_source.html" />
                   <section title="languagelist.h" ref="languagelist_8h_source.html" />
                 </section>
                 <section title="levelsummary.h" ref="levelsummary_8h_source.html" />
@@ -554,6 +573,7 @@
       <keyword name="historyPackValue" id="historyParser::historyPackValue" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
       <keyword name="inputLabelWidget" id="inputLabelWidget" ref="classinputLabelWidget.html" />
       <keyword name="keyPressed" id="inputLabelWidget::keyPressed" ref="classinputLabelWidget.html#a013457681f05c2886b081cbed9b8eae3" />
+      <keyword name="keyReleased" id="inputLabelWidget::keyReleased" ref="classinputLabelWidget.html#a5c243f7f477fc999a515ab9307a3d7c5" />
       <keyword name="inputLabelWidget" id="inputLabelWidget::inputLabelWidget" ref="classinputLabelWidget.html#a2683225e6719b9ae3efec1f5a6d38bfe" />
       <keyword name="~inputLabelWidget" id="inputLabelWidget::~inputLabelWidget" ref="classinputLabelWidget.html#a547a95ccb7ba47da543f87811017200a" />
       <keyword name="parentWidget" id="inputLabelWidget::parentWidget" ref="classinputLabelWidget.html#ae1e002554d4d8fc303424d666bc4a83c" />
@@ -571,6 +591,29 @@
       <keyword name="keyboardUtils" id="keyboardUtils" ref="classkeyboardUtils.html" />
       <keyword name="isSpecialKey" id="keyboardUtils::isSpecialKey" ref="classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
       <keyword name="isDeadKey" id="keyboardUtils::isDeadKey" ref="classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676" />
+      <keyword name="keyboardWidget" id="keyboardWidget" ref="classkeyboardWidget.html" />
+      <keyword name="keyboardWidget" id="keyboardWidget::keyboardWidget" ref="classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c" />
+      <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875" />
+      <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8" />
+      <keyword name="highlightKey" id="keyboardWidget::highlightKey" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae" />
+      <keyword name="dehighlightKey" id="keyboardWidget::dehighlightKey" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc" />
+      <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274" />
+      <keyword name="keyFinger" id="keyboardWidget::keyFinger" ref="classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951" />
+      <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20" />
+      <keyword name="addKey" id="keyboardWidget::addKey" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8" />
+      <keyword name="nextRow" id="keyboardWidget::nextRow" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57" />
+      <keyword name="registerKey" id="keyboardWidget::registerKey" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23" />
+      <keyword name="resetKeyColor" id="keyboardWidget::resetKeyColor" ref="classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e" />
+      <keyword name="mainLayout" id="keyboardWidget::mainLayout" ref="classkeyboardWidget.html#aeb685b07fe0245d73cdd937f9e1d4fb7" />
+      <keyword name="keys" id="keyboardWidget::keys" ref="classkeyboardWidget.html#abb65e4dfcddb0fe5ad98d15f88c194d8" />
+      <keyword name="keyLabels" id="keyboardWidget::keyLabels" ref="classkeyboardWidget.html#a74dda8e40e5b751b01b9159b844b74ba" />
+      <keyword name="keyMap" id="keyboardWidget::keyMap" ref="classkeyboardWidget.html#a7f9849ab9e5c89bbc4fc29a9640b25e8" />
+      <keyword name="currentRow" id="keyboardWidget::currentRow" ref="classkeyboardWidget.html#a84ce25ccbcbe0d805a9e2565d3d59500" />
+      <keyword name="currentColumn" id="keyboardWidget::currentColumn" ref="classkeyboardWidget.html#a0e5c292519f46dd4d697b7bafe8a2f0d" />
+      <keyword name="currentRowLayout" id="keyboardWidget::currentRowLayout" ref="classkeyboardWidget.html#adbd17064b05982ca9d9d3c5ae64f265e" />
+      <keyword name="keyBaseStyleSheets" id="keyboardWidget::keyBaseStyleSheets" ref="classkeyboardWidget.html#a810eacd8d28fd087aaa1b838bb25515d" />
+      <keyword name="keyColors" id="keyboardWidget::keyColors" ref="classkeyboardWidget.html#ac57cfc57c9094b5261b761199d3f97e2" />
+      <keyword name="keyFingerColors" id="keyboardWidget::keyFingerColors" ref="classkeyboardWidget.html#ae9976685356e667014f4d482db5961d6" />
       <keyword name="languageList" id="languageList" ref="classlanguageList.html" />
       <keyword name="languageChanged" id="languageList::languageChanged" ref="classlanguageList.html#ab7219e9a8283a94663012fdcbb3fc1c1" />
       <keyword name="languageList" id="languageList::languageList" ref="classlanguageList.html#a561ad6910f45293e1889ce65048c335d" />
@@ -619,6 +662,7 @@
       <keyword name="~OpenTyper" id="OpenTyper::~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="keyPress" id="OpenTyper::keyPress" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593" />
+      <keyword name="keyRelease" id="OpenTyper::keyRelease" ref="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e" />
       <keyword name="openOptions" id="OpenTyper::openOptions" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e" />
       <keyword name="openStudentOptions" id="OpenTyper::openStudentOptions" ref="classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c" />
       <keyword name="openPack" id="OpenTyper::openPack" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d" />
@@ -917,6 +961,7 @@
       <file>updaterdialog_8h_source.html</file>
       <file>version_8h_source.html</file>
       <file>inputlabel_8h_source.html</file>
+      <file>keyboardwidget_8h_source.html</file>
       <file>languagelist_8h_source.html</file>
       <file>md_docs_data_pages_Build_instructions.html</file>
       <file>classbehaviorOptions.html</file>
@@ -961,6 +1006,10 @@
       <file>classkeyboardOptions-members.html</file>
       <file>classkeyboardUtils.html</file>
       <file>classkeyboardUtils-members.html</file>
+      <file>classkeyboardWidget.html</file>
+      <file>classkeyboardWidget__inherit__graph.png</file>
+      <file>classkeyboardWidget__coll__graph.png</file>
+      <file>classkeyboardWidget-members.html</file>
       <file>classlanguageList.html</file>
       <file>classlanguageList__inherit__graph.png</file>
       <file>classlanguageList__coll__graph.png</file>
@@ -1080,6 +1129,7 @@
       <file>inherit_graph_6.png</file>
       <file>inherit_graph_7.png</file>
       <file>inherit_graph_8.png</file>
+      <file>inherit_graph_9.png</file>
       <file>functions.html</file>
       <file>functions_b.html</file>
       <file>functions_c.html</file>

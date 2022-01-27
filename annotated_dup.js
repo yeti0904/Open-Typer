@@ -10,6 +10,7 @@ var annotated_dup =
     [ "inputLabelWidget", "classinputLabelWidget.html", "classinputLabelWidget" ],
     [ "keyboardOptions", "classkeyboardOptions.html", "classkeyboardOptions" ],
     [ "keyboardUtils", "classkeyboardUtils.html", "classkeyboardUtils" ],
+    [ "keyboardWidget", "classkeyboardWidget.html", "classkeyboardWidget" ],
     [ "languageList", "classlanguageList.html", "classlanguageList" ],
     [ "languageManager", "classlanguageManager.html", "classlanguageManager" ],
     [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],

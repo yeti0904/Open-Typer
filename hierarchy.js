@@ -14,6 +14,9 @@ var hierarchy =
       [ "studentOptions", "classstudentOptions.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ]
     ] ],
+    [ "QFrame", null, [
+      [ "keyboardWidget", "classkeyboardWidget.html", null ]
+    ] ],
     [ "QListWidget", null, [
       [ "languageList", "classlanguageList.html", null ]
     ] ],

@@ -7,6 +7,7 @@ var classOpenTyper =
     [ "connectAll", "classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f", null ],
     [ "initTimedExercise", "classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc", null ],
     [ "keyPress", "classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593", null ],
+    [ "keyRelease", "classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e", null ],
     [ "lessonSelectionListIndexChanged", "classOpenTyper.html#a71f4a38c2b9550c71eea4204e34de0e5", null ],
     [ "levelFinalInit", "classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe", null ],
     [ "levelSelectionListIndexChanged", "classOpenTyper.html#aa809b630b0145d092992fa15a674206b", null ],
