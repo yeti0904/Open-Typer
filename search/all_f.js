@@ -10,7 +10,7 @@ var searchData=
   ['reopen_7',['reopen',['../classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390',1,'configParser']]],
   ['repeatlevel_8',['repeatLevel',['../classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e',1,'OpenTyper']]],
   ['resetbgpapercolors_9',['resetBgPaperColors',['../classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af',1,'customizationOptions']]],
-  ['resetkeycolor_10',['resetKeyColor',['../classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e',1,'keyboardWidget']]],
+  ['resetkeycolor_10',['resetKeyColor',['../classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65',1,'keyboardWidget']]],
   ['resettextcolors_11',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
   ['responseready_12',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
   ['restoretext_13',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]]

@@ -17,7 +17,6 @@
               <section title="~behaviorOptions" ref="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b" />
               <section title="setErrorPenalty" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58" />
               <section title="setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
-              <section title="setTextViewMode" ref="classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61" />
             </section>
             <section title="builtinPacks" ref="classbuiltinPacks.html">
               <section title="packName" ref="classbuiltinPacks.html#a6b49a3342d9edcadd208da1cc6b550b0" />
@@ -126,7 +125,7 @@
               <section title="loadLayout" ref="classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8" />
               <section title="nextRow" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57" />
               <section title="registerKey" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23" />
-              <section title="resetKeyColor" ref="classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e" />
+              <section title="resetKeyColor" ref="classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65" />
               <section title="setKeyColor" ref="classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875" />
             </section>
             <section title="languageList" ref="classlanguageList.html">
@@ -465,7 +464,6 @@
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5" />
       <keyword name="setErrorPenalty" id="behaviorOptions::setErrorPenalty" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58" />
-      <keyword name="setTextViewMode" id="behaviorOptions::setTextViewMode" ref="classbehaviorOptions.html#a2f7cb5fa81f173c46e93b86512784c61" />
       <keyword name="ui" id="behaviorOptions::ui" ref="classbehaviorOptions.html#ad36f13503433d8501cf57a33f2906ddd" />
       <keyword name="settings" id="behaviorOptions::settings" ref="classbehaviorOptions.html#abfb2046f0ddd8205f5ab237ed4b9fabb" />
       <keyword name="builtinPacks" id="builtinPacks" ref="classbuiltinPacks.html" />
@@ -603,7 +601,7 @@
       <keyword name="addKey" id="keyboardWidget::addKey" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8" />
       <keyword name="nextRow" id="keyboardWidget::nextRow" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57" />
       <keyword name="registerKey" id="keyboardWidget::registerKey" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23" />
-      <keyword name="resetKeyColor" id="keyboardWidget::resetKeyColor" ref="classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e" />
+      <keyword name="resetKeyColor" id="keyboardWidget::resetKeyColor" ref="classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65" />
       <keyword name="mainLayout" id="keyboardWidget::mainLayout" ref="classkeyboardWidget.html#aeb685b07fe0245d73cdd937f9e1d4fb7" />
       <keyword name="keys" id="keyboardWidget::keys" ref="classkeyboardWidget.html#abb65e4dfcddb0fe5ad98d15f88c194d8" />
       <keyword name="keyLabels" id="keyboardWidget::keyLabels" ref="classkeyboardWidget.html#a74dda8e40e5b751b01b9159b844b74ba" />
@@ -1009,6 +1007,7 @@
       <file>classkeyboardWidget.html</file>
       <file>classkeyboardWidget__inherit__graph.png</file>
       <file>classkeyboardWidget__coll__graph.png</file>
+      <file>keyboardWidget.png</file>
       <file>classkeyboardWidget-members.html</file>
       <file>classlanguageList.html</file>
       <file>classlanguageList__inherit__graph.png</file>

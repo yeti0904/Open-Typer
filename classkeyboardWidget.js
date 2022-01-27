@@ -10,6 +10,6 @@ var classkeyboardWidget =
     [ "loadLayout", "classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8", null ],
     [ "nextRow", "classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57", null ],
     [ "registerKey", "classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23", null ],
-    [ "resetKeyColor", "classkeyboardWidget.html#afb34bed834bcebdf5c912c19431ae62e", null ],
+    [ "resetKeyColor", "classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65", null ],
     [ "setKeyColor", "classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875", null ]
 ];
