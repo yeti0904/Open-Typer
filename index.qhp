@@ -605,6 +605,7 @@
       <keyword name="mainLayout" id="keyboardWidget::mainLayout" ref="classkeyboardWidget.html#aeb685b07fe0245d73cdd937f9e1d4fb7" />
       <keyword name="keys" id="keyboardWidget::keys" ref="classkeyboardWidget.html#abb65e4dfcddb0fe5ad98d15f88c194d8" />
       <keyword name="keyLabels" id="keyboardWidget::keyLabels" ref="classkeyboardWidget.html#a74dda8e40e5b751b01b9159b844b74ba" />
+      <keyword name="keyTypes" id="keyboardWidget::keyTypes" ref="classkeyboardWidget.html#a5a758165411e2e18290e3aaf1d2b9de4" />
       <keyword name="keyMap" id="keyboardWidget::keyMap" ref="classkeyboardWidget.html#a7f9849ab9e5c89bbc4fc29a9640b25e8" />
       <keyword name="currentRow" id="keyboardWidget::currentRow" ref="classkeyboardWidget.html#a84ce25ccbcbe0d805a9e2565d3d59500" />
       <keyword name="currentColumn" id="keyboardWidget::currentColumn" ref="classkeyboardWidget.html#a0e5c292519f46dd4d697b7bafe8a2f0d" />
