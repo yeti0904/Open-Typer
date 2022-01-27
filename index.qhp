@@ -660,6 +660,7 @@
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1" />
       <keyword name="OpenTyper" id="OpenTyper::OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae" />
       <keyword name="~OpenTyper" id="OpenTyper::~OpenTyper" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f" />
+      <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="keyPress" id="OpenTyper::keyPress" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593" />
       <keyword name="keyRelease" id="OpenTyper::keyRelease" ref="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e" />
@@ -689,7 +690,6 @@
       <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper.html#a4b0b94bcf7267118e62e35fefa938ffe" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper.html#a487997a86245492f13709904e8c47f4b" />
       <keyword name="setFont" id="OpenTyper::setFont" ref="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
-      <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5" />
       <keyword name="updateTheme" id="OpenTyper::updateTheme" ref="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0" />
       <keyword name="refreshAll" id="OpenTyper::refreshAll" ref="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5" />
       <keyword name="changeMode" id="OpenTyper::changeMode" ref="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765" />
