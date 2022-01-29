@@ -122,7 +122,7 @@
               <section title="fingerHand" ref="classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20" />
               <section title="highlightKey" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae" />
               <section title="keyFinger" ref="classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951" />
-              <section title="loadLayout" ref="classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8" />
+              <section title="loadLayout" ref="classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd" />
               <section title="nextRow" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57" />
               <section title="registerKey" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23" />
               <section title="resetKeyColor" ref="classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65" />
@@ -592,7 +592,7 @@
       <keyword name="keyboardWidget" id="keyboardWidget" ref="classkeyboardWidget.html" />
       <keyword name="keyboardWidget" id="keyboardWidget::keyboardWidget" ref="classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c" />
       <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875" />
-      <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget.html#a4d48587f4501f9934978e2fba4bd33d8" />
+      <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd" />
       <keyword name="highlightKey" id="keyboardWidget::highlightKey" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae" />
       <keyword name="dehighlightKey" id="keyboardWidget::dehighlightKey" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274" />
