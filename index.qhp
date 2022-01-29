@@ -97,6 +97,13 @@
               <section title="historyPackValue" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
               <section title="historySize" ref="classhistoryParser.html#abccd1018e2cd37ed096be09f319d8958" />
             </section>
+            <section title="initialSetup" ref="classinitialSetup.html">
+              <section title="initialSetup" ref="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd" />
+              <section title="~initialSetup" ref="classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60" />
+              <section title="changeTheme" ref="classinitialSetup.html#a8a2c07722e2d80399d2a0bfa12b7f68e" />
+              <section title="finish" ref="classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72" />
+              <section title="loadList" ref="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd" />
+            </section>
             <section title="inputLabelWidget" ref="classinputLabelWidget.html">
               <section title="inputLabelWidget" ref="classinputLabelWidget.html#a2683225e6719b9ae3efec1f5a6d38bfe" />
               <section title="~inputLabelWidget" ref="classinputLabelWidget.html#a547a95ccb7ba47da543f87811017200a" />
@@ -322,6 +329,7 @@
             <section title="QDialog" ref="">
               <section title="SimpleColorDialog" ref="classSimpleColorDialog.html" />
               <section title="UpdaterDialog" ref="classUpdaterDialog.html" />
+              <section title="initialSetup" ref="classinitialSetup.html" />
               <section title="levelSummary" ref="classlevelSummary.html" />
               <section title="optionsWindow" ref="classoptionsWindow.html" />
               <section title="packEditor" ref="classpackEditor.html" />
@@ -444,6 +452,7 @@
                   <section title="keyboardwidget.h" ref="keyboardwidget_8h_source.html" />
                   <section title="languagelist.h" ref="languagelist_8h_source.html" />
                 </section>
+                <section title="initialsetup.h" ref="initialsetup_8h_source.html" />
                 <section title="levelsummary.h" ref="levelsummary_8h_source.html" />
                 <section title="opentyper.h" ref="opentyper_8h_source.html" />
                 <section title="paperconfigdialog.h" ref="paperconfigdialog_8h_source.html" />
@@ -569,6 +578,14 @@
       <keyword name="addHistoryEntry" id="historyParser::addHistoryEntry" ref="classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1" />
       <keyword name="historyDocument" id="historyParser::historyDocument" ref="classhistoryParser.html#acbcc9e9fc7e1f38d7f1ca030baa2ff7c" />
       <keyword name="historyPackValue" id="historyParser::historyPackValue" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
+      <keyword name="initialSetup" id="initialSetup" ref="classinitialSetup.html" />
+      <keyword name="initialSetup" id="initialSetup::initialSetup" ref="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd" />
+      <keyword name="~initialSetup" id="initialSetup::~initialSetup" ref="classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60" />
+      <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72" />
+      <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd" />
+      <keyword name="changeTheme" id="initialSetup::changeTheme" ref="classinitialSetup.html#a8a2c07722e2d80399d2a0bfa12b7f68e" />
+      <keyword name="ui" id="initialSetup::ui" ref="classinitialSetup.html#a152b72ecb49b51ca1d28ddfd5df37e4b" />
+      <keyword name="rawItems" id="initialSetup::rawItems" ref="classinitialSetup.html#a334b913c7560994726f8d7dcd63be8b4" />
       <keyword name="inputLabelWidget" id="inputLabelWidget" ref="classinputLabelWidget.html" />
       <keyword name="keyPressed" id="inputLabelWidget::keyPressed" ref="classinputLabelWidget.html#a013457681f05c2886b081cbed9b8eae3" />
       <keyword name="keyReleased" id="inputLabelWidget::keyReleased" ref="classinputLabelWidget.html#a5c243f7f477fc999a515ab9307a3d7c5" />
@@ -941,6 +958,7 @@
       <file>net_8h_source.html</file>
       <file>packs_8h_source.html</file>
       <file>utils_8h_source.html</file>
+      <file>initialsetup_8h_source.html</file>
       <file>levelsummary_8h_source.html</file>
       <file>opentyper_8h_source.html</file>
       <file>behavior_8h_source.html</file>
@@ -993,6 +1011,10 @@
       <file>classhistoryParser__inherit__graph.png</file>
       <file>classhistoryParser__coll__graph.png</file>
       <file>classhistoryParser-members.html</file>
+      <file>classinitialSetup.html</file>
+      <file>classinitialSetup__inherit__graph.png</file>
+      <file>classinitialSetup__coll__graph.png</file>
+      <file>classinitialSetup-members.html</file>
       <file>classinputLabelWidget.html</file>
       <file>classinputLabelWidget__inherit__graph.png</file>
       <file>classinputLabelWidget__coll__graph.png</file>

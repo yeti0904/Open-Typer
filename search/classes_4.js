@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['inputlabelwidget_0',['inputLabelWidget',['../classinputLabelWidget.html',1,'']]]
+  ['initialsetup_0',['initialSetup',['../classinitialSetup.html',1,'']]],
+  ['inputlabelwidget_1',['inputLabelWidget',['../classinputLabelWidget.html',1,'']]]
 ];

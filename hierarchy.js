@@ -5,6 +5,7 @@ var hierarchy =
     [ "QDialog", null, [
       [ "SimpleColorDialog", "classSimpleColorDialog.html", null ],
       [ "UpdaterDialog", "classUpdaterDialog.html", null ],
+      [ "initialSetup", "classinitialSetup.html", null ],
       [ "levelSummary", "classlevelSummary.html", null ],
       [ "optionsWindow", "classoptionsWindow.html", null ],
       [ "packEditor", "classpackEditor.html", null ],

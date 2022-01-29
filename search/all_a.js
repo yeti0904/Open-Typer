@@ -13,6 +13,7 @@ var searchData=
   ['loadconfig_10',['loadConfig',['../classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d',1,'OpenTyper']]],
   ['loadlayout_11',['loadLayout',['../classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd',1,'keyboardWidget']]],
   ['loadlesson_12',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
-  ['loadsublesson_13',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
-  ['loadtheme_14',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]]
+  ['loadlist_13',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
+  ['loadsublesson_14',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
+  ['loadtheme_15',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]]
 ];

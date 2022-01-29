@@ -20,7 +20,7 @@ var searchData=
   ['changerepeating_17',['changeRepeating',['../classpackView.html#aa27ec7d9ffe06948c110d13cbbc76da0',1,'packView']]],
   ['changerepeatlength_18',['changeRepeatLength',['../classpackView.html#ac18df3d9e3edaa386dcf8146a73cfea2',1,'packView']]],
   ['changeserverstate_19',['changeServerState',['../classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd',1,'connectionOptions']]],
-  ['changetheme_20',['changeTheme',['../classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31',1,'customizationOptions::changeTheme()'],['../classoptionsWindow.html#a5f4980316a269b3d11ece8e2bd156250',1,'optionsWindow::changeTheme()']]],
+  ['changetheme_20',['changeTheme',['../classinitialSetup.html#a8a2c07722e2d80399d2a0bfa12b7f68e',1,'initialSetup::changeTheme()'],['../classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31',1,'customizationOptions::changeTheme()'],['../classoptionsWindow.html#a5f4980316a269b3d11ece8e2bd156250',1,'optionsWindow::changeTheme()']]],
   ['close_21',['close',['../classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1',1,'configParser::close()'],['../classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea',1,'packEditor::close(void)']]],
   ['closeall_22',['closeAll',['../classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952',1,'packEditor']]],
   ['closeevent_23',['closeEvent',['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor']]],
