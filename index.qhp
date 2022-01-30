@@ -459,7 +459,6 @@
                 <section title="simplecolordialog.h" ref="simplecolordialog_8h_source" />
                 <section title="statsdialog.h" ref="statsdialog_8h_source" />
                 <section title="timedialog.h" ref="timedialog_8h_source" />
-                <section title="version.h" ref="version_8h_source" />
               </section>
             </section>
           </section>
@@ -803,7 +802,6 @@
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
       <file>updaterdialog_8h_source.html</file>
-      <file>version_8h_source.html</file>
       <file>inputlabel_8h_source.html</file>
       <file>keyboardwidget_8h_source.html</file>
       <file>languagelist_8h_source.html</file>

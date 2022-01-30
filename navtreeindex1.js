@@ -118,6 +118,5 @@ var NAVTREEINDEX1 =
 "timedialog_8h_source.html":[5,0,0,0,11],
 "updater_8h_source.html":[5,0,0,0,3,0],
 "updaterdialog_8h_source.html":[5,0,0,0,3,1],
-"utils_8h_source.html":[5,0,0,0,0,4],
-"version_8h_source.html":[5,0,0,0,12]
+"utils_8h_source.html":[5,0,0,0,0,4]
 };
