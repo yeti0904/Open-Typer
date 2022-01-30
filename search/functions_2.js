@@ -8,7 +8,7 @@ var searchData=
   ['changefontsize_5',['changeFontSize',['../classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615',1,'customizationOptions']]],
   ['changefulltheme_6',['changeFullTheme',['../classcustomizationOptions.html#a2809c2942db084dccbae65bf80ff9ef4',1,'customizationOptions']]],
   ['changeinputtextcolor_7',['changeInputTextColor',['../classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d',1,'customizationOptions']]],
-  ['changelanguage_8',['changeLanguage',['../classOpenTyper.html#a90fc2f41823079c45025542f24dd948f',1,'OpenTyper::changeLanguage()'],['../classoptionsWindow.html#acb6939ca9899f8dfd9c6d2c1e649be63',1,'optionsWindow::changeLanguage()'],['../classlanguageList.html#ab749a3913cc19a3b5d5dc275cc68abbe',1,'languageList::changeLanguage()']]],
+  ['changelanguage_8',['changeLanguage',['../classOpenTyper.html#a23c8b02efca023df25704ea58f64b572',1,'OpenTyper::changeLanguage()'],['../classoptionsWindow.html#acb6939ca9899f8dfd9c6d2c1e649be63',1,'optionsWindow::changeLanguage()'],['../classlanguageList.html#ab749a3913cc19a3b5d5dc275cc68abbe',1,'languageList::changeLanguage()']]],
   ['changelessondesc_9',['changeLessonDesc',['../classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a',1,'packView']]],
   ['changeleveltextcolor_10',['changeLevelTextColor',['../classcustomizationOptions.html#a64b84b7eb2349fb7d27dc25480348deb',1,'customizationOptions']]],
   ['changelinelength_11',['changeLineLength',['../classpackView.html#a2afc56c1ff61a63026c5926098ccdc6a',1,'packView']]],

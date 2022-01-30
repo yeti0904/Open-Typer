@@ -172,7 +172,7 @@
             <section title="OpenTyper" ref="classOpenTyper">
               <section title="OpenTyper" ref="classOpenTyper#a045934c687780e3a6b6c0c9beb1668ae" />
               <section title="~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
-              <section title="changeLanguage" ref="classOpenTyper#a90fc2f41823079c45025542f24dd948f" />
+              <section title="changeLanguage" ref="classOpenTyper#a23c8b02efca023df25704ea58f64b572" />
               <section title="changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
               <section title="connectAll" ref="classOpenTyper#a386fcf33ae25616ceb7ffcaa1e55645f" />
               <section title="initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
@@ -513,7 +513,7 @@
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions#a0ed613f456adc3f82f2cb9e0509b4615" />
       <keyword name="changeFullTheme" id="customizationOptions::changeFullTheme" ref="classcustomizationOptions#a2809c2942db084dccbae65bf80ff9ef4" />
       <keyword name="changeInputTextColor" id="customizationOptions::changeInputTextColor" ref="classcustomizationOptions#a6ba3efca45e2f158db0780d35090d29d" />
-      <keyword name="changeLanguage" id="OpenTyper::changeLanguage" ref="classOpenTyper#a90fc2f41823079c45025542f24dd948f" />
+      <keyword name="changeLanguage" id="OpenTyper::changeLanguage" ref="classOpenTyper#a23c8b02efca023df25704ea58f64b572" />
       <keyword name="changeLanguage" id="optionsWindow::changeLanguage" ref="classoptionsWindow#acb6939ca9899f8dfd9c6d2c1e649be63" />
       <keyword name="changeLanguage" id="languageList::changeLanguage" ref="classlanguageList#ab749a3913cc19a3b5d5dc275cc68abbe" />
       <keyword name="changeLessonDesc" id="packView::changeLessonDesc" ref="classpackView#a855b7f681fc8da2bd1e6efdc30548d4a" />
