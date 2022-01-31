@@ -157,8 +157,10 @@
             </section>
             <section title="monitorClient" ref="classmonitorClient">
               <section title="monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
+              <section title="~monitorClient" ref="classmonitorClient#a6c25754bf7d283d98b2a019f7eed8714" />
               <section title="available" ref="classmonitorClient#a14bc4c1e3c4239cf5d40b0a0302bbfd7" />
               <section title="convertData" ref="classmonitorClient#a87cfa1eddd8431db92a076ce38199f43" />
+              <section title="disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
               <section title="enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
               <section title="errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
               <section title="readData" ref="classmonitorClient#abe6de247bd781bc3c01bf31d6cc45be7" />
@@ -545,6 +547,7 @@
       <keyword name="customizationOptions" id="customizationOptions::customizationOptions" ref="classcustomizationOptions#a6e49823810c19835385fd388442d362c" />
       <keyword name="dehighlightKey" id="keyboardWidget::dehighlightKey" ref="classkeyboardWidget#a44d51675c40746936c3592216abd4dfc" />
       <keyword name="deleteExerciseLine" id="packView::deleteExerciseLine" ref="classpackView#aa1f2628214689e5c5a8e3bd36a63eae0" />
+      <keyword name="disconnected" id="monitorClient::disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
       <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
       <keyword name="errorOccurred" id="monitorClient::errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
       <keyword name="exerciseAttribute" id="configParser::exerciseAttribute" ref="classconfigParser#a18d87f4b2ddd523ac4476fc510b211f8" />
@@ -735,6 +738,7 @@
       <keyword name="~languageList" id="languageList::~languageList" ref="classlanguageList#a8d99b59d00bbdc29823c8caf94d83f75" />
       <keyword name="~languageManager" id="languageManager::~languageManager" ref="classlanguageManager#aa528e7f1356bfb831104e0c4e1c6c485" />
       <keyword name="~levelSummary" id="levelSummary::~levelSummary" ref="classlevelSummary#a9ef285f93758398b40f81ca48f22fbf2" />
+      <keyword name="~monitorClient" id="monitorClient::~monitorClient" ref="classmonitorClient#a6c25754bf7d283d98b2a019f7eed8714" />
       <keyword name="~OpenTyper" id="OpenTyper::~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
       <keyword name="~optionsWindow" id="optionsWindow::~optionsWindow" ref="classoptionsWindow#ad2942ee73b6562894bf2d25f554b9e5c" />
       <keyword name="~packEditor" id="packEditor::~packEditor" ref="classpackEditor#acc6fa330df5ca29c78538929eeabe382" />
