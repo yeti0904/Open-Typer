@@ -159,6 +159,7 @@
               <section title="monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
               <section title="~monitorClient" ref="classmonitorClient#a6c25754bf7d283d98b2a019f7eed8714" />
               <section title="available" ref="classmonitorClient#a14bc4c1e3c4239cf5d40b0a0302bbfd7" />
+              <section title="close" ref="classmonitorClient#a480d041102873d32fd1c0d5ba5dcd538" />
               <section title="convertData" ref="classmonitorClient#a87cfa1eddd8431db92a076ce38199f43" />
               <section title="disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
               <section title="enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
@@ -533,6 +534,7 @@
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
       <keyword name="changeTheme" id="optionsWindow::changeTheme" ref="classoptionsWindow#a5f4980316a269b3d11ece8e2bd156250" />
       <keyword name="close" id="configParser::close" ref="classconfigParser#a5e3450f912f556b8361d57ba61cd7de1" />
+      <keyword name="close" id="monitorClient::close" ref="classmonitorClient#a480d041102873d32fd1c0d5ba5dcd538" />
       <keyword name="close" id="packEditor::close" ref="classpackEditor#a7a0f4ec6830a8aaae728deab8762edea" />
       <keyword name="closeAll" id="packEditor::closeAll" ref="classpackEditor#ad1160ecc7f6d1396455a20b804bfc952" />
       <keyword name="closeEvent" id="packEditor::closeEvent" ref="classpackEditor#aa403472b118aef534f8093106316ce05" />

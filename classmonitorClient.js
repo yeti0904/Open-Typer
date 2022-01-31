@@ -3,6 +3,7 @@ var classmonitorClient =
     [ "monitorClient", "classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00", null ],
     [ "~monitorClient", "classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714", null ],
     [ "available", "classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7", null ],
+    [ "close", "classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538", null ],
     [ "convertData", "classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43", null ],
     [ "disconnected", "classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c", null ],
     [ "enabled", "classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f", null ],
