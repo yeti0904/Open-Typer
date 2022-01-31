@@ -125,6 +125,8 @@ Signals</h2></td></tr>
 <tr class="separator:a6940f786c749647238b2231694fd85e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73cdc9ea4b353d3f8e33b9e6fd27cb9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c">disconnected</a> ()</td></tr>
 <tr class="separator:a73cdc9ea4b353d3f8e33b9e6fd27cb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8920f4dfd14ad6a737708dfa32db8bcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a8920f4dfd14ad6a737708dfa32db8bcd">exerciseReceived</a> (QByteArray, int, bool)</td></tr>
+<tr class="separator:a8920f4dfd14ad6a737708dfa32db8bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -178,6 +180,9 @@ QByteArray&#160;</td><td class="memItemRight" valign="bottom"><b>response</b></t
 <tr class="memitem:a7777127938c582f81f89f27f2389f2bd"><td class="memItemLeft" align="right" valign="top"><a id="a7777127938c582f81f89f27f2389f2bd" name="a7777127938c582f81f89f27f2389f2bd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
 <tr class="separator:a7777127938c582f81f89f27f2389f2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ba4fbdf7c8f2a5eb167475a07df470"><td class="memItemLeft" align="right" valign="top"><a id="a92ba4fbdf7c8f2a5eb167475a07df470" name="a92ba4fbdf7c8f2a5eb167475a07df470"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>waitingForResponse</b></td></tr>
+<tr class="separator:a92ba4fbdf7c8f2a5eb167475a07df470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server.">monitorClient</a> class is used to communicate with the class monitor server. </p>
@@ -394,6 +399,49 @@ Displays connection error message. </p>
 
 </div>
 </div>
+<a id="a8920f4dfd14ad6a737708dfa32db8bcd" name="a8920f4dfd14ad6a737708dfa32db8bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8920f4dfd14ad6a737708dfa32db8bcd">&#9670;&nbsp;</a></span>exerciseReceived</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void monitorClient::exerciseReceived </td>
+          <td>(</td>
+          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when an exercise is received from the server. </p>
+
+</div>
+</div>
 <a id="abe6de247bd781bc3c01bf31d6cc45be7" name="abe6de247bd781bc3c01bf31d6cc45be7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe6de247bd781bc3c01bf31d6cc45be7">&#9670;&nbsp;</a></span>readData()</h2>
 
@@ -445,7 +493,8 @@ Displays connection error message. </p>
 </table>
 </div><div class="memdoc">
 <p >Connected from socket-&gt;readyRead().<br  />
-Reads the response and emits <a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a>. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a> </dd></dl>
+Reads the response and emits <a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a>.<br  />
+If there isn't any request in progress, it reads the data as a signal. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a> </dd></dl>
 
 </div>
 </div>

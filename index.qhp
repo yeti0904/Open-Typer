@@ -164,6 +164,7 @@
               <section title="disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
               <section title="enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
               <section title="errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
+              <section title="exerciseReceived" ref="classmonitorClient#a8920f4dfd14ad6a737708dfa32db8bcd" />
               <section title="readData" ref="classmonitorClient#abe6de247bd781bc3c01bf31d6cc45be7" />
               <section title="readResponse" ref="classmonitorClient#a15e9dc6daf41b85746eca80af96b957d" />
               <section title="responseReady" ref="classmonitorClient#a6940f786c749647238b2231694fd85e8" />
@@ -182,11 +183,13 @@
               <section title="keyPress" ref="classOpenTyper#a2e0dedad125ed6ffb9c117d0ac9ed593" />
               <section title="keyRelease" ref="classOpenTyper#a4a232900cb74346e6c2193d0120cd48e" />
               <section title="lessonSelectionListIndexChanged" ref="classOpenTyper#a71f4a38c2b9550c71eea4204e34de0e5" />
-              <section title="levelFinalInit" ref="classOpenTyper#a4b0b94bcf7267118e62e35fefa938ffe" />
+              <section title="levelFinalInit" ref="classOpenTyper#a6a4499c54bdf2daaebdb14014d1f8184" />
               <section title="levelSelectionListIndexChanged" ref="classOpenTyper#aa809b630b0145d092992fa15a674206b" />
               <section title="loadConfig" ref="classOpenTyper#a80875642b144d87ea6f98e7a65a0619d" />
               <section title="loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
+              <section title="loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
               <section title="loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
+              <section title="loadText" ref="classOpenTyper#a744595e3484d4d9f1d0fd68dad03fd87" />
               <section title="loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
               <section title="nextLevel" ref="classOpenTyper#a0431cbb22500518dce9387257fddc57d" />
               <section title="openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />
@@ -560,6 +563,7 @@
       <keyword name="exerciseLineLength" id="configParser::exerciseLineLength" ref="classconfigParser#affe9b6fae6d5a864619ff35d7a0504ad" />
       <keyword name="exerciseRawText" id="configParser::exerciseRawText" ref="classconfigParser#aaec1cc87884ad80cf354b7bb94bbfd0b" />
       <keyword name="exerciseRawText" id="configParser::exerciseRawText" ref="classconfigParser#a7b4a5f25f5ebb319bdc99cb34fef0724" />
+      <keyword name="exerciseReceived" id="monitorClient::exerciseReceived" ref="classmonitorClient#a8920f4dfd14ad6a737708dfa32db8bcd" />
       <keyword name="exerciseRepeatBool" id="configParser::exerciseRepeatBool" ref="classconfigParser#a37d3235f050bb2b8066fc56ffd71709a" />
       <keyword name="exerciseRepeatBool" id="configParser::exerciseRepeatBool" ref="classconfigParser#a63e44b8aea3e62963145781ab4cd73df" />
       <keyword name="exerciseRepeatConfig" id="configParser::exerciseRepeatConfig" ref="classconfigParser#a58ab2a6c3f844fc996051ac9ee752431" />
@@ -606,7 +610,7 @@
       <keyword name="lessonCount" id="configParser::lessonCount" ref="classconfigParser#a8ddc2e8a7c5871f7233014e4e33c2fe4" />
       <keyword name="lessonDesc" id="configParser::lessonDesc" ref="classconfigParser#aebd0b83cafef103a291c1a2b6ae1ef00" />
       <keyword name="lessonSelectionListIndexChanged" id="OpenTyper::lessonSelectionListIndexChanged" ref="classOpenTyper#a71f4a38c2b9550c71eea4204e34de0e5" />
-      <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper#a4b0b94bcf7267118e62e35fefa938ffe" />
+      <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper#a6a4499c54bdf2daaebdb14014d1f8184" />
       <keyword name="levelSelectionListIndexChanged" id="OpenTyper::levelSelectionListIndexChanged" ref="classOpenTyper#aa809b630b0145d092992fa15a674206b" />
       <keyword name="levelSummary" id="levelSummary::levelSummary" ref="classlevelSummary#a1415b9fa1309edc70ac386e968688b28" />
       <keyword name="lineOf" id="configParser::lineOf" ref="classconfigParser#a33a3e1eb8328c87e8a8ccf26c125637f" />
@@ -614,7 +618,9 @@
       <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget#a89e1f9931b347cb71ce5d553d19b70bd" />
       <keyword name="loadLesson" id="OpenTyper::loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
+      <keyword name="loadReceivedExercise" id="OpenTyper::loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
       <keyword name="loadSublesson" id="OpenTyper::loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
+      <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#a744595e3484d4d9f1d0fd68dad03fd87" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
       <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
