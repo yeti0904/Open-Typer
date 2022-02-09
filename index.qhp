@@ -151,9 +151,7 @@
               <section title="setHitCount" ref="classlevelSummary#a116f51387243910b3c62f1fc7bcb6fcb" />
               <section title="setHits" ref="classlevelSummary#a093da2340a3a732091ad022db3c3d6a2" />
               <section title="setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
-              <section title="setShowSummary" ref="classlevelSummary#ae3bb60b0cdbbc0de1b7acc4eeaf5af5f" />
               <section title="setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
-              <section title="showOK" ref="classlevelSummary#a5316f7d53a5d106045166811d5e17a7e" />
             </section>
             <section title="monitorClient" ref="classmonitorClient">
               <section title="monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
@@ -697,7 +695,6 @@
       <keyword name="setRedColor" id="SimpleColorDialog::setRedColor" ref="classSimpleColorDialog#aadb07c1000a7925b28d7d293078b1f6e" />
       <keyword name="setRedColorValue" id="SimpleColorDialog::setRedColorValue" ref="classSimpleColorDialog#a49f75832ec9d6f186c17cb4736f43b1d" />
       <keyword name="setRevisionLesson" id="packView::setRevisionLesson" ref="classpackView#afb615797a5031658513124a814a1d51a" />
-      <keyword name="setShowSummary" id="levelSummary::setShowSummary" ref="classlevelSummary#ae3bb60b0cdbbc0de1b7acc4eeaf5af5f" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions#afb802a982a3806f4df086d7eecfcb3c5" />
       <keyword name="setTime" id="timeDialog::setTime" ref="classtimeDialog#a6e0faa9b35e08e2ee5d6741e8f9e76a2" />
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
@@ -706,7 +703,6 @@
       <keyword name="setWhiteColor" id="SimpleColorDialog::setWhiteColor" ref="classSimpleColorDialog#aad3fb09cc14e08ab58354449a50771de" />
       <keyword name="setYellowColor" id="SimpleColorDialog::setYellowColor" ref="classSimpleColorDialog#a46d689bafc51af3041dcd29340762987" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
-      <keyword name="showOK" id="levelSummary::showOK" ref="classlevelSummary#a5316f7d53a5d106045166811d5e17a7e" />
       <keyword name="SimpleColorDialog" id="SimpleColorDialog::SimpleColorDialog" ref="classSimpleColorDialog#ae346e4635cd668f5acbfcf504247491c" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
@@ -883,7 +879,6 @@
       <file>classlevelSummary__inherit__graph.png</file>
       <file>classlevelSummary__coll__graph.png</file>
       <file>levelSummary.png</file>
-      <file>levelSummaryOK.png</file>
       <file>classlevelSummary-members.html</file>
       <file>classmonitorClient.html</file>
       <file>classmonitorClient__inherit__graph.png</file>
