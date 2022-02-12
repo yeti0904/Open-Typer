@@ -167,8 +167,10 @@ var NAVTREEINDEX0 =
 "classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c":[4,0,10,1],
 "classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676":[4,0,10,0],
 "classkeyboardWidget.html":[4,0,11],
+"classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08":[4,0,11,11],
 "classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20":[4,0,11,4],
-"classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875":[4,0,11,11],
+"classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875":[4,0,11,12],
+"classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb":[4,0,11,13],
 "classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc":[4,0,11,2],
 "classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951":[4,0,11,6],
 "classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae":[4,0,11,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classpackView.html#a2afc56c1ff61a63026c5926098ccdc6a":[4,0,20,7],
 "classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c":[4,0,20,0],
 "classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8":[4,0,20,21],
-"classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00":[4,0,20,17],
-"classpackView.html#a76c645567362eceb83e439965a07b3db":[4,0,20,23],
-"classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a":[4,0,20,6]
+"classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00":[4,0,20,17]
 };

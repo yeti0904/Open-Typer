@@ -11,5 +11,7 @@ var classkeyboardWidget =
     [ "nextRow", "classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57", null ],
     [ "registerKey", "classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23", null ],
     [ "resetKeyColor", "classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65", null ],
-    [ "setKeyColor", "classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875", null ]
+    [ "setKeyboardVisible", "classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08", null ],
+    [ "setKeyColor", "classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875", null ],
+    [ "toggleKeyboard", "classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb", null ]
 ];

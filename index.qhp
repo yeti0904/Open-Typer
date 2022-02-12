@@ -133,7 +133,9 @@
               <section title="nextRow" ref="classkeyboardWidget#ac57098beebc362b0981db8fe82b4ac57" />
               <section title="registerKey" ref="classkeyboardWidget#ae7ab31a9b366bfa013300fb78bbb5f23" />
               <section title="resetKeyColor" ref="classkeyboardWidget#aee8d43defa9db5129a48086563f72b65" />
+              <section title="setKeyboardVisible" ref="classkeyboardWidget#a0f5d0b6da126490e66239fae13b30c08" />
               <section title="setKeyColor" ref="classkeyboardWidget#a191ecfbfea429bda4acc1905fc942875" />
+              <section title="toggleKeyboard" ref="classkeyboardWidget#a2f270d1d090d383e02509947774abceb" />
             </section>
             <section title="languageList" ref="classlanguageList">
               <section title="languageList" ref="classlanguageList#a561ad6910f45293e1889ce65048c335d" />
@@ -685,6 +687,7 @@
       <keyword name="setHits" id="levelSummary::setHits" ref="classlevelSummary#a093da2340a3a732091ad022db3c3d6a2" />
       <keyword name="setIncludeNewLines" id="paperConfigDialog::setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
+      <keyword name="setKeyboardVisible" id="keyboardWidget::setKeyboardVisible" ref="classkeyboardWidget#a0f5d0b6da126490e66239fae13b30c08" />
       <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget#a191ecfbfea429bda4acc1905fc942875" />
       <keyword name="setLightBlueColor" id="SimpleColorDialog::setLightBlueColor" ref="classSimpleColorDialog#a3f407983437f1aca8841b19c47d76e86" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
@@ -717,6 +720,7 @@
       <keyword name="themeChanged" id="customizationOptions::themeChanged" ref="classcustomizationOptions#a91aecd4bea4879c9eb40f1c91c08b2ea" />
       <keyword name="themeChanged" id="optionsWindow::themeChanged" ref="classoptionsWindow#a469fc19d55f3b6ca1467540f40c0f7a1" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog#afee89fd18b8ade41b001e436dc73f522" />
+      <keyword name="toggleKeyboard" id="keyboardWidget::toggleKeyboard" ref="classkeyboardWidget#a2f270d1d090d383e02509947774abceb" />
       <keyword name="updateColor" id="SimpleColorDialog::updateColor" ref="classSimpleColorDialog#a43ccccdab112f5295a162dabd07dbc48" />
       <keyword name="updateCurrentTime" id="OpenTyper::updateCurrentTime" ref="classOpenTyper#a161a88a48c7a083c1afce2201f9a4ac1" />
       <keyword name="updateLessonList" id="OpenTyper::updateLessonList" ref="classOpenTyper#ae86fac4e64857d4b2c18fa639b612c54" />
