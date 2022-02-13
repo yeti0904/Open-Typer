@@ -158,8 +158,8 @@ Private Slots</h2></td></tr>
 <tr class="separator:a517c6e4e5c95ad37b0d22f60b0a41fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4e25dd318728fc46546e7116e751a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91">openPrebuilt</a> (void)</td></tr>
 <tr class="separator:ae4e25dd318728fc46546e7116e751a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0f4ec6830a8aaae728deab8762edea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea">close</a> (void)</td></tr>
-<tr class="separator:a7a0f4ec6830a8aaae728deab8762edea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21cb0d01d5588aff614bf4d7e89e8c11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#a21cb0d01d5588aff614bf4d7e89e8c11">tabChanged</a> (int index)</td></tr>
+<tr class="separator:a21cb0d01d5588aff614bf4d7e89e8c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8029fd89ffc29702456698439e7a1d39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackEditor.html#a8029fd89ffc29702456698439e7a1d39">closeTab</a> (int id)</td></tr>
 <tr class="separator:a8029fd89ffc29702456698439e7a1d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -186,11 +186,11 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>defaultFileName</b
 <div class="line">editorWindow.<a class="code hl_function" href="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953">init</a>();</div>
 <div class="line">editorWindow.exec();</div>
 <div class="ttc" id="aclasspackEditor_html"><div class="ttname"><a href="classpackEditor.html">packEditor</a></div><div class="ttdoc">The packEditor class is the pack editor window.</div><div class="ttdef"><b>Definition:</b> packeditor.h:58</div></div>
-<div class="ttc" id="aclasspackEditor_html_a083811db9b0ccd3cfd3604563aa1e953"><div class="ttname"><a href="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953">packEditor::init</a></div><div class="ttdeci">void init(void)</div><div class="ttdef"><b>Definition:</b> packeditor.cpp:54</div></div>
+<div class="ttc" id="aclasspackEditor_html_a083811db9b0ccd3cfd3604563aa1e953"><div class="ttname"><a href="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953">packEditor::init</a></div><div class="ttdeci">void init(void)</div><div class="ttdef"><b>Definition:</b> packeditor.cpp:56</div></div>
 </div><!-- fragment --><p >It is possible to create a new file when the editor starts: </p><div class="fragment"><div class="line">editorWindow.<a class="code hl_function" href="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff">setNewFile</a>(<span class="keyword">true</span>);</div>
 <div class="line">editorWindow.<a class="code hl_function" href="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953">init</a>();</div>
 <div class="line">editorWindow.exec();</div>
-<div class="ttc" id="aclasspackEditor_html_ad40ff79b94794d3df4929ed1970bd0ff"><div class="ttname"><a href="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff">packEditor::setNewFile</a></div><div class="ttdeci">void setNewFile(bool value)</div><div class="ttdef"><b>Definition:</b> packeditor.cpp:63</div></div>
+<div class="ttc" id="aclasspackEditor_html_ad40ff79b94794d3df4929ed1970bd0ff"><div class="ttname"><a href="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff">packEditor::setNewFile</a></div><div class="ttdeci">void setNewFile(bool value)</div><div class="ttdef"><b>Definition:</b> packeditor.cpp:65</div></div>
 </div><!-- fragment --><p> Note that <a class="el" href="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953">init()</a> must be run for the settings to take effect.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackView.html" title="The packView class is the core part of the pack editor.">packView</a> </dd>
 <dd>
@@ -242,34 +242,6 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>defaultFileName</b
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7a0f4ec6830a8aaae728deab8762edea" name="a7a0f4ec6830a8aaae728deab8762edea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a0f4ec6830a8aaae728deab8762edea">&#9670;&nbsp;</a></span>close</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void packEditor::close </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Connected from closeButton-&gt;clicked().<br  />
-Closes the editor window. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952">closeAll()</a> </dd></dl>
-
-</div>
-</div>
 <a id="ad1160ecc7f6d1396455a20b804bfc952" name="ad1160ecc7f6d1396455a20b804bfc952"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1160ecc7f6d1396455a20b804bfc952">&#9670;&nbsp;</a></span>closeAll()</h2>
 
@@ -293,7 +265,7 @@ Closes the editor window. </p><dl class="section see"><dt>See also</dt><dd><a cl
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Closes all tabs. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea">close()</a> </dd></dl>
+<p >Closes all tabs. </p>
 
 </div>
 </div>
@@ -321,9 +293,7 @@ Closes the editor window. </p><dl class="section see"><dt>See also</dt><dd><a cl
 </table>
 </div><div class="memdoc">
 <p >Overrides QDialog::closeEvent().<br  />
-Closes all tabs before closing the window. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackEditor.html#a7a0f4ec6830a8aaae728deab8762edea">close()</a> </dd>
-<dd>
-<a class="el" href="classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952">closeAll()</a> </dd></dl>
+Closes all tabs before closing the window. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952">closeAll()</a> </dd></dl>
 
 </div>
 </div>
@@ -549,6 +519,33 @@ Opens a file in a new tab. </p>
       </table>
 </div><div class="memdoc">
 <p >Enables creation of new file when the editor starts. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30">createNewFile()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a21cb0d01d5588aff614bf4d7e89e8c11" name="a21cb0d01d5588aff614bf4d7e89e8c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21cb0d01d5588aff614bf4d7e89e8c11">&#9670;&nbsp;</a></span>tabChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void packEditor::tabChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Connected from fileTabWidget-&gt;currentChanged(). </p>
 
 </div>
 </div>
