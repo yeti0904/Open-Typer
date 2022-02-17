@@ -124,6 +124,7 @@
             <section title="keyboardWidget" ref="classkeyboardWidget">
               <section title="keyboardWidget" ref="classkeyboardWidget#a6bf33e59ab59d25b498ba2fcb773b47c" />
               <section title="addKey" ref="classkeyboardWidget#ae9916723d96608f946343743a23786e8" />
+              <section title="changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
               <section title="dehighlightKey" ref="classkeyboardWidget#a44d51675c40746936c3592216abd4dfc" />
               <section title="findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />
               <section title="fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
@@ -514,6 +515,7 @@
       <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
+      <keyword name="changeEvent" id="keyboardWidget::changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
       <keyword name="changeExercisePos" id="packView::changeExercisePos" ref="classpackView#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
       <keyword name="changeFont" id="customizationOptions::changeFont" ref="classcustomizationOptions#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions#a0ed613f456adc3f82f2cb9e0509b4615" />

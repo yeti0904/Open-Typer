@@ -2,6 +2,7 @@ var classkeyboardWidget =
 [
     [ "keyboardWidget", "classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c", null ],
     [ "addKey", "classkeyboardWidget.html#ae9916723d96608f946343743a23786e8", null ],
+    [ "changeEvent", "classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395", null ],
     [ "dehighlightKey", "classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc", null ],
     [ "findKey", "classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274", null ],
     [ "fingerHand", "classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20", null ],
