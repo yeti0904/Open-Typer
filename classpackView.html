@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('classpackView.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -122,10 +123,19 @@ Collaboration diagram for packView:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr class="memitem:a0d7279567c49cfa13efb450657875255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a0d7279567c49cfa13efb450657875255">closeFile</a> (void)</td></tr>
+<tr class="separator:a0d7279567c49cfa13efb450657875255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50bd40060900e60d3d7229b5b9b1ba00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00">save</a> (void)</td></tr>
 <tr class="separator:a50bd40060900e60d3d7229b5b9b1ba00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2bebdcab08ff9693863e0525da61be8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#ac2bebdcab08ff9693863e0525da61be8">saveAs</a> (void)</td></tr>
 <tr class="separator:ac2bebdcab08ff9693863e0525da61be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a3e08ee64fe7e469750c907d30c17b190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a3e08ee64fe7e469750c907d30c17b190">closed</a> ()</td></tr>
+<tr class="separator:a3e08ee64fe7e469750c907d30c17b190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2e6a81dd16f308cb1e3a2639e23e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94">notClosed</a> ()</td></tr>
+<tr class="separator:a4a2e6a81dd16f308cb1e3a2639e23e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,8 +145,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28036733eb5e69d1ae3dc7d6cb8f6898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20fa54b8c61e6c7d63dcfefe95082d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e">openFile</a> (QString path, bool newf, bool rdonly)</td></tr>
 <tr class="separator:a20fa54b8c61e6c7d63dcfefe95082d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4354b6daeb151a17ec54109bc6c32be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#af4354b6daeb151a17ec54109bc6c32be">closeFile</a> (void)</td></tr>
-<tr class="separator:af4354b6daeb151a17ec54109bc6c32be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9bbd4cb227e404ea9aaf1e5fca93585"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585">getFileName</a> (void)</td></tr>
 <tr class="separator:ad9bbd4cb227e404ea9aaf1e5fca93585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -568,20 +576,54 @@ Changes current exercise maximum number of characters (if repeating is enabled).
 
 </div>
 </div>
-<a id="af4354b6daeb151a17ec54109bc6c32be" name="af4354b6daeb151a17ec54109bc6c32be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4354b6daeb151a17ec54109bc6c32be">&#9670;&nbsp;</a></span>closeFile()</h2>
+<a id="a3e08ee64fe7e469750c907d30c17b190" name="a3e08ee64fe7e469750c907d30c17b190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e08ee64fe7e469750c907d30c17b190">&#9670;&nbsp;</a></span>closed</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool packView::closeFile </td>
+          <td class="memname">void packView::closed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when the view closes. A closed view should be deleted. </p>
+
+</div>
+</div>
+<a id="a0d7279567c49cfa13efb450657875255" name="a0d7279567c49cfa13efb450657875255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7279567c49cfa13efb450657875255">&#9670;&nbsp;</a></span>closeFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void packView::closeFile </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p >Closes opened file. </p>
 
@@ -646,6 +688,32 @@ Changes current exercise maximum number of characters (if repeating is enabled).
       </table>
 </div><div class="memdoc">
 <p >Returns pack file name. </p>
+
+</div>
+</div>
+<a id="a4a2e6a81dd16f308cb1e3a2639e23e94" name="a4a2e6a81dd16f308cb1e3a2639e23e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2e6a81dd16f308cb1e3a2639e23e94">&#9670;&nbsp;</a></span>notClosed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void packView::notClosed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when close operation is rejected in save dialog. </p>
 
 </div>
 </div>

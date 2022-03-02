@@ -229,7 +229,8 @@
             <section title="packEditor" ref="classpackEditor">
               <section title="packEditor" ref="classpackEditor#a2531c78a0bd8650d5395147566ed50c9" />
               <section title="~packEditor" ref="classpackEditor#acc6fa330df5ca29c78538929eeabe382" />
-              <section title="closeAll" ref="classpackEditor#ad1160ecc7f6d1396455a20b804bfc952" />
+              <section title="allTabsClosed" ref="classpackEditor#ab5759d730e158c9b172211bf44cce2b8" />
+              <section title="closeAll" ref="classpackEditor#a4b52efaa541e9ab200de0fb3b66a47df" />
               <section title="closeEvent" ref="classpackEditor#aa403472b118aef534f8093106316ce05" />
               <section title="closeTab" ref="classpackEditor#a8029fd89ffc29702456698439e7a1d39" />
               <section title="createNewFile" ref="classpackEditor#a9eea23604a8951a257c0d13de4146a30" />
@@ -258,9 +259,11 @@
               <section title="changeLineLength" ref="classpackView#a2afc56c1ff61a63026c5926098ccdc6a" />
               <section title="changeRepeating" ref="classpackView#aa27ec7d9ffe06948c110d13cbbc76da0" />
               <section title="changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
-              <section title="closeFile" ref="classpackView#af4354b6daeb151a17ec54109bc6c32be" />
+              <section title="closed" ref="classpackView#a3e08ee64fe7e469750c907d30c17b190" />
+              <section title="closeFile" ref="classpackView#a0d7279567c49cfa13efb450657875255" />
               <section title="deleteExerciseLine" ref="classpackView#aa1f2628214689e5c5a8e3bd36a63eae0" />
               <section title="getFileName" ref="classpackView#ad9bbd4cb227e404ea9aaf1e5fca93585" />
+              <section title="notClosed" ref="classpackView#a4a2e6a81dd16f308cb1e3a2639e23e94" />
               <section title="openFile" ref="classpackView#a20fa54b8c61e6c7d63dcfefe95082d7e" />
               <section title="refreshUi" ref="classpackView#acc9cd8c1c5399955dcf8e7c542fb66c8" />
               <section title="removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
@@ -509,6 +512,7 @@
       <keyword name="addKey" id="keyboardWidget::addKey" ref="classkeyboardWidget#ae9916723d96608f946343743a23786e8" />
       <keyword name="addLesson" id="packView::addLesson" ref="classpackView#aba664423357bcf4119ca03e23269145c" />
       <keyword name="addSublesson" id="packView::addSublesson" ref="classpackView#af80c1cef07727e552344f54ce4033b65" />
+      <keyword name="allTabsClosed" id="packEditor::allTabsClosed" ref="classpackEditor#ab5759d730e158c9b172211bf44cce2b8" />
       <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
       <keyword name="available" id="monitorClient::available" ref="classmonitorClient#a14bc4c1e3c4239cf5d40b0a0302bbfd7" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions#a604e707e9c208f8dd09d47714b1d52a2" />
@@ -540,9 +544,10 @@
       <keyword name="changeTheme" id="optionsWindow::changeTheme" ref="classoptionsWindow#a5f4980316a269b3d11ece8e2bd156250" />
       <keyword name="close" id="configParser::close" ref="classconfigParser#a5e3450f912f556b8361d57ba61cd7de1" />
       <keyword name="close" id="monitorClient::close" ref="classmonitorClient#a480d041102873d32fd1c0d5ba5dcd538" />
-      <keyword name="closeAll" id="packEditor::closeAll" ref="classpackEditor#ad1160ecc7f6d1396455a20b804bfc952" />
+      <keyword name="closeAll" id="packEditor::closeAll" ref="classpackEditor#a4b52efaa541e9ab200de0fb3b66a47df" />
+      <keyword name="closed" id="packView::closed" ref="classpackView#a3e08ee64fe7e469750c907d30c17b190" />
       <keyword name="closeEvent" id="packEditor::closeEvent" ref="classpackEditor#aa403472b118aef534f8093106316ce05" />
-      <keyword name="closeFile" id="packView::closeFile" ref="classpackView#af4354b6daeb151a17ec54109bc6c32be" />
+      <keyword name="closeFile" id="packView::closeFile" ref="classpackView#a0d7279567c49cfa13efb450657875255" />
       <keyword name="closeTab" id="packEditor::closeTab" ref="classpackEditor#a8029fd89ffc29702456698439e7a1d39" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="configParser" id="configParser::configParser" ref="classconfigParser#a7fca8c252df17f7dbdce4e6f7c61ae62" />
@@ -627,6 +632,7 @@
       <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
       <keyword name="nextLevel" id="OpenTyper::nextLevel" ref="classOpenTyper#a0431cbb22500518dce9387257fddc57d" />
       <keyword name="nextRow" id="keyboardWidget::nextRow" ref="classkeyboardWidget#ac57098beebc362b0981db8fe82b4ac57" />
+      <keyword name="notClosed" id="packView::notClosed" ref="classpackView#a4a2e6a81dd16f308cb1e3a2639e23e94" />
       <keyword name="open" id="configParser::open" ref="classconfigParser#a82b6a29bf6a95792e94137d3925f5021" />
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />
       <keyword name="openEditor" id="keyboardOptions::openEditor" ref="classkeyboardOptions#a5dbc636d087f05c50bd4ad0e0a0b9ee8" />

@@ -2,7 +2,8 @@ var classpackEditor =
 [
     [ "packEditor", "classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9", null ],
     [ "~packEditor", "classpackEditor.html#acc6fa330df5ca29c78538929eeabe382", null ],
-    [ "closeAll", "classpackEditor.html#ad1160ecc7f6d1396455a20b804bfc952", null ],
+    [ "allTabsClosed", "classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8", null ],
+    [ "closeAll", "classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df", null ],
     [ "closeEvent", "classpackEditor.html#aa403472b118aef534f8093106316ce05", null ],
     [ "closeTab", "classpackEditor.html#a8029fd89ffc29702456698439e7a1d39", null ],
     [ "createNewFile", "classpackEditor.html#a9eea23604a8951a257c0d13de4146a30", null ],

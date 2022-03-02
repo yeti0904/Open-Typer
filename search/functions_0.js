@@ -5,6 +5,7 @@ var searchData=
   ['addkey_2',['addKey',['../classkeyboardWidget.html#ae9916723d96608f946343743a23786e8',1,'keyboardWidget']]],
   ['addlesson_3',['addLesson',['../classpackView.html#aba664423357bcf4119ca03e23269145c',1,'packView']]],
   ['addsublesson_4',['addSublesson',['../classpackView.html#af80c1cef07727e552344f54ce4033b65',1,'packView']]],
-  ['auth_5',['auth',['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions']]],
-  ['available_6',['available',['../classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7',1,'monitorClient']]]
+  ['alltabsclosed_5',['allTabsClosed',['../classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8',1,'packEditor']]],
+  ['auth_6',['auth',['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions']]],
+  ['available_7',['available',['../classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7',1,'monitorClient']]]
 ];
