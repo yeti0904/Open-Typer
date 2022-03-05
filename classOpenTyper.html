@@ -186,8 +186,8 @@ Private Slots</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a386fcf33ae25616ceb7ffcaa1e55645f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a386fcf33ae25616ceb7ffcaa1e55645f">connectAll</a> (void)</td></tr>
 <tr class="separator:a386fcf33ae25616ceb7ffcaa1e55645f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80875642b144d87ea6f98e7a65a0619d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d">loadConfig</a> (QString configName)</td></tr>
-<tr class="separator:a80875642b144d87ea6f98e7a65a0619d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24074959a491e6fc649a1f95920f3aad"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a24074959a491e6fc649a1f95920f3aad">loadConfig</a> (QString configName, QByteArray packContent=&quot;&quot;)</td></tr>
+<tr class="separator:a24074959a491e6fc649a1f95920f3aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e6df43ee172d7ac8ce29fcd2dd8b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f">startLevel</a> (int lesson, int sublesson, int level)</td></tr>
 <tr class="separator:ab3e6df43ee172d7ac8ce29fcd2dd8b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae86fac4e64857d4b2c18fa639b612c54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54">updateLessonList</a> (void)</td></tr>
@@ -223,7 +223,7 @@ Ui::OpenTyper *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td
 QSettings *&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
 <tr class="separator:aba3fad404b407e145845de14eb6582ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bacd0bce442a3c7731026e0b577dd19"><td class="memItemLeft" align="right" valign="top"><a id="a7bacd0bce442a3c7731026e0b577dd19" name="a7bacd0bce442a3c7731026e0b577dd19"></a>
-<a class="el" href="classconfigParser.html">configParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parser</b></td></tr>
+<a class="el" href="classconfigParser.html">configParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parser</b> = nullptr</td></tr>
 <tr class="separator:a7bacd0bce442a3c7731026e0b577dd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7808853ae8ae637c6c863ef8f08190e7"><td class="memItemLeft" align="right" valign="top"><a id="a7808853ae8ae637c6c863ef8f08190e7" name="a7808853ae8ae637c6c863ef8f08190e7"></a>
 <a class="el" href="classmonitorClient.html">monitorClient</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>client</b></td></tr>
@@ -753,8 +753,8 @@ Selects the exercise selected in levelSelectionList. </p>
 
 </div>
 </div>
-<a id="a80875642b144d87ea6f98e7a65a0619d" name="a80875642b144d87ea6f98e7a65a0619d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80875642b144d87ea6f98e7a65a0619d">&#9670;&nbsp;</a></span>loadConfig()</h2>
+<a id="a24074959a491e6fc649a1f95920f3aad" name="a24074959a491e6fc649a1f95920f3aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24074959a491e6fc649a1f95920f3aad">&#9670;&nbsp;</a></span>loadConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -766,8 +766,18 @@ Selects the exercise selected in levelSelectionList. </p>
           <td class="memname">QString OpenTyper::loadConfig </td>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>configName</em></td><td>)</td>
+          <td class="paramname"><em>configName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramname"><em>packContent</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -776,9 +786,10 @@ Selects the exercise selected in levelSelectionList. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Opens a pack file using <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p >Opens a pack file using <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> and returns the file name of the pack file. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">configName</td><td>If there's a custom pack opened, configName represents the absolute path to the pack. Otherwise, it represents the built-in pack name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">packContent</td><td>If it's not empty, a QBuffer with pack content is created and <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> treats it as a regular file. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1377,7 +1388,7 @@ Opens <a class="el" href="classstatsDialog.html" title="The statsDialog class is
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a80875642b144d87ea6f98e7a65a0619d">loadConfig</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a24074959a491e6fc649a1f95920f3aad">loadConfig</a> </dd>
 <dd>
 <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> </dd>
 <dd>

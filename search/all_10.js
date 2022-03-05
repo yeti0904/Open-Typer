@@ -5,7 +5,7 @@ var searchData=
   ['savecolorsettings_2',['saveColorSettings',['../classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f',1,'customizationOptions']]],
   ['selectcurrentfulltheme_3',['selectCurrentFullTheme',['../classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09',1,'customizationOptions']]],
   ['selectedconfig_4',['selectedConfig',['../classpackSelector.html#a5ff2264ada61381338ba429d1e36d008',1,'packSelector']]],
-  ['sendrequest_5',['sendRequest',['../classmonitorClient.html#a03b7a3e483c430d1c2113acc5e01d0d3',1,'monitorClient']]],
+  ['sendrequest_5',['sendRequest',['../classmonitorClient.html#a01e7aa8ae84dc8164badb27829f9fe79',1,'monitorClient']]],
   ['serveraddress_6',['serverAddress',['../classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001',1,'monitorClient']]],
   ['serverport_7',['serverPort',['../classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946',1,'monitorClient']]],
   ['setblackcolor_8',['setBlackColor',['../classSimpleColorDialog.html#acfcec996b4ac0019876c39ba8f338f70',1,'SimpleColorDialog']]],

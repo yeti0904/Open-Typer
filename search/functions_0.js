@@ -7,5 +7,5 @@ var searchData=
   ['addsublesson_4',['addSublesson',['../classpackView.html#af80c1cef07727e552344f54ce4033b65',1,'packView']]],
   ['alltabsclosed_5',['allTabsClosed',['../classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8',1,'packEditor']]],
   ['auth_6',['auth',['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions']]],
-  ['available_7',['available',['../classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7',1,'monitorClient']]]
+  ['available_7',['available',['../classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3',1,'monitorClient']]]
 ];

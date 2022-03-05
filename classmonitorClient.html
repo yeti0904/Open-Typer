@@ -138,10 +138,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a480d041102873d32fd1c0d5ba5dcd538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69989bd9fa97b81a303de7be6cb0cd1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c">setErrorDialogs</a> (bool errDialogs)</td></tr>
 <tr class="separator:a69989bd9fa97b81a303de7be6cb0cd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03b7a3e483c430d1c2113acc5e01d0d3"><td class="memItemLeft" align="right" valign="top">QList&lt; QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a03b7a3e483c430d1c2113acc5e01d0d3">sendRequest</a> (QString method, QList&lt; QByteArray &gt; data, bool hang=true)</td></tr>
-<tr class="separator:a03b7a3e483c430d1c2113acc5e01d0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14bc4c1e3c4239cf5d40b0a0302bbfd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a14bc4c1e3c4239cf5d40b0a0302bbfd7">available</a> (bool hang=true)</td></tr>
-<tr class="separator:a14bc4c1e3c4239cf5d40b0a0302bbfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e7aa8ae84dc8164badb27829f9fe79"><td class="memItemLeft" align="right" valign="top">QList&lt; QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a01e7aa8ae84dc8164badb27829f9fe79">sendRequest</a> (QString method, QList&lt; QByteArray &gt; data)</td></tr>
+<tr class="separator:a01e7aa8ae84dc8164badb27829f9fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a2daf88607ee6686dcafd0e35852b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3">available</a> (void)</td></tr>
+<tr class="separator:a05a2daf88607ee6686dcafd0e35852b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -243,8 +243,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>waitingForResponse</b
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a14bc4c1e3c4239cf5d40b0a0302bbfd7" name="a14bc4c1e3c4239cf5d40b0a0302bbfd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14bc4c1e3c4239cf5d40b0a0302bbfd7">&#9670;&nbsp;</a></span>available()</h2>
+<a id="a05a2daf88607ee6686dcafd0e35852b3" name="a05a2daf88607ee6686dcafd0e35852b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a2daf88607ee6686dcafd0e35852b3">&#9670;&nbsp;</a></span>available()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,8 +252,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>waitingForResponse</b
         <tr>
           <td class="memname">bool monitorClient::available </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>hang</em> = <code>true</code></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -524,8 +524,8 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
 
 </div>
 </div>
-<a id="a03b7a3e483c430d1c2113acc5e01d0d3" name="a03b7a3e483c430d1c2113acc5e01d0d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b7a3e483c430d1c2113acc5e01d0d3">&#9670;&nbsp;</a></span>sendRequest()</h2>
+<a id="a01e7aa8ae84dc8164badb27829f9fe79" name="a01e7aa8ae84dc8164badb27829f9fe79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01e7aa8ae84dc8164badb27829f9fe79">&#9670;&nbsp;</a></span>sendRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,13 +540,7 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">QList&lt; QByteArray &gt;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>hang</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -560,7 +554,6 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">method</td><td>Request method. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Request data. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">hang</td><td>Whether to block user input events while waiting for response. </td></tr>
   </table>
   </dd>
 </dl>
