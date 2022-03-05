@@ -102,7 +102,6 @@
             <section title="initialSetup" ref="classinitialSetup">
               <section title="initialSetup" ref="classinitialSetup#a2c04fb32795d022271a129609da6f5dd" />
               <section title="~initialSetup" ref="classinitialSetup#a9b5f719b8dff40cf5dab8d04be1e8c60" />
-              <section title="changeTheme" ref="classinitialSetup#a8a2c07722e2d80399d2a0bfa12b7f68e" />
               <section title="finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
               <section title="loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
             </section>
@@ -542,7 +541,6 @@
       <keyword name="changeRepeating" id="packView::changeRepeating" ref="classpackView#aa27ec7d9ffe06948c110d13cbbc76da0" />
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
-      <keyword name="changeTheme" id="initialSetup::changeTheme" ref="classinitialSetup#a8a2c07722e2d80399d2a0bfa12b7f68e" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
       <keyword name="changeTheme" id="optionsWindow::changeTheme" ref="classoptionsWindow#a5f4980316a269b3d11ece8e2bd156250" />
       <keyword name="close" id="configParser::close" ref="classconfigParser#a5e3450f912f556b8361d57ba61cd7de1" />
