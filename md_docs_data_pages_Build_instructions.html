@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('md_docs_data_pages_Build_instructions.
 <p ><code>sudo apt-get install gcc make build-essential</code></p>
 <p >Install Qt using the installer and make sure all required modules are installed (see the .pro file).</p>
 <p >As of writing, Open-Typer (officially) supports Qt 5.9.5 up to 5.15.8.</p>
-<div class="fragment"><div class="line">qmake</div>
-<div class="line">lrelease *.pro</div>
+<div class="fragment"><div class="line">lrelease *.pro</div>
+<div class="line">qmake</div>
 <div class="line">make -j$(nproc --all)</div>
 </div><!-- fragment --><p >You may need to use the platform-specifc deploy tool to add shared libraries, for example <code>windeployqt</code> for Windows and <code>macdeployqt</code> for MacOS. </p>
 </div></div><!-- contents -->
