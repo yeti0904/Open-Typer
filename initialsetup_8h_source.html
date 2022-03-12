@@ -112,37 +112,36 @@ $(document).ready(function(){initNavTree('initialsetup_8h_source.html',''); init
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QDirIterator&gt;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;QSettings&gt;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;options/customization.h&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;core/packs.h&quot;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;core/utils.h&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span>Ui {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">class </span><a class="code hl_class" href="classinitialSetup.html">initialSetup</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classinitialSetup.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="classinitialSetup.html">initialSetup</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    Q_OBJECT</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd">initialSetup</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_function" href="classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60">~initialSetup</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        Ui::initialSetup *ui;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        QStringList rawItems;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72">finish</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd">loadList</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif </span><span class="comment">// INITIALSETUP_H</span></div>
-<div class="ttc" id="aclassinitialSetup_html"><div class="ttname"><a href="classinitialSetup.html">initialSetup</a></div><div class="ttdoc">The initialSetup class is a dialog for initial program configuration.</div><div class="ttdef"><b>Definition:</b> initialsetup.h:41</div></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;options/customization.h&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;core/packs.h&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;core/utils.h&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">class </span><a class="code hl_class" href="classinitialSetup.html">initialSetup</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classinitialSetup.html">   39</a></span><span class="keyword">class </span><a class="code hl_class" href="classinitialSetup.html">initialSetup</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    Q_OBJECT</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd">initialSetup</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_function" href="classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60">~initialSetup</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        Ui::initialSetup *ui;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        QStringList rawItems;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72">finish</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd">loadList</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#endif </span><span class="comment">// INITIALSETUP_H</span></div>
+<div class="ttc" id="aclassinitialSetup_html"><div class="ttname"><a href="classinitialSetup.html">initialSetup</a></div><div class="ttdoc">The initialSetup class is a dialog for initial program configuration.</div><div class="ttdef"><b>Definition:</b> initialsetup.h:40</div></div>
 <div class="ttc" id="aclassinitialSetup_html_a09e8cf1b65cf0059d878312c4a8b3a72"><div class="ttname"><a href="classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72">initialSetup::finish</a></div><div class="ttdeci">void finish(void)</div><div class="ttdef"><b>Definition:</b> initialsetup.cpp:45</div></div>
 <div class="ttc" id="aclassinitialSetup_html_a2c04fb32795d022271a129609da6f5dd"><div class="ttname"><a href="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd">initialSetup::initialSetup</a></div><div class="ttdeci">initialSetup(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> initialsetup.cpp:25</div></div>
 <div class="ttc" id="aclassinitialSetup_html_a9b5f719b8dff40cf5dab8d04be1e8c60"><div class="ttname"><a href="classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60">initialSetup::~initialSetup</a></div><div class="ttdeci">~initialSetup()</div><div class="ttdef"><b>Definition:</b> initialsetup.cpp:39</div></div>
-<div class="ttc" id="aclassinitialSetup_html_af1cc37e2db742c6c00600237c0d43afd"><div class="ttname"><a href="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd">initialSetup::loadList</a></div><div class="ttdeci">void loadList(void)</div><div class="ttdef"><b>Definition:</b> initialsetup.cpp:54</div></div>
+<div class="ttc" id="aclassinitialSetup_html_af1cc37e2db742c6c00600237c0d43afd"><div class="ttname"><a href="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd">initialSetup::loadList</a></div><div class="ttdeci">void loadList(void)</div><div class="ttdef"><b>Definition:</b> initialsetup.cpp:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
