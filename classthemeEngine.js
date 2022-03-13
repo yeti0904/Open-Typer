@@ -35,7 +35,12 @@ var classthemeEngine =
     [ "setFontSize", "classthemeEngine.html#acfd9d42065afeb029b493013494b70fb", null ],
     [ "setFontUnderline", "classthemeEngine.html#a7da9c736831e9e7546a5a8224963cd47", null ],
     [ "setStyle", "classthemeEngine.html#a2a4815e45708d8ceac2aeaf8daf50d5f", null ],
+    [ "setTheme", "classthemeEngine.html#a3dd7863ca8d8f78454219e6d8bd4ca96", null ],
     [ "style", "classthemeEngine.html#a872aaebf1177b8eb5e8ea3b8b93c146e", null ],
     [ "styleChanged", "classthemeEngine.html#ad8e0ac793d6199a99cda31b34747ae31", null ],
+    [ "theme", "classthemeEngine.html#a74db70f519653b3ae47b1fa5c33dee77", null ],
+    [ "themeChanged", "classthemeEngine.html#a75617542d05d61c1511614a5fc3223dd", null ],
+    [ "themeList", "classthemeEngine.html#a84461f8f0487b1dfbebffad2153201c8", null ],
+    [ "themeName", "classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236", null ],
     [ "updateStyle", "classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f", null ]
 ];

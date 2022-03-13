@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classthemeEngine.html',''); initResiza
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classthemeEngine-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">themeEngine Class Reference</div></div>
 </div><!--header-->
@@ -155,6 +156,8 @@ Signals</h2></td></tr>
 <tr class="separator:add8dffc0df9e70d6cea62df3d9cd0f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e0ac793d6199a99cda31b34747ae31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#ad8e0ac793d6199a99cda31b34747ae31">styleChanged</a> ()</td></tr>
 <tr class="separator:ad8e0ac793d6199a99cda31b34747ae31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75617542d05d61c1511614a5fc3223dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a75617542d05d61c1511614a5fc3223dd">themeChanged</a> ()</td></tr>
+<tr class="separator:a75617542d05d61c1511614a5fc3223dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -208,6 +211,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>resetPanelColor</b> (
 <tr class="separator:a2a4815e45708d8ceac2aeaf8daf50d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352cfc5414795770d8dab2e8d2fe434f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f">updateStyle</a> (void)</td></tr>
 <tr class="separator:a352cfc5414795770d8dab2e8d2fe434f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74db70f519653b3ae47b1fa5c33dee77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a74db70f519653b3ae47b1fa5c33dee77">theme</a> (void)</td></tr>
+<tr class="separator:a74db70f519653b3ae47b1fa5c33dee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd7863ca8d8f78454219e6d8bd4ca96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a3dd7863ca8d8f78454219e6d8bd4ca96">setTheme</a> (int index)</td></tr>
+<tr class="separator:a3dd7863ca8d8f78454219e6d8bd4ca96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab4e0f29d1b4d472c1358cde5384236"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236">themeName</a> (int index)</td></tr>
+<tr class="separator:a9ab4e0f29d1b4d472c1358cde5384236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84461f8f0487b1dfbebffad2153201c8"><td class="memItemLeft" align="right" valign="top">QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a84461f8f0487b1dfbebffad2153201c8">themeList</a> (void)</td></tr>
+<tr class="separator:a84461f8f0487b1dfbebffad2153201c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -269,6 +280,12 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>panelStyleS
 <tr class="separator:a8d82dc0c63acd244b39d59cedfa66c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a872aaebf1177b8eb5e8ea3b8b93c146e"><td class="memItemLeft" align="right" valign="top">static Style&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classthemeEngine.html#a872aaebf1177b8eb5e8ea3b8b93c146e">style</a> (void)</td></tr>
 <tr class="separator:a872aaebf1177b8eb5e8ea3b8b93c146e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa1a6797b42fcea73d13fb91203a101aa"><td class="memItemLeft" align="right" valign="top"><a id="aa1a6797b42fcea73d13fb91203a101aa" name="aa1a6797b42fcea73d13fb91203a101aa"></a>
+QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>themes</b></td></tr>
+<tr class="separator:aa1a6797b42fcea73d13fb91203a101aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classthemeEngine.html" title="The themeEngine class provides theme functions.">themeEngine</a> class provides theme functions. </p>
@@ -1134,6 +1151,25 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>panelStyleS
 
 </div>
 </div>
+<a id="a3dd7863ca8d8f78454219e6d8bd4ca96" name="a3dd7863ca8d8f78454219e6d8bd4ca96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd7863ca8d8f78454219e6d8bd4ca96">&#9670;&nbsp;</a></span>setTheme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void themeEngine::setTheme </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets application theme. </p>
+
+</div>
+</div>
 <a id="a872aaebf1177b8eb5e8ea3b8b93c146e" name="a872aaebf1177b8eb5e8ea3b8b93c146e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a872aaebf1177b8eb5e8ea3b8b93c146e">&#9670;&nbsp;</a></span>style()</h2>
 
@@ -1184,6 +1220,89 @@ static QString&#160;</td><td class="memItemRight" valign="bottom"><b>panelStyleS
 </table>
 </div><div class="memdoc">
 <p >A signal, which is emitted when the application style changes. </p>
+
+</div>
+</div>
+<a id="a74db70f519653b3ae47b1fa5c33dee77" name="a74db70f519653b3ae47b1fa5c33dee77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74db70f519653b3ae47b1fa5c33dee77">&#9670;&nbsp;</a></span>theme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int themeEngine::theme </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns current application theme. </p>
+
+</div>
+</div>
+<a id="a75617542d05d61c1511614a5fc3223dd" name="a75617542d05d61c1511614a5fc3223dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75617542d05d61c1511614a5fc3223dd">&#9670;&nbsp;</a></span>themeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void themeEngine::themeChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when the application theme changes. </p>
+
+</div>
+</div>
+<a id="a84461f8f0487b1dfbebffad2153201c8" name="a84461f8f0487b1dfbebffad2153201c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84461f8f0487b1dfbebffad2153201c8">&#9670;&nbsp;</a></span>themeList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariantMap &gt; themeEngine::themeList </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns list of themes. </p>
+
+</div>
+</div>
+<a id="a9ab4e0f29d1b4d472c1358cde5384236" name="a9ab4e0f29d1b4d472c1358cde5384236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab4e0f29d1b4d472c1358cde5384236">&#9670;&nbsp;</a></span>themeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString themeEngine::themeName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns the name of the theme. </p>
 
 </div>
 </div>
