@@ -9,9 +9,14 @@ var searchData=
   ['removeexercise_6',['removeExercise',['../classpackView.html#adcd3860837b5b61136d888c13bc85a05',1,'packView']]],
   ['reopen_7',['reopen',['../classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390',1,'configParser']]],
   ['repeatlevel_8',['repeatLevel',['../classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e',1,'OpenTyper']]],
-  ['resetbgpapercolors_9',['resetBgPaperColors',['../classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af',1,'customizationOptions']]],
-  ['resetkeycolor_10',['resetKeyColor',['../classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65',1,'keyboardWidget']]],
-  ['resettextcolors_11',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
-  ['responseready_12',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
-  ['restoretext_13',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]]
+  ['resetbgcolor_9',['resetBgColor',['../classthemeEngine.html#a593afd921ade6d6e077c757641819099',1,'themeEngine']]],
+  ['resetbgpapercolors_10',['resetBgPaperColors',['../classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af',1,'customizationOptions']]],
+  ['resetexercisetextcolor_11',['resetExerciseTextColor',['../classthemeEngine.html#a64b16e1252fa67544f3b9c6b0348f0b6',1,'themeEngine']]],
+  ['resetinputtextcolor_12',['resetInputTextColor',['../classthemeEngine.html#a5b07eecf15432bbf66162f7b30f62872',1,'themeEngine']]],
+  ['resetkeycolor_13',['resetKeyColor',['../classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65',1,'keyboardWidget']]],
+  ['resetpanelcolor_14',['resetPanelColor',['../classthemeEngine.html#aa435a1b138ea719e9551d06e930e779d',1,'themeEngine']]],
+  ['resetpapercolor_15',['resetPaperColor',['../classthemeEngine.html#a739fdd99dbb80706e2465b53b6c62d83',1,'themeEngine']]],
+  ['resettextcolors_16',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
+  ['responseready_17',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
+  ['restoretext_18',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]]
 ];

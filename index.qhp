@@ -315,7 +315,9 @@
             </section>
             <section title="themeEngine" ref="classthemeEngine">
               <section title="themeEngine" ref="classthemeEngine#a9fe546070d5ed6fb02ef7191e6aac5d2" />
+              <section title="bgColor" ref="classthemeEngine#aa65c52eeb24e63eff1b298cf7aa08995" />
               <section title="bgColorChanged" ref="classthemeEngine#a4a8302bfd721f510dce5d78219c6be54" />
+              <section title="bgStyleSheet" ref="classthemeEngine#a26382558118798fe878cb86d4b89e944" />
               <section title="colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
               <section title="customBgColor" ref="classthemeEngine#abba7a4370b0f1ceb086e75831d7c26d2" />
               <section title="customExerciseTextColor" ref="classthemeEngine#a12b385091215dd0eae22a876f75375fe" />
@@ -323,7 +325,9 @@
               <section title="customPanelColor" ref="classthemeEngine#ac7d97a1b71c244aebab97e5cd07c2da0" />
               <section title="customPaperColor" ref="classthemeEngine#aa49d8e88f212cf48316c472b38e61ccb" />
               <section title="errorFont" ref="classthemeEngine#a739c27fc5cf0842932941c31c23ac092" />
+              <section title="exerciseTextColor" ref="classthemeEngine#ad5a2518b11b5a67b31f329b97f36e221" />
               <section title="exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
+              <section title="exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
               <section title="font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
               <section title="fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
               <section title="fontBoldChanged" ref="classthemeEngine#af4bf9fe22ceff9fb72a20d15e90bc624" />
@@ -338,16 +342,32 @@
               <section title="fontUnderline" ref="classthemeEngine#a5a6ba01e414a30d09cd7b8c6de0f2f89" />
               <section title="fontUnderlineChanged" ref="classthemeEngine#a7709f197afee83dfe4714384a539c405" />
               <section title="increaseFontSize" ref="classthemeEngine#a9c81ea8db84d6a92d9286e33c80a5082" />
+              <section title="inputTextColor" ref="classthemeEngine#a9dd6807cb619c2b2577fc62b253f7247" />
               <section title="inputTextColorChanged" ref="classthemeEngine#a820512bd51e2582c6fcf410892977755" />
+              <section title="inputTextStyleSheet" ref="classthemeEngine#a73a93a0c5427989331a543b915e31bb3" />
               <section title="maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
+              <section title="panelColor" ref="classthemeEngine#a60908e312da85dc5ff47605b7ebdb2b6" />
               <section title="panelColorChanged" ref="classthemeEngine#add8dffc0df9e70d6cea62df3d9cd0f3c" />
+              <section title="panelStyleSheet" ref="classthemeEngine#a8d82dc0c63acd244b39d59cedfa66c17" />
+              <section title="paperColor" ref="classthemeEngine#ab0484270d9e13555216d81e435ed7b9f" />
               <section title="paperColorChanged" ref="classthemeEngine#addd934184f76a26da4367818e8bb1ad6" />
+              <section title="paperStyleSheet" ref="classthemeEngine#a3c438dfd39114d221c54127fec19d5d1" />
+              <section title="resetBgColor" ref="classthemeEngine#a593afd921ade6d6e077c757641819099" />
+              <section title="resetExerciseTextColor" ref="classthemeEngine#a64b16e1252fa67544f3b9c6b0348f0b6" />
+              <section title="resetInputTextColor" ref="classthemeEngine#a5b07eecf15432bbf66162f7b30f62872" />
+              <section title="resetPanelColor" ref="classthemeEngine#aa435a1b138ea719e9551d06e930e779d" />
+              <section title="resetPaperColor" ref="classthemeEngine#a739fdd99dbb80706e2465b53b6c62d83" />
+              <section title="setBgColor" ref="classthemeEngine#a1a655d52c680193f382ba87b6736f487" />
+              <section title="setExerciseTextColor" ref="classthemeEngine#a18220a961fd409fb93783274a60b47b5" />
               <section title="setFont" ref="classthemeEngine#a70254d6a02e4a6ae329694d6c2911ce1" />
               <section title="setFontBold" ref="classthemeEngine#af0b62ce63770b0438b9a006fd5f4bbdc" />
               <section title="setFontFamily" ref="classthemeEngine#aa2c69e3356034f494035f15f1fd4b97e" />
               <section title="setFontItalic" ref="classthemeEngine#a73e91b7444b609f95da16bef845cb5cd" />
               <section title="setFontSize" ref="classthemeEngine#acfd9d42065afeb029b493013494b70fb" />
               <section title="setFontUnderline" ref="classthemeEngine#a7da9c736831e9e7546a5a8224963cd47" />
+              <section title="setInputTextColor" ref="classthemeEngine#acbe7ebf07bc2497609ee955b2a0cca49" />
+              <section title="setPanelColor" ref="classthemeEngine#af30300b5e03cdedfee9211e9812da40b" />
+              <section title="setPaperColor" ref="classthemeEngine#a4a4d724a39f61d6cdfce18f3aa1d541f" />
               <section title="setStyle" ref="classthemeEngine#a2a4815e45708d8ceac2aeaf8daf50d5f" />
               <section title="setTheme" ref="classthemeEngine#a3dd7863ca8d8f78454219e6d8bd4ca96" />
               <section title="style" ref="classthemeEngine#a872aaebf1177b8eb5e8ea3b8b93c146e" />
@@ -560,7 +580,9 @@
       <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
       <keyword name="available" id="monitorClient::available" ref="classmonitorClient#a05a2daf88607ee6686dcafd0e35852b3" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions#a604e707e9c208f8dd09d47714b1d52a2" />
+      <keyword name="bgColor" id="themeEngine::bgColor" ref="classthemeEngine#aa65c52eeb24e63eff1b298cf7aa08995" />
       <keyword name="bgColorChanged" id="themeEngine::bgColorChanged" ref="classthemeEngine#a4a8302bfd721f510dce5d78219c6be54" />
+      <keyword name="bgStyleSheet" id="themeEngine::bgStyleSheet" ref="classthemeEngine#a26382558118798fe878cb86d4b89e944" />
       <keyword name="bufferOpened" id="configParser::bufferOpened" ref="classconfigParser#a971d28c032dfebe6b72d04551bb32e0b" />
       <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
@@ -628,7 +650,9 @@
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#a3f69cbbdb3e7268f730555c2cfe2c74c" />
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#ada7d47ae6c03fbe60727236164df0c95" />
       <keyword name="exerciseText" id="configParser::exerciseText" ref="classconfigParser#abcf6455297d66a7b7401fb35de6b2dae" />
+      <keyword name="exerciseTextColor" id="themeEngine::exerciseTextColor" ref="classthemeEngine#ad5a2518b11b5a67b31f329b97f36e221" />
       <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
+      <keyword name="exerciseTextStyleSheet" id="themeEngine::exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />
       <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
@@ -665,7 +689,9 @@
       <keyword name="initTimedExercise" id="OpenTyper::initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
       <keyword name="inputLabelWidget" id="inputLabelWidget::inputLabelWidget" ref="classinputLabelWidget#a2683225e6719b9ae3efec1f5a6d38bfe" />
       <keyword name="inputMethodEvent" id="inputLabelWidget::inputMethodEvent" ref="classinputLabelWidget#a095860438ebd9dd726bc4c07ec985e99" />
+      <keyword name="inputTextColor" id="themeEngine::inputTextColor" ref="classthemeEngine#a9dd6807cb619c2b2577fc62b253f7247" />
       <keyword name="inputTextColorChanged" id="themeEngine::inputTextColorChanged" ref="classthemeEngine#a820512bd51e2582c6fcf410892977755" />
+      <keyword name="inputTextStyleSheet" id="themeEngine::inputTextStyleSheet" ref="classthemeEngine#a73a93a0c5427989331a543b915e31bb3" />
       <keyword name="isDeadKey" id="keyboardUtils::isDeadKey" ref="classkeyboardUtils#a62e8c562fdc522d0c8216ab2f4db4676" />
       <keyword name="isSpecialKey" id="keyboardUtils::isSpecialKey" ref="classkeyboardUtils#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
       <keyword name="keyboardOptions" id="keyboardOptions::keyboardOptions" ref="classkeyboardOptions#adc177d4a26aeac8ba7dd657d92a4e595" />
@@ -718,9 +744,13 @@
       <keyword name="packName" id="builtinPacks::packName" ref="classbuiltinPacks#a6b49a3342d9edcadd208da1cc6b550b0" />
       <keyword name="packSelector" id="packSelector::packSelector" ref="classpackSelector#a7627e7a69e37f6a66512643b1c95055d" />
       <keyword name="packView" id="packView::packView" ref="classpackView#a36852f6e8eaafd5985bcf05fcd19879c" />
+      <keyword name="panelColor" id="themeEngine::panelColor" ref="classthemeEngine#a60908e312da85dc5ff47605b7ebdb2b6" />
       <keyword name="panelColorChanged" id="themeEngine::panelColorChanged" ref="classthemeEngine#add8dffc0df9e70d6cea62df3d9cd0f3c" />
+      <keyword name="panelStyleSheet" id="themeEngine::panelStyleSheet" ref="classthemeEngine#a8d82dc0c63acd244b39d59cedfa66c17" />
+      <keyword name="paperColor" id="themeEngine::paperColor" ref="classthemeEngine#ab0484270d9e13555216d81e435ed7b9f" />
       <keyword name="paperColorChanged" id="themeEngine::paperColorChanged" ref="classthemeEngine#addd934184f76a26da4367818e8bb1ad6" />
       <keyword name="paperConfigDialog" id="paperConfigDialog::paperConfigDialog" ref="classpaperConfigDialog#aa332336ca2ba987341d72ab24c1e991b" />
+      <keyword name="paperStyleSheet" id="themeEngine::paperStyleSheet" ref="classthemeEngine#a3c438dfd39114d221c54127fec19d5d1" />
       <keyword name="parseDesc" id="configParser::parseDesc" ref="classconfigParser#a1011cf48da6bafdf3f2275fb01fd0064" />
       <keyword name="previousLevel" id="OpenTyper::previousLevel" ref="classOpenTyper#afad7f5e20e15f749e3f22c189d56be2b" />
       <keyword name="readData" id="monitorClient::readData" ref="classmonitorClient#abe6de247bd781bc3c01bf31d6cc45be7" />
@@ -732,8 +762,13 @@
       <keyword name="removeExercise" id="packView::removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
       <keyword name="reopen" id="configParser::reopen" ref="classconfigParser#a1053a69bbbaeb2fd095811be95a46390" />
       <keyword name="repeatLevel" id="OpenTyper::repeatLevel" ref="classOpenTyper#aa38fd22312ca92bed20d77ac9142ce9e" />
+      <keyword name="resetBgColor" id="themeEngine::resetBgColor" ref="classthemeEngine#a593afd921ade6d6e077c757641819099" />
       <keyword name="resetBgPaperColors" id="customizationOptions::resetBgPaperColors" ref="classcustomizationOptions#a879ac71ec2e9ade496ae3c70c4bc08af" />
+      <keyword name="resetExerciseTextColor" id="themeEngine::resetExerciseTextColor" ref="classthemeEngine#a64b16e1252fa67544f3b9c6b0348f0b6" />
+      <keyword name="resetInputTextColor" id="themeEngine::resetInputTextColor" ref="classthemeEngine#a5b07eecf15432bbf66162f7b30f62872" />
       <keyword name="resetKeyColor" id="keyboardWidget::resetKeyColor" ref="classkeyboardWidget#aee8d43defa9db5129a48086563f72b65" />
+      <keyword name="resetPanelColor" id="themeEngine::resetPanelColor" ref="classthemeEngine#aa435a1b138ea719e9551d06e930e779d" />
+      <keyword name="resetPaperColor" id="themeEngine::resetPaperColor" ref="classthemeEngine#a739fdd99dbb80706e2465b53b6c62d83" />
       <keyword name="resetTextColors" id="customizationOptions::resetTextColors" ref="classcustomizationOptions#a30e20bd3918caa26fa969223630dda05" />
       <keyword name="responseReady" id="monitorClient::responseReady" ref="classmonitorClient#a6940f786c749647238b2231694fd85e8" />
       <keyword name="restoreText" id="packView::restoreText" ref="classpackView#aa75a453ca470d60c9a3fd68281645d65" />
@@ -744,6 +779,7 @@
       <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient#a01e7aa8ae84dc8164badb27829f9fe79" />
       <keyword name="serverAddress" id="monitorClient::serverAddress" ref="classmonitorClient#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
       <keyword name="serverPort" id="monitorClient::serverPort" ref="classmonitorClient#a3cc04faa170d58b57cb04bb80893b946" />
+      <keyword name="setBgColor" id="themeEngine::setBgColor" ref="classthemeEngine#a1a655d52c680193f382ba87b6736f487" />
       <keyword name="setBlackColor" id="SimpleColorDialog::setBlackColor" ref="classSimpleColorDialog#acfcec996b4ac0019876c39ba8f338f70" />
       <keyword name="setBlueColor" id="SimpleColorDialog::setBlueColor" ref="classSimpleColorDialog#a6bd27a5b9126106e2be9b54085d82029" />
       <keyword name="setBlueColorValue" id="SimpleColorDialog::setBlueColorValue" ref="classSimpleColorDialog#a3f87285f536a7818f8064c3fce29691b" />
@@ -754,6 +790,7 @@
       <keyword name="setColors" id="customizationOptions::setColors" ref="classcustomizationOptions#acada628a325da33b633c37e40955ecde" />
       <keyword name="setErrorDialogs" id="monitorClient::setErrorDialogs" ref="classmonitorClient#a69989bd9fa97b81a303de7be6cb0cd1c" />
       <keyword name="setErrorPenalty" id="behaviorOptions::setErrorPenalty" ref="classbehaviorOptions#a32076ec9c688a185046af162f6762d58" />
+      <keyword name="setExerciseTextColor" id="themeEngine::setExerciseTextColor" ref="classthemeEngine#a18220a961fd409fb93783274a60b47b5" />
       <keyword name="setFileName" id="packEditor::setFileName" ref="classpackEditor#acab56991754277171feb8adebd317130" />
       <keyword name="setFont" id="themeEngine::setFont" ref="classthemeEngine#a70254d6a02e4a6ae329694d6c2911ce1" />
       <keyword name="setFontBold" id="themeEngine::setFontBold" ref="classthemeEngine#af0b62ce63770b0438b9a006fd5f4bbdc" />
@@ -767,6 +804,7 @@
       <keyword name="setHitCount" id="levelSummary::setHitCount" ref="classlevelSummary#a116f51387243910b3c62f1fc7bcb6fcb" />
       <keyword name="setHits" id="levelSummary::setHits" ref="classlevelSummary#a093da2340a3a732091ad022db3c3d6a2" />
       <keyword name="setIncludeNewLines" id="paperConfigDialog::setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
+      <keyword name="setInputTextColor" id="themeEngine::setInputTextColor" ref="classthemeEngine#acbe7ebf07bc2497609ee955b2a0cca49" />
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
       <keyword name="setKeyboardVisible" id="keyboardWidget::setKeyboardVisible" ref="classkeyboardWidget#a0f5d0b6da126490e66239fae13b30c08" />
       <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget#a191ecfbfea429bda4acc1905fc942875" />
@@ -774,6 +812,8 @@
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
       <keyword name="setNewFile" id="packEditor::setNewFile" ref="classpackEditor#ad40ff79b94794d3df4929ed1970bd0ff" />
       <keyword name="setOrangeColor" id="SimpleColorDialog::setOrangeColor" ref="classSimpleColorDialog#a72fe566c9fed225e026d67c6495878a7" />
+      <keyword name="setPanelColor" id="themeEngine::setPanelColor" ref="classthemeEngine#af30300b5e03cdedfee9211e9812da40b" />
+      <keyword name="setPaperColor" id="themeEngine::setPaperColor" ref="classthemeEngine#a4a4d724a39f61d6cdfce18f3aa1d541f" />
       <keyword name="setPinkColor" id="SimpleColorDialog::setPinkColor" ref="classSimpleColorDialog#a9c512220e34afa8d10d7df30c3f14a6a" />
       <keyword name="setPurpleColor" id="SimpleColorDialog::setPurpleColor" ref="classSimpleColorDialog#a8983296cd9df0181c27ebc15d5b22068" />
       <keyword name="setRedColor" id="SimpleColorDialog::setRedColor" ref="classSimpleColorDialog#aadb07c1000a7925b28d7d293078b1f6e" />
