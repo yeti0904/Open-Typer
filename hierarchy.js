@@ -30,7 +30,8 @@ var hierarchy =
       [ "configParser", "classconfigParser.html", null ],
       [ "historyParser", "classhistoryParser.html", null ],
       [ "languageManager", "classlanguageManager.html", null ],
-      [ "monitorClient", "classmonitorClient.html", null ]
+      [ "monitorClient", "classmonitorClient.html", null ],
+      [ "themeEngine", "classthemeEngine.html", null ]
     ] ],
     [ "QTextEdit", null, [
       [ "inputLabelWidget", "classinputLabelWidget.html", null ]

@@ -78,15 +78,12 @@
               <section title="init" ref="classcustomizationOptions#a71737219bdf919309735605c5633dbd5" />
               <section title="resetBgPaperColors" ref="classcustomizationOptions#a879ac71ec2e9ade496ae3c70c4bc08af" />
               <section title="resetTextColors" ref="classcustomizationOptions#a30e20bd3918caa26fa969223630dda05" />
-              <section title="saveColorSettings" ref="classcustomizationOptions#ac51d00cb02e3f32ca401ee8b479a108f" />
               <section title="selectCurrentFullTheme" ref="classcustomizationOptions#a2089f4ccdfb3f012e82d714ce6c7bb09" />
               <section title="setBoldText" ref="classcustomizationOptions#a53ae5e03aace0092906fcbecd5abf39e" />
               <section title="setColors" ref="classcustomizationOptions#acada628a325da33b633c37e40955ecde" />
-              <section title="setFont" ref="classcustomizationOptions#a492aa6243b23292de5f552f21e417b7f" />
               <section title="setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
               <section title="setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
-              <section title="themeChanged" ref="classcustomizationOptions#a91aecd4bea4879c9eb40f1c91c08b2ea" />
-              <section title="updateTheme" ref="classcustomizationOptions#a182af567094905e4f2c3fbd459c9a230" />
+              <section title="updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
             </section>
             <section title="fileUtils" ref="classfileUtils">
               <section title="configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
@@ -203,15 +200,14 @@
               <section title="refreshAll" ref="classOpenTyper#a5f0fcfa144eda646ca215b51851e0dd5" />
               <section title="repeatLevel" ref="classOpenTyper#aa38fd22312ca92bed20d77ac9142ce9e" />
               <section title="setColors" ref="classOpenTyper#ac4ac399f836ab91bc116d6a951cca9f5" />
-              <section title="setFont" ref="classOpenTyper#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
               <section title="showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
               <section title="startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
               <section title="sublessonSelectionListIndexChanged" ref="classOpenTyper#a1ec024cb05d93c44b8053a9d2d963922" />
               <section title="updateCurrentTime" ref="classOpenTyper#a161a88a48c7a083c1afce2201f9a4ac1" />
+              <section title="updateFont" ref="classOpenTyper#ac86a5acdee73a4f6163fa3ccb5a07edd" />
               <section title="updateLessonList" ref="classOpenTyper#ae86fac4e64857d4b2c18fa639b612c54" />
               <section title="updateStudent" ref="classOpenTyper#ae3e5e07e087c9d337b2a2907a8173b1a" />
               <section title="updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
-              <section title="updateTheme" ref="classOpenTyper#a721ca1e0ea1bc604ae256bb13ccc35f0" />
               <section title="zoomIn" ref="classOpenTyper#a0cb936f09d8dcc2148352ed95b486236" />
               <section title="zoomOut" ref="classOpenTyper#a26d722e59eb5364522f42996eff39075" />
             </section>
@@ -221,11 +217,9 @@
               <section title="changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
               <section title="changeLanguage" ref="classoptionsWindow#acb6939ca9899f8dfd9c6d2c1e649be63" />
               <section title="changeOptionWidget" ref="classoptionsWindow#a579aae16bd3523b42cf615365679a063" />
-              <section title="changeTheme" ref="classoptionsWindow#a5f4980316a269b3d11ece8e2bd156250" />
               <section title="init" ref="classoptionsWindow#aa1d9b8a39432d285200464166c704681" />
               <section title="languageChanged" ref="classoptionsWindow#acf4c0ce7d0a7f69285a18730bae6e16a" />
               <section title="setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
-              <section title="themeChanged" ref="classoptionsWindow#a469fc19d55f3b6ca1467540f40c0f7a1" />
             </section>
             <section title="packEditor" ref="classpackEditor">
               <section title="packEditor" ref="classpackEditor#a2531c78a0bd8650d5395147566ed50c9" />
@@ -319,6 +313,46 @@
               <section title="~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
               <section title="auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
             </section>
+            <section title="themeEngine" ref="classthemeEngine">
+              <section title="themeEngine" ref="classthemeEngine#a9fe546070d5ed6fb02ef7191e6aac5d2" />
+              <section title="bgColorChanged" ref="classthemeEngine#a4a8302bfd721f510dce5d78219c6be54" />
+              <section title="colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
+              <section title="customBgColor" ref="classthemeEngine#abba7a4370b0f1ceb086e75831d7c26d2" />
+              <section title="customExerciseTextColor" ref="classthemeEngine#a12b385091215dd0eae22a876f75375fe" />
+              <section title="customInputTextColor" ref="classthemeEngine#a05346c23e95e07aa2831d97c2f25178a" />
+              <section title="customPanelColor" ref="classthemeEngine#ac7d97a1b71c244aebab97e5cd07c2da0" />
+              <section title="customPaperColor" ref="classthemeEngine#aa49d8e88f212cf48316c472b38e61ccb" />
+              <section title="errorFont" ref="classthemeEngine#a739c27fc5cf0842932941c31c23ac092" />
+              <section title="exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
+              <section title="font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
+              <section title="fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
+              <section title="fontBoldChanged" ref="classthemeEngine#af4bf9fe22ceff9fb72a20d15e90bc624" />
+              <section title="fontChanged" ref="classthemeEngine#a7af5c05ae7b346ee1e433df3054307f5" />
+              <section title="fontFamily" ref="classthemeEngine#a939c8be9e2eaef2d22c6f2f0f3ec6723" />
+              <section title="fontFamilyChanged" ref="classthemeEngine#a1ca66e156b4dd34a03122a0495caa21c" />
+              <section title="fontItalic" ref="classthemeEngine#ababd6df8d47c8dbb536d2de665f4ab10" />
+              <section title="fontItalicChanged" ref="classthemeEngine#af7e28c7cc56827962b8293adb67071e3" />
+              <section title="fontSize" ref="classthemeEngine#a8077b7d206d4e189e59f21ab58bee979" />
+              <section title="fontSizeChanged" ref="classthemeEngine#aefa87c49d2ac9fee0df15589b98f74db" />
+              <section title="fontStyleChanged" ref="classthemeEngine#a212f655fdd9175152742e7b27e55608c" />
+              <section title="fontUnderline" ref="classthemeEngine#a5a6ba01e414a30d09cd7b8c6de0f2f89" />
+              <section title="fontUnderlineChanged" ref="classthemeEngine#a7709f197afee83dfe4714384a539c405" />
+              <section title="increaseFontSize" ref="classthemeEngine#a9c81ea8db84d6a92d9286e33c80a5082" />
+              <section title="inputTextColorChanged" ref="classthemeEngine#a820512bd51e2582c6fcf410892977755" />
+              <section title="maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
+              <section title="panelColorChanged" ref="classthemeEngine#add8dffc0df9e70d6cea62df3d9cd0f3c" />
+              <section title="paperColorChanged" ref="classthemeEngine#addd934184f76a26da4367818e8bb1ad6" />
+              <section title="setFont" ref="classthemeEngine#a70254d6a02e4a6ae329694d6c2911ce1" />
+              <section title="setFontBold" ref="classthemeEngine#af0b62ce63770b0438b9a006fd5f4bbdc" />
+              <section title="setFontFamily" ref="classthemeEngine#aa2c69e3356034f494035f15f1fd4b97e" />
+              <section title="setFontItalic" ref="classthemeEngine#a73e91b7444b609f95da16bef845cb5cd" />
+              <section title="setFontSize" ref="classthemeEngine#acfd9d42065afeb029b493013494b70fb" />
+              <section title="setFontUnderline" ref="classthemeEngine#a7da9c736831e9e7546a5a8224963cd47" />
+              <section title="setStyle" ref="classthemeEngine#a2a4815e45708d8ceac2aeaf8daf50d5f" />
+              <section title="style" ref="classthemeEngine#a872aaebf1177b8eb5e8ea3b8b93c146e" />
+              <section title="styleChanged" ref="classthemeEngine#ad8e0ac793d6199a99cda31b34747ae31" />
+              <section title="updateStyle" ref="classthemeEngine#a352cfc5414795770d8dab2e8d2fe434f" />
+            </section>
             <section title="timeDialog" ref="classtimeDialog">
               <section title="timeDialog" ref="classtimeDialog#afee89fd18b8ade41b001e436dc73f522" />
               <section title="~timeDialog" ref="classtimeDialog#ac3e69b247c53dc7ed4f3c81fab962766" />
@@ -366,6 +400,7 @@
               <section title="historyParser" ref="classhistoryParser" />
               <section title="languageManager" ref="classlanguageManager" />
               <section title="monitorClient" ref="classmonitorClient" />
+              <section title="themeEngine" ref="classthemeEngine" />
             </section>
             <section title="QTextEdit" ref="">
               <section title="inputLabelWidget" ref="classinputLabelWidget" />
@@ -439,6 +474,7 @@
                   <section title="language.h" ref="language_8h_source" />
                   <section title="net.h" ref="net_8h_source" />
                   <section title="packs.h" ref="packs_8h_source" />
+                  <section title="theme.h" ref="theme_8h_source" />
                   <section title="utils.h" ref="utils_8h_source" />
                 </section>
                 <section title="options" ref="dir_a6b8e448081bf8ce4db4cf71fa3ecf15">
@@ -504,6 +540,7 @@
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
+      <keyword name="themeEngine" id="themeEngine" ref="classthemeEngine" />
       <keyword name="timeDialog" id="timeDialog" ref="classtimeDialog" />
       <keyword name="Updater" id="Updater" ref="classUpdater" />
       <keyword name="UpdaterDialog" id="UpdaterDialog" ref="classUpdaterDialog" />
@@ -518,6 +555,7 @@
       <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
       <keyword name="available" id="monitorClient::available" ref="classmonitorClient#a05a2daf88607ee6686dcafd0e35852b3" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions#a604e707e9c208f8dd09d47714b1d52a2" />
+      <keyword name="bgColorChanged" id="themeEngine::bgColorChanged" ref="classthemeEngine#a4a8302bfd721f510dce5d78219c6be54" />
       <keyword name="bufferOpened" id="configParser::bufferOpened" ref="classconfigParser#a971d28c032dfebe6b72d04551bb32e0b" />
       <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
@@ -543,7 +581,6 @@
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
-      <keyword name="changeTheme" id="optionsWindow::changeTheme" ref="classoptionsWindow#a5f4980316a269b3d11ece8e2bd156250" />
       <keyword name="close" id="configParser::close" ref="classconfigParser#a5e3450f912f556b8361d57ba61cd7de1" />
       <keyword name="close" id="monitorClient::close" ref="classmonitorClient#a480d041102873d32fd1c0d5ba5dcd538" />
       <keyword name="closeAll" id="packEditor::closeAll" ref="classpackEditor#a4b52efaa541e9ab200de0fb3b66a47df" />
@@ -551,17 +588,24 @@
       <keyword name="closeEvent" id="packEditor::closeEvent" ref="classpackEditor#aa403472b118aef534f8093106316ce05" />
       <keyword name="closeFile" id="packView::closeFile" ref="classpackView#a0d7279567c49cfa13efb450657875255" />
       <keyword name="closeTab" id="packEditor::closeTab" ref="classpackEditor#a8029fd89ffc29702456698439e7a1d39" />
+      <keyword name="colorChanged" id="themeEngine::colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="configParser" id="configParser::configParser" ref="classconfigParser#a7fca8c252df17f7dbdce4e6f7c61ae62" />
       <keyword name="connectAll" id="OpenTyper::connectAll" ref="classOpenTyper#a386fcf33ae25616ceb7ffcaa1e55645f" />
       <keyword name="connectionOptions" id="connectionOptions::connectionOptions" ref="classconnectionOptions#abfeac330032693d7ea5358d143a6b3d5" />
       <keyword name="convertData" id="monitorClient::convertData" ref="classmonitorClient#a87cfa1eddd8431db92a076ce38199f43" />
       <keyword name="createNewFile" id="packEditor::createNewFile" ref="classpackEditor#a9eea23604a8951a257c0d13de4146a30" />
+      <keyword name="customBgColor" id="themeEngine::customBgColor" ref="classthemeEngine#abba7a4370b0f1ceb086e75831d7c26d2" />
+      <keyword name="customExerciseTextColor" id="themeEngine::customExerciseTextColor" ref="classthemeEngine#a12b385091215dd0eae22a876f75375fe" />
+      <keyword name="customInputTextColor" id="themeEngine::customInputTextColor" ref="classthemeEngine#a05346c23e95e07aa2831d97c2f25178a" />
       <keyword name="customizationOptions" id="customizationOptions::customizationOptions" ref="classcustomizationOptions#a6e49823810c19835385fd388442d362c" />
+      <keyword name="customPanelColor" id="themeEngine::customPanelColor" ref="classthemeEngine#ac7d97a1b71c244aebab97e5cd07c2da0" />
+      <keyword name="customPaperColor" id="themeEngine::customPaperColor" ref="classthemeEngine#aa49d8e88f212cf48316c472b38e61ccb" />
       <keyword name="dehighlightKey" id="keyboardWidget::dehighlightKey" ref="classkeyboardWidget#a44d51675c40746936c3592216abd4dfc" />
       <keyword name="deleteExerciseLine" id="packView::deleteExerciseLine" ref="classpackView#aa1f2628214689e5c5a8e3bd36a63eae0" />
       <keyword name="disconnected" id="monitorClient::disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
       <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
+      <keyword name="errorFont" id="themeEngine::errorFont" ref="classthemeEngine#a739c27fc5cf0842932941c31c23ac092" />
       <keyword name="errorOccurred" id="monitorClient::errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
       <keyword name="exerciseAttribute" id="configParser::exerciseAttribute" ref="classconfigParser#a18d87f4b2ddd523ac4476fc510b211f8" />
       <keyword name="exerciseAttributes" id="configParser::exerciseAttributes" ref="classconfigParser#ade7ea5a576b8de1db3cd7dd0fa4456d6" />
@@ -579,11 +623,25 @@
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#a3f69cbbdb3e7268f730555c2cfe2c74c" />
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#ada7d47ae6c03fbe60727236164df0c95" />
       <keyword name="exerciseText" id="configParser::exerciseText" ref="classconfigParser#abcf6455297d66a7b7401fb35de6b2dae" />
+      <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />
       <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
       <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
+      <keyword name="font" id="themeEngine::font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
+      <keyword name="fontBold" id="themeEngine::fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
+      <keyword name="fontBoldChanged" id="themeEngine::fontBoldChanged" ref="classthemeEngine#af4bf9fe22ceff9fb72a20d15e90bc624" />
+      <keyword name="fontChanged" id="themeEngine::fontChanged" ref="classthemeEngine#a7af5c05ae7b346ee1e433df3054307f5" />
+      <keyword name="fontFamily" id="themeEngine::fontFamily" ref="classthemeEngine#a939c8be9e2eaef2d22c6f2f0f3ec6723" />
+      <keyword name="fontFamilyChanged" id="themeEngine::fontFamilyChanged" ref="classthemeEngine#a1ca66e156b4dd34a03122a0495caa21c" />
+      <keyword name="fontItalic" id="themeEngine::fontItalic" ref="classthemeEngine#ababd6df8d47c8dbb536d2de665f4ab10" />
+      <keyword name="fontItalicChanged" id="themeEngine::fontItalicChanged" ref="classthemeEngine#af7e28c7cc56827962b8293adb67071e3" />
+      <keyword name="fontSize" id="themeEngine::fontSize" ref="classthemeEngine#a8077b7d206d4e189e59f21ab58bee979" />
+      <keyword name="fontSizeChanged" id="themeEngine::fontSizeChanged" ref="classthemeEngine#aefa87c49d2ac9fee0df15589b98f74db" />
+      <keyword name="fontStyleChanged" id="themeEngine::fontStyleChanged" ref="classthemeEngine#a212f655fdd9175152742e7b27e55608c" />
+      <keyword name="fontUnderline" id="themeEngine::fontUnderline" ref="classthemeEngine#a5a6ba01e414a30d09cd7b8c6de0f2f89" />
+      <keyword name="fontUnderlineChanged" id="themeEngine::fontUnderlineChanged" ref="classthemeEngine#a7709f197afee83dfe4714384a539c405" />
       <keyword name="generateText" id="configParser::generateText" ref="classconfigParser#a9fea65bbcdde2864bd56dd99b1ae2794" />
       <keyword name="getFileName" id="packView::getFileName" ref="classpackView#ad9bbd4cb227e404ea9aaf1e5fca93585" />
       <keyword name="goBack" id="customizationOptions::goBack" ref="classcustomizationOptions#ac8fe4c55810b918fcd249055f6d5aaf4" />
@@ -592,6 +650,7 @@
       <keyword name="historyEntry" id="historyParser::historyEntry" ref="classhistoryParser#a9c394053a283c52bfdb849ce685b7c88" />
       <keyword name="historyPackValue" id="historyParser::historyPackValue" ref="classhistoryParser#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
       <keyword name="historySize" id="historyParser::historySize" ref="classhistoryParser#abccd1018e2cd37ed096be09f319d8958" />
+      <keyword name="increaseFontSize" id="themeEngine::increaseFontSize" ref="classthemeEngine#a9c81ea8db84d6a92d9286e33c80a5082" />
       <keyword name="init" id="customizationOptions::init" ref="classcustomizationOptions#a71737219bdf919309735605c5633dbd5" />
       <keyword name="init" id="optionsWindow::init" ref="classoptionsWindow#aa1d9b8a39432d285200464166c704681" />
       <keyword name="init" id="packEditor::init" ref="classpackEditor#a083811db9b0ccd3cfd3604563aa1e953" />
@@ -601,6 +660,7 @@
       <keyword name="initTimedExercise" id="OpenTyper::initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
       <keyword name="inputLabelWidget" id="inputLabelWidget::inputLabelWidget" ref="classinputLabelWidget#a2683225e6719b9ae3efec1f5a6d38bfe" />
       <keyword name="inputMethodEvent" id="inputLabelWidget::inputMethodEvent" ref="classinputLabelWidget#a095860438ebd9dd726bc4c07ec985e99" />
+      <keyword name="inputTextColorChanged" id="themeEngine::inputTextColorChanged" ref="classthemeEngine#a820512bd51e2582c6fcf410892977755" />
       <keyword name="isDeadKey" id="keyboardUtils::isDeadKey" ref="classkeyboardUtils#a62e8c562fdc522d0c8216ab2f4db4676" />
       <keyword name="isSpecialKey" id="keyboardUtils::isSpecialKey" ref="classkeyboardUtils#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
       <keyword name="keyboardOptions" id="keyboardOptions::keyboardOptions" ref="classkeyboardOptions#adc177d4a26aeac8ba7dd657d92a4e595" />
@@ -632,6 +692,7 @@
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
+      <keyword name="maxFontSize" id="themeEngine::maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
       <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
       <keyword name="nextLevel" id="OpenTyper::nextLevel" ref="classOpenTyper#a0431cbb22500518dce9387257fddc57d" />
       <keyword name="nextRow" id="keyboardWidget::nextRow" ref="classkeyboardWidget#ac57098beebc362b0981db8fe82b4ac57" />
@@ -652,6 +713,8 @@
       <keyword name="packName" id="builtinPacks::packName" ref="classbuiltinPacks#a6b49a3342d9edcadd208da1cc6b550b0" />
       <keyword name="packSelector" id="packSelector::packSelector" ref="classpackSelector#a7627e7a69e37f6a66512643b1c95055d" />
       <keyword name="packView" id="packView::packView" ref="classpackView#a36852f6e8eaafd5985bcf05fcd19879c" />
+      <keyword name="panelColorChanged" id="themeEngine::panelColorChanged" ref="classthemeEngine#add8dffc0df9e70d6cea62df3d9cd0f3c" />
+      <keyword name="paperColorChanged" id="themeEngine::paperColorChanged" ref="classthemeEngine#addd934184f76a26da4367818e8bb1ad6" />
       <keyword name="paperConfigDialog" id="paperConfigDialog::paperConfigDialog" ref="classpaperConfigDialog#aa332336ca2ba987341d72ab24c1e991b" />
       <keyword name="parseDesc" id="configParser::parseDesc" ref="classconfigParser#a1011cf48da6bafdf3f2275fb01fd0064" />
       <keyword name="previousLevel" id="OpenTyper::previousLevel" ref="classOpenTyper#afad7f5e20e15f749e3f22c189d56be2b" />
@@ -671,7 +734,6 @@
       <keyword name="restoreText" id="packView::restoreText" ref="classpackView#aa75a453ca470d60c9a3fd68281645d65" />
       <keyword name="save" id="packView::save" ref="classpackView#a50bd40060900e60d3d7229b5b9b1ba00" />
       <keyword name="saveAs" id="packView::saveAs" ref="classpackView#ac2bebdcab08ff9693863e0525da61be8" />
-      <keyword name="saveColorSettings" id="customizationOptions::saveColorSettings" ref="classcustomizationOptions#ac51d00cb02e3f32ca401ee8b479a108f" />
       <keyword name="selectCurrentFullTheme" id="customizationOptions::selectCurrentFullTheme" ref="classcustomizationOptions#a2089f4ccdfb3f012e82d714ce6c7bb09" />
       <keyword name="selectedConfig" id="packSelector::selectedConfig" ref="classpackSelector#a5ff2264ada61381338ba429d1e36d008" />
       <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient#a01e7aa8ae84dc8164badb27829f9fe79" />
@@ -688,8 +750,12 @@
       <keyword name="setErrorDialogs" id="monitorClient::setErrorDialogs" ref="classmonitorClient#a69989bd9fa97b81a303de7be6cb0cd1c" />
       <keyword name="setErrorPenalty" id="behaviorOptions::setErrorPenalty" ref="classbehaviorOptions#a32076ec9c688a185046af162f6762d58" />
       <keyword name="setFileName" id="packEditor::setFileName" ref="classpackEditor#acab56991754277171feb8adebd317130" />
-      <keyword name="setFont" id="OpenTyper::setFont" ref="classOpenTyper#a0deeb213fc85bdc2f63e60b2f2f2d98e" />
-      <keyword name="setFont" id="customizationOptions::setFont" ref="classcustomizationOptions#a492aa6243b23292de5f552f21e417b7f" />
+      <keyword name="setFont" id="themeEngine::setFont" ref="classthemeEngine#a70254d6a02e4a6ae329694d6c2911ce1" />
+      <keyword name="setFontBold" id="themeEngine::setFontBold" ref="classthemeEngine#af0b62ce63770b0438b9a006fd5f4bbdc" />
+      <keyword name="setFontFamily" id="themeEngine::setFontFamily" ref="classthemeEngine#aa2c69e3356034f494035f15f1fd4b97e" />
+      <keyword name="setFontItalic" id="themeEngine::setFontItalic" ref="classthemeEngine#a73e91b7444b609f95da16bef845cb5cd" />
+      <keyword name="setFontSize" id="themeEngine::setFontSize" ref="classthemeEngine#acfd9d42065afeb029b493013494b70fb" />
+      <keyword name="setFontUnderline" id="themeEngine::setFontUnderline" ref="classthemeEngine#a7da9c736831e9e7546a5a8224963cd47" />
       <keyword name="setGrayColor" id="SimpleColorDialog::setGrayColor" ref="classSimpleColorDialog#a7319859d5da8a15955d89f85e58a0d4f" />
       <keyword name="setGreenColor" id="SimpleColorDialog::setGreenColor" ref="classSimpleColorDialog#af19085f2876436ce3d6d7bb132de95aa" />
       <keyword name="setGreenColorValue" id="SimpleColorDialog::setGreenColorValue" ref="classSimpleColorDialog#ac7b1226d6d2267740ea7879a1ed3f4d4" />
@@ -709,6 +775,7 @@
       <keyword name="setRedColorValue" id="SimpleColorDialog::setRedColorValue" ref="classSimpleColorDialog#a49f75832ec9d6f186c17cb4736f43b1d" />
       <keyword name="setRevisionLesson" id="packView::setRevisionLesson" ref="classpackView#afb615797a5031658513124a814a1d51a" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions#afb802a982a3806f4df086d7eecfcb3c5" />
+      <keyword name="setStyle" id="themeEngine::setStyle" ref="classthemeEngine#a2a4815e45708d8ceac2aeaf8daf50d5f" />
       <keyword name="setTime" id="timeDialog::setTime" ref="classtimeDialog#a6e0faa9b35e08e2ee5d6741e8f9e76a2" />
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
@@ -720,6 +787,8 @@
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
       <keyword name="studentOptions" id="studentOptions::studentOptions" ref="classstudentOptions#a355451cfa1bae5af52f7450ebb8138f5" />
+      <keyword name="style" id="themeEngine::style" ref="classthemeEngine#a872aaebf1177b8eb5e8ea3b8b93c146e" />
+      <keyword name="styleChanged" id="themeEngine::styleChanged" ref="classthemeEngine#ad8e0ac793d6199a99cda31b34747ae31" />
       <keyword name="sublessonCount" id="configParser::sublessonCount" ref="classconfigParser#a7b3b416c615c62bbe7526bc6181ccb86" />
       <keyword name="sublessonName" id="configParser::sublessonName" ref="classconfigParser#a2922133b71c6050af206853e6c64586d" />
       <keyword name="sublessonSelectionListIndexChanged" id="OpenTyper::sublessonSelectionListIndexChanged" ref="classOpenTyper#a1ec024cb05d93c44b8053a9d2d963922" />
@@ -728,22 +797,22 @@
       <keyword name="switchSublesson" id="packView::switchSublesson" ref="classpackView#ae4ceac1dfa27b06777c1aea067b2e4b7" />
       <keyword name="tabChanged" id="packEditor::tabChanged" ref="classpackEditor#a21cb0d01d5588aff614bf4d7e89e8c11" />
       <keyword name="testConnection" id="connectionOptions::testConnection" ref="classconnectionOptions#a122737d3de84bd61b2daabdbf0cf0d8c" />
-      <keyword name="themeChanged" id="customizationOptions::themeChanged" ref="classcustomizationOptions#a91aecd4bea4879c9eb40f1c91c08b2ea" />
-      <keyword name="themeChanged" id="optionsWindow::themeChanged" ref="classoptionsWindow#a469fc19d55f3b6ca1467540f40c0f7a1" />
+      <keyword name="themeEngine" id="themeEngine::themeEngine" ref="classthemeEngine#a9fe546070d5ed6fb02ef7191e6aac5d2" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog#afee89fd18b8ade41b001e436dc73f522" />
       <keyword name="toggleKeyboard" id="keyboardWidget::toggleKeyboard" ref="classkeyboardWidget#a2f270d1d090d383e02509947774abceb" />
       <keyword name="updateColor" id="SimpleColorDialog::updateColor" ref="classSimpleColorDialog#a43ccccdab112f5295a162dabd07dbc48" />
       <keyword name="updateCurrentTime" id="OpenTyper::updateCurrentTime" ref="classOpenTyper#a161a88a48c7a083c1afce2201f9a4ac1" />
+      <keyword name="updateFont" id="OpenTyper::updateFont" ref="classOpenTyper#ac86a5acdee73a4f6163fa3ccb5a07edd" />
+      <keyword name="updateFont" id="customizationOptions::updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
       <keyword name="updateLessonList" id="OpenTyper::updateLessonList" ref="classOpenTyper#ae86fac4e64857d4b2c18fa639b612c54" />
       <keyword name="updateLineLength" id="paperConfigDialog::updateLineLength" ref="classpaperConfigDialog#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
       <keyword name="Updater" id="Updater::Updater" ref="classUpdater#abf702b842504bc1147a5e7bebbbf15ea" />
       <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog#ae6833c46d5feff6d267e113ba23410e4" />
       <keyword name="updateStudent" id="OpenTyper::updateStudent" ref="classOpenTyper#ae3e5e07e087c9d337b2a2907a8173b1a" />
+      <keyword name="updateStyle" id="themeEngine::updateStyle" ref="classthemeEngine#a352cfc5414795770d8dab2e8d2fe434f" />
       <keyword name="updateTabTitle" id="packView::updateTabTitle" ref="classpackView#a76c645567362eceb83e439965a07b3db" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
       <keyword name="updateText" id="packView::updateText" ref="classpackView#ab34651a29dd449dea66fa3128ea7b507" />
-      <keyword name="updateTheme" id="OpenTyper::updateTheme" ref="classOpenTyper#a721ca1e0ea1bc604ae256bb13ccc35f0" />
-      <keyword name="updateTheme" id="customizationOptions::updateTheme" ref="classcustomizationOptions#a182af567094905e4f2c3fbd459c9a230" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="zoomIn" id="OpenTyper::zoomIn" ref="classOpenTyper#a0cb936f09d8dcc2148352ed95b486236" />
@@ -806,6 +875,7 @@
       <file>language_8h_source.html</file>
       <file>net_8h_source.html</file>
       <file>packs_8h_source.html</file>
+      <file>theme_8h_source.html</file>
       <file>utils_8h_source.html</file>
       <file>global_8h_source.html</file>
       <file>initialsetup_8h_source.html</file>
@@ -947,6 +1017,10 @@
       <file>classstudentOptions__coll__graph.png</file>
       <file>studentOptions.png</file>
       <file>classstudentOptions-members.html</file>
+      <file>classthemeEngine.html</file>
+      <file>classthemeEngine__inherit__graph.png</file>
+      <file>classthemeEngine__coll__graph.png</file>
+      <file>classthemeEngine-members.html</file>
       <file>classtimeDialog.html</file>
       <file>classtimeDialog__inherit__graph.png</file>
       <file>classtimeDialog__coll__graph.png</file>

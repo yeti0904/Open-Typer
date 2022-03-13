@@ -1,9 +1,10 @@
 <map id="OpenTyper" name="OpenTyper">
-<area shape="rect" id="node1" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="289,171,375,197"/>
+<area shape="rect" id="node1" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="347,171,432,197"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,81,112,108"/>
 <area shape="rect" id="node3" href="$classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="137,81,261,108"/>
-<area shape="rect" id="node4" title=" " alt="" coords="357,5,427,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="418,5,489,32"/>
 <area shape="rect" id="node5" href="$classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="285,81,379,108"/>
 <area shape="rect" id="node6" href="$classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="404,81,503,108"/>
 <area shape="rect" id="node7" href="$classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="527,81,595,108"/>
+<area shape="rect" id="node8" href="$classthemeEngine.html" title="The themeEngine class provides theme functions." alt="" coords="619,81,717,108"/>
 </map>

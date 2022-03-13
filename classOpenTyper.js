@@ -27,15 +27,14 @@ var classOpenTyper =
     [ "refreshAll", "classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5", null ],
     [ "repeatLevel", "classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e", null ],
     [ "setColors", "classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5", null ],
-    [ "setFont", "classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e", null ],
     [ "showExerciseStats", "classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d", null ],
     [ "startLevel", "classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f", null ],
     [ "sublessonSelectionListIndexChanged", "classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922", null ],
     [ "updateCurrentTime", "classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1", null ],
+    [ "updateFont", "classOpenTyper.html#ac86a5acdee73a4f6163fa3ccb5a07edd", null ],
     [ "updateLessonList", "classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54", null ],
     [ "updateStudent", "classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a", null ],
     [ "updateText", "classOpenTyper.html#a487997a86245492f13709904e8c47f4b", null ],
-    [ "updateTheme", "classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0", null ],
     [ "zoomIn", "classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236", null ],
     [ "zoomOut", "classOpenTyper.html#a26d722e59eb5364522f42996eff39075", null ]
 ];

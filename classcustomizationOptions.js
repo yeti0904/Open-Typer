@@ -15,13 +15,10 @@ var classcustomizationOptions =
     [ "init", "classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5", null ],
     [ "resetBgPaperColors", "classcustomizationOptions.html#a879ac71ec2e9ade496ae3c70c4bc08af", null ],
     [ "resetTextColors", "classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05", null ],
-    [ "saveColorSettings", "classcustomizationOptions.html#ac51d00cb02e3f32ca401ee8b479a108f", null ],
     [ "selectCurrentFullTheme", "classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09", null ],
     [ "setBoldText", "classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e", null ],
     [ "setColors", "classcustomizationOptions.html#acada628a325da33b633c37e40955ecde", null ],
-    [ "setFont", "classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f", null ],
     [ "setItalicText", "classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d", null ],
     [ "setUnderlineText", "classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950", null ],
-    [ "themeChanged", "classcustomizationOptions.html#a91aecd4bea4879c9eb40f1c91c08b2ea", null ],
-    [ "updateTheme", "classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230", null ]
+    [ "updateFont", "classcustomizationOptions.html#a75c2dd15ae08c311d9047bf2ac8d56d7", null ]
 ];

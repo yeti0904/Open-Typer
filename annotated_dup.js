@@ -26,6 +26,7 @@ var annotated_dup =
     [ "statsDialog", "classstatsDialog.html", "classstatsDialog" ],
     [ "stringUtils", "classstringUtils.html", "classstringUtils" ],
     [ "studentOptions", "classstudentOptions.html", "classstudentOptions" ],
+    [ "themeEngine", "classthemeEngine.html", "classthemeEngine" ],
     [ "timeDialog", "classtimeDialog.html", "classtimeDialog" ],
     [ "Updater", "classUpdater.html", "classUpdater" ],
     [ "UpdaterDialog", "classUpdaterDialog.html", "classUpdaterDialog" ]

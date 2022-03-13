@@ -113,13 +113,14 @@ Collaboration diagram for OpenTyper:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOpenTyper__coll__graph.png" border="0" usemap="#aOpenTyper_coll__map" alt="Collaboration graph"/></div>
 <map name="aOpenTyper_coll__map" id="aOpenTyper_coll__map">
-<area shape="rect" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="289,171,375,197"/>
+<area shape="rect" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="347,171,432,197"/>
 <area shape="rect" title=" " alt="" coords="5,81,112,108"/>
 <area shape="rect" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="137,81,261,108"/>
-<area shape="rect" title=" " alt="" coords="357,5,427,32"/>
+<area shape="rect" title=" " alt="" coords="418,5,489,32"/>
 <area shape="rect" href="classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="285,81,379,108"/>
 <area shape="rect" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="404,81,503,108"/>
 <area shape="rect" href="classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="527,81,595,108"/>
+<area shape="rect" href="classthemeEngine.html" title="The themeEngine class provides theme functions." alt="" coords="619,81,717,108"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -141,6 +142,8 @@ Public Member Functions</h2></td></tr>
 Private Slots</h2></td></tr>
 <tr class="memitem:afb70baf5a2bd497921c2feb268a208a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8">loadTheme</a> (void)</td></tr>
 <tr class="separator:afb70baf5a2bd497921c2feb268a208a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86a5acdee73a4f6163fa3ccb5a07edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#ac86a5acdee73a4f6163fa3ccb5a07edd">updateFont</a> (void)</td></tr>
+<tr class="separator:ac86a5acdee73a4f6163fa3ccb5a07edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e0dedad125ed6ffb9c117d0ac9ed593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593">keyPress</a> (QKeyEvent *event)</td></tr>
 <tr class="separator:a2e0dedad125ed6ffb9c117d0ac9ed593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a232900cb74346e6c2193d0120cd48e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e">keyRelease</a> (QKeyEvent *event)</td></tr>
@@ -200,10 +203,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6a4499c54bdf2daaebdb14014d1f8184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487997a86245492f13709904e8c47f4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a487997a86245492f13709904e8c47f4b">updateText</a> (void)</td></tr>
 <tr class="separator:a487997a86245492f13709904e8c47f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0deeb213fc85bdc2f63e60b2f2f2d98e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a0deeb213fc85bdc2f63e60b2f2f2d98e">setFont</a> (QString fontFamily, int fontSize, bool fontBold, bool fontItalic, bool fontUnderline)</td></tr>
-<tr class="separator:a0deeb213fc85bdc2f63e60b2f2f2d98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721ca1e0ea1bc604ae256bb13ccc35f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0">updateTheme</a> (void)</td></tr>
-<tr class="separator:a721ca1e0ea1bc604ae256bb13ccc35f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0fcfa144eda646ca215b51851e0dd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5">refreshAll</a> (bool setLang)</td></tr>
 <tr class="separator:a5f0fcfa144eda646ca215b51851e0dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae58db84c62ad4d6f2b89ae8f1134765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765">changeMode</a> (int mode)</td></tr>
@@ -333,36 +332,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>lastTime</b></td></tr>
 <tr class="memitem:aeb1910f5c784dd2927d3a23c508eaa9e"><td class="memItemLeft" align="right" valign="top"><a id="aeb1910f5c784dd2927d3a23c508eaa9e" name="aeb1910f5c784dd2927d3a23c508eaa9e"></a>
 <a class="el" href="classUpdater.html">Updater</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>versionHdw</b></td></tr>
 <tr class="separator:aeb1910f5c784dd2927d3a23c508eaa9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b9ec3ff5f24222175c09fe18c0a1c2"><td class="memItemLeft" align="right" valign="top"><a id="a65b9ec3ff5f24222175c09fe18c0a1c2" name="a65b9ec3ff5f24222175c09fe18c0a1c2"></a>
-QColor&#160;</td><td class="memItemRight" valign="bottom"><b>levelTextColor</b></td></tr>
-<tr class="separator:a65b9ec3ff5f24222175c09fe18c0a1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0554df950e150610f3002b7143a226e"><td class="memItemLeft" align="right" valign="top"><a id="ab0554df950e150610f3002b7143a226e" name="ab0554df950e150610f3002b7143a226e"></a>
-QColor&#160;</td><td class="memItemRight" valign="bottom"><b>inputTextColor</b></td></tr>
-<tr class="separator:ab0554df950e150610f3002b7143a226e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd199c616c0e8a00b5a3844d6f7da127"><td class="memItemLeft" align="right" valign="top"><a id="abd199c616c0e8a00b5a3844d6f7da127" name="abd199c616c0e8a00b5a3844d6f7da127"></a>
-QColor&#160;</td><td class="memItemRight" valign="bottom"><b>bgColor</b></td></tr>
-<tr class="separator:abd199c616c0e8a00b5a3844d6f7da127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84dd1af62711e573d9a64bbbde12284"><td class="memItemLeft" align="right" valign="top"><a id="ae84dd1af62711e573d9a64bbbde12284" name="ae84dd1af62711e573d9a64bbbde12284"></a>
-QColor&#160;</td><td class="memItemRight" valign="bottom"><b>paperColor</b></td></tr>
-<tr class="separator:ae84dd1af62711e573d9a64bbbde12284"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86f898ea399b3278700fd7622c2a67cf"><td class="memItemLeft" align="right" valign="top"><a id="a86f898ea399b3278700fd7622c2a67cf" name="a86f898ea399b3278700fd7622c2a67cf"></a>
-QColor&#160;</td><td class="memItemRight" valign="bottom"><b>panelColor</b></td></tr>
-<tr class="separator:a86f898ea399b3278700fd7622c2a67cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf08c12c70970bf33970e2e78a113fbb"><td class="memItemLeft" align="right" valign="top"><a id="acf08c12c70970bf33970e2e78a113fbb" name="acf08c12c70970bf33970e2e78a113fbb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customLevelTextColor</b></td></tr>
-<tr class="separator:acf08c12c70970bf33970e2e78a113fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af11e55246108babf0da3cd6cf23f3993"><td class="memItemLeft" align="right" valign="top"><a id="af11e55246108babf0da3cd6cf23f3993" name="af11e55246108babf0da3cd6cf23f3993"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customInputTextColor</b></td></tr>
-<tr class="separator:af11e55246108babf0da3cd6cf23f3993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d83e3fb97c0883b7f5207e2862ccef"><td class="memItemLeft" align="right" valign="top"><a id="a42d83e3fb97c0883b7f5207e2862ccef" name="a42d83e3fb97c0883b7f5207e2862ccef"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customBgColor</b></td></tr>
-<tr class="separator:a42d83e3fb97c0883b7f5207e2862ccef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04e567ab6b12201a493f5ab49d51257"><td class="memItemLeft" align="right" valign="top"><a id="ac04e567ab6b12201a493f5ab49d51257" name="ac04e567ab6b12201a493f5ab49d51257"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customPaperColor</b></td></tr>
-<tr class="separator:ac04e567ab6b12201a493f5ab49d51257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf97605796abf8bf5cb81630209e769f"><td class="memItemLeft" align="right" valign="top"><a id="abf97605796abf8bf5cb81630209e769f" name="abf97605796abf8bf5cb81630209e769f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>customPanelColor</b></td></tr>
-<tr class="separator:abf97605796abf8bf5cb81630209e769f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161b6e6f9123153724cd4bcb02fab1c5"><td class="memItemLeft" align="right" valign="top"><a id="a161b6e6f9123153724cd4bcb02fab1c5" name="a161b6e6f9123153724cd4bcb02fab1c5"></a>
+<a class="el" href="classthemeEngine.html">themeEngine</a>&#160;</td><td class="memItemRight" valign="bottom"><b>localThemeEngine</b></td></tr>
+<tr class="separator:a161b6e6f9123153724cd4bcb02fab1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88af8cc9bf5b2d00ea487f1fd33699c7"><td class="memItemLeft" align="right" valign="top"><a id="a88af8cc9bf5b2d00ea487f1fd33699c7" name="a88af8cc9bf5b2d00ea487f1fd33699c7"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>customLevelLoaded</b></td></tr>
 <tr class="separator:a88af8cc9bf5b2d00ea487f1fd33699c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1171,7 +1143,7 @@ Opens student authentication dialog (<a class="el" href="classstudentOptions.htm
 <dd>
 <a class="el" href="classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765">changeMode</a> </dd>
 <dd>
-<a class="el" href="classOpenTyper.html#a721ca1e0ea1bc604ae256bb13ccc35f0">updateTheme</a> </dd>
+updateTheme </dd>
 <dd>
 <a class="el" href="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5">setColors</a> </dd>
 <dd>
@@ -1222,62 +1194,7 @@ Resets currently selected exercise. </p><dl class="section see"><dt>See also</dt
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Sets custom colors (if they are set) or default colors. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classcustomizationOptions.html#acada628a325da33b633c37e40955ecde">customizationOptions::setColors</a> </dd></dl>
-
-</div>
-</div>
-<a id="a0deeb213fc85bdc2f63e60b2f2f2d98e" name="a0deeb213fc85bdc2f63e60b2f2f2d98e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0deeb213fc85bdc2f63e60b2f2f2d98e">&#9670;&nbsp;</a></span>setFont()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OpenTyper::setFont </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>fontFamily</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fontSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fontBold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fontItalic</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fontUnderline</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Sets exercise text font and saves it in the settings. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classcustomizationOptions.html#a492aa6243b23292de5f552f21e417b7f">customizationOptions::setFont</a> </dd></dl>
+<p >Sets custom colors (if they are set) or default colors. </p>
 
 </div>
 </div>
@@ -1419,6 +1336,33 @@ Runs periodically and updates time widgets. </p>
 
 </div>
 </div>
+<a id="ac86a5acdee73a4f6163fa3ccb5a07edd" name="ac86a5acdee73a4f6163fa3ccb5a07edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86a5acdee73a4f6163fa3ccb5a07edd">&#9670;&nbsp;</a></span>updateFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::updateFont </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Updates text font. </p>
+
+</div>
+</div>
 <a id="ae86fac4e64857d4b2c18fa639b612c54" name="ae86fac4e64857d4b2c18fa639b612c54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae86fac4e64857d4b2c18fa639b612c54">&#9670;&nbsp;</a></span>updateLessonList()</h2>
 
@@ -1499,33 +1443,6 @@ Runs periodically and updates time widgets. </p>
 <p >Converts exercise text (line wrapping, limited number of lines). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a6a4499c54bdf2daaebdb14014d1f8184">levelFinalInit</a> </dd>
 <dd>
 <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> </dd></dl>
-
-</div>
-</div>
-<a id="a721ca1e0ea1bc604ae256bb13ccc35f0" name="a721ca1e0ea1bc604ae256bb13ccc35f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721ca1e0ea1bc604ae256bb13ccc35f0">&#9670;&nbsp;</a></span>updateTheme()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OpenTyper::updateTheme </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Loads the style sheet of the selected theme. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classcustomizationOptions.html#a182af567094905e4f2c3fbd459c9a230">customizationOptions::updateTheme</a> </dd></dl>
 
 </div>
 </div>
