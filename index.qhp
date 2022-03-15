@@ -524,7 +524,6 @@
                   <section title="keyboardwidget.h" ref="keyboardwidget_8h_source" />
                   <section title="languagelist.h" ref="languagelist_8h_source" />
                 </section>
-                <section title="global.h" ref="global_8h_source" />
                 <section title="initialsetup.h" ref="initialsetup_8h_source" />
                 <section title="levelsummary.h" ref="levelsummary_8h_source" />
                 <section title="opentyper.h" ref="opentyper_8h_source" />
@@ -927,7 +926,6 @@
       <file>packs_8h_source.html</file>
       <file>theme_8h_source.html</file>
       <file>utils_8h_source.html</file>
-      <file>global_8h_source.html</file>
       <file>initialsetup_8h_source.html</file>
       <file>levelsummary_8h_source.html</file>
       <file>opentyper_8h_source.html</file>

@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('behavior_8h_source.html',''); initResi
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define BEHAVIOR_H</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &quot;global.h&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QSettings&gt;</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;core/utils.h&quot;</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">namespace </span>Ui {</div>
@@ -127,18 +127,19 @@ $(document).ready(function(){initNavTree('behavior_8h_source.html',''); initResi
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        Ui::behaviorOptions *ui;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5">setSpaceNewline</a>(<span class="keywordtype">bool</span> value);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58">setErrorPenalty</a>(<span class="keywordtype">int</span> value);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">// BEHAVIOR_H</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        QSettings settings;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5">setSpaceNewline</a>(<span class="keywordtype">bool</span> value);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58">setErrorPenalty</a>(<span class="keywordtype">int</span> value);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>};</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#endif </span><span class="comment">// BEHAVIOR_H</span></div>
 <div class="ttc" id="aclassbehaviorOptions_html"><div class="ttname"><a href="classbehaviorOptions.html">behaviorOptions</a></div><div class="ttdoc">The behaviorOptions class is the behavior category in the options.</div><div class="ttdef"><b>Definition:</b> behavior.h:38</div></div>
-<div class="ttc" id="aclassbehaviorOptions_html_a29c9eb3ad18964f12ad48718190bd40b"><div class="ttname"><a href="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b">behaviorOptions::~behaviorOptions</a></div><div class="ttdeci">~behaviorOptions()</div><div class="ttdef"><b>Definition:</b> behavior.cpp:46</div></div>
-<div class="ttc" id="aclassbehaviorOptions_html_a32076ec9c688a185046af162f6762d58"><div class="ttname"><a href="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58">behaviorOptions::setErrorPenalty</a></div><div class="ttdeci">void setErrorPenalty(int value)</div><div class="ttdef"><b>Definition:</b> behavior.cpp:67</div></div>
+<div class="ttc" id="aclassbehaviorOptions_html_a29c9eb3ad18964f12ad48718190bd40b"><div class="ttname"><a href="classbehaviorOptions.html#a29c9eb3ad18964f12ad48718190bd40b">behaviorOptions::~behaviorOptions</a></div><div class="ttdeci">~behaviorOptions()</div><div class="ttdef"><b>Definition:</b> behavior.cpp:47</div></div>
+<div class="ttc" id="aclassbehaviorOptions_html_a32076ec9c688a185046af162f6762d58"><div class="ttname"><a href="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58">behaviorOptions::setErrorPenalty</a></div><div class="ttdeci">void setErrorPenalty(int value)</div><div class="ttdef"><b>Definition:</b> behavior.cpp:68</div></div>
 <div class="ttc" id="aclassbehaviorOptions_html_a604e707e9c208f8dd09d47714b1d52a2"><div class="ttname"><a href="classbehaviorOptions.html#a604e707e9c208f8dd09d47714b1d52a2">behaviorOptions::behaviorOptions</a></div><div class="ttdeci">behaviorOptions(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> behavior.cpp:25</div></div>
-<div class="ttc" id="aclassbehaviorOptions_html_afb802a982a3806f4df086d7eecfcb3c5"><div class="ttname"><a href="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5">behaviorOptions::setSpaceNewline</a></div><div class="ttdeci">void setSpaceNewline(bool value)</div><div class="ttdef"><b>Definition:</b> behavior.cpp:55</div></div>
+<div class="ttc" id="aclassbehaviorOptions_html_afb802a982a3806f4df086d7eecfcb3c5"><div class="ttname"><a href="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5">behaviorOptions::setSpaceNewline</a></div><div class="ttdeci">void setSpaceNewline(bool value)</div><div class="ttdef"><b>Definition:</b> behavior.cpp:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
