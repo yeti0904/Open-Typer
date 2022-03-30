@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abe17868a43f7d0ad2c10d37245ae43bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa528e7f1356bfb831104e0c4e1c6c485"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485">~languageManager</a> ()</td></tr>
 <tr class="separator:aa528e7f1356bfb831104e0c4e1c6c485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e8bbe2e4be6feefe1d9dc7d0487f8f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlanguageManager.html#a6e8bbe2e4be6feefe1d9dc7d0487f8f4">setLanguage</a> (int index)</td></tr>
+<tr class="separator:a6e8bbe2e4be6feefe1d9dc7d0487f8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -140,7 +142,7 @@ QStringList&#160;</td><td class="memItemRight" valign="bottom"><b>boxItems</b></
 <div class="line">QList&lt;QLocale::Language&gt; languages = langMgr.supportedLanguages; <span class="comment">// list of supported languages</span></div>
 <div class="line">QList&lt;QLocale::Country&gt; countries = langMgr.supportedCountries; <span class="comment">// list of supported countries (every language has a country, e. g. en_US and en_GB)</span></div>
 <div class="line">QStringList items = langMgr.boxItems; <span class="comment">// list of languages, which can be used in selector widgets</span></div>
-<div class="ttc" id="aclasslanguageManager_html"><div class="ttname"><a href="classlanguageManager.html">languageManager</a></div><div class="ttdoc">The languageManager class provides a list of supported languages.</div><div class="ttdef"><b>Definition:</b> language.h:40</div></div>
+<div class="ttc" id="aclasslanguageManager_html"><div class="ttname"><a href="classlanguageManager.html">languageManager</a></div><div class="ttdoc">The languageManager class provides a list of supported languages.</div><div class="ttdef"><b>Definition:</b> language.h:45</div></div>
 </div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="classlanguageList.html" title="The languageList class is a QListWidget, which provides a language selector.">languageList</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abe17868a43f7d0ad2c10d37245ae43bb" name="abe17868a43f7d0ad2c10d37245ae43bb"></a>
@@ -193,6 +195,26 @@ QStringList&#160;</td><td class="memItemRight" valign="bottom"><b>boxItems</b></
 </table>
 </div><div class="memdoc">
 <p >Destroys the <a class="el" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages.">languageManager</a> object. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6e8bbe2e4be6feefe1d9dc7d0487f8f4" name="a6e8bbe2e4be6feefe1d9dc7d0487f8f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e8bbe2e4be6feefe1d9dc7d0487f8f4">&#9670;&nbsp;</a></span>setLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void languageManager::setLanguage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Changes the application language. </p>
 
 </div>
 </div>

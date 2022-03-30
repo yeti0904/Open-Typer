@@ -140,11 +140,11 @@
               <section title="languageList" ref="classlanguageList#a561ad6910f45293e1889ce65048c335d" />
               <section title="~languageList" ref="classlanguageList#a8d99b59d00bbdc29823c8caf94d83f75" />
               <section title="changeLanguage" ref="classlanguageList#ab749a3913cc19a3b5d5dc275cc68abbe" />
-              <section title="languageChanged" ref="classlanguageList#ab7219e9a8283a94663012fdcbb3fc1c1" />
             </section>
             <section title="languageManager" ref="classlanguageManager">
               <section title="languageManager" ref="classlanguageManager#abe17868a43f7d0ad2c10d37245ae43bb" />
               <section title="~languageManager" ref="classlanguageManager#aa528e7f1356bfb831104e0c4e1c6c485" />
+              <section title="setLanguage" ref="classlanguageManager#a6e8bbe2e4be6feefe1d9dc7d0487f8f4" />
             </section>
             <section title="levelSummary" ref="classlevelSummary">
               <section title="levelSummary" ref="classlevelSummary#a1415b9fa1309edc70ac386e968688b28" />
@@ -175,9 +175,8 @@
             <section title="OpenTyper" ref="classOpenTyper">
               <section title="OpenTyper" ref="classOpenTyper#a045934c687780e3a6b6c0c9beb1668ae" />
               <section title="~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
-              <section title="changeLanguage" ref="classOpenTyper#a23c8b02efca023df25704ea58f64b572" />
+              <section title="changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
               <section title="changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
-              <section title="connectAll" ref="classOpenTyper#a386fcf33ae25616ceb7ffcaa1e55645f" />
               <section title="initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
               <section title="keyPress" ref="classOpenTyper#a2e0dedad125ed6ffb9c117d0ac9ed593" />
               <section title="keyRelease" ref="classOpenTyper#a4a232900cb74346e6c2193d0120cd48e" />
@@ -215,10 +214,8 @@
               <section title="optionsWindow" ref="classoptionsWindow#a45fae6808c165b25c933492140379fd3" />
               <section title="~optionsWindow" ref="classoptionsWindow#ad2942ee73b6562894bf2d25f554b9e5c" />
               <section title="changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
-              <section title="changeLanguage" ref="classoptionsWindow#acb6939ca9899f8dfd9c6d2c1e649be63" />
               <section title="changeOptionWidget" ref="classoptionsWindow#a579aae16bd3523b42cf615365679a063" />
               <section title="init" ref="classoptionsWindow#aa1d9b8a39432d285200464166c704681" />
-              <section title="languageChanged" ref="classoptionsWindow#acf4c0ce7d0a7f69285a18730bae6e16a" />
               <section title="setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
             </section>
             <section title="packEditor" ref="classpackEditor">
@@ -585,6 +582,7 @@
       <keyword name="bufferOpened" id="configParser::bufferOpened" ref="classconfigParser#a971d28c032dfebe6b72d04551bb32e0b" />
       <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
+      <keyword name="changeEvent" id="OpenTyper::changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
       <keyword name="changeEvent" id="keyboardWidget::changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
       <keyword name="changeExercisePos" id="packView::changeExercisePos" ref="classpackView#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
@@ -592,8 +590,6 @@
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions#a0ed613f456adc3f82f2cb9e0509b4615" />
       <keyword name="changeFullTheme" id="customizationOptions::changeFullTheme" ref="classcustomizationOptions#a2809c2942db084dccbae65bf80ff9ef4" />
       <keyword name="changeInputTextColor" id="customizationOptions::changeInputTextColor" ref="classcustomizationOptions#a6ba3efca45e2f158db0780d35090d29d" />
-      <keyword name="changeLanguage" id="OpenTyper::changeLanguage" ref="classOpenTyper#a23c8b02efca023df25704ea58f64b572" />
-      <keyword name="changeLanguage" id="optionsWindow::changeLanguage" ref="classoptionsWindow#acb6939ca9899f8dfd9c6d2c1e649be63" />
       <keyword name="changeLanguage" id="languageList::changeLanguage" ref="classlanguageList#ab749a3913cc19a3b5d5dc275cc68abbe" />
       <keyword name="changeLessonDesc" id="packView::changeLessonDesc" ref="classpackView#a855b7f681fc8da2bd1e6efdc30548d4a" />
       <keyword name="changeLevelTextColor" id="customizationOptions::changeLevelTextColor" ref="classcustomizationOptions#a64b84b7eb2349fb7d27dc25480348deb" />
@@ -617,7 +613,6 @@
       <keyword name="colorChanged" id="themeEngine::colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="configParser" id="configParser::configParser" ref="classconfigParser#a7fca8c252df17f7dbdce4e6f7c61ae62" />
-      <keyword name="connectAll" id="OpenTyper::connectAll" ref="classOpenTyper#a386fcf33ae25616ceb7ffcaa1e55645f" />
       <keyword name="connectionOptions" id="connectionOptions::connectionOptions" ref="classconnectionOptions#abfeac330032693d7ea5358d143a6b3d5" />
       <keyword name="convertData" id="monitorClient::convertData" ref="classmonitorClient#a87cfa1eddd8431db92a076ce38199f43" />
       <keyword name="createNewFile" id="packEditor::createNewFile" ref="classpackEditor#a9eea23604a8951a257c0d13de4146a30" />
@@ -701,8 +696,6 @@
       <keyword name="keyPressEvent" id="inputLabelWidget::keyPressEvent" ref="classinputLabelWidget#a4f873dc97764b15a05282ce70a696cb6" />
       <keyword name="keyRelease" id="OpenTyper::keyRelease" ref="classOpenTyper#a4a232900cb74346e6c2193d0120cd48e" />
       <keyword name="keyReleaseEvent" id="inputLabelWidget::keyReleaseEvent" ref="classinputLabelWidget#a8d9dfa5a92b106065b67c216d66e7f60" />
-      <keyword name="languageChanged" id="optionsWindow::languageChanged" ref="classoptionsWindow#acf4c0ce7d0a7f69285a18730bae6e16a" />
-      <keyword name="languageChanged" id="languageList::languageChanged" ref="classlanguageList#ab7219e9a8283a94663012fdcbb3fc1c1" />
       <keyword name="languageList" id="languageList::languageList" ref="classlanguageList#a561ad6910f45293e1889ce65048c335d" />
       <keyword name="languageManager" id="languageManager::languageManager" ref="classlanguageManager#abe17868a43f7d0ad2c10d37245ae43bb" />
       <keyword name="lessonCount" id="configParser::lessonCount" ref="classconfigParser#a8ddc2e8a7c5871f7233014e4e33c2fe4" />
@@ -807,6 +800,7 @@
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
       <keyword name="setKeyboardVisible" id="keyboardWidget::setKeyboardVisible" ref="classkeyboardWidget#a0f5d0b6da126490e66239fae13b30c08" />
       <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget#a191ecfbfea429bda4acc1905fc942875" />
+      <keyword name="setLanguage" id="languageManager::setLanguage" ref="classlanguageManager#a6e8bbe2e4be6feefe1d9dc7d0487f8f4" />
       <keyword name="setLightBlueColor" id="SimpleColorDialog::setLightBlueColor" ref="classSimpleColorDialog#a3f407983437f1aca8841b19c47d76e86" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
       <keyword name="setNewFile" id="packEditor::setNewFile" ref="classpackEditor#ad40ff79b94794d3df4929ed1970bd0ff" />
