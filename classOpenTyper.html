@@ -213,6 +213,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aa8aeadae97d11952d976474cdfe5d6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48c09e64bddca502b4593b15f9eae8b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9">endExercise</a> (bool showNetHits, bool showGrossHits, bool showTotalHits, bool showTime, bool showMistakes)</td></tr>
 <tr class="separator:a48c09e64bddca502b4593b15f9eae8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91863db8b08179fd8fdfc587be7ea4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a91863db8b08179fd8fdfc587be7ea4b1">loadErrorWords</a> (void)</td></tr>
+<tr class="separator:a91863db8b08179fd8fdfc587be7ea4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -378,6 +380,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>timedExStarted</b></t
 <tr class="memitem:a5d1ee0a6e90a1c5b5a4b05089ad8b011"><td class="memItemLeft" align="right" valign="top"><a id="a5d1ee0a6e90a1c5b5a4b05089ad8b011" name="a5d1ee0a6e90a1c5b5a4b05089ad8b011"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>blockInput</b></td></tr>
 <tr class="separator:a5d1ee0a6e90a1c5b5a4b05089ad8b011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1e77a9ca446a685757b601d274d5ef"><td class="memItemLeft" align="right" valign="top"><a id="acb1e77a9ca446a685757b601d274d5ef" name="acb1e77a9ca446a685757b601d274d5ef"></a>
+QStringList&#160;</td><td class="memItemRight" valign="bottom"><b>errorWords</b></td></tr>
+<tr class="separator:acb1e77a9ca446a685757b601d274d5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classOpenTyper.html" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output.">OpenTyper</a> class is the main window class. It shows the UI, text and handles input and output. </p>
@@ -743,6 +748,33 @@ Selects the exercise selected in levelSelectionList. </p>
   </dd>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> </dd></dl>
+
+</div>
+</div>
+<a id="a91863db8b08179fd8fdfc587be7ea4b1" name="a91863db8b08179fd8fdfc587be7ea4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91863db8b08179fd8fdfc587be7ea4b1">&#9670;&nbsp;</a></span>loadErrorWords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::loadErrorWords </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Generates text from error words. </p>
 
 </div>
 </div>

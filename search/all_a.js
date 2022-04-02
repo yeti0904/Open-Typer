@@ -1,21 +1,22 @@
 var searchData=
 [
-  ['languagelist_0',['languageList',['../classlanguageList.html',1,'languageList'],['../classlanguageList.html#a561ad6910f45293e1889ce65048c335d',1,'languageList::languageList()']]],
+  ['languagelist_0',['languageList',['../classlanguageList.html#a561ad6910f45293e1889ce65048c335d',1,'languageList::languageList()'],['../classlanguageList.html',1,'languageList']]],
   ['languagemanager_1',['languageManager',['../classlanguageManager.html',1,'languageManager'],['../classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb',1,'languageManager::languageManager()']]],
   ['lessoncount_2',['lessonCount',['../classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4',1,'configParser']]],
   ['lessondesc_3',['lessonDesc',['../classconfigParser.html#aebd0b83cafef103a291c1a2b6ae1ef00',1,'configParser']]],
   ['lessonselectionlistindexchanged_4',['lessonSelectionListIndexChanged',['../classOpenTyper.html#a71f4a38c2b9550c71eea4204e34de0e5',1,'OpenTyper']]],
   ['levelfinalinit_5',['levelFinalInit',['../classOpenTyper.html#a6a4499c54bdf2daaebdb14014d1f8184',1,'OpenTyper']]],
   ['levelselectionlistindexchanged_6',['levelSelectionListIndexChanged',['../classOpenTyper.html#aa809b630b0145d092992fa15a674206b',1,'OpenTyper']]],
-  ['levelsummary_7',['levelSummary',['../classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28',1,'levelSummary::levelSummary()'],['../classlevelSummary.html',1,'levelSummary']]],
+  ['levelsummary_7',['levelSummary',['../classlevelSummary.html',1,'levelSummary'],['../classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28',1,'levelSummary::levelSummary()']]],
   ['lineof_8',['lineOf',['../classconfigParser.html#a33a3e1eb8328c87e8a8ccf26c125637f',1,'configParser']]],
   ['loadconfig_9',['loadConfig',['../classOpenTyper.html#a24074959a491e6fc649a1f95920f3aad',1,'OpenTyper']]],
-  ['loadlayout_10',['loadLayout',['../classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd',1,'keyboardWidget']]],
-  ['loadlesson_11',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
-  ['loadlist_12',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
-  ['loadreceivedexercise_13',['loadReceivedExercise',['../classOpenTyper.html#a7c20837cbecadb403165307fb2fac7be',1,'OpenTyper']]],
-  ['loadsublesson_14',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
-  ['loadtext_15',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
-  ['loadtheme_16',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
-  ['loadtobuffer_17',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]]
+  ['loaderrorwords_10',['loadErrorWords',['../classOpenTyper.html#a91863db8b08179fd8fdfc587be7ea4b1',1,'OpenTyper']]],
+  ['loadlayout_11',['loadLayout',['../classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd',1,'keyboardWidget']]],
+  ['loadlesson_12',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
+  ['loadlist_13',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
+  ['loadreceivedexercise_14',['loadReceivedExercise',['../classOpenTyper.html#a7c20837cbecadb403165307fb2fac7be',1,'OpenTyper']]],
+  ['loadsublesson_15',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
+  ['loadtext_16',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
+  ['loadtheme_17',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
+  ['loadtobuffer_18',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]]
 ];

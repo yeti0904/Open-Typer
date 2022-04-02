@@ -186,6 +186,7 @@
               <section title="levelFinalInit" ref="classOpenTyper#a6a4499c54bdf2daaebdb14014d1f8184" />
               <section title="levelSelectionListIndexChanged" ref="classOpenTyper#aa809b630b0145d092992fa15a674206b" />
               <section title="loadConfig" ref="classOpenTyper#a24074959a491e6fc649a1f95920f3aad" />
+              <section title="loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
               <section title="loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
               <section title="loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
               <section title="loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
@@ -305,6 +306,7 @@
             </section>
             <section title="stringUtils" ref="classstringUtils">
               <section title="word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
+              <section title="wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
               <section title="wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
             </section>
             <section title="studentOptions" ref="classstudentOptions">
@@ -709,6 +711,7 @@
       <keyword name="levelSummary" id="levelSummary::levelSummary" ref="classlevelSummary#a1415b9fa1309edc70ac386e968688b28" />
       <keyword name="lineOf" id="configParser::lineOf" ref="classconfigParser#a33a3e1eb8328c87e8a8ccf26c125637f" />
       <keyword name="loadConfig" id="OpenTyper::loadConfig" ref="classOpenTyper#a24074959a491e6fc649a1f95920f3aad" />
+      <keyword name="loadErrorWords" id="OpenTyper::loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
       <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget#a89e1f9931b347cb71ce5d553d19b70bd" />
       <keyword name="loadLesson" id="OpenTyper::loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
@@ -861,6 +864,7 @@
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
       <keyword name="updateText" id="packView::updateText" ref="classpackView#ab34651a29dd449dea66fa3128ea7b507" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
+      <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="zoomIn" id="OpenTyper::zoomIn" ref="classOpenTyper#a0cb936f09d8dcc2148352ed95b486236" />
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper#a26d722e59eb5364522f42996eff39075" />

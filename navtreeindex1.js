@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classpackView.html#a76c645567362eceb83e439965a07b3db":[4,0,20,25],
 "classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a":[4,0,20,6],
 "classpackView.html#a8732f57a4ba307c14913aef98e524a3d":[4,0,20,22],
 "classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0":[4,0,20,12],
@@ -27,8 +28,9 @@ var NAVTREEINDEX1 =
 "classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955":[4,0,23,1],
 "classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d":[4,0,23,0],
 "classstringUtils.html":[4,0,24],
+"classstringUtils.html#a0b9afdf922dcc4f6fbd6b331b7a65453":[4,0,24,1],
 "classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6":[4,0,24,0],
-"classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2":[4,0,24,1],
+"classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2":[4,0,24,2],
 "classstudentOptions.html":[4,0,25],
 "classstudentOptions.html#a355451cfa1bae5af52f7450ebb8138f5":[4,0,25,0],
 "classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8":[4,0,25,2],
