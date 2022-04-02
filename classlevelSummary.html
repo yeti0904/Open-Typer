@@ -123,10 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9ef285f93758398b40f81ca48f22fbf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e53aa0b4b860da5560afc0bdb163498"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498">setTotalTime</a> (double time)</td></tr>
 <tr class="separator:a1e53aa0b4b860da5560afc0bdb163498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a116f51387243910b3c62f1fc7bcb6fcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a116f51387243910b3c62f1fc7bcb6fcb">setHitCount</a> (int hits)</td></tr>
-<tr class="separator:a116f51387243910b3c62f1fc7bcb6fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a093da2340a3a732091ad022db3c3d6a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a093da2340a3a732091ad022db3c3d6a2">setHits</a> (int hits)</td></tr>
-<tr class="separator:a093da2340a3a732091ad022db3c3d6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884516f268f794b0ac128fc3d92ec2b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a884516f268f794b0ac128fc3d92ec2b1">setTotalHits</a> (int hits)</td></tr>
+<tr class="separator:a884516f268f794b0ac128fc3d92ec2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24bc23e9e8ef6d7877756af4243c0061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a24bc23e9e8ef6d7877756af4243c0061">setNetHits</a> (int hits)</td></tr>
+<tr class="separator:a24bc23e9e8ef6d7877756af4243c0061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f9c18e74e50774e57f621bc0b1ee53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#a26f9c18e74e50774e57f621bc0b1ee53">setGrossHits</a> (int hits)</td></tr>
+<tr class="separator:a26f9c18e74e50774e57f621bc0b1ee53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa521381ea57f44b2e0e5aeb959e17c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66">setMistakes</a> (int mistakes)</td></tr>
 <tr class="separator:aa521381ea57f44b2e0e5aeb959e17c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -190,14 +192,14 @@ They're all optional and unset values will be hidden.</p>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a116f51387243910b3c62f1fc7bcb6fcb" name="a116f51387243910b3c62f1fc7bcb6fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a116f51387243910b3c62f1fc7bcb6fcb">&#9670;&nbsp;</a></span>setHitCount()</h2>
+<a id="a26f9c18e74e50774e57f621bc0b1ee53" name="a26f9c18e74e50774e57f621bc0b1ee53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f9c18e74e50774e57f621bc0b1ee53">&#9670;&nbsp;</a></span>setGrossHits()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void levelSummary::setHitCount </td>
+          <td class="memname">void levelSummary::setGrossHits </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>hits</em></td><td>)</td>
@@ -205,26 +207,7 @@ They're all optional and unset values will be hidden.</p>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Sets and shows the total number of hits (excluding error penalty). </p>
-
-</div>
-</div>
-<a id="a093da2340a3a732091ad022db3c3d6a2" name="a093da2340a3a732091ad022db3c3d6a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a093da2340a3a732091ad022db3c3d6a2">&#9670;&nbsp;</a></span>setHits()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void levelSummary::setHits </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>hits</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Sets and shows the number of hits per minute. </p>
+<p >Sets and shows the number of gross hits per minute. </p>
 
 </div>
 </div>
@@ -244,6 +227,44 @@ They're all optional and unset values will be hidden.</p>
       </table>
 </div><div class="memdoc">
 <p >Sets and shows the number of mistakes </p>
+
+</div>
+</div>
+<a id="a24bc23e9e8ef6d7877756af4243c0061" name="a24bc23e9e8ef6d7877756af4243c0061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24bc23e9e8ef6d7877756af4243c0061">&#9670;&nbsp;</a></span>setNetHits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void levelSummary::setNetHits </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets and shows the number of net hits per minute. </p>
+
+</div>
+</div>
+<a id="a884516f268f794b0ac128fc3d92ec2b1" name="a884516f268f794b0ac128fc3d92ec2b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884516f268f794b0ac128fc3d92ec2b1">&#9670;&nbsp;</a></span>setTotalHits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void levelSummary::setTotalHits </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets and shows the total number of hits (excluding error penalty). </p>
 
 </div>
 </div>

@@ -149,9 +149,10 @@
             <section title="levelSummary" ref="classlevelSummary">
               <section title="levelSummary" ref="classlevelSummary#a1415b9fa1309edc70ac386e968688b28" />
               <section title="~levelSummary" ref="classlevelSummary#a9ef285f93758398b40f81ca48f22fbf2" />
-              <section title="setHitCount" ref="classlevelSummary#a116f51387243910b3c62f1fc7bcb6fcb" />
-              <section title="setHits" ref="classlevelSummary#a093da2340a3a732091ad022db3c3d6a2" />
+              <section title="setGrossHits" ref="classlevelSummary#a26f9c18e74e50774e57f621bc0b1ee53" />
               <section title="setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
+              <section title="setNetHits" ref="classlevelSummary#a24bc23e9e8ef6d7877756af4243c0061" />
+              <section title="setTotalHits" ref="classlevelSummary#a884516f268f794b0ac128fc3d92ec2b1" />
               <section title="setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
             </section>
             <section title="monitorClient" ref="classmonitorClient">
@@ -177,6 +178,7 @@
               <section title="~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
               <section title="changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
               <section title="changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
+              <section title="endExercise" ref="classOpenTyper#a48c09e64bddca502b4593b15f9eae8b9" />
               <section title="initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
               <section title="keyPress" ref="classOpenTyper#a2e0dedad125ed6ffb9c117d0ac9ed593" />
               <section title="keyRelease" ref="classOpenTyper#a4a232900cb74346e6c2193d0120cd48e" />
@@ -187,7 +189,7 @@
               <section title="loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
               <section title="loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
               <section title="loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
-              <section title="loadText" ref="classOpenTyper#a744595e3484d4d9f1d0fd68dad03fd87" />
+              <section title="loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
               <section title="loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
               <section title="nextLevel" ref="classOpenTyper#a0431cbb22500518dce9387257fddc57d" />
               <section title="openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />
@@ -626,6 +628,7 @@
       <keyword name="deleteExerciseLine" id="packView::deleteExerciseLine" ref="classpackView#aa1f2628214689e5c5a8e3bd36a63eae0" />
       <keyword name="disconnected" id="monitorClient::disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
       <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
+      <keyword name="endExercise" id="OpenTyper::endExercise" ref="classOpenTyper#a48c09e64bddca502b4593b15f9eae8b9" />
       <keyword name="errorFont" id="themeEngine::errorFont" ref="classthemeEngine#a739c27fc5cf0842932941c31c23ac092" />
       <keyword name="errorOccurred" id="monitorClient::errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
       <keyword name="exerciseAttribute" id="configParser::exerciseAttribute" ref="classconfigParser#a18d87f4b2ddd523ac4476fc510b211f8" />
@@ -711,7 +714,7 @@
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
       <keyword name="loadReceivedExercise" id="OpenTyper::loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
       <keyword name="loadSublesson" id="OpenTyper::loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
-      <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#a744595e3484d4d9f1d0fd68dad03fd87" />
+      <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -793,8 +796,7 @@
       <keyword name="setGrayColor" id="SimpleColorDialog::setGrayColor" ref="classSimpleColorDialog#a7319859d5da8a15955d89f85e58a0d4f" />
       <keyword name="setGreenColor" id="SimpleColorDialog::setGreenColor" ref="classSimpleColorDialog#af19085f2876436ce3d6d7bb132de95aa" />
       <keyword name="setGreenColorValue" id="SimpleColorDialog::setGreenColorValue" ref="classSimpleColorDialog#ac7b1226d6d2267740ea7879a1ed3f4d4" />
-      <keyword name="setHitCount" id="levelSummary::setHitCount" ref="classlevelSummary#a116f51387243910b3c62f1fc7bcb6fcb" />
-      <keyword name="setHits" id="levelSummary::setHits" ref="classlevelSummary#a093da2340a3a732091ad022db3c3d6a2" />
+      <keyword name="setGrossHits" id="levelSummary::setGrossHits" ref="classlevelSummary#a26f9c18e74e50774e57f621bc0b1ee53" />
       <keyword name="setIncludeNewLines" id="paperConfigDialog::setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
       <keyword name="setInputTextColor" id="themeEngine::setInputTextColor" ref="classthemeEngine#acbe7ebf07bc2497609ee955b2a0cca49" />
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
@@ -803,6 +805,7 @@
       <keyword name="setLanguage" id="languageManager::setLanguage" ref="classlanguageManager#a6e8bbe2e4be6feefe1d9dc7d0487f8f4" />
       <keyword name="setLightBlueColor" id="SimpleColorDialog::setLightBlueColor" ref="classSimpleColorDialog#a3f407983437f1aca8841b19c47d76e86" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
+      <keyword name="setNetHits" id="levelSummary::setNetHits" ref="classlevelSummary#a24bc23e9e8ef6d7877756af4243c0061" />
       <keyword name="setNewFile" id="packEditor::setNewFile" ref="classpackEditor#ad40ff79b94794d3df4929ed1970bd0ff" />
       <keyword name="setOrangeColor" id="SimpleColorDialog::setOrangeColor" ref="classSimpleColorDialog#a72fe566c9fed225e026d67c6495878a7" />
       <keyword name="setPanelColor" id="themeEngine::setPanelColor" ref="classthemeEngine#af30300b5e03cdedfee9211e9812da40b" />
@@ -816,6 +819,7 @@
       <keyword name="setStyle" id="themeEngine::setStyle" ref="classthemeEngine#a2a4815e45708d8ceac2aeaf8daf50d5f" />
       <keyword name="setTheme" id="themeEngine::setTheme" ref="classthemeEngine#a3dd7863ca8d8f78454219e6d8bd4ca96" />
       <keyword name="setTime" id="timeDialog::setTime" ref="classtimeDialog#a6e0faa9b35e08e2ee5d6741e8f9e76a2" />
+      <keyword name="setTotalHits" id="levelSummary::setTotalHits" ref="classlevelSummary#a884516f268f794b0ac128fc3d92ec2b1" />
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />

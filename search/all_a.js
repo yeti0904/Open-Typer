@@ -15,7 +15,7 @@ var searchData=
   ['loadlist_12',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
   ['loadreceivedexercise_13',['loadReceivedExercise',['../classOpenTyper.html#a7c20837cbecadb403165307fb2fac7be',1,'OpenTyper']]],
   ['loadsublesson_14',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
-  ['loadtext_15',['loadText',['../classOpenTyper.html#a744595e3484d4d9f1d0fd68dad03fd87',1,'OpenTyper']]],
+  ['loadtext_15',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
   ['loadtheme_16',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
   ['loadtobuffer_17',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]]
 ];
