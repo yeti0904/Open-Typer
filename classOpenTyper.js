@@ -15,6 +15,7 @@ var classOpenTyper =
     [ "loadErrorWords", "classOpenTyper.html#a91863db8b08179fd8fdfc587be7ea4b1", null ],
     [ "loadLesson", "classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb", null ],
     [ "loadReceivedExercise", "classOpenTyper.html#a7c20837cbecadb403165307fb2fac7be", null ],
+    [ "loadReversedText", "classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52", null ],
     [ "loadSublesson", "classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf", null ],
     [ "loadText", "classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4", null ],
     [ "loadTheme", "classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8", null ],

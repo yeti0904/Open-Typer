@@ -45,6 +45,7 @@
               <section title="generateText" ref="classconfigParser#a9fea65bbcdde2864bd56dd99b1ae2794" />
               <section title="initExercise" ref="classconfigParser#a945cb810c17b0475b3a5e3892fad6d5c" />
               <section title="initExercise" ref="classconfigParser#a5ab3662fbf05c73db7d6e40a26f80c8c" />
+              <section title="initText" ref="classconfigParser#aff3c70f09bd55b50de5fe951d8fa1907" />
               <section title="lessonCount" ref="classconfigParser#a8ddc2e8a7c5871f7233014e4e33c2fe4" />
               <section title="lessonDesc" ref="classconfigParser#aebd0b83cafef103a291c1a2b6ae1ef00" />
               <section title="lineOf" ref="classconfigParser#a33a3e1eb8328c87e8a8ccf26c125637f" />
@@ -189,6 +190,7 @@
               <section title="loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
               <section title="loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
               <section title="loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
+              <section title="loadReversedText" ref="classOpenTyper#a68c5a8c9e8ac15e3394ba0646b03ee52" />
               <section title="loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
               <section title="loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
               <section title="loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
@@ -685,6 +687,7 @@
       <keyword name="initExercise" id="configParser::initExercise" ref="classconfigParser#a945cb810c17b0475b3a5e3892fad6d5c" />
       <keyword name="initExercise" id="configParser::initExercise" ref="classconfigParser#a5ab3662fbf05c73db7d6e40a26f80c8c" />
       <keyword name="initialSetup" id="initialSetup::initialSetup" ref="classinitialSetup#a2c04fb32795d022271a129609da6f5dd" />
+      <keyword name="initText" id="configParser::initText" ref="classconfigParser#aff3c70f09bd55b50de5fe951d8fa1907" />
       <keyword name="initTimedExercise" id="OpenTyper::initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
       <keyword name="inputLabelWidget" id="inputLabelWidget::inputLabelWidget" ref="classinputLabelWidget#a2683225e6719b9ae3efec1f5a6d38bfe" />
       <keyword name="inputMethodEvent" id="inputLabelWidget::inputMethodEvent" ref="classinputLabelWidget#a095860438ebd9dd726bc4c07ec985e99" />
@@ -716,6 +719,7 @@
       <keyword name="loadLesson" id="OpenTyper::loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
       <keyword name="loadReceivedExercise" id="OpenTyper::loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
+      <keyword name="loadReversedText" id="OpenTyper::loadReversedText" ref="classOpenTyper#a68c5a8c9e8ac15e3394ba0646b03ee52" />
       <keyword name="loadSublesson" id="OpenTyper::loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
       <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />

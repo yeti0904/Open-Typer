@@ -23,6 +23,7 @@ var classconfigParser =
     [ "generateText", "classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794", null ],
     [ "initExercise", "classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c", null ],
     [ "initExercise", "classconfigParser.html#a5ab3662fbf05c73db7d6e40a26f80c8c", null ],
+    [ "initText", "classconfigParser.html#aff3c70f09bd55b50de5fe951d8fa1907", null ],
     [ "lessonCount", "classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4", null ],
     [ "lessonDesc", "classconfigParser.html#aebd0b83cafef103a291c1a2b6ae1ef00", null ],
     [ "lineOf", "classconfigParser.html#a33a3e1eb8328c87e8a8ccf26c125637f", null ],

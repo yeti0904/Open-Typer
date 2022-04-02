@@ -15,8 +15,9 @@ var searchData=
   ['loadlesson_12',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
   ['loadlist_13',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
   ['loadreceivedexercise_14',['loadReceivedExercise',['../classOpenTyper.html#a7c20837cbecadb403165307fb2fac7be',1,'OpenTyper']]],
-  ['loadsublesson_15',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
-  ['loadtext_16',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
-  ['loadtheme_17',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
-  ['loadtobuffer_18',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]]
+  ['loadreversedtext_15',['loadReversedText',['../classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52',1,'OpenTyper']]],
+  ['loadsublesson_16',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
+  ['loadtext_17',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
+  ['loadtheme_18',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
+  ['loadtobuffer_19',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]]
 ];
