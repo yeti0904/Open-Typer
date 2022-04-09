@@ -10,5 +10,6 @@ var searchData=
   ['updatestudent_7',['updateStudent',['../classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a',1,'OpenTyper']]],
   ['updatestyle_8',['updateStyle',['../classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f',1,'themeEngine']]],
   ['updatetabtitle_9',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
-  ['updatetext_10',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]]
+  ['updatetext_10',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
+  ['updatewidgetsize_11',['updateWidgetSize',['../classtextView.html#a5ee657378078136e98e01796f9d5e946',1,'textView']]]
 ];

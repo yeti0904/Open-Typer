@@ -2,7 +2,7 @@ var searchData=
 [
   ['changeaddress_0',['changeAddress',['../classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956',1,'connectionOptions']]],
   ['changebgcolor_1',['changeBgColor',['../classcustomizationOptions.html#a5efb64bebcdd3a50546fe762eb4421be',1,'customizationOptions']]],
-  ['changeevent_2',['changeEvent',['../classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6',1,'OpenTyper::changeEvent()'],['../classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754',1,'optionsWindow::changeEvent()'],['../classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395',1,'keyboardWidget::changeEvent()']]],
+  ['changeevent_2',['changeEvent',['../classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6',1,'OpenTyper::changeEvent()'],['../classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754',1,'optionsWindow::changeEvent()'],['../classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395',1,'keyboardWidget::changeEvent()'],['../classtextView.html#a195c0b35129f798662b90dc13d79a31d',1,'textView::changeEvent()']]],
   ['changeexercisepos_3',['changeExercisePos',['../classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b',1,'packView']]],
   ['changefont_4',['changeFont',['../classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e',1,'customizationOptions']]],
   ['changefontsize_5',['changeFontSize',['../classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615',1,'customizationOptions']]],

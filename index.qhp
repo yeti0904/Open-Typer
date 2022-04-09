@@ -307,6 +307,7 @@
               <section title="~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
             </section>
             <section title="stringUtils" ref="classstringUtils">
+              <section title="longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
               <section title="word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
               <section title="wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
               <section title="wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
@@ -315,6 +316,15 @@
               <section title="studentOptions" ref="classstudentOptions#a355451cfa1bae5af52f7450ebb8138f5" />
               <section title="~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
               <section title="auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
+            </section>
+            <section title="textView" ref="classtextView">
+              <section title="textView" ref="classtextView#ad6aaddb0b664f37e2794b57cbe31e81c" />
+              <section title="~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
+              <section title="changeEvent" ref="classtextView#a195c0b35129f798662b90dc13d79a31d" />
+              <section title="setHorizontalAdjust" ref="classtextView#a17845e2af54e6b6e3ded66981125f108" />
+              <section title="setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
+              <section title="updateWidgetSize" ref="classtextView#a5ee657378078136e98e01796f9d5e946" />
+              <section title="wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
             </section>
             <section title="themeEngine" ref="classthemeEngine">
               <section title="themeEngine" ref="classthemeEngine#a9fe546070d5ed6fb02ef7191e6aac5d2" />
@@ -431,7 +441,9 @@
               <section title="themeEngine" ref="classthemeEngine" />
             </section>
             <section title="QTextEdit" ref="">
-              <section title="inputLabelWidget" ref="classinputLabelWidget" />
+              <section title="textView" ref="classtextView">
+                <section title="inputLabelWidget" ref="classinputLabelWidget" />
+              </section>
             </section>
             <section title="QWidget" ref="">
               <section title="behaviorOptions" ref="classbehaviorOptions" />
@@ -526,6 +538,7 @@
                   <section title="inputlabel.h" ref="inputlabel_8h_source" />
                   <section title="keyboardwidget.h" ref="keyboardwidget_8h_source" />
                   <section title="languagelist.h" ref="languagelist_8h_source" />
+                  <section title="textview.h" ref="textview_8h_source" />
                 </section>
                 <section title="initialsetup.h" ref="initialsetup_8h_source" />
                 <section title="levelsummary.h" ref="levelsummary_8h_source" />
@@ -567,6 +580,7 @@
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
+      <keyword name="textView" id="textView" ref="classtextView" />
       <keyword name="themeEngine" id="themeEngine" ref="classthemeEngine" />
       <keyword name="timeDialog" id="timeDialog" ref="classtimeDialog" />
       <keyword name="Updater" id="Updater" ref="classUpdater" />
@@ -591,6 +605,7 @@
       <keyword name="changeEvent" id="OpenTyper::changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
       <keyword name="changeEvent" id="keyboardWidget::changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
+      <keyword name="changeEvent" id="textView::changeEvent" ref="classtextView#a195c0b35129f798662b90dc13d79a31d" />
       <keyword name="changeExercisePos" id="packView::changeExercisePos" ref="classpackView#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
       <keyword name="changeFont" id="customizationOptions::changeFont" ref="classcustomizationOptions#a4148dcc9e8364f3d8a3a18d6d739cf4e" />
       <keyword name="changeFontSize" id="customizationOptions::changeFontSize" ref="classcustomizationOptions#a0ed613f456adc3f82f2cb9e0509b4615" />
@@ -724,6 +739,7 @@
       <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
+      <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
       <keyword name="maxFontSize" id="themeEngine::maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
       <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
@@ -804,6 +820,7 @@
       <keyword name="setGreenColor" id="SimpleColorDialog::setGreenColor" ref="classSimpleColorDialog#af19085f2876436ce3d6d7bb132de95aa" />
       <keyword name="setGreenColorValue" id="SimpleColorDialog::setGreenColorValue" ref="classSimpleColorDialog#ac7b1226d6d2267740ea7879a1ed3f4d4" />
       <keyword name="setGrossHits" id="levelSummary::setGrossHits" ref="classlevelSummary#a26f9c18e74e50774e57f621bc0b1ee53" />
+      <keyword name="setHorizontalAdjust" id="textView::setHorizontalAdjust" ref="classtextView#a17845e2af54e6b6e3ded66981125f108" />
       <keyword name="setIncludeNewLines" id="paperConfigDialog::setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
       <keyword name="setInputTextColor" id="themeEngine::setInputTextColor" ref="classthemeEngine#acbe7ebf07bc2497609ee955b2a0cca49" />
       <keyword name="setItalicText" id="customizationOptions::setItalicText" ref="classcustomizationOptions#a38d9d23645dd71caa58152c32f6f476d" />
@@ -830,6 +847,7 @@
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
+      <keyword name="setVerticalAdjust" id="textView::setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
       <keyword name="setWhiteColor" id="SimpleColorDialog::setWhiteColor" ref="classSimpleColorDialog#aad3fb09cc14e08ab58354449a50771de" />
       <keyword name="setYellowColor" id="SimpleColorDialog::setYellowColor" ref="classSimpleColorDialog#a46d689bafc51af3041dcd29340762987" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
@@ -847,6 +865,7 @@
       <keyword name="switchSublesson" id="packView::switchSublesson" ref="classpackView#ae4ceac1dfa27b06777c1aea067b2e4b7" />
       <keyword name="tabChanged" id="packEditor::tabChanged" ref="classpackEditor#a21cb0d01d5588aff614bf4d7e89e8c11" />
       <keyword name="testConnection" id="connectionOptions::testConnection" ref="classconnectionOptions#a122737d3de84bd61b2daabdbf0cf0d8c" />
+      <keyword name="textView" id="textView::textView" ref="classtextView#ad6aaddb0b664f37e2794b57cbe31e81c" />
       <keyword name="theme" id="themeEngine::theme" ref="classthemeEngine#a74db70f519653b3ae47b1fa5c33dee77" />
       <keyword name="themeChanged" id="themeEngine::themeChanged" ref="classthemeEngine#a75617542d05d61c1511614a5fc3223dd" />
       <keyword name="themeEngine" id="themeEngine::themeEngine" ref="classthemeEngine#a9fe546070d5ed6fb02ef7191e6aac5d2" />
@@ -867,6 +886,8 @@
       <keyword name="updateTabTitle" id="packView::updateTabTitle" ref="classpackView#a76c645567362eceb83e439965a07b3db" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
       <keyword name="updateText" id="packView::updateText" ref="classpackView#ab34651a29dd449dea66fa3128ea7b507" />
+      <keyword name="updateWidgetSize" id="textView::updateWidgetSize" ref="classtextView#a5ee657378078136e98e01796f9d5e946" />
+      <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
@@ -891,6 +912,7 @@
       <keyword name="~SimpleColorDialog" id="SimpleColorDialog::~SimpleColorDialog" ref="classSimpleColorDialog#ac8cc4e4c6e6c0f49e5623019fbb713ad" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
       <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
+      <keyword name="~textView" id="textView::~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
       <keyword name="~timeDialog" id="timeDialog::~timeDialog" ref="classtimeDialog#ac3e69b247c53dc7ed4f3c81fab962766" />
       <keyword name="~Updater" id="Updater::~Updater" ref="classUpdater#a2f8434a97a4f3d3c716bb05abb20621e" />
       <keyword name="~UpdaterDialog" id="UpdaterDialog::~UpdaterDialog" ref="classUpdaterDialog#ab42ebaf4837dfff9f69b8040cbda1fa0" />
@@ -953,6 +975,7 @@
       <file>inputlabel_8h_source.html</file>
       <file>keyboardwidget_8h_source.html</file>
       <file>languagelist_8h_source.html</file>
+      <file>textview_8h_source.html</file>
       <file>md_docs_data_pages_Build_instructions.html</file>
       <file>classbehaviorOptions.html</file>
       <file>classbehaviorOptions__inherit__graph.png</file>
@@ -1071,6 +1094,10 @@
       <file>classstudentOptions__coll__graph.png</file>
       <file>studentOptions.png</file>
       <file>classstudentOptions-members.html</file>
+      <file>classtextView.html</file>
+      <file>classtextView__inherit__graph.png</file>
+      <file>classtextView__coll__graph.png</file>
+      <file>classtextView-members.html</file>
       <file>classthemeEngine.html</file>
       <file>classthemeEngine__inherit__graph.png</file>
       <file>classthemeEngine__coll__graph.png</file>

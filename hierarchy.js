@@ -34,7 +34,9 @@ var hierarchy =
       [ "themeEngine", "classthemeEngine.html", null ]
     ] ],
     [ "QTextEdit", null, [
-      [ "inputLabelWidget", "classinputLabelWidget.html", null ]
+      [ "textView", "classtextView.html", [
+        [ "inputLabelWidget", "classinputLabelWidget.html", null ]
+      ] ]
     ] ],
     [ "QWidget", null, [
       [ "behaviorOptions", "classbehaviorOptions.html", null ],

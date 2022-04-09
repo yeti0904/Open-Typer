@@ -1,0 +1,5 @@
+<map id="textView" name="textView">
+<area shape="rect" id="node1" title="The textView class is a QTextEdit used to display text." alt="" coords="31,80,103,107"/>
+<area shape="rect" id="node3" href="$classinputLabelWidget.html" title="The inputLabelWidget class is a textView, which handles all key presses." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="27,5,106,32"/>
+</map>
