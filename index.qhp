@@ -86,6 +86,12 @@
               <section title="setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
               <section title="updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
             </section>
+            <section title="exportDialog" ref="classexportDialog">
+              <section title="exportDialog" ref="classexportDialog#a12e416c8936a16fc16726edb722dc64f" />
+              <section title="~exportDialog" ref="classexportDialog#aa231ee305311d8f5ac4b0b38fe92336b" />
+              <section title="printResult" ref="classexportDialog#a83f0c4ca9b2b87535ba528c672b00f9f" />
+              <section title="updateTable" ref="classexportDialog#a3df6d0e00a9a07fe84494f445e15fc78" />
+            </section>
             <section title="fileUtils" ref="classfileUtils">
               <section title="configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
               <section title="mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
@@ -180,6 +186,7 @@
               <section title="changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
               <section title="changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
               <section title="endExercise" ref="classOpenTyper#a48c09e64bddca502b4593b15f9eae8b9" />
+              <section title="exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
               <section title="initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
               <section title="keyPress" ref="classOpenTyper#a2e0dedad125ed6ffb9c117d0ac9ed593" />
               <section title="keyRelease" ref="classOpenTyper#a4a232900cb74346e6c2193d0120cd48e" />
@@ -281,32 +288,15 @@
               <section title="setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
               <section title="updateLineLength" ref="classpaperConfigDialog#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
             </section>
-            <section title="SimpleColorDialog" ref="classSimpleColorDialog">
-              <section title="SimpleColorDialog" ref="classSimpleColorDialog#ae346e4635cd668f5acbfcf504247491c" />
-              <section title="~SimpleColorDialog" ref="classSimpleColorDialog#ac8cc4e4c6e6c0f49e5623019fbb713ad" />
-              <section title="setBlackColor" ref="classSimpleColorDialog#acfcec996b4ac0019876c39ba8f338f70" />
-              <section title="setBlueColor" ref="classSimpleColorDialog#a6bd27a5b9126106e2be9b54085d82029" />
-              <section title="setBlueColorValue" ref="classSimpleColorDialog#a3f87285f536a7818f8064c3fce29691b" />
-              <section title="setBrownColor" ref="classSimpleColorDialog#a850eaf4ae6e97c1cfc678fb72c049c58" />
-              <section title="setColor" ref="classSimpleColorDialog#ade99580a540a7f76a9847a0c7ede0d63" />
-              <section title="setGrayColor" ref="classSimpleColorDialog#a7319859d5da8a15955d89f85e58a0d4f" />
-              <section title="setGreenColor" ref="classSimpleColorDialog#af19085f2876436ce3d6d7bb132de95aa" />
-              <section title="setGreenColorValue" ref="classSimpleColorDialog#ac7b1226d6d2267740ea7879a1ed3f4d4" />
-              <section title="setLightBlueColor" ref="classSimpleColorDialog#a3f407983437f1aca8841b19c47d76e86" />
-              <section title="setOrangeColor" ref="classSimpleColorDialog#a72fe566c9fed225e026d67c6495878a7" />
-              <section title="setPinkColor" ref="classSimpleColorDialog#a9c512220e34afa8d10d7df30c3f14a6a" />
-              <section title="setPurpleColor" ref="classSimpleColorDialog#a8983296cd9df0181c27ebc15d5b22068" />
-              <section title="setRedColor" ref="classSimpleColorDialog#aadb07c1000a7925b28d7d293078b1f6e" />
-              <section title="setRedColorValue" ref="classSimpleColorDialog#a49f75832ec9d6f186c17cb4736f43b1d" />
-              <section title="setWhiteColor" ref="classSimpleColorDialog#aad3fb09cc14e08ab58354449a50771de" />
-              <section title="setYellowColor" ref="classSimpleColorDialog#a46d689bafc51af3041dcd29340762987" />
-              <section title="updateColor" ref="classSimpleColorDialog#a43ccccdab112f5295a162dabd07dbc48" />
-            </section>
             <section title="statsDialog" ref="classstatsDialog">
               <section title="statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
               <section title="~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
             </section>
             <section title="stringUtils" ref="classstringUtils">
+              <section title="compareLists" ref="classstringUtils#aeeb3f5d9158bbaf2946ca13e7643164f" />
+              <section title="compareStrings" ref="classstringUtils#a371e6b1e856605071f15eee3d27ae418" />
+              <section title="findMistakes" ref="classstringUtils#a9d015f21b3e759378ffe9729e6286c84" />
+              <section title="longestCommonSubsequence" ref="classstringUtils#a341fb091d92a8afbf2e6fcd52d85c132" />
               <section title="longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
               <section title="word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
               <section title="wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -411,8 +401,8 @@
             <section title="fileUtils" ref="classfileUtils" />
             <section title="keyboardUtils" ref="classkeyboardUtils" />
             <section title="QDialog" ref="">
-              <section title="SimpleColorDialog" ref="classSimpleColorDialog" />
               <section title="UpdaterDialog" ref="classUpdaterDialog" />
+              <section title="exportDialog" ref="classexportDialog" />
               <section title="initialSetup" ref="classinitialSetup" />
               <section title="levelSummary" ref="classlevelSummary" />
               <section title="optionsWindow" ref="classoptionsWindow" />
@@ -541,11 +531,11 @@
                   <section title="languagelist.h" ref="languagelist_8h_source" />
                   <section title="textview.h" ref="textview_8h_source" />
                 </section>
+                <section title="exportdialog.h" ref="exportdialog_8h_source" />
                 <section title="initialsetup.h" ref="initialsetup_8h_source" />
                 <section title="levelsummary.h" ref="levelsummary_8h_source" />
                 <section title="opentyper.h" ref="opentyper_8h_source" />
                 <section title="paperconfigdialog.h" ref="paperconfigdialog_8h_source" />
-                <section title="simplecolordialog.h" ref="simplecolordialog_8h_source" />
                 <section title="statsdialog.h" ref="statsdialog_8h_source" />
                 <section title="timedialog.h" ref="timedialog_8h_source" />
               </section>
@@ -560,6 +550,7 @@
       <keyword name="configParser" id="configParser" ref="classconfigParser" />
       <keyword name="connectionOptions" id="connectionOptions" ref="classconnectionOptions" />
       <keyword name="customizationOptions" id="customizationOptions" ref="classcustomizationOptions" />
+      <keyword name="exportDialog" id="exportDialog" ref="classexportDialog" />
       <keyword name="fileUtils" id="fileUtils" ref="classfileUtils" />
       <keyword name="historyParser" id="historyParser" ref="classhistoryParser" />
       <keyword name="initialSetup" id="initialSetup" ref="classinitialSetup" />
@@ -577,7 +568,6 @@
       <keyword name="packSelector" id="packSelector" ref="classpackSelector" />
       <keyword name="packView" id="packView" ref="classpackView" />
       <keyword name="paperConfigDialog" id="paperConfigDialog" ref="classpaperConfigDialog" />
-      <keyword name="SimpleColorDialog" id="SimpleColorDialog" ref="classSimpleColorDialog" />
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
@@ -633,6 +623,8 @@
       <keyword name="closeFile" id="packView::closeFile" ref="classpackView#a0d7279567c49cfa13efb450657875255" />
       <keyword name="closeTab" id="packEditor::closeTab" ref="classpackEditor#a8029fd89ffc29702456698439e7a1d39" />
       <keyword name="colorChanged" id="themeEngine::colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
+      <keyword name="compareLists" id="stringUtils::compareLists" ref="classstringUtils#aeeb3f5d9158bbaf2946ca13e7643164f" />
+      <keyword name="compareStrings" id="stringUtils::compareStrings" ref="classstringUtils#a371e6b1e856605071f15eee3d27ae418" />
       <keyword name="configLocation" id="fileUtils::configLocation" ref="classfileUtils#ad5cb3697ed9304de49faa998c9091bd5" />
       <keyword name="configParser" id="configParser::configParser" ref="classconfigParser#a7fca8c252df17f7dbdce4e6f7c61ae62" />
       <keyword name="connectionOptions" id="connectionOptions::connectionOptions" ref="classconnectionOptions#abfeac330032693d7ea5358d143a6b3d5" />
@@ -670,8 +662,11 @@
       <keyword name="exerciseTextColor" id="themeEngine::exerciseTextColor" ref="classthemeEngine#ad5a2518b11b5a67b31f329b97f36e221" />
       <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
       <keyword name="exerciseTextStyleSheet" id="themeEngine::exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
+      <keyword name="exportDialog" id="exportDialog::exportDialog" ref="classexportDialog#a12e416c8936a16fc16726edb722dc64f" />
+      <keyword name="exportText" id="OpenTyper::exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />
+      <keyword name="findMistakes" id="stringUtils::findMistakes" ref="classstringUtils#a9d015f21b3e759378ffe9729e6286c84" />
       <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
       <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
@@ -740,6 +735,7 @@
       <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
+      <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a341fb091d92a8afbf2e6fcd52d85c132" />
       <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
       <keyword name="maxFontSize" id="themeEngine::maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
@@ -773,6 +769,7 @@
       <keyword name="paperStyleSheet" id="themeEngine::paperStyleSheet" ref="classthemeEngine#a3c438dfd39114d221c54127fec19d5d1" />
       <keyword name="parseDesc" id="configParser::parseDesc" ref="classconfigParser#a1011cf48da6bafdf3f2275fb01fd0064" />
       <keyword name="previousLevel" id="OpenTyper::previousLevel" ref="classOpenTyper#afad7f5e20e15f749e3f22c189d56be2b" />
+      <keyword name="printResult" id="exportDialog::printResult" ref="classexportDialog#a83f0c4ca9b2b87535ba528c672b00f9f" />
       <keyword name="readData" id="monitorClient::readData" ref="classmonitorClient#abe6de247bd781bc3c01bf31d6cc45be7" />
       <keyword name="readResponse" id="monitorClient::readResponse" ref="classmonitorClient#a15e9dc6daf41b85746eca80af96b957d" />
       <keyword name="refreshAll" id="OpenTyper::refreshAll" ref="classOpenTyper#a5f0fcfa144eda646ca215b51851e0dd5" />
@@ -800,12 +797,7 @@
       <keyword name="serverAddress" id="monitorClient::serverAddress" ref="classmonitorClient#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
       <keyword name="serverPort" id="monitorClient::serverPort" ref="classmonitorClient#a3cc04faa170d58b57cb04bb80893b946" />
       <keyword name="setBgColor" id="themeEngine::setBgColor" ref="classthemeEngine#a1a655d52c680193f382ba87b6736f487" />
-      <keyword name="setBlackColor" id="SimpleColorDialog::setBlackColor" ref="classSimpleColorDialog#acfcec996b4ac0019876c39ba8f338f70" />
-      <keyword name="setBlueColor" id="SimpleColorDialog::setBlueColor" ref="classSimpleColorDialog#a6bd27a5b9126106e2be9b54085d82029" />
-      <keyword name="setBlueColorValue" id="SimpleColorDialog::setBlueColorValue" ref="classSimpleColorDialog#a3f87285f536a7818f8064c3fce29691b" />
       <keyword name="setBoldText" id="customizationOptions::setBoldText" ref="classcustomizationOptions#a53ae5e03aace0092906fcbecd5abf39e" />
-      <keyword name="setBrownColor" id="SimpleColorDialog::setBrownColor" ref="classSimpleColorDialog#a850eaf4ae6e97c1cfc678fb72c049c58" />
-      <keyword name="setColor" id="SimpleColorDialog::setColor" ref="classSimpleColorDialog#ade99580a540a7f76a9847a0c7ede0d63" />
       <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper#ac4ac399f836ab91bc116d6a951cca9f5" />
       <keyword name="setColors" id="customizationOptions::setColors" ref="classcustomizationOptions#acada628a325da33b633c37e40955ecde" />
       <keyword name="setErrorDialogs" id="monitorClient::setErrorDialogs" ref="classmonitorClient#a69989bd9fa97b81a303de7be6cb0cd1c" />
@@ -818,9 +810,6 @@
       <keyword name="setFontItalic" id="themeEngine::setFontItalic" ref="classthemeEngine#a73e91b7444b609f95da16bef845cb5cd" />
       <keyword name="setFontSize" id="themeEngine::setFontSize" ref="classthemeEngine#acfd9d42065afeb029b493013494b70fb" />
       <keyword name="setFontUnderline" id="themeEngine::setFontUnderline" ref="classthemeEngine#a7da9c736831e9e7546a5a8224963cd47" />
-      <keyword name="setGrayColor" id="SimpleColorDialog::setGrayColor" ref="classSimpleColorDialog#a7319859d5da8a15955d89f85e58a0d4f" />
-      <keyword name="setGreenColor" id="SimpleColorDialog::setGreenColor" ref="classSimpleColorDialog#af19085f2876436ce3d6d7bb132de95aa" />
-      <keyword name="setGreenColorValue" id="SimpleColorDialog::setGreenColorValue" ref="classSimpleColorDialog#ac7b1226d6d2267740ea7879a1ed3f4d4" />
       <keyword name="setGrossHits" id="levelSummary::setGrossHits" ref="classlevelSummary#a26f9c18e74e50774e57f621bc0b1ee53" />
       <keyword name="setHorizontalAdjust" id="textView::setHorizontalAdjust" ref="classtextView#a17845e2af54e6b6e3ded66981125f108" />
       <keyword name="setIncludeNewLines" id="paperConfigDialog::setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
@@ -829,17 +818,11 @@
       <keyword name="setKeyboardVisible" id="keyboardWidget::setKeyboardVisible" ref="classkeyboardWidget#a0f5d0b6da126490e66239fae13b30c08" />
       <keyword name="setKeyColor" id="keyboardWidget::setKeyColor" ref="classkeyboardWidget#a191ecfbfea429bda4acc1905fc942875" />
       <keyword name="setLanguage" id="languageManager::setLanguage" ref="classlanguageManager#a6e8bbe2e4be6feefe1d9dc7d0487f8f4" />
-      <keyword name="setLightBlueColor" id="SimpleColorDialog::setLightBlueColor" ref="classSimpleColorDialog#a3f407983437f1aca8841b19c47d76e86" />
       <keyword name="setMistakes" id="levelSummary::setMistakes" ref="classlevelSummary#aa521381ea57f44b2e0e5aeb959e17c66" />
       <keyword name="setNetHits" id="levelSummary::setNetHits" ref="classlevelSummary#a24bc23e9e8ef6d7877756af4243c0061" />
       <keyword name="setNewFile" id="packEditor::setNewFile" ref="classpackEditor#ad40ff79b94794d3df4929ed1970bd0ff" />
-      <keyword name="setOrangeColor" id="SimpleColorDialog::setOrangeColor" ref="classSimpleColorDialog#a72fe566c9fed225e026d67c6495878a7" />
       <keyword name="setPanelColor" id="themeEngine::setPanelColor" ref="classthemeEngine#af30300b5e03cdedfee9211e9812da40b" />
       <keyword name="setPaperColor" id="themeEngine::setPaperColor" ref="classthemeEngine#a4a4d724a39f61d6cdfce18f3aa1d541f" />
-      <keyword name="setPinkColor" id="SimpleColorDialog::setPinkColor" ref="classSimpleColorDialog#a9c512220e34afa8d10d7df30c3f14a6a" />
-      <keyword name="setPurpleColor" id="SimpleColorDialog::setPurpleColor" ref="classSimpleColorDialog#a8983296cd9df0181c27ebc15d5b22068" />
-      <keyword name="setRedColor" id="SimpleColorDialog::setRedColor" ref="classSimpleColorDialog#aadb07c1000a7925b28d7d293078b1f6e" />
-      <keyword name="setRedColorValue" id="SimpleColorDialog::setRedColorValue" ref="classSimpleColorDialog#a49f75832ec9d6f186c17cb4736f43b1d" />
       <keyword name="setRevisionLesson" id="packView::setRevisionLesson" ref="classpackView#afb615797a5031658513124a814a1d51a" />
       <keyword name="setSpaceNewline" id="behaviorOptions::setSpaceNewline" ref="classbehaviorOptions#afb802a982a3806f4df086d7eecfcb3c5" />
       <keyword name="setStyle" id="themeEngine::setStyle" ref="classthemeEngine#a2a4815e45708d8ceac2aeaf8daf50d5f" />
@@ -850,10 +833,7 @@
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
       <keyword name="setVerticalAdjust" id="textView::setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
-      <keyword name="setWhiteColor" id="SimpleColorDialog::setWhiteColor" ref="classSimpleColorDialog#aad3fb09cc14e08ab58354449a50771de" />
-      <keyword name="setYellowColor" id="SimpleColorDialog::setYellowColor" ref="classSimpleColorDialog#a46d689bafc51af3041dcd29340762987" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
-      <keyword name="SimpleColorDialog" id="SimpleColorDialog::SimpleColorDialog" ref="classSimpleColorDialog#ae346e4635cd668f5acbfcf504247491c" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
       <keyword name="studentOptions" id="studentOptions::studentOptions" ref="classstudentOptions#a355451cfa1bae5af52f7450ebb8138f5" />
@@ -875,7 +855,6 @@
       <keyword name="themeName" id="themeEngine::themeName" ref="classthemeEngine#a9ab4e0f29d1b4d472c1358cde5384236" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog#afee89fd18b8ade41b001e436dc73f522" />
       <keyword name="toggleKeyboard" id="keyboardWidget::toggleKeyboard" ref="classkeyboardWidget#a2f270d1d090d383e02509947774abceb" />
-      <keyword name="updateColor" id="SimpleColorDialog::updateColor" ref="classSimpleColorDialog#a43ccccdab112f5295a162dabd07dbc48" />
       <keyword name="updateCurrentTime" id="OpenTyper::updateCurrentTime" ref="classOpenTyper#a161a88a48c7a083c1afce2201f9a4ac1" />
       <keyword name="updateFont" id="OpenTyper::updateFont" ref="classOpenTyper#ac86a5acdee73a4f6163fa3ccb5a07edd" />
       <keyword name="updateFont" id="customizationOptions::updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
@@ -885,6 +864,7 @@
       <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog#ae6833c46d5feff6d267e113ba23410e4" />
       <keyword name="updateStudent" id="OpenTyper::updateStudent" ref="classOpenTyper#ae3e5e07e087c9d337b2a2907a8173b1a" />
       <keyword name="updateStyle" id="themeEngine::updateStyle" ref="classthemeEngine#a352cfc5414795770d8dab2e8d2fe434f" />
+      <keyword name="updateTable" id="exportDialog::updateTable" ref="classexportDialog#a3df6d0e00a9a07fe84494f445e15fc78" />
       <keyword name="updateTabTitle" id="packView::updateTabTitle" ref="classpackView#a76c645567362eceb83e439965a07b3db" />
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
       <keyword name="updateText" id="packView::updateText" ref="classpackView#ab34651a29dd449dea66fa3128ea7b507" />
@@ -898,6 +878,7 @@
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions#a29c9eb3ad18964f12ad48718190bd40b" />
       <keyword name="~connectionOptions" id="connectionOptions::~connectionOptions" ref="classconnectionOptions#a4e177c967b25efee9d204b86a0098c16" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions#a151df44d17775b94b225661a695d03be" />
+      <keyword name="~exportDialog" id="exportDialog::~exportDialog" ref="classexportDialog#aa231ee305311d8f5ac4b0b38fe92336b" />
       <keyword name="~initialSetup" id="initialSetup::~initialSetup" ref="classinitialSetup#a9b5f719b8dff40cf5dab8d04be1e8c60" />
       <keyword name="~inputLabelWidget" id="inputLabelWidget::~inputLabelWidget" ref="classinputLabelWidget#a547a95ccb7ba47da543f87811017200a" />
       <keyword name="~keyboardOptions" id="keyboardOptions::~keyboardOptions" ref="classkeyboardOptions#a0540bbfe63c9f19c73bc64a7922f7dc0" />
@@ -911,7 +892,6 @@
       <keyword name="~packSelector" id="packSelector::~packSelector" ref="classpackSelector#ae5c599cf2c312ad8fad8d0171946f10b" />
       <keyword name="~packView" id="packView::~packView" ref="classpackView#a28036733eb5e69d1ae3dc7d6cb8f6898" />
       <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog#af6de249a3dd88ad11fcd941545e5d25b" />
-      <keyword name="~SimpleColorDialog" id="SimpleColorDialog::~SimpleColorDialog" ref="classSimpleColorDialog#ac8cc4e4c6e6c0f49e5623019fbb713ad" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
       <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
       <keyword name="~textView" id="textView::~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
@@ -956,6 +936,7 @@
       <file>packs_8h_source.html</file>
       <file>theme_8h_source.html</file>
       <file>utils_8h_source.html</file>
+      <file>exportdialog_8h_source.html</file>
       <file>initialsetup_8h_source.html</file>
       <file>levelsummary_8h_source.html</file>
       <file>opentyper_8h_source.html</file>
@@ -969,7 +950,6 @@
       <file>packselector_8h_source.html</file>
       <file>packview_8h_source.html</file>
       <file>paperconfigdialog_8h_source.html</file>
-      <file>simplecolordialog_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1003,6 +983,10 @@
       <file>customizationOptions.png</file>
       <file>customizationOptions2.png</file>
       <file>classcustomizationOptions-members.html</file>
+      <file>classexportDialog.html</file>
+      <file>classexportDialog__inherit__graph.png</file>
+      <file>classexportDialog__coll__graph.png</file>
+      <file>classexportDialog-members.html</file>
       <file>classfileUtils.html</file>
       <file>classfileUtils-members.html</file>
       <file>classhistoryParser.html</file>
@@ -1079,11 +1063,6 @@
       <file>classpaperConfigDialog__coll__graph.png</file>
       <file>paperConfigDialog.png</file>
       <file>classpaperConfigDialog-members.html</file>
-      <file>classSimpleColorDialog.html</file>
-      <file>classSimpleColorDialog__inherit__graph.png</file>
-      <file>classSimpleColorDialog__coll__graph.png</file>
-      <file>SimpleColorDialog.png</file>
-      <file>classSimpleColorDialog-members.html</file>
       <file>classstatsDialog.html</file>
       <file>classstatsDialog__inherit__graph.png</file>
       <file>classstatsDialog__coll__graph.png</file>

@@ -20,5 +20,5 @@ var searchData=
   ['loadtext_17',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
   ['loadtheme_18',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
   ['loadtobuffer_19',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]],
-  ['longestcommonsubsequence_20',['longestCommonSubsequence',['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils']]]
+  ['longestcommonsubsequence_20',['longestCommonSubsequence',['../classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132',1,'stringUtils::longestCommonSubsequence(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)'],['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils::longestCommonSubsequence(QString source, QString target)']]]
 ];

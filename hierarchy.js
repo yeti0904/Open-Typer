@@ -3,8 +3,8 @@ var hierarchy =
     [ "fileUtils", "classfileUtils.html", null ],
     [ "keyboardUtils", "classkeyboardUtils.html", null ],
     [ "QDialog", null, [
-      [ "SimpleColorDialog", "classSimpleColorDialog.html", null ],
       [ "UpdaterDialog", "classUpdaterDialog.html", null ],
+      [ "exportDialog", "classexportDialog.html", null ],
       [ "initialSetup", "classinitialSetup.html", null ],
       [ "levelSummary", "classlevelSummary.html", null ],
       [ "optionsWindow", "classoptionsWindow.html", null ],

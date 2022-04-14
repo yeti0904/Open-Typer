@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['packeditor_0',['packEditor',['../classpackEditor.html',1,'']]],
-  ['packselector_1',['packSelector',['../classpackSelector.html',1,'']]],
-  ['packview_2',['packView',['../classpackView.html',1,'']]],
-  ['paperconfigdialog_3',['paperConfigDialog',['../classpaperConfigDialog.html',1,'']]]
+  ['opentyper_0',['OpenTyper',['../classOpenTyper.html',1,'']]],
+  ['optionswindow_1',['optionsWindow',['../classoptionsWindow.html',1,'']]]
 ];

@@ -104,14 +104,218 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a4abcd8458b8b50e9d6679e6f03788dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9afdf922dcc4f6fbd6b331b7a65453"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a0b9afdf922dcc4f6fbd6b331b7a65453">wordAt</a> (QString str, int index)</td></tr>
 <tr class="separator:a0b9afdf922dcc4f6fbd6b331b7a65453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341fb091d92a8afbf2e6fcd52d85c132"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariant &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132">longestCommonSubsequence</a> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)</td></tr>
+<tr class="separator:a341fb091d92a8afbf2e6fcd52d85c132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a472149dd1b3f6eeca6ae90a274a02"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02">longestCommonSubsequence</a> (QString source, QString target)</td></tr>
 <tr class="separator:a71a472149dd1b3f6eeca6ae90a274a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb3f5d9158bbaf2946ca13e7643164f"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f">compareLists</a> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)</td></tr>
+<tr class="separator:aeeb3f5d9158bbaf2946ca13e7643164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a371e6b1e856605071f15eee3d27ae418"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418">compareStrings</a> (QString source, QString target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)</td></tr>
+<tr class="separator:a371e6b1e856605071f15eee3d27ae418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d015f21b3e759378ffe9729e6286c84"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a9d015f21b3e759378ffe9729e6286c84">findMistakes</a> (QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr)</td></tr>
+<tr class="separator:a9d015f21b3e759378ffe9729e6286c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classstringUtils.html" title="The stringUtils class contains functions related to strings.">stringUtils</a> class contains functions related to strings. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aeeb3f5d9158bbaf2946ca13e7643164f" name="aeeb3f5d9158bbaf2946ca13e7643164f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb3f5d9158bbaf2946ca13e7643164f">&#9670;&nbsp;</a></span>compareLists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariantMap &gt; stringUtils::compareLists </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; QPair&lt; QString, int &gt; &gt; *&#160;</td>
+          <td class="paramname"><em>recordedCharacters</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>hits</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>inputPos</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compares 2 lists using longest common subsequence. </p>
+
+</div>
+</div>
+<a id="a371e6b1e856605071f15eee3d27ae418" name="a371e6b1e856605071f15eee3d27ae418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371e6b1e856605071f15eee3d27ae418">&#9670;&nbsp;</a></span>compareStrings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariantMap &gt; stringUtils::compareStrings </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; QPair&lt; QString, int &gt; &gt; *&#160;</td>
+          <td class="paramname"><em>recordedCharacters</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>hits</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>inputPos</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compares 2 strings using longest common subsequence. </p>
+
+</div>
+</div>
+<a id="a9d015f21b3e759378ffe9729e6286c84" name="a9d015f21b3e759378ffe9729e6286c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d015f21b3e759378ffe9729e6286c84">&#9670;&nbsp;</a></span>findMistakes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariantMap &gt; stringUtils::findMistakes </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>exerciseText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; QPair&lt; QString, int &gt; &gt;&#160;</td>
+          <td class="paramname"><em>recordedCharacters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>totalHits</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Compares input text with exercise text and finds mistakes. </p>
+
+</div>
+</div>
+<a id="a341fb091d92a8afbf2e6fcd52d85c132" name="a341fb091d92a8afbf2e6fcd52d85c132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a341fb091d92a8afbf2e6fcd52d85c132">&#9670;&nbsp;</a></span>longestCommonSubsequence() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariant &gt; stringUtils::longestCommonSubsequence </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the longest common subsequence of source and target list. </p>
+
+</div>
+</div>
 <a id="a71a472149dd1b3f6eeca6ae90a274a02" name="a71a472149dd1b3f6eeca6ae90a274a02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a472149dd1b3f6eeca6ae90a274a02">&#9670;&nbsp;</a></span>longestCommonSubsequence()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a472149dd1b3f6eeca6ae90a274a02">&#9670;&nbsp;</a></span>longestCommonSubsequence() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

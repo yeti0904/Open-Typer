@@ -5,6 +5,7 @@ var classOpenTyper =
     [ "changeEvent", "classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6", null ],
     [ "changeMode", "classOpenTyper.html#aae58db84c62ad4d6f2b89ae8f1134765", null ],
     [ "endExercise", "classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9", null ],
+    [ "exportText", "classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62", null ],
     [ "initTimedExercise", "classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc", null ],
     [ "keyPress", "classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593", null ],
     [ "keyRelease", "classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e", null ],
