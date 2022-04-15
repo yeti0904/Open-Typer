@@ -87,7 +87,7 @@
               <section title="updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
             </section>
             <section title="exportDialog" ref="classexportDialog">
-              <section title="exportDialog" ref="classexportDialog#a12e416c8936a16fc16726edb722dc64f" />
+              <section title="exportDialog" ref="classexportDialog#a2bd4e887127aeeacb22de76b4e22e013" />
               <section title="~exportDialog" ref="classexportDialog#aa231ee305311d8f5ac4b0b38fe92336b" />
               <section title="printResult" ref="classexportDialog#a83f0c4ca9b2b87535ba528c672b00f9f" />
               <section title="updateTable" ref="classexportDialog#a3df6d0e00a9a07fe84494f445e15fc78" />
@@ -662,7 +662,7 @@
       <keyword name="exerciseTextColor" id="themeEngine::exerciseTextColor" ref="classthemeEngine#ad5a2518b11b5a67b31f329b97f36e221" />
       <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
       <keyword name="exerciseTextStyleSheet" id="themeEngine::exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
-      <keyword name="exportDialog" id="exportDialog::exportDialog" ref="classexportDialog#a12e416c8936a16fc16726edb722dc64f" />
+      <keyword name="exportDialog" id="exportDialog::exportDialog" ref="classexportDialog#a2bd4e887127aeeacb22de76b4e22e013" />
       <keyword name="exportText" id="OpenTyper::exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />

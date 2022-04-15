@@ -20,6 +20,6 @@ var searchData=
   ['exercisetextcolor_17',['exerciseTextColor',['../classthemeEngine.html#ad5a2518b11b5a67b31f329b97f36e221',1,'themeEngine']]],
   ['exercisetextcolorchanged_18',['exerciseTextColorChanged',['../classthemeEngine.html#ab71e654408e0a8875c6f32709228e353',1,'themeEngine']]],
   ['exercisetextstylesheet_19',['exerciseTextStyleSheet',['../classthemeEngine.html#a7c49d1041e50fbb5fde8dad0686c081c',1,'themeEngine']]],
-  ['exportdialog_20',['exportDialog',['../classexportDialog.html',1,'exportDialog'],['../classexportDialog.html#a12e416c8936a16fc16726edb722dc64f',1,'exportDialog::exportDialog()']]],
+  ['exportdialog_20',['exportDialog',['../classexportDialog.html',1,'exportDialog'],['../classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013',1,'exportDialog::exportDialog()']]],
   ['exporttext_21',['exportText',['../classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62',1,'OpenTyper']]]
 ];
