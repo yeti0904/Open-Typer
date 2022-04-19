@@ -53,7 +53,8 @@ var searchData=
   ['sublessoncount_50',['sublessonCount',['../classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86',1,'configParser']]],
   ['sublessonname_51',['sublessonName',['../classconfigParser.html#a2922133b71c6050af206853e6c64586d',1,'configParser']]],
   ['sublessonselectionlistindexchanged_52',['sublessonSelectionListIndexChanged',['../classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922',1,'OpenTyper']]],
-  ['switchexercise_53',['switchExercise',['../classpackView.html#a8732f57a4ba307c14913aef98e524a3d',1,'packView']]],
-  ['switchlesson_54',['switchLesson',['../classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8',1,'packView']]],
-  ['switchsublesson_55',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
+  ['sublessontr_53',['sublessonTr',['../classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317',1,'configParser']]],
+  ['switchexercise_54',['switchExercise',['../classpackView.html#a8732f57a4ba307c14913aef98e524a3d',1,'packView']]],
+  ['switchlesson_55',['switchLesson',['../classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8',1,'packView']]],
+  ['switchsublesson_56',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
 ];

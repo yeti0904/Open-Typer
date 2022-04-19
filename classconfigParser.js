@@ -19,6 +19,7 @@ var classconfigParser =
     [ "exerciseRepeatType", "classconfigParser.html#ada7d47ae6c03fbe60727236164df0c95", null ],
     [ "exerciseRepeatType", "classconfigParser.html#a3f69cbbdb3e7268f730555c2cfe2c74c", null ],
     [ "exerciseText", "classconfigParser.html#abcf6455297d66a7b7401fb35de6b2dae", null ],
+    [ "exerciseTr", "classconfigParser.html#ac57d8392246532e4399d729e6a5b28f9", null ],
     [ "fileName", "classconfigParser.html#a71c4dbe698008b2e245effdf5360deae", null ],
     [ "generateText", "classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794", null ],
     [ "initExercise", "classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c", null ],
@@ -26,11 +27,13 @@ var classconfigParser =
     [ "initText", "classconfigParser.html#aff3c70f09bd55b50de5fe951d8fa1907", null ],
     [ "lessonCount", "classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4", null ],
     [ "lessonDesc", "classconfigParser.html#aebd0b83cafef103a291c1a2b6ae1ef00", null ],
+    [ "lessonTr", "classconfigParser.html#a361ef4829ffdd45f9aa9ec941a0a51f6", null ],
     [ "lineOf", "classconfigParser.html#a33a3e1eb8328c87e8a8ccf26c125637f", null ],
     [ "loadToBuffer", "classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3", null ],
     [ "open", "classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021", null ],
     [ "parseDesc", "classconfigParser.html#a1011cf48da6bafdf3f2275fb01fd0064", null ],
     [ "reopen", "classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390", null ],
     [ "sublessonCount", "classconfigParser.html#a7b3b416c615c62bbe7526bc6181ccb86", null ],
-    [ "sublessonName", "classconfigParser.html#a2922133b71c6050af206853e6c64586d", null ]
+    [ "sublessonName", "classconfigParser.html#a2922133b71c6050af206853e6c64586d", null ],
+    [ "sublessonTr", "classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317", null ]
 ];
