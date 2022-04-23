@@ -47,7 +47,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "adminselector_8h_source.html",
-"classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd"
+"classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c",
+"timedialog_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

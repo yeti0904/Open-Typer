@@ -26,6 +26,13 @@
             <section title="builtinPacks" ref="classbuiltinPacks">
               <section title="packName" ref="classbuiltinPacks#a6b49a3342d9edcadd208da1cc6b550b0" />
             </section>
+            <section title="classEdit" ref="classclassEdit">
+              <section title="classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
+              <section title="~classEdit" ref="classclassEdit#a9e852276cad342ffab7886447f133fe9" />
+              <section title="finish" ref="classclassEdit#a2190e2445a8ff442f6716a83ff9e520b" />
+              <section title="updateOwner" ref="classclassEdit#a44d206f77fc7fe1c8cc868a9daca5c49" />
+              <section title="verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
+            </section>
             <section title="configParser" ref="classconfigParser">
               <section title="configParser" ref="classconfigParser#a7fca8c252df17f7dbdce4e6f7c61ae62" />
               <section title="addExercise" ref="classconfigParser#aed55ed862ae8be82b42385f42193ea65" />
@@ -452,6 +459,7 @@
             <section title="QDialog" ref="">
               <section title="UpdaterDialog" ref="classUpdaterDialog" />
               <section title="adminSelector" ref="classadminSelector" />
+              <section title="classEdit" ref="classclassEdit" />
               <section title="exportDialog" ref="classexportDialog" />
               <section title="initialSetup" ref="classinitialSetup" />
               <section title="levelSummary" ref="classlevelSummary" />
@@ -518,6 +526,7 @@
               <section title="s" ref="functions_s" />
               <section title="t" ref="functions_t" />
               <section title="u" ref="functions_u" />
+              <section title="v" ref="functions_v" />
               <section title="w" ref="functions_w" />
               <section title="z" ref="functions_z" />
               <section title="~" ref="functions_~" />
@@ -543,6 +552,7 @@
               <section title="s" ref="functions_func_s" />
               <section title="t" ref="functions_func_t" />
               <section title="u" ref="functions_func_u" />
+              <section title="v" ref="functions_func_v" />
               <section title="w" ref="functions_func_w" />
               <section title="z" ref="functions_func_z" />
               <section title="~" ref="functions_func_~" />
@@ -577,6 +587,7 @@
                 </section>
                 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
                   <section title="adminselector.h" ref="adminselector_8h_source" />
+                  <section title="classedit.h" ref="classedit_8h_source" />
                 </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
@@ -605,6 +616,7 @@
       <keyword name="adminSelector" id="adminSelector" ref="classadminSelector" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions" />
       <keyword name="builtinPacks" id="builtinPacks" ref="classbuiltinPacks" />
+      <keyword name="classEdit" id="classEdit" ref="classclassEdit" />
       <keyword name="configParser" id="configParser" ref="classconfigParser" />
       <keyword name="connectionOptions" id="connectionOptions" ref="classconnectionOptions" />
       <keyword name="customizationOptions" id="customizationOptions" ref="classcustomizationOptions" />
@@ -681,6 +693,7 @@
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
+      <keyword name="classEdit" id="classEdit::classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
       <keyword name="classIcon" id="databaseManager::classIcon" ref="classdatabaseManager#a6284088b8d8599c1451165abe47297ad" />
       <keyword name="classIDs" id="databaseManager::classIDs" ref="classdatabaseManager#a83f8ea1f695044bee66f101889e14ad4" />
       <keyword name="className" id="databaseManager::className" ref="classdatabaseManager#ab4c3e9b8927b87e89dcf4c2c144117b2" />
@@ -745,6 +758,7 @@
       <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
       <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
       <keyword name="finish" id="adminSelector::finish" ref="classadminSelector#a6badf56d6db693f9d3f1b9b05a142e95" />
+      <keyword name="finish" id="classEdit::finish" ref="classclassEdit#a2190e2445a8ff442f6716a83ff9e520b" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
       <keyword name="font" id="themeEngine::font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
       <keyword name="fontBold" id="themeEngine::fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
@@ -958,6 +972,7 @@
       <keyword name="updateFont" id="customizationOptions::updateFont" ref="classcustomizationOptions#a75c2dd15ae08c311d9047bf2ac8d56d7" />
       <keyword name="updateLessonList" id="OpenTyper::updateLessonList" ref="classOpenTyper#ae86fac4e64857d4b2c18fa639b612c54" />
       <keyword name="updateLineLength" id="paperConfigDialog::updateLineLength" ref="classpaperConfigDialog#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
+      <keyword name="updateOwner" id="classEdit::updateOwner" ref="classclassEdit#a44d206f77fc7fe1c8cc868a9daca5c49" />
       <keyword name="Updater" id="Updater::Updater" ref="classUpdater#abf702b842504bc1147a5e7bebbbf15ea" />
       <keyword name="UpdaterDialog" id="UpdaterDialog::UpdaterDialog" ref="classUpdaterDialog#ae6833c46d5feff6d267e113ba23410e4" />
       <keyword name="updateStudent" id="OpenTyper::updateStudent" ref="classOpenTyper#ae3e5e07e087c9d337b2a2907a8173b1a" />
@@ -972,6 +987,7 @@
       <keyword name="userNames" id="databaseManager::userNames" ref="classdatabaseManager#ac9a52aaed6fc6c0b0dd0e5beeae15cf1" />
       <keyword name="userNickname" id="databaseManager::userNickname" ref="classdatabaseManager#a783f56c33f49697ca0fc23c5cc3cb3c3" />
       <keyword name="userRole" id="databaseManager::userRole" ref="classdatabaseManager#a1ad2124ff8f5337388c145b0e83c2deb" />
+      <keyword name="verify" id="classEdit::verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -980,6 +996,7 @@
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper#a26d722e59eb5364522f42996eff39075" />
       <keyword name="~adminSelector" id="adminSelector::~adminSelector" ref="classadminSelector#a77578993a413d00dbbdcde8f4b3e5eb9" />
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions#a29c9eb3ad18964f12ad48718190bd40b" />
+      <keyword name="~classEdit" id="classEdit::~classEdit" ref="classclassEdit#a9e852276cad342ffab7886447f133fe9" />
       <keyword name="~connectionOptions" id="connectionOptions::~connectionOptions" ref="classconnectionOptions#a4e177c967b25efee9d204b86a0098c16" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions#a151df44d17775b94b225661a695d03be" />
       <keyword name="~exportDialog" id="exportDialog::~exportDialog" ref="classexportDialog#aa231ee305311d8f5ac4b0b38fe92336b" />
@@ -1056,6 +1073,7 @@
       <file>packview_8h_source.html</file>
       <file>paperconfigdialog_8h_source.html</file>
       <file>adminselector_8h_source.html</file>
+      <file>classedit_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1078,6 +1096,10 @@
       <file>classbuiltinPacks__inherit__graph.png</file>
       <file>classbuiltinPacks__coll__graph.png</file>
       <file>classbuiltinPacks-members.html</file>
+      <file>classclassEdit.html</file>
+      <file>classclassEdit__inherit__graph.png</file>
+      <file>classclassEdit__coll__graph.png</file>
+      <file>classclassEdit-members.html</file>
       <file>classconfigParser.html</file>
       <file>classconfigParser__inherit__graph.png</file>
       <file>classconfigParser__coll__graph.png</file>
@@ -1287,6 +1309,7 @@
       <file>functions_s.html</file>
       <file>functions_t.html</file>
       <file>functions_u.html</file>
+      <file>functions_v.html</file>
       <file>functions_w.html</file>
       <file>functions_z.html</file>
       <file>functions_~.html</file>
@@ -1310,6 +1333,7 @@
       <file>functions_func_s.html</file>
       <file>functions_func_t.html</file>
       <file>functions_func_u.html</file>
+      <file>functions_func_v.html</file>
       <file>functions_func_w.html</file>
       <file>functions_func_z.html</file>
       <file>functions_func_~.html</file>

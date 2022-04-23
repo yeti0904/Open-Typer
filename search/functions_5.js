@@ -4,7 +4,7 @@ var searchData=
   ['findkey_1',['findKey',['../classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274',1,'keyboardWidget']]],
   ['findmistakes_2',['findMistakes',['../classstringUtils.html#a9d015f21b3e759378ffe9729e6286c84',1,'stringUtils']]],
   ['fingerhand_3',['fingerHand',['../classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20',1,'keyboardWidget']]],
-  ['finish_4',['finish',['../classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72',1,'initialSetup::finish()'],['../classadminSelector.html#a6badf56d6db693f9d3f1b9b05a142e95',1,'adminSelector::finish()']]],
+  ['finish_4',['finish',['../classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72',1,'initialSetup::finish()'],['../classadminSelector.html#a6badf56d6db693f9d3f1b9b05a142e95',1,'adminSelector::finish()'],['../classclassEdit.html#a2190e2445a8ff442f6716a83ff9e520b',1,'classEdit::finish()']]],
   ['fixduplicates_5',['fixDuplicates',['../classpackEditor.html#adc05a78ba2be2683492db4f0842842be',1,'packEditor']]],
   ['font_6',['font',['../classthemeEngine.html#a7ba3c402b5d9173ba7571d42457cfbc6',1,'themeEngine']]],
   ['fontbold_7',['fontBold',['../classthemeEngine.html#a96ce91f0c1c852caf7ce9e370868f170',1,'themeEngine']]],

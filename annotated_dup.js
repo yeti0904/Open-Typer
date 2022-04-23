@@ -3,6 +3,7 @@ var annotated_dup =
     [ "adminSelector", "classadminSelector.html", "classadminSelector" ],
     [ "behaviorOptions", "classbehaviorOptions.html", "classbehaviorOptions" ],
     [ "builtinPacks", "classbuiltinPacks.html", "classbuiltinPacks" ],
+    [ "classEdit", "classclassEdit.html", "classclassEdit" ],
     [ "configParser", "classconfigParser.html", "classconfigParser" ],
     [ "connectionOptions", "classconnectionOptions.html", "classconnectionOptions" ],
     [ "customizationOptions", "classcustomizationOptions.html", "classcustomizationOptions" ],
