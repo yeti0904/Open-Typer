@@ -35,5 +35,6 @@ var annotated_dup =
     [ "themeEngine", "classthemeEngine.html", "classthemeEngine" ],
     [ "timeDialog", "classtimeDialog.html", "classtimeDialog" ],
     [ "Updater", "classUpdater.html", "classUpdater" ],
-    [ "UpdaterDialog", "classUpdaterDialog.html", "classUpdaterDialog" ]
+    [ "UpdaterDialog", "classUpdaterDialog.html", "classUpdaterDialog" ],
+    [ "userEdit", "classuserEdit.html", "classuserEdit" ]
 ];

@@ -22,8 +22,9 @@ var searchData=
   ['resetkeycolor_19',['resetKeyColor',['../classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65',1,'keyboardWidget']]],
   ['resetpanelcolor_20',['resetPanelColor',['../classthemeEngine.html#aa435a1b138ea719e9551d06e930e779d',1,'themeEngine']]],
   ['resetpapercolor_21',['resetPaperColor',['../classthemeEngine.html#a739fdd99dbb80706e2465b53b6c62d83',1,'themeEngine']]],
-  ['resettextcolors_22',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
-  ['responseready_23',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
-  ['restoretext_24',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]],
-  ['roles_25',['roles',['../classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9',1,'databaseManager']]]
+  ['resetpassword_22',['resetPassword',['../classuserEdit.html#a915d722fe57c91e1dd1e55a9b3bac8eb',1,'userEdit']]],
+  ['resettextcolors_23',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
+  ['responseready_24',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
+  ['restoretext_25',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]],
+  ['roles_26',['roles',['../classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9',1,'databaseManager']]]
 ];

@@ -463,6 +463,13 @@
               <section title="UpdaterDialog" ref="classUpdaterDialog#ae6833c46d5feff6d267e113ba23410e4" />
               <section title="~UpdaterDialog" ref="classUpdaterDialog#ab42ebaf4837dfff9f69b8040cbda1fa0" />
             </section>
+            <section title="userEdit" ref="classuserEdit">
+              <section title="userEdit" ref="classuserEdit#aa9c71975e895a6c6c4f23eafafa2622f" />
+              <section title="~userEdit" ref="classuserEdit#a5af8ca30f46e8df4f5ba0ae7163c66d7" />
+              <section title="finish" ref="classuserEdit#a786c48d075bb78bcf7abe27b477466c8" />
+              <section title="resetPassword" ref="classuserEdit#a915d722fe57c91e1dd1e55a9b3bac8eb" />
+              <section title="verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
+            </section>
           </section>
           <section title="Class Index" ref="classes" />
           <section title="Class Hierarchy" ref="hierarchy">
@@ -484,6 +491,7 @@
               <section title="studentEdit" ref="classstudentEdit" />
               <section title="studentOptions" ref="classstudentOptions" />
               <section title="timeDialog" ref="classtimeDialog" />
+              <section title="userEdit" ref="classuserEdit" />
             </section>
             <section title="QFrame" ref="">
               <section title="keyboardWidget" ref="classkeyboardWidget" />
@@ -604,6 +612,7 @@
                   <section title="classedit.h" ref="classedit_8h_source" />
                   <section title="serversetup.h" ref="serversetup_8h_source" />
                   <section title="studentedit.h" ref="studentedit_8h_source" />
+                  <section title="useredit.h" ref="useredit_8h_source" />
                 </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
@@ -665,6 +674,7 @@
       <keyword name="timeDialog" id="timeDialog" ref="classtimeDialog" />
       <keyword name="Updater" id="Updater" ref="classUpdater" />
       <keyword name="UpdaterDialog" id="UpdaterDialog" ref="classUpdaterDialog" />
+      <keyword name="userEdit" id="userEdit" ref="classuserEdit" />
       <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions" />
       <keyword name="addClass" id="databaseManager::addClass" ref="classdatabaseManager#af878d4576b1afaf1f050e18281723a37" />
       <keyword name="addExercise" id="configParser::addExercise" ref="classconfigParser#aed55ed862ae8be82b42385f42193ea65" />
@@ -778,6 +788,7 @@
       <keyword name="finish" id="adminSelector::finish" ref="classadminSelector#a6badf56d6db693f9d3f1b9b05a142e95" />
       <keyword name="finish" id="classEdit::finish" ref="classclassEdit#a2190e2445a8ff442f6716a83ff9e520b" />
       <keyword name="finish" id="studentEdit::finish" ref="classstudentEdit#a57769f6f3bb7e2595c8e5ea2dc3f27a1" />
+      <keyword name="finish" id="userEdit::finish" ref="classuserEdit#a786c48d075bb78bcf7abe27b477466c8" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
       <keyword name="font" id="themeEngine::font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
       <keyword name="fontBold" id="themeEngine::fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
@@ -906,6 +917,7 @@
       <keyword name="resetKeyColor" id="keyboardWidget::resetKeyColor" ref="classkeyboardWidget#aee8d43defa9db5129a48086563f72b65" />
       <keyword name="resetPanelColor" id="themeEngine::resetPanelColor" ref="classthemeEngine#aa435a1b138ea719e9551d06e930e779d" />
       <keyword name="resetPaperColor" id="themeEngine::resetPaperColor" ref="classthemeEngine#a739fdd99dbb80706e2465b53b6c62d83" />
+      <keyword name="resetPassword" id="userEdit::resetPassword" ref="classuserEdit#a915d722fe57c91e1dd1e55a9b3bac8eb" />
       <keyword name="resetTextColors" id="customizationOptions::resetTextColors" ref="classcustomizationOptions#a30e20bd3918caa26fa969223630dda05" />
       <keyword name="responseReady" id="monitorClient::responseReady" ref="classmonitorClient#a6940f786c749647238b2231694fd85e8" />
       <keyword name="restoreText" id="packView::restoreText" ref="classpackView#aa75a453ca470d60c9a3fd68281645d65" />
@@ -1004,6 +1016,7 @@
       <keyword name="updateText" id="OpenTyper::updateText" ref="classOpenTyper#a487997a86245492f13709904e8c47f4b" />
       <keyword name="updateText" id="packView::updateText" ref="classpackView#ab34651a29dd449dea66fa3128ea7b507" />
       <keyword name="updateWidgetSize" id="textView::updateWidgetSize" ref="classtextView#a5ee657378078136e98e01796f9d5e946" />
+      <keyword name="userEdit" id="userEdit::userEdit" ref="classuserEdit#aa9c71975e895a6c6c4f23eafafa2622f" />
       <keyword name="userIDs" id="databaseManager::userIDs" ref="classdatabaseManager#ab2b9f2fa985da59fadd30cc184c6ddfc" />
       <keyword name="userName" id="databaseManager::userName" ref="classdatabaseManager#af8d197bdd972d9d754188ae8f860ca2b" />
       <keyword name="userNames" id="databaseManager::userNames" ref="classdatabaseManager#ac9a52aaed6fc6c0b0dd0e5beeae15cf1" />
@@ -1012,6 +1025,7 @@
       <keyword name="verify" id="classEdit::verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
       <keyword name="verify" id="serverSetup::verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
       <keyword name="verify" id="studentEdit::verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
+      <keyword name="verify" id="userEdit::verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -1045,6 +1059,7 @@
       <keyword name="~timeDialog" id="timeDialog::~timeDialog" ref="classtimeDialog#ac3e69b247c53dc7ed4f3c81fab962766" />
       <keyword name="~Updater" id="Updater::~Updater" ref="classUpdater#a2f8434a97a4f3d3c716bb05abb20621e" />
       <keyword name="~UpdaterDialog" id="UpdaterDialog::~UpdaterDialog" ref="classUpdaterDialog#ab42ebaf4837dfff9f69b8040cbda1fa0" />
+      <keyword name="~userEdit" id="userEdit::~userEdit" ref="classuserEdit#a5af8ca30f46e8df4f5ba0ae7163c66d7" />
     </keywords>
     <files>
       <file>tabs.css</file>
@@ -1102,6 +1117,7 @@
       <file>classedit_8h_source.html</file>
       <file>serversetup_8h_source.html</file>
       <file>studentedit_8h_source.html</file>
+      <file>useredit_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1269,6 +1285,10 @@
       <file>classUpdaterDialog__coll__graph.png</file>
       <file>UpdaterDialog.png</file>
       <file>classUpdaterDialog-members.html</file>
+      <file>classuserEdit.html</file>
+      <file>classuserEdit__inherit__graph.png</file>
+      <file>classuserEdit__coll__graph.png</file>
+      <file>classuserEdit-members.html</file>
       <file>graph_legend.png</file>
       <file>graph_legend.html</file>
       <file>dir_aebb8dcc11953d78e620bbef0b9e2183.html</file>

@@ -170,6 +170,12 @@ var NAVTREEINDEX1 =
 "classtimeDialog.html#a6e0faa9b35e08e2ee5d6741e8f9e76a2":[4,0,33,2],
 "classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766":[4,0,33,1],
 "classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522":[4,0,33,0],
+"classuserEdit.html":[4,0,36],
+"classuserEdit.html#a23e63b7b722d05537b6e45b83b144cb2":[4,0,36,4],
+"classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7":[4,0,36,1],
+"classuserEdit.html#a786c48d075bb78bcf7abe27b477466c8":[4,0,36,2],
+"classuserEdit.html#a915d722fe57c91e1dd1e55a9b3bac8eb":[4,0,36,3],
+"classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f":[4,0,36,0],
 "configfile_8h_source.html":[5,0,0,0,0,0],
 "connection_8h_source.html":[5,0,0,0,1,1],
 "customization_8h_source.html":[5,0,0,0,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "inputlabel_8h_source.html":[5,0,0,0,5,0],
 "keyboard_8h_source.html":[5,0,0,0,1,3],
 "keyboardwidget_8h_source.html":[5,0,0,0,5,1],
-"language_8h_source.html":[5,0,0,0,0,2],
-"languagelist_8h_source.html":[5,0,0,0,5,2],
-"levelsummary_8h_source.html":[5,0,0,0,8],
-"md_docs_data_pages_Build_instructions.html":[3],
-"net_8h_source.html":[5,0,0,0,0,3],
-"opentyper_8h_source.html":[5,0,0,0,9],
-"optionswindow_8h_source.html":[5,0,0,0,1,4]
+"language_8h_source.html":[5,0,0,0,0,2]
 };

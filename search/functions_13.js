@@ -14,9 +14,10 @@ var searchData=
   ['updatetabtitle_11',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
   ['updatetext_12',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
   ['updatewidgetsize_13',['updateWidgetSize',['../classtextView.html#a5ee657378078136e98e01796f9d5e946',1,'textView']]],
-  ['userids_14',['userIDs',['../classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc',1,'databaseManager']]],
-  ['username_15',['userName',['../classdatabaseManager.html#af8d197bdd972d9d754188ae8f860ca2b',1,'databaseManager']]],
-  ['usernames_16',['userNames',['../classdatabaseManager.html#ac9a52aaed6fc6c0b0dd0e5beeae15cf1',1,'databaseManager']]],
-  ['usernickname_17',['userNickname',['../classdatabaseManager.html#a783f56c33f49697ca0fc23c5cc3cb3c3',1,'databaseManager']]],
-  ['userrole_18',['userRole',['../classdatabaseManager.html#a1ad2124ff8f5337388c145b0e83c2deb',1,'databaseManager']]]
+  ['useredit_14',['userEdit',['../classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f',1,'userEdit']]],
+  ['userids_15',['userIDs',['../classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc',1,'databaseManager']]],
+  ['username_16',['userName',['../classdatabaseManager.html#af8d197bdd972d9d754188ae8f860ca2b',1,'databaseManager']]],
+  ['usernames_17',['userNames',['../classdatabaseManager.html#ac9a52aaed6fc6c0b0dd0e5beeae15cf1',1,'databaseManager']]],
+  ['usernickname_18',['userNickname',['../classdatabaseManager.html#a783f56c33f49697ca0fc23c5cc3cb3c3',1,'databaseManager']]],
+  ['userrole_19',['userRole',['../classdatabaseManager.html#a1ad2124ff8f5337388c145b0e83c2deb',1,'databaseManager']]]
 ];
