@@ -22,12 +22,13 @@ var searchData=
   ['_7epaperconfigdialog_19',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]],
   ['_7eserversetup_20',['~serverSetup',['../classserverSetup.html#a5d83fd78e5a68d1183da5fa5b3d67f09',1,'serverSetup']]],
   ['_7estatsdialog_21',['~statsDialog',['../classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955',1,'statsDialog']]],
-  ['_7estudentedit_22',['~studentEdit',['../classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33',1,'studentEdit']]],
-  ['_7estudentoptions_23',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
-  ['_7etextview_24',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
-  ['_7etimedialog_25',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
-  ['_7eupdater_26',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
-  ['_7eupdaterdialog_27',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]],
-  ['_7euseredit_28',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]],
-  ['_7eusermanager_29',['~userManager',['../classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9',1,'userManager']]]
+  ['_7estudentdetails_22',['~studentDetails',['../classstudentDetails.html#af7a767871f4c72c1c6c87a9d350fde87',1,'studentDetails']]],
+  ['_7estudentedit_23',['~studentEdit',['../classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33',1,'studentEdit']]],
+  ['_7estudentoptions_24',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
+  ['_7etextview_25',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
+  ['_7etimedialog_26',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
+  ['_7eupdater_27',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
+  ['_7eupdaterdialog_28',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]],
+  ['_7euseredit_29',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]],
+  ['_7eusermanager_30',['~userManager',['../classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9',1,'userManager']]]
 ];

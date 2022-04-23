@@ -1,5 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"functions_func_w.html":[4,3,1,21],
+"functions_func_z.html":[4,3,1,22],
+"functions_func_~.html":[4,3,1,23],
+"functions_g.html":[4,3,0,6],
+"functions_h.html":[4,3,0,7],
+"functions_i.html":[4,3,0,8],
+"functions_k.html":[4,3,0,9],
+"functions_l.html":[4,3,0,10],
 "functions_m.html":[4,3,0,11],
 "functions_n.html":[4,3,0,12],
 "functions_o.html":[4,3,0,13],
@@ -37,6 +45,7 @@ var NAVTREEINDEX2 =
 "paperconfigdialog_8h_source.html":[5,0,0,0,10],
 "serversetup_8h_source.html":[5,0,0,0,3,3],
 "statsdialog_8h_source.html":[5,0,0,0,11],
+"studentdetails_8h_source.html":[5,0,0,0,3,0,1],
 "studentedit_8h_source.html":[5,0,0,0,3,4],
 "studentoptions_8h_source.html":[5,0,0,0,1,5],
 "textview_8h_source.html":[5,0,0,0,5,3],

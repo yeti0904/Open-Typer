@@ -30,6 +30,7 @@ var annotated_dup =
     [ "serverSetup", "classserverSetup.html", "classserverSetup" ],
     [ "statsDialog", "classstatsDialog.html", "classstatsDialog" ],
     [ "stringUtils", "classstringUtils.html", "classstringUtils" ],
+    [ "studentDetails", "classstudentDetails.html", "classstudentDetails" ],
     [ "studentEdit", "classstudentEdit.html", "classstudentEdit" ],
     [ "studentOptions", "classstudentOptions.html", "classstudentOptions" ],
     [ "textView", "classtextView.html", "classtextView" ],

@@ -378,6 +378,15 @@
               <section title="wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
               <section title="wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
             </section>
+            <section title="studentDetails" ref="classstudentDetails">
+              <section title="studentDetails" ref="classstudentDetails#a285e47a614c7fa26c61ed1bafd7433b0" />
+              <section title="~studentDetails" ref="classstudentDetails#af7a767871f4c72c1c6c87a9d350fde87" />
+              <section title="backClicked" ref="classstudentDetails#a4223d16b876261e2734f3bfd4252a73c" />
+              <section title="changeEvent" ref="classstudentDetails#a52ad21133a97f038b2cb73f372eca468" />
+              <section title="refresh" ref="classstudentDetails#aa584eb65a41aa7dcb1d23e4185f319f2" />
+              <section title="refreshCharts" ref="classstudentDetails#a0488a551935057caa40ba9583d6dc67c" />
+              <section title="refreshTable" ref="classstudentDetails#a49db064c526ee9a21684d79f0e3f78ce" />
+            </section>
             <section title="studentEdit" ref="classstudentEdit">
               <section title="studentEdit" ref="classstudentEdit#aebdb3451c6416fc51b1f80ba4af44bfa" />
               <section title="~studentEdit" ref="classstudentEdit#a9d21d9eb48bb859aeccc60b1900d5a33" />
@@ -548,6 +557,7 @@
               <section title="customizationOptions" ref="classcustomizationOptions" />
               <section title="keyboardOptions" ref="classkeyboardOptions" />
               <section title="packView" ref="classpackView" />
+              <section title="studentDetails" ref="classstudentDetails" />
             </section>
             <section title="stringUtils" ref="classstringUtils" />
           </section>
@@ -635,6 +645,7 @@
                 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
                   <section title="widgets" ref="dir_019c5358adfa715589e533642d8d4095">
                     <section title="classcontrols.h" ref="classcontrols_8h_source" />
+                    <section title="studentdetails.h" ref="studentdetails_8h_source" />
                   </section>
                   <section title="adminselector.h" ref="adminselector_8h_source" />
                   <section title="classedit.h" ref="classedit_8h_source" />
@@ -697,6 +708,7 @@
       <keyword name="serverSetup" id="serverSetup" ref="classserverSetup" />
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
+      <keyword name="studentDetails" id="studentDetails" ref="classstudentDetails" />
       <keyword name="studentEdit" id="studentEdit" ref="classstudentEdit" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
       <keyword name="textView" id="textView" ref="classtextView" />
@@ -725,6 +737,7 @@
       <keyword name="auth" id="databaseManager::auth" ref="classdatabaseManager#afac06c34801227d27396a5ff6878bc5c" />
       <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
       <keyword name="available" id="monitorClient::available" ref="classmonitorClient#a05a2daf88607ee6686dcafd0e35852b3" />
+      <keyword name="backClicked" id="studentDetails::backClicked" ref="classstudentDetails#a4223d16b876261e2734f3bfd4252a73c" />
       <keyword name="behaviorOptions" id="behaviorOptions::behaviorOptions" ref="classbehaviorOptions#a604e707e9c208f8dd09d47714b1d52a2" />
       <keyword name="bgColor" id="themeEngine::bgColor" ref="classthemeEngine#aa65c52eeb24e63eff1b298cf7aa08995" />
       <keyword name="bgColorChanged" id="themeEngine::bgColorChanged" ref="classthemeEngine#a4a8302bfd721f510dce5d78219c6be54" />
@@ -735,6 +748,7 @@
       <keyword name="changeEvent" id="OpenTyper::changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
       <keyword name="changeEvent" id="classControls::changeEvent" ref="classclassControls#a242d53a1e419495dac9ae7be5ad5a31f" />
+      <keyword name="changeEvent" id="studentDetails::changeEvent" ref="classstudentDetails#a52ad21133a97f038b2cb73f372eca468" />
       <keyword name="changeEvent" id="keyboardWidget::changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
       <keyword name="changeEvent" id="textView::changeEvent" ref="classtextView#a195c0b35129f798662b90dc13d79a31d" />
       <keyword name="changeExercisePos" id="packView::changeExercisePos" ref="classpackView#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
@@ -941,8 +955,11 @@
       <keyword name="recordedLessons" id="databaseManager::recordedLessons" ref="classdatabaseManager#a8a2ec1101d861f113356d11a2deb272f" />
       <keyword name="recordedPacks" id="databaseManager::recordedPacks" ref="classdatabaseManager#a27cb96edeb76c15862b860b015846883" />
       <keyword name="recordedSublessons" id="databaseManager::recordedSublessons" ref="classdatabaseManager#a3120627b6776da2003607ca68d5a0134" />
+      <keyword name="refresh" id="studentDetails::refresh" ref="classstudentDetails#aa584eb65a41aa7dcb1d23e4185f319f2" />
       <keyword name="refreshAll" id="OpenTyper::refreshAll" ref="classOpenTyper#a5f0fcfa144eda646ca215b51851e0dd5" />
       <keyword name="refreshCharts" id="classControls::refreshCharts" ref="classclassControls#a70f87b55fb524edef079d0d0c831234a" />
+      <keyword name="refreshCharts" id="studentDetails::refreshCharts" ref="classstudentDetails#a0488a551935057caa40ba9583d6dc67c" />
+      <keyword name="refreshTable" id="studentDetails::refreshTable" ref="classstudentDetails#a49db064c526ee9a21684d79f0e3f78ce" />
       <keyword name="refreshUi" id="packView::refreshUi" ref="classpackView#acc9cd8c1c5399955dcf8e7c542fb66c8" />
       <keyword name="registerKey" id="keyboardWidget::registerKey" ref="classkeyboardWidget#ae7ab31a9b366bfa013300fb78bbb5f23" />
       <keyword name="reject" id="paperConfigDialog::reject" ref="classpaperConfigDialog#ad8aa809dedc36fbf58fdbd36ed125301" />
@@ -1017,6 +1034,7 @@
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
       <keyword name="status" id="databaseManager::status" ref="classdatabaseManager#a2f866e347370dad2e29b42b8de137bde" />
+      <keyword name="studentDetails" id="studentDetails::studentDetails" ref="classstudentDetails#a285e47a614c7fa26c61ed1bafd7433b0" />
       <keyword name="studentEdit" id="studentEdit::studentEdit" ref="classstudentEdit#aebdb3451c6416fc51b1f80ba4af44bfa" />
       <keyword name="studentExercises" id="databaseManager::studentExercises" ref="classdatabaseManager#ac1ecb1809e9a7cf4c722a5d96e88ceef" />
       <keyword name="studentIDs" id="databaseManager::studentIDs" ref="classdatabaseManager#a3576cd3e11b7e8ad5b40a3e6a3c3dfc8" />
@@ -1102,6 +1120,7 @@
       <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog#af6de249a3dd88ad11fcd941545e5d25b" />
       <keyword name="~serverSetup" id="serverSetup::~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
+      <keyword name="~studentDetails" id="studentDetails::~studentDetails" ref="classstudentDetails#af7a767871f4c72c1c6c87a9d350fde87" />
       <keyword name="~studentEdit" id="studentEdit::~studentEdit" ref="classstudentEdit#a9d21d9eb48bb859aeccc60b1900d5a33" />
       <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
       <keyword name="~textView" id="textView::~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
@@ -1170,6 +1189,7 @@
       <file>useredit_8h_source.html</file>
       <file>usermanager_8h_source.html</file>
       <file>classcontrols_8h_source.html</file>
+      <file>studentdetails_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1310,6 +1330,10 @@
       <file>classstatsDialog-members.html</file>
       <file>classstringUtils.html</file>
       <file>classstringUtils-members.html</file>
+      <file>classstudentDetails.html</file>
+      <file>classstudentDetails__inherit__graph.png</file>
+      <file>classstudentDetails__coll__graph.png</file>
+      <file>classstudentDetails-members.html</file>
       <file>classstudentEdit.html</file>
       <file>classstudentEdit__inherit__graph.png</file>
       <file>classstudentEdit__coll__graph.png</file>
