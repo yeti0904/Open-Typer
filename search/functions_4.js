@@ -24,6 +24,7 @@ var searchData=
   ['exercisetextcolorchanged_21',['exerciseTextColorChanged',['../classthemeEngine.html#ab71e654408e0a8875c6f32709228e353',1,'themeEngine']]],
   ['exercisetextstylesheet_22',['exerciseTextStyleSheet',['../classthemeEngine.html#a7c49d1041e50fbb5fde8dad0686c081c',1,'themeEngine']]],
   ['exercisetr_23',['exerciseTr',['../classconfigParser.html#ac57d8392246532e4399d729e6a5b28f9',1,'configParser']]],
-  ['exportdialog_24',['exportDialog',['../classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013',1,'exportDialog']]],
-  ['exporttext_25',['exportText',['../classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62',1,'OpenTyper']]]
+  ['expand_24',['expand',['../classserverManager.html#a4ef1764d26452b2ff11eff5231fdafe7',1,'serverManager']]],
+  ['exportdialog_25',['exportDialog',['../classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013',1,'exportDialog']]],
+  ['exporttext_26',['exportText',['../classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62',1,'OpenTyper']]]
 ];

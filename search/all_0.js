@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addclass_0',['addClass',['../classdatabaseManager.html#af878d4576b1afaf1f050e18281723a37',1,'databaseManager']]],
+  ['addclass_0',['addClass',['../classdatabaseManager.html#af878d4576b1afaf1f050e18281723a37',1,'databaseManager::addClass()'],['../classserverManager.html#a9dc6491322bcb259064c25d4c359ee7d',1,'serverManager::addClass()']]],
   ['addexercise_1',['addExercise',['../classconfigParser.html#aed55ed862ae8be82b42385f42193ea65',1,'configParser::addExercise()'],['../classpackView.html#ab4fe3c8c23f5a0e0a99b94933dd6c37c',1,'packView::addExercise()']]],
   ['addhistoryentry_2',['addHistoryEntry',['../classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1',1,'historyParser']]],
   ['addkey_3',['addKey',['../classkeyboardWidget.html#ae9916723d96608f946343743a23786e8',1,'keyboardWidget']]],

@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['serversetup_0',['serverSetup',['../classserverSetup.html',1,'']]],
-  ['statsdialog_1',['statsDialog',['../classstatsDialog.html',1,'']]],
-  ['stringutils_2',['stringUtils',['../classstringUtils.html',1,'']]],
-  ['studentdetails_3',['studentDetails',['../classstudentDetails.html',1,'']]],
-  ['studentedit_4',['studentEdit',['../classstudentEdit.html',1,'']]],
-  ['studentoptions_5',['studentOptions',['../classstudentOptions.html',1,'']]]
+  ['servermanager_0',['serverManager',['../classserverManager.html',1,'']]],
+  ['serversetup_1',['serverSetup',['../classserverSetup.html',1,'']]],
+  ['statsdialog_2',['statsDialog',['../classstatsDialog.html',1,'']]],
+  ['stringutils_3',['stringUtils',['../classstringUtils.html',1,'']]],
+  ['studentdetails_4',['studentDetails',['../classstudentDetails.html',1,'']]],
+  ['studentedit_5',['studentEdit',['../classstudentEdit.html',1,'']]],
+  ['studentoptions_6',['studentOptions',['../classstudentOptions.html',1,'']]]
 ];

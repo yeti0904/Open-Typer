@@ -358,6 +358,21 @@
               <section title="setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
               <section title="updateLineLength" ref="classpaperConfigDialog#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
             </section>
+            <section title="serverManager" ref="classserverManager">
+              <section title="serverManager" ref="classserverManager#aca926ead4ee667f9db937287519a1a5a" />
+              <section title="~serverManager" ref="classserverManager#ae5e873a162ae2aa65817b34cc3a57642" />
+              <section title="addClass" ref="classserverManager#a9dc6491322bcb259064c25d4c359ee7d" />
+              <section title="changeSchoolName" ref="classserverManager#a818cc42490ab0d5ef0a7862085b8d3bb" />
+              <section title="collapse" ref="classserverManager#ac0f7be54fe6402cdc29937e71e0317f2" />
+              <section title="expand" ref="classserverManager#a4ef1764d26452b2ff11eff5231fdafe7" />
+              <section title="init" ref="classserverManager#a5ab8c8733b39da21a2dc3f97349f0826" />
+              <section title="openClass" ref="classserverManager#addea8bafc2f4c65b478c9a89c9d0ac64" />
+              <section title="openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
+              <section title="openUserManager" ref="classserverManager#a764fc15601cfdc879ffcdc1c6c9322a6" />
+              <section title="removeClass" ref="classserverManager#ad989918f50fefa84def640b2d4f3d578" />
+              <section title="widgetCollapsed" ref="classserverManager#a14f1e218c0c3b4d2b4bf1afe2165d11b" />
+              <section title="widgetExpanded" ref="classserverManager#adf94679b27957d02e94ff0f694bd44df" />
+            </section>
             <section title="serverSetup" ref="classserverSetup">
               <section title="serverSetup" ref="classserverSetup#a8257e8a69844f9ce0e41e860fc2c3cb5" />
               <section title="~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
@@ -557,6 +572,7 @@
               <section title="customizationOptions" ref="classcustomizationOptions" />
               <section title="keyboardOptions" ref="classkeyboardOptions" />
               <section title="packView" ref="classpackView" />
+              <section title="serverManager" ref="classserverManager" />
               <section title="studentDetails" ref="classstudentDetails" />
             </section>
             <section title="stringUtils" ref="classstringUtils" />
@@ -645,6 +661,7 @@
                 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
                   <section title="widgets" ref="dir_019c5358adfa715589e533642d8d4095">
                     <section title="classcontrols.h" ref="classcontrols_8h_source" />
+                    <section title="servermanager.h" ref="servermanager_8h_source" />
                     <section title="studentdetails.h" ref="studentdetails_8h_source" />
                   </section>
                   <section title="adminselector.h" ref="adminselector_8h_source" />
@@ -705,6 +722,7 @@
       <keyword name="packSelector" id="packSelector" ref="classpackSelector" />
       <keyword name="packView" id="packView" ref="classpackView" />
       <keyword name="paperConfigDialog" id="paperConfigDialog" ref="classpaperConfigDialog" />
+      <keyword name="serverManager" id="serverManager" ref="classserverManager" />
       <keyword name="serverSetup" id="serverSetup" ref="classserverSetup" />
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
@@ -720,6 +738,7 @@
       <keyword name="userManager" id="userManager" ref="classuserManager" />
       <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions" />
       <keyword name="addClass" id="databaseManager::addClass" ref="classdatabaseManager#af878d4576b1afaf1f050e18281723a37" />
+      <keyword name="addClass" id="serverManager::addClass" ref="classserverManager#a9dc6491322bcb259064c25d4c359ee7d" />
       <keyword name="addExercise" id="configParser::addExercise" ref="classconfigParser#aed55ed862ae8be82b42385f42193ea65" />
       <keyword name="addExercise" id="packView::addExercise" ref="classpackView#ab4fe3c8c23f5a0e0a99b94933dd6c37c" />
       <keyword name="addHistoryEntry" id="historyParser::addHistoryEntry" ref="classhistoryParser#a68b36b38f036f0a5cc5cf5906a866fe1" />
@@ -767,6 +786,7 @@
       <keyword name="changePaperColor" id="customizationOptions::changePaperColor" ref="classcustomizationOptions#aa1c74da1aa50bef2814b5e1bfda35205" />
       <keyword name="changeRepeating" id="packView::changeRepeating" ref="classpackView#aa27ec7d9ffe06948c110d13cbbc76da0" />
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
+      <keyword name="changeSchoolName" id="serverManager::changeSchoolName" ref="classserverManager#a818cc42490ab0d5ef0a7862085b8d3bb" />
       <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
       <keyword name="classControls" id="classControls::classControls" ref="classclassControls#a490fc7075794f498f3315e10b83bfd97" />
@@ -783,6 +803,7 @@
       <keyword name="closeEvent" id="packEditor::closeEvent" ref="classpackEditor#aa403472b118aef534f8093106316ce05" />
       <keyword name="closeFile" id="packView::closeFile" ref="classpackView#a0d7279567c49cfa13efb450657875255" />
       <keyword name="closeTab" id="packEditor::closeTab" ref="classpackEditor#a8029fd89ffc29702456698439e7a1d39" />
+      <keyword name="collapse" id="serverManager::collapse" ref="classserverManager#ac0f7be54fe6402cdc29937e71e0317f2" />
       <keyword name="colorChanged" id="themeEngine::colorChanged" ref="classthemeEngine#a49c5f4d22d2ca28548d0ebedc9284582" />
       <keyword name="compareLists" id="stringUtils::compareLists" ref="classstringUtils#aeeb3f5d9158bbaf2946ca13e7643164f" />
       <keyword name="compareStrings" id="stringUtils::compareStrings" ref="classstringUtils#a371e6b1e856605071f15eee3d27ae418" />
@@ -830,6 +851,7 @@
       <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
       <keyword name="exerciseTextStyleSheet" id="themeEngine::exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
       <keyword name="exerciseTr" id="configParser::exerciseTr" ref="classconfigParser#ac57d8392246532e4399d729e6a5b28f9" />
+      <keyword name="expand" id="serverManager::expand" ref="classserverManager#a4ef1764d26452b2ff11eff5231fdafe7" />
       <keyword name="exportDialog" id="exportDialog::exportDialog" ref="classexportDialog#a2bd4e887127aeeacb22de76b4e22e013" />
       <keyword name="exportText" id="OpenTyper::exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
@@ -868,6 +890,7 @@
       <keyword name="init" id="customizationOptions::init" ref="classcustomizationOptions#a71737219bdf919309735605c5633dbd5" />
       <keyword name="init" id="optionsWindow::init" ref="classoptionsWindow#aa1d9b8a39432d285200464166c704681" />
       <keyword name="init" id="packEditor::init" ref="classpackEditor#a083811db9b0ccd3cfd3604563aa1e953" />
+      <keyword name="init" id="serverManager::init" ref="classserverManager#a5ab8c8733b39da21a2dc3f97349f0826" />
       <keyword name="initExercise" id="configParser::initExercise" ref="classconfigParser#a945cb810c17b0475b3a5e3892fad6d5c" />
       <keyword name="initExercise" id="configParser::initExercise" ref="classconfigParser#a5ab3662fbf05c73db7d6e40a26f80c8c" />
       <keyword name="initialSetup" id="initialSetup::initialSetup" ref="classinitialSetup#a2c04fb32795d022271a129609da6f5dd" />
@@ -922,7 +945,9 @@
       <keyword name="notClosed" id="packView::notClosed" ref="classpackView#a4a2e6a81dd16f308cb1e3a2639e23e94" />
       <keyword name="open" id="configParser::open" ref="classconfigParser#a82b6a29bf6a95792e94137d3925f5021" />
       <keyword name="open" id="databaseManager::open" ref="classdatabaseManager#a96ac17faa095ebcf1c90967f99561bb6" />
+      <keyword name="openClass" id="serverManager::openClass" ref="classserverManager#addea8bafc2f4c65b478c9a89c9d0ac64" />
       <keyword name="openDetails" id="classControls::openDetails" ref="classclassControls#a4f72d70048afef1fe87f9ac93d76de41" />
+      <keyword name="openDetails" id="serverManager::openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />
       <keyword name="openEditor" id="keyboardOptions::openEditor" ref="classkeyboardOptions#a5dbc636d087f05c50bd4ad0e0a0b9ee8" />
       <keyword name="openExerciseFromFile" id="OpenTyper::openExerciseFromFile" ref="classOpenTyper#a1152e24f5c093f46693ec2547c1537c9" />
@@ -933,6 +958,7 @@
       <keyword name="openPrebuilt" id="packEditor::openPrebuilt" ref="classpackEditor#ae4e25dd318728fc46546e7116e751a91" />
       <keyword name="openStudentOptions" id="OpenTyper::openStudentOptions" ref="classOpenTyper#a2bdf4603d558c6d7649b1b612325276c" />
       <keyword name="OpenTyper" id="OpenTyper::OpenTyper" ref="classOpenTyper#a045934c687780e3a6b6c0c9beb1668ae" />
+      <keyword name="openUserManager" id="serverManager::openUserManager" ref="classserverManager#a764fc15601cfdc879ffcdc1c6c9322a6" />
       <keyword name="optionsWindow" id="optionsWindow::optionsWindow" ref="classoptionsWindow#a45fae6808c165b25c933492140379fd3" />
       <keyword name="packEditor" id="packEditor::packEditor" ref="classpackEditor#a2531c78a0bd8650d5395147566ed50c9" />
       <keyword name="packName" id="builtinPacks::packName" ref="classbuiltinPacks#a6b49a3342d9edcadd208da1cc6b550b0" />
@@ -964,6 +990,7 @@
       <keyword name="registerKey" id="keyboardWidget::registerKey" ref="classkeyboardWidget#ae7ab31a9b366bfa013300fb78bbb5f23" />
       <keyword name="reject" id="paperConfigDialog::reject" ref="classpaperConfigDialog#ad8aa809dedc36fbf58fdbd36ed125301" />
       <keyword name="removeClass" id="databaseManager::removeClass" ref="classdatabaseManager#a00ea196285d713efd7e30a9e2f2052a7" />
+      <keyword name="removeClass" id="serverManager::removeClass" ref="classserverManager#ad989918f50fefa84def640b2d4f3d578" />
       <keyword name="removeExercise" id="packView::removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
       <keyword name="removeStudent" id="classControls::removeStudent" ref="classclassControls#a36196fc52adb22c50458b9d38787721c" />
       <keyword name="removeUser" id="databaseManager::removeUser" ref="classdatabaseManager#a5e83d9433c880b0047d9f537a860cde0" />
@@ -989,6 +1016,7 @@
       <keyword name="selectedConfig" id="packSelector::selectedConfig" ref="classpackSelector#a5ff2264ada61381338ba429d1e36d008" />
       <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient#a01e7aa8ae84dc8164badb27829f9fe79" />
       <keyword name="serverAddress" id="monitorClient::serverAddress" ref="classmonitorClient#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
+      <keyword name="serverManager" id="serverManager::serverManager" ref="classserverManager#aca926ead4ee667f9db937287519a1a5a" />
       <keyword name="serverPort" id="monitorClient::serverPort" ref="classmonitorClient#a3cc04faa170d58b57cb04bb80893b946" />
       <keyword name="serverSetup" id="serverSetup::serverSetup" ref="classserverSetup#a8257e8a69844f9ce0e41e860fc2c3cb5" />
       <keyword name="setBgColor" id="themeEngine::setBgColor" ref="classthemeEngine#a1a655d52c680193f382ba87b6736f487" />
@@ -1093,6 +1121,8 @@
       <keyword name="verify" id="userManager::verify" ref="classuserManager#a8d3e3f9e7f9feefc983dd14c4a25bc8e" />
       <keyword name="verify" id="classControls::verify" ref="classclassControls#a1a17121155cb9a41f72f103346e8ce40" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
+      <keyword name="widgetCollapsed" id="serverManager::widgetCollapsed" ref="classserverManager#a14f1e218c0c3b4d2b4bf1afe2165d11b" />
+      <keyword name="widgetExpanded" id="serverManager::widgetExpanded" ref="classserverManager#adf94679b27957d02e94ff0f694bd44df" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
@@ -1118,6 +1148,7 @@
       <keyword name="~packSelector" id="packSelector::~packSelector" ref="classpackSelector#ae5c599cf2c312ad8fad8d0171946f10b" />
       <keyword name="~packView" id="packView::~packView" ref="classpackView#a28036733eb5e69d1ae3dc7d6cb8f6898" />
       <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog#af6de249a3dd88ad11fcd941545e5d25b" />
+      <keyword name="~serverManager" id="serverManager::~serverManager" ref="classserverManager#ae5e873a162ae2aa65817b34cc3a57642" />
       <keyword name="~serverSetup" id="serverSetup::~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
       <keyword name="~studentDetails" id="studentDetails::~studentDetails" ref="classstudentDetails#af7a767871f4c72c1c6c87a9d350fde87" />
@@ -1189,6 +1220,7 @@
       <file>useredit_8h_source.html</file>
       <file>usermanager_8h_source.html</file>
       <file>classcontrols_8h_source.html</file>
+      <file>servermanager_8h_source.html</file>
       <file>studentdetails_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
@@ -1319,6 +1351,10 @@
       <file>classpaperConfigDialog__coll__graph.png</file>
       <file>paperConfigDialog.png</file>
       <file>classpaperConfigDialog-members.html</file>
+      <file>classserverManager.html</file>
+      <file>classserverManager__inherit__graph.png</file>
+      <file>classserverManager__coll__graph.png</file>
+      <file>classserverManager-members.html</file>
       <file>classserverSetup.html</file>
       <file>classserverSetup__inherit__graph.png</file>
       <file>classserverSetup__coll__graph.png</file>

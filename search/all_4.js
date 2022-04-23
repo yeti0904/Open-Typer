@@ -13,7 +13,7 @@ var searchData=
   ['exerciseid_10',['exerciseID',['../classconfigParser.html#add14cf29749e2e59f136c959f90b6272',1,'configParser']]],
   ['exerciseline_11',['exerciseLine',['../classconfigParser.html#a1f838b1e16a47bba35ffa184d7f5e5cc',1,'configParser']]],
   ['exerciselinelength_12',['exerciseLineLength',['../classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad',1,'configParser']]],
-  ['exerciserawtext_13',['exerciseRawText',['../classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b',1,'configParser::exerciseRawText(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724',1,'configParser::exerciseRawText(const QString line)']]],
+  ['exerciserawtext_13',['exerciseRawText',['../classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724',1,'configParser::exerciseRawText(const QString line)'],['../classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b',1,'configParser::exerciseRawText(int lesson, int sublesson, int exercise)']]],
   ['exercisereceived_14',['exerciseReceived',['../classmonitorClient.html#a8920f4dfd14ad6a737708dfa32db8bcd',1,'monitorClient']]],
   ['exerciserepeatbool_15',['exerciseRepeatBool',['../classconfigParser.html#a37d3235f050bb2b8066fc56ffd71709a',1,'configParser::exerciseRepeatBool(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a63e44b8aea3e62963145781ab4cd73df',1,'configParser::exerciseRepeatBool(const QString config)']]],
   ['exerciserepeatconfig_16',['exerciseRepeatConfig',['../classconfigParser.html#a58ab2a6c3f844fc996051ac9ee752431',1,'configParser']]],
@@ -24,6 +24,7 @@ var searchData=
   ['exercisetextcolorchanged_21',['exerciseTextColorChanged',['../classthemeEngine.html#ab71e654408e0a8875c6f32709228e353',1,'themeEngine']]],
   ['exercisetextstylesheet_22',['exerciseTextStyleSheet',['../classthemeEngine.html#a7c49d1041e50fbb5fde8dad0686c081c',1,'themeEngine']]],
   ['exercisetr_23',['exerciseTr',['../classconfigParser.html#ac57d8392246532e4399d729e6a5b28f9',1,'configParser']]],
-  ['exportdialog_24',['exportDialog',['../classexportDialog.html',1,'exportDialog'],['../classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013',1,'exportDialog::exportDialog()']]],
-  ['exporttext_25',['exportText',['../classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62',1,'OpenTyper']]]
+  ['expand_24',['expand',['../classserverManager.html#a4ef1764d26452b2ff11eff5231fdafe7',1,'serverManager']]],
+  ['exportdialog_25',['exportDialog',['../classexportDialog.html',1,'exportDialog'],['../classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013',1,'exportDialog::exportDialog()']]],
+  ['exporttext_26',['exportText',['../classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62',1,'OpenTyper']]]
 ];

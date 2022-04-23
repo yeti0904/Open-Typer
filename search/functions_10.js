@@ -13,7 +13,7 @@ var searchData=
   ['refreshui_10',['refreshUi',['../classpackView.html#acc9cd8c1c5399955dcf8e7c542fb66c8',1,'packView']]],
   ['registerkey_11',['registerKey',['../classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23',1,'keyboardWidget']]],
   ['reject_12',['reject',['../classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301',1,'paperConfigDialog']]],
-  ['removeclass_13',['removeClass',['../classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7',1,'databaseManager']]],
+  ['removeclass_13',['removeClass',['../classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7',1,'databaseManager::removeClass()'],['../classserverManager.html#ad989918f50fefa84def640b2d4f3d578',1,'serverManager::removeClass()']]],
   ['removeexercise_14',['removeExercise',['../classpackView.html#adcd3860837b5b61136d888c13bc85a05',1,'packView']]],
   ['removestudent_15',['removeStudent',['../classclassControls.html#a36196fc52adb22c50458b9d38787721c',1,'classControls']]],
   ['removeuser_16',['removeUser',['../classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0',1,'databaseManager::removeUser()'],['../classuserManager.html#a68b9c4a42323a9d896ae5c0d585f339d',1,'userManager::removeUser()']]],

@@ -52,6 +52,7 @@ var hierarchy =
       [ "customizationOptions", "classcustomizationOptions.html", null ],
       [ "keyboardOptions", "classkeyboardOptions.html", null ],
       [ "packView", "classpackView.html", null ],
+      [ "serverManager", "classserverManager.html", null ],
       [ "studentDetails", "classstudentDetails.html", null ]
     ] ],
     [ "stringUtils", "classstringUtils.html", null ]

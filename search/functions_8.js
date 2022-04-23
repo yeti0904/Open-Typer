@@ -1,7 +1,7 @@
 var searchData=
 [
   ['increasefontsize_0',['increaseFontSize',['../classthemeEngine.html#a9c81ea8db84d6a92d9286e33c80a5082',1,'themeEngine']]],
-  ['init_1',['init',['../classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5',1,'customizationOptions::init()'],['../classoptionsWindow.html#aa1d9b8a39432d285200464166c704681',1,'optionsWindow::init()'],['../classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953',1,'packEditor::init()']]],
+  ['init_1',['init',['../classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5',1,'customizationOptions::init()'],['../classoptionsWindow.html#aa1d9b8a39432d285200464166c704681',1,'optionsWindow::init()'],['../classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953',1,'packEditor::init()'],['../classserverManager.html#a5ab8c8733b39da21a2dc3f97349f0826',1,'serverManager::init()']]],
   ['initexercise_2',['initExercise',['../classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c',1,'configParser::initExercise(QString exercise, int lineLength)'],['../classconfigParser.html#a5ab3662fbf05c73db7d6e40a26f80c8c',1,'configParser::initExercise(QString exercise, int lineLength, bool lineCountLimit, int currentLine)']]],
   ['initialsetup_3',['initialSetup',['../classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd',1,'initialSetup']]],
   ['inittext_4',['initText',['../classconfigParser.html#aff3c70f09bd55b50de5fe951d8fa1907',1,'configParser']]],
