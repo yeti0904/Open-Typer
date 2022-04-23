@@ -344,6 +344,12 @@
               <section title="setIncludeNewLines" ref="classpaperConfigDialog#a2516e00c55ea34f28a9ea0e8b86625d6" />
               <section title="updateLineLength" ref="classpaperConfigDialog#a1fbcba6f6e7ee29f2a7e98f191e26d8b" />
             </section>
+            <section title="serverSetup" ref="classserverSetup">
+              <section title="serverSetup" ref="classserverSetup#a8257e8a69844f9ce0e41e860fc2c3cb5" />
+              <section title="~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
+              <section title="save" ref="classserverSetup#a26fe34b68fcc1e047d9cdf619660bc35" />
+              <section title="verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
+            </section>
             <section title="statsDialog" ref="classstatsDialog">
               <section title="statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
               <section title="~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
@@ -467,6 +473,7 @@
               <section title="packEditor" ref="classpackEditor" />
               <section title="packSelector" ref="classpackSelector" />
               <section title="paperConfigDialog" ref="classpaperConfigDialog" />
+              <section title="serverSetup" ref="classserverSetup" />
               <section title="statsDialog" ref="classstatsDialog" />
               <section title="studentOptions" ref="classstudentOptions" />
               <section title="timeDialog" ref="classtimeDialog" />
@@ -588,6 +595,7 @@
                 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
                   <section title="adminselector.h" ref="adminselector_8h_source" />
                   <section title="classedit.h" ref="classedit_8h_source" />
+                  <section title="serversetup.h" ref="serversetup_8h_source" />
                 </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
@@ -639,6 +647,7 @@
       <keyword name="packSelector" id="packSelector" ref="classpackSelector" />
       <keyword name="packView" id="packView" ref="classpackView" />
       <keyword name="paperConfigDialog" id="paperConfigDialog" ref="classpaperConfigDialog" />
+      <keyword name="serverSetup" id="serverSetup" ref="classserverSetup" />
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
@@ -892,12 +901,14 @@
       <keyword name="restoreText" id="packView::restoreText" ref="classpackView#aa75a453ca470d60c9a3fd68281645d65" />
       <keyword name="roles" id="databaseManager::roles" ref="classdatabaseManager#a5da00577367c077613a4d26b06efbca9" />
       <keyword name="save" id="packView::save" ref="classpackView#a50bd40060900e60d3d7229b5b9b1ba00" />
+      <keyword name="save" id="serverSetup::save" ref="classserverSetup#a26fe34b68fcc1e047d9cdf619660bc35" />
       <keyword name="saveAs" id="packView::saveAs" ref="classpackView#ac2bebdcab08ff9693863e0525da61be8" />
       <keyword name="selectCurrentFullTheme" id="customizationOptions::selectCurrentFullTheme" ref="classcustomizationOptions#a2089f4ccdfb3f012e82d714ce6c7bb09" />
       <keyword name="selectedConfig" id="packSelector::selectedConfig" ref="classpackSelector#a5ff2264ada61381338ba429d1e36d008" />
       <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient#a01e7aa8ae84dc8164badb27829f9fe79" />
       <keyword name="serverAddress" id="monitorClient::serverAddress" ref="classmonitorClient#a7c8b7de761f15c6b59fb3c2f2b6e0001" />
       <keyword name="serverPort" id="monitorClient::serverPort" ref="classmonitorClient#a3cc04faa170d58b57cb04bb80893b946" />
+      <keyword name="serverSetup" id="serverSetup::serverSetup" ref="classserverSetup#a8257e8a69844f9ce0e41e860fc2c3cb5" />
       <keyword name="setBgColor" id="themeEngine::setBgColor" ref="classthemeEngine#a1a655d52c680193f382ba87b6736f487" />
       <keyword name="setBoldText" id="customizationOptions::setBoldText" ref="classcustomizationOptions#a53ae5e03aace0092906fcbecd5abf39e" />
       <keyword name="setColors" id="OpenTyper::setColors" ref="classOpenTyper#ac4ac399f836ab91bc116d6a951cca9f5" />
@@ -988,6 +999,7 @@
       <keyword name="userNickname" id="databaseManager::userNickname" ref="classdatabaseManager#a783f56c33f49697ca0fc23c5cc3cb3c3" />
       <keyword name="userRole" id="databaseManager::userRole" ref="classdatabaseManager#a1ad2124ff8f5337388c145b0e83c2deb" />
       <keyword name="verify" id="classEdit::verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
+      <keyword name="verify" id="serverSetup::verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -1013,6 +1025,7 @@
       <keyword name="~packSelector" id="packSelector::~packSelector" ref="classpackSelector#ae5c599cf2c312ad8fad8d0171946f10b" />
       <keyword name="~packView" id="packView::~packView" ref="classpackView#a28036733eb5e69d1ae3dc7d6cb8f6898" />
       <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog#af6de249a3dd88ad11fcd941545e5d25b" />
+      <keyword name="~serverSetup" id="serverSetup::~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
       <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
       <keyword name="~textView" id="textView::~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
@@ -1074,6 +1087,7 @@
       <file>paperconfigdialog_8h_source.html</file>
       <file>adminselector_8h_source.html</file>
       <file>classedit_8h_source.html</file>
+      <file>serversetup_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1199,6 +1213,10 @@
       <file>classpaperConfigDialog__coll__graph.png</file>
       <file>paperConfigDialog.png</file>
       <file>classpaperConfigDialog-members.html</file>
+      <file>classserverSetup.html</file>
+      <file>classserverSetup__inherit__graph.png</file>
+      <file>classserverSetup__coll__graph.png</file>
+      <file>classserverSetup-members.html</file>
       <file>classstatsDialog.html</file>
       <file>classstatsDialog__inherit__graph.png</file>
       <file>classstatsDialog__coll__graph.png</file>
