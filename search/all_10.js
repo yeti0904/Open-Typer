@@ -12,7 +12,7 @@ var searchData=
   ['reject_9',['reject',['../classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301',1,'paperConfigDialog']]],
   ['removeclass_10',['removeClass',['../classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7',1,'databaseManager']]],
   ['removeexercise_11',['removeExercise',['../classpackView.html#adcd3860837b5b61136d888c13bc85a05',1,'packView']]],
-  ['removeuser_12',['removeUser',['../classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0',1,'databaseManager']]],
+  ['removeuser_12',['removeUser',['../classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0',1,'databaseManager::removeUser()'],['../classuserManager.html#a68b9c4a42323a9d896ae5c0d585f339d',1,'userManager::removeUser()']]],
   ['reopen_13',['reopen',['../classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390',1,'configParser']]],
   ['repeatlevel_14',['repeatLevel',['../classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e',1,'OpenTyper']]],
   ['resetbgcolor_15',['resetBgColor',['../classthemeEngine.html#a593afd921ade6d6e077c757641819099',1,'themeEngine']]],

@@ -42,7 +42,7 @@ var searchData=
   ['settotalhits_39',['setTotalHits',['../classlevelSummary.html#a884516f268f794b0ac128fc3d92ec2b1',1,'levelSummary']]],
   ['settotaltime_40',['setTotalTime',['../classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498',1,'levelSummary']]],
   ['setunderlinetext_41',['setUnderlineText',['../classcustomizationOptions.html#ac1c22875b009e1bb8a0ec44386876950',1,'customizationOptions']]],
-  ['setuplist_42',['setupList',['../classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd',1,'optionsWindow']]],
+  ['setuplist_42',['setupList',['../classoptionsWindow.html#a0929a2fca111e2e73dd77c3154ce6dbd',1,'optionsWindow::setupList()'],['../classuserManager.html#a175b68a2b7f04a46623dacb6c326eb65',1,'userManager::setupList()']]],
   ['setverticaladjust_43',['setVerticalAdjust',['../classtextView.html#a8436c65cc75d5ede073ac7b8d90d743c',1,'textView']]],
   ['showexercisestats_44',['showExerciseStats',['../classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d',1,'OpenTyper']]],
   ['startlevel_45',['startLevel',['../classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f',1,'OpenTyper']]],

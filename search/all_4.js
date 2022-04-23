@@ -1,7 +1,7 @@
 var searchData=
 [
   ['editclass_0',['editClass',['../classdatabaseManager.html#a343911c46bba021611864446002f513f',1,'databaseManager']]],
-  ['edituser_1',['editUser',['../classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae',1,'databaseManager']]],
+  ['edituser_1',['editUser',['../classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae',1,'databaseManager::editUser()'],['../classuserManager.html#a2741e17eb61158b8b009aa37e8f7de80',1,'userManager::editUser()']]],
   ['enabled_2',['enabled',['../classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f',1,'monitorClient']]],
   ['endexercise_3',['endExercise',['../classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9',1,'OpenTyper']]],
   ['errorfont_4',['errorFont',['../classthemeEngine.html#a739c27fc5cf0842932941c31c23ac092',1,'themeEngine']]],

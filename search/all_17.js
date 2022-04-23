@@ -27,5 +27,6 @@ var searchData=
   ['_7etimedialog_24',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
   ['_7eupdater_25',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
   ['_7eupdaterdialog_26',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]],
-  ['_7euseredit_27',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]]
+  ['_7euseredit_27',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]],
+  ['_7eusermanager_28',['~userManager',['../classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9',1,'userManager']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['editclass_0',['editClass',['../classdatabaseManager.html#a343911c46bba021611864446002f513f',1,'databaseManager']]],
-  ['edituser_1',['editUser',['../classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae',1,'databaseManager']]],
+  ['edituser_1',['editUser',['../classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae',1,'databaseManager::editUser()'],['../classuserManager.html#a2741e17eb61158b8b009aa37e8f7de80',1,'userManager::editUser()']]],
   ['enabled_2',['enabled',['../classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f',1,'monitorClient']]],
   ['endexercise_3',['endExercise',['../classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9',1,'OpenTyper']]],
   ['errorfont_4',['errorFont',['../classthemeEngine.html#a739c27fc5cf0842932941c31c23ac092',1,'themeEngine']]],
@@ -12,7 +12,7 @@ var searchData=
   ['exerciseid_9',['exerciseID',['../classconfigParser.html#add14cf29749e2e59f136c959f90b6272',1,'configParser']]],
   ['exerciseline_10',['exerciseLine',['../classconfigParser.html#a1f838b1e16a47bba35ffa184d7f5e5cc',1,'configParser']]],
   ['exerciselinelength_11',['exerciseLineLength',['../classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad',1,'configParser']]],
-  ['exerciserawtext_12',['exerciseRawText',['../classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b',1,'configParser::exerciseRawText(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724',1,'configParser::exerciseRawText(const QString line)']]],
+  ['exerciserawtext_12',['exerciseRawText',['../classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724',1,'configParser::exerciseRawText(const QString line)'],['../classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b',1,'configParser::exerciseRawText(int lesson, int sublesson, int exercise)']]],
   ['exercisereceived_13',['exerciseReceived',['../classmonitorClient.html#a8920f4dfd14ad6a737708dfa32db8bcd',1,'monitorClient']]],
   ['exerciserepeatbool_14',['exerciseRepeatBool',['../classconfigParser.html#a37d3235f050bb2b8066fc56ffd71709a',1,'configParser::exerciseRepeatBool(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a63e44b8aea3e62963145781ab4cd73df',1,'configParser::exerciseRepeatBool(const QString config)']]],
   ['exerciserepeatconfig_15',['exerciseRepeatConfig',['../classconfigParser.html#a58ab2a6c3f844fc996051ac9ee752431',1,'configParser']]],

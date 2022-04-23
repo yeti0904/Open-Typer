@@ -470,6 +470,15 @@
               <section title="resetPassword" ref="classuserEdit#a915d722fe57c91e1dd1e55a9b3bac8eb" />
               <section title="verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
             </section>
+            <section title="userManager" ref="classuserManager">
+              <section title="userManager" ref="classuserManager#aad8b4e5cae76715c39a412357cab67d1" />
+              <section title="~userManager" ref="classuserManager#afd53a9e23879b4cf50bbac46b9afcfc9" />
+              <section title="addUser" ref="classuserManager#af12e04d197c6432b8657576fe70df4af" />
+              <section title="editUser" ref="classuserManager#a2741e17eb61158b8b009aa37e8f7de80" />
+              <section title="removeUser" ref="classuserManager#a68b9c4a42323a9d896ae5c0d585f339d" />
+              <section title="setupList" ref="classuserManager#a175b68a2b7f04a46623dacb6c326eb65" />
+              <section title="verify" ref="classuserManager#a8d3e3f9e7f9feefc983dd14c4a25bc8e" />
+            </section>
           </section>
           <section title="Class Index" ref="classes" />
           <section title="Class Hierarchy" ref="hierarchy">
@@ -492,6 +501,7 @@
               <section title="studentOptions" ref="classstudentOptions" />
               <section title="timeDialog" ref="classtimeDialog" />
               <section title="userEdit" ref="classuserEdit" />
+              <section title="userManager" ref="classuserManager" />
             </section>
             <section title="QFrame" ref="">
               <section title="keyboardWidget" ref="classkeyboardWidget" />
@@ -613,6 +623,7 @@
                   <section title="serversetup.h" ref="serversetup_8h_source" />
                   <section title="studentedit.h" ref="studentedit_8h_source" />
                   <section title="useredit.h" ref="useredit_8h_source" />
+                  <section title="usermanager.h" ref="usermanager_8h_source" />
                 </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
@@ -675,6 +686,7 @@
       <keyword name="Updater" id="Updater" ref="classUpdater" />
       <keyword name="UpdaterDialog" id="UpdaterDialog" ref="classUpdaterDialog" />
       <keyword name="userEdit" id="userEdit" ref="classuserEdit" />
+      <keyword name="userManager" id="userManager" ref="classuserManager" />
       <keyword name="Build instructions" id="Build instructions" ref="md_docs_data_pages_Build_instructions" />
       <keyword name="addClass" id="databaseManager::addClass" ref="classdatabaseManager#af878d4576b1afaf1f050e18281723a37" />
       <keyword name="addExercise" id="configParser::addExercise" ref="classconfigParser#aed55ed862ae8be82b42385f42193ea65" />
@@ -685,6 +697,7 @@
       <keyword name="addStudentToClass" id="databaseManager::addStudentToClass" ref="classdatabaseManager#ab9eb9f78112db2032729c898e3f1b745" />
       <keyword name="addSublesson" id="packView::addSublesson" ref="classpackView#af80c1cef07727e552344f54ce4033b65" />
       <keyword name="addUser" id="databaseManager::addUser" ref="classdatabaseManager#a95129c5525343b67a83e163ef9bcf5e0" />
+      <keyword name="addUser" id="userManager::addUser" ref="classuserManager#af12e04d197c6432b8657576fe70df4af" />
       <keyword name="administratorIDs" id="databaseManager::administratorIDs" ref="classdatabaseManager#af9337ba99093461374a60ff4c2224dbc" />
       <keyword name="administratorNames" id="databaseManager::administratorNames" ref="classdatabaseManager#a8ae24bffbae15c7a4d222774d690ba97" />
       <keyword name="adminSelector" id="adminSelector::adminSelector" ref="classadminSelector#ae8c7c8639d2b04422fe66025378636d6" />
@@ -754,6 +767,7 @@
       <keyword name="disconnected" id="monitorClient::disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
       <keyword name="editClass" id="databaseManager::editClass" ref="classdatabaseManager#a343911c46bba021611864446002f513f" />
       <keyword name="editUser" id="databaseManager::editUser" ref="classdatabaseManager#a79bfebbb46838cba30ed3dbca430f1ae" />
+      <keyword name="editUser" id="userManager::editUser" ref="classuserManager#a2741e17eb61158b8b009aa37e8f7de80" />
       <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
       <keyword name="endExercise" id="OpenTyper::endExercise" ref="classOpenTyper#a48c09e64bddca502b4593b15f9eae8b9" />
       <keyword name="errorFont" id="themeEngine::errorFont" ref="classthemeEngine#a739c27fc5cf0842932941c31c23ac092" />
@@ -908,6 +922,7 @@
       <keyword name="removeClass" id="databaseManager::removeClass" ref="classdatabaseManager#a00ea196285d713efd7e30a9e2f2052a7" />
       <keyword name="removeExercise" id="packView::removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
       <keyword name="removeUser" id="databaseManager::removeUser" ref="classdatabaseManager#a5e83d9433c880b0047d9f537a860cde0" />
+      <keyword name="removeUser" id="userManager::removeUser" ref="classuserManager#a68b9c4a42323a9d896ae5c0d585f339d" />
       <keyword name="reopen" id="configParser::reopen" ref="classconfigParser#a1053a69bbbaeb2fd095811be95a46390" />
       <keyword name="repeatLevel" id="OpenTyper::repeatLevel" ref="classOpenTyper#aa38fd22312ca92bed20d77ac9142ce9e" />
       <keyword name="resetBgColor" id="themeEngine::resetBgColor" ref="classthemeEngine#a593afd921ade6d6e077c757641819099" />
@@ -967,6 +982,7 @@
       <keyword name="setTotalTime" id="levelSummary::setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
+      <keyword name="setupList" id="userManager::setupList" ref="classuserManager#a175b68a2b7f04a46623dacb6c326eb65" />
       <keyword name="setVerticalAdjust" id="textView::setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
@@ -1018,6 +1034,7 @@
       <keyword name="updateWidgetSize" id="textView::updateWidgetSize" ref="classtextView#a5ee657378078136e98e01796f9d5e946" />
       <keyword name="userEdit" id="userEdit::userEdit" ref="classuserEdit#aa9c71975e895a6c6c4f23eafafa2622f" />
       <keyword name="userIDs" id="databaseManager::userIDs" ref="classdatabaseManager#ab2b9f2fa985da59fadd30cc184c6ddfc" />
+      <keyword name="userManager" id="userManager::userManager" ref="classuserManager#aad8b4e5cae76715c39a412357cab67d1" />
       <keyword name="userName" id="databaseManager::userName" ref="classdatabaseManager#af8d197bdd972d9d754188ae8f860ca2b" />
       <keyword name="userNames" id="databaseManager::userNames" ref="classdatabaseManager#ac9a52aaed6fc6c0b0dd0e5beeae15cf1" />
       <keyword name="userNickname" id="databaseManager::userNickname" ref="classdatabaseManager#a783f56c33f49697ca0fc23c5cc3cb3c3" />
@@ -1026,6 +1043,7 @@
       <keyword name="verify" id="serverSetup::verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
       <keyword name="verify" id="studentEdit::verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
       <keyword name="verify" id="userEdit::verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
+      <keyword name="verify" id="userManager::verify" ref="classuserManager#a8d3e3f9e7f9feefc983dd14c4a25bc8e" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -1060,6 +1078,7 @@
       <keyword name="~Updater" id="Updater::~Updater" ref="classUpdater#a2f8434a97a4f3d3c716bb05abb20621e" />
       <keyword name="~UpdaterDialog" id="UpdaterDialog::~UpdaterDialog" ref="classUpdaterDialog#ab42ebaf4837dfff9f69b8040cbda1fa0" />
       <keyword name="~userEdit" id="userEdit::~userEdit" ref="classuserEdit#a5af8ca30f46e8df4f5ba0ae7163c66d7" />
+      <keyword name="~userManager" id="userManager::~userManager" ref="classuserManager#afd53a9e23879b4cf50bbac46b9afcfc9" />
     </keywords>
     <files>
       <file>tabs.css</file>
@@ -1118,6 +1137,7 @@
       <file>serversetup_8h_source.html</file>
       <file>studentedit_8h_source.html</file>
       <file>useredit_8h_source.html</file>
+      <file>usermanager_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1289,6 +1309,10 @@
       <file>classuserEdit__inherit__graph.png</file>
       <file>classuserEdit__coll__graph.png</file>
       <file>classuserEdit-members.html</file>
+      <file>classuserManager.html</file>
+      <file>classuserManager__inherit__graph.png</file>
+      <file>classuserManager__coll__graph.png</file>
+      <file>classuserManager-members.html</file>
       <file>graph_legend.png</file>
       <file>graph_legend.html</file>
       <file>dir_aebb8dcc11953d78e620bbef0b9e2183.html</file>

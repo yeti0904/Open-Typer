@@ -7,7 +7,7 @@ var searchData=
   ['addlesson_4',['addLesson',['../classpackView.html#aba664423357bcf4119ca03e23269145c',1,'packView']]],
   ['addstudenttoclass_5',['addStudentToClass',['../classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745',1,'databaseManager']]],
   ['addsublesson_6',['addSublesson',['../classpackView.html#af80c1cef07727e552344f54ce4033b65',1,'packView']]],
-  ['adduser_7',['addUser',['../classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0',1,'databaseManager']]],
+  ['adduser_7',['addUser',['../classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0',1,'databaseManager::addUser()'],['../classuserManager.html#af12e04d197c6432b8657576fe70df4af',1,'userManager::addUser()']]],
   ['administratorids_8',['administratorIDs',['../classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc',1,'databaseManager']]],
   ['administratornames_9',['administratorNames',['../classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97',1,'databaseManager']]],
   ['adminselector_10',['adminSelector',['../classadminSelector.html',1,'adminSelector'],['../classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6',1,'adminSelector::adminSelector()']]],

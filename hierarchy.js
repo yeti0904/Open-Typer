@@ -18,7 +18,8 @@ var hierarchy =
       [ "studentEdit", "classstudentEdit.html", null ],
       [ "studentOptions", "classstudentOptions.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ],
-      [ "userEdit", "classuserEdit.html", null ]
+      [ "userEdit", "classuserEdit.html", null ],
+      [ "userManager", "classuserManager.html", null ]
     ] ],
     [ "QFrame", null, [
       [ "keyboardWidget", "classkeyboardWidget.html", null ]
