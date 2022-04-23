@@ -28,6 +28,7 @@ var hierarchy =
       [ "Updater", "classUpdater.html", null ],
       [ "builtinPacks", "classbuiltinPacks.html", null ],
       [ "configParser", "classconfigParser.html", null ],
+      [ "databaseManager", "classdatabaseManager.html", null ],
       [ "historyParser", "classhistoryParser.html", null ],
       [ "languageManager", "classlanguageManager.html", null ],
       [ "monitorClient", "classmonitorClient.html", null ],

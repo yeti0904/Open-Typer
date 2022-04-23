@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exportdialog_0',['exportDialog',['../classexportDialog.html',1,'']]]
+  ['databasemanager_0',['databaseManager',['../classdatabaseManager.html',1,'']]]
 ];

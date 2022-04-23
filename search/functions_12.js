@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['updatecurrenttime_0',['updateCurrentTime',['../classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1',1,'OpenTyper']]],
-  ['updatefont_1',['updateFont',['../classOpenTyper.html#ac86a5acdee73a4f6163fa3ccb5a07edd',1,'OpenTyper::updateFont()'],['../classcustomizationOptions.html#a75c2dd15ae08c311d9047bf2ac8d56d7',1,'customizationOptions::updateFont()']]],
-  ['updatelessonlist_2',['updateLessonList',['../classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54',1,'OpenTyper']]],
-  ['updatelinelength_3',['updateLineLength',['../classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b',1,'paperConfigDialog']]],
-  ['updater_4',['Updater',['../classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea',1,'Updater']]],
-  ['updaterdialog_5',['UpdaterDialog',['../classUpdaterDialog.html#ae6833c46d5feff6d267e113ba23410e4',1,'UpdaterDialog']]],
-  ['updatestudent_6',['updateStudent',['../classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a',1,'OpenTyper']]],
-  ['updatestyle_7',['updateStyle',['../classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f',1,'themeEngine']]],
-  ['updatetable_8',['updateTable',['../classexportDialog.html#a3df6d0e00a9a07fe84494f445e15fc78',1,'exportDialog']]],
-  ['updatetabtitle_9',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
-  ['updatetext_10',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
-  ['updatewidgetsize_11',['updateWidgetSize',['../classtextView.html#a5ee657378078136e98e01796f9d5e946',1,'textView']]]
+  ['tabchanged_0',['tabChanged',['../classpackEditor.html#a21cb0d01d5588aff614bf4d7e89e8c11',1,'packEditor']]],
+  ['teacherids_1',['teacherIDs',['../classdatabaseManager.html#af4ed4fa5337b10b73573856cd5ca8293',1,'databaseManager']]],
+  ['teachernames_2',['teacherNames',['../classdatabaseManager.html#a72439b44aa716d7511e65b0a7c15257f',1,'databaseManager']]],
+  ['testconnection_3',['testConnection',['../classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c',1,'connectionOptions']]],
+  ['textview_4',['textView',['../classtextView.html#ad6aaddb0b664f37e2794b57cbe31e81c',1,'textView']]],
+  ['theme_5',['theme',['../classthemeEngine.html#a74db70f519653b3ae47b1fa5c33dee77',1,'themeEngine']]],
+  ['themechanged_6',['themeChanged',['../classthemeEngine.html#a75617542d05d61c1511614a5fc3223dd',1,'themeEngine']]],
+  ['themeengine_7',['themeEngine',['../classthemeEngine.html#a9fe546070d5ed6fb02ef7191e6aac5d2',1,'themeEngine']]],
+  ['themelist_8',['themeList',['../classthemeEngine.html#a84461f8f0487b1dfbebffad2153201c8',1,'themeEngine']]],
+  ['themename_9',['themeName',['../classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236',1,'themeEngine']]],
+  ['timedialog_10',['timeDialog',['../classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522',1,'timeDialog']]],
+  ['togglekeyboard_11',['toggleKeyboard',['../classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb',1,'keyboardWidget']]]
 ];

@@ -5,6 +5,7 @@ var annotated_dup =
     [ "configParser", "classconfigParser.html", "classconfigParser" ],
     [ "connectionOptions", "classconnectionOptions.html", "classconnectionOptions" ],
     [ "customizationOptions", "classcustomizationOptions.html", "classcustomizationOptions" ],
+    [ "databaseManager", "classdatabaseManager.html", "classdatabaseManager" ],
     [ "exportDialog", "classexportDialog.html", "classexportDialog" ],
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],
     [ "historyParser", "classhistoryParser.html", "classhistoryParser" ],

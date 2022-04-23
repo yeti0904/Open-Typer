@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['open_0',['open',['../classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021',1,'configParser']]],
+  ['open_0',['open',['../classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021',1,'configParser::open()'],['../classdatabaseManager.html#a96ac17faa095ebcf1c90967f99561bb6',1,'databaseManager::open()']]],
   ['openeditor_1',['openEditor',['../classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1',1,'OpenTyper::openEditor()'],['../classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8',1,'keyboardOptions::openEditor()']]],
   ['openexercisefromfile_2',['openExerciseFromFile',['../classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9',1,'OpenTyper']]],
   ['openfile_3',['openFile',['../classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2',1,'packEditor::openFile()'],['../classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e',1,'packView::openFile()']]],
