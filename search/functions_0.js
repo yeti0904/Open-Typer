@@ -5,13 +5,14 @@ var searchData=
   ['addhistoryentry_2',['addHistoryEntry',['../classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1',1,'historyParser']]],
   ['addkey_3',['addKey',['../classkeyboardWidget.html#ae9916723d96608f946343743a23786e8',1,'keyboardWidget']]],
   ['addlesson_4',['addLesson',['../classpackView.html#aba664423357bcf4119ca03e23269145c',1,'packView']]],
-  ['addstudenttoclass_5',['addStudentToClass',['../classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745',1,'databaseManager']]],
-  ['addsublesson_6',['addSublesson',['../classpackView.html#af80c1cef07727e552344f54ce4033b65',1,'packView']]],
-  ['adduser_7',['addUser',['../classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0',1,'databaseManager::addUser()'],['../classuserManager.html#af12e04d197c6432b8657576fe70df4af',1,'userManager::addUser()']]],
-  ['administratorids_8',['administratorIDs',['../classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc',1,'databaseManager']]],
-  ['administratornames_9',['administratorNames',['../classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97',1,'databaseManager']]],
-  ['adminselector_10',['adminSelector',['../classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6',1,'adminSelector']]],
-  ['alltabsclosed_11',['allTabsClosed',['../classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8',1,'packEditor']]],
-  ['auth_12',['auth',['../classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c',1,'databaseManager::auth()'],['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions::auth()']]],
-  ['available_13',['available',['../classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3',1,'monitorClient']]]
+  ['addstudent_5',['addStudent',['../classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886',1,'classControls']]],
+  ['addstudenttoclass_6',['addStudentToClass',['../classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745',1,'databaseManager']]],
+  ['addsublesson_7',['addSublesson',['../classpackView.html#af80c1cef07727e552344f54ce4033b65',1,'packView']]],
+  ['adduser_8',['addUser',['../classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0',1,'databaseManager::addUser()'],['../classuserManager.html#af12e04d197c6432b8657576fe70df4af',1,'userManager::addUser()']]],
+  ['administratorids_9',['administratorIDs',['../classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc',1,'databaseManager']]],
+  ['administratornames_10',['administratorNames',['../classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97',1,'databaseManager']]],
+  ['adminselector_11',['adminSelector',['../classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6',1,'adminSelector']]],
+  ['alltabsclosed_12',['allTabsClosed',['../classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8',1,'packEditor']]],
+  ['auth_13',['auth',['../classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c',1,'databaseManager::auth()'],['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions::auth()']]],
+  ['available_14',['available',['../classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3',1,'monitorClient']]]
 ];

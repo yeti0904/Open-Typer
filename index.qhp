@@ -26,6 +26,20 @@
             <section title="builtinPacks" ref="classbuiltinPacks">
               <section title="packName" ref="classbuiltinPacks#a6b49a3342d9edcadd208da1cc6b550b0" />
             </section>
+            <section title="classControls" ref="classclassControls">
+              <section title="classControls" ref="classclassControls#a490fc7075794f498f3315e10b83bfd97" />
+              <section title="~classControls" ref="classclassControls#abf75656086d258bb4c99209e35987448" />
+              <section title="addStudent" ref="classclassControls#a065ff24b5ec8c6e6f781df71d3ffe886" />
+              <section title="changeEvent" ref="classclassControls#a242d53a1e419495dac9ae7be5ad5a31f" />
+              <section title="detailsClicked" ref="classclassControls#a151fa314492e99ce4a6183b91fb906ad" />
+              <section title="editStudent" ref="classclassControls#a35f2c8f2ea293dfcad7d36d934e0288e" />
+              <section title="loadExercise" ref="classclassControls#ad94d9e3849a23e72661f278a40294867" />
+              <section title="openDetails" ref="classclassControls#a4f72d70048afef1fe87f9ac93d76de41" />
+              <section title="refreshCharts" ref="classclassControls#a70f87b55fb524edef079d0d0c831234a" />
+              <section title="removeStudent" ref="classclassControls#a36196fc52adb22c50458b9d38787721c" />
+              <section title="setupTable" ref="classclassControls#adb3be8efc35307d49b7b254d465dbed4" />
+              <section title="verify" ref="classclassControls#a1a17121155cb9a41f72f103346e8ce40" />
+            </section>
             <section title="classEdit" ref="classclassEdit">
               <section title="classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
               <section title="~classEdit" ref="classclassEdit#a9e852276cad342ffab7886447f133fe9" />
@@ -529,6 +543,7 @@
             </section>
             <section title="QWidget" ref="">
               <section title="behaviorOptions" ref="classbehaviorOptions" />
+              <section title="classControls" ref="classclassControls" />
               <section title="connectionOptions" ref="classconnectionOptions" />
               <section title="customizationOptions" ref="classcustomizationOptions" />
               <section title="keyboardOptions" ref="classkeyboardOptions" />
@@ -618,6 +633,9 @@
                   <section title="packview.h" ref="packview_8h_source" />
                 </section>
                 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
+                  <section title="widgets" ref="dir_019c5358adfa715589e533642d8d4095">
+                    <section title="classcontrols.h" ref="classcontrols_8h_source" />
+                  </section>
                   <section title="adminselector.h" ref="adminselector_8h_source" />
                   <section title="classedit.h" ref="classedit_8h_source" />
                   <section title="serversetup.h" ref="serversetup_8h_source" />
@@ -652,6 +670,7 @@
       <keyword name="adminSelector" id="adminSelector" ref="classadminSelector" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions" />
       <keyword name="builtinPacks" id="builtinPacks" ref="classbuiltinPacks" />
+      <keyword name="classControls" id="classControls" ref="classclassControls" />
       <keyword name="classEdit" id="classEdit" ref="classclassEdit" />
       <keyword name="configParser" id="configParser" ref="classconfigParser" />
       <keyword name="connectionOptions" id="connectionOptions" ref="classconnectionOptions" />
@@ -694,6 +713,7 @@
       <keyword name="addHistoryEntry" id="historyParser::addHistoryEntry" ref="classhistoryParser#a68b36b38f036f0a5cc5cf5906a866fe1" />
       <keyword name="addKey" id="keyboardWidget::addKey" ref="classkeyboardWidget#ae9916723d96608f946343743a23786e8" />
       <keyword name="addLesson" id="packView::addLesson" ref="classpackView#aba664423357bcf4119ca03e23269145c" />
+      <keyword name="addStudent" id="classControls::addStudent" ref="classclassControls#a065ff24b5ec8c6e6f781df71d3ffe886" />
       <keyword name="addStudentToClass" id="databaseManager::addStudentToClass" ref="classdatabaseManager#ab9eb9f78112db2032729c898e3f1b745" />
       <keyword name="addSublesson" id="packView::addSublesson" ref="classpackView#af80c1cef07727e552344f54ce4033b65" />
       <keyword name="addUser" id="databaseManager::addUser" ref="classdatabaseManager#a95129c5525343b67a83e163ef9bcf5e0" />
@@ -714,6 +734,7 @@
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
       <keyword name="changeEvent" id="OpenTyper::changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
+      <keyword name="changeEvent" id="classControls::changeEvent" ref="classclassControls#a242d53a1e419495dac9ae7be5ad5a31f" />
       <keyword name="changeEvent" id="keyboardWidget::changeEvent" ref="classkeyboardWidget#a3ba5b2043902899a2dbe46c56bc81395" />
       <keyword name="changeEvent" id="textView::changeEvent" ref="classtextView#a195c0b35129f798662b90dc13d79a31d" />
       <keyword name="changeExercisePos" id="packView::changeExercisePos" ref="classpackView#ad47bd1ee19ad7d8a3cc9f3dee2af039b" />
@@ -734,6 +755,7 @@
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
+      <keyword name="classControls" id="classControls::classControls" ref="classclassControls#a490fc7075794f498f3315e10b83bfd97" />
       <keyword name="classEdit" id="classEdit::classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
       <keyword name="classIcon" id="databaseManager::classIcon" ref="classdatabaseManager#a6284088b8d8599c1451165abe47297ad" />
       <keyword name="classIDs" id="databaseManager::classIDs" ref="classdatabaseManager#a83f8ea1f695044bee66f101889e14ad4" />
@@ -764,8 +786,10 @@
       <keyword name="databaseManager" id="databaseManager::databaseManager" ref="classdatabaseManager#ab2a237fa3c5ae6f0128eec6c56e21df5" />
       <keyword name="dehighlightKey" id="keyboardWidget::dehighlightKey" ref="classkeyboardWidget#a44d51675c40746936c3592216abd4dfc" />
       <keyword name="deleteExerciseLine" id="packView::deleteExerciseLine" ref="classpackView#aa1f2628214689e5c5a8e3bd36a63eae0" />
+      <keyword name="detailsClicked" id="classControls::detailsClicked" ref="classclassControls#a151fa314492e99ce4a6183b91fb906ad" />
       <keyword name="disconnected" id="monitorClient::disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
       <keyword name="editClass" id="databaseManager::editClass" ref="classdatabaseManager#a343911c46bba021611864446002f513f" />
+      <keyword name="editStudent" id="classControls::editStudent" ref="classclassControls#a35f2c8f2ea293dfcad7d36d934e0288e" />
       <keyword name="editUser" id="databaseManager::editUser" ref="classdatabaseManager#a79bfebbb46838cba30ed3dbca430f1ae" />
       <keyword name="editUser" id="userManager::editUser" ref="classuserManager#a2741e17eb61158b8b009aa37e8f7de80" />
       <keyword name="enabled" id="monitorClient::enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
@@ -862,6 +886,7 @@
       <keyword name="lineOf" id="configParser::lineOf" ref="classconfigParser#a33a3e1eb8328c87e8a8ccf26c125637f" />
       <keyword name="loadConfig" id="OpenTyper::loadConfig" ref="classOpenTyper#a24074959a491e6fc649a1f95920f3aad" />
       <keyword name="loadErrorWords" id="OpenTyper::loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
+      <keyword name="loadExercise" id="classControls::loadExercise" ref="classclassControls#ad94d9e3849a23e72661f278a40294867" />
       <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget#a89e1f9931b347cb71ce5d553d19b70bd" />
       <keyword name="loadLesson" id="OpenTyper::loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
@@ -883,6 +908,7 @@
       <keyword name="notClosed" id="packView::notClosed" ref="classpackView#a4a2e6a81dd16f308cb1e3a2639e23e94" />
       <keyword name="open" id="configParser::open" ref="classconfigParser#a82b6a29bf6a95792e94137d3925f5021" />
       <keyword name="open" id="databaseManager::open" ref="classdatabaseManager#a96ac17faa095ebcf1c90967f99561bb6" />
+      <keyword name="openDetails" id="classControls::openDetails" ref="classclassControls#a4f72d70048afef1fe87f9ac93d76de41" />
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />
       <keyword name="openEditor" id="keyboardOptions::openEditor" ref="classkeyboardOptions#a5dbc636d087f05c50bd4ad0e0a0b9ee8" />
       <keyword name="openExerciseFromFile" id="OpenTyper::openExerciseFromFile" ref="classOpenTyper#a1152e24f5c093f46693ec2547c1537c9" />
@@ -916,11 +942,13 @@
       <keyword name="recordedPacks" id="databaseManager::recordedPacks" ref="classdatabaseManager#a27cb96edeb76c15862b860b015846883" />
       <keyword name="recordedSublessons" id="databaseManager::recordedSublessons" ref="classdatabaseManager#a3120627b6776da2003607ca68d5a0134" />
       <keyword name="refreshAll" id="OpenTyper::refreshAll" ref="classOpenTyper#a5f0fcfa144eda646ca215b51851e0dd5" />
+      <keyword name="refreshCharts" id="classControls::refreshCharts" ref="classclassControls#a70f87b55fb524edef079d0d0c831234a" />
       <keyword name="refreshUi" id="packView::refreshUi" ref="classpackView#acc9cd8c1c5399955dcf8e7c542fb66c8" />
       <keyword name="registerKey" id="keyboardWidget::registerKey" ref="classkeyboardWidget#ae7ab31a9b366bfa013300fb78bbb5f23" />
       <keyword name="reject" id="paperConfigDialog::reject" ref="classpaperConfigDialog#ad8aa809dedc36fbf58fdbd36ed125301" />
       <keyword name="removeClass" id="databaseManager::removeClass" ref="classdatabaseManager#a00ea196285d713efd7e30a9e2f2052a7" />
       <keyword name="removeExercise" id="packView::removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
+      <keyword name="removeStudent" id="classControls::removeStudent" ref="classclassControls#a36196fc52adb22c50458b9d38787721c" />
       <keyword name="removeUser" id="databaseManager::removeUser" ref="classdatabaseManager#a5e83d9433c880b0047d9f537a860cde0" />
       <keyword name="removeUser" id="userManager::removeUser" ref="classuserManager#a68b9c4a42323a9d896ae5c0d585f339d" />
       <keyword name="reopen" id="configParser::reopen" ref="classconfigParser#a1053a69bbbaeb2fd095811be95a46390" />
@@ -983,6 +1011,7 @@
       <keyword name="setUnderlineText" id="customizationOptions::setUnderlineText" ref="classcustomizationOptions#ac1c22875b009e1bb8a0ec44386876950" />
       <keyword name="setupList" id="optionsWindow::setupList" ref="classoptionsWindow#a0929a2fca111e2e73dd77c3154ce6dbd" />
       <keyword name="setupList" id="userManager::setupList" ref="classuserManager#a175b68a2b7f04a46623dacb6c326eb65" />
+      <keyword name="setupTable" id="classControls::setupTable" ref="classclassControls#adb3be8efc35307d49b7b254d465dbed4" />
       <keyword name="setVerticalAdjust" id="textView::setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
@@ -1044,6 +1073,7 @@
       <keyword name="verify" id="studentEdit::verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
       <keyword name="verify" id="userEdit::verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
       <keyword name="verify" id="userManager::verify" ref="classuserManager#a8d3e3f9e7f9feefc983dd14c4a25bc8e" />
+      <keyword name="verify" id="classControls::verify" ref="classclassControls#a1a17121155cb9a41f72f103346e8ce40" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -1052,6 +1082,7 @@
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper#a26d722e59eb5364522f42996eff39075" />
       <keyword name="~adminSelector" id="adminSelector::~adminSelector" ref="classadminSelector#a77578993a413d00dbbdcde8f4b3e5eb9" />
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions#a29c9eb3ad18964f12ad48718190bd40b" />
+      <keyword name="~classControls" id="classControls::~classControls" ref="classclassControls#abf75656086d258bb4c99209e35987448" />
       <keyword name="~classEdit" id="classEdit::~classEdit" ref="classclassEdit#a9e852276cad342ffab7886447f133fe9" />
       <keyword name="~connectionOptions" id="connectionOptions::~connectionOptions" ref="classconnectionOptions#a4e177c967b25efee9d204b86a0098c16" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions#a151df44d17775b94b225661a695d03be" />
@@ -1138,6 +1169,7 @@
       <file>studentedit_8h_source.html</file>
       <file>useredit_8h_source.html</file>
       <file>usermanager_8h_source.html</file>
+      <file>classcontrols_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1160,6 +1192,10 @@
       <file>classbuiltinPacks__inherit__graph.png</file>
       <file>classbuiltinPacks__coll__graph.png</file>
       <file>classbuiltinPacks-members.html</file>
+      <file>classclassControls.html</file>
+      <file>classclassControls__inherit__graph.png</file>
+      <file>classclassControls__coll__graph.png</file>
+      <file>classclassControls-members.html</file>
       <file>classclassEdit.html</file>
       <file>classclassEdit__inherit__graph.png</file>
       <file>classclassEdit__coll__graph.png</file>
@@ -1341,8 +1377,12 @@
       <file>dir_7468157ebcb76345a67412f7bb97ed29_dep.png</file>
       <file>dir_f356faf232716eaaa298279b6f90416b.html</file>
       <file>dir_f356faf232716eaaa298279b6f90416b_dep.png</file>
+      <file>dir_019c5358adfa715589e533642d8d4095.html</file>
+      <file>dir_019c5358adfa715589e533642d8d4095_dep.png</file>
       <file>dir_99f4b16b17a360d9840a4176588db3c6.html</file>
       <file>dir_99f4b16b17a360d9840a4176588db3c6_dep.png</file>
+      <file>dir_324ec1cfef8336f37acbe9fda34f16c2.html</file>
+      <file>dir_324ec1cfef8336f37acbe9fda34f16c2_dep.png</file>
       <file>dir_0abdee562046be6f5823d1ca8c3fd13c.html</file>
       <file>dir_0abdee562046be6f5823d1ca8c3fd13c_dep.png</file>
       <file>index.html</file>

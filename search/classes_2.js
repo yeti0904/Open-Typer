@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['classedit_0',['classEdit',['../classclassEdit.html',1,'']]],
-  ['configparser_1',['configParser',['../classconfigParser.html',1,'']]],
-  ['connectionoptions_2',['connectionOptions',['../classconnectionOptions.html',1,'']]],
-  ['customizationoptions_3',['customizationOptions',['../classcustomizationOptions.html',1,'']]]
+  ['classcontrols_0',['classControls',['../classclassControls.html',1,'']]],
+  ['classedit_1',['classEdit',['../classclassEdit.html',1,'']]],
+  ['configparser_2',['configParser',['../classconfigParser.html',1,'']]],
+  ['connectionoptions_3',['connectionOptions',['../classconnectionOptions.html',1,'']]],
+  ['customizationoptions_4',['customizationOptions',['../classcustomizationOptions.html',1,'']]]
 ];

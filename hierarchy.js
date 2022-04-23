@@ -47,6 +47,7 @@ var hierarchy =
     ] ],
     [ "QWidget", null, [
       [ "behaviorOptions", "classbehaviorOptions.html", null ],
+      [ "classControls", "classclassControls.html", null ],
       [ "connectionOptions", "classconnectionOptions.html", null ],
       [ "customizationOptions", "classcustomizationOptions.html", null ],
       [ "keyboardOptions", "classkeyboardOptions.html", null ],
