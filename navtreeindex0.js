@@ -118,11 +118,13 @@ var NAVTREEINDEX0 =
 "classconfigParser.html#aff3c70f09bd55b50de5fe951d8fa1907":[4,0,5,24],
 "classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad":[4,0,5,9],
 "classconnectionOptions.html":[4,0,6],
-"classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c":[4,0,6,4],
+"classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c":[4,0,6,6],
+"classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144":[4,0,6,4],
 "classconnectionOptions.html#a4e177c967b25efee9d204b86a0098c16":[4,0,6,1],
 "classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956":[4,0,6,2],
+"classconnectionOptions.html#a7f23fbf8b3d0910001eb4a554a8d5e7f":[4,0,6,3],
 "classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5":[4,0,6,0],
-"classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd":[4,0,6,3],
+"classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd":[4,0,6,5],
 "classcontrols_8h_source.html":[5,0,0,0,3,0,0],
 "classcustomizationOptions.html":[4,0,7],
 "classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615":[4,0,7,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classlanguageManager.html":[4,0,18],
 "classlanguageManager.html#a6e8bbe2e4be6feefe1d9dc7d0487f8f4":[4,0,18,2],
 "classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485":[4,0,18,1],
-"classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb":[4,0,18,0],
-"classlevelSummary.html":[4,0,19],
-"classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28":[4,0,19,0]
+"classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb":[4,0,18,0]
 };

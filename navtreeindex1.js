@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"classlevelSummary.html":[4,0,19],
+"classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28":[4,0,19,0],
 "classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498":[4,0,19,6],
 "classlevelSummary.html#a24bc23e9e8ef6d7877756af4243c0061":[4,0,19,4],
 "classlevelSummary.html#a26f9c18e74e50774e57f621bc0b1ee53":[4,0,19,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "classuserManager.html#af12e04d197c6432b8657576fe70df4af":[4,0,41,2],
 "classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9":[4,0,41,1],
 "configfile_8h_source.html":[5,0,0,0,0,0],
-"connection_8h_source.html":[5,0,0,0,1,1],
-"customization_8h_source.html":[5,0,0,0,1,2],
-"database_8h_source.html":[5,0,0,0,0,1]
+"connection_8h_source.html":[5,0,0,0,1,1]
 };

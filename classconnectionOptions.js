@@ -3,6 +3,8 @@ var classconnectionOptions =
     [ "connectionOptions", "classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5", null ],
     [ "~connectionOptions", "classconnectionOptions.html#a4e177c967b25efee9d204b86a0098c16", null ],
     [ "changeAddress", "classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956", null ],
-    [ "changeServerState", "classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd", null ],
+    [ "changeClientState", "classconnectionOptions.html#a7f23fbf8b3d0910001eb4a554a8d5e7f", null ],
+    [ "changeMode", "classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144", null ],
+    [ "refresh", "classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd", null ],
     [ "testConnection", "classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c", null ]
 ];

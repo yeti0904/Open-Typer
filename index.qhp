@@ -89,7 +89,9 @@
               <section title="connectionOptions" ref="classconnectionOptions#abfeac330032693d7ea5358d143a6b3d5" />
               <section title="~connectionOptions" ref="classconnectionOptions#a4e177c967b25efee9d204b86a0098c16" />
               <section title="changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
-              <section title="changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
+              <section title="changeClientState" ref="classconnectionOptions#a7f23fbf8b3d0910001eb4a554a8d5e7f" />
+              <section title="changeMode" ref="classconnectionOptions#a2461ceacb3ce0a26715d99854dfb5144" />
+              <section title="refresh" ref="classconnectionOptions#aedfa68bc9c7c7eede4440e92245451cd" />
               <section title="testConnection" ref="classconnectionOptions#a122737d3de84bd61b2daabdbf0cf0d8c" />
             </section>
             <section title="customizationOptions" ref="classcustomizationOptions">
@@ -800,6 +802,7 @@
       <keyword name="bufferOpened" id="configParser::bufferOpened" ref="classconfigParser#a971d28c032dfebe6b72d04551bb32e0b" />
       <keyword name="changeAddress" id="connectionOptions::changeAddress" ref="classconnectionOptions#a7587f3048a2ec97dcd2ddd8c30a4c956" />
       <keyword name="changeBgColor" id="customizationOptions::changeBgColor" ref="classcustomizationOptions#a5efb64bebcdd3a50546fe762eb4421be" />
+      <keyword name="changeClientState" id="connectionOptions::changeClientState" ref="classconnectionOptions#a7f23fbf8b3d0910001eb4a554a8d5e7f" />
       <keyword name="changeEvent" id="OpenTyper::changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
       <keyword name="changeEvent" id="optionsWindow::changeEvent" ref="classoptionsWindow#a61c4d2858f2a6a6cc2c938b79de2d754" />
       <keyword name="changeEvent" id="classControls::changeEvent" ref="classclassControls#a242d53a1e419495dac9ae7be5ad5a31f" />
@@ -816,6 +819,7 @@
       <keyword name="changeLevelTextColor" id="customizationOptions::changeLevelTextColor" ref="classcustomizationOptions#a64b84b7eb2349fb7d27dc25480348deb" />
       <keyword name="changeLineLength" id="packView::changeLineLength" ref="classpackView#a2afc56c1ff61a63026c5926098ccdc6a" />
       <keyword name="changeMode" id="OpenTyper::changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
+      <keyword name="changeMode" id="connectionOptions::changeMode" ref="classconnectionOptions#a2461ceacb3ce0a26715d99854dfb5144" />
       <keyword name="changeOptionWidget" id="optionsWindow::changeOptionWidget" ref="classoptionsWindow#a579aae16bd3523b42cf615365679a063" />
       <keyword name="changePack" id="keyboardOptions::changePack" ref="classkeyboardOptions#a18842f598cf0466678e644127d7f1d67" />
       <keyword name="changePanelColor" id="customizationOptions::changePanelColor" ref="classcustomizationOptions#acf0e7da87d84efdb0a7a322e302bf1f7" />
@@ -823,7 +827,6 @@
       <keyword name="changeRepeating" id="packView::changeRepeating" ref="classpackView#aa27ec7d9ffe06948c110d13cbbc76da0" />
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeSchoolName" id="serverManager::changeSchoolName" ref="classserverManager#a818cc42490ab0d5ef0a7862085b8d3bb" />
-      <keyword name="changeServerState" id="connectionOptions::changeServerState" ref="classconnectionOptions#ad612af420a99a45e8718c192a7965bfd" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
       <keyword name="classControls" id="classControls::classControls" ref="classclassControls#a490fc7075794f498f3315e10b83bfd97" />
       <keyword name="classEdit" id="classEdit::classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
@@ -1029,6 +1032,7 @@
       <keyword name="recordedLessons" id="databaseManager::recordedLessons" ref="classdatabaseManager#a8a2ec1101d861f113356d11a2deb272f" />
       <keyword name="recordedPacks" id="databaseManager::recordedPacks" ref="classdatabaseManager#a27cb96edeb76c15862b860b015846883" />
       <keyword name="recordedSublessons" id="databaseManager::recordedSublessons" ref="classdatabaseManager#a3120627b6776da2003607ca68d5a0134" />
+      <keyword name="refresh" id="connectionOptions::refresh" ref="classconnectionOptions#aedfa68bc9c7c7eede4440e92245451cd" />
       <keyword name="refresh" id="studentDetails::refresh" ref="classstudentDetails#aa584eb65a41aa7dcb1d23e4185f319f2" />
       <keyword name="refreshAll" id="OpenTyper::refreshAll" ref="classOpenTyper#a5f0fcfa144eda646ca215b51851e0dd5" />
       <keyword name="refreshCharts" id="classControls::refreshCharts" ref="classclassControls#a70f87b55fb524edef079d0d0c831234a" />

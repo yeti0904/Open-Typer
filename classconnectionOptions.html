@@ -127,10 +127,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
+<tr class="memitem:aedfa68bc9c7c7eede4440e92245451cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd">refresh</a> (void)</td></tr>
+<tr class="separator:aedfa68bc9c7c7eede4440e92245451cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2461ceacb3ce0a26715d99854dfb5144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144">changeMode</a> (void)</td></tr>
+<tr class="separator:a2461ceacb3ce0a26715d99854dfb5144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7587f3048a2ec97dcd2ddd8c30a4c956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956">changeAddress</a> (void)</td></tr>
 <tr class="separator:a7587f3048a2ec97dcd2ddd8c30a4c956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad612af420a99a45e8718c192a7965bfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#ad612af420a99a45e8718c192a7965bfd">changeServerState</a> (bool enable)</td></tr>
-<tr class="separator:ad612af420a99a45e8718c192a7965bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f23fbf8b3d0910001eb4a554a8d5e7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a7f23fbf8b3d0910001eb4a554a8d5e7f">changeClientState</a> (bool enable)</td></tr>
+<tr class="separator:a7f23fbf8b3d0910001eb4a554a8d5e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a122737d3de84bd61b2daabdbf0cf0d8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c">testConnection</a> (void)</td></tr>
 <tr class="separator:a122737d3de84bd61b2daabdbf0cf0d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -229,8 +233,8 @@ Changes server address settings. </p>
 
 </div>
 </div>
-<a id="ad612af420a99a45e8718c192a7965bfd" name="ad612af420a99a45e8718c192a7965bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad612af420a99a45e8718c192a7965bfd">&#9670;&nbsp;</a></span>changeServerState</h2>
+<a id="a7f23fbf8b3d0910001eb4a554a8d5e7f" name="a7f23fbf8b3d0910001eb4a554a8d5e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f23fbf8b3d0910001eb4a554a8d5e7f">&#9670;&nbsp;</a></span>changeClientState</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +243,7 @@ Changes server address settings. </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void connectionOptions::changeServerState </td>
+          <td class="memname">void connectionOptions::changeClientState </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>enable</em></td><td>)</td>
@@ -252,8 +256,62 @@ Changes server address settings. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Connected from serverCheckBox-&gt;clicked().<br  />
-Enables or disables class monitor server connection. </p>
+<p >Connected from clientCheckBox-&gt;clicked().<br  />
+Enables or disables client. </p>
+
+</div>
+</div>
+<a id="a2461ceacb3ce0a26715d99854dfb5144" name="a2461ceacb3ce0a26715d99854dfb5144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2461ceacb3ce0a26715d99854dfb5144">&#9670;&nbsp;</a></span>changeMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void connectionOptions::changeMode </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Changes the mode (client or server). </p>
+
+</div>
+</div>
+<a id="aedfa68bc9c7c7eede4440e92245451cd" name="aedfa68bc9c7c7eede4440e92245451cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfa68bc9c7c7eede4440e92245451cd">&#9670;&nbsp;</a></span>refresh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void connectionOptions::refresh </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Reloads settings. </p>
 
 </div>
 </div>

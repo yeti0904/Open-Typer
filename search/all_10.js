@@ -6,7 +6,7 @@ var searchData=
   ['recordedlessons_3',['recordedLessons',['../classdatabaseManager.html#a8a2ec1101d861f113356d11a2deb272f',1,'databaseManager']]],
   ['recordedpacks_4',['recordedPacks',['../classdatabaseManager.html#a27cb96edeb76c15862b860b015846883',1,'databaseManager']]],
   ['recordedsublessons_5',['recordedSublessons',['../classdatabaseManager.html#a3120627b6776da2003607ca68d5a0134',1,'databaseManager']]],
-  ['refresh_6',['refresh',['../classstudentDetails.html#aa584eb65a41aa7dcb1d23e4185f319f2',1,'studentDetails']]],
+  ['refresh_6',['refresh',['../classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd',1,'connectionOptions::refresh()'],['../classstudentDetails.html#aa584eb65a41aa7dcb1d23e4185f319f2',1,'studentDetails::refresh()']]],
   ['refreshall_7',['refreshAll',['../classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5',1,'OpenTyper']]],
   ['refreshcharts_8',['refreshCharts',['../classclassControls.html#a70f87b55fb524edef079d0d0c831234a',1,'classControls::refreshCharts()'],['../classstudentDetails.html#a0488a551935057caa40ba9583d6dc67c',1,'studentDetails::refreshCharts(void)']]],
   ['refreshtable_9',['refreshTable',['../classstudentDetails.html#a49db064c526ee9a21684d79f0e3f78ce',1,'studentDetails']]],
