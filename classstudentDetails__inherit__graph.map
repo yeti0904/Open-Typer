@@ -1,4 +1,4 @@
 <map id="studentDetails" name="studentDetails">
-<area shape="rect" id="node1" title="The studentDetails class is a widget for student results and statistics, used by MonitorWindow." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node1" title="The studentDetails class is a widget for student results and statistics." alt="" coords="5,80,111,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="22,5,94,32"/>
 </map>
