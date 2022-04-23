@@ -4,6 +4,7 @@ var hierarchy =
     [ "keyboardUtils", "classkeyboardUtils.html", null ],
     [ "QDialog", null, [
       [ "UpdaterDialog", "classUpdaterDialog.html", null ],
+      [ "adminSelector", "classadminSelector.html", null ],
       [ "exportDialog", "classexportDialog.html", null ],
       [ "initialSetup", "classinitialSetup.html", null ],
       [ "levelSummary", "classlevelSummary.html", null ],

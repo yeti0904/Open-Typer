@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['configparser_0',['configParser',['../classconfigParser.html',1,'']]],
-  ['connectionoptions_1',['connectionOptions',['../classconnectionOptions.html',1,'']]],
-  ['customizationoptions_2',['customizationOptions',['../classcustomizationOptions.html',1,'']]]
+  ['behavioroptions_0',['behaviorOptions',['../classbehaviorOptions.html',1,'']]],
+  ['builtinpacks_1',['builtinPacks',['../classbuiltinPacks.html',1,'']]]
 ];

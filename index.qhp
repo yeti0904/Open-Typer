@@ -12,6 +12,11 @@
         <section title="Build instructions" ref="md_docs_data_pages_Build_instructions" />
         <section title="Classes" ref="annotated">
           <section title="Class List" ref="annotated">
+            <section title="adminSelector" ref="classadminSelector">
+              <section title="adminSelector" ref="classadminSelector#ae8c7c8639d2b04422fe66025378636d6" />
+              <section title="~adminSelector" ref="classadminSelector#a77578993a413d00dbbdcde8f4b3e5eb9" />
+              <section title="finish" ref="classadminSelector#a6badf56d6db693f9d3f1b9b05a142e95" />
+            </section>
             <section title="behaviorOptions" ref="classbehaviorOptions">
               <section title="behaviorOptions" ref="classbehaviorOptions#a604e707e9c208f8dd09d47714b1d52a2" />
               <section title="~behaviorOptions" ref="classbehaviorOptions#a29c9eb3ad18964f12ad48718190bd40b" />
@@ -446,6 +451,7 @@
             <section title="keyboardUtils" ref="classkeyboardUtils" />
             <section title="QDialog" ref="">
               <section title="UpdaterDialog" ref="classUpdaterDialog" />
+              <section title="adminSelector" ref="classadminSelector" />
               <section title="exportDialog" ref="classexportDialog" />
               <section title="initialSetup" ref="classinitialSetup" />
               <section title="levelSummary" ref="classlevelSummary" />
@@ -569,6 +575,9 @@
                   <section title="packselector.h" ref="packselector_8h_source" />
                   <section title="packview.h" ref="packview_8h_source" />
                 </section>
+                <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af">
+                  <section title="adminselector.h" ref="adminselector_8h_source" />
+                </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
                   <section title="updaterdialog.h" ref="updaterdialog_8h_source" />
@@ -593,6 +602,7 @@
       </section>
     </toc>
     <keywords>
+      <keyword name="adminSelector" id="adminSelector" ref="classadminSelector" />
       <keyword name="behaviorOptions" id="behaviorOptions" ref="classbehaviorOptions" />
       <keyword name="builtinPacks" id="builtinPacks" ref="classbuiltinPacks" />
       <keyword name="configParser" id="configParser" ref="classconfigParser" />
@@ -637,6 +647,7 @@
       <keyword name="addUser" id="databaseManager::addUser" ref="classdatabaseManager#a95129c5525343b67a83e163ef9bcf5e0" />
       <keyword name="administratorIDs" id="databaseManager::administratorIDs" ref="classdatabaseManager#af9337ba99093461374a60ff4c2224dbc" />
       <keyword name="administratorNames" id="databaseManager::administratorNames" ref="classdatabaseManager#a8ae24bffbae15c7a4d222774d690ba97" />
+      <keyword name="adminSelector" id="adminSelector::adminSelector" ref="classadminSelector#ae8c7c8639d2b04422fe66025378636d6" />
       <keyword name="allTabsClosed" id="packEditor::allTabsClosed" ref="classpackEditor#ab5759d730e158c9b172211bf44cce2b8" />
       <keyword name="auth" id="databaseManager::auth" ref="classdatabaseManager#afac06c34801227d27396a5ff6878bc5c" />
       <keyword name="auth" id="studentOptions::auth" ref="classstudentOptions#a7ceb1d9b8a804098d13807414eb860a8" />
@@ -733,6 +744,7 @@
       <keyword name="findMistakes" id="stringUtils::findMistakes" ref="classstringUtils#a9d015f21b3e759378ffe9729e6286c84" />
       <keyword name="fingerHand" id="keyboardWidget::fingerHand" ref="classkeyboardWidget#a13cedfbe131d6fa5ccc3e437ea694b20" />
       <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
+      <keyword name="finish" id="adminSelector::finish" ref="classadminSelector#a6badf56d6db693f9d3f1b9b05a142e95" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
       <keyword name="font" id="themeEngine::font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
       <keyword name="fontBold" id="themeEngine::fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
@@ -966,6 +978,7 @@
       <keyword name="wordCount" id="stringUtils::wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
       <keyword name="zoomIn" id="OpenTyper::zoomIn" ref="classOpenTyper#a0cb936f09d8dcc2148352ed95b486236" />
       <keyword name="zoomOut" id="OpenTyper::zoomOut" ref="classOpenTyper#a26d722e59eb5364522f42996eff39075" />
+      <keyword name="~adminSelector" id="adminSelector::~adminSelector" ref="classadminSelector#a77578993a413d00dbbdcde8f4b3e5eb9" />
       <keyword name="~behaviorOptions" id="behaviorOptions::~behaviorOptions" ref="classbehaviorOptions#a29c9eb3ad18964f12ad48718190bd40b" />
       <keyword name="~connectionOptions" id="connectionOptions::~connectionOptions" ref="classconnectionOptions#a4e177c967b25efee9d204b86a0098c16" />
       <keyword name="~customizationOptions" id="customizationOptions::~customizationOptions" ref="classcustomizationOptions#a151df44d17775b94b225661a695d03be" />
@@ -1042,6 +1055,7 @@
       <file>packselector_8h_source.html</file>
       <file>packview_8h_source.html</file>
       <file>paperconfigdialog_8h_source.html</file>
+      <file>adminselector_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1051,6 +1065,10 @@
       <file>languagelist_8h_source.html</file>
       <file>textview_8h_source.html</file>
       <file>md_docs_data_pages_Build_instructions.html</file>
+      <file>classadminSelector.html</file>
+      <file>classadminSelector__inherit__graph.png</file>
+      <file>classadminSelector__coll__graph.png</file>
+      <file>classadminSelector-members.html</file>
       <file>classbehaviorOptions.html</file>
       <file>classbehaviorOptions__inherit__graph.png</file>
       <file>classbehaviorOptions__coll__graph.png</file>
@@ -1212,6 +1230,10 @@
       <file>dir_aeb8d2f0c36d1a21bc807424066a339f_dep.png</file>
       <file>dir_8c421087272d921338bde95c2b39aa1b.html</file>
       <file>dir_8c421087272d921338bde95c2b39aa1b_dep.png</file>
+      <file>dir_e67d2c14d5bb9b8c1bb630f5815362af.html</file>
+      <file>dir_e67d2c14d5bb9b8c1bb630f5815362af_dep.png</file>
+      <file>dir_075bb3ff235063c77951cd176d15a741.html</file>
+      <file>dir_075bb3ff235063c77951cd176d15a741_dep.png</file>
       <file>dir_68267d1309a1af8e8297ef4c3efbcdba.html</file>
       <file>dir_7468157ebcb76345a67412f7bb97ed29.html</file>
       <file>dir_7468157ebcb76345a67412f7bb97ed29_dep.png</file>
