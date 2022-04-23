@@ -15,6 +15,7 @@ var hierarchy =
       [ "paperConfigDialog", "classpaperConfigDialog.html", null ],
       [ "serverSetup", "classserverSetup.html", null ],
       [ "statsDialog", "classstatsDialog.html", null ],
+      [ "studentEdit", "classstudentEdit.html", null ],
       [ "studentOptions", "classstudentOptions.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ]
     ] ],

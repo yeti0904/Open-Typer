@@ -1,8 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"packeditor_8h_source.html":[5,0,0,0,2,0],
+"packs_8h_source.html":[5,0,0,0,0,4],
+"packselector_8h_source.html":[5,0,0,0,2,1],
+"packview_8h_source.html":[5,0,0,0,2,2],
+"pages.html":[],
 "paperconfigdialog_8h_source.html":[5,0,0,0,10],
 "serversetup_8h_source.html":[5,0,0,0,3,2],
 "statsdialog_8h_source.html":[5,0,0,0,11],
+"studentedit_8h_source.html":[5,0,0,0,3,3],
 "studentoptions_8h_source.html":[5,0,0,0,1,5],
 "textview_8h_source.html":[5,0,0,0,5,3],
 "theme_8h_source.html":[5,0,0,0,0,5],

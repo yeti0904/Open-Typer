@@ -21,9 +21,10 @@ var searchData=
   ['_7epaperconfigdialog_18',['~paperConfigDialog',['../classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b',1,'paperConfigDialog']]],
   ['_7eserversetup_19',['~serverSetup',['../classserverSetup.html#a5d83fd78e5a68d1183da5fa5b3d67f09',1,'serverSetup']]],
   ['_7estatsdialog_20',['~statsDialog',['../classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955',1,'statsDialog']]],
-  ['_7estudentoptions_21',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
-  ['_7etextview_22',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
-  ['_7etimedialog_23',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
-  ['_7eupdater_24',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
-  ['_7eupdaterdialog_25',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]]
+  ['_7estudentedit_21',['~studentEdit',['../classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33',1,'studentEdit']]],
+  ['_7estudentoptions_22',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
+  ['_7etextview_23',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
+  ['_7etimedialog_24',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
+  ['_7eupdater_25',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
+  ['_7eupdaterdialog_26',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]]
 ];

@@ -48,7 +48,7 @@ var NAVTREEINDEX =
 [
 "adminselector_8h_source.html",
 "classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c",
-"paperconfigdialog_8h_source.html"
+"packeditor_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -364,6 +364,12 @@
               <section title="wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
               <section title="wordCount" ref="classstringUtils#a84f6e3df1c51c8b65fe60fbd031e01f2" />
             </section>
+            <section title="studentEdit" ref="classstudentEdit">
+              <section title="studentEdit" ref="classstudentEdit#aebdb3451c6416fc51b1f80ba4af44bfa" />
+              <section title="~studentEdit" ref="classstudentEdit#a9d21d9eb48bb859aeccc60b1900d5a33" />
+              <section title="finish" ref="classstudentEdit#a57769f6f3bb7e2595c8e5ea2dc3f27a1" />
+              <section title="verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
+            </section>
             <section title="studentOptions" ref="classstudentOptions">
               <section title="studentOptions" ref="classstudentOptions#a355451cfa1bae5af52f7450ebb8138f5" />
               <section title="~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
@@ -475,6 +481,7 @@
               <section title="paperConfigDialog" ref="classpaperConfigDialog" />
               <section title="serverSetup" ref="classserverSetup" />
               <section title="statsDialog" ref="classstatsDialog" />
+              <section title="studentEdit" ref="classstudentEdit" />
               <section title="studentOptions" ref="classstudentOptions" />
               <section title="timeDialog" ref="classtimeDialog" />
             </section>
@@ -596,6 +603,7 @@
                   <section title="adminselector.h" ref="adminselector_8h_source" />
                   <section title="classedit.h" ref="classedit_8h_source" />
                   <section title="serversetup.h" ref="serversetup_8h_source" />
+                  <section title="studentedit.h" ref="studentedit_8h_source" />
                 </section>
                 <section title="updater" ref="dir_7468157ebcb76345a67412f7bb97ed29">
                   <section title="updater.h" ref="updater_8h_source" />
@@ -650,6 +658,7 @@
       <keyword name="serverSetup" id="serverSetup" ref="classserverSetup" />
       <keyword name="statsDialog" id="statsDialog" ref="classstatsDialog" />
       <keyword name="stringUtils" id="stringUtils" ref="classstringUtils" />
+      <keyword name="studentEdit" id="studentEdit" ref="classstudentEdit" />
       <keyword name="studentOptions" id="studentOptions" ref="classstudentOptions" />
       <keyword name="textView" id="textView" ref="classtextView" />
       <keyword name="themeEngine" id="themeEngine" ref="classthemeEngine" />
@@ -768,6 +777,7 @@
       <keyword name="finish" id="initialSetup::finish" ref="classinitialSetup#a09e8cf1b65cf0059d878312c4a8b3a72" />
       <keyword name="finish" id="adminSelector::finish" ref="classadminSelector#a6badf56d6db693f9d3f1b9b05a142e95" />
       <keyword name="finish" id="classEdit::finish" ref="classclassEdit#a2190e2445a8ff442f6716a83ff9e520b" />
+      <keyword name="finish" id="studentEdit::finish" ref="classstudentEdit#a57769f6f3bb7e2595c8e5ea2dc3f27a1" />
       <keyword name="fixDuplicates" id="packEditor::fixDuplicates" ref="classpackEditor#adc05a78ba2be2683492db4f0842842be" />
       <keyword name="font" id="themeEngine::font" ref="classthemeEngine#a7ba3c402b5d9173ba7571d42457cfbc6" />
       <keyword name="fontBold" id="themeEngine::fontBold" ref="classthemeEngine#a96ce91f0c1c852caf7ce9e370868f170" />
@@ -950,6 +960,7 @@
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />
       <keyword name="status" id="databaseManager::status" ref="classdatabaseManager#a2f866e347370dad2e29b42b8de137bde" />
+      <keyword name="studentEdit" id="studentEdit::studentEdit" ref="classstudentEdit#aebdb3451c6416fc51b1f80ba4af44bfa" />
       <keyword name="studentExercises" id="databaseManager::studentExercises" ref="classdatabaseManager#ac1ecb1809e9a7cf4c722a5d96e88ceef" />
       <keyword name="studentIDs" id="databaseManager::studentIDs" ref="classdatabaseManager#a3576cd3e11b7e8ad5b40a3e6a3c3dfc8" />
       <keyword name="studentLessons" id="databaseManager::studentLessons" ref="classdatabaseManager#a4d0bf930b8d5f1bd23ca53a9ac4dc426" />
@@ -1000,6 +1011,7 @@
       <keyword name="userRole" id="databaseManager::userRole" ref="classdatabaseManager#a1ad2124ff8f5337388c145b0e83c2deb" />
       <keyword name="verify" id="classEdit::verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
       <keyword name="verify" id="serverSetup::verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
+      <keyword name="verify" id="studentEdit::verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
       <keyword name="wheelEvent" id="textView::wheelEvent" ref="classtextView#abb8d39436ff8404c8cf079c9f4d2f9b7" />
       <keyword name="word" id="stringUtils::word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
       <keyword name="wordAt" id="stringUtils::wordAt" ref="classstringUtils#a0b9afdf922dcc4f6fbd6b331b7a65453" />
@@ -1027,6 +1039,7 @@
       <keyword name="~paperConfigDialog" id="paperConfigDialog::~paperConfigDialog" ref="classpaperConfigDialog#af6de249a3dd88ad11fcd941545e5d25b" />
       <keyword name="~serverSetup" id="serverSetup::~serverSetup" ref="classserverSetup#a5d83fd78e5a68d1183da5fa5b3d67f09" />
       <keyword name="~statsDialog" id="statsDialog::~statsDialog" ref="classstatsDialog#aa09208ecf7970a702c0e892f183fb955" />
+      <keyword name="~studentEdit" id="studentEdit::~studentEdit" ref="classstudentEdit#a9d21d9eb48bb859aeccc60b1900d5a33" />
       <keyword name="~studentOptions" id="studentOptions::~studentOptions" ref="classstudentOptions#af344227a23c1a64070567a41fcde0f3b" />
       <keyword name="~textView" id="textView::~textView" ref="classtextView#aae65bbcd6440ddf2261f783c18aad0a6" />
       <keyword name="~timeDialog" id="timeDialog::~timeDialog" ref="classtimeDialog#ac3e69b247c53dc7ed4f3c81fab962766" />
@@ -1088,6 +1101,7 @@
       <file>adminselector_8h_source.html</file>
       <file>classedit_8h_source.html</file>
       <file>serversetup_8h_source.html</file>
+      <file>studentedit_8h_source.html</file>
       <file>statsdialog_8h_source.html</file>
       <file>timedialog_8h_source.html</file>
       <file>updater_8h_source.html</file>
@@ -1224,6 +1238,10 @@
       <file>classstatsDialog-members.html</file>
       <file>classstringUtils.html</file>
       <file>classstringUtils-members.html</file>
+      <file>classstudentEdit.html</file>
+      <file>classstudentEdit__inherit__graph.png</file>
+      <file>classstudentEdit__coll__graph.png</file>
+      <file>classstudentEdit-members.html</file>
       <file>classstudentOptions.html</file>
       <file>classstudentOptions__inherit__graph.png</file>
       <file>classstudentOptions__coll__graph.png</file>
