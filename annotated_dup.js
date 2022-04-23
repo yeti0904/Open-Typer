@@ -21,6 +21,7 @@ var annotated_dup =
     [ "languageManager", "classlanguageManager.html", "classlanguageManager" ],
     [ "levelSummary", "classlevelSummary.html", "classlevelSummary" ],
     [ "monitorClient", "classmonitorClient.html", "classmonitorClient" ],
+    [ "monitorServer", "classmonitorServer.html", "classmonitorServer" ],
     [ "OpenTyper", "classOpenTyper.html", "classOpenTyper" ],
     [ "optionsWindow", "classoptionsWindow.html", "classoptionsWindow" ],
     [ "packEditor", "classpackEditor.html", "classpackEditor" ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7',1,'monitorClient']]],
+  ['readdata_0',['readData',['../classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6',1,'monitorServer::readData()'],['../classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7',1,'monitorClient::readData(QByteArray input)']]],
   ['readresponse_1',['readResponse',['../classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d',1,'monitorClient']]],
   ['recordedexercises_2',['recordedExercises',['../classdatabaseManager.html#ac53fcc1e9cb117a168855f8f41231d82',1,'databaseManager']]],
   ['recordedlessons_3',['recordedLessons',['../classdatabaseManager.html#a8a2ec1101d861f113356d11a2deb272f',1,'databaseManager']]],

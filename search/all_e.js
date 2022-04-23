@@ -12,6 +12,7 @@ var searchData=
   ['paperconfigdialog_9',['paperConfigDialog',['../classpaperConfigDialog.html',1,'paperConfigDialog'],['../classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b',1,'paperConfigDialog::paperConfigDialog()']]],
   ['paperstylesheet_10',['paperStyleSheet',['../classthemeEngine.html#a3c438dfd39114d221c54127fec19d5d1',1,'themeEngine']]],
   ['parsedesc_11',['parseDesc',['../classconfigParser.html#a1011cf48da6bafdf3f2275fb01fd0064',1,'configParser']]],
-  ['previouslevel_12',['previousLevel',['../classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b',1,'OpenTyper']]],
-  ['printresult_13',['printResult',['../classexportDialog.html#a83f0c4ca9b2b87535ba528c672b00f9f',1,'exportDialog']]]
+  ['port_12',['port',['../classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3',1,'monitorServer']]],
+  ['previouslevel_13',['previousLevel',['../classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b',1,'OpenTyper']]],
+  ['printresult_14',['printResult',['../classexportDialog.html#a83f0c4ca9b2b87535ba528c672b00f9f',1,'exportDialog']]]
 ];

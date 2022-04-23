@@ -2,6 +2,7 @@ var classdatabaseManager =
 [
     [ "databaseManager", "classdatabaseManager.html#ab2a237fa3c5ae6f0128eec6c56e21df5", null ],
     [ "addClass", "classdatabaseManager.html#af878d4576b1afaf1f050e18281723a37", null ],
+    [ "addHistoryEntry", "classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4", null ],
     [ "addStudentToClass", "classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745", null ],
     [ "addUser", "classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0", null ],
     [ "administratorIDs", "classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc", null ],
@@ -12,8 +13,10 @@ var classdatabaseManager =
     [ "className", "classdatabaseManager.html#ab4c3e9b8927b87e89dcf4c2c144117b2", null ],
     [ "classNames", "classdatabaseManager.html#a0dd9c6e9f6c8c22dbc575a2a9e3e14a9", null ],
     [ "classTimestamp", "classdatabaseManager.html#ace7a250001bd196821dd4aafa53a7de3", null ],
+    [ "compareWithStudents", "classdatabaseManager.html#a09c671b9a73f31f2bac3dd81e577bf8f", null ],
     [ "editClass", "classdatabaseManager.html#a343911c46bba021611864446002f513f", null ],
     [ "editUser", "classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae", null ],
+    [ "findUser", "classdatabaseManager.html#a0d45091e190dd8be11a16603387cb710", null ],
     [ "historyEntries", "classdatabaseManager.html#a4cb40d11de4e32cf81c5d29401682ffa", null ],
     [ "loginID", "classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef", null ],
     [ "open", "classdatabaseManager.html#a96ac17faa095ebcf1c90967f99561bb6", null ],

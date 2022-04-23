@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('classdatabaseManager.html',''); initRe
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classdatabaseManager-members.html">List of all members</a>  </div>
@@ -149,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8ae24bffbae15c7a4d222774d690ba97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2b9f2fa985da59fadd30cc184c6ddfc"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc">userIDs</a> (void)</td></tr>
 <tr class="separator:ab2b9f2fa985da59fadd30cc184c6ddfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d45091e190dd8be11a16603387cb710"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a0d45091e190dd8be11a16603387cb710">findUser</a> (QString nickname)</td></tr>
+<tr class="separator:a0d45091e190dd8be11a16603387cb710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3576cd3e11b7e8ad5b40a3e6a3c3dfc8"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a3576cd3e11b7e8ad5b40a3e6a3c3dfc8">studentIDs</a> (int classID)</td></tr>
 <tr class="separator:a3576cd3e11b7e8ad5b40a3e6a3c3dfc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ed4fa5337b10b73573856cd5ca8293"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#af4ed4fa5337b10b73573856cd5ca8293">teacherIDs</a> (void)</td></tr>
@@ -203,11 +206,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac1ecb1809e9a7cf4c722a5d96e88ceef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb40d11de4e32cf81c5d29401682ffa"><td class="memItemLeft" align="right" valign="top">QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a4cb40d11de4e32cf81c5d29401682ffa">historyEntries</a> (int classID, int userID, QString pack, int lesson, int sublesson, int exercise)</td></tr>
 <tr class="separator:a4cb40d11de4e32cf81c5d29401682ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9177830c841b8fbc4c04f7149d8544f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4">addHistoryEntry</a> (int classID, int userID, QString pack, int lesson, int sublesson, int exercise, QVariantMap record)</td></tr>
+<tr class="separator:a9177830c841b8fbc4c04f7149d8544f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c671b9a73f31f2bac3dd81e577bf8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a09c671b9a73f31f2bac3dd81e577bf8f">compareWithStudents</a> (int classID, int studentID, QString pack, int lesson, int sublesson, int exercise, bool better)</td></tr>
+<tr class="separator:a09c671b9a73f31f2bac3dd81e577bf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5da00577367c077613a4d26b06efbca9"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9">roles</a> (bool includeStudentRole=true)</td></tr>
 <tr class="separator:a5da00577367c077613a4d26b06efbca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad818ae757a986924fbc87c0bf97dc408"><td class="memItemLeft" align="right" valign="top"><a id="ad818ae757a986924fbc87c0bf97dc408" name="ad818ae757a986924fbc87c0bf97dc408"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>activeClass</b> = 0</td></tr>
+<tr class="separator:ad818ae757a986924fbc87c0bf97dc408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -278,6 +291,65 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>userLoginID</b> = -1</
       </table>
 </div><div class="memdoc">
 <p >Adds a class. </p>
+
+</div>
+</div>
+<a id="a9177830c841b8fbc4c04f7149d8544f4" name="a9177830c841b8fbc4c04f7149d8544f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9177830c841b8fbc4c04f7149d8544f4">&#9670;&nbsp;</a></span>addHistoryEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void databaseManager::addHistoryEntry </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>classID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>userID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>pack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sublesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>exercise</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariantMap&#160;</td>
+          <td class="paramname"><em>record</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Adds an entry to the exercise history. </p>
 
 </div>
 </div>
@@ -519,6 +591,66 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>userLoginID</b> = -1</
 
 </div>
 </div>
+<a id="a09c671b9a73f31f2bac3dd81e577bf8f" name="a09c671b9a73f31f2bac3dd81e577bf8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c671b9a73f31f2bac3dd81e577bf8f">&#9670;&nbsp;</a></span>compareWithStudents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int databaseManager::compareWithStudents </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>classID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>studentID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>pack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sublesson</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>exercise</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>better</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns number of better or worse students based on their average number of points.<br  />
+The number of points for each entry is speed - mistakes*10. </p>
+
+</div>
+</div>
 <a id="a343911c46bba021611864446002f513f" name="a343911c46bba021611864446002f513f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a343911c46bba021611864446002f513f">&#9670;&nbsp;</a></span>editClass()</h2>
 
@@ -604,6 +736,25 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>userLoginID</b> = -1</
       </table>
 </div><div class="memdoc">
 <p >Edits a user. </p>
+
+</div>
+</div>
+<a id="a0d45091e190dd8be11a16603387cb710" name="a0d45091e190dd8be11a16603387cb710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d45091e190dd8be11a16603387cb710">&#9670;&nbsp;</a></span>findUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int databaseManager::findUser </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>nickname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Finds user by nickname. </p>
 
 </div>
 </div>

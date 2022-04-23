@@ -1,0 +1,4 @@
+<map id="monitorServer" name="monitorServer">
+<area shape="rect" id="node1" title="The monitorServer class is a QTcpServer that is used to communicate with Open&#45;Typer clients." alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,5,103,32"/>
+</map>
