@@ -9,6 +9,7 @@ var hierarchy =
       [ "exportDialog", "classexportDialog.html", null ],
       [ "initialSetup", "classinitialSetup.html", null ],
       [ "levelSummary", "classlevelSummary.html", null ],
+      [ "loadExerciseDialog", "classloadExerciseDialog.html", null ],
       [ "optionsWindow", "classoptionsWindow.html", null ],
       [ "packEditor", "classpackEditor.html", null ],
       [ "packSelector", "classpackSelector.html", null ],

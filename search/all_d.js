@@ -6,7 +6,7 @@ var searchData=
   ['opendetails_3',['openDetails',['../classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41',1,'classControls::openDetails()'],['../classserverManager.html#a88943a234980834b4ca7c717d6927053',1,'serverManager::openDetails()']]],
   ['openeditor_4',['openEditor',['../classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1',1,'OpenTyper::openEditor()'],['../classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8',1,'keyboardOptions::openEditor()']]],
   ['openexercisefromfile_5',['openExerciseFromFile',['../classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9',1,'OpenTyper']]],
-  ['openfile_6',['openFile',['../classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2',1,'packEditor::openFile()'],['../classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e',1,'packView::openFile()']]],
+  ['openfile_6',['openFile',['../classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2',1,'packEditor::openFile()'],['../classloadExerciseDialog.html#ada153020f05ce49867edf1389e6e7ab6',1,'loadExerciseDialog::openFile()'],['../classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e',1,'packView::openFile()']]],
   ['openoptions_7',['openOptions',['../classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e',1,'OpenTyper']]],
   ['openpack_8',['openPack',['../classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d',1,'OpenTyper']]],
   ['openprebuilt_9',['openPrebuilt',['../classpackEditor.html#ae4e25dd318728fc46546e7116e751a91',1,'packEditor']]],

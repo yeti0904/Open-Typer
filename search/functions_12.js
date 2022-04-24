@@ -11,5 +11,6 @@ var searchData=
   ['themelist_8',['themeList',['../classthemeEngine.html#a84461f8f0487b1dfbebffad2153201c8',1,'themeEngine']]],
   ['themename_9',['themeName',['../classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236',1,'themeEngine']]],
   ['timedialog_10',['timeDialog',['../classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522',1,'timeDialog']]],
-  ['togglekeyboard_11',['toggleKeyboard',['../classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb',1,'keyboardWidget']]]
+  ['timelimit_11',['timeLimit',['../classloadExerciseDialog.html#a8fbe47ca1e7b43a27f31bb52db80fb48',1,'loadExerciseDialog']]],
+  ['togglekeyboard_12',['toggleKeyboard',['../classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb',1,'keyboardWidget']]]
 ];

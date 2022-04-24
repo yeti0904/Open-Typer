@@ -238,6 +238,23 @@
               <section title="setTotalHits" ref="classlevelSummary#a884516f268f794b0ac128fc3d92ec2b1" />
               <section title="setTotalTime" ref="classlevelSummary#a1e53aa0b4b860da5560afc0bdb163498" />
             </section>
+            <section title="loadExerciseDialog" ref="classloadExerciseDialog">
+              <section title="loadExerciseDialog" ref="classloadExerciseDialog#a8d97e3852f8d0e5a0bf2117defe8175b" />
+              <section title="~loadExerciseDialog" ref="classloadExerciseDialog#af3834eaa5e2ed412860991f5b3c92e94" />
+              <section title="changeMode" ref="classloadExerciseDialog#aabfc7f53f2df9312e5160073074d3970" />
+              <section title="changeSource" ref="classloadExerciseDialog#a968f0894f095f3be5b0cf7f57e54611c" />
+              <section title="correctMistakes" ref="classloadExerciseDialog#abc9018f0f44a28c05b5af4aa3881d6b9" />
+              <section title="exerciseText" ref="classloadExerciseDialog#ae70500d3be5e216de07da28504b47f85" />
+              <section title="hideText" ref="classloadExerciseDialog#a8c6db897de55de62f65614ff0b172632" />
+              <section title="includeNewLines" ref="classloadExerciseDialog#a8f668b8d1a2b8918bc01c1dd8aa7defb" />
+              <section title="lineLength" ref="classloadExerciseDialog#a976b00c4cb5c5e7a84fe2f5e272ad751" />
+              <section title="lockUi" ref="classloadExerciseDialog#a323be95d9b1f7294d64420f86095c91a" />
+              <section title="mode" ref="classloadExerciseDialog#afcd350ea1770734992f33ce3526ffec5" />
+              <section title="openFile" ref="classloadExerciseDialog#ada153020f05ce49867edf1389e6e7ab6" />
+              <section title="selectedStudents" ref="classloadExerciseDialog#adbe918aae074adc07288adb511a36012" />
+              <section title="timeLimit" ref="classloadExerciseDialog#a8fbe47ca1e7b43a27f31bb52db80fb48" />
+              <section title="verify" ref="classloadExerciseDialog#a33272b7a272a0aa6005cbc4c5826643f" />
+            </section>
             <section title="monitorClient" ref="classmonitorClient">
               <section title="monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
               <section title="~monitorClient" ref="classmonitorClient#a6c25754bf7d283d98b2a019f7eed8714" />
@@ -247,7 +264,7 @@
               <section title="disconnected" ref="classmonitorClient#a73cdc9ea4b353d3f8e33b9e6fd27cb9c" />
               <section title="enabled" ref="classmonitorClient#a039b0a59f5602f377711d81ddd60735f" />
               <section title="errorOccurred" ref="classmonitorClient#afc169400024ad1a6e9ecd539632493f7" />
-              <section title="exerciseReceived" ref="classmonitorClient#a8920f4dfd14ad6a737708dfa32db8bcd" />
+              <section title="exerciseReceived" ref="classmonitorClient#a3c21eecac7a00f3f0dfadca1f7b3ef44" />
               <section title="readData" ref="classmonitorClient#abe6de247bd781bc3c01bf31d6cc45be7" />
               <section title="readResponse" ref="classmonitorClient#a15e9dc6daf41b85746eca80af96b957d" />
               <section title="responseReady" ref="classmonitorClient#a6940f786c749647238b2231694fd85e8" />
@@ -285,7 +302,7 @@
               <section title="OpenTyper" ref="classOpenTyper#a045934c687780e3a6b6c0c9beb1668ae" />
               <section title="~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
               <section title="changeEvent" ref="classOpenTyper#a75229f4abbbc05cf34f9be4e20b9e8b6" />
-              <section title="changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
+              <section title="changeMode" ref="classOpenTyper#a0c4e3b6611d821078ef2fe0a0a9084fe" />
               <section title="endExercise" ref="classOpenTyper#a48c09e64bddca502b4593b15f9eae8b9" />
               <section title="exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
               <section title="initTimedExercise" ref="classOpenTyper#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" />
@@ -297,7 +314,7 @@
               <section title="loadConfig" ref="classOpenTyper#a24074959a491e6fc649a1f95920f3aad" />
               <section title="loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
               <section title="loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
-              <section title="loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
+              <section title="loadReceivedExercise" ref="classOpenTyper#aa5d35139c68a5ad1fbb6af7feb48dd2b" />
               <section title="loadReversedText" ref="classOpenTyper#a68c5a8c9e8ac15e3394ba0646b03ee52" />
               <section title="loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
               <section title="loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
@@ -560,6 +577,7 @@
               <section title="exportDialog" ref="classexportDialog" />
               <section title="initialSetup" ref="classinitialSetup" />
               <section title="levelSummary" ref="classlevelSummary" />
+              <section title="loadExerciseDialog" ref="classloadExerciseDialog" />
               <section title="optionsWindow" ref="classoptionsWindow" />
               <section title="packEditor" ref="classpackEditor" />
               <section title="packSelector" ref="classpackSelector" />
@@ -702,6 +720,7 @@
                   </section>
                   <section title="adminselector.h" ref="adminselector_8h_source" />
                   <section title="classedit.h" ref="classedit_8h_source" />
+                  <section title="loadexercisedialog.h" ref="loadexercisedialog_8h_source" />
                   <section title="serversetup.h" ref="serversetup_8h_source" />
                   <section title="studentedit.h" ref="studentedit_8h_source" />
                   <section title="useredit.h" ref="useredit_8h_source" />
@@ -751,6 +770,7 @@
       <keyword name="languageList" id="languageList" ref="classlanguageList" />
       <keyword name="languageManager" id="languageManager" ref="classlanguageManager" />
       <keyword name="levelSummary" id="levelSummary" ref="classlevelSummary" />
+      <keyword name="loadExerciseDialog" id="loadExerciseDialog" ref="classloadExerciseDialog" />
       <keyword name="monitorClient" id="monitorClient" ref="classmonitorClient" />
       <keyword name="monitorServer" id="monitorServer" ref="classmonitorServer" />
       <keyword name="OpenTyper" id="OpenTyper" ref="classOpenTyper" />
@@ -820,8 +840,9 @@
       <keyword name="changeLessonDesc" id="packView::changeLessonDesc" ref="classpackView#a855b7f681fc8da2bd1e6efdc30548d4a" />
       <keyword name="changeLevelTextColor" id="customizationOptions::changeLevelTextColor" ref="classcustomizationOptions#a64b84b7eb2349fb7d27dc25480348deb" />
       <keyword name="changeLineLength" id="packView::changeLineLength" ref="classpackView#a2afc56c1ff61a63026c5926098ccdc6a" />
-      <keyword name="changeMode" id="OpenTyper::changeMode" ref="classOpenTyper#aae58db84c62ad4d6f2b89ae8f1134765" />
+      <keyword name="changeMode" id="OpenTyper::changeMode" ref="classOpenTyper#a0c4e3b6611d821078ef2fe0a0a9084fe" />
       <keyword name="changeMode" id="connectionOptions::changeMode" ref="classconnectionOptions#a2461ceacb3ce0a26715d99854dfb5144" />
+      <keyword name="changeMode" id="loadExerciseDialog::changeMode" ref="classloadExerciseDialog#aabfc7f53f2df9312e5160073074d3970" />
       <keyword name="changeOptionWidget" id="optionsWindow::changeOptionWidget" ref="classoptionsWindow#a579aae16bd3523b42cf615365679a063" />
       <keyword name="changePack" id="keyboardOptions::changePack" ref="classkeyboardOptions#a18842f598cf0466678e644127d7f1d67" />
       <keyword name="changePanelColor" id="customizationOptions::changePanelColor" ref="classcustomizationOptions#acf0e7da87d84efdb0a7a322e302bf1f7" />
@@ -829,6 +850,7 @@
       <keyword name="changeRepeating" id="packView::changeRepeating" ref="classpackView#aa27ec7d9ffe06948c110d13cbbc76da0" />
       <keyword name="changeRepeatLength" id="packView::changeRepeatLength" ref="classpackView#ac18df3d9e3edaa386dcf8146a73cfea2" />
       <keyword name="changeSchoolName" id="serverManager::changeSchoolName" ref="classserverManager#a818cc42490ab0d5ef0a7862085b8d3bb" />
+      <keyword name="changeSource" id="loadExerciseDialog::changeSource" ref="classloadExerciseDialog#a968f0894f095f3be5b0cf7f57e54611c" />
       <keyword name="changeTheme" id="customizationOptions::changeTheme" ref="classcustomizationOptions#a113803a84aa1cb5cbebf920a6dc9da31" />
       <keyword name="classControls" id="classControls::classControls" ref="classclassControls#a490fc7075794f498f3315e10b83bfd97" />
       <keyword name="classEdit" id="classEdit::classEdit" ref="classclassEdit#ab04a76336f5ed8db1c1002f623c82386" />
@@ -856,6 +878,7 @@
       <keyword name="convertData" id="monitorClient::convertData" ref="classmonitorClient#a87cfa1eddd8431db92a076ce38199f43" />
       <keyword name="convertData" id="monitorServer::convertData" ref="classmonitorServer#a21ac62f2a47529c975e8e588e88a5519" />
       <keyword name="convertData" id="monitorServer::convertData" ref="classmonitorServer#a13113cdf9fb7db16384cc34fba441593" />
+      <keyword name="correctMistakes" id="loadExerciseDialog::correctMistakes" ref="classloadExerciseDialog#abc9018f0f44a28c05b5af4aa3881d6b9" />
       <keyword name="createNewFile" id="packEditor::createNewFile" ref="classpackEditor#a9eea23604a8951a257c0d13de4146a30" />
       <keyword name="customBgColor" id="themeEngine::customBgColor" ref="classthemeEngine#abba7a4370b0f1ceb086e75831d7c26d2" />
       <keyword name="customExerciseTextColor" id="themeEngine::customExerciseTextColor" ref="classthemeEngine#a12b385091215dd0eae22a876f75375fe" />
@@ -885,7 +908,7 @@
       <keyword name="exerciseLineLength" id="configParser::exerciseLineLength" ref="classconfigParser#affe9b6fae6d5a864619ff35d7a0504ad" />
       <keyword name="exerciseRawText" id="configParser::exerciseRawText" ref="classconfigParser#aaec1cc87884ad80cf354b7bb94bbfd0b" />
       <keyword name="exerciseRawText" id="configParser::exerciseRawText" ref="classconfigParser#a7b4a5f25f5ebb319bdc99cb34fef0724" />
-      <keyword name="exerciseReceived" id="monitorClient::exerciseReceived" ref="classmonitorClient#a8920f4dfd14ad6a737708dfa32db8bcd" />
+      <keyword name="exerciseReceived" id="monitorClient::exerciseReceived" ref="classmonitorClient#a3c21eecac7a00f3f0dfadca1f7b3ef44" />
       <keyword name="exerciseRepeatBool" id="configParser::exerciseRepeatBool" ref="classconfigParser#a37d3235f050bb2b8066fc56ffd71709a" />
       <keyword name="exerciseRepeatBool" id="configParser::exerciseRepeatBool" ref="classconfigParser#a63e44b8aea3e62963145781ab4cd73df" />
       <keyword name="exerciseRepeatConfig" id="configParser::exerciseRepeatConfig" ref="classconfigParser#a58ab2a6c3f844fc996051ac9ee752431" />
@@ -893,6 +916,7 @@
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#a3f69cbbdb3e7268f730555c2cfe2c74c" />
       <keyword name="exerciseRepeatType" id="configParser::exerciseRepeatType" ref="classconfigParser#ada7d47ae6c03fbe60727236164df0c95" />
       <keyword name="exerciseText" id="configParser::exerciseText" ref="classconfigParser#abcf6455297d66a7b7401fb35de6b2dae" />
+      <keyword name="exerciseText" id="loadExerciseDialog::exerciseText" ref="classloadExerciseDialog#ae70500d3be5e216de07da28504b47f85" />
       <keyword name="exerciseTextColor" id="themeEngine::exerciseTextColor" ref="classthemeEngine#ad5a2518b11b5a67b31f329b97f36e221" />
       <keyword name="exerciseTextColorChanged" id="themeEngine::exerciseTextColorChanged" ref="classthemeEngine#ab71e654408e0a8875c6f32709228e353" />
       <keyword name="exerciseTextStyleSheet" id="themeEngine::exerciseTextStyleSheet" ref="classthemeEngine#a7c49d1041e50fbb5fde8dad0686c081c" />
@@ -930,12 +954,14 @@
       <keyword name="getSslPrivateKey" id="monitorServer::getSslPrivateKey" ref="classmonitorServer#aacd66e4bdad6c4aa34704c3ae9ba6931" />
       <keyword name="getSslProtocol" id="monitorServer::getSslProtocol" ref="classmonitorServer#afb76272169b8d3a0b6d32b325df48348" />
       <keyword name="goBack" id="customizationOptions::goBack" ref="classcustomizationOptions#ac8fe4c55810b918fcd249055f6d5aaf4" />
+      <keyword name="hideText" id="loadExerciseDialog::hideText" ref="classloadExerciseDialog#a8c6db897de55de62f65614ff0b172632" />
       <keyword name="highlightKey" id="keyboardWidget::highlightKey" ref="classkeyboardWidget#a6618df4de1c15adca1e312714ff711ae" />
       <keyword name="historyDocument" id="historyParser::historyDocument" ref="classhistoryParser#acbcc9e9fc7e1f38d7f1ca030baa2ff7c" />
       <keyword name="historyEntries" id="databaseManager::historyEntries" ref="classdatabaseManager#a4cb40d11de4e32cf81c5d29401682ffa" />
       <keyword name="historyEntry" id="historyParser::historyEntry" ref="classhistoryParser#a9c394053a283c52bfdb849ce685b7c88" />
       <keyword name="historyPackValue" id="historyParser::historyPackValue" ref="classhistoryParser#a6b7d2e92a94ad1bf637e2b609dc26ab0" />
       <keyword name="historySize" id="historyParser::historySize" ref="classhistoryParser#abccd1018e2cd37ed096be09f319d8958" />
+      <keyword name="includeNewLines" id="loadExerciseDialog::includeNewLines" ref="classloadExerciseDialog#a8f668b8d1a2b8918bc01c1dd8aa7defb" />
       <keyword name="incomingConnection" id="monitorServer::incomingConnection" ref="classmonitorServer#a651c75918ba34568e99831d7e4852ef7" />
       <keyword name="increaseFontSize" id="themeEngine::increaseFontSize" ref="classthemeEngine#a9c81ea8db84d6a92d9286e33c80a5082" />
       <keyword name="init" id="customizationOptions::init" ref="classcustomizationOptions#a71737219bdf919309735605c5633dbd5" />
@@ -972,24 +998,28 @@
       <keyword name="levelFinalInit" id="OpenTyper::levelFinalInit" ref="classOpenTyper#a6a4499c54bdf2daaebdb14014d1f8184" />
       <keyword name="levelSelectionListIndexChanged" id="OpenTyper::levelSelectionListIndexChanged" ref="classOpenTyper#aa809b630b0145d092992fa15a674206b" />
       <keyword name="levelSummary" id="levelSummary::levelSummary" ref="classlevelSummary#a1415b9fa1309edc70ac386e968688b28" />
+      <keyword name="lineLength" id="loadExerciseDialog::lineLength" ref="classloadExerciseDialog#a976b00c4cb5c5e7a84fe2f5e272ad751" />
       <keyword name="lineOf" id="configParser::lineOf" ref="classconfigParser#a33a3e1eb8328c87e8a8ccf26c125637f" />
       <keyword name="loadConfig" id="OpenTyper::loadConfig" ref="classOpenTyper#a24074959a491e6fc649a1f95920f3aad" />
       <keyword name="loadErrorWords" id="OpenTyper::loadErrorWords" ref="classOpenTyper#a91863db8b08179fd8fdfc587be7ea4b1" />
       <keyword name="loadExercise" id="classControls::loadExercise" ref="classclassControls#ad94d9e3849a23e72661f278a40294867" />
+      <keyword name="loadExerciseDialog" id="loadExerciseDialog::loadExerciseDialog" ref="classloadExerciseDialog#a8d97e3852f8d0e5a0bf2117defe8175b" />
       <keyword name="loadLayout" id="keyboardWidget::loadLayout" ref="classkeyboardWidget#a89e1f9931b347cb71ce5d553d19b70bd" />
       <keyword name="loadLesson" id="OpenTyper::loadLesson" ref="classOpenTyper#a0613875b7b06d80e481d965bb998e6cb" />
       <keyword name="loadList" id="initialSetup::loadList" ref="classinitialSetup#af1cc37e2db742c6c00600237c0d43afd" />
-      <keyword name="loadReceivedExercise" id="OpenTyper::loadReceivedExercise" ref="classOpenTyper#a7c20837cbecadb403165307fb2fac7be" />
+      <keyword name="loadReceivedExercise" id="OpenTyper::loadReceivedExercise" ref="classOpenTyper#aa5d35139c68a5ad1fbb6af7feb48dd2b" />
       <keyword name="loadReversedText" id="OpenTyper::loadReversedText" ref="classOpenTyper#a68c5a8c9e8ac15e3394ba0646b03ee52" />
       <keyword name="loadSublesson" id="OpenTyper::loadSublesson" ref="classOpenTyper#a10b58d5e1faa441b74b88b2a77658dcf" />
       <keyword name="loadText" id="OpenTyper::loadText" ref="classOpenTyper#aa8aeadae97d11952d976474cdfe5d6e4" />
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
+      <keyword name="lockUi" id="loadExerciseDialog::lockUi" ref="classloadExerciseDialog#a323be95d9b1f7294d64420f86095c91a" />
       <keyword name="loginID" id="databaseManager::loginID" ref="classdatabaseManager#a93f0d506314da8c9fc556a2a91aa8eef" />
       <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a341fb091d92a8afbf2e6fcd52d85c132" />
       <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
       <keyword name="mainSettingsLocation" id="fileUtils::mainSettingsLocation" ref="classfileUtils#a3c18f5df4c77a63e197dab52ebaaaaac" />
       <keyword name="maxFontSize" id="themeEngine::maxFontSize" ref="classthemeEngine#a3a36600c19ac5a4562db01d118dbde35" />
+      <keyword name="mode" id="loadExerciseDialog::mode" ref="classloadExerciseDialog#afcd350ea1770734992f33ce3526ffec5" />
       <keyword name="monitorClient" id="monitorClient::monitorClient" ref="classmonitorClient#a6fedfbb816b9ce8cd17080f97d11be00" />
       <keyword name="monitorServer" id="monitorServer::monitorServer" ref="classmonitorServer#a5139f286021e951906edffa8502ee3b7" />
       <keyword name="mouseMoveEvent" id="textView::mouseMoveEvent" ref="classtextView#a30a8c4751cb9d7bfd29a5aaafab937b8" />
@@ -1006,6 +1036,7 @@
       <keyword name="openExerciseFromFile" id="OpenTyper::openExerciseFromFile" ref="classOpenTyper#a1152e24f5c093f46693ec2547c1537c9" />
       <keyword name="openFile" id="packEditor::openFile" ref="classpackEditor#a517c6e4e5c95ad37b0d22f60b0a41fc2" />
       <keyword name="openFile" id="packView::openFile" ref="classpackView#a20fa54b8c61e6c7d63dcfefe95082d7e" />
+      <keyword name="openFile" id="loadExerciseDialog::openFile" ref="classloadExerciseDialog#ada153020f05ce49867edf1389e6e7ab6" />
       <keyword name="openOptions" id="OpenTyper::openOptions" ref="classOpenTyper#aa41ec1034255a67b7eb6a0bfd16abb0e" />
       <keyword name="openPack" id="OpenTyper::openPack" ref="classOpenTyper#a064daf6187f1b3816bbc346aac817e2d" />
       <keyword name="openPrebuilt" id="packEditor::openPrebuilt" ref="classpackEditor#ae4e25dd318728fc46546e7116e751a91" />
@@ -1070,6 +1101,7 @@
       <keyword name="saveAs" id="packView::saveAs" ref="classpackView#ac2bebdcab08ff9693863e0525da61be8" />
       <keyword name="selectCurrentFullTheme" id="customizationOptions::selectCurrentFullTheme" ref="classcustomizationOptions#a2089f4ccdfb3f012e82d714ce6c7bb09" />
       <keyword name="selectedConfig" id="packSelector::selectedConfig" ref="classpackSelector#a5ff2264ada61381338ba429d1e36d008" />
+      <keyword name="selectedStudents" id="loadExerciseDialog::selectedStudents" ref="classloadExerciseDialog#adbe918aae074adc07288adb511a36012" />
       <keyword name="sendRequest" id="monitorClient::sendRequest" ref="classmonitorClient#a01e7aa8ae84dc8164badb27829f9fe79" />
       <keyword name="sendResponse" id="monitorServer::sendResponse" ref="classmonitorServer#ad94cc73617f4f28512394180d52e451b" />
       <keyword name="sendSignal" id="monitorServer::sendSignal" ref="classmonitorServer#a8ec64bd1847a880cd628dd2e5cd8d660" />
@@ -1155,6 +1187,7 @@
       <keyword name="themeList" id="themeEngine::themeList" ref="classthemeEngine#a84461f8f0487b1dfbebffad2153201c8" />
       <keyword name="themeName" id="themeEngine::themeName" ref="classthemeEngine#a9ab4e0f29d1b4d472c1358cde5384236" />
       <keyword name="timeDialog" id="timeDialog::timeDialog" ref="classtimeDialog#afee89fd18b8ade41b001e436dc73f522" />
+      <keyword name="timeLimit" id="loadExerciseDialog::timeLimit" ref="classloadExerciseDialog#a8fbe47ca1e7b43a27f31bb52db80fb48" />
       <keyword name="toggleKeyboard" id="keyboardWidget::toggleKeyboard" ref="classkeyboardWidget#a2f270d1d090d383e02509947774abceb" />
       <keyword name="updateClassTimestamp" id="databaseManager::updateClassTimestamp" ref="classdatabaseManager#afde658e0a3b09ddb7ca2c4ebdb469da4" />
       <keyword name="updateCurrentTime" id="OpenTyper::updateCurrentTime" ref="classOpenTyper#a161a88a48c7a083c1afce2201f9a4ac1" />
@@ -1180,6 +1213,7 @@
       <keyword name="userNickname" id="databaseManager::userNickname" ref="classdatabaseManager#a783f56c33f49697ca0fc23c5cc3cb3c3" />
       <keyword name="userRole" id="databaseManager::userRole" ref="classdatabaseManager#a1ad2124ff8f5337388c145b0e83c2deb" />
       <keyword name="verify" id="classEdit::verify" ref="classclassEdit#a32507fbb569e4568c13758c0d6e8955e" />
+      <keyword name="verify" id="loadExerciseDialog::verify" ref="classloadExerciseDialog#a33272b7a272a0aa6005cbc4c5826643f" />
       <keyword name="verify" id="serverSetup::verify" ref="classserverSetup#a9870f19bc8c78c96dd21046de1303892" />
       <keyword name="verify" id="studentEdit::verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
       <keyword name="verify" id="userEdit::verify" ref="classuserEdit#a23e63b7b722d05537b6e45b83b144cb2" />
@@ -1206,6 +1240,7 @@
       <keyword name="~languageList" id="languageList::~languageList" ref="classlanguageList#a8d99b59d00bbdc29823c8caf94d83f75" />
       <keyword name="~languageManager" id="languageManager::~languageManager" ref="classlanguageManager#aa528e7f1356bfb831104e0c4e1c6c485" />
       <keyword name="~levelSummary" id="levelSummary::~levelSummary" ref="classlevelSummary#a9ef285f93758398b40f81ca48f22fbf2" />
+      <keyword name="~loadExerciseDialog" id="loadExerciseDialog::~loadExerciseDialog" ref="classloadExerciseDialog#af3834eaa5e2ed412860991f5b3c92e94" />
       <keyword name="~monitorClient" id="monitorClient::~monitorClient" ref="classmonitorClient#a6c25754bf7d283d98b2a019f7eed8714" />
       <keyword name="~monitorServer" id="monitorServer::~monitorServer" ref="classmonitorServer#a10c0a13ba9e519d6e7fc91e1f3839585" />
       <keyword name="~OpenTyper" id="OpenTyper::~OpenTyper" ref="classOpenTyper#a47f341fe57bb1127965119b293f2fe3f" />
@@ -1282,6 +1317,7 @@
       <file>paperconfigdialog_8h_source.html</file>
       <file>adminselector_8h_source.html</file>
       <file>classedit_8h_source.html</file>
+      <file>loadexercisedialog_8h_source.html</file>
       <file>serversetup_8h_source.html</file>
       <file>studentedit_8h_source.html</file>
       <file>useredit_8h_source.html</file>
@@ -1384,6 +1420,10 @@
       <file>classlevelSummary__coll__graph.png</file>
       <file>levelSummary.png</file>
       <file>classlevelSummary-members.html</file>
+      <file>classloadExerciseDialog.html</file>
+      <file>classloadExerciseDialog__inherit__graph.png</file>
+      <file>classloadExerciseDialog__coll__graph.png</file>
+      <file>classloadExerciseDialog-members.html</file>
       <file>classmonitorClient.html</file>
       <file>classmonitorClient__inherit__graph.png</file>
       <file>classmonitorClient__coll__graph.png</file>

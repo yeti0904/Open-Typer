@@ -49,7 +49,7 @@ var NAVTREEINDEX =
 [
 "adminselector_8h_source.html",
 "classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb",
-"configfile_8h_source.html"
+"classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
