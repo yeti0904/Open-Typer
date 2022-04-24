@@ -116,46 +116,47 @@ $(document).ready(function(){initNavTree('classcontrols_8h_source.html',''); ini
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &quot;paperconfigdialog.h&quot;</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &quot;core/database.h&quot;</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;core/configfile.h&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#if QT_VERSION &lt; QT_VERSION_CHECK(6, 1, 0)</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">using namespace </span>QtCharts;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">namespace </span>Ui {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">class </span><a class="code hl_class" href="classclassControls.html">classControls</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classclassControls.html">   44</a></span><span class="keyword">class </span><a class="code hl_class" href="classclassControls.html">classControls</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    Q_OBJECT</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classclassControls.html#a490fc7075794f498f3315e10b83bfd97">classControls</a>(<span class="keywordtype">int</span> openClassID, QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_function" href="classclassControls.html#abf75656086d258bb4c99209e35987448">~classControls</a>();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        Ui::classControls *ui;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordtype">int</span> classID;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        QChart *speedChart, *mistakesChart, *timeChart;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classclassControls.html#adb3be8efc35307d49b7b254d465dbed4">setupTable</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classclassControls.html#a242d53a1e419495dac9ae7be5ad5a31f">changeEvent</a>(QEvent *event);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    signals:</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad">   62</a></span>        <span class="keywordtype">void</span> <a class="code hl_signal" href="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad">detailsClicked</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a1a17121155cb9a41f72f103346e8ce40">verify</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886">addStudent</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a36196fc52adb22c50458b9d38787721c">removeStudent</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a35f2c8f2ea293dfcad7d36d934e0288e">editStudent</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41">openDetails</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a70f87b55fb524edef079d0d0c831234a">refreshCharts</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#ad94d9e3849a23e72661f278a40294867">loadExercise</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif </span><span class="comment">// CLASSCONTROLS_H</span></div>
-<div class="ttc" id="aclassclassControls_html"><div class="ttname"><a href="classclassControls.html">classControls</a></div><div class="ttdoc">The classControls class is a widget for class management.</div><div class="ttdef"><b>Definition:</b> classcontrols.h:45</div></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;core/server.h&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#if QT_VERSION &lt; QT_VERSION_CHECK(6, 1, 0)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">using namespace </span>QtCharts;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">class </span><a class="code hl_class" href="classclassControls.html">classControls</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classclassControls.html">   45</a></span><span class="keyword">class </span><a class="code hl_class" href="classclassControls.html">classControls</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    Q_OBJECT</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="classclassControls.html#a490fc7075794f498f3315e10b83bfd97">classControls</a>(<span class="keywordtype">int</span> openClassID, QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_function" href="classclassControls.html#abf75656086d258bb4c99209e35987448">~classControls</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        Ui::classControls *ui;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">int</span> classID;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        QChart *speedChart, *mistakesChart, *timeChart;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classclassControls.html#adb3be8efc35307d49b7b254d465dbed4">setupTable</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="classclassControls.html#a242d53a1e419495dac9ae7be5ad5a31f">changeEvent</a>(QEvent *event);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    signals:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad">   63</a></span>        <span class="keywordtype">void</span> <a class="code hl_signal" href="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad">detailsClicked</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a1a17121155cb9a41f72f103346e8ce40">verify</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886">addStudent</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a36196fc52adb22c50458b9d38787721c">removeStudent</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a35f2c8f2ea293dfcad7d36d934e0288e">editStudent</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41">openDetails</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#a70f87b55fb524edef079d0d0c831234a">refreshCharts</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classclassControls.html#ad94d9e3849a23e72661f278a40294867">loadExercise</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif </span><span class="comment">// CLASSCONTROLS_H</span></div>
+<div class="ttc" id="aclassclassControls_html"><div class="ttname"><a href="classclassControls.html">classControls</a></div><div class="ttdoc">The classControls class is a widget for class management.</div><div class="ttdef"><b>Definition:</b> classcontrols.h:46</div></div>
 <div class="ttc" id="aclassclassControls_html_a065ff24b5ec8c6e6f781df71d3ffe886"><div class="ttname"><a href="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886">classControls::addStudent</a></div><div class="ttdeci">void addStudent(void)</div><div class="ttdef"><b>Definition:</b> classcontrols.cpp:125</div></div>
 <div class="ttc" id="aclassclassControls_html_a151fa314492e99ce4a6183b91fb906ad"><div class="ttname"><a href="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad">classControls::detailsClicked</a></div><div class="ttdeci">void detailsClicked(int)</div></div>
 <div class="ttc" id="aclassclassControls_html_a1a17121155cb9a41f72f103346e8ce40"><div class="ttname"><a href="classclassControls.html#a1a17121155cb9a41f72f103346e8ce40">classControls::verify</a></div><div class="ttdeci">void verify(void)</div><div class="ttdef"><b>Definition:</b> classcontrols.cpp:110</div></div>
