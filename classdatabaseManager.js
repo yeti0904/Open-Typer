@@ -12,6 +12,7 @@ var classdatabaseManager =
     [ "classIDs", "classdatabaseManager.html#a83f8ea1f695044bee66f101889e14ad4", null ],
     [ "className", "classdatabaseManager.html#ab4c3e9b8927b87e89dcf4c2c144117b2", null ],
     [ "classNames", "classdatabaseManager.html#a0dd9c6e9f6c8c22dbc575a2a9e3e14a9", null ],
+    [ "classOwner", "classdatabaseManager.html#a69ff79778567c45bad2fa400fe5b4bb5", null ],
     [ "classTimestamp", "classdatabaseManager.html#ace7a250001bd196821dd4aafa53a7de3", null ],
     [ "compareWithStudents", "classdatabaseManager.html#a09c671b9a73f31f2bac3dd81e577bf8f", null ],
     [ "editClass", "classdatabaseManager.html#a343911c46bba021611864446002f513f", null ],

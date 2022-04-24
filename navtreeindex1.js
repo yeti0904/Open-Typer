@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classlanguageManager.html#abe17868a43f7d0ad2c10d37245ae43bb":[4,0,18,0],
 "classlevelSummary.html":[4,0,19],
 "classlevelSummary.html#a1415b9fa1309edc70ac386e968688b28":[4,0,19,0],
 "classlevelSummary.html#a1e53aa0b4b860da5560afc0bdb163498":[4,0,19,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classuserManager.html#aad8b4e5cae76715c39a412357cab67d1":[4,0,41,0],
 "classuserManager.html#af12e04d197c6432b8657576fe70df4af":[4,0,41,2],
 "classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9":[4,0,41,1],
-"configfile_8h_source.html":[5,0,0,0,0,0],
-"connection_8h_source.html":[5,0,0,0,1,1]
+"configfile_8h_source.html":[5,0,0,0,0,0]
 };
