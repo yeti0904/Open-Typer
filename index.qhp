@@ -268,6 +268,7 @@
               <section title="getSslPrivateKey" ref="classmonitorServer#aacd66e4bdad6c4aa34704c3ae9ba6931" />
               <section title="getSslProtocol" ref="classmonitorServer#afb76272169b8d3a0b6d32b325df48348" />
               <section title="incomingConnection" ref="classmonitorServer#a651c75918ba34568e99831d7e4852ef7" />
+              <section title="isLoggedIn" ref="classmonitorServer#afa2f6167c5a61c4ea390eb88119d02e5" />
               <section title="port" ref="classmonitorServer#ae06bce523ecfc5599f1ab6219c4f6bc3" />
               <section title="readData" ref="classmonitorServer#a02783368ac82a41a0e2b126fa36a65b6" />
               <section title="sendResponse" ref="classmonitorServer#ad94cc73617f4f28512394180d52e451b" />
@@ -952,6 +953,7 @@
       <keyword name="inputTextColorChanged" id="themeEngine::inputTextColorChanged" ref="classthemeEngine#a820512bd51e2582c6fcf410892977755" />
       <keyword name="inputTextStyleSheet" id="themeEngine::inputTextStyleSheet" ref="classthemeEngine#a73a93a0c5427989331a543b915e31bb3" />
       <keyword name="isDeadKey" id="keyboardUtils::isDeadKey" ref="classkeyboardUtils#a62e8c562fdc522d0c8216ab2f4db4676" />
+      <keyword name="isLoggedIn" id="monitorServer::isLoggedIn" ref="classmonitorServer#afa2f6167c5a61c4ea390eb88119d02e5" />
       <keyword name="isSpecialKey" id="keyboardUtils::isSpecialKey" ref="classkeyboardUtils#a4669db4e273b32bcaeb3f9b2dfb2d85c" />
       <keyword name="keyboardOptions" id="keyboardOptions::keyboardOptions" ref="classkeyboardOptions#adc177d4a26aeac8ba7dd657d92a4e595" />
       <keyword name="keyboardWidget" id="keyboardWidget::keyboardWidget" ref="classkeyboardWidget#a6bf33e59ab59d25b498ba2fcb773b47c" />

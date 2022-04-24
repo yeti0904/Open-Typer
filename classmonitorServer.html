@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10c0a13ba9e519d6e7fc91e1f3839585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ec64bd1847a880cd628dd2e5cd8d660"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#a8ec64bd1847a880cd628dd2e5cd8d660">sendSignal</a> (QByteArray name, QList&lt; QByteArray &gt; data, QList&lt; QByteArray &gt; usernames)</td></tr>
 <tr class="separator:a8ec64bd1847a880cd628dd2e5cd8d660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2f6167c5a61c4ea390eb88119d02e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#afa2f6167c5a61c4ea390eb88119d02e5">isLoggedIn</a> (QString username)</td></tr>
+<tr class="separator:afa2f6167c5a61c4ea390eb88119d02e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad00156a3448fd0c8b8a59e328419950f"><td class="memItemLeft" align="right" valign="top">const QSslCertificate &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#ad00156a3448fd0c8b8a59e328419950f">getSslLocalCertificate</a> () const</td></tr>
 <tr class="separator:ad00156a3448fd0c8b8a59e328419950f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd66e4bdad6c4aa34704c3ae9ba6931"><td class="memItemLeft" align="right" valign="top">const QSslKey &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#aacd66e4bdad6c4aa34704c3ae9ba6931">getSslPrivateKey</a> () const</td></tr>
@@ -477,6 +479,25 @@ Accepts a new connection.</p>
 </table>
 </div><div class="memdoc">
 <p >Overrides QTcpServer::incomingConnection(). </p>
+
+</div>
+</div>
+<a id="afa2f6167c5a61c4ea390eb88119d02e5" name="afa2f6167c5a61c4ea390eb88119d02e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2f6167c5a61c4ea390eb88119d02e5">&#9670;&nbsp;</a></span>isLoggedIn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool monitorServer::isLoggedIn </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>username</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns true if the given student is logged in. </p>
 
 </div>
 </div>

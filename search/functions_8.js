@@ -13,5 +13,6 @@ var searchData=
   ['inputtextcolorchanged_10',['inputTextColorChanged',['../classthemeEngine.html#a820512bd51e2582c6fcf410892977755',1,'themeEngine']]],
   ['inputtextstylesheet_11',['inputTextStyleSheet',['../classthemeEngine.html#a73a93a0c5427989331a543b915e31bb3',1,'themeEngine']]],
   ['isdeadkey_12',['isDeadKey',['../classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676',1,'keyboardUtils']]],
-  ['isspecialkey_13',['isSpecialKey',['../classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c',1,'keyboardUtils']]]
+  ['isloggedin_13',['isLoggedIn',['../classmonitorServer.html#afa2f6167c5a61c4ea390eb88119d02e5',1,'monitorServer']]],
+  ['isspecialkey_14',['isSpecialKey',['../classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c',1,'keyboardUtils']]]
 ];

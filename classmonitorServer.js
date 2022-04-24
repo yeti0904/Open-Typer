@@ -11,6 +11,7 @@ var classmonitorServer =
     [ "getSslPrivateKey", "classmonitorServer.html#aacd66e4bdad6c4aa34704c3ae9ba6931", null ],
     [ "getSslProtocol", "classmonitorServer.html#afb76272169b8d3a0b6d32b325df48348", null ],
     [ "incomingConnection", "classmonitorServer.html#a651c75918ba34568e99831d7e4852ef7", null ],
+    [ "isLoggedIn", "classmonitorServer.html#afa2f6167c5a61c4ea390eb88119d02e5", null ],
     [ "port", "classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3", null ],
     [ "readData", "classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6", null ],
     [ "sendResponse", "classmonitorServer.html#ad94cc73617f4f28512394180d52e451b", null ],
