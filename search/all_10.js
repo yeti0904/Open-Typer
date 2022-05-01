@@ -8,7 +8,7 @@ var searchData=
   ['recordedsublessons_5',['recordedSublessons',['../classdatabaseManager.html#a3120627b6776da2003607ca68d5a0134',1,'databaseManager']]],
   ['refresh_6',['refresh',['../classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd',1,'connectionOptions::refresh()'],['../classstudentDetails.html#aa584eb65a41aa7dcb1d23e4185f319f2',1,'studentDetails::refresh()']]],
   ['refreshall_7',['refreshAll',['../classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5',1,'OpenTyper']]],
-  ['refreshcharts_8',['refreshCharts',['../classclassControls.html#a70f87b55fb524edef079d0d0c831234a',1,'classControls::refreshCharts()'],['../classstudentDetails.html#a0488a551935057caa40ba9583d6dc67c',1,'studentDetails::refreshCharts(void)']]],
+  ['refreshcharts_8',['refreshCharts',['../classstudentDetails.html#a0488a551935057caa40ba9583d6dc67c',1,'studentDetails::refreshCharts()'],['../classclassControls.html#a70f87b55fb524edef079d0d0c831234a',1,'classControls::refreshCharts()']]],
   ['refreshtable_9',['refreshTable',['../classstudentDetails.html#a49db064c526ee9a21684d79f0e3f78ce',1,'studentDetails']]],
   ['refreshui_10',['refreshUi',['../classpackView.html#acc9cd8c1c5399955dcf8e7c542fb66c8',1,'packView']]],
   ['registerkey_11',['registerKey',['../classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23',1,'keyboardWidget']]],
@@ -16,7 +16,7 @@ var searchData=
   ['removeclass_13',['removeClass',['../classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7',1,'databaseManager::removeClass()'],['../classserverManager.html#ad989918f50fefa84def640b2d4f3d578',1,'serverManager::removeClass()']]],
   ['removeexercise_14',['removeExercise',['../classpackView.html#adcd3860837b5b61136d888c13bc85a05',1,'packView']]],
   ['removestudent_15',['removeStudent',['../classclassControls.html#a36196fc52adb22c50458b9d38787721c',1,'classControls']]],
-  ['removeuser_16',['removeUser',['../classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0',1,'databaseManager::removeUser()'],['../classuserManager.html#a68b9c4a42323a9d896ae5c0d585f339d',1,'userManager::removeUser()']]],
+  ['removeuser_16',['removeUser',['../classuserManager.html#a68b9c4a42323a9d896ae5c0d585f339d',1,'userManager::removeUser()'],['../classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0',1,'databaseManager::removeUser()']]],
   ['reopen_17',['reopen',['../classconfigParser.html#a1053a69bbbaeb2fd095811be95a46390',1,'configParser']]],
   ['repeatlevel_18',['repeatLevel',['../classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e',1,'OpenTyper']]],
   ['resetbgcolor_19',['resetBgColor',['../classthemeEngine.html#a593afd921ade6d6e077c757641819099',1,'themeEngine']]],
@@ -30,5 +30,7 @@ var searchData=
   ['resettextcolors_27',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
   ['responseready_28',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
   ['restoretext_29',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]],
-  ['roles_30',['roles',['../classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9',1,'databaseManager']]]
+  ['resultuploaded_30',['resultUploaded',['../classmonitorServer.html#ac8e1708bd07c4b84b6a323787619b973',1,'monitorServer']]],
+  ['roles_31',['roles',['../classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9',1,'databaseManager']]],
+  ['runningexercisestudents_32',['runningExerciseStudents',['../classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5',1,'monitorServer']]]
 ];

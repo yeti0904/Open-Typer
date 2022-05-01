@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['exportdialog_0',['exportDialog',['../classexportDialog.html',1,'']]]
+  ['exerciseprogressdialog_0',['exerciseProgressDialog',['../classexerciseProgressDialog.html',1,'']]],
+  ['exportdialog_1',['exportDialog',['../classexportDialog.html',1,'']]]
 ];

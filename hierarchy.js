@@ -6,6 +6,7 @@ var hierarchy =
       [ "UpdaterDialog", "classUpdaterDialog.html", null ],
       [ "adminSelector", "classadminSelector.html", null ],
       [ "classEdit", "classclassEdit.html", null ],
+      [ "exerciseProgressDialog", "classexerciseProgressDialog.html", null ],
       [ "exportDialog", "classexportDialog.html", null ],
       [ "initialSetup", "classinitialSetup.html", null ],
       [ "levelSummary", "classlevelSummary.html", null ],

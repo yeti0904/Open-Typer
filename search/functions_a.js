@@ -19,12 +19,13 @@ var searchData=
   ['loadlesson_16',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
   ['loadlist_17',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
   ['loadreceivedexercise_18',['loadReceivedExercise',['../classOpenTyper.html#aa5d35139c68a5ad1fbb6af7feb48dd2b',1,'OpenTyper']]],
-  ['loadreversedtext_19',['loadReversedText',['../classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52',1,'OpenTyper']]],
-  ['loadsublesson_20',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
-  ['loadtext_21',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
-  ['loadtheme_22',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
-  ['loadtobuffer_23',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]],
-  ['lockui_24',['lockUi',['../classloadExerciseDialog.html#a323be95d9b1f7294d64420f86095c91a',1,'loadExerciseDialog']]],
-  ['loginid_25',['loginID',['../classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef',1,'databaseManager']]],
-  ['longestcommonsubsequence_26',['longestCommonSubsequence',['../classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132',1,'stringUtils::longestCommonSubsequence(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)'],['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils::longestCommonSubsequence(QString source, QString target)']]]
+  ['loadresult_19',['loadResult',['../classexerciseProgressDialog.html#a8bf463a4ad38d7f465b7ff765d57c043',1,'exerciseProgressDialog']]],
+  ['loadreversedtext_20',['loadReversedText',['../classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52',1,'OpenTyper']]],
+  ['loadsublesson_21',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
+  ['loadtext_22',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
+  ['loadtheme_23',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
+  ['loadtobuffer_24',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]],
+  ['lockui_25',['lockUi',['../classloadExerciseDialog.html#a323be95d9b1f7294d64420f86095c91a',1,'loadExerciseDialog']]],
+  ['loginid_26',['loginID',['../classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef',1,'databaseManager']]],
+  ['longestcommonsubsequence_27',['longestCommonSubsequence',['../classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132',1,'stringUtils::longestCommonSubsequence(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)'],['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils::longestCommonSubsequence(QString source, QString target)']]]
 ];
