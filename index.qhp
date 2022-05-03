@@ -304,6 +304,7 @@
               <section title="getSslProtocol" ref="classmonitorServer#afb76272169b8d3a0b6d32b325df48348" />
               <section title="incomingConnection" ref="classmonitorServer#a651c75918ba34568e99831d7e4852ef7" />
               <section title="isLoggedIn" ref="classmonitorServer#afa2f6167c5a61c4ea390eb88119d02e5" />
+              <section title="loggedInStudentsChanged" ref="classmonitorServer#aca22cd4d9a99b5be427b46ca86244b64" />
               <section title="port" ref="classmonitorServer#ae06bce523ecfc5599f1ab6219c4f6bc3" />
               <section title="readData" ref="classmonitorServer#a02783368ac82a41a0e2b126fa36a65b6" />
               <section title="resultUploaded" ref="classmonitorServer#ac8e1708bd07c4b84b6a323787619b973" />
@@ -434,7 +435,7 @@
               <section title="collapse" ref="classserverManager#ac0f7be54fe6402cdc29937e71e0317f2" />
               <section title="expand" ref="classserverManager#a4ef1764d26452b2ff11eff5231fdafe7" />
               <section title="init" ref="classserverManager#a5ab8c8733b39da21a2dc3f97349f0826" />
-              <section title="openClass" ref="classserverManager#addea8bafc2f4c65b478c9a89c9d0ac64" />
+              <section title="openClass" ref="classserverManager#aa5215bc73a73df22e4497e6d22939479" />
               <section title="openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
               <section title="openUserManager" ref="classserverManager#a764fc15601cfdc879ffcdc1c6c9322a6" />
               <section title="removeClass" ref="classserverManager#ad989918f50fefa84def640b2d4f3d578" />
@@ -1043,6 +1044,7 @@
       <keyword name="loadTheme" id="OpenTyper::loadTheme" ref="classOpenTyper#afb70baf5a2bd497921c2feb268a208a8" />
       <keyword name="loadToBuffer" id="configParser::loadToBuffer" ref="classconfigParser#a023259e58ccdb3e3afae72d1e1b287d3" />
       <keyword name="lockUi" id="loadExerciseDialog::lockUi" ref="classloadExerciseDialog#a323be95d9b1f7294d64420f86095c91a" />
+      <keyword name="loggedInStudentsChanged" id="monitorServer::loggedInStudentsChanged" ref="classmonitorServer#aca22cd4d9a99b5be427b46ca86244b64" />
       <keyword name="loginID" id="databaseManager::loginID" ref="classdatabaseManager#a93f0d506314da8c9fc556a2a91aa8eef" />
       <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a341fb091d92a8afbf2e6fcd52d85c132" />
       <keyword name="longestCommonSubsequence" id="stringUtils::longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
@@ -1059,7 +1061,7 @@
       <keyword name="number" id="exportDialog::number" ref="classexportDialog#aed772c7f2d87c9f3f1935f5c00fd92c3" />
       <keyword name="open" id="configParser::open" ref="classconfigParser#a82b6a29bf6a95792e94137d3925f5021" />
       <keyword name="open" id="databaseManager::open" ref="classdatabaseManager#a96ac17faa095ebcf1c90967f99561bb6" />
-      <keyword name="openClass" id="serverManager::openClass" ref="classserverManager#addea8bafc2f4c65b478c9a89c9d0ac64" />
+      <keyword name="openClass" id="serverManager::openClass" ref="classserverManager#aa5215bc73a73df22e4497e6d22939479" />
       <keyword name="openDetails" id="classControls::openDetails" ref="classclassControls#a4f72d70048afef1fe87f9ac93d76de41" />
       <keyword name="openDetails" id="serverManager::openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
       <keyword name="openEditor" id="OpenTyper::openEditor" ref="classOpenTyper#afd068c4fb723f3b7e8c8084ade8ddac1" />

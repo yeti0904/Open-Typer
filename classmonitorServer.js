@@ -13,6 +13,7 @@ var classmonitorServer =
     [ "getSslProtocol", "classmonitorServer.html#afb76272169b8d3a0b6d32b325df48348", null ],
     [ "incomingConnection", "classmonitorServer.html#a651c75918ba34568e99831d7e4852ef7", null ],
     [ "isLoggedIn", "classmonitorServer.html#afa2f6167c5a61c4ea390eb88119d02e5", null ],
+    [ "loggedInStudentsChanged", "classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64", null ],
     [ "port", "classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3", null ],
     [ "readData", "classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6", null ],
     [ "resultUploaded", "classmonitorServer.html#ac8e1708bd07c4b84b6a323787619b973", null ],

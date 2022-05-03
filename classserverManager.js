@@ -7,7 +7,7 @@ var classserverManager =
     [ "collapse", "classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2", null ],
     [ "expand", "classserverManager.html#a4ef1764d26452b2ff11eff5231fdafe7", null ],
     [ "init", "classserverManager.html#a5ab8c8733b39da21a2dc3f97349f0826", null ],
-    [ "openClass", "classserverManager.html#addea8bafc2f4c65b478c9a89c9d0ac64", null ],
+    [ "openClass", "classserverManager.html#aa5215bc73a73df22e4497e6d22939479", null ],
     [ "openDetails", "classserverManager.html#a88943a234980834b4ca7c717d6927053", null ],
     [ "openUserManager", "classserverManager.html#a764fc15601cfdc879ffcdc1c6c9322a6", null ],
     [ "removeClass", "classserverManager.html#ad989918f50fefa84def640b2d4f3d578", null ],
