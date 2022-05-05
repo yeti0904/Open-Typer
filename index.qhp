@@ -440,6 +440,7 @@
               <section title="openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
               <section title="openUserManager" ref="classserverManager#a764fc15601cfdc879ffcdc1c6c9322a6" />
               <section title="removeClass" ref="classserverManager#ad989918f50fefa84def640b2d4f3d578" />
+              <section title="showCloseExercisesMessage" ref="classserverManager#a98e727daad5078cb1bf445846ea22718" />
               <section title="widgetCollapsed" ref="classserverManager#a14f1e218c0c3b4d2b4bf1afe2165d11b" />
               <section title="widgetExpanded" ref="classserverManager#adf94679b27957d02e94ff0f694bd44df" />
             </section>
@@ -1197,6 +1198,7 @@
       <keyword name="setupTable" id="exerciseProgressDialog::setupTable" ref="classexerciseProgressDialog#a05b5ae46c79fd69b6936ea96dd0873a1" />
       <keyword name="setupTable" id="classControls::setupTable" ref="classclassControls#adb3be8efc35307d49b7b254d465dbed4" />
       <keyword name="setVerticalAdjust" id="textView::setVerticalAdjust" ref="classtextView#a8436c65cc75d5ede073ac7b8d90d743c" />
+      <keyword name="showCloseExercisesMessage" id="serverManager::showCloseExercisesMessage" ref="classserverManager#a98e727daad5078cb1bf445846ea22718" />
       <keyword name="showExerciseStats" id="OpenTyper::showExerciseStats" ref="classOpenTyper#afee6949c71f4c7679b1aa7f206fe7b9d" />
       <keyword name="startLevel" id="OpenTyper::startLevel" ref="classOpenTyper#ab3e6df43ee172d7ac8ce29fcd2dd8b2f" />
       <keyword name="statsDialog" id="statsDialog::statsDialog" ref="classstatsDialog#aa508c0fce8b041c4157df2bd5b18331d" />

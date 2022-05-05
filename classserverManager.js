@@ -12,6 +12,7 @@ var classserverManager =
     [ "openDetails", "classserverManager.html#a88943a234980834b4ca7c717d6927053", null ],
     [ "openUserManager", "classserverManager.html#a764fc15601cfdc879ffcdc1c6c9322a6", null ],
     [ "removeClass", "classserverManager.html#ad989918f50fefa84def640b2d4f3d578", null ],
+    [ "showCloseExercisesMessage", "classserverManager.html#a98e727daad5078cb1bf445846ea22718", null ],
     [ "widgetCollapsed", "classserverManager.html#a14f1e218c0c3b4d2b4bf1afe2165d11b", null ],
     [ "widgetExpanded", "classserverManager.html#adf94679b27957d02e94ff0f694bd44df", null ]
 ];
