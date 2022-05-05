@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['editclass_0',['editClass',['../classdatabaseManager.html#a343911c46bba021611864446002f513f',1,'databaseManager']]],
+  ['editclass_0',['editClass',['../classdatabaseManager.html#a343911c46bba021611864446002f513f',1,'databaseManager::editClass()'],['../classserverManager.html#a866cd457fe8a608b17534ffac70ace95',1,'serverManager::editClass()']]],
   ['editstudent_1',['editStudent',['../classclassControls.html#a35f2c8f2ea293dfcad7d36d934e0288e',1,'classControls']]],
   ['edituser_2',['editUser',['../classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae',1,'databaseManager::editUser()'],['../classuserManager.html#a2741e17eb61158b8b009aa37e8f7de80',1,'userManager::editUser()']]],
   ['enabled_3',['enabled',['../classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f',1,'monitorClient']]],

@@ -49,7 +49,7 @@ var NAVTREEINDEX =
 [
 "adminselector_8h_source.html",
 "classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951",
-"classthemeEngine.html#aa49d8e88f212cf48316c472b38e61ccb"
+"classthemeEngine.html#aa435a1b138ea719e9551d06e930e779d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

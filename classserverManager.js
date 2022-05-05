@@ -5,6 +5,7 @@ var classserverManager =
     [ "addClass", "classserverManager.html#a9dc6491322bcb259064c25d4c359ee7d", null ],
     [ "changeSchoolName", "classserverManager.html#a818cc42490ab0d5ef0a7862085b8d3bb", null ],
     [ "collapse", "classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2", null ],
+    [ "editClass", "classserverManager.html#a866cd457fe8a608b17534ffac70ace95", null ],
     [ "expand", "classserverManager.html#a4ef1764d26452b2ff11eff5231fdafe7", null ],
     [ "init", "classserverManager.html#a5ab8c8733b39da21a2dc3f97349f0826", null ],
     [ "openClass", "classserverManager.html#aa5215bc73a73df22e4497e6d22939479", null ],
