@@ -79,5 +79,6 @@ var searchData=
   ['sublessontr_76',['sublessonTr',['../classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317',1,'configParser']]],
   ['switchexercise_77',['switchExercise',['../classpackView.html#a8732f57a4ba307c14913aef98e524a3d',1,'packView']]],
   ['switchlesson_78',['switchLesson',['../classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8',1,'packView']]],
-  ['switchsublesson_79',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
+  ['switchmode_79',['switchMode',['../classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631',1,'studentEdit']]],
+  ['switchsublesson_80',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
 ];

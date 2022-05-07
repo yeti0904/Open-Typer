@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395":[4,0,17,2],
+"classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc":[4,0,17,3],
 "classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951":[4,0,17,7],
 "classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae":[4,0,17,6],
 "classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c":[4,0,17,0],
@@ -189,10 +191,12 @@ var NAVTREEINDEX1 =
 "classstudentDetails.html#aa584eb65a41aa7dcb1d23e4185f319f2":[4,0,34,4],
 "classstudentDetails.html#af7a767871f4c72c1c6c87a9d350fde87":[4,0,34,1],
 "classstudentEdit.html":[4,0,35],
-"classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a":[4,0,35,3],
+"classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a":[4,0,35,5],
 "classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1":[4,0,35,2],
 "classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33":[4,0,35,1],
+"classstudentEdit.html#aa2040452502df7434cda5d1afc2f5513":[4,0,35,3],
 "classstudentEdit.html#aebdb3451c6416fc51b1f80ba4af44bfa":[4,0,35,0],
+"classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631":[4,0,35,4],
 "classstudentOptions.html":[4,0,36],
 "classstudentOptions.html#a355451cfa1bae5af52f7450ebb8138f5":[4,0,36,0],
 "classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8":[4,0,36,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "classthemeEngine.html#a872aaebf1177b8eb5e8ea3b8b93c146e":[4,0,38,56],
 "classthemeEngine.html#a8d82dc0c63acd244b39d59cedfa66c17":[4,0,38,34],
 "classthemeEngine.html#a939c8be9e2eaef2d22c6f2f0f3ec6723":[4,0,38,18],
-"classthemeEngine.html#a96ce91f0c1c852caf7ce9e370868f170":[4,0,38,15],
-"classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236":[4,0,38,61],
-"classthemeEngine.html#a9c81ea8db84d6a92d9286e33c80a5082":[4,0,38,27],
-"classthemeEngine.html#a9dd6807cb619c2b2577fc62b253f7247":[4,0,38,28],
-"classthemeEngine.html#a9fe546070d5ed6fb02ef7191e6aac5d2":[4,0,38,0]
+"classthemeEngine.html#a96ce91f0c1c852caf7ce9e370868f170":[4,0,38,15]
 };

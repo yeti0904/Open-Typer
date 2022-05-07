@@ -27,6 +27,8 @@ var classdatabaseManager =
     [ "recordedPacks", "classdatabaseManager.html#a27cb96edeb76c15862b860b015846883", null ],
     [ "recordedSublessons", "classdatabaseManager.html#a3120627b6776da2003607ca68d5a0134", null ],
     [ "removeClass", "classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7", null ],
+    [ "removeOrphanedStudents", "classdatabaseManager.html#a9e618d2883895582bfc00ef746f5dea3", null ],
+    [ "removeStudentFromClass", "classdatabaseManager.html#ab9c18c9eabea5038e2b145411a74415b", null ],
     [ "removeUser", "classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0", null ],
     [ "roles", "classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9", null ],
     [ "status", "classdatabaseManager.html#a2f866e347370dad2e29b42b8de137bde", null ],

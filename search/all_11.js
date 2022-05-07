@@ -81,5 +81,6 @@ var searchData=
   ['sublessontr_78',['sublessonTr',['../classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317',1,'configParser']]],
   ['switchexercise_79',['switchExercise',['../classpackView.html#a8732f57a4ba307c14913aef98e524a3d',1,'packView']]],
   ['switchlesson_80',['switchLesson',['../classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8',1,'packView']]],
-  ['switchsublesson_81',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
+  ['switchmode_81',['switchMode',['../classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631',1,'studentEdit']]],
+  ['switchsublesson_82',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
 ];

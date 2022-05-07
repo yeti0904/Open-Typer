@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a79bfebbb46838cba30ed3dbca430f1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e83d9433c880b0047d9f537a860cde0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a5e83d9433c880b0047d9f537a860cde0">removeUser</a> (int userID)</td></tr>
 <tr class="separator:a5e83d9433c880b0047d9f537a860cde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c18c9eabea5038e2b145411a74415b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#ab9c18c9eabea5038e2b145411a74415b">removeStudentFromClass</a> (int userID, int classID)</td></tr>
+<tr class="separator:ab9c18c9eabea5038e2b145411a74415b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c3e9b8927b87e89dcf4c2c144117b2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#ab4c3e9b8927b87e89dcf4c2c144117b2">className</a> (int classID)</td></tr>
 <tr class="separator:ab4c3e9b8927b87e89dcf4c2c144117b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6284088b8d8599c1451165abe47297ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a6284088b8d8599c1451165abe47297ad">classIcon</a> (int classID)</td></tr>
@@ -226,6 +228,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>activeClass</b> = 0</t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a9e618d2883895582bfc00ef746f5dea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a9e618d2883895582bfc00ef746f5dea3">removeOrphanedStudents</a> (void)</td></tr>
+<tr class="separator:a9e618d2883895582bfc00ef746f5dea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31381972f823bedc00ea2b978c4ac809"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a31381972f823bedc00ea2b978c4ac809">quotesEnclosed</a> (QString str)</td></tr>
 <tr class="separator:a31381972f823bedc00ea2b978c4ac809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1037,6 +1041,62 @@ The number of points for each entry is speed - mistakes*10. </p>
       </table>
 </div><div class="memdoc">
 <p >Removes a class. </p>
+
+</div>
+</div>
+<a id="a9e618d2883895582bfc00ef746f5dea3" name="a9e618d2883895582bfc00ef746f5dea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e618d2883895582bfc00ef746f5dea3">&#9670;&nbsp;</a></span>removeOrphanedStudents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void databaseManager::removeOrphanedStudents </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Removes orphaned students. </p>
+
+</div>
+</div>
+<a id="ab9c18c9eabea5038e2b145411a74415b" name="ab9c18c9eabea5038e2b145411a74415b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c18c9eabea5038e2b145411a74415b">&#9670;&nbsp;</a></span>removeStudentFromClass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void databaseManager::removeStudentFromClass </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>userID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>classID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Removes the student from the given class. </p>
 
 </div>
 </div>

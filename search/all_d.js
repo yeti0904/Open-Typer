@@ -2,7 +2,7 @@ var searchData=
 [
   ['open_0',['open',['../classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021',1,'configParser::open()'],['../classdatabaseManager.html#a96ac17faa095ebcf1c90967f99561bb6',1,'databaseManager::open()']]],
   ['open_2dtyper_1',['Open-Typer',['../index.html',1,'']]],
-  ['openclass_2',['openClass',['../classserverManager.html#aa5215bc73a73df22e4497e6d22939479',1,'serverManager']]],
+  ['openclass_2',['openClass',['../classstudentEdit.html#aa2040452502df7434cda5d1afc2f5513',1,'studentEdit::openClass()'],['../classserverManager.html#aa5215bc73a73df22e4497e6d22939479',1,'serverManager::openClass()']]],
   ['opendetails_3',['openDetails',['../classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41',1,'classControls::openDetails()'],['../classserverManager.html#a88943a234980834b4ca7c717d6927053',1,'serverManager::openDetails()']]],
   ['openeditor_4',['openEditor',['../classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1',1,'OpenTyper::openEditor()'],['../classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8',1,'keyboardOptions::openEditor()']]],
   ['openexercisefromfile_5',['openExerciseFromFile',['../classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9',1,'OpenTyper']]],

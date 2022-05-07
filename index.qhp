@@ -145,6 +145,8 @@
               <section title="recordedPacks" ref="classdatabaseManager#a27cb96edeb76c15862b860b015846883" />
               <section title="recordedSublessons" ref="classdatabaseManager#a3120627b6776da2003607ca68d5a0134" />
               <section title="removeClass" ref="classdatabaseManager#a00ea196285d713efd7e30a9e2f2052a7" />
+              <section title="removeOrphanedStudents" ref="classdatabaseManager#a9e618d2883895582bfc00ef746f5dea3" />
+              <section title="removeStudentFromClass" ref="classdatabaseManager#ab9c18c9eabea5038e2b145411a74415b" />
               <section title="removeUser" ref="classdatabaseManager#a5e83d9433c880b0047d9f537a860cde0" />
               <section title="roles" ref="classdatabaseManager#a5da00577367c077613a4d26b06efbca9" />
               <section title="status" ref="classdatabaseManager#a2f866e347370dad2e29b42b8de137bde" />
@@ -477,6 +479,8 @@
               <section title="studentEdit" ref="classstudentEdit#aebdb3451c6416fc51b1f80ba4af44bfa" />
               <section title="~studentEdit" ref="classstudentEdit#a9d21d9eb48bb859aeccc60b1900d5a33" />
               <section title="finish" ref="classstudentEdit#a57769f6f3bb7e2595c8e5ea2dc3f27a1" />
+              <section title="openClass" ref="classstudentEdit#aa2040452502df7434cda5d1afc2f5513" />
+              <section title="switchMode" ref="classstudentEdit#af7614e70a48a6ff6d21cd89d5c022631" />
               <section title="verify" ref="classstudentEdit#a22d4a3f1f4275d71fccf8fa966db4c1a" />
             </section>
             <section title="studentOptions" ref="classstudentOptions">
@@ -1064,6 +1068,7 @@
       <keyword name="number" id="exportDialog::number" ref="classexportDialog#aed772c7f2d87c9f3f1935f5c00fd92c3" />
       <keyword name="open" id="configParser::open" ref="classconfigParser#a82b6a29bf6a95792e94137d3925f5021" />
       <keyword name="open" id="databaseManager::open" ref="classdatabaseManager#a96ac17faa095ebcf1c90967f99561bb6" />
+      <keyword name="openClass" id="studentEdit::openClass" ref="classstudentEdit#aa2040452502df7434cda5d1afc2f5513" />
       <keyword name="openClass" id="serverManager::openClass" ref="classserverManager#aa5215bc73a73df22e4497e6d22939479" />
       <keyword name="openDetails" id="classControls::openDetails" ref="classclassControls#a4f72d70048afef1fe87f9ac93d76de41" />
       <keyword name="openDetails" id="serverManager::openDetails" ref="classserverManager#a88943a234980834b4ca7c717d6927053" />
@@ -1116,7 +1121,9 @@
       <keyword name="removeClass" id="databaseManager::removeClass" ref="classdatabaseManager#a00ea196285d713efd7e30a9e2f2052a7" />
       <keyword name="removeClass" id="serverManager::removeClass" ref="classserverManager#ad989918f50fefa84def640b2d4f3d578" />
       <keyword name="removeExercise" id="packView::removeExercise" ref="classpackView#adcd3860837b5b61136d888c13bc85a05" />
+      <keyword name="removeOrphanedStudents" id="databaseManager::removeOrphanedStudents" ref="classdatabaseManager#a9e618d2883895582bfc00ef746f5dea3" />
       <keyword name="removeStudent" id="classControls::removeStudent" ref="classclassControls#a36196fc52adb22c50458b9d38787721c" />
+      <keyword name="removeStudentFromClass" id="databaseManager::removeStudentFromClass" ref="classdatabaseManager#ab9c18c9eabea5038e2b145411a74415b" />
       <keyword name="removeUser" id="databaseManager::removeUser" ref="classdatabaseManager#a5e83d9433c880b0047d9f537a860cde0" />
       <keyword name="removeUser" id="userManager::removeUser" ref="classuserManager#a68b9c4a42323a9d896ae5c0d585f339d" />
       <keyword name="reopen" id="configParser::reopen" ref="classconfigParser#a1053a69bbbaeb2fd095811be95a46390" />
@@ -1221,6 +1228,7 @@
       <keyword name="sublessonTr" id="configParser::sublessonTr" ref="classconfigParser#a9fb9f55effe2b5f698096fd0f97b7317" />
       <keyword name="switchExercise" id="packView::switchExercise" ref="classpackView#a8732f57a4ba307c14913aef98e524a3d" />
       <keyword name="switchLesson" id="packView::switchLesson" ref="classpackView#a40ba34b5fa8668a821ec5c5bb0cf19c8" />
+      <keyword name="switchMode" id="studentEdit::switchMode" ref="classstudentEdit#af7614e70a48a6ff6d21cd89d5c022631" />
       <keyword name="switchSublesson" id="packView::switchSublesson" ref="classpackView#ae4ceac1dfa27b06777c1aea067b2e4b7" />
       <keyword name="tabChanged" id="packEditor::tabChanged" ref="classpackEditor#a21cb0d01d5588aff614bf4d7e89e8c11" />
       <keyword name="teacherIDs" id="databaseManager::teacherIDs" ref="classdatabaseManager#af4ed4fa5337b10b73573856cd5ca8293" />

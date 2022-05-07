@@ -128,19 +128,24 @@ $(document).ready(function(){initNavTree('studentedit_8h_source.html',''); initR
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        Ui::studentEdit *ui;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">bool</span> creatingNewStudent, passwordReset;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordtype">int</span> classID, userID;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a">verify</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> resetPassword(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1">finish</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif </span><span class="comment">// STUDENTEDIT_H</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        QList&lt;int&gt; classes, students;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a">verify</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordtype">void</span> resetPassword(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1">finish</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631">switchMode</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordtype">void</span> <a class="code hl_slot" href="classstudentEdit.html#aa2040452502df7434cda5d1afc2f5513">openClass</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif </span><span class="comment">// STUDENTEDIT_H</span></div>
 <div class="ttc" id="aclassstudentEdit_html"><div class="ttname"><a href="classstudentEdit.html">studentEdit</a></div><div class="ttdoc">The studentEdit class is a dialog used to add or edit students.</div><div class="ttdef"><b>Definition:</b> studentedit.h:37</div></div>
-<div class="ttc" id="aclassstudentEdit_html_a22d4a3f1f4275d71fccf8fa966db4c1a"><div class="ttname"><a href="classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a">studentEdit::verify</a></div><div class="ttdeci">void verify(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:71</div></div>
-<div class="ttc" id="aclassstudentEdit_html_a57769f6f3bb7e2595c8e5ea2dc3f27a1"><div class="ttname"><a href="classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1">studentEdit::finish</a></div><div class="ttdeci">void finish(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:124</div></div>
-<div class="ttc" id="aclassstudentEdit_html_a9d21d9eb48bb859aeccc60b1900d5a33"><div class="ttname"><a href="classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33">studentEdit::~studentEdit</a></div><div class="ttdeci">~studentEdit()</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:62</div></div>
+<div class="ttc" id="aclassstudentEdit_html_a22d4a3f1f4275d71fccf8fa966db4c1a"><div class="ttname"><a href="classstudentEdit.html#a22d4a3f1f4275d71fccf8fa966db4c1a">studentEdit::verify</a></div><div class="ttdeci">void verify(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:95</div></div>
+<div class="ttc" id="aclassstudentEdit_html_a57769f6f3bb7e2595c8e5ea2dc3f27a1"><div class="ttname"><a href="classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1">studentEdit::finish</a></div><div class="ttdeci">void finish(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:151</div></div>
+<div class="ttc" id="aclassstudentEdit_html_a9d21d9eb48bb859aeccc60b1900d5a33"><div class="ttname"><a href="classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33">studentEdit::~studentEdit</a></div><div class="ttdeci">~studentEdit()</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:86</div></div>
+<div class="ttc" id="aclassstudentEdit_html_aa2040452502df7434cda5d1afc2f5513"><div class="ttname"><a href="classstudentEdit.html#aa2040452502df7434cda5d1afc2f5513">studentEdit::openClass</a></div><div class="ttdeci">void openClass(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:186</div></div>
 <div class="ttc" id="aclassstudentEdit_html_aebdb3451c6416fc51b1f80ba4af44bfa"><div class="ttname"><a href="classstudentEdit.html#aebdb3451c6416fc51b1f80ba4af44bfa">studentEdit::studentEdit</a></div><div class="ttdeci">studentEdit(bool newStudent=false, int class_id=0, int id=1, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:25</div></div>
+<div class="ttc" id="aclassstudentEdit_html_af7614e70a48a6ff6d21cd89d5c022631"><div class="ttname"><a href="classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631">studentEdit::switchMode</a></div><div class="ttdeci">void switchMode(void)</div><div class="ttdef"><b>Definition:</b> studentedit.cpp:171</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
