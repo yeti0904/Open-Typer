@@ -15,5 +15,6 @@ var searchData=
   ['port_12',['port',['../classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3',1,'monitorServer']]],
   ['previouslevel_13',['previousLevel',['../classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b',1,'OpenTyper']]],
   ['printall_14',['printAll',['../classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36',1,'exerciseProgressDialog']]],
-  ['printresult_15',['printResult',['../classexportDialog.html#a83f0c4ca9b2b87535ba528c672b00f9f',1,'exportDialog']]]
+  ['printresult_15',['printResult',['../classexportDialog.html#a83f0c4ca9b2b87535ba528c672b00f9f',1,'exportDialog']]],
+  ['printtext_16',['printText',['../classOpenTyper.html#a8410e97b6f2c38e9739743a805309f65',1,'OpenTyper']]]
 ];
