@@ -460,7 +460,10 @@
             <section title="stringUtils" ref="classstringUtils">
               <section title="compareLists" ref="classstringUtils#aeeb3f5d9158bbaf2946ca13e7643164f" />
               <section title="compareStrings" ref="classstringUtils#a371e6b1e856605071f15eee3d27ae418" />
+              <section title="findAllLcs" ref="classstringUtils#a16db437c319cad70f132738cf70b80eb" />
+              <section title="findAllLcs" ref="classstringUtils#a284d2f3827442b2396ba20d412e3a589" />
               <section title="findMistakes" ref="classstringUtils#a91484c1c5bfc47e101bb4cfc5ea17662" />
+              <section title="lcsLen" ref="classstringUtils#a79faa227c39594f727c1008f29e1cfe3" />
               <section title="longestCommonSubsequence" ref="classstringUtils#a341fb091d92a8afbf2e6fcd52d85c132" />
               <section title="longestCommonSubsequence" ref="classstringUtils#a71a472149dd1b3f6eeca6ae90a274a02" />
               <section title="word" ref="classstringUtils#a4abcd8458b8b50e9d6679e6f03788dc6" />
@@ -962,6 +965,8 @@
       <keyword name="exportDialog" id="exportDialog::exportDialog" ref="classexportDialog#a2bd4e887127aeeacb22de76b4e22e013" />
       <keyword name="exportText" id="OpenTyper::exportText" ref="classOpenTyper#ac67c2d29ed276655dfe8d988f9a69d62" />
       <keyword name="fileName" id="configParser::fileName" ref="classconfigParser#a71c4dbe698008b2e245effdf5360deae" />
+      <keyword name="findAllLcs" id="stringUtils::findAllLcs" ref="classstringUtils#a16db437c319cad70f132738cf70b80eb" />
+      <keyword name="findAllLcs" id="stringUtils::findAllLcs" ref="classstringUtils#a284d2f3827442b2396ba20d412e3a589" />
       <keyword name="findKey" id="keyboardWidget::findKey" ref="classkeyboardWidget#a93b4755cb1187aa034560b88668ce274" />
       <keyword name="findMistakes" id="stringUtils::findMistakes" ref="classstringUtils#a91484c1c5bfc47e101bb4cfc5ea17662" />
       <keyword name="findUser" id="databaseManager::findUser" ref="classdatabaseManager#a0d45091e190dd8be11a16603387cb710" />
@@ -1028,6 +1033,7 @@
       <keyword name="keyReleaseEvent" id="inputLabelWidget::keyReleaseEvent" ref="classinputLabelWidget#a8d9dfa5a92b106065b67c216d66e7f60" />
       <keyword name="languageList" id="languageList::languageList" ref="classlanguageList#a561ad6910f45293e1889ce65048c335d" />
       <keyword name="languageManager" id="languageManager::languageManager" ref="classlanguageManager#abe17868a43f7d0ad2c10d37245ae43bb" />
+      <keyword name="lcsLen" id="stringUtils::lcsLen" ref="classstringUtils#a79faa227c39594f727c1008f29e1cfe3" />
       <keyword name="lessonCount" id="configParser::lessonCount" ref="classconfigParser#a8ddc2e8a7c5871f7233014e4e33c2fe4" />
       <keyword name="lessonDesc" id="configParser::lessonDesc" ref="classconfigParser#aebd0b83cafef103a291c1a2b6ae1ef00" />
       <keyword name="lessonSelectionListIndexChanged" id="OpenTyper::lessonSelectionListIndexChanged" ref="classOpenTyper#a71f4a38c2b9550c71eea4204e34de0e5" />

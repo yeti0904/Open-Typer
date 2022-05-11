@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('classstringUtils.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="classstringUtils-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">stringUtils Class Reference</div></div>
 </div><!--header-->
@@ -108,12 +109,27 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a341fb091d92a8afbf2e6fcd52d85c132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71a472149dd1b3f6eeca6ae90a274a02"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02">longestCommonSubsequence</a> (QString source, QString target)</td></tr>
 <tr class="separator:a71a472149dd1b3f6eeca6ae90a274a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16db437c319cad70f132738cf70b80eb"><td class="memItemLeft" align="right" valign="top">static QList&lt; QList&lt; QVariant &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a16db437c319cad70f132738cf70b80eb">findAllLcs</a> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)</td></tr>
+<tr class="separator:a16db437c319cad70f132738cf70b80eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a284d2f3827442b2396ba20d412e3a589"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a284d2f3827442b2396ba20d412e3a589">findAllLcs</a> (QString source, QString target)</td></tr>
+<tr class="separator:a284d2f3827442b2396ba20d412e3a589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeb3f5d9158bbaf2946ca13e7643164f"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f">compareLists</a> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)</td></tr>
 <tr class="separator:aeeb3f5d9158bbaf2946ca13e7643164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371e6b1e856605071f15eee3d27ae418"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418">compareStrings</a> (QString source, QString target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)</td></tr>
 <tr class="separator:a371e6b1e856605071f15eee3d27ae418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662">findMistakes</a> (QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)</td></tr>
 <tr class="separator:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a79faa227c39594f727c1008f29e1cfe3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3">lcsLen</a> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)</td></tr>
+<tr class="separator:a79faa227c39594f727c1008f29e1cfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ec2bb8c89ffe03e68ebc995cb5d735"><td class="memItemLeft" align="right" valign="top"><a id="a66ec2bb8c89ffe03e68ebc995cb5d735" name="a66ec2bb8c89ffe03e68ebc995cb5d735"></a>
+static int&#160;</td><td class="memItemRight" valign="bottom"><b>lcsLen</b> (QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target, QMap&lt; int, QMap&lt; int, int &gt; &gt; *lcsTable)</td></tr>
+<tr class="separator:a66ec2bb8c89ffe03e68ebc995cb5d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0df24bcbab26fbebe095676d66ba63"><td class="memItemLeft" align="right" valign="top"><a id="a9d0df24bcbab26fbebe095676d66ba63" name="a9d0df24bcbab26fbebe095676d66ba63"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>findAllLcs</b> (QList&lt; QVariant &gt; s1, QList&lt; QVariant &gt; s2, bool visit[], int n1, int n2, int i, int j, int k, int length, QList&lt; QList&lt; QVariant &gt; &gt; *out)</td></tr>
+<tr class="separator:a9d0df24bcbab26fbebe095676d66ba63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classstringUtils.html" title="The stringUtils class contains functions related to strings.">stringUtils</a> class contains functions related to strings. </p>
@@ -228,6 +244,80 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a16db437c319cad70f132738cf70b80eb" name="a16db437c319cad70f132738cf70b80eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16db437c319cad70f132738cf70b80eb">&#9670;&nbsp;</a></span>findAllLcs() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QList&lt; QVariant &gt; &gt; stringUtils::findAllLcs </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns all longest common subsequences of source and target list. </p>
+
+</div>
+</div>
+<a id="a284d2f3827442b2396ba20d412e3a589" name="a284d2f3827442b2396ba20d412e3a589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a284d2f3827442b2396ba20d412e3a589">&#9670;&nbsp;</a></span>findAllLcs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList stringUtils::findAllLcs </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns all longest common subsequences of source and target string. </p>
+
+</div>
+</div>
 <a id="a91484c1c5bfc47e101bb4cfc5ea17662" name="a91484c1c5bfc47e101bb4cfc5ea17662"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91484c1c5bfc47e101bb4cfc5ea17662">&#9670;&nbsp;</a></span>findMistakes()</h2>
 
@@ -280,6 +370,43 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Compares input text with exercise text and finds mistakes. </p>
+
+</div>
+</div>
+<a id="a79faa227c39594f727c1008f29e1cfe3" name="a79faa227c39594f727c1008f29e1cfe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79faa227c39594f727c1008f29e1cfe3">&#9670;&nbsp;</a></span>lcsLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int stringUtils::lcsLen </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QVariant &gt;&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Returns the length of the longest common subsequence of source and target list. </p>
 
 </div>
 </div>
