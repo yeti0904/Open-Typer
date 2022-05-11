@@ -2,7 +2,7 @@ var searchData=
 [
   ['filename_0',['fileName',['../classconfigParser.html#a71c4dbe698008b2e245effdf5360deae',1,'configParser']]],
   ['findkey_1',['findKey',['../classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274',1,'keyboardWidget']]],
-  ['findmistakes_2',['findMistakes',['../classstringUtils.html#a9d015f21b3e759378ffe9729e6286c84',1,'stringUtils']]],
+  ['findmistakes_2',['findMistakes',['../classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662',1,'stringUtils']]],
   ['finduser_3',['findUser',['../classdatabaseManager.html#a0d45091e190dd8be11a16603387cb710',1,'databaseManager']]],
   ['fingerhand_4',['fingerHand',['../classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20',1,'keyboardWidget']]],
   ['finish_5',['finish',['../classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72',1,'initialSetup::finish()'],['../classadminSelector.html#a6badf56d6db693f9d3f1b9b05a142e95',1,'adminSelector::finish()'],['../classclassEdit.html#a2190e2445a8ff442f6716a83ff9e520b',1,'classEdit::finish()'],['../classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1',1,'studentEdit::finish()'],['../classuserEdit.html#a786c48d075bb78bcf7abe27b477466c8',1,'userEdit::finish()']]],

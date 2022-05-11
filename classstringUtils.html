@@ -112,8 +112,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aeeb3f5d9158bbaf2946ca13e7643164f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a371e6b1e856605071f15eee3d27ae418"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418">compareStrings</a> (QString source, QString target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)</td></tr>
 <tr class="separator:a371e6b1e856605071f15eee3d27ae418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d015f21b3e759378ffe9729e6286c84"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a9d015f21b3e759378ffe9729e6286c84">findMistakes</a> (QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr)</td></tr>
-<tr class="separator:a9d015f21b3e759378ffe9729e6286c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662">findMistakes</a> (QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)</td></tr>
+<tr class="separator:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classstringUtils.html" title="The stringUtils class contains functions related to strings.">stringUtils</a> class contains functions related to strings. </p>
@@ -228,8 +228,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d015f21b3e759378ffe9729e6286c84" name="a9d015f21b3e759378ffe9729e6286c84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d015f21b3e759378ffe9729e6286c84">&#9670;&nbsp;</a></span>findMistakes()</h2>
+<a id="a91484c1c5bfc47e101bb4cfc5ea17662" name="a91484c1c5bfc47e101bb4cfc5ea17662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91484c1c5bfc47e101bb4cfc5ea17662">&#9670;&nbsp;</a></span>findMistakes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +259,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>totalHits</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>totalHits</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QStringList *&#160;</td>
+          <td class="paramname"><em>errorWords</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
