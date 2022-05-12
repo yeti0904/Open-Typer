@@ -1,6 +1,6 @@
 var classthemeEngine =
 [
-    [ "themeEngine", "classthemeEngine.html#a9fe546070d5ed6fb02ef7191e6aac5d2", null ],
+    [ "themeEngine", "classthemeEngine.html#a3006292a4175b2d6c849be98edc3b3bd", null ],
     [ "bgColor", "classthemeEngine.html#aa65c52eeb24e63eff1b298cf7aa08995", null ],
     [ "bgColorChanged", "classthemeEngine.html#a4a8302bfd721f510dce5d78219c6be54", null ],
     [ "bgStyleSheet", "classthemeEngine.html#a26382558118798fe878cb86d4b89e944", null ],
@@ -62,5 +62,6 @@ var classthemeEngine =
     [ "themeChanged", "classthemeEngine.html#a75617542d05d61c1511614a5fc3223dd", null ],
     [ "themeList", "classthemeEngine.html#a84461f8f0487b1dfbebffad2153201c8", null ],
     [ "themeName", "classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236", null ],
-    [ "updateStyle", "classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f", null ]
+    [ "updateStyle", "classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f", null ],
+    [ "updateThemeList", "classthemeEngine.html#a77f9ea7a72208d2afd2dd16c206881b1", null ]
 ];

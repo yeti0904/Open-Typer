@@ -13,12 +13,13 @@ var searchData=
   ['updatetable_10',['updateTable',['../classexportDialog.html#a3df6d0e00a9a07fe84494f445e15fc78',1,'exportDialog']]],
   ['updatetabtitle_11',['updateTabTitle',['../classpackView.html#a76c645567362eceb83e439965a07b3db',1,'packView']]],
   ['updatetext_12',['updateText',['../classOpenTyper.html#a487997a86245492f13709904e8c47f4b',1,'OpenTyper::updateText()'],['../classpackView.html#ab34651a29dd449dea66fa3128ea7b507',1,'packView::updateText()']]],
-  ['updatewidgetsize_13',['updateWidgetSize',['../classtextView.html#a5ee657378078136e98e01796f9d5e946',1,'textView']]],
-  ['useredit_14',['userEdit',['../classuserEdit.html',1,'userEdit'],['../classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f',1,'userEdit::userEdit()']]],
-  ['userids_15',['userIDs',['../classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc',1,'databaseManager']]],
-  ['usermanager_16',['userManager',['../classuserManager.html',1,'userManager'],['../classuserManager.html#aad8b4e5cae76715c39a412357cab67d1',1,'userManager::userManager()']]],
-  ['username_17',['userName',['../classdatabaseManager.html#af8d197bdd972d9d754188ae8f860ca2b',1,'databaseManager']]],
-  ['usernames_18',['userNames',['../classdatabaseManager.html#ac9a52aaed6fc6c0b0dd0e5beeae15cf1',1,'databaseManager']]],
-  ['usernickname_19',['userNickname',['../classdatabaseManager.html#a783f56c33f49697ca0fc23c5cc3cb3c3',1,'databaseManager']]],
-  ['userrole_20',['userRole',['../classdatabaseManager.html#a1ad2124ff8f5337388c145b0e83c2deb',1,'databaseManager']]]
+  ['updatethemelist_13',['updateThemeList',['../classthemeEngine.html#a77f9ea7a72208d2afd2dd16c206881b1',1,'themeEngine']]],
+  ['updatewidgetsize_14',['updateWidgetSize',['../classtextView.html#a5ee657378078136e98e01796f9d5e946',1,'textView']]],
+  ['useredit_15',['userEdit',['../classuserEdit.html',1,'userEdit'],['../classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f',1,'userEdit::userEdit()']]],
+  ['userids_16',['userIDs',['../classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc',1,'databaseManager']]],
+  ['usermanager_17',['userManager',['../classuserManager.html',1,'userManager'],['../classuserManager.html#aad8b4e5cae76715c39a412357cab67d1',1,'userManager::userManager()']]],
+  ['username_18',['userName',['../classdatabaseManager.html#af8d197bdd972d9d754188ae8f860ca2b',1,'databaseManager']]],
+  ['usernames_19',['userNames',['../classdatabaseManager.html#ac9a52aaed6fc6c0b0dd0e5beeae15cf1',1,'databaseManager']]],
+  ['usernickname_20',['userNickname',['../classdatabaseManager.html#a783f56c33f49697ca0fc23c5cc3cb3c3',1,'databaseManager']]],
+  ['userrole_21',['userRole',['../classdatabaseManager.html#a1ad2124ff8f5337388c145b0e83c2deb',1,'databaseManager']]]
 ];
