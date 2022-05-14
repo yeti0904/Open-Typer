@@ -3,6 +3,7 @@ var classserverManager =
     [ "serverManager", "classserverManager.html#aca926ead4ee667f9db937287519a1a5a", null ],
     [ "~serverManager", "classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642", null ],
     [ "addClass", "classserverManager.html#a9dc6491322bcb259064c25d4c359ee7d", null ],
+    [ "changeEvent", "classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9", null ],
     [ "changeSchoolName", "classserverManager.html#a818cc42490ab0d5ef0a7862085b8d3bb", null ],
     [ "collapse", "classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2", null ],
     [ "editClass", "classserverManager.html#a866cd457fe8a608b17534ffac70ace95", null ],

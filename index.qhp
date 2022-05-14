@@ -434,6 +434,7 @@
 <section title="serverManager" ref="classserverManager.html#aca926ead4ee667f9db937287519a1a5a"/>
 <section title="~serverManager" ref="classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642"/>
 <section title="addClass" ref="classserverManager.html#a9dc6491322bcb259064c25d4c359ee7d"/>
+<section title="changeEvent" ref="classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9"/>
 <section title="changeSchoolName" ref="classserverManager.html#a818cc42490ab0d5ef0a7862085b8d3bb"/>
 <section title="collapse" ref="classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2"/>
 <section title="editClass" ref="classserverManager.html#a866cd457fe8a608b17534ffac70ace95"/>
@@ -864,6 +865,7 @@
 <keyword name="changeEvent(QEvent *event)" id="OpenTyper::changeEvent_a75229f4abbbc05cf34f9be4e20b9e8b6" ref="classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6"/>
 <keyword name="changeEvent(QEvent *event)" id="optionsWindow::changeEvent_a61c4d2858f2a6a6cc2c938b79de2d754" ref="classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754"/>
 <keyword name="changeEvent(QEvent *event)" id="classControls::changeEvent_a242d53a1e419495dac9ae7be5ad5a31f" ref="classclassControls.html#a242d53a1e419495dac9ae7be5ad5a31f"/>
+<keyword name="changeEvent(QEvent *event)" id="serverManager::changeEvent_a6e24b8ac49772954872d9a5cf73133c9" ref="classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9"/>
 <keyword name="changeEvent(QEvent *event)" id="studentDetails::changeEvent_a52ad21133a97f038b2cb73f372eca468" ref="classstudentDetails.html#a52ad21133a97f038b2cb73f372eca468"/>
 <keyword name="changeEvent(QEvent *event)" id="keyboardWidget::changeEvent_a3ba5b2043902899a2dbe46c56bc81395" ref="classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395"/>
 <keyword name="changeEvent(QEvent *event)" id="textView::changeEvent_a195c0b35129f798662b90dc13d79a31d" ref="classtextView.html#a195c0b35129f798662b90dc13d79a31d"/>
