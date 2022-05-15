@@ -2,8 +2,6 @@ var classstringUtils =
 [
     [ "compareLists", "classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f", null ],
     [ "compareStrings", "classstringUtils.html#a371e6b1e856605071f15eee3d27ae418", null ],
-    [ "findAllLcs", "classstringUtils.html#a16db437c319cad70f132738cf70b80eb", null ],
-    [ "findAllLcs", "classstringUtils.html#a284d2f3827442b2396ba20d412e3a589", null ],
     [ "findMistakes", "classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662", null ],
     [ "lcsLen", "classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3", null ],
     [ "longestCommonSubsequence", "classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132", null ],

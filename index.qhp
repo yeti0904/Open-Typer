@@ -461,8 +461,6 @@
 <section title="stringUtils" ref="classstringUtils.html">
 <section title="compareLists" ref="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f"/>
 <section title="compareStrings" ref="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418"/>
-<section title="findAllLcs" ref="classstringUtils.html#a16db437c319cad70f132738cf70b80eb"/>
-<section title="findAllLcs" ref="classstringUtils.html#a284d2f3827442b2396ba20d412e3a589"/>
 <section title="findMistakes" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
 <section title="lcsLen" ref="classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132"/>
@@ -968,8 +966,6 @@
 <keyword name="exportDialog(QString text, QVariantMap result, QList&lt; QVariantMap &gt; mistakes, QWidget *parent=nullptr)" id="exportDialog::exportDialog_a2bd4e887127aeeacb22de76b4e22e013" ref="classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013"/>
 <keyword name="exportText(void)" id="OpenTyper::exportText_ac67c2d29ed276655dfe8d988f9a69d62" ref="classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62"/>
 <keyword name="fileName(void)" id="configParser::fileName_a71c4dbe698008b2e245effdf5360deae" ref="classconfigParser.html#a71c4dbe698008b2e245effdf5360deae"/>
-<keyword name="findAllLcs(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)" id="stringUtils::findAllLcs_a16db437c319cad70f132738cf70b80eb" ref="classstringUtils.html#a16db437c319cad70f132738cf70b80eb"/>
-<keyword name="findAllLcs(QString source, QString target)" id="stringUtils::findAllLcs_a284d2f3827442b2396ba20d412e3a589" ref="classstringUtils.html#a284d2f3827442b2396ba20d412e3a589"/>
 <keyword name="findKey(QString label)" id="keyboardWidget::findKey_a93b4755cb1187aa034560b88668ce274" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274"/>
 <keyword name="findMistakes(QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)" id="stringUtils::findMistakes_a91484c1c5bfc47e101bb4cfc5ea17662" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
 <keyword name="findUser(QString nickname)" id="databaseManager::findUser_a0d45091e190dd8be11a16603387cb710" ref="classdatabaseManager.html#a0d45091e190dd8be11a16603387cb710"/>
