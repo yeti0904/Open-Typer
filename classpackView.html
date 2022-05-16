@@ -136,6 +136,8 @@ Signals</h2></td></tr>
 <tr class="separator:a3e08ee64fe7e469750c907d30c17b190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a2e6a81dd16f308cb1e3a2639e23e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94">notClosed</a> ()</td></tr>
 <tr class="separator:a4a2e6a81dd16f308cb1e3a2639e23e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d122cd876c83da4e9896f6449ae1993"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpackView.html#a4d122cd876c83da4e9896f6449ae1993">fileNameChanged</a> (QString)</td></tr>
+<tr class="separator:a4d122cd876c83da4e9896f6449ae1993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -235,10 +237,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>skipTextRefresh</b></
 <img src="packView.png" alt=""/>
 </div>
 <p ><a class="el" href="classpackEditor.html" title="The packEditor class is the pack editor window.">packEditor</a> uses this widget for tab content.<br  />
-<a class="el" href="classpackView.html" title="The packView class is the core part of the pack editor.">packView</a> should be used only in <a class="el" href="classpackEditor.html" title="The packEditor class is the pack editor window.">packEditor</a> (it communicates with its tab widget). This might change in future.<br  />
  Creating a new file: </p><div class="fragment"><div class="line"><a class="code hl_class" href="classpackView.html">packView</a> pack;</div>
 <div class="line">pack.<a class="code hl_function" href="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e">openFile</a>(<span class="stringliteral">&quot;Unnamed.typer&quot;</span>,<span class="keyword">true</span>,<span class="keyword">false</span>) <span class="comment">// tr() should be used for translation here</span></div>
-<div class="ttc" id="aclasspackView_html"><div class="ttname"><a href="classpackView.html">packView</a></div><div class="ttdoc">The packView class is the core part of the pack editor.</div><div class="ttdef"><b>Definition:</b> packview.h:69</div></div>
+<div class="ttc" id="aclasspackView_html"><div class="ttname"><a href="classpackView.html">packView</a></div><div class="ttdoc">The packView class is the core part of the pack editor.</div><div class="ttdef"><b>Definition:</b> packview.h:67</div></div>
 <div class="ttc" id="aclasspackView_html_a20fa54b8c61e6c7d63dcfefe95082d7e"><div class="ttname"><a href="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e">packView::openFile</a></div><div class="ttdeci">void openFile(QString path, bool newf, bool rdonly)</div><div class="ttdef"><b>Definition:</b> packview.cpp:72</div></div>
 </div><!-- fragment --><p >Opening existing file: </p><div class="fragment"><div class="line">pack.<a class="code hl_function" href="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e">openFile</a>(fileName,<span class="keyword">false</span>,<span class="keyword">false</span>)</div>
 </div><!-- fragment --><p >Opening existing file read-only: </p><div class="fragment"><div class="line">pack.<a class="code hl_function" href="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e">openFile</a>(fileName,<span class="keyword">false</span>,<span class="keyword">true</span>)</div>
@@ -669,6 +670,33 @@ Changes current exercise maximum number of characters (if repeating is enabled).
 </table>
 </div><div class="memdoc">
 <p >Removes an exercise from the temporary file. </p>
+
+</div>
+</div>
+<a id="a4d122cd876c83da4e9896f6449ae1993" name="a4d122cd876c83da4e9896f6449ae1993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d122cd876c83da4e9896f6449ae1993">&#9670;&nbsp;</a></span>fileNameChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void packView::fileNameChanged </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted when the file name changes. </p>
 
 </div>
 </div>

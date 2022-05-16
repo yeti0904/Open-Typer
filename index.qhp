@@ -343,7 +343,7 @@
 <section title="loadText" ref="classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4"/>
 <section title="loadTheme" ref="classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8"/>
 <section title="nextLevel" ref="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d"/>
-<section title="openEditor" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1"/>
+<section title="openEditor" ref="classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505"/>
 <section title="openExerciseFromFile" ref="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9"/>
 <section title="openOptions" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e"/>
 <section title="openPack" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d"/>
@@ -374,6 +374,7 @@
 </section>
 <section title="packEditor" ref="classpackEditor.html">
 <section title="packEditor" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9"/>
+<section title="packEditor" ref="classpackEditor.html#afa246fb20b7488eac01dfdee1a50896f"/>
 <section title="~packEditor" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>
 <section title="allTabsClosed" ref="classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8"/>
 <section title="closeAll" ref="classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df"/>
@@ -383,10 +384,9 @@
 <section title="fixDuplicates" ref="classpackEditor.html#adc05a78ba2be2683492db4f0842842be"/>
 <section title="init" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953"/>
 <section title="keyPressEvent" ref="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b"/>
+<section title="openFile" ref="classpackEditor.html#a54e45b6cc435c2683ec8a0e7a3d133ce"/>
 <section title="openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2"/>
 <section title="openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91"/>
-<section title="setFileName" ref="classpackEditor.html#acab56991754277171feb8adebd317130"/>
-<section title="setNewFile" ref="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff"/>
 <section title="tabChanged" ref="classpackEditor.html#a21cb0d01d5588aff614bf4d7e89e8c11"/>
 </section>
 <section title="packSelector" ref="classpackSelector.html">
@@ -408,6 +408,7 @@
 <section title="closed" ref="classpackView.html#a3e08ee64fe7e469750c907d30c17b190"/>
 <section title="closeFile" ref="classpackView.html#a0d7279567c49cfa13efb450657875255"/>
 <section title="deleteExerciseLine" ref="classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0"/>
+<section title="fileNameChanged" ref="classpackView.html#a4d122cd876c83da4e9896f6449ae1993"/>
 <section title="getFileName" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585"/>
 <section title="notClosed" ref="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94"/>
 <section title="openFile" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e"/>
@@ -966,6 +967,7 @@
 <keyword name="exportDialog(QString text, QVariantMap result, QList&lt; QVariantMap &gt; mistakes, QWidget *parent=nullptr)" id="exportDialog::exportDialog_a2bd4e887127aeeacb22de76b4e22e013" ref="classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013"/>
 <keyword name="exportText(void)" id="OpenTyper::exportText_ac67c2d29ed276655dfe8d988f9a69d62" ref="classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62"/>
 <keyword name="fileName(void)" id="configParser::fileName_a71c4dbe698008b2e245effdf5360deae" ref="classconfigParser.html#a71c4dbe698008b2e245effdf5360deae"/>
+<keyword name="fileNameChanged(QString)" id="packView::fileNameChanged_a4d122cd876c83da4e9896f6449ae1993" ref="classpackView.html#a4d122cd876c83da4e9896f6449ae1993"/>
 <keyword name="findKey(QString label)" id="keyboardWidget::findKey_a93b4755cb1187aa034560b88668ce274" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274"/>
 <keyword name="findMistakes(QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)" id="stringUtils::findMistakes_a91484c1c5bfc47e101bb4cfc5ea17662" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
 <keyword name="findUser(QString nickname)" id="databaseManager::findUser_a0d45091e190dd8be11a16603387cb710" ref="classdatabaseManager.html#a0d45091e190dd8be11a16603387cb710"/>
@@ -1078,9 +1080,10 @@
 <keyword name="openClass(bool auth=true)" id="serverManager::openClass_aa5215bc73a73df22e4497e6d22939479" ref="classserverManager.html#aa5215bc73a73df22e4497e6d22939479"/>
 <keyword name="openDetails(void)" id="classControls::openDetails_a4f72d70048afef1fe87f9ac93d76de41" ref="classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41"/>
 <keyword name="openDetails(int studentID)" id="serverManager::openDetails_a88943a234980834b4ca7c717d6927053" ref="classserverManager.html#a88943a234980834b4ca7c717d6927053"/>
-<keyword name="openEditor(void)" id="OpenTyper::openEditor_afd068c4fb723f3b7e8c8084ade8ddac1" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1"/>
+<keyword name="openEditor(bool newFile=true)" id="OpenTyper::openEditor_a119eaa012498fbda8b7289f4b0590505" ref="classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505"/>
 <keyword name="openEditor(void)" id="keyboardOptions::openEditor_a5dbc636d087f05c50bd4ad0e0a0b9ee8" ref="classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8"/>
 <keyword name="openExerciseFromFile(void)" id="OpenTyper::openExerciseFromFile_a1152e24f5c093f46693ec2547c1537c9" ref="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9"/>
+<keyword name="openFile(QString fileName, bool readOnly=false)" id="packEditor::openFile_a54e45b6cc435c2683ec8a0e7a3d133ce" ref="classpackEditor.html#a54e45b6cc435c2683ec8a0e7a3d133ce"/>
 <keyword name="openFile(void)" id="packEditor::openFile_a517c6e4e5c95ad37b0d22f60b0a41fc2" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2"/>
 <keyword name="openFile(QString path, bool newf, bool rdonly)" id="packView::openFile_a20fa54b8c61e6c7d63dcfefe95082d7e" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e"/>
 <keyword name="openFile(void)" id="loadExerciseDialog::openFile_ada153020f05ce49867edf1389e6e7ab6" ref="classloadExerciseDialog.html#ada153020f05ce49867edf1389e6e7ab6"/>
@@ -1092,6 +1095,7 @@
 <keyword name="openUserManager(void)" id="serverManager::openUserManager_a764fc15601cfdc879ffcdc1c6c9322a6" ref="classserverManager.html#a764fc15601cfdc879ffcdc1c6c9322a6"/>
 <keyword name="optionsWindow(QWidget *parent=nullptr)" id="optionsWindow::optionsWindow_a45fae6808c165b25c933492140379fd3" ref="classoptionsWindow.html#a45fae6808c165b25c933492140379fd3"/>
 <keyword name="packEditor(QWidget *parent=nullptr)" id="packEditor::packEditor_a2531c78a0bd8650d5395147566ed50c9" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9"/>
+<keyword name="packEditor(QString fileName, QWidget *parent=nullptr)" id="packEditor::packEditor_afa246fb20b7488eac01dfdee1a50896f" ref="classpackEditor.html#afa246fb20b7488eac01dfdee1a50896f"/>
 <keyword name="packName(QString rawName)" id="builtinPacks::packName_a6b49a3342d9edcadd208da1cc6b550b0" ref="classbuiltinPacks.html#a6b49a3342d9edcadd208da1cc6b550b0"/>
 <keyword name="packSelector(QWidget *parent=nullptr)" id="packSelector::packSelector_a7627e7a69e37f6a66512643b1c95055d" ref="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d"/>
 <keyword name="packView(QWidget *parent=nullptr, int fileID_arg=1)" id="packView::packView_a36852f6e8eaafd5985bcf05fcd19879c" ref="classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c"/>
@@ -1171,7 +1175,6 @@
 <keyword name="setErrorDialogs(bool errDialogs)" id="monitorClient::setErrorDialogs_a69989bd9fa97b81a303de7be6cb0cd1c" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c"/>
 <keyword name="setErrorPenalty(int value)" id="behaviorOptions::setErrorPenalty_a32076ec9c688a185046af162f6762d58" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58"/>
 <keyword name="setExerciseTextColor(QColor color)" id="themeEngine::setExerciseTextColor_a18220a961fd409fb93783274a60b47b5" ref="classthemeEngine.html#a18220a961fd409fb93783274a60b47b5"/>
-<keyword name="setFileName(QString newFileName, QWidget *sourceWidget)" id="packEditor::setFileName_acab56991754277171feb8adebd317130" ref="classpackEditor.html#acab56991754277171feb8adebd317130"/>
 <keyword name="setFont(QFont newFont)" id="themeEngine::setFont_a70254d6a02e4a6ae329694d6c2911ce1" ref="classthemeEngine.html#a70254d6a02e4a6ae329694d6c2911ce1"/>
 <keyword name="setFontBold(bool value)" id="themeEngine::setFontBold_af0b62ce63770b0438b9a006fd5f4bbdc" ref="classthemeEngine.html#af0b62ce63770b0438b9a006fd5f4bbdc"/>
 <keyword name="setFontFamily(QString family)" id="themeEngine::setFontFamily_aa2c69e3356034f494035f15f1fd4b97e" ref="classthemeEngine.html#aa2c69e3356034f494035f15f1fd4b97e"/>
@@ -1189,7 +1192,6 @@
 <keyword name="setMark(QString mark)" id="exportDialog::setMark_a76e2a0c771086a4158001221735df9ab" ref="classexportDialog.html#a76e2a0c771086a4158001221735df9ab"/>
 <keyword name="setMistakes(int mistakes)" id="levelSummary::setMistakes_aa521381ea57f44b2e0e5aeb959e17c66" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66"/>
 <keyword name="setNetHits(int hits)" id="levelSummary::setNetHits_a24bc23e9e8ef6d7877756af4243c0061" ref="classlevelSummary.html#a24bc23e9e8ef6d7877756af4243c0061"/>
-<keyword name="setNewFile(bool value)" id="packEditor::setNewFile_ad40ff79b94794d3df4929ed1970bd0ff" ref="classpackEditor.html#ad40ff79b94794d3df4929ed1970bd0ff"/>
 <keyword name="setNumber(QString number)" id="exportDialog::setNumber_a42c0db8c73496852438a4b33ae113590" ref="classexportDialog.html#a42c0db8c73496852438a4b33ae113590"/>
 <keyword name="setPanelColor(QColor color)" id="themeEngine::setPanelColor_af30300b5e03cdedfee9211e9812da40b" ref="classthemeEngine.html#af30300b5e03cdedfee9211e9812da40b"/>
 <keyword name="setPaperColor(QColor color)" id="themeEngine::setPaperColor_a4a4d724a39f61d6cdfce18f3aa1d541f" ref="classthemeEngine.html#a4a4d724a39f61d6cdfce18f3aa1d541f"/>

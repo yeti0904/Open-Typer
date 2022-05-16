@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['packeditor_0',['packEditor',['../classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9',1,'packEditor']]],
+  ['packeditor_0',['packEditor',['../classpackEditor.html#afa246fb20b7488eac01dfdee1a50896f',1,'packEditor::packEditor(QString fileName, QWidget *parent=nullptr)'],['../classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9',1,'packEditor::packEditor(QWidget *parent=nullptr)']]],
   ['packname_1',['packName',['../classbuiltinPacks.html#a6b49a3342d9edcadd208da1cc6b550b0',1,'builtinPacks']]],
   ['packselector_2',['packSelector',['../classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d',1,'packSelector']]],
   ['packview_3',['packView',['../classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c',1,'packView']]],

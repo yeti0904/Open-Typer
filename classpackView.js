@@ -13,6 +13,7 @@ var classpackView =
     [ "closed", "classpackView.html#a3e08ee64fe7e469750c907d30c17b190", null ],
     [ "closeFile", "classpackView.html#a0d7279567c49cfa13efb450657875255", null ],
     [ "deleteExerciseLine", "classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0", null ],
+    [ "fileNameChanged", "classpackView.html#a4d122cd876c83da4e9896f6449ae1993", null ],
     [ "getFileName", "classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585", null ],
     [ "notClosed", "classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94", null ],
     [ "openFile", "classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e", null ],

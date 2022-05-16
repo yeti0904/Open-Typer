@@ -21,7 +21,7 @@ var classOpenTyper =
     [ "loadText", "classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4", null ],
     [ "loadTheme", "classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8", null ],
     [ "nextLevel", "classOpenTyper.html#a0431cbb22500518dce9387257fddc57d", null ],
-    [ "openEditor", "classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1", null ],
+    [ "openEditor", "classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505", null ],
     [ "openExerciseFromFile", "classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9", null ],
     [ "openOptions", "classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e", null ],
     [ "openPack", "classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d", null ],
