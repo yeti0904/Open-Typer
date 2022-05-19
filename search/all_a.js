@@ -20,7 +20,7 @@ var searchData=
   ['loadlesson_17',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
   ['loadlist_18',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
   ['loadreceivedexercise_19',['loadReceivedExercise',['../classOpenTyper.html#aa5d35139c68a5ad1fbb6af7feb48dd2b',1,'OpenTyper']]],
-  ['loadresult_20',['loadResult',['../classexerciseProgressDialog.html#a8bf463a4ad38d7f465b7ff765d57c043',1,'exerciseProgressDialog']]],
+  ['loadresult_20',['loadResult',['../classexerciseProgressDialog.html#a360bd5eebc1644d8c3a7ddb9a0b40c31',1,'exerciseProgressDialog']]],
   ['loadreversedtext_21',['loadReversedText',['../classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52',1,'OpenTyper']]],
   ['loadsublesson_22',['loadSublesson',['../classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf',1,'OpenTyper']]],
   ['loadtext_23',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],

@@ -169,7 +169,7 @@
 <section title="~exerciseProgressDialog" ref="classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503"/>
 <section title="abortExercise" ref="classexerciseProgressDialog.html#a4a6c46af8714fb204622e1a452b9eeed"/>
 <section title="closeEvent" ref="classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc"/>
-<section title="loadResult" ref="classexerciseProgressDialog.html#a8bf463a4ad38d7f465b7ff765d57c043"/>
+<section title="loadResult" ref="classexerciseProgressDialog.html#a360bd5eebc1644d8c3a7ddb9a0b40c31"/>
 <section title="printAll" ref="classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36"/>
 <section title="setupTable" ref="classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1"/>
 </section>
@@ -309,7 +309,7 @@
 <section title="loggedInStudentsChanged" ref="classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64"/>
 <section title="port" ref="classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3"/>
 <section title="readData" ref="classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6"/>
-<section title="resultUploaded" ref="classmonitorServer.html#ac8e1708bd07c4b84b6a323787619b973"/>
+<section title="resultUploaded" ref="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574"/>
 <section title="runningExerciseStudents" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
 <section title="sendResponse" ref="classmonitorServer.html#ad94cc73617f4f28512394180d52e451b"/>
 <section title="sendSignal" ref="classmonitorServer.html#a8ec64bd1847a880cd628dd2e5cd8d660"/>
@@ -1052,7 +1052,7 @@
 <keyword name="loadLesson(int lessonID, int sublessonID)" id="OpenTyper::loadLesson_a0613875b7b06d80e481d965bb998e6cb" ref="classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb"/>
 <keyword name="loadList(void)" id="initialSetup::loadList_af1cc37e2db742c6c00600237c0d43afd" ref="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd"/>
 <keyword name="loadReceivedExercise(QByteArray text, int lineLength, bool includeNewLines, int mode, int time, bool correctMistakes, bool lockUi, bool hideText)" id="OpenTyper::loadReceivedExercise_aa5d35139c68a5ad1fbb6af7feb48dd2b" ref="classOpenTyper.html#aa5d35139c68a5ad1fbb6af7feb48dd2b"/>
-<keyword name="loadResult(int userID, QList&lt; QVariantMap &gt; recordedMistakes, QString inputText, int grossHits, int netHits, double netHitsPerMinute, int mistakes)" id="exerciseProgressDialog::loadResult_a8bf463a4ad38d7f465b7ff765d57c043" ref="classexerciseProgressDialog.html#a8bf463a4ad38d7f465b7ff765d57c043"/>
+<keyword name="loadResult(int userID, QList&lt; QVariantMap &gt; recordedMistakes, QString inputText, int grossHits, int netHits, double netHitsPerMinute, int mistakes, double time)" id="exerciseProgressDialog::loadResult_a360bd5eebc1644d8c3a7ddb9a0b40c31" ref="classexerciseProgressDialog.html#a360bd5eebc1644d8c3a7ddb9a0b40c31"/>
 <keyword name="loadReversedText(void)" id="OpenTyper::loadReversedText_a68c5a8c9e8ac15e3394ba0646b03ee52" ref="classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52"/>
 <keyword name="loadSublesson(int levelID)" id="OpenTyper::loadSublesson_a10b58d5e1faa441b74b88b2a77658dcf" ref="classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf"/>
 <keyword name="loadText(QByteArray text, bool includeNewLines=false, bool updateClient=true)" id="OpenTyper::loadText_aa8aeadae97d11952d976474cdfe5d6e4" ref="classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4"/>
@@ -1150,7 +1150,7 @@
 <keyword name="resetTextColors(void)" id="customizationOptions::resetTextColors_a30e20bd3918caa26fa969223630dda05" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05"/>
 <keyword name="responseReady()" id="monitorClient::responseReady_a6940f786c749647238b2231694fd85e8" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8"/>
 <keyword name="restoreText(void)" id="packView::restoreText_aa75a453ca470d60c9a3fd68281645d65" ref="classpackView.html#aa75a453ca470d60c9a3fd68281645d65"/>
-<keyword name="resultUploaded(int, QList&lt; QVariantMap &gt;, QString, int, int, double, int)" id="monitorServer::resultUploaded_ac8e1708bd07c4b84b6a323787619b973" ref="classmonitorServer.html#ac8e1708bd07c4b84b6a323787619b973"/>
+<keyword name="resultUploaded(int, QList&lt; QVariantMap &gt;, QString, int, int, double, int, double)" id="monitorServer::resultUploaded_abd9bba73626128a03fe51039f69a3574" ref="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574"/>
 <keyword name="roles(bool includeStudentRole=true)" id="databaseManager::roles_a5da00577367c077613a4d26b06efbca9" ref="classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9"/>
 <keyword name="runningExerciseStudents(void)" id="monitorServer::runningExerciseStudents_aa5076c67c73a65aa1ca3fad55ccbf3a5" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
 <keyword name="save(void)" id="packView::save_a50bd40060900e60d3d7229b5b9b1ba00" ref="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00"/>

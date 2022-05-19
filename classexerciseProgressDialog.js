@@ -4,7 +4,7 @@ var classexerciseProgressDialog =
     [ "~exerciseProgressDialog", "classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503", null ],
     [ "abortExercise", "classexerciseProgressDialog.html#a4a6c46af8714fb204622e1a452b9eeed", null ],
     [ "closeEvent", "classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc", null ],
-    [ "loadResult", "classexerciseProgressDialog.html#a8bf463a4ad38d7f465b7ff765d57c043", null ],
+    [ "loadResult", "classexerciseProgressDialog.html#a360bd5eebc1644d8c3a7ddb9a0b40c31", null ],
     [ "printAll", "classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36", null ],
     [ "setupTable", "classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1", null ]
 ];
