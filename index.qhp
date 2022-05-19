@@ -350,7 +350,7 @@
 <section title="openStudentOptions" ref="classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c"/>
 <section title="previousLevel" ref="classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b"/>
 <section title="printText" ref="classOpenTyper.html#a8410e97b6f2c38e9739743a805309f65"/>
-<section title="refreshAll" ref="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5"/>
+<section title="refreshAll" ref="classOpenTyper.html#a3618fe82b844cfd240849ba976349c39"/>
 <section title="repeatLevel" ref="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e"/>
 <section title="setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5"/>
 <section title="showExerciseStats" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d"/>
@@ -1122,7 +1122,7 @@
 <keyword name="recordedSublessons(int classID, QString pack, int lesson)" id="databaseManager::recordedSublessons_a3120627b6776da2003607ca68d5a0134" ref="classdatabaseManager.html#a3120627b6776da2003607ca68d5a0134"/>
 <keyword name="refresh(void)" id="connectionOptions::refresh_aedfa68bc9c7c7eede4440e92245451cd" ref="classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd"/>
 <keyword name="refresh(void)" id="studentDetails::refresh_aa584eb65a41aa7dcb1d23e4185f319f2" ref="classstudentDetails.html#aa584eb65a41aa7dcb1d23e4185f319f2"/>
-<keyword name="refreshAll(bool setLang)" id="OpenTyper::refreshAll_a5f0fcfa144eda646ca215b51851e0dd5" ref="classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5"/>
+<keyword name="refreshAll(void)" id="OpenTyper::refreshAll_a3618fe82b844cfd240849ba976349c39" ref="classOpenTyper.html#a3618fe82b844cfd240849ba976349c39"/>
 <keyword name="refreshCharts(void)" id="classControls::refreshCharts_a70f87b55fb524edef079d0d0c831234a" ref="classclassControls.html#a70f87b55fb524edef079d0d0c831234a"/>
 <keyword name="refreshCharts(void)" id="studentDetails::refreshCharts_a0488a551935057caa40ba9583d6dc67c" ref="classstudentDetails.html#a0488a551935057caa40ba9583d6dc67c"/>
 <keyword name="refreshTable(void)" id="studentDetails::refreshTable_a49db064c526ee9a21684d79f0e3f78ce" ref="classstudentDetails.html#a49db064c526ee9a21684d79f0e3f78ce"/>

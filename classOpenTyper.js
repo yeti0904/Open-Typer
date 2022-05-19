@@ -28,7 +28,7 @@ var classOpenTyper =
     [ "openStudentOptions", "classOpenTyper.html#a2bdf4603d558c6d7649b1b612325276c", null ],
     [ "previousLevel", "classOpenTyper.html#afad7f5e20e15f749e3f22c189d56be2b", null ],
     [ "printText", "classOpenTyper.html#a8410e97b6f2c38e9739743a805309f65", null ],
-    [ "refreshAll", "classOpenTyper.html#a5f0fcfa144eda646ca215b51851e0dd5", null ],
+    [ "refreshAll", "classOpenTyper.html#a3618fe82b844cfd240849ba976349c39", null ],
     [ "repeatLevel", "classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e", null ],
     [ "setColors", "classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5", null ],
     [ "showExerciseStats", "classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d", null ],
