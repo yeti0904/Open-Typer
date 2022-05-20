@@ -436,7 +436,6 @@
 <section title="~serverManager" ref="classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642"/>
 <section title="addClass" ref="classserverManager.html#a9dc6491322bcb259064c25d4c359ee7d"/>
 <section title="changeEvent" ref="classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9"/>
-<section title="changeSchoolName" ref="classserverManager.html#a818cc42490ab0d5ef0a7862085b8d3bb"/>
 <section title="collapse" ref="classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2"/>
 <section title="editClass" ref="classserverManager.html#a866cd457fe8a608b17534ffac70ace95"/>
 <section title="expand" ref="classserverManager.html#a4ef1764d26452b2ff11eff5231fdafe7"/>
@@ -886,7 +885,6 @@
 <keyword name="changePaperColor(void)" id="customizationOptions::changePaperColor_aa1c74da1aa50bef2814b5e1bfda35205" ref="classcustomizationOptions.html#aa1c74da1aa50bef2814b5e1bfda35205"/>
 <keyword name="changeRepeating(int index)" id="packView::changeRepeating_aa27ec7d9ffe06948c110d13cbbc76da0" ref="classpackView.html#aa27ec7d9ffe06948c110d13cbbc76da0"/>
 <keyword name="changeRepeatLength(int limitExt)" id="packView::changeRepeatLength_ac18df3d9e3edaa386dcf8146a73cfea2" ref="classpackView.html#ac18df3d9e3edaa386dcf8146a73cfea2"/>
-<keyword name="changeSchoolName(void)" id="serverManager::changeSchoolName_a818cc42490ab0d5ef0a7862085b8d3bb" ref="classserverManager.html#a818cc42490ab0d5ef0a7862085b8d3bb"/>
 <keyword name="changeSource(void)" id="loadExerciseDialog::changeSource_a968f0894f095f3be5b0cf7f57e54611c" ref="classloadExerciseDialog.html#a968f0894f095f3be5b0cf7f57e54611c"/>
 <keyword name="changeTheme(int index)" id="customizationOptions::changeTheme_a113803a84aa1cb5cbebf920a6dc9da31" ref="classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31"/>
 <keyword name="classControls(int openClassID, QWidget *parent=nullptr)" id="classControls::classControls_a490fc7075794f498f3315e10b83bfd97" ref="classclassControls.html#a490fc7075794f498f3315e10b83bfd97"/>
