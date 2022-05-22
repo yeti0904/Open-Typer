@@ -465,6 +465,7 @@
 <section title="lcsLen" ref="classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02"/>
+<section title="splitWordsByPunct" ref="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d"/>
 <section title="word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6"/>
 <section title="wordAt" ref="classstringUtils.html#a0b9afdf922dcc4f6fbd6b331b7a65453"/>
 <section title="wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2"/>
@@ -1214,6 +1215,7 @@
 <keyword name="setVerticalAdjust(bool value)" id="textView::setVerticalAdjust_a8436c65cc75d5ede073ac7b8d90d743c" ref="classtextView.html#a8436c65cc75d5ede073ac7b8d90d743c"/>
 <keyword name="showCloseExercisesMessage(void)" id="serverManager::showCloseExercisesMessage_a98e727daad5078cb1bf445846ea22718" ref="classserverManager.html#a98e727daad5078cb1bf445846ea22718"/>
 <keyword name="showExerciseStats(void)" id="OpenTyper::showExerciseStats_afee6949c71f4c7679b1aa7f206fe7b9d" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d"/>
+<keyword name="splitWordsByPunct(QStringList source)" id="stringUtils::splitWordsByPunct_a19f0a6330da206c790741ccdc36b877d" ref="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d"/>
 <keyword name="startLevel(int lesson, int sublesson, int level)" id="OpenTyper::startLevel_ab3e6df43ee172d7ac8ce29fcd2dd8b2f" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f"/>
 <keyword name="statsDialog(monitorClient *client, QString configName, int lesson, int sublesson, int exercise, QWidget *parent=nullptr)" id="statsDialog::statsDialog_aa508c0fce8b041c4157df2bd5b18331d" ref="classstatsDialog.html#aa508c0fce8b041c4157df2bd5b18331d"/>
 <keyword name="status(void)" id="databaseManager::status_a2f866e347370dad2e29b42b8de137bde" ref="classdatabaseManager.html#a2f866e347370dad2e29b42b8de137bde"/>
