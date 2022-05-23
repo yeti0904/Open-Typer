@@ -4,6 +4,7 @@ var classkeyboardWidget =
     [ "addKey", "classkeyboardWidget.html#ae9916723d96608f946343743a23786e8", null ],
     [ "changeEvent", "classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395", null ],
     [ "dehighlightKey", "classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc", null ],
+    [ "eventFilter", "classkeyboardWidget.html#a09c771c31840a921c7aab8b672a6894d", null ],
     [ "findKey", "classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274", null ],
     [ "fingerHand", "classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20", null ],
     [ "highlightKey", "classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae", null ],
@@ -14,5 +15,6 @@ var classkeyboardWidget =
     [ "resetKeyColor", "classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65", null ],
     [ "setKeyboardVisible", "classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08", null ],
     [ "setKeyColor", "classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875", null ],
-    [ "toggleKeyboard", "classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb", null ]
+    [ "toggleKeyboard", "classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb", null ],
+    [ "visibilityChanged", "classkeyboardWidget.html#a9b5e78bfd7ead4f0e3cbea0399d5179f", null ]
 ];

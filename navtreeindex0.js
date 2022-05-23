@@ -247,7 +247,7 @@ var NAVTREEINDEX0 =
 "classkeyboardUtils.html#a4669db4e273b32bcaeb3f9b2dfb2d85c":[4,0,16,1],
 "classkeyboardUtils.html#a62e8c562fdc522d0c8216ab2f4db4676":[4,0,16,0],
 "classkeyboardWidget.html":[4,0,17],
-"classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08":[4,0,17,12],
-"classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20":[4,0,17,5],
-"classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875":[4,0,17,13]
+"classkeyboardWidget.html#a09c771c31840a921c7aab8b672a6894d":[4,0,17,4],
+"classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08":[4,0,17,13],
+"classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20":[4,0,17,6]
 };

@@ -226,6 +226,7 @@
 <section title="addKey" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8"/>
 <section title="changeEvent" ref="classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395"/>
 <section title="dehighlightKey" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc"/>
+<section title="eventFilter" ref="classkeyboardWidget.html#a09c771c31840a921c7aab8b672a6894d"/>
 <section title="findKey" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274"/>
 <section title="fingerHand" ref="classkeyboardWidget.html#a13cedfbe131d6fa5ccc3e437ea694b20"/>
 <section title="highlightKey" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae"/>
@@ -237,6 +238,7 @@
 <section title="setKeyboardVisible" ref="classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08"/>
 <section title="setKeyColor" ref="classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875"/>
 <section title="toggleKeyboard" ref="classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb"/>
+<section title="visibilityChanged" ref="classkeyboardWidget.html#a9b5e78bfd7ead4f0e3cbea0399d5179f"/>
 </section>
 <section title="languageList" ref="classlanguageList.html">
 <section title="languageList" ref="classlanguageList.html#a561ad6910f45293e1889ce65048c335d"/>
@@ -939,6 +941,7 @@
 <keyword name="endExercise(bool showNetHits, bool showGrossHits, bool showTotalHits, bool showTime, bool showMistakes)" id="OpenTyper::endExercise_a48c09e64bddca502b4593b15f9eae8b9" ref="classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9"/>
 <keyword name="errorFont(void)" id="themeEngine::errorFont_a739c27fc5cf0842932941c31c23ac092" ref="classthemeEngine.html#a739c27fc5cf0842932941c31c23ac092"/>
 <keyword name="errorOccurred(QAbstractSocket::SocketError error)" id="monitorClient::errorOccurred_afc169400024ad1a6e9ecd539632493f7" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7"/>
+<keyword name="eventFilter(QObject *obj, QEvent *event)" id="keyboardWidget::eventFilter_a09c771c31840a921c7aab8b672a6894d" ref="classkeyboardWidget.html#a09c771c31840a921c7aab8b672a6894d"/>
 <keyword name="exerciseAborted(int)" id="monitorServer::exerciseAborted_aca74e604c7b6b5f0fa31847819ce0f42" ref="classmonitorServer.html#aca74e604c7b6b5f0fa31847819ce0f42"/>
 <keyword name="exerciseAttribute(const QString config, const int id)" id="configParser::exerciseAttribute_a18d87f4b2ddd523ac4476fc510b211f8" ref="classconfigParser.html#a18d87f4b2ddd523ac4476fc510b211f8"/>
 <keyword name="exerciseAttributes(const QString line)" id="configParser::exerciseAttributes_ade7ea5a576b8de1db3cd7dd0fa4456d6" ref="classconfigParser.html#ade7ea5a576b8de1db3cd7dd0fa4456d6"/>
@@ -1283,6 +1286,7 @@
 <keyword name="verify(void)" id="userEdit::verify_a23e63b7b722d05537b6e45b83b144cb2" ref="classuserEdit.html#a23e63b7b722d05537b6e45b83b144cb2"/>
 <keyword name="verify(void)" id="userManager::verify_a8d3e3f9e7f9feefc983dd14c4a25bc8e" ref="classuserManager.html#a8d3e3f9e7f9feefc983dd14c4a25bc8e"/>
 <keyword name="verify(void)" id="classControls::verify_a1a17121155cb9a41f72f103346e8ce40" ref="classclassControls.html#a1a17121155cb9a41f72f103346e8ce40"/>
+<keyword name="visibilityChanged(bool)" id="keyboardWidget::visibilityChanged_a9b5e78bfd7ead4f0e3cbea0399d5179f" ref="classkeyboardWidget.html#a9b5e78bfd7ead4f0e3cbea0399d5179f"/>
 <keyword name="wheelEvent(QWheelEvent *event)" id="textView::wheelEvent_abb8d39436ff8404c8cf079c9f4d2f9b7" ref="classtextView.html#abb8d39436ff8404c8cf079c9f4d2f9b7"/>
 <keyword name="widgetCollapsed()" id="serverManager::widgetCollapsed_a14f1e218c0c3b4d2b4bf1afe2165d11b" ref="classserverManager.html#a14f1e218c0c3b4d2b4bf1afe2165d11b"/>
 <keyword name="widgetExpanded()" id="serverManager::widgetExpanded_adf94679b27957d02e94ff0f694bd44df" ref="classserverManager.html#adf94679b27957d02e94ff0f694bd44df"/>

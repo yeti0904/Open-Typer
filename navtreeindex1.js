@@ -1,17 +1,19 @@
 var NAVTREEINDEX1 =
 {
-"classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb":[4,0,17,14],
+"classkeyboardWidget.html#a191ecfbfea429bda4acc1905fc942875":[4,0,17,14],
+"classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb":[4,0,17,15],
 "classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395":[4,0,17,2],
 "classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc":[4,0,17,3],
-"classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951":[4,0,17,7],
-"classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae":[4,0,17,6],
+"classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951":[4,0,17,8],
+"classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae":[4,0,17,7],
 "classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c":[4,0,17,0],
-"classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd":[4,0,17,8],
-"classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274":[4,0,17,4],
-"classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57":[4,0,17,9],
-"classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23":[4,0,17,10],
+"classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd":[4,0,17,9],
+"classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274":[4,0,17,5],
+"classkeyboardWidget.html#a9b5e78bfd7ead4f0e3cbea0399d5179f":[4,0,17,16],
+"classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57":[4,0,17,10],
+"classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23":[4,0,17,11],
 "classkeyboardWidget.html#ae9916723d96608f946343743a23786e8":[4,0,17,1],
-"classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65":[4,0,17,11],
+"classkeyboardWidget.html#aee8d43defa9db5129a48086563f72b65":[4,0,17,12],
 "classlanguageList.html":[4,0,18],
 "classlanguageList.html#a561ad6910f45293e1889ce65048c335d":[4,0,18,0],
 "classlanguageList.html#a8d99b59d00bbdc29823c8caf94d83f75":[4,0,18,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "classthemeEngine.html#a77f9ea7a72208d2afd2dd16c206881b1":[4,0,38,63],
 "classthemeEngine.html#a7af5c05ae7b346ee1e433df3054307f5":[4,0,38,17],
 "classthemeEngine.html#a7ba3c402b5d9173ba7571d42457cfbc6":[4,0,38,14],
-"classthemeEngine.html#a7c49d1041e50fbb5fde8dad0686c081c":[4,0,38,13],
-"classthemeEngine.html#a7da9c736831e9e7546a5a8224963cd47":[4,0,38,50],
-"classthemeEngine.html#a8077b7d206d4e189e59f21ab58bee979":[4,0,38,22]
+"classthemeEngine.html#a7c49d1041e50fbb5fde8dad0686c081c":[4,0,38,13]
 };
