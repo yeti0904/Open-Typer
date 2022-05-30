@@ -11,5 +11,6 @@ var classclassControls =
     [ "refreshCharts", "classclassControls.html#a70f87b55fb524edef079d0d0c831234a", null ],
     [ "removeStudent", "classclassControls.html#a36196fc52adb22c50458b9d38787721c", null ],
     [ "setupTable", "classclassControls.html#adb3be8efc35307d49b7b254d465dbed4", null ],
+    [ "startExercise", "classclassControls.html#a5cc93f5dc881ba2954963bc46c404c01", null ],
     [ "verify", "classclassControls.html#a1a17121155cb9a41f72f103346e8ce40", null ]
 ];

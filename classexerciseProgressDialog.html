@@ -120,8 +120,8 @@ Collaboration diagram for exerciseProgressDialog:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0194e60c8ec03a9c1b17d041ec82d3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#ac0194e60c8ec03a9c1b17d041ec82d3d">exerciseProgressDialog</a> (int classID, QList&lt; int &gt; students, QWidget *parent=nullptr)</td></tr>
-<tr class="separator:ac0194e60c8ec03a9c1b17d041ec82d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474372d27db558af57326fab806c0be1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a474372d27db558af57326fab806c0be1">exerciseProgressDialog</a> (int classID, QList&lt; int &gt; targets, QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a474372d27db558af57326fab806c0be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a086b320142491942967d6ff0a3bcb503"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503">~exerciseProgressDialog</a> ()</td></tr>
 <tr class="separator:a086b320142491942967d6ff0a3bcb503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -132,10 +132,10 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:a360bd5eebc1644d8c3a7ddb9a0b40c31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a360bd5eebc1644d8c3a7ddb9a0b40c31">loadResult</a> (int userID, QList&lt; QVariantMap &gt; recordedMistakes, QString inputText, int grossHits, int netHits, double netHitsPerMinute, int mistakes, double time)</td></tr>
-<tr class="separator:a360bd5eebc1644d8c3a7ddb9a0b40c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a6c46af8714fb204622e1a452b9eeed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a4a6c46af8714fb204622e1a452b9eeed">abortExercise</a> (int userID)</td></tr>
-<tr class="separator:a4a6c46af8714fb204622e1a452b9eeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7c2c7608b196e96bade15401accbca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a5b7c2c7608b196e96bade15401accbca">loadResult</a> (int targetID, QList&lt; QVariantMap &gt; recordedMistakes, QString inputText, int grossHits, int netHits, double netHitsPerMinute, int mistakes, double time)</td></tr>
+<tr class="separator:a5b7c2c7608b196e96bade15401accbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925145aa4959fa84a9745fc1a1861829"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#a925145aa4959fa84a9745fc1a1861829">abortExercise</a> (int targetID)</td></tr>
+<tr class="separator:a925145aa4959fa84a9745fc1a1861829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f0db35d01d89e4d07e5fd459deec36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36">printAll</a> (void)</td></tr>
 <tr class="separator:ae6f0db35d01d89e4d07e5fd459deec36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -149,9 +149,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acd7067605ce4b26b18700235ab7536c0"><td class="memItemLeft" align="right" valign="top"><a id="acd7067605ce4b26b18700235ab7536c0" name="acd7067605ce4b26b18700235ab7536c0"></a>
 Ui::exerciseProgressDialog *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td></tr>
 <tr class="separator:acd7067605ce4b26b18700235ab7536c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e9d18ee268b80618d3b5f4154f06c75"><td class="memItemLeft" align="right" valign="top"><a id="a7e9d18ee268b80618d3b5f4154f06c75" name="a7e9d18ee268b80618d3b5f4154f06c75"></a>
-QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>exerciseStudents</b></td></tr>
-<tr class="separator:a7e9d18ee268b80618d3b5f4154f06c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7f242527d4c1fe01ad09623048e2a8"><td class="memItemLeft" align="right" valign="top"><a id="adc7f242527d4c1fe01ad09623048e2a8" name="adc7f242527d4c1fe01ad09623048e2a8"></a>
+QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>exerciseTargets</b></td></tr>
+<tr class="separator:adc7f242527d4c1fe01ad09623048e2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6da9e1bac02fb25f96cf2a156a58d9"><td class="memItemLeft" align="right" valign="top"><a id="a2d6da9e1bac02fb25f96cf2a156a58d9" name="a2d6da9e1bac02fb25f96cf2a156a58d9"></a>
+QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>names</b></td></tr>
+<tr class="separator:a2d6da9e1bac02fb25f96cf2a156a58d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f85943edaac8e78a1f7d5afc527bff5"><td class="memItemLeft" align="right" valign="top"><a id="a9f85943edaac8e78a1f7d5afc527bff5" name="a9f85943edaac8e78a1f7d5afc527bff5"></a>
 QMap&lt; int, QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>results</b></td></tr>
 <tr class="separator:a9f85943edaac8e78a1f7d5afc527bff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,8 +174,8 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
 <img src="exerciseProgressDialog.png" alt=""/>
 </div>
  </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac0194e60c8ec03a9c1b17d041ec82d3d" name="ac0194e60c8ec03a9c1b17d041ec82d3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0194e60c8ec03a9c1b17d041ec82d3d">&#9670;&nbsp;</a></span>exerciseProgressDialog()</h2>
+<a id="a474372d27db558af57326fab806c0be1" name="a474372d27db558af57326fab806c0be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474372d27db558af57326fab806c0be1">&#9670;&nbsp;</a></span>exerciseProgressDialog()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +193,7 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">QList&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>students</em>, </td>
+          <td class="paramname"><em>targets</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -233,8 +236,8 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4a6c46af8714fb204622e1a452b9eeed" name="a4a6c46af8714fb204622e1a452b9eeed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a6c46af8714fb204622e1a452b9eeed">&#9670;&nbsp;</a></span>abortExercise</h2>
+<a id="a925145aa4959fa84a9745fc1a1861829" name="a925145aa4959fa84a9745fc1a1861829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925145aa4959fa84a9745fc1a1861829">&#9670;&nbsp;</a></span>abortExercise</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,8 +290,8 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
 
 </div>
 </div>
-<a id="a360bd5eebc1644d8c3a7ddb9a0b40c31" name="a360bd5eebc1644d8c3a7ddb9a0b40c31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a360bd5eebc1644d8c3a7ddb9a0b40c31">&#9670;&nbsp;</a></span>loadResult</h2>
+<a id="a5b7c2c7608b196e96bade15401accbca" name="a5b7c2c7608b196e96bade15401accbca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7c2c7608b196e96bade15401accbca">&#9670;&nbsp;</a></span>loadResult</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,7 +303,7 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
           <td class="memname">void exerciseProgressDialog::loadResult </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>userID</em>, </td>
+          <td class="paramname"><em>targetID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -410,7 +413,7 @@ QMap&lt; int, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight"
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Loads the students. </p>
+<p >Loads the targets. </p>
 
 </div>
 </div>

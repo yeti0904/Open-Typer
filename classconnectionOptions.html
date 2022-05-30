@@ -131,10 +131,10 @@ Private Slots</h2></td></tr>
 <tr class="separator:aedfa68bc9c7c7eede4440e92245451cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2461ceacb3ce0a26715d99854dfb5144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144">changeMode</a> (void)</td></tr>
 <tr class="separator:a2461ceacb3ce0a26715d99854dfb5144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69589fb8f8fffd27c45a75cd6cd7b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#ad69589fb8f8fffd27c45a75cd6cd7b50">setFullMode</a> (bool enable)</td></tr>
+<tr class="separator:ad69589fb8f8fffd27c45a75cd6cd7b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7587f3048a2ec97dcd2ddd8c30a4c956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956">changeAddress</a> (void)</td></tr>
 <tr class="separator:a7587f3048a2ec97dcd2ddd8c30a4c956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f23fbf8b3d0910001eb4a554a8d5e7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a7f23fbf8b3d0910001eb4a554a8d5e7f">changeClientState</a> (bool enable)</td></tr>
-<tr class="separator:a7f23fbf8b3d0910001eb4a554a8d5e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a122737d3de84bd61b2daabdbf0cf0d8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c">testConnection</a> (void)</td></tr>
 <tr class="separator:a122737d3de84bd61b2daabdbf0cf0d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -233,34 +233,6 @@ Changes server address settings. </p>
 
 </div>
 </div>
-<a id="a7f23fbf8b3d0910001eb4a554a8d5e7f" name="a7f23fbf8b3d0910001eb4a554a8d5e7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f23fbf8b3d0910001eb4a554a8d5e7f">&#9670;&nbsp;</a></span>changeClientState</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void connectionOptions::changeClientState </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enable</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Connected from clientCheckBox-&gt;clicked().<br  />
-Enables or disables client. </p>
-
-</div>
-</div>
 <a id="a2461ceacb3ce0a26715d99854dfb5144" name="a2461ceacb3ce0a26715d99854dfb5144"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2461ceacb3ce0a26715d99854dfb5144">&#9670;&nbsp;</a></span>changeMode</h2>
 
@@ -315,6 +287,33 @@ Enables or disables client. </p>
 
 </div>
 </div>
+<a id="ad69589fb8f8fffd27c45a75cd6cd7b50" name="ad69589fb8f8fffd27c45a75cd6cd7b50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69589fb8f8fffd27c45a75cd6cd7b50">&#9670;&nbsp;</a></span>setFullMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void connectionOptions::setFullMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Toggles full mode. </p>
+
+</div>
+</div>
 <a id="a122737d3de84bd61b2daabdbf0cf0d8c" name="a122737d3de84bd61b2daabdbf0cf0d8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a122737d3de84bd61b2daabdbf0cf0d8c">&#9670;&nbsp;</a></span>testConnection</h2>
 
@@ -338,8 +337,7 @@ Enables or disables client. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Connected from testButton-&gt;clicked().<br  />
-Tests server connection. </p>
+<p >Tests server connection. </p>
 
 </div>
 </div>

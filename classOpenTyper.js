@@ -33,6 +33,8 @@ var classOpenTyper =
     [ "setColors", "classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5", null ],
     [ "showExerciseStats", "classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d", null ],
     [ "startLevel", "classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f", null ],
+    [ "startReceivedExercise", "classOpenTyper.html#add888b1f5881e29c6421aa211dc6b80e", null ],
+    [ "startTest", "classOpenTyper.html#a084f02ff066eb64e99d3aceb3e00c893", null ],
     [ "sublessonSelectionListIndexChanged", "classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922", null ],
     [ "updateCurrentTime", "classOpenTyper.html#a161a88a48c7a083c1afce2201f9a4ac1", null ],
     [ "updateFont", "classOpenTyper.html#ac86a5acdee73a4f6163fa3ccb5a07edd", null ],

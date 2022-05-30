@@ -9,6 +9,7 @@ var annotated_dup =
     [ "connectionOptions", "classconnectionOptions.html", "classconnectionOptions" ],
     [ "customizationOptions", "classcustomizationOptions.html", "classcustomizationOptions" ],
     [ "databaseManager", "classdatabaseManager.html", "classdatabaseManager" ],
+    [ "deviceEdit", "classdeviceEdit.html", "classdeviceEdit" ],
     [ "exerciseProgressDialog", "classexerciseProgressDialog.html", "classexerciseProgressDialog" ],
     [ "exportDialog", "classexportDialog.html", "classexportDialog" ],
     [ "fileUtils", "classfileUtils.html", "classfileUtils" ],

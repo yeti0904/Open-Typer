@@ -9,6 +9,8 @@ var classmonitorClient =
     [ "enabled", "classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f", null ],
     [ "errorOccurred", "classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7", null ],
     [ "exerciseReceived", "classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44", null ],
+    [ "fullMode", "classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b", null ],
+    [ "isPaired", "classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74", null ],
     [ "readData", "classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7", null ],
     [ "readResponse", "classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d", null ],
     [ "responseReady", "classmonitorClient.html#a6940f786c749647238b2231694fd85e8", null ],
