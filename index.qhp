@@ -295,56 +295,47 @@
 </section>
 <section title="monitorClient" ref="classmonitorClient.html">
 <section title="monitorClient" ref="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00"/>
-<section title="~monitorClient" ref="classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714"/>
 <section title="available" ref="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3"/>
 <section title="close" ref="classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538"/>
-<section title="convertData" ref="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43"/>
+<section title="convertData" ref="classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977"/>
 <section title="disconnected" ref="classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c"/>
 <section title="enabled" ref="classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f"/>
 <section title="errorOccurred" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7"/>
 <section title="exerciseReceived" ref="classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44"/>
 <section title="fullMode" ref="classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b"/>
 <section title="isPaired" ref="classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74"/>
-<section title="readData" ref="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7"/>
-<section title="readResponse" ref="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d"/>
+<section title="readData" ref="classmonitorClient.html#aac3aa9e9a9c2985e71255827fe13b13e"/>
+<section title="readResponse" ref="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593"/>
 <section title="responseReady" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8"/>
-<section title="sendRequest" ref="classmonitorClient.html#a01e7aa8ae84dc8164badb27829f9fe79"/>
+<section title="sendRequest" ref="classmonitorClient.html#a837ea44ca7648e84ceb4b8ad4b208954"/>
 <section title="serverAddress" ref="classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001"/>
 <section title="serverPort" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946"/>
 <section title="setErrorDialogs" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c"/>
+<section title="sslErrorsOccurred" ref="classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449"/>
 </section>
 <section title="monitorServer" ref="classmonitorServer.html">
 <section title="monitorServer" ref="classmonitorServer.html#a5139f286021e951906edffa8502ee3b7"/>
-<section title="~monitorServer" ref="classmonitorServer.html#a10c0a13ba9e519d6e7fc91e1f3839585"/>
 <section title="acceptConnection" ref="classmonitorServer.html#af49b1ef481202dedcb6a6d96ed352ac1"/>
 <section title="address" ref="classmonitorServer.html#ab01ad50bc566caddbb3cc01c5f0a9f6e"/>
 <section title="connectedDevicesChanged" ref="classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565"/>
-<section title="convertData" ref="classmonitorServer.html#a21ac62f2a47529c975e8e588e88a5519"/>
-<section title="convertData" ref="classmonitorServer.html#a13113cdf9fb7db16384cc34fba441593"/>
+<section title="convertData" ref="classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e"/>
+<section title="convertData" ref="classmonitorServer.html#ae5a0ee548b96b4f69a59f14b5f0d02ab"/>
 <section title="deviceStudentName" ref="classmonitorServer.html#a31e43526517cabd09503a33c3fac2c57"/>
 <section title="disconnectClient" ref="classmonitorServer.html#a4752d1160f813a9c7c539bfa90068bfd"/>
 <section title="exerciseAborted" ref="classmonitorServer.html#aca74e604c7b6b5f0fa31847819ce0f42"/>
-<section title="getSslLocalCertificate" ref="classmonitorServer.html#ad00156a3448fd0c8b8a59e328419950f"/>
-<section title="getSslPrivateKey" ref="classmonitorServer.html#aacd66e4bdad6c4aa34704c3ae9ba6931"/>
-<section title="getSslProtocol" ref="classmonitorServer.html#afb76272169b8d3a0b6d32b325df48348"/>
-<section title="incomingConnection" ref="classmonitorServer.html#a651c75918ba34568e99831d7e4852ef7"/>
+<section title="generateRandomCertKey" ref="classmonitorServer.html#a729a5201dce91161957874b159a82229"/>
 <section title="isConnected" ref="classmonitorServer.html#a2170d76e11bbd66726a7f434e99dab11"/>
 <section title="isLoggedIn" ref="classmonitorServer.html#afa2f6167c5a61c4ea390eb88119d02e5"/>
 <section title="loggedInStudentsChanged" ref="classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64"/>
 <section title="port" ref="classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3"/>
-<section title="readData" ref="classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6"/>
+<section title="readData" ref="classmonitorServer.html#a13e1d50080d4b1c98e9e1c30abf3ee40"/>
 <section title="resultUploaded" ref="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574"/>
 <section title="runningExerciseStudents" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
-<section title="sendResponse" ref="classmonitorServer.html#ad94cc73617f4f28512394180d52e451b"/>
-<section title="sendSignal" ref="classmonitorServer.html#a8ec64bd1847a880cd628dd2e5cd8d660"/>
-<section title="sendSignal" ref="classmonitorServer.html#a422ab3db98bfa87c5b9b15df7bf22ec2"/>
-<section title="setSslLocalCertificate" ref="classmonitorServer.html#a922cc117a049fa6e08078aa5fec73421"/>
-<section title="setSslLocalCertificate" ref="classmonitorServer.html#a8e53ec2057f233034212eb2bd4c7254b"/>
-<section title="setSslPrivateKey" ref="classmonitorServer.html#afe6f72cde581c45666bf32500a3f2c99"/>
-<section title="setSslPrivateKey" ref="classmonitorServer.html#a821af1bda6e97ea81f5f113d3b5da873"/>
-<section title="setSslProtocol" ref="classmonitorServer.html#a504dbb55cf1b59d65e2447421dedb6c1"/>
+<section title="sendResponse" ref="classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd"/>
+<section title="sendSignal" ref="classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d"/>
+<section title="sendSignal" ref="classmonitorServer.html#a0e2afb9808b5e478e3aa70516b20d77c"/>
 <section title="studentAuthAvailable" ref="classmonitorServer.html#ae2db68bcc040581676cf5a4c0a3d13e7"/>
-<section title="sessions" ref="classmonitorServer.html#a73de17b0acce09f4f8fa336294ad432e"/>
+<section title="sessions" ref="classmonitorServer.html#a7899a00ceaf489ac7465d40ba05f5a52"/>
 </section>
 <section title="OpenTyper" ref="classOpenTyper.html">
 <section title="OpenTyper" ref="classOpenTyper.html#a045934c687780e3a6b6c0c9beb1668ae"/>
@@ -674,13 +665,13 @@
 <section title="monitorClient" ref="classmonitorClient.html"/>
 <section title="themeEngine" ref="classthemeEngine.html"/>
 </section>
-<section title="QTcpServer" ref="">
-<section title="monitorServer" ref="classmonitorServer.html"/>
-</section>
 <section title="QTextEdit" ref="">
 <section title="textView" ref="classtextView.html">
 <section title="inputLabelWidget" ref="classinputLabelWidget.html"/>
 </section>
+</section>
+<section title="QWebSocketServer" ref="">
+<section title="monitorServer" ref="classmonitorServer.html"/>
 </section>
 <section title="QWidget" ref="">
 <section title="behaviorOptions" ref="classbehaviorOptions.html"/>
@@ -949,9 +940,9 @@
 <keyword name="configParser(QObject *parent=nullptr)" id="configParser::configParser_a7fca8c252df17f7dbdce4e6f7c61ae62" ref="classconfigParser.html#a7fca8c252df17f7dbdce4e6f7c61ae62"/>
 <keyword name="connectedDevicesChanged()" id="monitorServer::connectedDevicesChanged_a94b6965f300c90cfa8dcfdf9e7f22565" ref="classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565"/>
 <keyword name="connectionOptions(QWidget *parent=nullptr)" id="connectionOptions::connectionOptions_abfeac330032693d7ea5358d143a6b3d5" ref="classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5"/>
-<keyword name="convertData(bool *ok, QList&lt; QByteArray &gt; input)" id="monitorClient::convertData_a87cfa1eddd8431db92a076ce38199f43" ref="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43"/>
-<keyword name="convertData(bool *ok, QList&lt; QByteArray &gt; input)" id="monitorServer::convertData_a21ac62f2a47529c975e8e588e88a5519" ref="classmonitorServer.html#a21ac62f2a47529c975e8e588e88a5519"/>
-<keyword name="convertData(QList&lt; QByteArray &gt; input)" id="monitorServer::convertData_a13113cdf9fb7db16384cc34fba441593" ref="classmonitorServer.html#a13113cdf9fb7db16384cc34fba441593"/>
+<keyword name="convertData(bool *ok, QStringList input)" id="monitorClient::convertData_a660f484f9331f0bd12b3eeef43e95977" ref="classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977"/>
+<keyword name="convertData(bool *ok, QStringList input)" id="monitorServer::convertData_a26a7931771e00ef1c766c2af6f0a999e" ref="classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e"/>
+<keyword name="convertData(QStringList input)" id="monitorServer::convertData_ae5a0ee548b96b4f69a59f14b5f0d02ab" ref="classmonitorServer.html#ae5a0ee548b96b4f69a59f14b5f0d02ab"/>
 <keyword name="correctMistakes(void)" id="loadExerciseDialog::correctMistakes_abc9018f0f44a28c05b5af4aa3881d6b9" ref="classloadExerciseDialog.html#abc9018f0f44a28c05b5af4aa3881d6b9"/>
 <keyword name="createNewFile(void)" id="packEditor::createNewFile_a9eea23604a8951a257c0d13de4146a30" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30"/>
 <keyword name="customBgColor(void)" id="themeEngine::customBgColor_abba7a4370b0f1ceb086e75831d7c26d2" ref="classthemeEngine.html#abba7a4370b0f1ceb086e75831d7c26d2"/>
@@ -1038,11 +1029,9 @@
 <keyword name="fontUnderline(void)" id="themeEngine::fontUnderline_a5a6ba01e414a30d09cd7b8c6de0f2f89" ref="classthemeEngine.html#a5a6ba01e414a30d09cd7b8c6de0f2f89"/>
 <keyword name="fontUnderlineChanged()" id="themeEngine::fontUnderlineChanged_a7709f197afee83dfe4714384a539c405" ref="classthemeEngine.html#a7709f197afee83dfe4714384a539c405"/>
 <keyword name="fullMode(void)" id="monitorClient::fullMode_aa079bae2455cd8223e254fd0914a479b" ref="classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b"/>
+<keyword name="generateRandomCertKey(void)" id="monitorServer::generateRandomCertKey_a729a5201dce91161957874b159a82229" ref="classmonitorServer.html#a729a5201dce91161957874b159a82229"/>
 <keyword name="generateText(QString rawText, bool repeat, QString repeatType, int repeatLimit)" id="configParser::generateText_a9fea65bbcdde2864bd56dd99b1ae2794" ref="classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794"/>
 <keyword name="getFileName(void)" id="packView::getFileName_ad9bbd4cb227e404ea9aaf1e5fca93585" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585"/>
-<keyword name="getSslLocalCertificate() const" id="monitorServer::getSslLocalCertificate_ad00156a3448fd0c8b8a59e328419950f" ref="classmonitorServer.html#ad00156a3448fd0c8b8a59e328419950f"/>
-<keyword name="getSslPrivateKey() const" id="monitorServer::getSslPrivateKey_aacd66e4bdad6c4aa34704c3ae9ba6931" ref="classmonitorServer.html#aacd66e4bdad6c4aa34704c3ae9ba6931"/>
-<keyword name="getSslProtocol() const" id="monitorServer::getSslProtocol_afb76272169b8d3a0b6d32b325df48348" ref="classmonitorServer.html#afb76272169b8d3a0b6d32b325df48348"/>
 <keyword name="goBack(void)" id="customizationOptions::goBack_ac8fe4c55810b918fcd249055f6d5aaf4" ref="classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4"/>
 <keyword name="hideText(void)" id="loadExerciseDialog::hideText_a8c6db897de55de62f65614ff0b172632" ref="classloadExerciseDialog.html#a8c6db897de55de62f65614ff0b172632"/>
 <keyword name="highlightKey(int keyCode)" id="keyboardWidget::highlightKey_a6618df4de1c15adca1e312714ff711ae" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae"/>
@@ -1052,7 +1041,6 @@
 <keyword name="historyPackValue(QString pack)" id="historyParser::historyPackValue_a6b7d2e92a94ad1bf637e2b609dc26ab0" ref="classhistoryParser.html#a6b7d2e92a94ad1bf637e2b609dc26ab0"/>
 <keyword name="historySize(QString pack, int lesson, int sublesson, int exercise)" id="historyParser::historySize_abccd1018e2cd37ed096be09f319d8958" ref="classhistoryParser.html#abccd1018e2cd37ed096be09f319d8958"/>
 <keyword name="includeNewLines(void)" id="loadExerciseDialog::includeNewLines_a8f668b8d1a2b8918bc01c1dd8aa7defb" ref="classloadExerciseDialog.html#a8f668b8d1a2b8918bc01c1dd8aa7defb"/>
-<keyword name="incomingConnection(qintptr socketDescriptor)" id="monitorServer::incomingConnection_a651c75918ba34568e99831d7e4852ef7" ref="classmonitorServer.html#a651c75918ba34568e99831d7e4852ef7"/>
 <keyword name="increaseFontSize(int delta)" id="themeEngine::increaseFontSize_a9c81ea8db84d6a92d9286e33c80a5082" ref="classthemeEngine.html#a9c81ea8db84d6a92d9286e33c80a5082"/>
 <keyword name="init(void)" id="customizationOptions::init_a71737219bdf919309735605c5633dbd5" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5"/>
 <keyword name="init(void)" id="optionsWindow::init_aa1d9b8a39432d285200464166c704681" ref="classoptionsWindow.html#aa1d9b8a39432d285200464166c704681"/>
@@ -1165,9 +1153,9 @@
 <keyword name="printResult(void)" id="exportDialog::printResult_a83f0c4ca9b2b87535ba528c672b00f9f" ref="classexportDialog.html#a83f0c4ca9b2b87535ba528c672b00f9f"/>
 <keyword name="printText(void)" id="OpenTyper::printText_a8410e97b6f2c38e9739743a805309f65" ref="classOpenTyper.html#a8410e97b6f2c38e9739743a805309f65"/>
 <keyword name="quotesEnclosed(QString str)" id="databaseManager::quotesEnclosed_a31381972f823bedc00ea2b978c4ac809" ref="classdatabaseManager.html#a31381972f823bedc00ea2b978c4ac809"/>
-<keyword name="readData(QByteArray input)" id="monitorClient::readData_abe6de247bd781bc3c01bf31d6cc45be7" ref="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7"/>
-<keyword name="readData(QByteArray input)" id="monitorServer::readData_a02783368ac82a41a0e2b126fa36a65b6" ref="classmonitorServer.html#a02783368ac82a41a0e2b126fa36a65b6"/>
-<keyword name="readResponse(void)" id="monitorClient::readResponse_a15e9dc6daf41b85746eca80af96b957d" ref="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d"/>
+<keyword name="readData(QString input)" id="monitorClient::readData_aac3aa9e9a9c2985e71255827fe13b13e" ref="classmonitorClient.html#aac3aa9e9a9c2985e71255827fe13b13e"/>
+<keyword name="readData(QString input)" id="monitorServer::readData_a13e1d50080d4b1c98e9e1c30abf3ee40" ref="classmonitorServer.html#a13e1d50080d4b1c98e9e1c30abf3ee40"/>
+<keyword name="readResponse(QString message)" id="monitorClient::readResponse_af1db48699e73883ce0dcdb1c15e7d593" ref="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593"/>
 <keyword name="recordedExercises(int classID, QString pack, int lesson, int sublesson)" id="databaseManager::recordedExercises_ac53fcc1e9cb117a168855f8f41231d82" ref="classdatabaseManager.html#ac53fcc1e9cb117a168855f8f41231d82"/>
 <keyword name="recordedLessons(int classID, QString pack)" id="databaseManager::recordedLessons_a8a2ec1101d861f113356d11a2deb272f" ref="classdatabaseManager.html#a8a2ec1101d861f113356d11a2deb272f"/>
 <keyword name="recordedPacks(int classID)" id="databaseManager::recordedPacks_a27cb96edeb76c15862b860b015846883" ref="classdatabaseManager.html#a27cb96edeb76c15862b860b015846883"/>
@@ -1213,15 +1201,15 @@
 <keyword name="selectCurrentFullTheme(void)" id="customizationOptions::selectCurrentFullTheme_a2089f4ccdfb3f012e82d714ce6c7bb09" ref="classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09"/>
 <keyword name="selectedConfig(void)" id="packSelector::selectedConfig_a5ff2264ada61381338ba429d1e36d008" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008"/>
 <keyword name="selectedTargets(void)" id="loadExerciseDialog::selectedTargets_a5da17875b26972055f8c239657e43337" ref="classloadExerciseDialog.html#a5da17875b26972055f8c239657e43337"/>
-<keyword name="sendRequest(QString method, QList&lt; QByteArray &gt; data)" id="monitorClient::sendRequest_a01e7aa8ae84dc8164badb27829f9fe79" ref="classmonitorClient.html#a01e7aa8ae84dc8164badb27829f9fe79"/>
-<keyword name="sendResponse(void)" id="monitorServer::sendResponse_ad94cc73617f4f28512394180d52e451b" ref="classmonitorServer.html#ad94cc73617f4f28512394180d52e451b"/>
-<keyword name="sendSignal(QByteArray name, QList&lt; QByteArray &gt; data, QList&lt; QByteArray &gt; usernames)" id="monitorServer::sendSignal_a8ec64bd1847a880cd628dd2e5cd8d660" ref="classmonitorServer.html#a8ec64bd1847a880cd628dd2e5cd8d660"/>
-<keyword name="sendSignal(QByteArray name, QList&lt; QByteArray &gt; data, QList&lt; QHostAddress &gt; addresses)" id="monitorServer::sendSignal_a422ab3db98bfa87c5b9b15df7bf22ec2" ref="classmonitorServer.html#a422ab3db98bfa87c5b9b15df7bf22ec2"/>
+<keyword name="sendRequest(QString method, QStringList data)" id="monitorClient::sendRequest_a837ea44ca7648e84ceb4b8ad4b208954" ref="classmonitorClient.html#a837ea44ca7648e84ceb4b8ad4b208954"/>
+<keyword name="sendResponse(QString message)" id="monitorServer::sendResponse_a6421baec5fff404b792ed3f46d8b8bfd" ref="classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd"/>
+<keyword name="sendSignal(QByteArray name, QStringList data, QList&lt; QByteArray &gt; usernames)" id="monitorServer::sendSignal_a7747bbb6b4a5f98c40ef740c96fc7b5d" ref="classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d"/>
+<keyword name="sendSignal(QByteArray name, QStringList data, QList&lt; QHostAddress &gt; addresses)" id="monitorServer::sendSignal_a0e2afb9808b5e478e3aa70516b20d77c" ref="classmonitorServer.html#a0e2afb9808b5e478e3aa70516b20d77c"/>
 <keyword name="serverAddress(void)" id="monitorClient::serverAddress_a7c8b7de761f15c6b59fb3c2f2b6e0001" ref="classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001"/>
 <keyword name="serverManager(QWidget *parent=nullptr)" id="serverManager::serverManager_aca926ead4ee667f9db937287519a1a5a" ref="classserverManager.html#aca926ead4ee667f9db937287519a1a5a"/>
 <keyword name="serverPort(void)" id="monitorClient::serverPort_a3cc04faa170d58b57cb04bb80893b946" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946"/>
 <keyword name="serverSetup(QWidget *parent=nullptr)" id="serverSetup::serverSetup_a8257e8a69844f9ce0e41e860fc2c3cb5" ref="classserverSetup.html#a8257e8a69844f9ce0e41e860fc2c3cb5"/>
-<keyword name="sessions" id="monitorServer::sessions_a73de17b0acce09f4f8fa336294ad432e" ref="classmonitorServer.html#a73de17b0acce09f4f8fa336294ad432e"/>
+<keyword name="sessions" id="monitorServer::sessions_a7899a00ceaf489ac7465d40ba05f5a52" ref="classmonitorServer.html#a7899a00ceaf489ac7465d40ba05f5a52"/>
 <keyword name="setBgColor(QColor color)" id="themeEngine::setBgColor_a1a655d52c680193f382ba87b6736f487" ref="classthemeEngine.html#a1a655d52c680193f382ba87b6736f487"/>
 <keyword name="setBoldText(void)" id="customizationOptions::setBoldText_a53ae5e03aace0092906fcbecd5abf39e" ref="classcustomizationOptions.html#a53ae5e03aace0092906fcbecd5abf39e"/>
 <keyword name="setClassName(QString name)" id="exportDialog::setClassName_a1e610002b960f6778f06cac761484a18" ref="classexportDialog.html#a1e610002b960f6778f06cac761484a18"/>
@@ -1253,11 +1241,6 @@
 <keyword name="setPaperColor(QColor color)" id="themeEngine::setPaperColor_a4a4d724a39f61d6cdfce18f3aa1d541f" ref="classthemeEngine.html#a4a4d724a39f61d6cdfce18f3aa1d541f"/>
 <keyword name="setRevisionLesson(void)" id="packView::setRevisionLesson_afb615797a5031658513124a814a1d51a" ref="classpackView.html#afb615797a5031658513124a814a1d51a"/>
 <keyword name="setSpaceNewline(bool value)" id="behaviorOptions::setSpaceNewline_afb802a982a3806f4df086d7eecfcb3c5" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5"/>
-<keyword name="setSslLocalCertificate(const QSslCertificate &amp;certificate)" id="monitorServer::setSslLocalCertificate_a922cc117a049fa6e08078aa5fec73421" ref="classmonitorServer.html#a922cc117a049fa6e08078aa5fec73421"/>
-<keyword name="setSslLocalCertificate(const QString &amp;path, QSsl::EncodingFormat format=QSsl::Pem)" id="monitorServer::setSslLocalCertificate_a8e53ec2057f233034212eb2bd4c7254b" ref="classmonitorServer.html#a8e53ec2057f233034212eb2bd4c7254b"/>
-<keyword name="setSslPrivateKey(const QSslKey &amp;key)" id="monitorServer::setSslPrivateKey_afe6f72cde581c45666bf32500a3f2c99" ref="classmonitorServer.html#afe6f72cde581c45666bf32500a3f2c99"/>
-<keyword name="setSslPrivateKey(const QString &amp;fileName, QSsl::KeyAlgorithm algorithm=QSsl::Rsa, QSsl::EncodingFormat format=QSsl::Pem, const QByteArray &amp;passPhrase=QByteArray())" id="monitorServer::setSslPrivateKey_a821af1bda6e97ea81f5f113d3b5da873" ref="classmonitorServer.html#a821af1bda6e97ea81f5f113d3b5da873"/>
-<keyword name="setSslProtocol(QSsl::SslProtocol protocol)" id="monitorServer::setSslProtocol_a504dbb55cf1b59d65e2447421dedb6c1" ref="classmonitorServer.html#a504dbb55cf1b59d65e2447421dedb6c1"/>
 <keyword name="setStudentName(QString name)" id="exportDialog::setStudentName_a9c238f823220804edd356b083c20bac0" ref="classexportDialog.html#a9c238f823220804edd356b083c20bac0"/>
 <keyword name="setStyle(Style newStyle)" id="themeEngine::setStyle_a2a4815e45708d8ceac2aeaf8daf50d5f" ref="classthemeEngine.html#a2a4815e45708d8ceac2aeaf8daf50d5f"/>
 <keyword name="setTheme(int index)" id="themeEngine::setTheme_a3dd7863ca8d8f78454219e6d8bd4ca96" ref="classthemeEngine.html#a3dd7863ca8d8f78454219e6d8bd4ca96"/>
@@ -1273,6 +1256,7 @@
 <keyword name="showCloseExercisesMessage(void)" id="serverManager::showCloseExercisesMessage_a98e727daad5078cb1bf445846ea22718" ref="classserverManager.html#a98e727daad5078cb1bf445846ea22718"/>
 <keyword name="showExerciseStats(void)" id="OpenTyper::showExerciseStats_afee6949c71f4c7679b1aa7f206fe7b9d" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d"/>
 <keyword name="splitWordsByPunct(QStringList source)" id="stringUtils::splitWordsByPunct_a19f0a6330da206c790741ccdc36b877d" ref="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d"/>
+<keyword name="sslErrorsOccurred(const QList&lt; QSslError &gt; &amp;errors)" id="monitorClient::sslErrorsOccurred_a35c5f08f81ffdcea7927073ff789e449" ref="classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449"/>
 <keyword name="startExercise(loadExerciseDialog *dialog)" id="classControls::startExercise_a5cc93f5dc881ba2954963bc46c404c01" ref="classclassControls.html#a5cc93f5dc881ba2954963bc46c404c01"/>
 <keyword name="startLevel(int lesson, int sublesson, int level)" id="OpenTyper::startLevel_ab3e6df43ee172d7ac8ce29fcd2dd8b2f" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f"/>
 <keyword name="startReceivedExercise(QByteArray text, int lineLength, bool includeNewLines, int mode, int time, bool correctMistakes, bool lockUi, bool hideText, bool upload)" id="OpenTyper::startReceivedExercise_add888b1f5881e29c6421aa211dc6b80e" ref="classOpenTyper.html#add888b1f5881e29c6421aa211dc6b80e"/>
@@ -1369,8 +1353,6 @@
 <keyword name="~languageManager()" id="languageManager::~languageManager_aa528e7f1356bfb831104e0c4e1c6c485" ref="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485"/>
 <keyword name="~levelSummary()" id="levelSummary::~levelSummary_a9ef285f93758398b40f81ca48f22fbf2" ref="classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2"/>
 <keyword name="~loadExerciseDialog()" id="loadExerciseDialog::~loadExerciseDialog_af3834eaa5e2ed412860991f5b3c92e94" ref="classloadExerciseDialog.html#af3834eaa5e2ed412860991f5b3c92e94"/>
-<keyword name="~monitorClient()" id="monitorClient::~monitorClient_a6c25754bf7d283d98b2a019f7eed8714" ref="classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714"/>
-<keyword name="~monitorServer()" id="monitorServer::~monitorServer_a10c0a13ba9e519d6e7fc91e1f3839585" ref="classmonitorServer.html#a10c0a13ba9e519d6e7fc91e1f3839585"/>
 <keyword name="~OpenTyper()" id="OpenTyper::~OpenTyper_a47f341fe57bb1127965119b293f2fe3f" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f"/>
 <keyword name="~optionsWindow()" id="optionsWindow::~optionsWindow_ad2942ee73b6562894bf2d25f554b9e5c" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c"/>
 <keyword name="~packEditor()" id="packEditor::~packEditor_acc6fa330df5ca29c78538929eeabe382" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>

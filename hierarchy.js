@@ -43,13 +43,13 @@ var hierarchy =
       [ "monitorClient", "classmonitorClient.html", null ],
       [ "themeEngine", "classthemeEngine.html", null ]
     ] ],
-    [ "QTcpServer", null, [
-      [ "monitorServer", "classmonitorServer.html", null ]
-    ] ],
     [ "QTextEdit", null, [
       [ "textView", "classtextView.html", [
         [ "inputLabelWidget", "classinputLabelWidget.html", null ]
       ] ]
+    ] ],
+    [ "QWebSocketServer", null, [
+      [ "monitorServer", "classmonitorServer.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "behaviorOptions", "classbehaviorOptions.html", null ],

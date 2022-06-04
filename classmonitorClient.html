@@ -132,8 +132,6 @@ Signals</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fedfbb816b9ce8cd17080f97d11be00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00">monitorClient</a> (bool errDialogs=true, QObject *parent=nullptr)</td></tr>
 <tr class="separator:a6fedfbb816b9ce8cd17080f97d11be00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c25754bf7d283d98b2a019f7eed8714"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714">~monitorClient</a> ()</td></tr>
-<tr class="separator:a6c25754bf7d283d98b2a019f7eed8714"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480d041102873d32fd1c0d5ba5dcd538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538">close</a> (void)</td></tr>
 <tr class="separator:a480d041102873d32fd1c0d5ba5dcd538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69989bd9fa97b81a303de7be6cb0cd1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c">setErrorDialogs</a> (bool errDialogs)</td></tr>
@@ -142,8 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa079bae2455cd8223e254fd0914a479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb3acf397b6106373a35b6e678cf3e74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74">isPaired</a> (void)</td></tr>
 <tr class="separator:abb3acf397b6106373a35b6e678cf3e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01e7aa8ae84dc8164badb27829f9fe79"><td class="memItemLeft" align="right" valign="top">QList&lt; QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a01e7aa8ae84dc8164badb27829f9fe79">sendRequest</a> (QString method, QList&lt; QByteArray &gt; data)</td></tr>
-<tr class="separator:a01e7aa8ae84dc8164badb27829f9fe79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837ea44ca7648e84ceb4b8ad4b208954"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a837ea44ca7648e84ceb4b8ad4b208954">sendRequest</a> (QString method, QStringList data)</td></tr>
+<tr class="separator:a837ea44ca7648e84ceb4b8ad4b208954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a2daf88607ee6686dcafd0e35852b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3">available</a> (void)</td></tr>
 <tr class="separator:a05a2daf88607ee6686dcafd0e35852b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -158,17 +156,19 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:a15e9dc6daf41b85746eca80af96b957d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d">readResponse</a> (void)</td></tr>
-<tr class="separator:a15e9dc6daf41b85746eca80af96b957d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1db48699e73883ce0dcdb1c15e7d593"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593">readResponse</a> (QString message)</td></tr>
+<tr class="separator:af1db48699e73883ce0dcdb1c15e7d593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc169400024ad1a6e9ecd539632493f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7">errorOccurred</a> (QAbstractSocket::SocketError error)</td></tr>
 <tr class="separator:afc169400024ad1a6e9ecd539632493f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c5f08f81ffdcea7927073ff789e449"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449">sslErrorsOccurred</a> (const QList&lt; QSslError &gt; &amp;errors)</td></tr>
+<tr class="separator:a35c5f08f81ffdcea7927073ff789e449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a87cfa1eddd8431db92a076ce38199f43"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43">convertData</a> (bool *ok, QList&lt; QByteArray &gt; input)</td></tr>
-<tr class="separator:a87cfa1eddd8431db92a076ce38199f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6de247bd781bc3c01bf31d6cc45be7"><td class="memItemLeft" align="right" valign="top">QList&lt; QByteArray &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#abe6de247bd781bc3c01bf31d6cc45be7">readData</a> (QByteArray input)</td></tr>
-<tr class="separator:abe6de247bd781bc3c01bf31d6cc45be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a660f484f9331f0bd12b3eeef43e95977"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977">convertData</a> (bool *ok, QStringList input)</td></tr>
+<tr class="separator:a660f484f9331f0bd12b3eeef43e95977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3aa9e9a9c2985e71255827fe13b13e"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#aac3aa9e9a9c2985e71255827fe13b13e">readData</a> (QString input)</td></tr>
+<tr class="separator:aac3aa9e9a9c2985e71255827fe13b13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -178,15 +178,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>errorDialogs</b></td>
 <tr class="memitem:aedc8f3804b1e39bc35a056127b2acfe8"><td class="memItemLeft" align="right" valign="top"><a id="aedc8f3804b1e39bc35a056127b2acfe8" name="aedc8f3804b1e39bc35a056127b2acfe8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>legacy</b> = false</td></tr>
 <tr class="separator:aedc8f3804b1e39bc35a056127b2acfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cc42b191c57af0caa84d7fd5b9499c2"><td class="memItemLeft" align="right" valign="top"><a id="a5cc42b191c57af0caa84d7fd5b9499c2" name="a5cc42b191c57af0caa84d7fd5b9499c2"></a>
-QSslSocket *&#160;</td><td class="memItemRight" valign="bottom"><b>socket</b></td></tr>
-<tr class="separator:a5cc42b191c57af0caa84d7fd5b9499c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fb0b9b84438b46150acd38e63f1ee87"><td class="memItemLeft" align="right" valign="top"><a id="a0fb0b9b84438b46150acd38e63f1ee87" name="a0fb0b9b84438b46150acd38e63f1ee87"></a>
-QByteArray&#160;</td><td class="memItemRight" valign="bottom"><b>response</b></td></tr>
-<tr class="separator:a0fb0b9b84438b46150acd38e63f1ee87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbb7c08df919e7b3eab4611487dc153b"><td class="memItemLeft" align="right" valign="top"><a id="acbb7c08df919e7b3eab4611487dc153b" name="acbb7c08df919e7b3eab4611487dc153b"></a>
-QByteArray&#160;</td><td class="memItemRight" valign="bottom"><b>receivedData</b> = &quot;&quot;</td></tr>
-<tr class="separator:acbb7c08df919e7b3eab4611487dc153b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e4b7357c97743aabc5a2f1a885b4c6e"><td class="memItemLeft" align="right" valign="top"><a id="a1e4b7357c97743aabc5a2f1a885b4c6e" name="a1e4b7357c97743aabc5a2f1a885b4c6e"></a>
+QWebSocket&#160;</td><td class="memItemRight" valign="bottom"><b>socket</b></td></tr>
+<tr class="separator:a1e4b7357c97743aabc5a2f1a885b4c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300e6d6aa5acd10205ffd77dc562e966"><td class="memItemLeft" align="right" valign="top"><a id="a300e6d6aa5acd10205ffd77dc562e966" name="a300e6d6aa5acd10205ffd77dc562e966"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>response</b></td></tr>
+<tr class="separator:a300e6d6aa5acd10205ffd77dc562e966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721d29c6df13a1ae0864bec5db959f88"><td class="memItemLeft" align="right" valign="top"><a id="a721d29c6df13a1ae0864bec5db959f88" name="a721d29c6df13a1ae0864bec5db959f88"></a>
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>receivedData</b> = &quot;&quot;</td></tr>
+<tr class="separator:a721d29c6df13a1ae0864bec5db959f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7777127938c582f81f89f27f2389f2bd"><td class="memItemLeft" align="right" valign="top"><a id="a7777127938c582f81f89f27f2389f2bd" name="a7777127938c582f81f89f27f2389f2bd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connected</b></td></tr>
 <tr class="separator:a7777127938c582f81f89f27f2389f2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,24 +237,6 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
 
 </div>
 </div>
-<a id="a6c25754bf7d283d98b2a019f7eed8714" name="a6c25754bf7d283d98b2a019f7eed8714"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c25754bf7d283d98b2a019f7eed8714">&#9670;&nbsp;</a></span>~monitorClient()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">monitorClient::~monitorClient </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Destroys the <a class="el" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server.">monitorClient</a> object. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a05a2daf88607ee6686dcafd0e35852b3" name="a05a2daf88607ee6686dcafd0e35852b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05a2daf88607ee6686dcafd0e35852b3">&#9670;&nbsp;</a></span>available()</h2>
@@ -294,8 +276,8 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
 
 </div>
 </div>
-<a id="a87cfa1eddd8431db92a076ce38199f43" name="a87cfa1eddd8431db92a076ce38199f43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87cfa1eddd8431db92a076ce38199f43">&#9670;&nbsp;</a></span>convertData()</h2>
+<a id="a660f484f9331f0bd12b3eeef43e95977" name="a660f484f9331f0bd12b3eeef43e95977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660f484f9331f0bd12b3eeef43e95977">&#9670;&nbsp;</a></span>convertData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,7 +286,7 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QByteArray monitorClient::convertData </td>
+          <td class="memname">QString monitorClient::convertData </td>
           <td>(</td>
           <td class="paramtype">bool *&#160;</td>
           <td class="paramname"><em>ok</em>, </td>
@@ -312,7 +294,7 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QList&lt; QByteArray &gt;&#160;</td>
+          <td class="paramtype">QStringList&#160;</td>
           <td class="paramname"><em>input</em>&#160;</td>
         </tr>
         <tr>
@@ -327,7 +309,7 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Converts list of QByteArrays to a single QByteArray, which can be used for a request. </p>
+<p >Converts list of QStrings to a single QString, which can be used for a request. </p>
 
 </div>
 </div>
@@ -523,8 +505,8 @@ Displays connection error message. </p>
 
 </div>
 </div>
-<a id="abe6de247bd781bc3c01bf31d6cc45be7" name="abe6de247bd781bc3c01bf31d6cc45be7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe6de247bd781bc3c01bf31d6cc45be7">&#9670;&nbsp;</a></span>readData()</h2>
+<a id="aac3aa9e9a9c2985e71255827fe13b13e" name="aac3aa9e9a9c2985e71255827fe13b13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3aa9e9a9c2985e71255827fe13b13e">&#9670;&nbsp;</a></span>readData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -533,9 +515,9 @@ Displays connection error message. </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; QByteArray &gt; monitorClient::readData </td>
+          <td class="memname">QStringList monitorClient::readData </td>
           <td>(</td>
-          <td class="paramtype">QByteArray&#160;</td>
+          <td class="paramtype">QString&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
         </tr>
@@ -546,12 +528,12 @@ Displays connection error message. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns a list of QByteArrays from the input QByteArray. </p>
+<p >Returns a list of QStrings from the input QString. </p>
 
 </div>
 </div>
-<a id="a15e9dc6daf41b85746eca80af96b957d" name="a15e9dc6daf41b85746eca80af96b957d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15e9dc6daf41b85746eca80af96b957d">&#9670;&nbsp;</a></span>readResponse</h2>
+<a id="af1db48699e73883ce0dcdb1c15e7d593" name="af1db48699e73883ce0dcdb1c15e7d593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1db48699e73883ce0dcdb1c15e7d593">&#9670;&nbsp;</a></span>readResponse</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,8 +544,8 @@ Displays connection error message. </p>
         <tr>
           <td class="memname">void monitorClient::readResponse </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -573,7 +555,7 @@ Displays connection error message. </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Connected from socket-&gt;readyRead().<br  />
+<p >Connected from socket-&gt;textMessageReceived().<br  />
 Reads the response and emits <a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a>.<br  />
 If there isn't any request in progress, it reads the data as a signal. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorClient.html#a6940f786c749647238b2231694fd85e8">responseReady()</a> </dd></dl>
 
@@ -601,18 +583,18 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
   </tr>
 </table>
 </div><div class="memdoc">
-<p >A signal, which is emitted after <a class="el" href="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d">readResponse()</a> reads the response. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorClient.html#a15e9dc6daf41b85746eca80af96b957d">readResponse()</a> </dd></dl>
+<p >A signal, which is emitted after <a class="el" href="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593">readResponse()</a> reads the response. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593">readResponse()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a01e7aa8ae84dc8164badb27829f9fe79" name="a01e7aa8ae84dc8164badb27829f9fe79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01e7aa8ae84dc8164badb27829f9fe79">&#9670;&nbsp;</a></span>sendRequest()</h2>
+<a id="a837ea44ca7648e84ceb4b8ad4b208954" name="a837ea44ca7648e84ceb4b8ad4b208954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837ea44ca7648e84ceb4b8ad4b208954">&#9670;&nbsp;</a></span>sendRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; QByteArray &gt; monitorClient::sendRequest </td>
+          <td class="memname">QStringList monitorClient::sendRequest </td>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
           <td class="paramname"><em>method</em>, </td>
@@ -620,7 +602,7 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QList&lt; QByteArray &gt;&#160;</td>
+          <td class="paramtype">QStringList&#160;</td>
           <td class="paramname"><em>data</em>&#160;</td>
         </tr>
         <tr>
@@ -711,6 +693,33 @@ If there isn't any request in progress, it reads the data as a signal. </p><dl c
       </table>
 </div><div class="memdoc">
 <p >Enables or disables connection error dialogs. </p>
+
+</div>
+</div>
+<a id="a35c5f08f81ffdcea7927073ff789e449" name="a35c5f08f81ffdcea7927073ff789e449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c5f08f81ffdcea7927073ff789e449">&#9670;&nbsp;</a></span>sslErrorsOccurred</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void monitorClient::sslErrorsOccurred </td>
+          <td>(</td>
+          <td class="paramtype">const QList&lt; QSslError &gt; &amp;&#160;</td>
+          <td class="paramname"><em>errors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Ignores SSL errors. </p>
 
 </div>
 </div>

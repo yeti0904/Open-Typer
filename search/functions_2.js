@@ -44,7 +44,7 @@ var searchData=
   ['configparser_41',['configParser',['../classconfigParser.html#a7fca8c252df17f7dbdce4e6f7c61ae62',1,'configParser']]],
   ['connecteddeviceschanged_42',['connectedDevicesChanged',['../classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565',1,'monitorServer']]],
   ['connectionoptions_43',['connectionOptions',['../classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5',1,'connectionOptions']]],
-  ['convertdata_44',['convertData',['../classmonitorClient.html#a87cfa1eddd8431db92a076ce38199f43',1,'monitorClient::convertData()'],['../classmonitorServer.html#a21ac62f2a47529c975e8e588e88a5519',1,'monitorServer::convertData(bool *ok, QList&lt; QByteArray &gt; input)'],['../classmonitorServer.html#a13113cdf9fb7db16384cc34fba441593',1,'monitorServer::convertData(QList&lt; QByteArray &gt; input)']]],
+  ['convertdata_44',['convertData',['../classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977',1,'monitorClient::convertData()'],['../classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e',1,'monitorServer::convertData(bool *ok, QStringList input)'],['../classmonitorServer.html#ae5a0ee548b96b4f69a59f14b5f0d02ab',1,'monitorServer::convertData(QStringList input)']]],
   ['correctmistakes_45',['correctMistakes',['../classloadExerciseDialog.html#abc9018f0f44a28c05b5af4aa3881d6b9',1,'loadExerciseDialog']]],
   ['createnewfile_46',['createNewFile',['../classpackEditor.html#a9eea23604a8951a257c0d13de4146a30',1,'packEditor']]],
   ['custombgcolor_47',['customBgColor',['../classthemeEngine.html#abba7a4370b0f1ceb086e75831d7c26d2',1,'themeEngine']]],
