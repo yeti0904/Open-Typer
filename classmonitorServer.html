@@ -130,6 +130,8 @@ Signals</h2></td></tr>
 <tr class="separator:aca22cd4d9a99b5be427b46ca86244b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94b6965f300c90cfa8dcfdf9e7f22565"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565">connectedDevicesChanged</a> ()</td></tr>
 <tr class="separator:a94b6965f300c90cfa8dcfdf9e7f22565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd5266fd853832e825e5b0a9ff9a6a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#adfd5266fd853832e825e5b0a9ff9a6a5">deviceConfigurationChanged</a> ()</td></tr>
+<tr class="separator:adfd5266fd853832e825e5b0a9ff9a6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,6 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa5076c67c73a65aa1ca3fad55ccbf3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e43526517cabd09503a33c3fac2c57"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#a31e43526517cabd09503a33c3fac2c57">deviceStudentName</a> (int deviceID)</td></tr>
 <tr class="separator:a31e43526517cabd09503a33c3fac2c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f13569148289c5b3635bc77dbf1405e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#a4f13569148289c5b3635bc77dbf1405e">setDeviceStudentName</a> (int deviceID, QString name)</td></tr>
+<tr class="separator:a4f13569148289c5b3635bc77dbf1405e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -386,6 +390,32 @@ QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 </table>
 </div><div class="memdoc">
 <p >Implementation of <a class="el" href="classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e">convertData()</a> without status boolean. </p>
+
+</div>
+</div>
+<a id="adfd5266fd853832e825e5b0a9ff9a6a5" name="adfd5266fd853832e825e5b0a9ff9a6a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd5266fd853832e825e5b0a9ff9a6a5">&#9670;&nbsp;</a></span>deviceConfigurationChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void monitorServer::deviceConfigurationChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >A signal, which is emitted, when a device changes its configuration (student name, etc..; works only in easy mode). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmonitorServer.html#a31e43526517cabd09503a33c3fac2c57">deviceStudentName()</a> </dd></dl>
 
 </div>
 </div>
@@ -794,6 +824,35 @@ Sends a response back to the client. </p>
       </table>
 </div><div class="memdoc">
 <p >Sends a signal to clients with address from a list. </p>
+
+</div>
+</div>
+<a id="a4f13569148289c5b3635bc77dbf1405e" name="a4f13569148289c5b3635bc77dbf1405e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f13569148289c5b3635bc77dbf1405e">&#9670;&nbsp;</a></span>setDeviceStudentName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void monitorServer::setDeviceStudentName </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deviceID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets the student name of the given device. </p>
 
 </div>
 </div>

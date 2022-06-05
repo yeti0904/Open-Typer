@@ -180,7 +180,7 @@
 <section title="verify" ref="classdeviceEdit.html#a819cb48122590897fffda46eaccd9e51"/>
 </section>
 <section title="exerciseProgressDialog" ref="classexerciseProgressDialog.html">
-<section title="exerciseProgressDialog" ref="classexerciseProgressDialog.html#a474372d27db558af57326fab806c0be1"/>
+<section title="exerciseProgressDialog" ref="classexerciseProgressDialog.html#ad4247c6bd2a3d6e5a71e40846bd64856"/>
 <section title="~exerciseProgressDialog" ref="classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503"/>
 <section title="abortExercise" ref="classexerciseProgressDialog.html#a925145aa4959fa84a9745fc1a1861829"/>
 <section title="closeEvent" ref="classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc"/>
@@ -303,6 +303,7 @@
 <section title="errorOccurred" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7"/>
 <section title="exerciseReceived" ref="classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44"/>
 <section title="fullMode" ref="classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b"/>
+<section title="initExReceived" ref="classmonitorClient.html#a5d9e36e7d27c3e67ef7c0548d39390f8"/>
 <section title="isPaired" ref="classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74"/>
 <section title="readData" ref="classmonitorClient.html#aac3aa9e9a9c2985e71255827fe13b13e"/>
 <section title="readResponse" ref="classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593"/>
@@ -320,6 +321,7 @@
 <section title="connectedDevicesChanged" ref="classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565"/>
 <section title="convertData" ref="classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e"/>
 <section title="convertData" ref="classmonitorServer.html#ae5a0ee548b96b4f69a59f14b5f0d02ab"/>
+<section title="deviceConfigurationChanged" ref="classmonitorServer.html#adfd5266fd853832e825e5b0a9ff9a6a5"/>
 <section title="deviceStudentName" ref="classmonitorServer.html#a31e43526517cabd09503a33c3fac2c57"/>
 <section title="disconnectClient" ref="classmonitorServer.html#a4752d1160f813a9c7c539bfa90068bfd"/>
 <section title="exerciseAborted" ref="classmonitorServer.html#aca74e604c7b6b5f0fa31847819ce0f42"/>
@@ -334,6 +336,7 @@
 <section title="sendResponse" ref="classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd"/>
 <section title="sendSignal" ref="classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d"/>
 <section title="sendSignal" ref="classmonitorServer.html#a0e2afb9808b5e478e3aa70516b20d77c"/>
+<section title="setDeviceStudentName" ref="classmonitorServer.html#a4f13569148289c5b3635bc77dbf1405e"/>
 <section title="studentAuthAvailable" ref="classmonitorServer.html#ae2db68bcc040581676cf5a4c0a3d13e7"/>
 <section title="sessions" ref="classmonitorServer.html#a7899a00ceaf489ac7465d40ba05f5a52"/>
 </section>
@@ -379,6 +382,7 @@
 <section title="updateLessonList" ref="classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54"/>
 <section title="updateStudent" ref="classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a"/>
 <section title="updateText" ref="classOpenTyper.html#a487997a86245492f13709904e8c47f4b"/>
+<section title="waitForReceivedExercise" ref="classOpenTyper.html#a9a5e69d5e48c3db5dead1768588ecbe0"/>
 <section title="zoomIn" ref="classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236"/>
 <section title="zoomOut" ref="classOpenTyper.html#a26d722e59eb5364522f42996eff39075"/>
 </section>
@@ -514,6 +518,15 @@
 <section title="~studentOptions" ref="classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b"/>
 <section title="auth" ref="classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8"/>
 </section>
+<section title="testWaitDialog" ref="classtestWaitDialog.html">
+<section title="testWaitDialog" ref="classtestWaitDialog.html#a60f23fb060d74de6a0c2379ba65ec502"/>
+<section title="~testWaitDialog" ref="classtestWaitDialog.html#a527c42d89ae94399d1121d6e93253724"/>
+<section title="closeEvent" ref="classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f"/>
+<section title="name" ref="classtestWaitDialog.html#a3d12dfb2eef04dda489145c5f1546dbf"/>
+<section title="nameReadOnly" ref="classtestWaitDialog.html#ac2e9dfed93b111a48c61ed74d80e6034"/>
+<section title="setName" ref="classtestWaitDialog.html#a570d8ffbebbad04a5afeee5a192f16ab"/>
+<section title="setNameReadOnly" ref="classtestWaitDialog.html#aac28ee89c9dafa1a80ba95972911e9a2"/>
+</section>
 <section title="textView" ref="classtextView.html">
 <section title="textView" ref="classtextView.html#ad6aaddb0b664f37e2794b57cbe31e81c"/>
 <section title="~textView" ref="classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6"/>
@@ -642,6 +655,7 @@
 <section title="statsDialog" ref="classstatsDialog.html"/>
 <section title="studentEdit" ref="classstudentEdit.html"/>
 <section title="studentOptions" ref="classstudentOptions.html"/>
+<section title="testWaitDialog" ref="classtestWaitDialog.html"/>
 <section title="timeDialog" ref="classtimeDialog.html"/>
 <section title="userEdit" ref="classuserEdit.html"/>
 <section title="userManager" ref="classuserManager.html"/>
@@ -800,6 +814,7 @@
 <section title="opentyper.h" ref="opentyper_8h_source.html"/>
 <section title="paperconfigdialog.h" ref="paperconfigdialog_8h_source.html"/>
 <section title="statsdialog.h" ref="statsdialog_8h_source.html"/>
+<section title="testwaitdialog.h" ref="testwaitdialog_8h_source.html"/>
 <section title="timedialog.h" ref="timedialog_8h_source.html"/>
 </section>
 </section>
@@ -846,6 +861,7 @@
 <keyword name="studentDetails" id="studentDetails_" ref="classstudentDetails.html"/>
 <keyword name="studentEdit" id="studentEdit_" ref="classstudentEdit.html"/>
 <keyword name="studentOptions" id="studentOptions_" ref="classstudentOptions.html"/>
+<keyword name="testWaitDialog" id="testWaitDialog_" ref="classtestWaitDialog.html"/>
 <keyword name="textView" id="textView_" ref="classtextView.html"/>
 <keyword name="themeEngine" id="themeEngine_" ref="classthemeEngine.html"/>
 <keyword name="timeDialog" id="timeDialog_" ref="classtimeDialog.html"/>
@@ -929,6 +945,7 @@
 <keyword name="closed()" id="packView::closed_a3e08ee64fe7e469750c907d30c17b190" ref="classpackView.html#a3e08ee64fe7e469750c907d30c17b190"/>
 <keyword name="closeEvent(QCloseEvent *event)" id="packEditor::closeEvent_aa403472b118aef534f8093106316ce05" ref="classpackEditor.html#aa403472b118aef534f8093106316ce05"/>
 <keyword name="closeEvent(QCloseEvent *event)" id="exerciseProgressDialog::closeEvent_ad9d20c4c5728664165a5e9b2806aebcc" ref="classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc"/>
+<keyword name="closeEvent(QCloseEvent *event)" id="testWaitDialog::closeEvent_a3a66070557753bfdc2278537c0f2206f" ref="classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f"/>
 <keyword name="closeFile(void)" id="packView::closeFile_a0d7279567c49cfa13efb450657875255" ref="classpackView.html#a0d7279567c49cfa13efb450657875255"/>
 <keyword name="closeTab(int id)" id="packEditor::closeTab_a8029fd89ffc29702456698439e7a1d39" ref="classpackEditor.html#a8029fd89ffc29702456698439e7a1d39"/>
 <keyword name="collapse(void)" id="serverManager::collapse_ac0f7be54fe6402cdc29937e71e0317f2" ref="classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2"/>
@@ -957,6 +974,7 @@
 <keyword name="detailsClicked(int)" id="classControls::detailsClicked_a151fa314492e99ce4a6183b91fb906ad" ref="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad"/>
 <keyword name="deviceAddress(int deviceID)" id="databaseManager::deviceAddress_ab49969a1261f48c07bdc4d8efdc2c862" ref="classdatabaseManager.html#ab49969a1261f48c07bdc4d8efdc2c862"/>
 <keyword name="deviceAddresses(void)" id="databaseManager::deviceAddresses_a5247f0221f1cef4676c5ce084c14ecfb" ref="classdatabaseManager.html#a5247f0221f1cef4676c5ce084c14ecfb"/>
+<keyword name="deviceConfigurationChanged()" id="monitorServer::deviceConfigurationChanged_adfd5266fd853832e825e5b0a9ff9a6a5" ref="classmonitorServer.html#adfd5266fd853832e825e5b0a9ff9a6a5"/>
 <keyword name="deviceEdit(int deviceID=0, QWidget *parent=nullptr)" id="deviceEdit::deviceEdit_a8390a9afcf55d3d0b7cdc424b793d156" ref="classdeviceEdit.html#a8390a9afcf55d3d0b7cdc424b793d156"/>
 <keyword name="deviceIDs(void)" id="databaseManager::deviceIDs_a09c1712992460b0353dfacc1c9713bc6" ref="classdatabaseManager.html#a09c1712992460b0353dfacc1c9713bc6"/>
 <keyword name="deviceName(int deviceID)" id="databaseManager::deviceName_a3e782db7632cb598be02e5afd547580c" ref="classdatabaseManager.html#a3e782db7632cb598be02e5afd547580c"/>
@@ -982,7 +1000,7 @@
 <keyword name="exerciseID(const QString line, const int part)" id="configParser::exerciseID_add14cf29749e2e59f136c959f90b6272" ref="classconfigParser.html#add14cf29749e2e59f136c959f90b6272"/>
 <keyword name="exerciseLine(int lesson, int sublesson, int exercise)" id="configParser::exerciseLine_a1f838b1e16a47bba35ffa184d7f5e5cc" ref="classconfigParser.html#a1f838b1e16a47bba35ffa184d7f5e5cc"/>
 <keyword name="exerciseLineLength(int lesson, int sublesson, int exercise)" id="configParser::exerciseLineLength_affe9b6fae6d5a864619ff35d7a0504ad" ref="classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad"/>
-<keyword name="exerciseProgressDialog(int classID, QList&lt; int &gt; targets, QWidget *parent=nullptr)" id="exerciseProgressDialog::exerciseProgressDialog_a474372d27db558af57326fab806c0be1" ref="classexerciseProgressDialog.html#a474372d27db558af57326fab806c0be1"/>
+<keyword name="exerciseProgressDialog(int classID, QList&lt; int &gt; targets, QString exerciseText, int lineLength, bool includeNewLines, int mode, int timeLimitSecs, bool correctMistakes, bool lockUi, bool hideText, QWidget *parent=nullptr)" id="exerciseProgressDialog::exerciseProgressDialog_ad4247c6bd2a3d6e5a71e40846bd64856" ref="classexerciseProgressDialog.html#ad4247c6bd2a3d6e5a71e40846bd64856"/>
 <keyword name="exerciseRawText(int lesson, int sublesson, int exercise)" id="configParser::exerciseRawText_aaec1cc87884ad80cf354b7bb94bbfd0b" ref="classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b"/>
 <keyword name="exerciseRawText(const QString line)" id="configParser::exerciseRawText_a7b4a5f25f5ebb319bdc99cb34fef0724" ref="classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724"/>
 <keyword name="exerciseReceived(QByteArray, int, bool, int, int, bool, bool, bool)" id="monitorClient::exerciseReceived_a3c21eecac7a00f3f0dfadca1f7b3ef44" ref="classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44"/>
@@ -1049,6 +1067,7 @@
 <keyword name="init(void)" id="serverManager::init_a5ab8c8733b39da21a2dc3f97349f0826" ref="classserverManager.html#a5ab8c8733b39da21a2dc3f97349f0826"/>
 <keyword name="initExercise(QString exercise, int lineLength)" id="configParser::initExercise_a945cb810c17b0475b3a5e3892fad6d5c" ref="classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c"/>
 <keyword name="initExercise(QString exercise, int lineLength, bool lineCountLimit, int currentLine)" id="configParser::initExercise_a5ab3662fbf05c73db7d6e40a26f80c8c" ref="classconfigParser.html#a5ab3662fbf05c73db7d6e40a26f80c8c"/>
+<keyword name="initExReceived(QString, int, bool)" id="monitorClient::initExReceived_a5d9e36e7d27c3e67ef7c0548d39390f8" ref="classmonitorClient.html#a5d9e36e7d27c3e67ef7c0548d39390f8"/>
 <keyword name="initialSetup(QWidget *parent=nullptr)" id="initialSetup::initialSetup_a2c04fb32795d022271a129609da6f5dd" ref="classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd"/>
 <keyword name="initText(QString rawText)" id="configParser::initText_aff3c70f09bd55b50de5fe951d8fa1907" ref="classconfigParser.html#aff3c70f09bd55b50de5fe951d8fa1907"/>
 <keyword name="initTimedExercise(void)" id="OpenTyper::initTimedExercise_a8f3bb83c464cb1ea6d46fb9e5ca2f6cc" ref="classOpenTyper.html#a8f3bb83c464cb1ea6d46fb9e5ca2f6cc"/>
@@ -1110,6 +1129,8 @@
 <keyword name="monitorClient(bool errDialogs=true, QObject *parent=nullptr)" id="monitorClient::monitorClient_a6fedfbb816b9ce8cd17080f97d11be00" ref="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00"/>
 <keyword name="monitorServer(bool silent=false, QObject *parent=nullptr)" id="monitorServer::monitorServer_a5139f286021e951906edffa8502ee3b7" ref="classmonitorServer.html#a5139f286021e951906edffa8502ee3b7"/>
 <keyword name="mouseMoveEvent(QMouseEvent *event)" id="textView::mouseMoveEvent_a30a8c4751cb9d7bfd29a5aaafab937b8" ref="classtextView.html#a30a8c4751cb9d7bfd29a5aaafab937b8"/>
+<keyword name="name(void)" id="testWaitDialog::name_a3d12dfb2eef04dda489145c5f1546dbf" ref="classtestWaitDialog.html#a3d12dfb2eef04dda489145c5f1546dbf"/>
+<keyword name="nameReadOnly(void)" id="testWaitDialog::nameReadOnly_ac2e9dfed93b111a48c61ed74d80e6034" ref="classtestWaitDialog.html#ac2e9dfed93b111a48c61ed74d80e6034"/>
 <keyword name="nextLevel(void)" id="OpenTyper::nextLevel_a0431cbb22500518dce9387257fddc57d" ref="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d"/>
 <keyword name="nextRow(void)" id="keyboardWidget::nextRow_ac57098beebc362b0981db8fe82b4ac57" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57"/>
 <keyword name="notClosed()" id="packView::notClosed_a4a2e6a81dd16f308cb1e3a2639e23e94" ref="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94"/>
@@ -1215,6 +1236,7 @@
 <keyword name="setClassName(QString name)" id="exportDialog::setClassName_a1e610002b960f6778f06cac761484a18" ref="classexportDialog.html#a1e610002b960f6778f06cac761484a18"/>
 <keyword name="setColors(void)" id="OpenTyper::setColors_ac4ac399f836ab91bc116d6a951cca9f5" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5"/>
 <keyword name="setColors()" id="customizationOptions::setColors_acada628a325da33b633c37e40955ecde" ref="classcustomizationOptions.html#acada628a325da33b633c37e40955ecde"/>
+<keyword name="setDeviceStudentName(int deviceID, QString name)" id="monitorServer::setDeviceStudentName_a4f13569148289c5b3635bc77dbf1405e" ref="classmonitorServer.html#a4f13569148289c5b3635bc77dbf1405e"/>
 <keyword name="setErrorDialogs(bool errDialogs)" id="monitorClient::setErrorDialogs_a69989bd9fa97b81a303de7be6cb0cd1c" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c"/>
 <keyword name="setErrorPenalty(int value)" id="behaviorOptions::setErrorPenalty_a32076ec9c688a185046af162f6762d58" ref="classbehaviorOptions.html#a32076ec9c688a185046af162f6762d58"/>
 <keyword name="setExerciseTextColor(QColor color)" id="themeEngine::setExerciseTextColor_a18220a961fd409fb93783274a60b47b5" ref="classthemeEngine.html#a18220a961fd409fb93783274a60b47b5"/>
@@ -1235,6 +1257,8 @@
 <keyword name="setLanguage(int index)" id="languageManager::setLanguage_a6e8bbe2e4be6feefe1d9dc7d0487f8f4" ref="classlanguageManager.html#a6e8bbe2e4be6feefe1d9dc7d0487f8f4"/>
 <keyword name="setMark(QString mark)" id="exportDialog::setMark_a76e2a0c771086a4158001221735df9ab" ref="classexportDialog.html#a76e2a0c771086a4158001221735df9ab"/>
 <keyword name="setMistakes(int mistakes)" id="levelSummary::setMistakes_aa521381ea57f44b2e0e5aeb959e17c66" ref="classlevelSummary.html#aa521381ea57f44b2e0e5aeb959e17c66"/>
+<keyword name="setName(QString name)" id="testWaitDialog::setName_a570d8ffbebbad04a5afeee5a192f16ab" ref="classtestWaitDialog.html#a570d8ffbebbad04a5afeee5a192f16ab"/>
+<keyword name="setNameReadOnly(bool readOnly)" id="testWaitDialog::setNameReadOnly_aac28ee89c9dafa1a80ba95972911e9a2" ref="classtestWaitDialog.html#aac28ee89c9dafa1a80ba95972911e9a2"/>
 <keyword name="setNetHits(int hits)" id="levelSummary::setNetHits_a24bc23e9e8ef6d7877756af4243c0061" ref="classlevelSummary.html#a24bc23e9e8ef6d7877756af4243c0061"/>
 <keyword name="setNumber(QString number)" id="exportDialog::setNumber_a42c0db8c73496852438a4b33ae113590" ref="classexportDialog.html#a42c0db8c73496852438a4b33ae113590"/>
 <keyword name="setPanelColor(QColor color)" id="themeEngine::setPanelColor_af30300b5e03cdedfee9211e9812da40b" ref="classthemeEngine.html#af30300b5e03cdedfee9211e9812da40b"/>
@@ -1287,6 +1311,7 @@
 <keyword name="teacherIDs(void)" id="databaseManager::teacherIDs_af4ed4fa5337b10b73573856cd5ca8293" ref="classdatabaseManager.html#af4ed4fa5337b10b73573856cd5ca8293"/>
 <keyword name="teacherNames(void)" id="databaseManager::teacherNames_a72439b44aa716d7511e65b0a7c15257f" ref="classdatabaseManager.html#a72439b44aa716d7511e65b0a7c15257f"/>
 <keyword name="testConnection(void)" id="connectionOptions::testConnection_a122737d3de84bd61b2daabdbf0cf0d8c" ref="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c"/>
+<keyword name="testWaitDialog(monitorClient *client, QWidget *parent=nullptr)" id="testWaitDialog::testWaitDialog_a60f23fb060d74de6a0c2379ba65ec502" ref="classtestWaitDialog.html#a60f23fb060d74de6a0c2379ba65ec502"/>
 <keyword name="textView(QWidget *parent=nullptr)" id="textView::textView_ad6aaddb0b664f37e2794b57cbe31e81c" ref="classtextView.html#ad6aaddb0b664f37e2794b57cbe31e81c"/>
 <keyword name="theme(void)" id="themeEngine::theme_a74db70f519653b3ae47b1fa5c33dee77" ref="classthemeEngine.html#a74db70f519653b3ae47b1fa5c33dee77"/>
 <keyword name="themeChanged()" id="themeEngine::themeChanged_a75617542d05d61c1511614a5fc3223dd" ref="classthemeEngine.html#a75617542d05d61c1511614a5fc3223dd"/>
@@ -1329,6 +1354,7 @@
 <keyword name="verify(void)" id="userManager::verify_a8d3e3f9e7f9feefc983dd14c4a25bc8e" ref="classuserManager.html#a8d3e3f9e7f9feefc983dd14c4a25bc8e"/>
 <keyword name="verify(void)" id="classControls::verify_a1a17121155cb9a41f72f103346e8ce40" ref="classclassControls.html#a1a17121155cb9a41f72f103346e8ce40"/>
 <keyword name="visibilityChanged(bool)" id="keyboardWidget::visibilityChanged_a9b5e78bfd7ead4f0e3cbea0399d5179f" ref="classkeyboardWidget.html#a9b5e78bfd7ead4f0e3cbea0399d5179f"/>
+<keyword name="waitForReceivedExercise(QString text, int lineLength, bool includeNewLines)" id="OpenTyper::waitForReceivedExercise_a9a5e69d5e48c3db5dead1768588ecbe0" ref="classOpenTyper.html#a9a5e69d5e48c3db5dead1768588ecbe0"/>
 <keyword name="wheelEvent(QWheelEvent *event)" id="textView::wheelEvent_abb8d39436ff8404c8cf079c9f4d2f9b7" ref="classtextView.html#abb8d39436ff8404c8cf079c9f4d2f9b7"/>
 <keyword name="widgetCollapsed()" id="serverManager::widgetCollapsed_a14f1e218c0c3b4d2b4bf1afe2165d11b" ref="classserverManager.html#a14f1e218c0c3b4d2b4bf1afe2165d11b"/>
 <keyword name="widgetExpanded()" id="serverManager::widgetExpanded_adf94679b27957d02e94ff0f694bd44df" ref="classserverManager.html#adf94679b27957d02e94ff0f694bd44df"/>
@@ -1365,6 +1391,7 @@
 <keyword name="~studentDetails()" id="studentDetails::~studentDetails_af7a767871f4c72c1c6c87a9d350fde87" ref="classstudentDetails.html#af7a767871f4c72c1c6c87a9d350fde87"/>
 <keyword name="~studentEdit()" id="studentEdit::~studentEdit_a9d21d9eb48bb859aeccc60b1900d5a33" ref="classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33"/>
 <keyword name="~studentOptions()" id="studentOptions::~studentOptions_af344227a23c1a64070567a41fcde0f3b" ref="classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b"/>
+<keyword name="~testWaitDialog()" id="testWaitDialog::~testWaitDialog_a527c42d89ae94399d1121d6e93253724" ref="classtestWaitDialog.html#a527c42d89ae94399d1121d6e93253724"/>
 <keyword name="~textView()" id="textView::~textView_aae65bbcd6440ddf2261f783c18aad0a6" ref="classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6"/>
 <keyword name="~timeDialog()" id="timeDialog::~timeDialog_ac3e69b247c53dc7ed4f3c81fab962766" ref="classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766"/>
 <keyword name="~Updater()" id="Updater::~Updater_a2f8434a97a4f3d3c716bb05abb20621e" ref="classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e"/>
@@ -1538,6 +1565,10 @@
 <file>classstudentOptions.html</file>
 <file>classstudentOptions__coll__graph.png</file>
 <file>classstudentOptions__inherit__graph.png</file>
+<file>classtestWaitDialog-members.html</file>
+<file>classtestWaitDialog.html</file>
+<file>classtestWaitDialog__coll__graph.png</file>
+<file>classtestWaitDialog__inherit__graph.png</file>
 <file>classtextView-members.html</file>
 <file>classtextView.html</file>
 <file>classtextView__coll__graph.png</file>
@@ -1739,6 +1770,7 @@
 <file>tab_h.png</file>
 <file>tab_s.png</file>
 <file>tabs.css</file>
+<file>testwaitdialog_8h_source.html</file>
 <file>textview_8h_source.html</file>
 <file>theme_8h_source.html</file>
 <file>timeDialog.png</file>

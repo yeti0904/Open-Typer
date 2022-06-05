@@ -1,6 +1,6 @@
 var classexerciseProgressDialog =
 [
-    [ "exerciseProgressDialog", "classexerciseProgressDialog.html#a474372d27db558af57326fab806c0be1", null ],
+    [ "exerciseProgressDialog", "classexerciseProgressDialog.html#ad4247c6bd2a3d6e5a71e40846bd64856", null ],
     [ "~exerciseProgressDialog", "classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503", null ],
     [ "abortExercise", "classexerciseProgressDialog.html#a925145aa4959fa84a9745fc1a1861829", null ],
     [ "closeEvent", "classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc", null ],

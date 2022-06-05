@@ -28,10 +28,11 @@ var searchData=
   ['_7estudentdetails_25',['~studentDetails',['../classstudentDetails.html#af7a767871f4c72c1c6c87a9d350fde87',1,'studentDetails']]],
   ['_7estudentedit_26',['~studentEdit',['../classstudentEdit.html#a9d21d9eb48bb859aeccc60b1900d5a33',1,'studentEdit']]],
   ['_7estudentoptions_27',['~studentOptions',['../classstudentOptions.html#af344227a23c1a64070567a41fcde0f3b',1,'studentOptions']]],
-  ['_7etextview_28',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
-  ['_7etimedialog_29',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
-  ['_7eupdater_30',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
-  ['_7eupdaterdialog_31',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]],
-  ['_7euseredit_32',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]],
-  ['_7eusermanager_33',['~userManager',['../classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9',1,'userManager']]]
+  ['_7etestwaitdialog_28',['~testWaitDialog',['../classtestWaitDialog.html#a527c42d89ae94399d1121d6e93253724',1,'testWaitDialog']]],
+  ['_7etextview_29',['~textView',['../classtextView.html#aae65bbcd6440ddf2261f783c18aad0a6',1,'textView']]],
+  ['_7etimedialog_30',['~timeDialog',['../classtimeDialog.html#ac3e69b247c53dc7ed4f3c81fab962766',1,'timeDialog']]],
+  ['_7eupdater_31',['~Updater',['../classUpdater.html#a2f8434a97a4f3d3c716bb05abb20621e',1,'Updater']]],
+  ['_7eupdaterdialog_32',['~UpdaterDialog',['../classUpdaterDialog.html#ab42ebaf4837dfff9f69b8040cbda1fa0',1,'UpdaterDialog']]],
+  ['_7euseredit_33',['~userEdit',['../classuserEdit.html#a5af8ca30f46e8df4f5ba0ae7163c66d7',1,'userEdit']]],
+  ['_7eusermanager_34',['~userManager',['../classuserManager.html#afd53a9e23879b4cf50bbac46b9afcfc9',1,'userManager']]]
 ];

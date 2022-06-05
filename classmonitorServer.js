@@ -6,6 +6,7 @@ var classmonitorServer =
     [ "connectedDevicesChanged", "classmonitorServer.html#a94b6965f300c90cfa8dcfdf9e7f22565", null ],
     [ "convertData", "classmonitorServer.html#a26a7931771e00ef1c766c2af6f0a999e", null ],
     [ "convertData", "classmonitorServer.html#ae5a0ee548b96b4f69a59f14b5f0d02ab", null ],
+    [ "deviceConfigurationChanged", "classmonitorServer.html#adfd5266fd853832e825e5b0a9ff9a6a5", null ],
     [ "deviceStudentName", "classmonitorServer.html#a31e43526517cabd09503a33c3fac2c57", null ],
     [ "disconnectClient", "classmonitorServer.html#a4752d1160f813a9c7c539bfa90068bfd", null ],
     [ "exerciseAborted", "classmonitorServer.html#aca74e604c7b6b5f0fa31847819ce0f42", null ],
@@ -20,6 +21,7 @@ var classmonitorServer =
     [ "sendResponse", "classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd", null ],
     [ "sendSignal", "classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d", null ],
     [ "sendSignal", "classmonitorServer.html#a0e2afb9808b5e478e3aa70516b20d77c", null ],
+    [ "setDeviceStudentName", "classmonitorServer.html#a4f13569148289c5b3635bc77dbf1405e", null ],
     [ "studentAuthAvailable", "classmonitorServer.html#ae2db68bcc040581676cf5a4c0a3d13e7", null ],
     [ "sessions", "classmonitorServer.html#a7899a00ceaf489ac7465d40ba05f5a52", null ]
 ];

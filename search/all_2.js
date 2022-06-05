@@ -2,7 +2,7 @@ var searchData=
 [
   ['changeaddress_0',['changeAddress',['../classconnectionOptions.html#a7587f3048a2ec97dcd2ddd8c30a4c956',1,'connectionOptions']]],
   ['changebgcolor_1',['changeBgColor',['../classcustomizationOptions.html#a5efb64bebcdd3a50546fe762eb4421be',1,'customizationOptions']]],
-  ['changeevent_2',['changeEvent',['../classtextView.html#a195c0b35129f798662b90dc13d79a31d',1,'textView::changeEvent()'],['../classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6',1,'OpenTyper::changeEvent()'],['../classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754',1,'optionsWindow::changeEvent()'],['../classclassControls.html#a242d53a1e419495dac9ae7be5ad5a31f',1,'classControls::changeEvent()'],['../classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9',1,'serverManager::changeEvent()'],['../classstudentDetails.html#a52ad21133a97f038b2cb73f372eca468',1,'studentDetails::changeEvent()'],['../classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395',1,'keyboardWidget::changeEvent()']]],
+  ['changeevent_2',['changeEvent',['../classOpenTyper.html#a75229f4abbbc05cf34f9be4e20b9e8b6',1,'OpenTyper::changeEvent()'],['../classoptionsWindow.html#a61c4d2858f2a6a6cc2c938b79de2d754',1,'optionsWindow::changeEvent()'],['../classclassControls.html#a242d53a1e419495dac9ae7be5ad5a31f',1,'classControls::changeEvent()'],['../classserverManager.html#a6e24b8ac49772954872d9a5cf73133c9',1,'serverManager::changeEvent()'],['../classstudentDetails.html#a52ad21133a97f038b2cb73f372eca468',1,'studentDetails::changeEvent()'],['../classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395',1,'keyboardWidget::changeEvent()'],['../classtextView.html#a195c0b35129f798662b90dc13d79a31d',1,'textView::changeEvent()']]],
   ['changeexercisepos_3',['changeExercisePos',['../classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b',1,'packView']]],
   ['changefont_4',['changeFont',['../classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e',1,'customizationOptions']]],
   ['changefontsize_5',['changeFontSize',['../classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615',1,'customizationOptions']]],
@@ -32,7 +32,7 @@ var searchData=
   ['close_29',['close',['../classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1',1,'configParser::close()'],['../classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538',1,'monitorClient::close()']]],
   ['closeall_30',['closeAll',['../classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df',1,'packEditor']]],
   ['closed_31',['closed',['../classpackView.html#a3e08ee64fe7e469750c907d30c17b190',1,'packView']]],
-  ['closeevent_32',['closeEvent',['../classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc',1,'exerciseProgressDialog::closeEvent()'],['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor::closeEvent()']]],
+  ['closeevent_32',['closeEvent',['../classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f',1,'testWaitDialog::closeEvent()'],['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor::closeEvent()'],['../classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc',1,'exerciseProgressDialog::closeEvent()']]],
   ['closefile_33',['closeFile',['../classpackView.html#a0d7279567c49cfa13efb450657875255',1,'packView']]],
   ['closetab_34',['closeTab',['../classpackEditor.html#a8029fd89ffc29702456698439e7a1d39',1,'packEditor']]],
   ['collapse_35',['collapse',['../classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2',1,'serverManager']]],

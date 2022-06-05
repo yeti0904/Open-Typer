@@ -32,7 +32,7 @@ var searchData=
   ['close_29',['close',['../classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1',1,'configParser::close()'],['../classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538',1,'monitorClient::close()']]],
   ['closeall_30',['closeAll',['../classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df',1,'packEditor']]],
   ['closed_31',['closed',['../classpackView.html#a3e08ee64fe7e469750c907d30c17b190',1,'packView']]],
-  ['closeevent_32',['closeEvent',['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor::closeEvent()'],['../classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc',1,'exerciseProgressDialog::closeEvent()']]],
+  ['closeevent_32',['closeEvent',['../classpackEditor.html#aa403472b118aef534f8093106316ce05',1,'packEditor::closeEvent()'],['../classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc',1,'exerciseProgressDialog::closeEvent()'],['../classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f',1,'testWaitDialog::closeEvent()']]],
   ['closefile_33',['closeFile',['../classpackView.html#a0d7279567c49cfa13efb450657875255',1,'packView']]],
   ['closetab_34',['closeTab',['../classpackEditor.html#a8029fd89ffc29702456698439e7a1d39',1,'packEditor']]],
   ['collapse_35',['collapse',['../classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2',1,'serverManager']]],

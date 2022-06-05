@@ -1,0 +1,6 @@
+<map id="testWaitDialog" name="testWaitDialog">
+<area shape="rect" id="node1" title="The testWaitDialog class is a dialog, which is displayed when client receives an exercise." alt="" coords="7,171,114,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,73,108"/>
+<area shape="rect" id="node3" href="$classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="98,81,197,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="112,5,183,32"/>
+</map>

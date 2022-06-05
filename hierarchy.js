@@ -20,6 +20,7 @@ var hierarchy =
       [ "statsDialog", "classstatsDialog.html", null ],
       [ "studentEdit", "classstudentEdit.html", null ],
       [ "studentOptions", "classstudentOptions.html", null ],
+      [ "testWaitDialog", "classtestWaitDialog.html", null ],
       [ "timeDialog", "classtimeDialog.html", null ],
       [ "userEdit", "classuserEdit.html", null ],
       [ "userManager", "classuserManager.html", null ]

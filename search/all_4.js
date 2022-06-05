@@ -16,7 +16,7 @@ var searchData=
   ['exerciseid_13',['exerciseID',['../classconfigParser.html#add14cf29749e2e59f136c959f90b6272',1,'configParser']]],
   ['exerciseline_14',['exerciseLine',['../classconfigParser.html#a1f838b1e16a47bba35ffa184d7f5e5cc',1,'configParser']]],
   ['exerciselinelength_15',['exerciseLineLength',['../classconfigParser.html#affe9b6fae6d5a864619ff35d7a0504ad',1,'configParser']]],
-  ['exerciseprogressdialog_16',['exerciseProgressDialog',['../classexerciseProgressDialog.html#a474372d27db558af57326fab806c0be1',1,'exerciseProgressDialog::exerciseProgressDialog()'],['../classexerciseProgressDialog.html',1,'exerciseProgressDialog']]],
+  ['exerciseprogressdialog_16',['exerciseProgressDialog',['../classexerciseProgressDialog.html#ad4247c6bd2a3d6e5a71e40846bd64856',1,'exerciseProgressDialog::exerciseProgressDialog()'],['../classexerciseProgressDialog.html',1,'exerciseProgressDialog']]],
   ['exerciserawtext_17',['exerciseRawText',['../classconfigParser.html#aaec1cc87884ad80cf354b7bb94bbfd0b',1,'configParser::exerciseRawText(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a7b4a5f25f5ebb319bdc99cb34fef0724',1,'configParser::exerciseRawText(const QString line)']]],
   ['exercisereceived_18',['exerciseReceived',['../classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44',1,'monitorClient']]],
   ['exerciserepeatbool_19',['exerciseRepeatBool',['../classconfigParser.html#a37d3235f050bb2b8066fc56ffd71709a',1,'configParser::exerciseRepeatBool(int lesson, int sublesson, int exercise)'],['../classconfigParser.html#a63e44b8aea3e62963145781ab4cd73df',1,'configParser::exerciseRepeatBool(const QString config)']]],

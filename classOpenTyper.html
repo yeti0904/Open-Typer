@@ -113,14 +113,16 @@ Collaboration diagram for OpenTyper:</div>
 <div class="dyncontent">
 <div class="center"><img src="classOpenTyper__coll__graph.png" border="0" usemap="#aOpenTyper_coll__map" alt="Collaboration graph"/></div>
 <map name="aOpenTyper_coll__map" id="aOpenTyper_coll__map">
-<area shape="rect" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="347,171,432,197"/>
-<area shape="rect" title=" " alt="" coords="5,81,112,108"/>
-<area shape="rect" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="137,81,261,108"/>
-<area shape="rect" title=" " alt="" coords="418,5,489,32"/>
-<area shape="rect" href="classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="285,81,379,108"/>
-<area shape="rect" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="404,81,503,108"/>
-<area shape="rect" href="classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="527,81,595,108"/>
-<area shape="rect" href="classthemeEngine.html" title="The themeEngine class provides theme functions." alt="" coords="619,81,717,108"/>
+<area shape="rect" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output." alt="" coords="660,183,745,209"/>
+<area shape="rect" title=" " alt="" coords="396,5,503,32"/>
+<area shape="rect" href="classlanguageManager.html" title="The languageManager class provides a list of supported languages." alt="" coords="248,83,372,109"/>
+<area shape="rect" title=" " alt="" coords="5,193,76,220"/>
+<area shape="rect" href="classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="263,125,357,152"/>
+<area shape="rect" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server." alt="" coords="125,193,224,220"/>
+<area shape="rect" href="classUpdater.html" title="The Updater class is used to check for updates and download new versions of the program." alt="" coords="276,297,344,324"/>
+<area shape="rect" href="classthemeEngine.html" title="The themeEngine class provides theme functions." alt="" coords="401,357,498,384"/>
+<area shape="rect" href="classtestWaitDialog.html" title="The testWaitDialog class is a dialog, which is displayed when client receives an exercise." alt="" coords="396,244,503,271"/>
+<area shape="rect" title=" " alt="" coords="141,248,209,275"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -182,6 +184,8 @@ Private Slots</h2></td></tr>
 <tr class="separator:aa5d35139c68a5ad1fbb6af7feb48dd2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add888b1f5881e29c6421aa211dc6b80e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#add888b1f5881e29c6421aa211dc6b80e">startReceivedExercise</a> (QByteArray text, int lineLength, bool includeNewLines, int mode, int time, bool correctMistakes, bool lockUi, bool hideText, bool upload)</td></tr>
 <tr class="separator:add888b1f5881e29c6421aa211dc6b80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5e69d5e48c3db5dead1768588ecbe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a9a5e69d5e48c3db5dead1768588ecbe0">waitForReceivedExercise</a> (QString text, int lineLength, bool includeNewLines)</td></tr>
+<tr class="separator:a9a5e69d5e48c3db5dead1768588ecbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8410e97b6f2c38e9739743a805309f65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a8410e97b6f2c38e9739743a805309f65">printText</a> (void)</td></tr>
 <tr class="separator:a8410e97b6f2c38e9739743a805309f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a119eaa012498fbda8b7289f4b0590505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505">openEditor</a> (bool newFile=true)</td></tr>
@@ -422,6 +426,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>correctMistakesOld</b
 <tr class="memitem:a612b532174713656b507656342c03a1b"><td class="memItemLeft" align="right" valign="top"><a id="a612b532174713656b507656342c03a1b" name="a612b532174713656b507656342c03a1b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>hideTextOld</b> = false</td></tr>
 <tr class="separator:a612b532174713656b507656342c03a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7825d331af5cc42dab14dfbb87a84cb7"><td class="memItemLeft" align="right" valign="top"><a id="a7825d331af5cc42dab14dfbb87a84cb7" name="a7825d331af5cc42dab14dfbb87a84cb7"></a>
+<a class="el" href="classtestWaitDialog.html">testWaitDialog</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>waitDialog</b> = nullptr</td></tr>
+<tr class="separator:a7825d331af5cc42dab14dfbb87a84cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classOpenTyper.html" title="The OpenTyper class is the main window class. It shows the UI, text and handles input and output.">OpenTyper</a> class is the main window class. It shows the UI, text and handles input and output. </p>
@@ -1750,6 +1757,49 @@ Runs periodically and updates time widgets. </p>
 <p >Converts exercise text (line wrapping, limited number of lines). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classOpenTyper.html#a6a4499c54bdf2daaebdb14014d1f8184">levelFinalInit</a> </dd>
 <dd>
 <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9a5e69d5e48c3db5dead1768588ecbe0" name="a9a5e69d5e48c3db5dead1768588ecbe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a5e69d5e48c3db5dead1768588ecbe0">&#9670;&nbsp;</a></span>waitForReceivedExercise</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OpenTyper::waitForReceivedExercise </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lineLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeNewLines</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Opens <a class="el" href="classtestWaitDialog.html" title="The testWaitDialog class is a dialog, which is displayed when client receives an exercise.">testWaitDialog</a> and waits until the received exercise starts. </p>
 
 </div>
 </div>

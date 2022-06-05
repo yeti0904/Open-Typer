@@ -41,6 +41,7 @@ var classOpenTyper =
     [ "updateLessonList", "classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54", null ],
     [ "updateStudent", "classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a", null ],
     [ "updateText", "classOpenTyper.html#a487997a86245492f13709904e8c47f4b", null ],
+    [ "waitForReceivedExercise", "classOpenTyper.html#a9a5e69d5e48c3db5dead1768588ecbe0", null ],
     [ "zoomIn", "classOpenTyper.html#a0cb936f09d8dcc2148352ed95b486236", null ],
     [ "zoomOut", "classOpenTyper.html#a26d722e59eb5364522f42996eff39075", null ]
 ];
