@@ -3,6 +3,7 @@ var classloadExerciseDialog =
     [ "loadExerciseDialog", "classloadExerciseDialog.html#afc31ca61a6eca031c36effa564ab0f41", null ],
     [ "loadExerciseDialog", "classloadExerciseDialog.html#a032fda6dff173085671411c696d7e613", null ],
     [ "~loadExerciseDialog", "classloadExerciseDialog.html#af3834eaa5e2ed412860991f5b3c92e94", null ],
+    [ "allowTextPreview", "classloadExerciseDialog.html#a1cf9430257468e4ca3a740fa14a15de0", null ],
     [ "changeMode", "classloadExerciseDialog.html#aabfc7f53f2df9312e5160073074d3970", null ],
     [ "changeSource", "classloadExerciseDialog.html#a968f0894f095f3be5b0cf7f57e54611c", null ],
     [ "correctMistakes", "classloadExerciseDialog.html#abc9018f0f44a28c05b5af4aa3881d6b9", null ],

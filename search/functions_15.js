@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waitforreceivedexercise_0',['waitForReceivedExercise',['../classOpenTyper.html#a9a5e69d5e48c3db5dead1768588ecbe0',1,'OpenTyper']]],
+  ['waitforreceivedexercise_0',['waitForReceivedExercise',['../classOpenTyper.html#ab74ad25d2cc63695eeb6cca8a5fb5a44',1,'OpenTyper']]],
   ['wheelevent_1',['wheelEvent',['../classtextView.html#abb8d39436ff8404c8cf079c9f4d2f9b7',1,'textView']]],
   ['widgetcollapsed_2',['widgetCollapsed',['../classserverManager.html#a14f1e218c0c3b4d2b4bf1afe2165d11b',1,'serverManager']]],
   ['widgetexpanded_3',['widgetExpanded',['../classserverManager.html#adf94679b27957d02e94ff0f694bd44df',1,'serverManager']]],
