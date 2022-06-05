@@ -296,6 +296,7 @@
 </section>
 <section title="monitorClient" ref="classmonitorClient.html">
 <section title="monitorClient" ref="classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00"/>
+<section title="~monitorClient" ref="classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714"/>
 <section title="available" ref="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3"/>
 <section title="close" ref="classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538"/>
 <section title="convertData" ref="classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977"/>
@@ -1383,6 +1384,7 @@
 <keyword name="~languageManager()" id="languageManager::~languageManager_aa528e7f1356bfb831104e0c4e1c6c485" ref="classlanguageManager.html#aa528e7f1356bfb831104e0c4e1c6c485"/>
 <keyword name="~levelSummary()" id="levelSummary::~levelSummary_a9ef285f93758398b40f81ca48f22fbf2" ref="classlevelSummary.html#a9ef285f93758398b40f81ca48f22fbf2"/>
 <keyword name="~loadExerciseDialog()" id="loadExerciseDialog::~loadExerciseDialog_af3834eaa5e2ed412860991f5b3c92e94" ref="classloadExerciseDialog.html#af3834eaa5e2ed412860991f5b3c92e94"/>
+<keyword name="~monitorClient()" id="monitorClient::~monitorClient_a6c25754bf7d283d98b2a019f7eed8714" ref="classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714"/>
 <keyword name="~OpenTyper()" id="OpenTyper::~OpenTyper_a47f341fe57bb1127965119b293f2fe3f" ref="classOpenTyper.html#a47f341fe57bb1127965119b293f2fe3f"/>
 <keyword name="~optionsWindow()" id="optionsWindow::~optionsWindow_ad2942ee73b6562894bf2d25f554b9e5c" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c"/>
 <keyword name="~packEditor()" id="packEditor::~packEditor_acc6fa330df5ca29c78538929eeabe382" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>

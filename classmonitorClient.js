@@ -1,6 +1,7 @@
 var classmonitorClient =
 [
     [ "monitorClient", "classmonitorClient.html#a6fedfbb816b9ce8cd17080f97d11be00", null ],
+    [ "~monitorClient", "classmonitorClient.html#a6c25754bf7d283d98b2a019f7eed8714", null ],
     [ "available", "classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3", null ],
     [ "close", "classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538", null ],
     [ "convertData", "classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977", null ],
