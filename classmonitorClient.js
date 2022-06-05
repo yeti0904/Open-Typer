@@ -6,6 +6,7 @@ var classmonitorClient =
     [ "close", "classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538", null ],
     [ "convertData", "classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977", null ],
     [ "disconnected", "classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c", null ],
+    [ "enableClient", "classmonitorClient.html#a321c4c8b2e7acbd631a8ce4c7da6f04d", null ],
     [ "enabled", "classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f", null ],
     [ "errorOccurred", "classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7", null ],
     [ "exerciseReceived", "classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44", null ],

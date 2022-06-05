@@ -144,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa079bae2455cd8223e254fd0914a479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb3acf397b6106373a35b6e678cf3e74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74">isPaired</a> (void)</td></tr>
 <tr class="separator:abb3acf397b6106373a35b6e678cf3e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321c4c8b2e7acbd631a8ce4c7da6f04d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a321c4c8b2e7acbd631a8ce4c7da6f04d">enableClient</a> (void)</td></tr>
+<tr class="separator:a321c4c8b2e7acbd631a8ce4c7da6f04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a837ea44ca7648e84ceb4b8ad4b208954"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a837ea44ca7648e84ceb4b8ad4b208954">sendRequest</a> (QString method, QStringList data)</td></tr>
 <tr class="separator:a837ea44ca7648e84ceb4b8ad4b208954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a2daf88607ee6686dcafd0e35852b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3">available</a> (void)</td></tr>
@@ -200,6 +202,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>waitingForResponse</b
 <tr class="memitem:ab18114aad24613e1ec7e9fa5714c04f5"><td class="memItemLeft" align="right" valign="top"><a id="ab18114aad24613e1ec7e9fa5714c04f5" name="ab18114aad24613e1ec7e9fa5714c04f5"></a>
 QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
 <tr class="separator:ab18114aad24613e1ec7e9fa5714c04f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dbcd8fdeab9aa59e5690dca0fc6bf39"><td class="memItemLeft" align="right" valign="top"><a id="a1dbcd8fdeab9aa59e5690dca0fc6bf39" name="a1dbcd8fdeab9aa59e5690dca0fc6bf39"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>clientDisabled</b> = false</td></tr>
+<tr class="separator:a1dbcd8fdeab9aa59e5690dca0fc6bf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classmonitorClient.html" title="The monitorClient class is used to communicate with the class monitor server.">monitorClient</a> class is used to communicate with the class monitor server. </p>
@@ -358,6 +363,25 @@ QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td
 </table>
 </div><div class="memdoc">
 <p >A signal, which is emitted when connection is lost. </p>
+
+</div>
+</div>
+<a id="a321c4c8b2e7acbd631a8ce4c7da6f04d" name="a321c4c8b2e7acbd631a8ce4c7da6f04d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a321c4c8b2e7acbd631a8ce4c7da6f04d">&#9670;&nbsp;</a></span>enableClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void monitorClient::enableClient </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Enables client again after connection failure. </p>
 
 </div>
 </div>

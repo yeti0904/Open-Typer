@@ -301,6 +301,7 @@
 <section title="close" ref="classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538"/>
 <section title="convertData" ref="classmonitorClient.html#a660f484f9331f0bd12b3eeef43e95977"/>
 <section title="disconnected" ref="classmonitorClient.html#a73cdc9ea4b353d3f8e33b9e6fd27cb9c"/>
+<section title="enableClient" ref="classmonitorClient.html#a321c4c8b2e7acbd631a8ce4c7da6f04d"/>
 <section title="enabled" ref="classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f"/>
 <section title="errorOccurred" ref="classmonitorClient.html#afc169400024ad1a6e9ecd539632493f7"/>
 <section title="exerciseReceived" ref="classmonitorClient.html#a3c21eecac7a00f3f0dfadca1f7b3ef44"/>
@@ -992,6 +993,7 @@
 <keyword name="editStudent(void)" id="classControls::editStudent_a35f2c8f2ea293dfcad7d36d934e0288e" ref="classclassControls.html#a35f2c8f2ea293dfcad7d36d934e0288e"/>
 <keyword name="editUser(int userID, QString name, Role role, QString password=&quot;&quot;, QString nickname=QString())" id="databaseManager::editUser_a79bfebbb46838cba30ed3dbca430f1ae" ref="classdatabaseManager.html#a79bfebbb46838cba30ed3dbca430f1ae"/>
 <keyword name="editUser(void)" id="userManager::editUser_a2741e17eb61158b8b009aa37e8f7de80" ref="classuserManager.html#a2741e17eb61158b8b009aa37e8f7de80"/>
+<keyword name="enableClient(void)" id="monitorClient::enableClient_a321c4c8b2e7acbd631a8ce4c7da6f04d" ref="classmonitorClient.html#a321c4c8b2e7acbd631a8ce4c7da6f04d"/>
 <keyword name="enabled(void)" id="monitorClient::enabled_a039b0a59f5602f377711d81ddd60735f" ref="classmonitorClient.html#a039b0a59f5602f377711d81ddd60735f"/>
 <keyword name="endExercise(bool showNetHits, bool showGrossHits, bool showTotalHits, bool showTime, bool showMistakes)" id="OpenTyper::endExercise_a48c09e64bddca502b4593b15f9eae8b9" ref="classOpenTyper.html#a48c09e64bddca502b4593b15f9eae8b9"/>
 <keyword name="errorFont(void)" id="themeEngine::errorFont_a739c27fc5cf0842932941c31c23ac092" ref="classthemeEngine.html#a739c27fc5cf0842932941c31c23ac092"/>
