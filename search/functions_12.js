@@ -13,5 +13,6 @@ var searchData=
   ['themename_10',['themeName',['../classthemeEngine.html#a9ab4e0f29d1b4d472c1358cde5384236',1,'themeEngine']]],
   ['timedialog_11',['timeDialog',['../classtimeDialog.html#afee89fd18b8ade41b001e436dc73f522',1,'timeDialog']]],
   ['timelimit_12',['timeLimit',['../classloadExerciseDialog.html#a8fbe47ca1e7b43a27f31bb52db80fb48',1,'loadExerciseDialog']]],
-  ['togglekeyboard_13',['toggleKeyboard',['../classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb',1,'keyboardWidget']]]
+  ['togglekeyboard_13',['toggleKeyboard',['../classkeyboardWidget.html#a2f270d1d090d383e02509947774abceb',1,'keyboardWidget']]],
+  ['togglenetworkoptions_14',['toggleNetworkOptions',['../classconnectionOptions.html#aff4467367162bb59f0ee849a79c934ca',1,'connectionOptions']]]
 ];

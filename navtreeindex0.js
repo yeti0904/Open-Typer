@@ -130,6 +130,7 @@ var NAVTREEINDEX0 =
 "classconnectionOptions.html#abfeac330032693d7ea5358d143a6b3d5":[4,0,6,0],
 "classconnectionOptions.html#ad69589fb8f8fffd27c45a75cd6cd7b50":[4,0,6,5],
 "classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd":[4,0,6,4],
+"classconnectionOptions.html#aff4467367162bb59f0ee849a79c934ca":[4,0,6,7],
 "classcontrols_8h_source.html":[5,0,0,0,3,0,0],
 "classcustomizationOptions.html":[4,0,7],
 "classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615":[4,0,7,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72":[4,0,14,2],
 "classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd":[4,0,14,0],
 "classinitialSetup.html#a9b5f719b8dff40cf5dab8d04be1e8c60":[4,0,14,1],
-"classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd":[4,0,14,3],
-"classinputLabelWidget.html":[4,0,15]
+"classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd":[4,0,14,3]
 };
