@@ -31,6 +31,7 @@ var classOpenTyper =
     [ "refreshAll", "classOpenTyper.html#a3618fe82b844cfd240849ba976349c39", null ],
     [ "repeatLevel", "classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e", null ],
     [ "setColors", "classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5", null ],
+    [ "showAboutDialog", "classOpenTyper.html#abf3aebf2ef469b5dab2d722de8482e28", null ],
     [ "showExerciseStats", "classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d", null ],
     [ "startLevel", "classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f", null ],
     [ "startReceivedExercise", "classOpenTyper.html#add888b1f5881e29c6421aa211dc6b80e", null ],

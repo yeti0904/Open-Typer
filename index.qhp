@@ -377,6 +377,7 @@
 <section title="refreshAll" ref="classOpenTyper.html#a3618fe82b844cfd240849ba976349c39"/>
 <section title="repeatLevel" ref="classOpenTyper.html#aa38fd22312ca92bed20d77ac9142ce9e"/>
 <section title="setColors" ref="classOpenTyper.html#ac4ac399f836ab91bc116d6a951cca9f5"/>
+<section title="showAboutDialog" ref="classOpenTyper.html#abf3aebf2ef469b5dab2d722de8482e28"/>
 <section title="showExerciseStats" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d"/>
 <section title="startLevel" ref="classOpenTyper.html#ab3e6df43ee172d7ac8ce29fcd2dd8b2f"/>
 <section title="startReceivedExercise" ref="classOpenTyper.html#add888b1f5881e29c6421aa211dc6b80e"/>
@@ -1287,6 +1288,7 @@
 <keyword name="setupTable(void)" id="exerciseProgressDialog::setupTable_a05b5ae46c79fd69b6936ea96dd0873a1" ref="classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1"/>
 <keyword name="setupTable(void)" id="classControls::setupTable_adb3be8efc35307d49b7b254d465dbed4" ref="classclassControls.html#adb3be8efc35307d49b7b254d465dbed4"/>
 <keyword name="setVerticalAdjust(bool value)" id="textView::setVerticalAdjust_a8436c65cc75d5ede073ac7b8d90d743c" ref="classtextView.html#a8436c65cc75d5ede073ac7b8d90d743c"/>
+<keyword name="showAboutDialog(void)" id="OpenTyper::showAboutDialog_abf3aebf2ef469b5dab2d722de8482e28" ref="classOpenTyper.html#abf3aebf2ef469b5dab2d722de8482e28"/>
 <keyword name="showCloseExercisesMessage(void)" id="serverManager::showCloseExercisesMessage_a98e727daad5078cb1bf445846ea22718" ref="classserverManager.html#a98e727daad5078cb1bf445846ea22718"/>
 <keyword name="showExerciseStats(void)" id="OpenTyper::showExerciseStats_afee6949c71f4c7679b1aa7f206fe7b9d" ref="classOpenTyper.html#afee6949c71f4c7679b1aa7f206fe7b9d"/>
 <keyword name="splitWordsByPunct(QStringList source)" id="stringUtils::splitWordsByPunct_a19f0a6330da206c790741ccdc36b877d" ref="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d"/>
