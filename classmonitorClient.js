@@ -13,6 +13,7 @@ var classmonitorClient =
     [ "fullMode", "classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b", null ],
     [ "initExReceived", "classmonitorClient.html#a253f5be32ef5b390560671a9be67260f", null ],
     [ "isPaired", "classmonitorClient.html#abb3acf397b6106373a35b6e678cf3e74", null ],
+    [ "localAddress", "classmonitorClient.html#a89d7b822ab83b750ecd1842ed11541b5", null ],
     [ "readData", "classmonitorClient.html#aac3aa9e9a9c2985e71255827fe13b13e", null ],
     [ "readResponse", "classmonitorClient.html#af1db48699e73883ce0dcdb1c15e7d593", null ],
     [ "responseReady", "classmonitorClient.html#a6940f786c749647238b2231694fd85e8", null ],

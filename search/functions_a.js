@@ -16,7 +16,7 @@ var searchData=
   ['loaddevices_13',['loadDevices',['../classserverManager.html#ae5141488cec02025cb910c4f346328f6',1,'serverManager']]],
   ['loaderrorwords_14',['loadErrorWords',['../classOpenTyper.html#a91863db8b08179fd8fdfc587be7ea4b1',1,'OpenTyper']]],
   ['loadexercise_15',['loadExercise',['../classclassControls.html#ad94d9e3849a23e72661f278a40294867',1,'classControls']]],
-  ['loadexercisedialog_16',['loadExerciseDialog',['../classloadExerciseDialog.html#afc31ca61a6eca031c36effa564ab0f41',1,'loadExerciseDialog::loadExerciseDialog(QList&lt; int &gt; availableTargets, QWidget *parent=nullptr)'],['../classloadExerciseDialog.html#a032fda6dff173085671411c696d7e613',1,'loadExerciseDialog::loadExerciseDialog(QWidget *parent=nullptr)']]],
+  ['loadexercisedialog_16',['loadExerciseDialog',['../classloadExerciseDialog.html#a032fda6dff173085671411c696d7e613',1,'loadExerciseDialog::loadExerciseDialog(QWidget *parent=nullptr)'],['../classloadExerciseDialog.html#afc31ca61a6eca031c36effa564ab0f41',1,'loadExerciseDialog::loadExerciseDialog(QList&lt; int &gt; availableTargets, QWidget *parent=nullptr)']]],
   ['loadlayout_17',['loadLayout',['../classkeyboardWidget.html#a89e1f9931b347cb71ce5d553d19b70bd',1,'keyboardWidget']]],
   ['loadlesson_18',['loadLesson',['../classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb',1,'OpenTyper']]],
   ['loadlist_19',['loadList',['../classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd',1,'initialSetup']]],
@@ -27,8 +27,9 @@ var searchData=
   ['loadtext_24',['loadText',['../classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4',1,'OpenTyper']]],
   ['loadtheme_25',['loadTheme',['../classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8',1,'OpenTyper']]],
   ['loadtobuffer_26',['loadToBuffer',['../classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3',1,'configParser']]],
-  ['lockui_27',['lockUi',['../classloadExerciseDialog.html#a323be95d9b1f7294d64420f86095c91a',1,'loadExerciseDialog']]],
-  ['loggedinstudentschanged_28',['loggedInStudentsChanged',['../classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64',1,'monitorServer']]],
-  ['loginid_29',['loginID',['../classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef',1,'databaseManager']]],
-  ['longestcommonsubsequence_30',['longestCommonSubsequence',['../classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132',1,'stringUtils::longestCommonSubsequence(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)'],['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils::longestCommonSubsequence(QString source, QString target)']]]
+  ['localaddress_27',['localAddress',['../classmonitorClient.html#a89d7b822ab83b750ecd1842ed11541b5',1,'monitorClient']]],
+  ['lockui_28',['lockUi',['../classloadExerciseDialog.html#a323be95d9b1f7294d64420f86095c91a',1,'loadExerciseDialog']]],
+  ['loggedinstudentschanged_29',['loggedInStudentsChanged',['../classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64',1,'monitorServer']]],
+  ['loginid_30',['loginID',['../classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef',1,'databaseManager']]],
+  ['longestcommonsubsequence_31',['longestCommonSubsequence',['../classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132',1,'stringUtils::longestCommonSubsequence(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target)'],['../classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02',1,'stringUtils::longestCommonSubsequence(QString source, QString target)']]]
 ];
