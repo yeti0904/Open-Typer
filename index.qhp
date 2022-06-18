@@ -494,6 +494,7 @@
 <section title="compareLists" ref="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f"/>
 <section title="compareStrings" ref="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418"/>
 <section title="findMistakes" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
+<section title="generateDiffList" ref="classstringUtils.html#ada9d02d8cc6b514af35967a51ca417c0"/>
 <section title="lcsLen" ref="classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02"/>
@@ -1056,6 +1057,7 @@
 <keyword name="fontUnderline(void)" id="themeEngine::fontUnderline_a5a6ba01e414a30d09cd7b8c6de0f2f89" ref="classthemeEngine.html#a5a6ba01e414a30d09cd7b8c6de0f2f89"/>
 <keyword name="fontUnderlineChanged()" id="themeEngine::fontUnderlineChanged_a7709f197afee83dfe4714384a539c405" ref="classthemeEngine.html#a7709f197afee83dfe4714384a539c405"/>
 <keyword name="fullMode(void)" id="monitorClient::fullMode_aa079bae2455cd8223e254fd0914a479b" ref="classmonitorClient.html#aa079bae2455cd8223e254fd0914a479b"/>
+<keyword name="generateDiffList(QStringList *sourceWords, QStringList *targetWords, QList&lt; int &gt; *mergeList=nullptr)" id="stringUtils::generateDiffList_ada9d02d8cc6b514af35967a51ca417c0" ref="classstringUtils.html#ada9d02d8cc6b514af35967a51ca417c0"/>
 <keyword name="generateRandomCertKey(void)" id="monitorServer::generateRandomCertKey_a729a5201dce91161957874b159a82229" ref="classmonitorServer.html#a729a5201dce91161957874b159a82229"/>
 <keyword name="generateText(QString rawText, bool repeat, QString repeatType, int repeatLimit)" id="configParser::generateText_a9fea65bbcdde2864bd56dd99b1ae2794" ref="classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794"/>
 <keyword name="getFileName(void)" id="packView::getFileName_ad9bbd4cb227e404ea9aaf1e5fca93585" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585"/>

@@ -125,6 +125,8 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>lcsLen</b> (QLi
 <tr class="separator:a66ec2bb8c89ffe03e68ebc995cb5d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19f0a6330da206c790741ccdc36b877d"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d">splitWordsByPunct</a> (QStringList source)</td></tr>
 <tr class="separator:a19f0a6330da206c790741ccdc36b877d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada9d02d8cc6b514af35967a51ca417c0"><td class="memItemLeft" align="right" valign="top">static QMap&lt; int, QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#ada9d02d8cc6b514af35967a51ca417c0">generateDiffList</a> (QStringList *sourceWords, QStringList *targetWords, QList&lt; int &gt; *mergeList=nullptr)</td></tr>
+<tr class="separator:ada9d02d8cc6b514af35967a51ca417c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classstringUtils.html" title="The stringUtils class contains functions related to strings.">stringUtils</a> class contains functions related to strings. </p>
@@ -291,6 +293,49 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>lcsLen</b> (QLi
 </table>
 </div><div class="memdoc">
 <p >Compares input text with exercise text and finds mistakes. </p>
+
+</div>
+</div>
+<a id="ada9d02d8cc6b514af35967a51ca417c0" name="ada9d02d8cc6b514af35967a51ca417c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada9d02d8cc6b514af35967a51ca417c0">&#9670;&nbsp;</a></span>generateDiffList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt; int, QVariantMap &gt; stringUtils::generateDiffList </td>
+          <td>(</td>
+          <td class="paramtype">QStringList *&#160;</td>
+          <td class="paramname"><em>sourceWords</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QStringList *&#160;</td>
+          <td class="paramname"><em>targetWords</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>mergeList</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Recursively generates a diff list from source and target word list. </p>
 
 </div>
 </div>

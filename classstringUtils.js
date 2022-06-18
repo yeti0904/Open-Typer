@@ -3,6 +3,7 @@ var classstringUtils =
     [ "compareLists", "classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f", null ],
     [ "compareStrings", "classstringUtils.html#a371e6b1e856605071f15eee3d27ae418", null ],
     [ "findMistakes", "classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662", null ],
+    [ "generateDiffList", "classstringUtils.html#ada9d02d8cc6b514af35967a51ca417c0", null ],
     [ "lcsLen", "classstringUtils.html#a79faa227c39594f727c1008f29e1cfe3", null ],
     [ "longestCommonSubsequence", "classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132", null ],
     [ "longestCommonSubsequence", "classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02", null ],
