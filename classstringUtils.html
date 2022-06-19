@@ -115,6 +115,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a371e6b1e856605071f15eee3d27ae418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662">findMistakes</a> (QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)</td></tr>
 <tr class="separator:a91484c1c5bfc47e101bb4cfc5ea17662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e4f7a35ee0c295d38582db01936732"><td class="memItemLeft" align="right" valign="top">static QList&lt; QVariantMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a02e4f7a35ee0c295d38582db01936732">validateExercise</a> (QString exerciseText, QString inputText, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits, int *mistakeCount, QStringList *errorWords=nullptr, bool timed=false, int timeSecs=0)</td></tr>
+<tr class="separator:a02e4f7a35ee0c295d38582db01936732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e5e900f2189199bee85843b83e98b5"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classstringUtils.html#a86e5e900f2189199bee85843b83e98b5">addMistakes</a> (QString exerciseText, QList&lt; QVariantMap &gt; recordedMistakes)</td></tr>
+<tr class="separator:a86e5e900f2189199bee85843b83e98b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -131,6 +135,43 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>lcsLen</b> (QLi
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classstringUtils.html" title="The stringUtils class contains functions related to strings.">stringUtils</a> class contains functions related to strings. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a86e5e900f2189199bee85843b83e98b5" name="a86e5e900f2189199bee85843b83e98b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e5e900f2189199bee85843b83e98b5">&#9670;&nbsp;</a></span>addMistakes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString stringUtils::addMistakes </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>exerciseText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; QVariantMap &gt;&#160;</td>
+          <td class="paramname"><em>recordedMistakes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Adds mistakes to an exercise with mistake correction enabled. </p>
+
+</div>
+</div>
 <a id="aeeb3f5d9158bbaf2946ca13e7643164f" name="aeeb3f5d9158bbaf2946ca13e7643164f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeeb3f5d9158bbaf2946ca13e7643164f">&#9670;&nbsp;</a></span>compareLists()</h2>
 
@@ -474,6 +515,79 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>lcsLen</b> (QLi
 </table>
 </div><div class="memdoc">
 <p >Splits each word by punctuation marks. </p>
+
+</div>
+</div>
+<a id="a02e4f7a35ee0c295d38582db01936732" name="a02e4f7a35ee0c295d38582db01936732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e4f7a35ee0c295d38582db01936732">&#9670;&nbsp;</a></span>validateExercise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QVariantMap &gt; stringUtils::validateExercise </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>exerciseText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>inputText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; QPair&lt; QString, int &gt; &gt;&#160;</td>
+          <td class="paramname"><em>recordedCharacters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>totalHits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>mistakeCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QStringList *&#160;</td>
+          <td class="paramname"><em>errorWords</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>timed</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>timeSecs</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Validates a typing test. </p>
 
 </div>
 </div>

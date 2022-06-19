@@ -185,7 +185,7 @@
 <section title="~exerciseProgressDialog" ref="classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503"/>
 <section title="abortExercise" ref="classexerciseProgressDialog.html#a925145aa4959fa84a9745fc1a1861829"/>
 <section title="closeEvent" ref="classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc"/>
-<section title="loadResult" ref="classexerciseProgressDialog.html#a5b7c2c7608b196e96bade15401accbca"/>
+<section title="loadResult" ref="classexerciseProgressDialog.html#ab8623b4d8ac702d91418230254c1a1b2"/>
 <section title="printAll" ref="classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36"/>
 <section title="setupTable" ref="classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1"/>
 </section>
@@ -336,7 +336,7 @@
 <section title="loggedInStudentsChanged" ref="classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64"/>
 <section title="port" ref="classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3"/>
 <section title="readData" ref="classmonitorServer.html#a13e1d50080d4b1c98e9e1c30abf3ee40"/>
-<section title="resultUploaded" ref="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574"/>
+<section title="resultUploaded" ref="classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0"/>
 <section title="runningExerciseStudents" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
 <section title="sendResponse" ref="classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd"/>
 <section title="sendSignal" ref="classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d"/>
@@ -491,6 +491,7 @@
 <section title="~statsDialog" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955"/>
 </section>
 <section title="stringUtils" ref="classstringUtils.html">
+<section title="addMistakes" ref="classstringUtils.html#a86e5e900f2189199bee85843b83e98b5"/>
 <section title="compareLists" ref="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f"/>
 <section title="compareStrings" ref="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418"/>
 <section title="findMistakes" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
@@ -499,6 +500,7 @@
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a341fb091d92a8afbf2e6fcd52d85c132"/>
 <section title="longestCommonSubsequence" ref="classstringUtils.html#a71a472149dd1b3f6eeca6ae90a274a02"/>
 <section title="splitWordsByPunct" ref="classstringUtils.html#a19f0a6330da206c790741ccdc36b877d"/>
+<section title="validateExercise" ref="classstringUtils.html#a02e4f7a35ee0c295d38582db01936732"/>
 <section title="word" ref="classstringUtils.html#a4abcd8458b8b50e9d6679e6f03788dc6"/>
 <section title="wordAt" ref="classstringUtils.html#a0b9afdf922dcc4f6fbd6b331b7a65453"/>
 <section title="wordCount" ref="classstringUtils.html#a84f6e3df1c51c8b65fe60fbd031e01f2"/>
@@ -890,6 +892,7 @@
 <keyword name="addHistoryEntry(int classID, int userID, QString pack, int lesson, int sublesson, int exercise, QVariantMap record)" id="databaseManager::addHistoryEntry_a9177830c841b8fbc4c04f7149d8544f4" ref="classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4"/>
 <keyword name="addKey(QString keyLabelText=&quot;&quot;, int keyCode=-1, int keyMinimumWidth=50)" id="keyboardWidget::addKey_ae9916723d96608f946343743a23786e8" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8"/>
 <keyword name="addLesson(void)" id="packView::addLesson_aba664423357bcf4119ca03e23269145c" ref="classpackView.html#aba664423357bcf4119ca03e23269145c"/>
+<keyword name="addMistakes(QString exerciseText, QList&lt; QVariantMap &gt; recordedMistakes)" id="stringUtils::addMistakes_a86e5e900f2189199bee85843b83e98b5" ref="classstringUtils.html#a86e5e900f2189199bee85843b83e98b5"/>
 <keyword name="address(void)" id="monitorServer::address_ab01ad50bc566caddbb3cc01c5f0a9f6e" ref="classmonitorServer.html#ab01ad50bc566caddbb3cc01c5f0a9f6e"/>
 <keyword name="addStudent(void)" id="classControls::addStudent_a065ff24b5ec8c6e6f781df71d3ffe886" ref="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886"/>
 <keyword name="addStudentToClass(int userID, int classID)" id="databaseManager::addStudentToClass_ab9eb9f78112db2032729c898e3f1b745" ref="classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745"/>
@@ -1122,7 +1125,7 @@
 <keyword name="loadLesson(int lessonID, int sublessonID)" id="OpenTyper::loadLesson_a0613875b7b06d80e481d965bb998e6cb" ref="classOpenTyper.html#a0613875b7b06d80e481d965bb998e6cb"/>
 <keyword name="loadList(void)" id="initialSetup::loadList_af1cc37e2db742c6c00600237c0d43afd" ref="classinitialSetup.html#af1cc37e2db742c6c00600237c0d43afd"/>
 <keyword name="loadReceivedExercise(QByteArray text, int lineLength, bool includeNewLines, int mode, int time, bool correctMistakes, bool lockUi, bool hideText)" id="OpenTyper::loadReceivedExercise_aa5d35139c68a5ad1fbb6af7feb48dd2b" ref="classOpenTyper.html#aa5d35139c68a5ad1fbb6af7feb48dd2b"/>
-<keyword name="loadResult(int targetID, QList&lt; QVariantMap &gt; recordedMistakes, QString inputText, int grossHits, int netHits, double netHitsPerMinute, int mistakes, double time)" id="exerciseProgressDialog::loadResult_a5b7c2c7608b196e96bade15401accbca" ref="classexerciseProgressDialog.html#a5b7c2c7608b196e96bade15401accbca"/>
+<keyword name="loadResult(int targetID, QString inputText, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, qreal time)" id="exerciseProgressDialog::loadResult_ab8623b4d8ac702d91418230254c1a1b2" ref="classexerciseProgressDialog.html#ab8623b4d8ac702d91418230254c1a1b2"/>
 <keyword name="loadReversedText(void)" id="OpenTyper::loadReversedText_a68c5a8c9e8ac15e3394ba0646b03ee52" ref="classOpenTyper.html#a68c5a8c9e8ac15e3394ba0646b03ee52"/>
 <keyword name="loadSublesson(int levelID)" id="OpenTyper::loadSublesson_a10b58d5e1faa441b74b88b2a77658dcf" ref="classOpenTyper.html#a10b58d5e1faa441b74b88b2a77658dcf"/>
 <keyword name="loadText(QByteArray text, bool includeNewLines=false, bool updateClient=true)" id="OpenTyper::loadText_aa8aeadae97d11952d976474cdfe5d6e4" ref="classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4"/>
@@ -1225,7 +1228,7 @@
 <keyword name="resetTextColors(void)" id="customizationOptions::resetTextColors_a30e20bd3918caa26fa969223630dda05" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05"/>
 <keyword name="responseReady()" id="monitorClient::responseReady_a6940f786c749647238b2231694fd85e8" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8"/>
 <keyword name="restoreText(void)" id="packView::restoreText_aa75a453ca470d60c9a3fd68281645d65" ref="classpackView.html#aa75a453ca470d60c9a3fd68281645d65"/>
-<keyword name="resultUploaded(int, QList&lt; QVariantMap &gt;, QString, int, int, double, int, double)" id="monitorServer::resultUploaded_abd9bba73626128a03fe51039f69a3574" ref="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574"/>
+<keyword name="resultUploaded(int, QString, QVector&lt; QPair&lt; QString, int &gt; &gt;, qreal)" id="monitorServer::resultUploaded_ada1c76b1351fda6f7c38e35fa7a14db0" ref="classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0"/>
 <keyword name="roles(bool includeStudentRole=true)" id="databaseManager::roles_a5da00577367c077613a4d26b06efbca9" ref="classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9"/>
 <keyword name="runningExerciseStudents(void)" id="monitorServer::runningExerciseStudents_aa5076c67c73a65aa1ca3fad55ccbf3a5" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
 <keyword name="save(void)" id="packView::save_a50bd40060900e60d3d7229b5b9b1ba00" ref="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00"/>
@@ -1360,6 +1363,7 @@
 <keyword name="userNames(void)" id="databaseManager::userNames_ac9a52aaed6fc6c0b0dd0e5beeae15cf1" ref="classdatabaseManager.html#ac9a52aaed6fc6c0b0dd0e5beeae15cf1"/>
 <keyword name="userNickname(int userID)" id="databaseManager::userNickname_a783f56c33f49697ca0fc23c5cc3cb3c3" ref="classdatabaseManager.html#a783f56c33f49697ca0fc23c5cc3cb3c3"/>
 <keyword name="userRole(int userID)" id="databaseManager::userRole_a1ad2124ff8f5337388c145b0e83c2deb" ref="classdatabaseManager.html#a1ad2124ff8f5337388c145b0e83c2deb"/>
+<keyword name="validateExercise(QString exerciseText, QString inputText, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits, int *mistakeCount, QStringList *errorWords=nullptr, bool timed=false, int timeSecs=0)" id="stringUtils::validateExercise_a02e4f7a35ee0c295d38582db01936732" ref="classstringUtils.html#a02e4f7a35ee0c295d38582db01936732"/>
 <keyword name="verify(void)" id="classEdit::verify_a32507fbb569e4568c13758c0d6e8955e" ref="classclassEdit.html#a32507fbb569e4568c13758c0d6e8955e"/>
 <keyword name="verify(void)" id="deviceEdit::verify_a819cb48122590897fffda46eaccd9e51" ref="classdeviceEdit.html#a819cb48122590897fffda46eaccd9e51"/>
 <keyword name="verify(void)" id="loadExerciseDialog::verify_a33272b7a272a0aa6005cbc4c5826643f" ref="classloadExerciseDialog.html#a33272b7a272a0aa6005cbc4c5826643f"/>

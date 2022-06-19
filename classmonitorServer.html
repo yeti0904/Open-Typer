@@ -122,8 +122,8 @@ Collaboration diagram for monitorServer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:abd9bba73626128a03fe51039f69a3574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#abd9bba73626128a03fe51039f69a3574">resultUploaded</a> (int, QList&lt; QVariantMap &gt;, QString, int, int, double, int, double)</td></tr>
-<tr class="separator:abd9bba73626128a03fe51039f69a3574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada1c76b1351fda6f7c38e35fa7a14db0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0">resultUploaded</a> (int, QString, QVector&lt; QPair&lt; QString, int &gt; &gt;, qreal)</td></tr>
+<tr class="separator:ada1c76b1351fda6f7c38e35fa7a14db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca74e604c7b6b5f0fa31847819ce0f42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#aca74e604c7b6b5f0fa31847819ce0f42">exerciseAborted</a> (int)</td></tr>
 <tr class="separator:aca74e604c7b6b5f0fa31847819ce0f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca22cd4d9a99b5be427b46ca86244b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64">loggedInStudentsChanged</a> ()</td></tr>
@@ -197,9 +197,9 @@ QList&lt; QWebSocket * &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:ab1b554c6bffe7d2ac970b06e4fb4c81d"><td class="memItemLeft" align="right" valign="top"><a id="ab1b554c6bffe7d2ac970b06e4fb4c81d" name="ab1b554c6bffe7d2ac970b06e4fb4c81d"></a>
 QList&lt; QWebSocket * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>exerciseSockets</b></td></tr>
 <tr class="separator:ab1b554c6bffe7d2ac970b06e4fb4c81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b54a7693fa8e4ef734e2523820c8bd9"><td class="memItemLeft" align="right" valign="top"><a id="a7b54a7693fa8e4ef734e2523820c8bd9" name="a7b54a7693fa8e4ef734e2523820c8bd9"></a>
-QMap&lt; QWebSocket *, QList&lt; QVariantMap &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>recordedMistakes</b></td></tr>
-<tr class="separator:a7b54a7693fa8e4ef734e2523820c8bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d49eb0fd8e747d542beffe9dc650117"><td class="memItemLeft" align="right" valign="top"><a id="a3d49eb0fd8e747d542beffe9dc650117" name="a3d49eb0fd8e747d542beffe9dc650117"></a>
+QMap&lt; QWebSocket *, QVector&lt; QPair&lt; QString, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>recordedCharacters</b></td></tr>
+<tr class="separator:a3d49eb0fd8e747d542beffe9dc650117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7768491f6e3d4e12c79c2de3152bd097"><td class="memItemLeft" align="right" valign="top"><a id="a7768491f6e3d4e12c79c2de3152bd097" name="a7768491f6e3d4e12c79c2de3152bd097"></a>
 QSettings&#160;</td><td class="memItemRight" valign="bottom"><b>settings</b></td></tr>
 <tr class="separator:a7768491f6e3d4e12c79c2de3152bd097"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -637,8 +637,8 @@ QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 
 </div>
 </div>
-<a id="abd9bba73626128a03fe51039f69a3574" name="abd9bba73626128a03fe51039f69a3574"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9bba73626128a03fe51039f69a3574">&#9670;&nbsp;</a></span>resultUploaded</h2>
+<a id="ada1c76b1351fda6f7c38e35fa7a14db0" name="ada1c76b1351fda6f7c38e35fa7a14db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada1c76b1351fda6f7c38e35fa7a14db0">&#9670;&nbsp;</a></span>resultUploaded</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,43 +655,19 @@ QMap&lt; int, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QList&lt; QVariantMap &gt;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">QString&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">QVector&lt; QPair&lt; QString, int &gt; &gt;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
+          <td class="paramtype">qreal&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

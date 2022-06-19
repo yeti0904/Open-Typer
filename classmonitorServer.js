@@ -16,7 +16,7 @@ var classmonitorServer =
     [ "loggedInStudentsChanged", "classmonitorServer.html#aca22cd4d9a99b5be427b46ca86244b64", null ],
     [ "port", "classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3", null ],
     [ "readData", "classmonitorServer.html#a13e1d50080d4b1c98e9e1c30abf3ee40", null ],
-    [ "resultUploaded", "classmonitorServer.html#abd9bba73626128a03fe51039f69a3574", null ],
+    [ "resultUploaded", "classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0", null ],
     [ "runningExerciseStudents", "classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5", null ],
     [ "sendResponse", "classmonitorServer.html#a6421baec5fff404b792ed3f46d8b8bfd", null ],
     [ "sendSignal", "classmonitorServer.html#a7747bbb6b4a5f98c40ef740c96fc7b5d", null ],

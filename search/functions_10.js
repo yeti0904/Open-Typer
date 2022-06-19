@@ -33,7 +33,7 @@ var searchData=
   ['resettextcolors_30',['resetTextColors',['../classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05',1,'customizationOptions']]],
   ['responseready_31',['responseReady',['../classmonitorClient.html#a6940f786c749647238b2231694fd85e8',1,'monitorClient']]],
   ['restoretext_32',['restoreText',['../classpackView.html#aa75a453ca470d60c9a3fd68281645d65',1,'packView']]],
-  ['resultuploaded_33',['resultUploaded',['../classmonitorServer.html#abd9bba73626128a03fe51039f69a3574',1,'monitorServer']]],
+  ['resultuploaded_33',['resultUploaded',['../classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0',1,'monitorServer']]],
   ['roles_34',['roles',['../classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9',1,'databaseManager']]],
   ['runningexercisestudents_35',['runningExerciseStudents',['../classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5',1,'monitorServer']]]
 ];
