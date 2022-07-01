@@ -1422,12 +1422,15 @@
 <files>
 <file>OpenTyper.png</file>
 <file>UpdaterDialog.png</file>
+<file>adminSelector.png</file>
 <file>adminselector_8h_source.html</file>
 <file>annotated.html</file>
 <file>bc_s.png</file>
 <file>bdwn.png</file>
 <file>behaviorOptions.png</file>
 <file>behavior_8h_source.html</file>
+<file>classControls.png</file>
+<file>classEdit.png</file>
 <file>classOpenTyper-members.html</file>
 <file>classOpenTyper.html</file>
 <file>classOpenTyper__coll__graph.png</file>
@@ -1617,6 +1620,7 @@
 <file>customizationOptions2.png</file>
 <file>customization_8h_source.html</file>
 <file>database_8h_source.html</file>
+<file>deviceEdit.png</file>
 <file>deviceedit_8h_source.html</file>
 <file>dir_019c5358adfa715589e533642d8d4095.html</file>
 <file>dir_019c5358adfa715589e533642d8d4095_dep.png</file>
@@ -1657,7 +1661,9 @@
 <file>doxygen.css</file>
 <file>doxygen.svg</file>
 <file>dynsections.js</file>
+<file>exerciseProgressDialog.png</file>
 <file>exerciseprogressdialog_8h_source.html</file>
+<file>exportDialog.png</file>
 <file>exportdialog_8h_source.html</file>
 <file>files.html</file>
 <file>folderclosed.png</file>
@@ -1741,6 +1747,7 @@
 <file>languagelist_8h_source.html</file>
 <file>levelSummary.png</file>
 <file>levelsummary_8h_source.html</file>
+<file>loadExerciseDialog.png</file>
 <file>loadexercisedialog_8h_source.html</file>
 <file>main_window_light.png</file>
 <file>main_window_system_dark.png</file>
@@ -1773,12 +1780,16 @@
 <file>search/search_l.png</file>
 <file>search/search_m.png</file>
 <file>search/search_r.png</file>
+<file>serverManager.png</file>
+<file>serverSetup.png</file>
 <file>server_8h_source.html</file>
 <file>servermanager_8h_source.html</file>
 <file>serversetup_8h_source.html</file>
 <file>splitbar.png</file>
 <file>statsDialog.png</file>
 <file>statsdialog_8h_source.html</file>
+<file>studentDetails.png</file>
+<file>studentEdit.png</file>
 <file>studentOptions.png</file>
 <file>studentdetails_8h_source.html</file>
 <file>studentedit_8h_source.html</file>
@@ -1790,6 +1801,7 @@
 <file>tab_h.png</file>
 <file>tab_s.png</file>
 <file>tabs.css</file>
+<file>testWaitDialog.png</file>
 <file>testwaitdialog_8h_source.html</file>
 <file>textview_8h_source.html</file>
 <file>theme_8h_source.html</file>
@@ -1797,6 +1809,8 @@
 <file>timedialog_8h_source.html</file>
 <file>updater_8h_source.html</file>
 <file>updaterdialog_8h_source.html</file>
+<file>userEdit.png</file>
+<file>userManager.png</file>
 <file>useredit_8h_source.html</file>
 <file>usermanager_8h_source.html</file>
 <file>utils_8h_source.html</file>
