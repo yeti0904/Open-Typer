@@ -1,6 +1,6 @@
 var classstringUtils =
 [
-    [ "addMistakes", "classstringUtils.html#a86e5e900f2189199bee85843b83e98b5", null ],
+    [ "addMistakes", "classstringUtils.html#ad080a50081fa182e3892dfb6818bb531", null ],
     [ "compareLists", "classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f", null ],
     [ "compareStrings", "classstringUtils.html#a371e6b1e856605071f15eee3d27ae418", null ],
     [ "findMistakes", "classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662", null ],

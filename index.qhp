@@ -491,7 +491,7 @@
 <section title="~statsDialog" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955"/>
 </section>
 <section title="stringUtils" ref="classstringUtils.html">
-<section title="addMistakes" ref="classstringUtils.html#a86e5e900f2189199bee85843b83e98b5"/>
+<section title="addMistakes" ref="classstringUtils.html#ad080a50081fa182e3892dfb6818bb531"/>
 <section title="compareLists" ref="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f"/>
 <section title="compareStrings" ref="classstringUtils.html#a371e6b1e856605071f15eee3d27ae418"/>
 <section title="findMistakes" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
@@ -892,7 +892,7 @@
 <keyword name="addHistoryEntry(int classID, int userID, QString pack, int lesson, int sublesson, int exercise, QVariantMap record)" id="databaseManager::addHistoryEntry_a9177830c841b8fbc4c04f7149d8544f4" ref="classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4"/>
 <keyword name="addKey(QString keyLabelText=&quot;&quot;, int keyCode=-1, int keyMinimumWidth=50)" id="keyboardWidget::addKey_ae9916723d96608f946343743a23786e8" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8"/>
 <keyword name="addLesson(void)" id="packView::addLesson_aba664423357bcf4119ca03e23269145c" ref="classpackView.html#aba664423357bcf4119ca03e23269145c"/>
-<keyword name="addMistakes(QString exerciseText, QList&lt; QVariantMap &gt; recordedMistakes)" id="stringUtils::addMistakes_a86e5e900f2189199bee85843b83e98b5" ref="classstringUtils.html#a86e5e900f2189199bee85843b83e98b5"/>
+<keyword name="addMistakes(QString exerciseText, QList&lt; QVariantMap &gt; *recordedMistakes)" id="stringUtils::addMistakes_ad080a50081fa182e3892dfb6818bb531" ref="classstringUtils.html#ad080a50081fa182e3892dfb6818bb531"/>
 <keyword name="address(void)" id="monitorServer::address_ab01ad50bc566caddbb3cc01c5f0a9f6e" ref="classmonitorServer.html#ab01ad50bc566caddbb3cc01c5f0a9f6e"/>
 <keyword name="addStudent(void)" id="classControls::addStudent_a065ff24b5ec8c6e6f781df71d3ffe886" ref="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886"/>
 <keyword name="addStudentToClass(int userID, int classID)" id="databaseManager::addStudentToClass_ab9eb9f78112db2032729c898e3f1b745" ref="classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745"/>

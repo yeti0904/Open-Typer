@@ -8,7 +8,7 @@ var searchData=
   ['addhistoryentry_5',['addHistoryEntry',['../classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1',1,'historyParser::addHistoryEntry()'],['../classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4',1,'databaseManager::addHistoryEntry()']]],
   ['addkey_6',['addKey',['../classkeyboardWidget.html#ae9916723d96608f946343743a23786e8',1,'keyboardWidget']]],
   ['addlesson_7',['addLesson',['../classpackView.html#aba664423357bcf4119ca03e23269145c',1,'packView']]],
-  ['addmistakes_8',['addMistakes',['../classstringUtils.html#a86e5e900f2189199bee85843b83e98b5',1,'stringUtils']]],
+  ['addmistakes_8',['addMistakes',['../classstringUtils.html#ad080a50081fa182e3892dfb6818bb531',1,'stringUtils']]],
   ['address_9',['address',['../classmonitorServer.html#ab01ad50bc566caddbb3cc01c5f0a9f6e',1,'monitorServer']]],
   ['addstudent_10',['addStudent',['../classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886',1,'classControls']]],
   ['addstudenttoclass_11',['addStudentToClass',['../classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745',1,'databaseManager']]],
