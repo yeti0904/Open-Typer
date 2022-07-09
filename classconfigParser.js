@@ -4,6 +4,7 @@ var classconfigParser =
     [ "addExercise", "classconfigParser.html#aed55ed862ae8be82b42385f42193ea65", null ],
     [ "bufferOpened", "classconfigParser.html#a971d28c032dfebe6b72d04551bb32e0b", null ],
     [ "close", "classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1", null ],
+    [ "data", "classconfigParser.html#afda5207c192f1a1f570ed12b8a0b710a", null ],
     [ "exerciseAttribute", "classconfigParser.html#a18d87f4b2ddd523ac4476fc510b211f8", null ],
     [ "exerciseAttributes", "classconfigParser.html#ade7ea5a576b8de1db3cd7dd0fa4456d6", null ],
     [ "exerciseCount", "classconfigParser.html#a2e435706e8bee559515f25074fbcd7a2", null ],

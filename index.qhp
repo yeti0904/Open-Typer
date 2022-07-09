@@ -55,6 +55,7 @@
 <section title="addExercise" ref="classconfigParser.html#aed55ed862ae8be82b42385f42193ea65"/>
 <section title="bufferOpened" ref="classconfigParser.html#a971d28c032dfebe6b72d04551bb32e0b"/>
 <section title="close" ref="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1"/>
+<section title="data" ref="classconfigParser.html#afda5207c192f1a1f570ed12b8a0b710a"/>
 <section title="exerciseAttribute" ref="classconfigParser.html#a18d87f4b2ddd523ac4476fc510b211f8"/>
 <section title="exerciseAttributes" ref="classconfigParser.html#ade7ea5a576b8de1db3cd7dd0fa4456d6"/>
 <section title="exerciseCount" ref="classconfigParser.html#a2e435706e8bee559515f25074fbcd7a2"/>
@@ -982,6 +983,7 @@
 <keyword name="customizationOptions(QWidget *parent=nullptr)" id="customizationOptions::customizationOptions_a6e49823810c19835385fd388442d362c" ref="classcustomizationOptions.html#a6e49823810c19835385fd388442d362c"/>
 <keyword name="customPanelColor(void)" id="themeEngine::customPanelColor_ac7d97a1b71c244aebab97e5cd07c2da0" ref="classthemeEngine.html#ac7d97a1b71c244aebab97e5cd07c2da0"/>
 <keyword name="customPaperColor(void)" id="themeEngine::customPaperColor_aa49d8e88f212cf48316c472b38e61ccb" ref="classthemeEngine.html#aa49d8e88f212cf48316c472b38e61ccb"/>
+<keyword name="data(void)" id="configParser::data_afda5207c192f1a1f570ed12b8a0b710a" ref="classconfigParser.html#afda5207c192f1a1f570ed12b8a0b710a"/>
 <keyword name="databaseManager(QObject *parent=nullptr)" id="databaseManager::databaseManager_ab2a237fa3c5ae6f0128eec6c56e21df5" ref="classdatabaseManager.html#ab2a237fa3c5ae6f0128eec6c56e21df5"/>
 <keyword name="dehighlightKey(int keyCode)" id="keyboardWidget::dehighlightKey_a44d51675c40746936c3592216abd4dfc" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc"/>
 <keyword name="deleteExerciseLine(int lesson, int sublesson, int level)" id="packView::deleteExerciseLine_aa1f2628214689e5c5a8e3bd36a63eae0" ref="classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0"/>

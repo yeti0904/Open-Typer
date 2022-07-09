@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a82b6a29bf6a95792e94137d3925f5021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a023259e58ccdb3e3afae72d1e1b287d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfigParser.html#a023259e58ccdb3e3afae72d1e1b287d3">loadToBuffer</a> (const QByteArray content)</td></tr>
 <tr class="separator:a023259e58ccdb3e3afae72d1e1b287d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda5207c192f1a1f570ed12b8a0b710a"><td class="memItemLeft" align="right" valign="top">QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfigParser.html#afda5207c192f1a1f570ed12b8a0b710a">data</a> (void)</td></tr>
+<tr class="separator:afda5207c192f1a1f570ed12b8a0b710a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a971d28c032dfebe6b72d04551bb32e0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfigParser.html#a971d28c032dfebe6b72d04551bb32e0b">bufferOpened</a> (void)</td></tr>
 <tr class="separator:a971d28c032dfebe6b72d04551bb32e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3450f912f556b8361d57ba61cd7de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1">close</a> (void)</td></tr>
@@ -231,10 +233,10 @@ QIODevice *&#160;</td><td class="memItemRight" valign="bottom"><b>currentDevice<
 <div class="line">printf(<span class="stringliteral">&quot;There are %d lessons in the opened pack.\n&quot;</span>,parser.<a class="code hl_function" href="classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4">lessonCount</a>());</div>
 <div class="ttc" id="aclassconfigParser_html"><div class="ttname"><a href="classconfigParser.html">configParser</a></div><div class="ttdoc">The configParser class provides functions for the pack file format.</div><div class="ttdef"><b>Definition:</b> configfile.h:56</div></div>
 <div class="ttc" id="aclassconfigParser_html_a82b6a29bf6a95792e94137d3925f5021"><div class="ttname"><a href="classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021">configParser::open</a></div><div class="ttdeci">bool open(const QString fileName)</div><div class="ttdef"><b>Definition:</b> configfile.cpp:39</div></div>
-<div class="ttc" id="aclassconfigParser_html_a8ddc2e8a7c5871f7233014e4e33c2fe4"><div class="ttname"><a href="classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4">configParser::lessonCount</a></div><div class="ttdeci">int lessonCount(void)</div><div class="ttdef"><b>Definition:</b> configfile.cpp:104</div></div>
+<div class="ttc" id="aclassconfigParser_html_a8ddc2e8a7c5871f7233014e4e33c2fe4"><div class="ttname"><a href="classconfigParser.html#a8ddc2e8a7c5871f7233014e4e33c2fe4">configParser::lessonCount</a></div><div class="ttdeci">int lessonCount(void)</div><div class="ttdef"><b>Definition:</b> configfile.cpp:110</div></div>
 </div><!-- fragment --><p >Closing the file isn't required most of the time, but there might be some special situations, in which you'll have to close the file.<br  />
 For example if you need to open the file again before destroying the <a class="el" href="classconfigParser.html" title="The configParser class provides functions for the pack file format.">configParser</a> object. </p><div class="fragment"><div class="line">parser.<a class="code hl_function" href="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1">close</a>();</div>
-<div class="ttc" id="aclassconfigParser_html_a5e3450f912f556b8361d57ba61cd7de1"><div class="ttname"><a href="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1">configParser::close</a></div><div class="ttdeci">void close(void)</div><div class="ttdef"><b>Definition:</b> configfile.cpp:89</div></div>
+<div class="ttc" id="aclassconfigParser_html_a5e3450f912f556b8361d57ba61cd7de1"><div class="ttname"><a href="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1">configParser::close</a></div><div class="ttdeci">void close(void)</div><div class="ttdef"><b>Definition:</b> configfile.cpp:95</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7fca8c252df17f7dbdce4e6f7c61ae62" name="a7fca8c252df17f7dbdce4e6f7c61ae62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fca8c252df17f7dbdce4e6f7c61ae62">&#9670;&nbsp;</a></span>configParser()</h2>
@@ -384,6 +386,25 @@ For example if you need to open the file again before destroying the <a class="e
       </table>
 </div><div class="memdoc">
 <p >Closes the opened pack file or buffer. </p>
+
+</div>
+</div>
+<a id="afda5207c192f1a1f570ed12b8a0b710a" name="afda5207c192f1a1f570ed12b8a0b710a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda5207c192f1a1f570ed12b8a0b710a">&#9670;&nbsp;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray configParser::data </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Returns current data in the opened file or buffer. </p>
 
 </div>
 </div>
