@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['save_0',['save',['../classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00',1,'packView::save()'],['../classserverSetup.html#a26fe34b68fcc1e047d9cdf619660bc35',1,'serverSetup::save()']]],
-  ['saveas_1',['saveAs',['../classpackView.html#ac2bebdcab08ff9693863e0525da61be8',1,'packView']]],
+  ['save_0',['save',['../classpackEditor.html#a87d5fca6ffd4e020cc6ceaf27bc6bfcf',1,'packEditor::save()'],['../classserverSetup.html#a26fe34b68fcc1e047d9cdf619660bc35',1,'serverSetup::save()']]],
+  ['saveas_1',['saveAs',['../classpackEditor.html#ad83575f97e6f5d2257641fc60071a0e2',1,'packEditor']]],
   ['selectcurrentfulltheme_2',['selectCurrentFullTheme',['../classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09',1,'customizationOptions']]],
   ['selectedconfig_3',['selectedConfig',['../classpackSelector.html#a5ff2264ada61381338ba429d1e36d008',1,'packSelector']]],
   ['selectedtargets_4',['selectedTargets',['../classloadExerciseDialog.html#a5da17875b26972055f8c239657e43337',1,'loadExerciseDialog']]],
@@ -44,7 +44,7 @@ var searchData=
   ['setnumber_41',['setNumber',['../classexportDialog.html#a42c0db8c73496852438a4b33ae113590',1,'exportDialog']]],
   ['setpanelcolor_42',['setPanelColor',['../classthemeEngine.html#af30300b5e03cdedfee9211e9812da40b',1,'themeEngine']]],
   ['setpapercolor_43',['setPaperColor',['../classthemeEngine.html#a4a4d724a39f61d6cdfce18f3aa1d541f',1,'themeEngine']]],
-  ['setrevisionlesson_44',['setRevisionLesson',['../classpackView.html#afb615797a5031658513124a814a1d51a',1,'packView']]],
+  ['setrevisionlesson_44',['setRevisionLesson',['../classpackEditor.html#a5e9e61844a29614429c88e89e5eb8df1',1,'packEditor']]],
   ['setspacenewline_45',['setSpaceNewline',['../classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5',1,'behaviorOptions']]],
   ['setstudentname_46',['setStudentName',['../classexportDialog.html#a9c238f823220804edd356b083c20bac0',1,'exportDialog']]],
   ['setstyle_47',['setStyle',['../classthemeEngine.html#a2a4815e45708d8ceac2aeaf8daf50d5f',1,'themeEngine']]],
@@ -85,8 +85,8 @@ var searchData=
   ['sublessonname_82',['sublessonName',['../classconfigParser.html#a2922133b71c6050af206853e6c64586d',1,'configParser']]],
   ['sublessonselectionlistindexchanged_83',['sublessonSelectionListIndexChanged',['../classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922',1,'OpenTyper']]],
   ['sublessontr_84',['sublessonTr',['../classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317',1,'configParser']]],
-  ['switchexercise_85',['switchExercise',['../classpackView.html#a8732f57a4ba307c14913aef98e524a3d',1,'packView']]],
-  ['switchlesson_86',['switchLesson',['../classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8',1,'packView']]],
+  ['switchexercise_85',['switchExercise',['../classpackEditor.html#a470e24b1222a50152280ce457e0258a0',1,'packEditor']]],
+  ['switchlesson_86',['switchLesson',['../classpackEditor.html#aea2b9c43e13e00ceac23d59157d8b4d5',1,'packEditor']]],
   ['switchmode_87',['switchMode',['../classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631',1,'studentEdit']]],
-  ['switchsublesson_88',['switchSublesson',['../classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7',1,'packView']]]
+  ['switchsublesson_88',['switchSublesson',['../classpackEditor.html#aacaa8155bbc0efe4aa3802d265d2f8d2',1,'packEditor']]]
 ];

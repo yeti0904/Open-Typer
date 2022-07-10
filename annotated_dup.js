@@ -29,7 +29,6 @@ var annotated_dup =
     [ "optionsWindow", "classoptionsWindow.html", "classoptionsWindow" ],
     [ "packEditor", "classpackEditor.html", "classpackEditor" ],
     [ "packSelector", "classpackSelector.html", "classpackSelector" ],
-    [ "packView", "classpackView.html", "classpackView" ],
     [ "paperConfigDialog", "classpaperConfigDialog.html", "classpaperConfigDialog" ],
     [ "serverManager", "classserverManager.html", "classserverManager" ],
     [ "serverSetup", "classserverSetup.html", "classserverSetup" ],

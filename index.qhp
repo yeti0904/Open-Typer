@@ -370,7 +370,7 @@
 <section title="loadText" ref="classOpenTyper.html#aa8aeadae97d11952d976474cdfe5d6e4"/>
 <section title="loadTheme" ref="classOpenTyper.html#afb70baf5a2bd497921c2feb268a208a8"/>
 <section title="nextLevel" ref="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d"/>
-<section title="openEditor" ref="classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505"/>
+<section title="openEditor" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1"/>
 <section title="openExerciseFromFile" ref="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9"/>
 <section title="openOptions" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e"/>
 <section title="openPack" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d"/>
@@ -405,55 +405,39 @@
 </section>
 <section title="packEditor" ref="classpackEditor.html">
 <section title="packEditor" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9"/>
-<section title="packEditor" ref="classpackEditor.html#afa246fb20b7488eac01dfdee1a50896f"/>
 <section title="~packEditor" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>
-<section title="allTabsClosed" ref="classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8"/>
-<section title="closeAll" ref="classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df"/>
-<section title="closeEvent" ref="classpackEditor.html#aa403472b118aef534f8093106316ce05"/>
-<section title="closeTab" ref="classpackEditor.html#a8029fd89ffc29702456698439e7a1d39"/>
+<section title="addExercise" ref="classpackEditor.html#a32b6fd337809fe61b28239c93f598744"/>
+<section title="addLesson" ref="classpackEditor.html#a85412a6b68b9a80d02a04dc8bd7f39c0"/>
+<section title="addSublesson" ref="classpackEditor.html#ae1351fa371f587bfcfadfb7135855df2"/>
+<section title="changeExercisePos" ref="classpackEditor.html#ac9b2f7091500d7d2c7686f8c8658fcf6"/>
+<section title="changeLessonDesc" ref="classpackEditor.html#a5372309b65244cfd36a8bf5743421182"/>
+<section title="changeLineLength" ref="classpackEditor.html#a671c1840eba52036e3b64fe0d8502a3d"/>
+<section title="changeRepeating" ref="classpackEditor.html#a39c6283f77179a51a3cfcc86da3c8b51"/>
+<section title="changeRepeatLength" ref="classpackEditor.html#ad666669f8e057a72e19a075b7ceda78c"/>
+<section title="closeEvent" ref="classpackEditor.html#af30216b599aa5ec90993f9e08e2fafac"/>
+<section title="closeFile" ref="classpackEditor.html#acaf649456d70e450ce3aadfd8d667afc"/>
 <section title="createNewFile" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30"/>
-<section title="fixDuplicates" ref="classpackEditor.html#adc05a78ba2be2683492db4f0842842be"/>
-<section title="init" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953"/>
-<section title="keyPressEvent" ref="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b"/>
-<section title="openFile" ref="classpackEditor.html#a54e45b6cc435c2683ec8a0e7a3d133ce"/>
+<section title="deleteExerciseLine" ref="classpackEditor.html#a3be8ec1881b2fc7a9fe2d7592e669ee4"/>
+<section title="getFileName" ref="classpackEditor.html#ad864b4ebba921a650e04bcff2508c134"/>
+<section title="openFile" ref="classpackEditor.html#a8708e9e142943c757cf4ddf183deceeb"/>
 <section title="openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2"/>
 <section title="openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91"/>
-<section title="tabChanged" ref="classpackEditor.html#a21cb0d01d5588aff614bf4d7e89e8c11"/>
+<section title="refreshUi" ref="classpackEditor.html#a8e5175b060d2e21864a8fe4981553f96"/>
+<section title="removeExercise" ref="classpackEditor.html#a9b46b7e741069d410d21da5339b05004"/>
+<section title="restoreText" ref="classpackEditor.html#a07fabc1e7ee7b552778ac9b8c23ca58f"/>
+<section title="save" ref="classpackEditor.html#a87d5fca6ffd4e020cc6ceaf27bc6bfcf"/>
+<section title="saveAs" ref="classpackEditor.html#ad83575f97e6f5d2257641fc60071a0e2"/>
+<section title="setRevisionLesson" ref="classpackEditor.html#a5e9e61844a29614429c88e89e5eb8df1"/>
+<section title="switchExercise" ref="classpackEditor.html#a470e24b1222a50152280ce457e0258a0"/>
+<section title="switchLesson" ref="classpackEditor.html#aea2b9c43e13e00ceac23d59157d8b4d5"/>
+<section title="switchSublesson" ref="classpackEditor.html#aacaa8155bbc0efe4aa3802d265d2f8d2"/>
+<section title="updateText" ref="classpackEditor.html#a7ce12e44a56e7ec9f83a0f14a2a909a2"/>
+<section title="updateTitle" ref="classpackEditor.html#aed8aad82193f26e12c2caa804a03289a"/>
 </section>
 <section title="packSelector" ref="classpackSelector.html">
 <section title="packSelector" ref="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d"/>
 <section title="~packSelector" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b"/>
 <section title="selectedConfig" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008"/>
-</section>
-<section title="packView" ref="classpackView.html">
-<section title="packView" ref="classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c"/>
-<section title="~packView" ref="classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898"/>
-<section title="addExercise" ref="classpackView.html#ab4fe3c8c23f5a0e0a99b94933dd6c37c"/>
-<section title="addLesson" ref="classpackView.html#aba664423357bcf4119ca03e23269145c"/>
-<section title="addSublesson" ref="classpackView.html#af80c1cef07727e552344f54ce4033b65"/>
-<section title="changeExercisePos" ref="classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b"/>
-<section title="changeLessonDesc" ref="classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a"/>
-<section title="changeLineLength" ref="classpackView.html#a2afc56c1ff61a63026c5926098ccdc6a"/>
-<section title="changeRepeating" ref="classpackView.html#aa27ec7d9ffe06948c110d13cbbc76da0"/>
-<section title="changeRepeatLength" ref="classpackView.html#ac18df3d9e3edaa386dcf8146a73cfea2"/>
-<section title="closed" ref="classpackView.html#a3e08ee64fe7e469750c907d30c17b190"/>
-<section title="closeFile" ref="classpackView.html#a0d7279567c49cfa13efb450657875255"/>
-<section title="deleteExerciseLine" ref="classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0"/>
-<section title="fileNameChanged" ref="classpackView.html#a4d122cd876c83da4e9896f6449ae1993"/>
-<section title="getFileName" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585"/>
-<section title="notClosed" ref="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94"/>
-<section title="openFile" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e"/>
-<section title="refreshUi" ref="classpackView.html#acc9cd8c1c5399955dcf8e7c542fb66c8"/>
-<section title="removeExercise" ref="classpackView.html#adcd3860837b5b61136d888c13bc85a05"/>
-<section title="restoreText" ref="classpackView.html#aa75a453ca470d60c9a3fd68281645d65"/>
-<section title="save" ref="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00"/>
-<section title="saveAs" ref="classpackView.html#ac2bebdcab08ff9693863e0525da61be8"/>
-<section title="setRevisionLesson" ref="classpackView.html#afb615797a5031658513124a814a1d51a"/>
-<section title="switchExercise" ref="classpackView.html#a8732f57a4ba307c14913aef98e524a3d"/>
-<section title="switchLesson" ref="classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8"/>
-<section title="switchSublesson" ref="classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7"/>
-<section title="updateTabTitle" ref="classpackView.html#a76c645567362eceb83e439965a07b3db"/>
-<section title="updateText" ref="classpackView.html#ab34651a29dd449dea66fa3128ea7b507"/>
 </section>
 <section title="paperConfigDialog" ref="classpaperConfigDialog.html">
 <section title="paperConfigDialog" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b"/>
@@ -706,7 +690,6 @@
 <section title="connectionOptions" ref="classconnectionOptions.html"/>
 <section title="customizationOptions" ref="classcustomizationOptions.html"/>
 <section title="keyboardOptions" ref="classkeyboardOptions.html"/>
-<section title="packView" ref="classpackView.html"/>
 <section title="serverManager" ref="classserverManager.html"/>
 <section title="studentDetails" ref="classstudentDetails.html"/>
 </section>
@@ -793,7 +776,6 @@
 <section title="packEditor" ref="dir_d684c3475f66f131a133112539f1805c.html">
 <section title="packeditor.h" ref="packeditor_8h_source.html"/>
 <section title="packselector.h" ref="packselector_8h_source.html"/>
-<section title="packview.h" ref="packview_8h_source.html"/>
 </section>
 <section title="server" ref="dir_e67d2c14d5bb9b8c1bb630f5815362af.html">
 <section title="widgets" ref="dir_019c5358adfa715589e533642d8d4095.html">
@@ -865,7 +847,6 @@
 <keyword name="optionsWindow" id="optionsWindow_" ref="classoptionsWindow.html"/>
 <keyword name="packEditor" id="packEditor_" ref="classpackEditor.html"/>
 <keyword name="packSelector" id="packSelector_" ref="classpackSelector.html"/>
-<keyword name="packView" id="packView_" ref="classpackView.html"/>
 <keyword name="paperConfigDialog" id="paperConfigDialog_" ref="classpaperConfigDialog.html"/>
 <keyword name="serverManager" id="serverManager_" ref="classserverManager.html"/>
 <keyword name="serverSetup" id="serverSetup_" ref="classserverSetup.html"/>
@@ -890,23 +871,22 @@
 <keyword name="addDevice(QString name, QHostAddress address)" id="databaseManager::addDevice_a917a42028c6c7446a6c83d621af4fbf5" ref="classdatabaseManager.html#a917a42028c6c7446a6c83d621af4fbf5"/>
 <keyword name="addDevice(void)" id="serverManager::addDevice_abf64d27212e5eb813f78c2ca6ea4a359" ref="classserverManager.html#abf64d27212e5eb813f78c2ca6ea4a359"/>
 <keyword name="addExercise(int lesson, int sublesson, int exercise, bool repeat, QString repeatType, int repeatLimit, int lineLength, QString desc, QString rawText)" id="configParser::addExercise_aed55ed862ae8be82b42385f42193ea65" ref="classconfigParser.html#aed55ed862ae8be82b42385f42193ea65"/>
-<keyword name="addExercise(void)" id="packView::addExercise_ab4fe3c8c23f5a0e0a99b94933dd6c37c" ref="classpackView.html#ab4fe3c8c23f5a0e0a99b94933dd6c37c"/>
+<keyword name="addExercise(void)" id="packEditor::addExercise_a32b6fd337809fe61b28239c93f598744" ref="classpackEditor.html#a32b6fd337809fe61b28239c93f598744"/>
 <keyword name="addHistoryEntry(QString pack, int lesson, int sublesson, int exercise, QList&lt; QVariant &gt; entry)" id="historyParser::addHistoryEntry_a68b36b38f036f0a5cc5cf5906a866fe1" ref="classhistoryParser.html#a68b36b38f036f0a5cc5cf5906a866fe1"/>
 <keyword name="addHistoryEntry(int classID, int userID, QString pack, int lesson, int sublesson, int exercise, QVariantMap record)" id="databaseManager::addHistoryEntry_a9177830c841b8fbc4c04f7149d8544f4" ref="classdatabaseManager.html#a9177830c841b8fbc4c04f7149d8544f4"/>
 <keyword name="addKey(QString keyLabelText=&quot;&quot;, int keyCode=-1, int keyMinimumWidth=50)" id="keyboardWidget::addKey_ae9916723d96608f946343743a23786e8" ref="classkeyboardWidget.html#ae9916723d96608f946343743a23786e8"/>
-<keyword name="addLesson(void)" id="packView::addLesson_aba664423357bcf4119ca03e23269145c" ref="classpackView.html#aba664423357bcf4119ca03e23269145c"/>
+<keyword name="addLesson(void)" id="packEditor::addLesson_a85412a6b68b9a80d02a04dc8bd7f39c0" ref="classpackEditor.html#a85412a6b68b9a80d02a04dc8bd7f39c0"/>
 <keyword name="addMistakes(QString exerciseText, QList&lt; QVariantMap &gt; *recordedMistakes)" id="stringUtils::addMistakes_ad080a50081fa182e3892dfb6818bb531" ref="classstringUtils.html#ad080a50081fa182e3892dfb6818bb531"/>
 <keyword name="address(void)" id="monitorServer::address_ab01ad50bc566caddbb3cc01c5f0a9f6e" ref="classmonitorServer.html#ab01ad50bc566caddbb3cc01c5f0a9f6e"/>
 <keyword name="addStudent(void)" id="classControls::addStudent_a065ff24b5ec8c6e6f781df71d3ffe886" ref="classclassControls.html#a065ff24b5ec8c6e6f781df71d3ffe886"/>
 <keyword name="addStudentToClass(int userID, int classID)" id="databaseManager::addStudentToClass_ab9eb9f78112db2032729c898e3f1b745" ref="classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745"/>
-<keyword name="addSublesson(void)" id="packView::addSublesson_af80c1cef07727e552344f54ce4033b65" ref="classpackView.html#af80c1cef07727e552344f54ce4033b65"/>
+<keyword name="addSublesson(void)" id="packEditor::addSublesson_ae1351fa371f587bfcfadfb7135855df2" ref="classpackEditor.html#ae1351fa371f587bfcfadfb7135855df2"/>
 <keyword name="addUser(QString name, Role role, QString password, QString nickname=QString(), int classID=0)" id="databaseManager::addUser_a95129c5525343b67a83e163ef9bcf5e0" ref="classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0"/>
 <keyword name="addUser(void)" id="userManager::addUser_af12e04d197c6432b8657576fe70df4af" ref="classuserManager.html#af12e04d197c6432b8657576fe70df4af"/>
 <keyword name="administratorIDs(void)" id="databaseManager::administratorIDs_af9337ba99093461374a60ff4c2224dbc" ref="classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc"/>
 <keyword name="administratorNames(void)" id="databaseManager::administratorNames_a8ae24bffbae15c7a4d222774d690ba97" ref="classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97"/>
 <keyword name="adminSelector(QWidget *parent=nullptr)" id="adminSelector::adminSelector_ae8c7c8639d2b04422fe66025378636d6" ref="classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6"/>
 <keyword name="allowTextPreview(void)" id="loadExerciseDialog::allowTextPreview_a1cf9430257468e4ca3a740fa14a15de0" ref="classloadExerciseDialog.html#a1cf9430257468e4ca3a740fa14a15de0"/>
-<keyword name="allTabsClosed()" id="packEditor::allTabsClosed_ab5759d730e158c9b172211bf44cce2b8" ref="classpackEditor.html#ab5759d730e158c9b172211bf44cce2b8"/>
 <keyword name="auth(int userID, QString password=&quot;&quot;)" id="databaseManager::auth_afac06c34801227d27396a5ff6878bc5c" ref="classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c"/>
 <keyword name="auth(void)" id="studentOptions::auth_a7ceb1d9b8a804098d13807414eb860a8" ref="classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8"/>
 <keyword name="available(void)" id="monitorClient::available_a05a2daf88607ee6686dcafd0e35852b3" ref="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3"/>
@@ -925,15 +905,15 @@
 <keyword name="changeEvent(QEvent *event)" id="studentDetails::changeEvent_a52ad21133a97f038b2cb73f372eca468" ref="classstudentDetails.html#a52ad21133a97f038b2cb73f372eca468"/>
 <keyword name="changeEvent(QEvent *event)" id="keyboardWidget::changeEvent_a3ba5b2043902899a2dbe46c56bc81395" ref="classkeyboardWidget.html#a3ba5b2043902899a2dbe46c56bc81395"/>
 <keyword name="changeEvent(QEvent *event)" id="textView::changeEvent_a195c0b35129f798662b90dc13d79a31d" ref="classtextView.html#a195c0b35129f798662b90dc13d79a31d"/>
-<keyword name="changeExercisePos(QString lessonDesc, int lesson, int sublesson, int level, int nlesson, int nsublesson, int nlevel)" id="packView::changeExercisePos_ad47bd1ee19ad7d8a3cc9f3dee2af039b" ref="classpackView.html#ad47bd1ee19ad7d8a3cc9f3dee2af039b"/>
+<keyword name="changeExercisePos(QString lessonDesc, int lesson, int sublesson, int level, int nlesson, int nsublesson, int nlevel)" id="packEditor::changeExercisePos_ac9b2f7091500d7d2c7686f8c8658fcf6" ref="classpackEditor.html#ac9b2f7091500d7d2c7686f8c8658fcf6"/>
 <keyword name="changeFont(QFont font)" id="customizationOptions::changeFont_a4148dcc9e8364f3d8a3a18d6d739cf4e" ref="classcustomizationOptions.html#a4148dcc9e8364f3d8a3a18d6d739cf4e"/>
 <keyword name="changeFontSize(int size)" id="customizationOptions::changeFontSize_a0ed613f456adc3f82f2cb9e0509b4615" ref="classcustomizationOptions.html#a0ed613f456adc3f82f2cb9e0509b4615"/>
 <keyword name="changeFullTheme(QListWidgetItem *item)" id="customizationOptions::changeFullTheme_a2809c2942db084dccbae65bf80ff9ef4" ref="classcustomizationOptions.html#a2809c2942db084dccbae65bf80ff9ef4"/>
 <keyword name="changeInputTextColor(void)" id="customizationOptions::changeInputTextColor_a6ba3efca45e2f158db0780d35090d29d" ref="classcustomizationOptions.html#a6ba3efca45e2f158db0780d35090d29d"/>
 <keyword name="changeLanguage(int index)" id="languageList::changeLanguage_ab749a3913cc19a3b5d5dc275cc68abbe" ref="classlanguageList.html#ab749a3913cc19a3b5d5dc275cc68abbe"/>
-<keyword name="changeLessonDesc(const QString rawLessonDesc)" id="packView::changeLessonDesc_a855b7f681fc8da2bd1e6efdc30548d4a" ref="classpackView.html#a855b7f681fc8da2bd1e6efdc30548d4a"/>
+<keyword name="changeLessonDesc(const QString rawLessonDesc)" id="packEditor::changeLessonDesc_a5372309b65244cfd36a8bf5743421182" ref="classpackEditor.html#a5372309b65244cfd36a8bf5743421182"/>
 <keyword name="changeLevelTextColor(void)" id="customizationOptions::changeLevelTextColor_a64b84b7eb2349fb7d27dc25480348deb" ref="classcustomizationOptions.html#a64b84b7eb2349fb7d27dc25480348deb"/>
-<keyword name="changeLineLength(int lengthExt)" id="packView::changeLineLength_a2afc56c1ff61a63026c5926098ccdc6a" ref="classpackView.html#a2afc56c1ff61a63026c5926098ccdc6a"/>
+<keyword name="changeLineLength(int lengthExt)" id="packEditor::changeLineLength_a671c1840eba52036e3b64fe0d8502a3d" ref="classpackEditor.html#a671c1840eba52036e3b64fe0d8502a3d"/>
 <keyword name="changeMode(int mode, bool enableStudentUpdate=true)" id="OpenTyper::changeMode_a0c4e3b6611d821078ef2fe0a0a9084fe" ref="classOpenTyper.html#a0c4e3b6611d821078ef2fe0a0a9084fe"/>
 <keyword name="changeMode(void)" id="connectionOptions::changeMode_a2461ceacb3ce0a26715d99854dfb5144" ref="classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144"/>
 <keyword name="changeMode(void)" id="loadExerciseDialog::changeMode_aabfc7f53f2df9312e5160073074d3970" ref="classloadExerciseDialog.html#aabfc7f53f2df9312e5160073074d3970"/>
@@ -941,8 +921,8 @@
 <keyword name="changePack(int index)" id="keyboardOptions::changePack_a18842f598cf0466678e644127d7f1d67" ref="classkeyboardOptions.html#a18842f598cf0466678e644127d7f1d67"/>
 <keyword name="changePanelColor(void)" id="customizationOptions::changePanelColor_acf0e7da87d84efdb0a7a322e302bf1f7" ref="classcustomizationOptions.html#acf0e7da87d84efdb0a7a322e302bf1f7"/>
 <keyword name="changePaperColor(void)" id="customizationOptions::changePaperColor_aa1c74da1aa50bef2814b5e1bfda35205" ref="classcustomizationOptions.html#aa1c74da1aa50bef2814b5e1bfda35205"/>
-<keyword name="changeRepeating(int index)" id="packView::changeRepeating_aa27ec7d9ffe06948c110d13cbbc76da0" ref="classpackView.html#aa27ec7d9ffe06948c110d13cbbc76da0"/>
-<keyword name="changeRepeatLength(int limitExt)" id="packView::changeRepeatLength_ac18df3d9e3edaa386dcf8146a73cfea2" ref="classpackView.html#ac18df3d9e3edaa386dcf8146a73cfea2"/>
+<keyword name="changeRepeating(int index)" id="packEditor::changeRepeating_a39c6283f77179a51a3cfcc86da3c8b51" ref="classpackEditor.html#a39c6283f77179a51a3cfcc86da3c8b51"/>
+<keyword name="changeRepeatLength(int limitExt)" id="packEditor::changeRepeatLength_ad666669f8e057a72e19a075b7ceda78c" ref="classpackEditor.html#ad666669f8e057a72e19a075b7ceda78c"/>
 <keyword name="changeSource(void)" id="loadExerciseDialog::changeSource_a968f0894f095f3be5b0cf7f57e54611c" ref="classloadExerciseDialog.html#a968f0894f095f3be5b0cf7f57e54611c"/>
 <keyword name="changeTheme(int index)" id="customizationOptions::changeTheme_a113803a84aa1cb5cbebf920a6dc9da31" ref="classcustomizationOptions.html#a113803a84aa1cb5cbebf920a6dc9da31"/>
 <keyword name="classControls(int openClassID, QWidget *parent=nullptr)" id="classControls::classControls_a490fc7075794f498f3315e10b83bfd97" ref="classclassControls.html#a490fc7075794f498f3315e10b83bfd97"/>
@@ -956,13 +936,10 @@
 <keyword name="classTimestamp(int classID)" id="databaseManager::classTimestamp_ace7a250001bd196821dd4aafa53a7de3" ref="classdatabaseManager.html#ace7a250001bd196821dd4aafa53a7de3"/>
 <keyword name="close(void)" id="configParser::close_a5e3450f912f556b8361d57ba61cd7de1" ref="classconfigParser.html#a5e3450f912f556b8361d57ba61cd7de1"/>
 <keyword name="close(void)" id="monitorClient::close_a480d041102873d32fd1c0d5ba5dcd538" ref="classmonitorClient.html#a480d041102873d32fd1c0d5ba5dcd538"/>
-<keyword name="closeAll(void)" id="packEditor::closeAll_a4b52efaa541e9ab200de0fb3b66a47df" ref="classpackEditor.html#a4b52efaa541e9ab200de0fb3b66a47df"/>
-<keyword name="closed()" id="packView::closed_a3e08ee64fe7e469750c907d30c17b190" ref="classpackView.html#a3e08ee64fe7e469750c907d30c17b190"/>
-<keyword name="closeEvent(QCloseEvent *event)" id="packEditor::closeEvent_aa403472b118aef534f8093106316ce05" ref="classpackEditor.html#aa403472b118aef534f8093106316ce05"/>
+<keyword name="closeEvent(QCloseEvent *event) override" id="packEditor::closeEvent_af30216b599aa5ec90993f9e08e2fafac" ref="classpackEditor.html#af30216b599aa5ec90993f9e08e2fafac"/>
 <keyword name="closeEvent(QCloseEvent *event)" id="exerciseProgressDialog::closeEvent_ad9d20c4c5728664165a5e9b2806aebcc" ref="classexerciseProgressDialog.html#ad9d20c4c5728664165a5e9b2806aebcc"/>
 <keyword name="closeEvent(QCloseEvent *event)" id="testWaitDialog::closeEvent_a3a66070557753bfdc2278537c0f2206f" ref="classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f"/>
-<keyword name="closeFile(void)" id="packView::closeFile_a0d7279567c49cfa13efb450657875255" ref="classpackView.html#a0d7279567c49cfa13efb450657875255"/>
-<keyword name="closeTab(int id)" id="packEditor::closeTab_a8029fd89ffc29702456698439e7a1d39" ref="classpackEditor.html#a8029fd89ffc29702456698439e7a1d39"/>
+<keyword name="closeFile(bool createNew=false, bool open=false, bool openPrebuiltPack=false)" id="packEditor::closeFile_acaf649456d70e450ce3aadfd8d667afc" ref="classpackEditor.html#acaf649456d70e450ce3aadfd8d667afc"/>
 <keyword name="collapse(void)" id="serverManager::collapse_ac0f7be54fe6402cdc29937e71e0317f2" ref="classserverManager.html#ac0f7be54fe6402cdc29937e71e0317f2"/>
 <keyword name="colorChanged()" id="themeEngine::colorChanged_a49c5f4d22d2ca28548d0ebedc9284582" ref="classthemeEngine.html#a49c5f4d22d2ca28548d0ebedc9284582"/>
 <keyword name="compareLists(QList&lt; QVariant &gt; source, QList&lt; QVariant &gt; target, QVector&lt; QPair&lt; QString, int &gt; &gt; *recordedCharacters=nullptr, int *hits=nullptr, int *inputPos=nullptr)" id="stringUtils::compareLists_aeeb3f5d9158bbaf2946ca13e7643164f" ref="classstringUtils.html#aeeb3f5d9158bbaf2946ca13e7643164f"/>
@@ -986,7 +963,7 @@
 <keyword name="data(void)" id="configParser::data_afda5207c192f1a1f570ed12b8a0b710a" ref="classconfigParser.html#afda5207c192f1a1f570ed12b8a0b710a"/>
 <keyword name="databaseManager(QObject *parent=nullptr)" id="databaseManager::databaseManager_ab2a237fa3c5ae6f0128eec6c56e21df5" ref="classdatabaseManager.html#ab2a237fa3c5ae6f0128eec6c56e21df5"/>
 <keyword name="dehighlightKey(int keyCode)" id="keyboardWidget::dehighlightKey_a44d51675c40746936c3592216abd4dfc" ref="classkeyboardWidget.html#a44d51675c40746936c3592216abd4dfc"/>
-<keyword name="deleteExerciseLine(int lesson, int sublesson, int level)" id="packView::deleteExerciseLine_aa1f2628214689e5c5a8e3bd36a63eae0" ref="classpackView.html#aa1f2628214689e5c5a8e3bd36a63eae0"/>
+<keyword name="deleteExerciseLine(int lesson, int sublesson, int level)" id="packEditor::deleteExerciseLine_a3be8ec1881b2fc7a9fe2d7592e669ee4" ref="classpackEditor.html#a3be8ec1881b2fc7a9fe2d7592e669ee4"/>
 <keyword name="detailsClicked(int)" id="classControls::detailsClicked_a151fa314492e99ce4a6183b91fb906ad" ref="classclassControls.html#a151fa314492e99ce4a6183b91fb906ad"/>
 <keyword name="deviceAddress(int deviceID)" id="databaseManager::deviceAddress_ab49969a1261f48c07bdc4d8efdc2c862" ref="classdatabaseManager.html#ab49969a1261f48c07bdc4d8efdc2c862"/>
 <keyword name="deviceAddresses(void)" id="databaseManager::deviceAddresses_a5247f0221f1cef4676c5ce084c14ecfb" ref="classdatabaseManager.html#a5247f0221f1cef4676c5ce084c14ecfb"/>
@@ -1037,7 +1014,6 @@
 <keyword name="exportDialog(QString text, QVariantMap result, QList&lt; QVariantMap &gt; mistakes, QWidget *parent=nullptr)" id="exportDialog::exportDialog_a2bd4e887127aeeacb22de76b4e22e013" ref="classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013"/>
 <keyword name="exportText(void)" id="OpenTyper::exportText_ac67c2d29ed276655dfe8d988f9a69d62" ref="classOpenTyper.html#ac67c2d29ed276655dfe8d988f9a69d62"/>
 <keyword name="fileName(void)" id="configParser::fileName_a71c4dbe698008b2e245effdf5360deae" ref="classconfigParser.html#a71c4dbe698008b2e245effdf5360deae"/>
-<keyword name="fileNameChanged(QString)" id="packView::fileNameChanged_a4d122cd876c83da4e9896f6449ae1993" ref="classpackView.html#a4d122cd876c83da4e9896f6449ae1993"/>
 <keyword name="findDevice(QHostAddress address)" id="databaseManager::findDevice_a0e72683bb149b95d50bbb04ab7170aa1" ref="classdatabaseManager.html#a0e72683bb149b95d50bbb04ab7170aa1"/>
 <keyword name="findKey(QString label)" id="keyboardWidget::findKey_a93b4755cb1187aa034560b88668ce274" ref="classkeyboardWidget.html#a93b4755cb1187aa034560b88668ce274"/>
 <keyword name="findMistakes(QString exerciseText, QString input, QVector&lt; QPair&lt; QString, int &gt; &gt; recordedCharacters, int *totalHits=nullptr, QStringList *errorWords=nullptr)" id="stringUtils::findMistakes_a91484c1c5bfc47e101bb4cfc5ea17662" ref="classstringUtils.html#a91484c1c5bfc47e101bb4cfc5ea17662"/>
@@ -1049,7 +1025,6 @@
 <keyword name="finish(void)" id="deviceEdit::finish_ae89a88d43680d826b472287e4d17e696" ref="classdeviceEdit.html#ae89a88d43680d826b472287e4d17e696"/>
 <keyword name="finish(void)" id="studentEdit::finish_a57769f6f3bb7e2595c8e5ea2dc3f27a1" ref="classstudentEdit.html#a57769f6f3bb7e2595c8e5ea2dc3f27a1"/>
 <keyword name="finish(void)" id="userEdit::finish_a786c48d075bb78bcf7abe27b477466c8" ref="classuserEdit.html#a786c48d075bb78bcf7abe27b477466c8"/>
-<keyword name="fixDuplicates(void)" id="packEditor::fixDuplicates_adc05a78ba2be2683492db4f0842842be" ref="classpackEditor.html#adc05a78ba2be2683492db4f0842842be"/>
 <keyword name="font(void)" id="themeEngine::font_a7ba3c402b5d9173ba7571d42457cfbc6" ref="classthemeEngine.html#a7ba3c402b5d9173ba7571d42457cfbc6"/>
 <keyword name="fontBold(void)" id="themeEngine::fontBold_a96ce91f0c1c852caf7ce9e370868f170" ref="classthemeEngine.html#a96ce91f0c1c852caf7ce9e370868f170"/>
 <keyword name="fontBoldChanged()" id="themeEngine::fontBoldChanged_af4bf9fe22ceff9fb72a20d15e90bc624" ref="classthemeEngine.html#af4bf9fe22ceff9fb72a20d15e90bc624"/>
@@ -1067,7 +1042,7 @@
 <keyword name="generateDiffList(QStringList *sourceWords, QStringList *targetWords, QList&lt; int &gt; *mergeList=nullptr)" id="stringUtils::generateDiffList_ada9d02d8cc6b514af35967a51ca417c0" ref="classstringUtils.html#ada9d02d8cc6b514af35967a51ca417c0"/>
 <keyword name="generateRandomCertKey(void)" id="monitorServer::generateRandomCertKey_a729a5201dce91161957874b159a82229" ref="classmonitorServer.html#a729a5201dce91161957874b159a82229"/>
 <keyword name="generateText(QString rawText, bool repeat, QString repeatType, int repeatLimit)" id="configParser::generateText_a9fea65bbcdde2864bd56dd99b1ae2794" ref="classconfigParser.html#a9fea65bbcdde2864bd56dd99b1ae2794"/>
-<keyword name="getFileName(void)" id="packView::getFileName_ad9bbd4cb227e404ea9aaf1e5fca93585" ref="classpackView.html#ad9bbd4cb227e404ea9aaf1e5fca93585"/>
+<keyword name="getFileName(void)" id="packEditor::getFileName_ad864b4ebba921a650e04bcff2508c134" ref="classpackEditor.html#ad864b4ebba921a650e04bcff2508c134"/>
 <keyword name="goBack(void)" id="customizationOptions::goBack_ac8fe4c55810b918fcd249055f6d5aaf4" ref="classcustomizationOptions.html#ac8fe4c55810b918fcd249055f6d5aaf4"/>
 <keyword name="hideText(void)" id="loadExerciseDialog::hideText_a8c6db897de55de62f65614ff0b172632" ref="classloadExerciseDialog.html#a8c6db897de55de62f65614ff0b172632"/>
 <keyword name="highlightKey(int keyCode)" id="keyboardWidget::highlightKey_a6618df4de1c15adca1e312714ff711ae" ref="classkeyboardWidget.html#a6618df4de1c15adca1e312714ff711ae"/>
@@ -1080,7 +1055,6 @@
 <keyword name="increaseFontSize(int delta)" id="themeEngine::increaseFontSize_a9c81ea8db84d6a92d9286e33c80a5082" ref="classthemeEngine.html#a9c81ea8db84d6a92d9286e33c80a5082"/>
 <keyword name="init(void)" id="customizationOptions::init_a71737219bdf919309735605c5633dbd5" ref="classcustomizationOptions.html#a71737219bdf919309735605c5633dbd5"/>
 <keyword name="init(void)" id="optionsWindow::init_aa1d9b8a39432d285200464166c704681" ref="classoptionsWindow.html#aa1d9b8a39432d285200464166c704681"/>
-<keyword name="init(void)" id="packEditor::init_a083811db9b0ccd3cfd3604563aa1e953" ref="classpackEditor.html#a083811db9b0ccd3cfd3604563aa1e953"/>
 <keyword name="init(void)" id="loadExerciseDialog::init_a095415f098e6bce7be61b9f098585735" ref="classloadExerciseDialog.html#a095415f098e6bce7be61b9f098585735"/>
 <keyword name="init(void)" id="serverManager::init_a5ab8c8733b39da21a2dc3f97349f0826" ref="classserverManager.html#a5ab8c8733b39da21a2dc3f97349f0826"/>
 <keyword name="initExercise(QString exercise, int lineLength)" id="configParser::initExercise_a945cb810c17b0475b3a5e3892fad6d5c" ref="classconfigParser.html#a945cb810c17b0475b3a5e3892fad6d5c"/>
@@ -1103,7 +1077,6 @@
 <keyword name="keyboardWidget(QWidget *parent=nullptr)" id="keyboardWidget::keyboardWidget_a6bf33e59ab59d25b498ba2fcb773b47c" ref="classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c"/>
 <keyword name="keyFinger(int keyX, int keyY)" id="keyboardWidget::keyFinger_a64808e6cc8df9a440770ca14b7add951" ref="classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951"/>
 <keyword name="keyPress(QKeyEvent *event)" id="OpenTyper::keyPress_a2e0dedad125ed6ffb9c117d0ac9ed593" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593"/>
-<keyword name="keyPressEvent(QKeyEvent *event)" id="packEditor::keyPressEvent_a8fc5df887315eaecaf70c21124e6866b" ref="classpackEditor.html#a8fc5df887315eaecaf70c21124e6866b"/>
 <keyword name="keyPressEvent(QKeyEvent *event)" id="inputLabelWidget::keyPressEvent_a4f873dc97764b15a05282ce70a696cb6" ref="classinputLabelWidget.html#a4f873dc97764b15a05282ce70a696cb6"/>
 <keyword name="keyRelease(QKeyEvent *event)" id="OpenTyper::keyRelease_a4a232900cb74346e6c2193d0120cd48e" ref="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e"/>
 <keyword name="keyReleaseEvent(QKeyEvent *event)" id="inputLabelWidget::keyReleaseEvent_a8d9dfa5a92b106065b67c216d66e7f60" ref="classinputLabelWidget.html#a8d9dfa5a92b106065b67c216d66e7f60"/>
@@ -1152,7 +1125,6 @@
 <keyword name="nameReadOnly(void)" id="testWaitDialog::nameReadOnly_ac2e9dfed93b111a48c61ed74d80e6034" ref="classtestWaitDialog.html#ac2e9dfed93b111a48c61ed74d80e6034"/>
 <keyword name="nextLevel(void)" id="OpenTyper::nextLevel_a0431cbb22500518dce9387257fddc57d" ref="classOpenTyper.html#a0431cbb22500518dce9387257fddc57d"/>
 <keyword name="nextRow(void)" id="keyboardWidget::nextRow_ac57098beebc362b0981db8fe82b4ac57" ref="classkeyboardWidget.html#ac57098beebc362b0981db8fe82b4ac57"/>
-<keyword name="notClosed()" id="packView::notClosed_a4a2e6a81dd16f308cb1e3a2639e23e94" ref="classpackView.html#a4a2e6a81dd16f308cb1e3a2639e23e94"/>
 <keyword name="number(void)" id="exportDialog::number_aed772c7f2d87c9f3f1935f5c00fd92c3" ref="classexportDialog.html#aed772c7f2d87c9f3f1935f5c00fd92c3"/>
 <keyword name="open(const QString fileName)" id="configParser::open_a82b6a29bf6a95792e94137d3925f5021" ref="classconfigParser.html#a82b6a29bf6a95792e94137d3925f5021"/>
 <keyword name="open(void)" id="databaseManager::open_a96ac17faa095ebcf1c90967f99561bb6" ref="classdatabaseManager.html#a96ac17faa095ebcf1c90967f99561bb6"/>
@@ -1160,12 +1132,11 @@
 <keyword name="openClass(bool auth=true)" id="serverManager::openClass_aa5215bc73a73df22e4497e6d22939479" ref="classserverManager.html#aa5215bc73a73df22e4497e6d22939479"/>
 <keyword name="openDetails(void)" id="classControls::openDetails_a4f72d70048afef1fe87f9ac93d76de41" ref="classclassControls.html#a4f72d70048afef1fe87f9ac93d76de41"/>
 <keyword name="openDetails(int studentID)" id="serverManager::openDetails_a88943a234980834b4ca7c717d6927053" ref="classserverManager.html#a88943a234980834b4ca7c717d6927053"/>
-<keyword name="openEditor(bool newFile=true)" id="OpenTyper::openEditor_a119eaa012498fbda8b7289f4b0590505" ref="classOpenTyper.html#a119eaa012498fbda8b7289f4b0590505"/>
+<keyword name="openEditor(void)" id="OpenTyper::openEditor_afd068c4fb723f3b7e8c8084ade8ddac1" ref="classOpenTyper.html#afd068c4fb723f3b7e8c8084ade8ddac1"/>
 <keyword name="openEditor(void)" id="keyboardOptions::openEditor_a5dbc636d087f05c50bd4ad0e0a0b9ee8" ref="classkeyboardOptions.html#a5dbc636d087f05c50bd4ad0e0a0b9ee8"/>
 <keyword name="openExerciseFromFile(void)" id="OpenTyper::openExerciseFromFile_a1152e24f5c093f46693ec2547c1537c9" ref="classOpenTyper.html#a1152e24f5c093f46693ec2547c1537c9"/>
-<keyword name="openFile(QString fileName, bool readOnly=false)" id="packEditor::openFile_a54e45b6cc435c2683ec8a0e7a3d133ce" ref="classpackEditor.html#a54e45b6cc435c2683ec8a0e7a3d133ce"/>
+<keyword name="openFile(QString path, bool newf, bool rdonly)" id="packEditor::openFile_a8708e9e142943c757cf4ddf183deceeb" ref="classpackEditor.html#a8708e9e142943c757cf4ddf183deceeb"/>
 <keyword name="openFile(void)" id="packEditor::openFile_a517c6e4e5c95ad37b0d22f60b0a41fc2" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2"/>
-<keyword name="openFile(QString path, bool newf, bool rdonly)" id="packView::openFile_a20fa54b8c61e6c7d63dcfefe95082d7e" ref="classpackView.html#a20fa54b8c61e6c7d63dcfefe95082d7e"/>
 <keyword name="openFile(void)" id="loadExerciseDialog::openFile_ada153020f05ce49867edf1389e6e7ab6" ref="classloadExerciseDialog.html#ada153020f05ce49867edf1389e6e7ab6"/>
 <keyword name="openOptions(void)" id="OpenTyper::openOptions_aa41ec1034255a67b7eb6a0bfd16abb0e" ref="classOpenTyper.html#aa41ec1034255a67b7eb6a0bfd16abb0e"/>
 <keyword name="openPack(void)" id="OpenTyper::openPack_a064daf6187f1b3816bbc346aac817e2d" ref="classOpenTyper.html#a064daf6187f1b3816bbc346aac817e2d"/>
@@ -1175,10 +1146,8 @@
 <keyword name="openUserManager(void)" id="serverManager::openUserManager_a764fc15601cfdc879ffcdc1c6c9322a6" ref="classserverManager.html#a764fc15601cfdc879ffcdc1c6c9322a6"/>
 <keyword name="optionsWindow(QWidget *parent=nullptr)" id="optionsWindow::optionsWindow_a45fae6808c165b25c933492140379fd3" ref="classoptionsWindow.html#a45fae6808c165b25c933492140379fd3"/>
 <keyword name="packEditor(QWidget *parent=nullptr)" id="packEditor::packEditor_a2531c78a0bd8650d5395147566ed50c9" ref="classpackEditor.html#a2531c78a0bd8650d5395147566ed50c9"/>
-<keyword name="packEditor(QString fileName, QWidget *parent=nullptr)" id="packEditor::packEditor_afa246fb20b7488eac01dfdee1a50896f" ref="classpackEditor.html#afa246fb20b7488eac01dfdee1a50896f"/>
 <keyword name="packName(QString rawName)" id="builtinPacks::packName_a6b49a3342d9edcadd208da1cc6b550b0" ref="classbuiltinPacks.html#a6b49a3342d9edcadd208da1cc6b550b0"/>
 <keyword name="packSelector(QWidget *parent=nullptr)" id="packSelector::packSelector_a7627e7a69e37f6a66512643b1c95055d" ref="classpackSelector.html#a7627e7a69e37f6a66512643b1c95055d"/>
-<keyword name="packView(QWidget *parent=nullptr, int fileID_arg=1)" id="packView::packView_a36852f6e8eaafd5985bcf05fcd19879c" ref="classpackView.html#a36852f6e8eaafd5985bcf05fcd19879c"/>
 <keyword name="panelColor(void)" id="themeEngine::panelColor_a60908e312da85dc5ff47605b7ebdb2b6" ref="classthemeEngine.html#a60908e312da85dc5ff47605b7ebdb2b6"/>
 <keyword name="panelColorChanged()" id="themeEngine::panelColorChanged_add8dffc0df9e70d6cea62df3d9cd0f3c" ref="classthemeEngine.html#add8dffc0df9e70d6cea62df3d9cd0f3c"/>
 <keyword name="panelStyleSheet(void)" id="themeEngine::panelStyleSheet_a8d82dc0c63acd244b39d59cedfa66c17" ref="classthemeEngine.html#a8d82dc0c63acd244b39d59cedfa66c17"/>
@@ -1206,14 +1175,14 @@
 <keyword name="refreshCharts(void)" id="classControls::refreshCharts_a70f87b55fb524edef079d0d0c831234a" ref="classclassControls.html#a70f87b55fb524edef079d0d0c831234a"/>
 <keyword name="refreshCharts(void)" id="studentDetails::refreshCharts_a0488a551935057caa40ba9583d6dc67c" ref="classstudentDetails.html#a0488a551935057caa40ba9583d6dc67c"/>
 <keyword name="refreshTable(void)" id="studentDetails::refreshTable_a49db064c526ee9a21684d79f0e3f78ce" ref="classstudentDetails.html#a49db064c526ee9a21684d79f0e3f78ce"/>
-<keyword name="refreshUi(bool newLesson, bool newSublesson, bool newExercise)" id="packView::refreshUi_acc9cd8c1c5399955dcf8e7c542fb66c8" ref="classpackView.html#acc9cd8c1c5399955dcf8e7c542fb66c8"/>
+<keyword name="refreshUi(bool newLesson, bool newSublesson, bool newExercise)" id="packEditor::refreshUi_a8e5175b060d2e21864a8fe4981553f96" ref="classpackEditor.html#a8e5175b060d2e21864a8fe4981553f96"/>
 <keyword name="registerKey(int x, int y, QString keyLabelText, int keyCode, int shiftKeyCode)" id="keyboardWidget::registerKey_ae7ab31a9b366bfa013300fb78bbb5f23" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23"/>
 <keyword name="reject(void)" id="paperConfigDialog::reject_ad8aa809dedc36fbf58fdbd36ed125301" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301"/>
 <keyword name="removeClass(int classID)" id="databaseManager::removeClass_a00ea196285d713efd7e30a9e2f2052a7" ref="classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7"/>
 <keyword name="removeClass(void)" id="serverManager::removeClass_ad989918f50fefa84def640b2d4f3d578" ref="classserverManager.html#ad989918f50fefa84def640b2d4f3d578"/>
 <keyword name="removeDevice(int deviceID)" id="databaseManager::removeDevice_a5beb408827ecb8be49223ea1b53a6d9f" ref="classdatabaseManager.html#a5beb408827ecb8be49223ea1b53a6d9f"/>
 <keyword name="removeDevice(void)" id="serverManager::removeDevice_a19910d75fbab76738787aa61a5cbde08" ref="classserverManager.html#a19910d75fbab76738787aa61a5cbde08"/>
-<keyword name="removeExercise(void)" id="packView::removeExercise_adcd3860837b5b61136d888c13bc85a05" ref="classpackView.html#adcd3860837b5b61136d888c13bc85a05"/>
+<keyword name="removeExercise(void)" id="packEditor::removeExercise_a9b46b7e741069d410d21da5339b05004" ref="classpackEditor.html#a9b46b7e741069d410d21da5339b05004"/>
 <keyword name="removeOrphanedStudents(void)" id="databaseManager::removeOrphanedStudents_a9e618d2883895582bfc00ef746f5dea3" ref="classdatabaseManager.html#a9e618d2883895582bfc00ef746f5dea3"/>
 <keyword name="removeStudent(void)" id="classControls::removeStudent_a36196fc52adb22c50458b9d38787721c" ref="classclassControls.html#a36196fc52adb22c50458b9d38787721c"/>
 <keyword name="removeStudentFromClass(int userID, int classID)" id="databaseManager::removeStudentFromClass_ab9c18c9eabea5038e2b145411a74415b" ref="classdatabaseManager.html#ab9c18c9eabea5038e2b145411a74415b"/>
@@ -1231,13 +1200,13 @@
 <keyword name="resetPassword(void)" id="userEdit::resetPassword_a915d722fe57c91e1dd1e55a9b3bac8eb" ref="classuserEdit.html#a915d722fe57c91e1dd1e55a9b3bac8eb"/>
 <keyword name="resetTextColors(void)" id="customizationOptions::resetTextColors_a30e20bd3918caa26fa969223630dda05" ref="classcustomizationOptions.html#a30e20bd3918caa26fa969223630dda05"/>
 <keyword name="responseReady()" id="monitorClient::responseReady_a6940f786c749647238b2231694fd85e8" ref="classmonitorClient.html#a6940f786c749647238b2231694fd85e8"/>
-<keyword name="restoreText(void)" id="packView::restoreText_aa75a453ca470d60c9a3fd68281645d65" ref="classpackView.html#aa75a453ca470d60c9a3fd68281645d65"/>
+<keyword name="restoreText(void)" id="packEditor::restoreText_a07fabc1e7ee7b552778ac9b8c23ca58f" ref="classpackEditor.html#a07fabc1e7ee7b552778ac9b8c23ca58f"/>
 <keyword name="resultUploaded(int, QString, QVector&lt; QPair&lt; QString, int &gt; &gt;, qreal)" id="monitorServer::resultUploaded_ada1c76b1351fda6f7c38e35fa7a14db0" ref="classmonitorServer.html#ada1c76b1351fda6f7c38e35fa7a14db0"/>
 <keyword name="roles(bool includeStudentRole=true)" id="databaseManager::roles_a5da00577367c077613a4d26b06efbca9" ref="classdatabaseManager.html#a5da00577367c077613a4d26b06efbca9"/>
 <keyword name="runningExerciseStudents(void)" id="monitorServer::runningExerciseStudents_aa5076c67c73a65aa1ca3fad55ccbf3a5" ref="classmonitorServer.html#aa5076c67c73a65aa1ca3fad55ccbf3a5"/>
-<keyword name="save(void)" id="packView::save_a50bd40060900e60d3d7229b5b9b1ba00" ref="classpackView.html#a50bd40060900e60d3d7229b5b9b1ba00"/>
+<keyword name="save(void)" id="packEditor::save_a87d5fca6ffd4e020cc6ceaf27bc6bfcf" ref="classpackEditor.html#a87d5fca6ffd4e020cc6ceaf27bc6bfcf"/>
 <keyword name="save(void)" id="serverSetup::save_a26fe34b68fcc1e047d9cdf619660bc35" ref="classserverSetup.html#a26fe34b68fcc1e047d9cdf619660bc35"/>
-<keyword name="saveAs(void)" id="packView::saveAs_ac2bebdcab08ff9693863e0525da61be8" ref="classpackView.html#ac2bebdcab08ff9693863e0525da61be8"/>
+<keyword name="saveAs(void)" id="packEditor::saveAs_ad83575f97e6f5d2257641fc60071a0e2" ref="classpackEditor.html#ad83575f97e6f5d2257641fc60071a0e2"/>
 <keyword name="selectCurrentFullTheme(void)" id="customizationOptions::selectCurrentFullTheme_a2089f4ccdfb3f012e82d714ce6c7bb09" ref="classcustomizationOptions.html#a2089f4ccdfb3f012e82d714ce6c7bb09"/>
 <keyword name="selectedConfig(void)" id="packSelector::selectedConfig_a5ff2264ada61381338ba429d1e36d008" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008"/>
 <keyword name="selectedTargets(void)" id="loadExerciseDialog::selectedTargets_a5da17875b26972055f8c239657e43337" ref="classloadExerciseDialog.html#a5da17875b26972055f8c239657e43337"/>
@@ -1282,7 +1251,7 @@
 <keyword name="setNumber(QString number)" id="exportDialog::setNumber_a42c0db8c73496852438a4b33ae113590" ref="classexportDialog.html#a42c0db8c73496852438a4b33ae113590"/>
 <keyword name="setPanelColor(QColor color)" id="themeEngine::setPanelColor_af30300b5e03cdedfee9211e9812da40b" ref="classthemeEngine.html#af30300b5e03cdedfee9211e9812da40b"/>
 <keyword name="setPaperColor(QColor color)" id="themeEngine::setPaperColor_a4a4d724a39f61d6cdfce18f3aa1d541f" ref="classthemeEngine.html#a4a4d724a39f61d6cdfce18f3aa1d541f"/>
-<keyword name="setRevisionLesson(void)" id="packView::setRevisionLesson_afb615797a5031658513124a814a1d51a" ref="classpackView.html#afb615797a5031658513124a814a1d51a"/>
+<keyword name="setRevisionLesson(void)" id="packEditor::setRevisionLesson_a5e9e61844a29614429c88e89e5eb8df1" ref="classpackEditor.html#a5e9e61844a29614429c88e89e5eb8df1"/>
 <keyword name="setSpaceNewline(bool value)" id="behaviorOptions::setSpaceNewline_afb802a982a3806f4df086d7eecfcb3c5" ref="classbehaviorOptions.html#afb802a982a3806f4df086d7eecfcb3c5"/>
 <keyword name="setStudentName(QString name)" id="exportDialog::setStudentName_a9c238f823220804edd356b083c20bac0" ref="classexportDialog.html#a9c238f823220804edd356b083c20bac0"/>
 <keyword name="setStyle(Style newStyle)" id="themeEngine::setStyle_a2a4815e45708d8ceac2aeaf8daf50d5f" ref="classthemeEngine.html#a2a4815e45708d8ceac2aeaf8daf50d5f"/>
@@ -1324,11 +1293,10 @@
 <keyword name="sublessonName(int id)" id="configParser::sublessonName_a2922133b71c6050af206853e6c64586d" ref="classconfigParser.html#a2922133b71c6050af206853e6c64586d"/>
 <keyword name="sublessonSelectionListIndexChanged(int index)" id="OpenTyper::sublessonSelectionListIndexChanged_a1ec024cb05d93c44b8053a9d2d963922" ref="classOpenTyper.html#a1ec024cb05d93c44b8053a9d2d963922"/>
 <keyword name="sublessonTr(int id)" id="configParser::sublessonTr_a9fb9f55effe2b5f698096fd0f97b7317" ref="classconfigParser.html#a9fb9f55effe2b5f698096fd0f97b7317"/>
-<keyword name="switchExercise(void)" id="packView::switchExercise_a8732f57a4ba307c14913aef98e524a3d" ref="classpackView.html#a8732f57a4ba307c14913aef98e524a3d"/>
-<keyword name="switchLesson(void)" id="packView::switchLesson_a40ba34b5fa8668a821ec5c5bb0cf19c8" ref="classpackView.html#a40ba34b5fa8668a821ec5c5bb0cf19c8"/>
+<keyword name="switchExercise(void)" id="packEditor::switchExercise_a470e24b1222a50152280ce457e0258a0" ref="classpackEditor.html#a470e24b1222a50152280ce457e0258a0"/>
+<keyword name="switchLesson(void)" id="packEditor::switchLesson_aea2b9c43e13e00ceac23d59157d8b4d5" ref="classpackEditor.html#aea2b9c43e13e00ceac23d59157d8b4d5"/>
 <keyword name="switchMode(void)" id="studentEdit::switchMode_af7614e70a48a6ff6d21cd89d5c022631" ref="classstudentEdit.html#af7614e70a48a6ff6d21cd89d5c022631"/>
-<keyword name="switchSublesson(void)" id="packView::switchSublesson_ae4ceac1dfa27b06777c1aea067b2e4b7" ref="classpackView.html#ae4ceac1dfa27b06777c1aea067b2e4b7"/>
-<keyword name="tabChanged(int index)" id="packEditor::tabChanged_a21cb0d01d5588aff614bf4d7e89e8c11" ref="classpackEditor.html#a21cb0d01d5588aff614bf4d7e89e8c11"/>
+<keyword name="switchSublesson(void)" id="packEditor::switchSublesson_aacaa8155bbc0efe4aa3802d265d2f8d2" ref="classpackEditor.html#aacaa8155bbc0efe4aa3802d265d2f8d2"/>
 <keyword name="teacherIDs(void)" id="databaseManager::teacherIDs_af4ed4fa5337b10b73573856cd5ca8293" ref="classdatabaseManager.html#af4ed4fa5337b10b73573856cd5ca8293"/>
 <keyword name="teacherNames(void)" id="databaseManager::teacherNames_a72439b44aa716d7511e65b0a7c15257f" ref="classdatabaseManager.html#a72439b44aa716d7511e65b0a7c15257f"/>
 <keyword name="testConnection(void)" id="connectionOptions::testConnection_a122737d3de84bd61b2daabdbf0cf0d8c" ref="classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c"/>
@@ -1355,10 +1323,10 @@
 <keyword name="updateStudent(void)" id="OpenTyper::updateStudent_ae3e5e07e087c9d337b2a2907a8173b1a" ref="classOpenTyper.html#ae3e5e07e087c9d337b2a2907a8173b1a"/>
 <keyword name="updateStyle(void)" id="themeEngine::updateStyle_a352cfc5414795770d8dab2e8d2fe434f" ref="classthemeEngine.html#a352cfc5414795770d8dab2e8d2fe434f"/>
 <keyword name="updateTable(void)" id="exportDialog::updateTable_a3df6d0e00a9a07fe84494f445e15fc78" ref="classexportDialog.html#a3df6d0e00a9a07fe84494f445e15fc78"/>
-<keyword name="updateTabTitle(void)" id="packView::updateTabTitle_a76c645567362eceb83e439965a07b3db" ref="classpackView.html#a76c645567362eceb83e439965a07b3db"/>
 <keyword name="updateText(void)" id="OpenTyper::updateText_a487997a86245492f13709904e8c47f4b" ref="classOpenTyper.html#a487997a86245492f13709904e8c47f4b"/>
-<keyword name="updateText(void)" id="packView::updateText_ab34651a29dd449dea66fa3128ea7b507" ref="classpackView.html#ab34651a29dd449dea66fa3128ea7b507"/>
+<keyword name="updateText(void)" id="packEditor::updateText_a7ce12e44a56e7ec9f83a0f14a2a909a2" ref="classpackEditor.html#a7ce12e44a56e7ec9f83a0f14a2a909a2"/>
 <keyword name="updateThemeList(void)" id="themeEngine::updateThemeList_a77f9ea7a72208d2afd2dd16c206881b1" ref="classthemeEngine.html#a77f9ea7a72208d2afd2dd16c206881b1"/>
+<keyword name="updateTitle(void)" id="packEditor::updateTitle_aed8aad82193f26e12c2caa804a03289a" ref="classpackEditor.html#aed8aad82193f26e12c2caa804a03289a"/>
 <keyword name="updateWidgetSize(void)" id="textView::updateWidgetSize_a5ee657378078136e98e01796f9d5e946" ref="classtextView.html#a5ee657378078136e98e01796f9d5e946"/>
 <keyword name="userEdit(bool newUser=false, int id=1, QWidget *parent=nullptr)" id="userEdit::userEdit_aa9c71975e895a6c6c4f23eafafa2622f" ref="classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f"/>
 <keyword name="userIDs(void)" id="databaseManager::userIDs_ab2b9f2fa985da59fadd30cc184c6ddfc" ref="classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc"/>
@@ -1407,7 +1375,6 @@
 <keyword name="~optionsWindow()" id="optionsWindow::~optionsWindow_ad2942ee73b6562894bf2d25f554b9e5c" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c"/>
 <keyword name="~packEditor()" id="packEditor::~packEditor_acc6fa330df5ca29c78538929eeabe382" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>
 <keyword name="~packSelector()" id="packSelector::~packSelector_ae5c599cf2c312ad8fad8d0171946f10b" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b"/>
-<keyword name="~packView()" id="packView::~packView_a28036733eb5e69d1ae3dc7d6cb8f6898" ref="classpackView.html#a28036733eb5e69d1ae3dc7d6cb8f6898"/>
 <keyword name="~paperConfigDialog()" id="paperConfigDialog::~paperConfigDialog_af6de249a3dd88ad11fcd941545e5d25b" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b"/>
 <keyword name="~serverManager()" id="serverManager::~serverManager_ae5e873a162ae2aa65817b34cc3a57642" ref="classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642"/>
 <keyword name="~serverSetup()" id="serverSetup::~serverSetup_a5d83fd78e5a68d1183da5fa5b3d67f09" ref="classserverSetup.html#a5d83fd78e5a68d1183da5fa5b3d67f09"/>
@@ -1558,10 +1525,6 @@
 <file>classpackSelector.html</file>
 <file>classpackSelector__coll__graph.png</file>
 <file>classpackSelector__inherit__graph.png</file>
-<file>classpackView-members.html</file>
-<file>classpackView.html</file>
-<file>classpackView__coll__graph.png</file>
-<file>classpackView__inherit__graph.png</file>
 <file>classpaperConfigDialog-members.html</file>
 <file>classpaperConfigDialog.html</file>
 <file>classpaperConfigDialog__coll__graph.png</file>
@@ -1766,14 +1729,11 @@
 <file>opentyper_8h_source.html</file>
 <file>optionsWindow.png</file>
 <file>optionswindow_8h_source.html</file>
-<file>packEditor.png</file>
 <file>packSelector.png</file>
-<file>packView.png</file>
 <file>pack_editor_system_dark.png</file>
 <file>packeditor_8h_source.html</file>
 <file>packs_8h_source.html</file>
 <file>packselector_8h_source.html</file>
-<file>packview_8h_source.html</file>
 <file>pages.html</file>
 <file>paperConfigDialog.png</file>
 <file>paperconfigdialog_8h_source.html</file>

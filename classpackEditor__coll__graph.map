@@ -1,4 +1,6 @@
 <map id="packEditor" name="packEditor">
-<area shape="rect" id="node1" title="The packEditor class is the pack editor window." alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="13,5,81,32"/>
+<area shape="rect" id="node1" title="The packEditor class is the pack editor window." alt="" coords="35,171,118,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,73,108"/>
+<area shape="rect" id="node3" href="$classconfigParser.html" title="The configParser class provides functions for the pack file format." alt="" coords="97,81,192,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,5,180,32"/>
 </map>
