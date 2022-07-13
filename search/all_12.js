@@ -2,7 +2,7 @@ var searchData=
 [
   ['teacherids_0',['teacherIDs',['../classdatabaseManager.html#af4ed4fa5337b10b73573856cd5ca8293',1,'databaseManager']]],
   ['teachernames_1',['teacherNames',['../classdatabaseManager.html#a72439b44aa716d7511e65b0a7c15257f',1,'databaseManager']]],
-  ['testconnection_2',['testConnection',['../classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c',1,'connectionOptions']]],
+  ['testconnection_2',['testConnection',['../classconnectionOptions.html#ae90ed072617e8607dcf985b0a29e9b65',1,'connectionOptions']]],
   ['testwaitdialog_3',['testWaitDialog',['../classtestWaitDialog.html',1,'testWaitDialog'],['../classtestWaitDialog.html#a60f23fb060d74de6a0c2379ba65ec502',1,'testWaitDialog::testWaitDialog()']]],
   ['textview_4',['textView',['../classtextView.html',1,'textView'],['../classtextView.html#ad6aaddb0b664f37e2794b57cbe31e81c',1,'textView::textView()']]],
   ['theme_5',['theme',['../classthemeEngine.html#a74db70f519653b3ae47b1fa5c33dee77',1,'themeEngine']]],

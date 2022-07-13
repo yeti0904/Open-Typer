@@ -6,6 +6,6 @@ var classconnectionOptions =
     [ "changeMode", "classconnectionOptions.html#a2461ceacb3ce0a26715d99854dfb5144", null ],
     [ "refresh", "classconnectionOptions.html#aedfa68bc9c7c7eede4440e92245451cd", null ],
     [ "setFullMode", "classconnectionOptions.html#ad69589fb8f8fffd27c45a75cd6cd7b50", null ],
-    [ "testConnection", "classconnectionOptions.html#a122737d3de84bd61b2daabdbf0cf0d8c", null ],
+    [ "testConnection", "classconnectionOptions.html#ae90ed072617e8607dcf985b0a29e9b65", null ],
     [ "toggleNetworkOptions", "classconnectionOptions.html#aff4467367162bb59f0ee849a79c934ca", null ]
 ];
