@@ -191,6 +191,7 @@
 <section title="loadResult" ref="classexerciseProgressDialog.html#ab8623b4d8ac702d91418230254c1a1b2"/>
 <section title="printAll" ref="classexerciseProgressDialog.html#ae6f0db35d01d89e4d07e5fd459deec36"/>
 <section title="setupTable" ref="classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1"/>
+<section title="uploadChangedName" ref="classexerciseProgressDialog.html#a0f2a4bfe67cbbd229a9a88e47a6c71d9"/>
 </section>
 <section title="exportDialog" ref="classexportDialog.html">
 <section title="exportDialog" ref="classexportDialog.html#a2bd4e887127aeeacb22de76b4e22e013"/>
@@ -321,6 +322,7 @@
 <section title="serverPort" ref="classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946"/>
 <section title="setErrorDialogs" ref="classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c"/>
 <section title="sslErrorsOccurred" ref="classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449"/>
+<section title="studentNameChanged" ref="classmonitorClient.html#a82584972e79c7ad7d4a6c27ea2cc7e92"/>
 </section>
 <section title="monitorServer" ref="classmonitorServer.html">
 <section title="monitorServer" ref="classmonitorServer.html#a5139f286021e951906edffa8502ee3b7"/>
@@ -1284,6 +1286,7 @@
 <keyword name="studentIDs(int classID)" id="databaseManager::studentIDs_a3576cd3e11b7e8ad5b40a3e6a3c3dfc8" ref="classdatabaseManager.html#a3576cd3e11b7e8ad5b40a3e6a3c3dfc8"/>
 <keyword name="studentLessons(int classID, int userID, QString pack)" id="databaseManager::studentLessons_a4d0bf930b8d5f1bd23ca53a9ac4dc426" ref="classdatabaseManager.html#a4d0bf930b8d5f1bd23ca53a9ac4dc426"/>
 <keyword name="studentName(void)" id="exportDialog::studentName_a22c6ce4db2227fd79f1ea70780882b5b" ref="classexportDialog.html#a22c6ce4db2227fd79f1ea70780882b5b"/>
+<keyword name="studentNameChanged(QString name)" id="monitorClient::studentNameChanged_a82584972e79c7ad7d4a6c27ea2cc7e92" ref="classmonitorClient.html#a82584972e79c7ad7d4a6c27ea2cc7e92"/>
 <keyword name="studentOptions(QWidget *parent=nullptr)" id="studentOptions::studentOptions_a355451cfa1bae5af52f7450ebb8138f5" ref="classstudentOptions.html#a355451cfa1bae5af52f7450ebb8138f5"/>
 <keyword name="studentPacks(int classID, int userID)" id="databaseManager::studentPacks_af2a50de490431ea78df6c2bdb9a32656" ref="classdatabaseManager.html#af2a50de490431ea78df6c2bdb9a32656"/>
 <keyword name="studentSublessons(int classID, int userID, QString pack, int lesson)" id="databaseManager::studentSublessons_a01791d2b79a52e54ec7f10f46dc48f8e" ref="classdatabaseManager.html#a01791d2b79a52e54ec7f10f46dc48f8e"/>
@@ -1328,6 +1331,7 @@
 <keyword name="updateThemeList(void)" id="themeEngine::updateThemeList_a77f9ea7a72208d2afd2dd16c206881b1" ref="classthemeEngine.html#a77f9ea7a72208d2afd2dd16c206881b1"/>
 <keyword name="updateTitle(void)" id="packEditor::updateTitle_aed8aad82193f26e12c2caa804a03289a" ref="classpackEditor.html#aed8aad82193f26e12c2caa804a03289a"/>
 <keyword name="updateWidgetSize(void)" id="textView::updateWidgetSize_a5ee657378078136e98e01796f9d5e946" ref="classtextView.html#a5ee657378078136e98e01796f9d5e946"/>
+<keyword name="uploadChangedName(int row, int column)" id="exerciseProgressDialog::uploadChangedName_a0f2a4bfe67cbbd229a9a88e47a6c71d9" ref="classexerciseProgressDialog.html#a0f2a4bfe67cbbd229a9a88e47a6c71d9"/>
 <keyword name="userEdit(bool newUser=false, int id=1, QWidget *parent=nullptr)" id="userEdit::userEdit_aa9c71975e895a6c6c4f23eafafa2622f" ref="classuserEdit.html#aa9c71975e895a6c6c4f23eafafa2622f"/>
 <keyword name="userIDs(void)" id="databaseManager::userIDs_ab2b9f2fa985da59fadd30cc184c6ddfc" ref="classdatabaseManager.html#ab2b9f2fa985da59fadd30cc184c6ddfc"/>
 <keyword name="userManager(QWidget *parent=nullptr)" id="userManager::userManager_aad8b4e5cae76715c39a412357cab67d1" ref="classuserManager.html#aad8b4e5cae76715c39a412357cab67d1"/>

@@ -21,5 +21,6 @@ var classmonitorClient =
     [ "serverAddress", "classmonitorClient.html#a7c8b7de761f15c6b59fb3c2f2b6e0001", null ],
     [ "serverPort", "classmonitorClient.html#a3cc04faa170d58b57cb04bb80893b946", null ],
     [ "setErrorDialogs", "classmonitorClient.html#a69989bd9fa97b81a303de7be6cb0cd1c", null ],
-    [ "sslErrorsOccurred", "classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449", null ]
+    [ "sslErrorsOccurred", "classmonitorClient.html#a35c5f08f81ffdcea7927073ff789e449", null ],
+    [ "studentNameChanged", "classmonitorClient.html#a82584972e79c7ad7d4a6c27ea2cc7e92", null ]
 ];

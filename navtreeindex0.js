@@ -220,6 +220,7 @@ var NAVTREEINDEX0 =
 "classexerciseProgressDialog.html":[4,0,10],
 "classexerciseProgressDialog.html#a05b5ae46c79fd69b6936ea96dd0873a1":[4,0,10,6],
 "classexerciseProgressDialog.html#a086b320142491942967d6ff0a3bcb503":[4,0,10,1],
+"classexerciseProgressDialog.html#a0f2a4bfe67cbbd229a9a88e47a6c71d9":[4,0,10,7],
 "classexerciseProgressDialog.html#a925145aa4959fa84a9745fc1a1861829":[4,0,10,2],
 "classexerciseProgressDialog.html#ab8623b4d8ac702d91418230254c1a1b2":[4,0,10,4],
 "classexerciseProgressDialog.html#ad4247c6bd2a3d6e5a71e40846bd64856":[4,0,10,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classhistoryParser.html#abccd1018e2cd37ed096be09f319d8958":[4,0,13,4],
 "classhistoryParser.html#acbcc9e9fc7e1f38d7f1ca030baa2ff7c":[4,0,13,1],
 "classinitialSetup.html":[4,0,14],
-"classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72":[4,0,14,2],
-"classinitialSetup.html#a2c04fb32795d022271a129609da6f5dd":[4,0,14,0]
+"classinitialSetup.html#a09e8cf1b65cf0059d878312c4a8b3a72":[4,0,14,2]
 };
