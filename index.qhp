@@ -421,6 +421,7 @@
 <section title="createNewFile" ref="classpackEditor.html#a9eea23604a8951a257c0d13de4146a30"/>
 <section title="deleteExerciseLine" ref="classpackEditor.html#a3be8ec1881b2fc7a9fe2d7592e669ee4"/>
 <section title="getFileName" ref="classpackEditor.html#ad864b4ebba921a650e04bcff2508c134"/>
+<section title="keyPressEvent" ref="classpackEditor.html#a7d248ca074efdcaefee7aab4e8e572ea"/>
 <section title="openFile" ref="classpackEditor.html#a8708e9e142943c757cf4ddf183deceeb"/>
 <section title="openFile" ref="classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2"/>
 <section title="openPrebuilt" ref="classpackEditor.html#ae4e25dd318728fc46546e7116e751a91"/>
@@ -520,6 +521,7 @@
 <section title="testWaitDialog" ref="classtestWaitDialog.html#a60f23fb060d74de6a0c2379ba65ec502"/>
 <section title="~testWaitDialog" ref="classtestWaitDialog.html#a527c42d89ae94399d1121d6e93253724"/>
 <section title="closeEvent" ref="classtestWaitDialog.html#a3a66070557753bfdc2278537c0f2206f"/>
+<section title="keyPressEvent" ref="classtestWaitDialog.html#a418fcd71b8ac0f36f31ac657abff57ab"/>
 <section title="name" ref="classtestWaitDialog.html#a3d12dfb2eef04dda489145c5f1546dbf"/>
 <section title="nameReadOnly" ref="classtestWaitDialog.html#ac2e9dfed93b111a48c61ed74d80e6034"/>
 <section title="setName" ref="classtestWaitDialog.html#a570d8ffbebbad04a5afeee5a192f16ab"/>
@@ -1079,6 +1081,8 @@
 <keyword name="keyboardWidget(QWidget *parent=nullptr)" id="keyboardWidget::keyboardWidget_a6bf33e59ab59d25b498ba2fcb773b47c" ref="classkeyboardWidget.html#a6bf33e59ab59d25b498ba2fcb773b47c"/>
 <keyword name="keyFinger(int keyX, int keyY)" id="keyboardWidget::keyFinger_a64808e6cc8df9a440770ca14b7add951" ref="classkeyboardWidget.html#a64808e6cc8df9a440770ca14b7add951"/>
 <keyword name="keyPress(QKeyEvent *event)" id="OpenTyper::keyPress_a2e0dedad125ed6ffb9c117d0ac9ed593" ref="classOpenTyper.html#a2e0dedad125ed6ffb9c117d0ac9ed593"/>
+<keyword name="keyPressEvent(QKeyEvent *event) override" id="packEditor::keyPressEvent_a7d248ca074efdcaefee7aab4e8e572ea" ref="classpackEditor.html#a7d248ca074efdcaefee7aab4e8e572ea"/>
+<keyword name="keyPressEvent(QKeyEvent *event)" id="testWaitDialog::keyPressEvent_a418fcd71b8ac0f36f31ac657abff57ab" ref="classtestWaitDialog.html#a418fcd71b8ac0f36f31ac657abff57ab"/>
 <keyword name="keyPressEvent(QKeyEvent *event)" id="inputLabelWidget::keyPressEvent_a4f873dc97764b15a05282ce70a696cb6" ref="classinputLabelWidget.html#a4f873dc97764b15a05282ce70a696cb6"/>
 <keyword name="keyRelease(QKeyEvent *event)" id="OpenTyper::keyRelease_a4a232900cb74346e6c2193d0120cd48e" ref="classOpenTyper.html#a4a232900cb74346e6c2193d0120cd48e"/>
 <keyword name="keyReleaseEvent(QKeyEvent *event)" id="inputLabelWidget::keyReleaseEvent_a8d9dfa5a92b106065b67c216d66e7f60" ref="classinputLabelWidget.html#a8d9dfa5a92b106065b67c216d66e7f60"/>

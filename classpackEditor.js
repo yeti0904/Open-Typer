@@ -15,6 +15,7 @@ var classpackEditor =
     [ "createNewFile", "classpackEditor.html#a9eea23604a8951a257c0d13de4146a30", null ],
     [ "deleteExerciseLine", "classpackEditor.html#a3be8ec1881b2fc7a9fe2d7592e669ee4", null ],
     [ "getFileName", "classpackEditor.html#ad864b4ebba921a650e04bcff2508c134", null ],
+    [ "keyPressEvent", "classpackEditor.html#a7d248ca074efdcaefee7aab4e8e572ea", null ],
     [ "openFile", "classpackEditor.html#a8708e9e142943c757cf4ddf183deceeb", null ],
     [ "openFile", "classpackEditor.html#a517c6e4e5c95ad37b0d22f60b0a41fc2", null ],
     [ "openPrebuilt", "classpackEditor.html#ae4e25dd318728fc46546e7116e751a91", null ],
