@@ -15,7 +15,6 @@ var hierarchy =
       [ "optionsWindow", "classoptionsWindow.html", null ],
       [ "packEditor", "classpackEditor.html", null ],
       [ "packSelector", "classpackSelector.html", null ],
-      [ "paperConfigDialog", "classpaperConfigDialog.html", null ],
       [ "serverSetup", "classserverSetup.html", null ],
       [ "statsDialog", "classstatsDialog.html", null ],
       [ "studentEdit", "classstudentEdit.html", null ],

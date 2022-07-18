@@ -442,13 +442,6 @@
 <section title="~packSelector" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b"/>
 <section title="selectedConfig" ref="classpackSelector.html#a5ff2264ada61381338ba429d1e36d008"/>
 </section>
-<section title="paperConfigDialog" ref="classpaperConfigDialog.html">
-<section title="paperConfigDialog" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b"/>
-<section title="~paperConfigDialog" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b"/>
-<section title="reject" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301"/>
-<section title="setIncludeNewLines" ref="classpaperConfigDialog.html#a2516e00c55ea34f28a9ea0e8b86625d6"/>
-<section title="updateLineLength" ref="classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b"/>
-</section>
 <section title="serverManager" ref="classserverManager.html">
 <section title="serverManager" ref="classserverManager.html#aca926ead4ee667f9db937287519a1a5a"/>
 <section title="~serverManager" ref="classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642"/>
@@ -651,7 +644,6 @@
 <section title="optionsWindow" ref="classoptionsWindow.html"/>
 <section title="packEditor" ref="classpackEditor.html"/>
 <section title="packSelector" ref="classpackSelector.html"/>
-<section title="paperConfigDialog" ref="classpaperConfigDialog.html"/>
 <section title="serverSetup" ref="classserverSetup.html"/>
 <section title="statsDialog" ref="classstatsDialog.html"/>
 <section title="studentEdit" ref="classstudentEdit.html"/>
@@ -811,7 +803,6 @@
 <section title="initialsetup.h" ref="initialsetup_8h_source.html"/>
 <section title="levelsummary.h" ref="levelsummary_8h_source.html"/>
 <section title="opentyper.h" ref="opentyper_8h_source.html"/>
-<section title="paperconfigdialog.h" ref="paperconfigdialog_8h_source.html"/>
 <section title="statsdialog.h" ref="statsdialog_8h_source.html"/>
 <section title="testwaitdialog.h" ref="testwaitdialog_8h_source.html"/>
 <section title="timedialog.h" ref="timedialog_8h_source.html"/>
@@ -851,7 +842,6 @@
 <keyword name="optionsWindow" id="optionsWindow_" ref="classoptionsWindow.html"/>
 <keyword name="packEditor" id="packEditor_" ref="classpackEditor.html"/>
 <keyword name="packSelector" id="packSelector_" ref="classpackSelector.html"/>
-<keyword name="paperConfigDialog" id="paperConfigDialog_" ref="classpaperConfigDialog.html"/>
 <keyword name="serverManager" id="serverManager_" ref="classserverManager.html"/>
 <keyword name="serverSetup" id="serverSetup_" ref="classserverSetup.html"/>
 <keyword name="statsDialog" id="statsDialog_" ref="classstatsDialog.html"/>
@@ -1159,7 +1149,6 @@
 <keyword name="panelStyleSheet(void)" id="themeEngine::panelStyleSheet_a8d82dc0c63acd244b39d59cedfa66c17" ref="classthemeEngine.html#a8d82dc0c63acd244b39d59cedfa66c17"/>
 <keyword name="paperColor(void)" id="themeEngine::paperColor_ab0484270d9e13555216d81e435ed7b9f" ref="classthemeEngine.html#ab0484270d9e13555216d81e435ed7b9f"/>
 <keyword name="paperColorChanged()" id="themeEngine::paperColorChanged_addd934184f76a26da4367818e8bb1ad6" ref="classthemeEngine.html#addd934184f76a26da4367818e8bb1ad6"/>
-<keyword name="paperConfigDialog(QWidget *parent=nullptr)" id="paperConfigDialog::paperConfigDialog_aa332336ca2ba987341d72ab24c1e991b" ref="classpaperConfigDialog.html#aa332336ca2ba987341d72ab24c1e991b"/>
 <keyword name="paperStyleSheet(void)" id="themeEngine::paperStyleSheet_a3c438dfd39114d221c54127fec19d5d1" ref="classthemeEngine.html#a3c438dfd39114d221c54127fec19d5d1"/>
 <keyword name="parseDesc(QString desc)" id="configParser::parseDesc_a1011cf48da6bafdf3f2275fb01fd0064" ref="classconfigParser.html#a1011cf48da6bafdf3f2275fb01fd0064"/>
 <keyword name="port(void)" id="monitorServer::port_ae06bce523ecfc5599f1ab6219c4f6bc3" ref="classmonitorServer.html#ae06bce523ecfc5599f1ab6219c4f6bc3"/>
@@ -1183,7 +1172,6 @@
 <keyword name="refreshTable(void)" id="studentDetails::refreshTable_a49db064c526ee9a21684d79f0e3f78ce" ref="classstudentDetails.html#a49db064c526ee9a21684d79f0e3f78ce"/>
 <keyword name="refreshUi(bool newLesson, bool newSublesson, bool newExercise)" id="packEditor::refreshUi_a8e5175b060d2e21864a8fe4981553f96" ref="classpackEditor.html#a8e5175b060d2e21864a8fe4981553f96"/>
 <keyword name="registerKey(int x, int y, QString keyLabelText, int keyCode, int shiftKeyCode)" id="keyboardWidget::registerKey_ae7ab31a9b366bfa013300fb78bbb5f23" ref="classkeyboardWidget.html#ae7ab31a9b366bfa013300fb78bbb5f23"/>
-<keyword name="reject(void)" id="paperConfigDialog::reject_ad8aa809dedc36fbf58fdbd36ed125301" ref="classpaperConfigDialog.html#ad8aa809dedc36fbf58fdbd36ed125301"/>
 <keyword name="removeClass(int classID)" id="databaseManager::removeClass_a00ea196285d713efd7e30a9e2f2052a7" ref="classdatabaseManager.html#a00ea196285d713efd7e30a9e2f2052a7"/>
 <keyword name="removeClass(void)" id="serverManager::removeClass_ad989918f50fefa84def640b2d4f3d578" ref="classserverManager.html#ad989918f50fefa84def640b2d4f3d578"/>
 <keyword name="removeDevice(int deviceID)" id="databaseManager::removeDevice_a5beb408827ecb8be49223ea1b53a6d9f" ref="classdatabaseManager.html#a5beb408827ecb8be49223ea1b53a6d9f"/>
@@ -1243,7 +1231,6 @@
 <keyword name="setFullMode(bool enable)" id="connectionOptions::setFullMode_ad69589fb8f8fffd27c45a75cd6cd7b50" ref="classconnectionOptions.html#ad69589fb8f8fffd27c45a75cd6cd7b50"/>
 <keyword name="setGrossHits(int hits)" id="levelSummary::setGrossHits_a26f9c18e74e50774e57f621bc0b1ee53" ref="classlevelSummary.html#a26f9c18e74e50774e57f621bc0b1ee53"/>
 <keyword name="setHorizontalAdjust(bool value)" id="textView::setHorizontalAdjust_a17845e2af54e6b6e3ded66981125f108" ref="classtextView.html#a17845e2af54e6b6e3ded66981125f108"/>
-<keyword name="setIncludeNewLines(bool value)" id="paperConfigDialog::setIncludeNewLines_a2516e00c55ea34f28a9ea0e8b86625d6" ref="classpaperConfigDialog.html#a2516e00c55ea34f28a9ea0e8b86625d6"/>
 <keyword name="setInputTextColor(QColor color)" id="themeEngine::setInputTextColor_acbe7ebf07bc2497609ee955b2a0cca49" ref="classthemeEngine.html#acbe7ebf07bc2497609ee955b2a0cca49"/>
 <keyword name="setItalicText(void)" id="customizationOptions::setItalicText_a38d9d23645dd71caa58152c32f6f476d" ref="classcustomizationOptions.html#a38d9d23645dd71caa58152c32f6f476d"/>
 <keyword name="setKeyboardVisible(bool visible, bool changeVisibility=true)" id="keyboardWidget::setKeyboardVisible_a0f5d0b6da126490e66239fae13b30c08" ref="classkeyboardWidget.html#a0f5d0b6da126490e66239fae13b30c08"/>
@@ -1323,7 +1310,6 @@
 <keyword name="updateFont(void)" id="OpenTyper::updateFont_ac86a5acdee73a4f6163fa3ccb5a07edd" ref="classOpenTyper.html#ac86a5acdee73a4f6163fa3ccb5a07edd"/>
 <keyword name="updateFont(void)" id="customizationOptions::updateFont_a75c2dd15ae08c311d9047bf2ac8d56d7" ref="classcustomizationOptions.html#a75c2dd15ae08c311d9047bf2ac8d56d7"/>
 <keyword name="updateLessonList(void)" id="OpenTyper::updateLessonList_ae86fac4e64857d4b2c18fa639b612c54" ref="classOpenTyper.html#ae86fac4e64857d4b2c18fa639b612c54"/>
-<keyword name="updateLineLength(int value)" id="paperConfigDialog::updateLineLength_a1fbcba6f6e7ee29f2a7e98f191e26d8b" ref="classpaperConfigDialog.html#a1fbcba6f6e7ee29f2a7e98f191e26d8b"/>
 <keyword name="updateOwner(const QString name)" id="classEdit::updateOwner_a44d206f77fc7fe1c8cc868a9daca5c49" ref="classclassEdit.html#a44d206f77fc7fe1c8cc868a9daca5c49"/>
 <keyword name="Updater(QObject *parent=nullptr)" id="Updater::Updater_abf702b842504bc1147a5e7bebbbf15ea" ref="classUpdater.html#abf702b842504bc1147a5e7bebbbf15ea"/>
 <keyword name="UpdaterDialog(QWidget *parent=nullptr)" id="UpdaterDialog::UpdaterDialog_ae6833c46d5feff6d267e113ba23410e4" ref="classUpdaterDialog.html#ae6833c46d5feff6d267e113ba23410e4"/>
@@ -1383,7 +1369,6 @@
 <keyword name="~optionsWindow()" id="optionsWindow::~optionsWindow_ad2942ee73b6562894bf2d25f554b9e5c" ref="classoptionsWindow.html#ad2942ee73b6562894bf2d25f554b9e5c"/>
 <keyword name="~packEditor()" id="packEditor::~packEditor_acc6fa330df5ca29c78538929eeabe382" ref="classpackEditor.html#acc6fa330df5ca29c78538929eeabe382"/>
 <keyword name="~packSelector()" id="packSelector::~packSelector_ae5c599cf2c312ad8fad8d0171946f10b" ref="classpackSelector.html#ae5c599cf2c312ad8fad8d0171946f10b"/>
-<keyword name="~paperConfigDialog()" id="paperConfigDialog::~paperConfigDialog_af6de249a3dd88ad11fcd941545e5d25b" ref="classpaperConfigDialog.html#af6de249a3dd88ad11fcd941545e5d25b"/>
 <keyword name="~serverManager()" id="serverManager::~serverManager_ae5e873a162ae2aa65817b34cc3a57642" ref="classserverManager.html#ae5e873a162ae2aa65817b34cc3a57642"/>
 <keyword name="~serverSetup()" id="serverSetup::~serverSetup_a5d83fd78e5a68d1183da5fa5b3d67f09" ref="classserverSetup.html#a5d83fd78e5a68d1183da5fa5b3d67f09"/>
 <keyword name="~statsDialog()" id="statsDialog::~statsDialog_aa09208ecf7970a702c0e892f183fb955" ref="classstatsDialog.html#aa09208ecf7970a702c0e892f183fb955"/>
@@ -1533,10 +1518,6 @@
 <file>classpackSelector.html</file>
 <file>classpackSelector__coll__graph.png</file>
 <file>classpackSelector__inherit__graph.png</file>
-<file>classpaperConfigDialog-members.html</file>
-<file>classpaperConfigDialog.html</file>
-<file>classpaperConfigDialog__coll__graph.png</file>
-<file>classpaperConfigDialog__inherit__graph.png</file>
 <file>classserverManager-members.html</file>
 <file>classserverManager.html</file>
 <file>classserverManager__coll__graph.png</file>
@@ -1744,8 +1725,6 @@
 <file>packs_8h_source.html</file>
 <file>packselector_8h_source.html</file>
 <file>pages.html</file>
-<file>paperConfigDialog.png</file>
-<file>paperconfigdialog_8h_source.html</file>
 <file>search/close.svg</file>
 <file>search/mag_sel.svg</file>
 <file>search/search.css</file>
