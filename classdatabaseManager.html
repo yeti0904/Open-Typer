@@ -160,8 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af9337ba99093461374a60ff4c2224dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f0d506314da8c9fc556a2a91aa8eef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a93f0d506314da8c9fc556a2a91aa8eef">loginID</a> (void)</td></tr>
 <tr class="separator:a93f0d506314da8c9fc556a2a91aa8eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afac06c34801227d27396a5ff6878bc5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c">auth</a> (int userID, QString password=&quot;&quot;)</td></tr>
-<tr class="separator:afac06c34801227d27396a5ff6878bc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421c12d62f74dfd15374ad4e23a50ab9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a421c12d62f74dfd15374ad4e23a50ab9">auth</a> (int userID, QString password=&quot;&quot;, bool forceDialogs=false)</td></tr>
+<tr class="separator:a421c12d62f74dfd15374ad4e23a50ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95129c5525343b67a83e163ef9bcf5e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0">addUser</a> (QString name, Role role, QString password, QString nickname=QString(), int classID=0)</td></tr>
 <tr class="separator:a95129c5525343b67a83e163ef9bcf5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9eb9f78112db2032729c898e3f1b745"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdatabaseManager.html#ab9eb9f78112db2032729c898e3f1b745">addStudentToClass</a> (int userID, int classID)</td></tr>
@@ -518,8 +518,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>userLoginID</b> = -1</
 
 </div>
 </div>
-<a id="afac06c34801227d27396a5ff6878bc5c" name="afac06c34801227d27396a5ff6878bc5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afac06c34801227d27396a5ff6878bc5c">&#9670;&nbsp;</a></span>auth()</h2>
+<a id="a421c12d62f74dfd15374ad4e23a50ab9" name="a421c12d62f74dfd15374ad4e23a50ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421c12d62f74dfd15374ad4e23a50ab9">&#9670;&nbsp;</a></span>auth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +534,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>userLoginID</b> = -1</
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceDialogs</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

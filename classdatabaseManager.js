@@ -8,7 +8,7 @@ var classdatabaseManager =
     [ "addUser", "classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0", null ],
     [ "administratorIDs", "classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc", null ],
     [ "administratorNames", "classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97", null ],
-    [ "auth", "classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c", null ],
+    [ "auth", "classdatabaseManager.html#a421c12d62f74dfd15374ad4e23a50ab9", null ],
     [ "classIcon", "classdatabaseManager.html#a6284088b8d8599c1451165abe47297ad", null ],
     [ "classIDs", "classdatabaseManager.html#a83f8ea1f695044bee66f101889e14ad4", null ],
     [ "className", "classdatabaseManager.html#ab4c3e9b8927b87e89dcf4c2c144117b2", null ],

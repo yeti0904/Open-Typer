@@ -131,7 +131,7 @@
 <section title="addUser" ref="classdatabaseManager.html#a95129c5525343b67a83e163ef9bcf5e0"/>
 <section title="administratorIDs" ref="classdatabaseManager.html#af9337ba99093461374a60ff4c2224dbc"/>
 <section title="administratorNames" ref="classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97"/>
-<section title="auth" ref="classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c"/>
+<section title="auth" ref="classdatabaseManager.html#a421c12d62f74dfd15374ad4e23a50ab9"/>
 <section title="classIcon" ref="classdatabaseManager.html#a6284088b8d8599c1451165abe47297ad"/>
 <section title="classIDs" ref="classdatabaseManager.html#a83f8ea1f695044bee66f101889e14ad4"/>
 <section title="className" ref="classdatabaseManager.html#ab4c3e9b8927b87e89dcf4c2c144117b2"/>
@@ -881,7 +881,7 @@
 <keyword name="administratorNames(void)" id="databaseManager::administratorNames_a8ae24bffbae15c7a4d222774d690ba97" ref="classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97"/>
 <keyword name="adminSelector(QWidget *parent=nullptr)" id="adminSelector::adminSelector_ae8c7c8639d2b04422fe66025378636d6" ref="classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6"/>
 <keyword name="allowTextPreview(void)" id="loadExerciseDialog::allowTextPreview_a1cf9430257468e4ca3a740fa14a15de0" ref="classloadExerciseDialog.html#a1cf9430257468e4ca3a740fa14a15de0"/>
-<keyword name="auth(int userID, QString password=&quot;&quot;)" id="databaseManager::auth_afac06c34801227d27396a5ff6878bc5c" ref="classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c"/>
+<keyword name="auth(int userID, QString password=&quot;&quot;, bool forceDialogs=false)" id="databaseManager::auth_a421c12d62f74dfd15374ad4e23a50ab9" ref="classdatabaseManager.html#a421c12d62f74dfd15374ad4e23a50ab9"/>
 <keyword name="auth(void)" id="studentOptions::auth_a7ceb1d9b8a804098d13807414eb860a8" ref="classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8"/>
 <keyword name="available(void)" id="monitorClient::available_a05a2daf88607ee6686dcafd0e35852b3" ref="classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3"/>
 <keyword name="backClicked()" id="studentDetails::backClicked_a4223d16b876261e2734f3bfd4252a73c" ref="classstudentDetails.html#a4223d16b876261e2734f3bfd4252a73c"/>

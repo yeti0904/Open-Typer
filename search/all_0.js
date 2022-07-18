@@ -18,6 +18,6 @@ var searchData=
   ['administratornames_15',['administratorNames',['../classdatabaseManager.html#a8ae24bffbae15c7a4d222774d690ba97',1,'databaseManager']]],
   ['adminselector_16',['adminSelector',['../classadminSelector.html',1,'adminSelector'],['../classadminSelector.html#ae8c7c8639d2b04422fe66025378636d6',1,'adminSelector::adminSelector()']]],
   ['allowtextpreview_17',['allowTextPreview',['../classloadExerciseDialog.html#a1cf9430257468e4ca3a740fa14a15de0',1,'loadExerciseDialog']]],
-  ['auth_18',['auth',['../classdatabaseManager.html#afac06c34801227d27396a5ff6878bc5c',1,'databaseManager::auth()'],['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions::auth()']]],
+  ['auth_18',['auth',['../classdatabaseManager.html#a421c12d62f74dfd15374ad4e23a50ab9',1,'databaseManager::auth()'],['../classstudentOptions.html#a7ceb1d9b8a804098d13807414eb860a8',1,'studentOptions::auth()']]],
   ['available_19',['available',['../classmonitorClient.html#a05a2daf88607ee6686dcafd0e35852b3',1,'monitorClient']]]
 ];
